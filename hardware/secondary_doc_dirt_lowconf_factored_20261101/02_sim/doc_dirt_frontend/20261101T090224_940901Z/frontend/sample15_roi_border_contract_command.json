@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-lib",
+    "simlib",
+    "tb_frontend",
+    "+IMAGE=D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\sample15_roi_border_contract\\source_y.mem",
+    "+EXPECTED=D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\sample15_roi_border_contract\\expected_binary.mem",
+    "+OUTPUT=D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\doc_dirt_frontend\\20261101T090224_940901Z\\frontend\\sample15_roi_border_contract_actual.mem",
+    "+CASE=sample15_roi_border_contract",
+    "-do",
+    "onerror {quit -code 1}; run -all; quit -f"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 3.77,
+  "log_sha256": "CD5D310670C06CC046D1D1C740D17F8B64C2B8A9CC78214AED7AF6EC14CA5304"
+}

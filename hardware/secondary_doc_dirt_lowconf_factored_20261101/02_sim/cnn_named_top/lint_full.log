@@ -1,0 +1,105 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 16:59:54 on Nov 01,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\cnn_named_top\lintwork D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\pcb_tinycnn_core_compact_rombram.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\pcb_fullboard_spatial96.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_shared_mac.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\cnn_core.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_workspace.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\pcb_tinycnn_core.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\pcb_defect_cluster.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\cnn_result_stabilizer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_pipeline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_ccl.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\edge_roi_ccl.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_pixel_reader.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\secondary_top.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\secondary_ddr_wrapper.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\hxa_ddr_store.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_line_formatter.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_reporter.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_response_parser.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_streamer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_vector_font_rom.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_uart.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_codec.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_rx_fifo4.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_secondary_link.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_config_store.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_yolo_result_codec.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\reset_sync.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\ip_source\PLL\PLL.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\ip_source\PLL\RTL\ph1p_phy_pll_wrapper_25a56e5ce2f9.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\crc32_check.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\crc32_gen.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\mac_cache.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\ph1p_phy_pll_wrapper_d2616deaaa79.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\pll.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\rgmii_interface.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\udp_pkg_buf.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiarp_layer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiarp_rx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiarp_tx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiicmp_pkg_ctrl.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiicmp_pkg_tx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiip_arp_rx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiip_arp_tx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiip_header_checksum.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiip_layer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiip_rx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiip_tx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uimac_layer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\uimac_rx_secondary.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uimac_tx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uimac_tx_frame_ctrl.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uimac_tx_pause_ctrl.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uimdio_ctr.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiphyrst.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uirgmii_rx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uirgmii_tx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiudp_layer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiudp_rx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiudp_stack.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\ethernet\uiudp_tx.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_color_stats.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\text_trace_engine.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_arithmetic.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_copy_pipeline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_grbl_map.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_grbl_plotter.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_grbl_response_parser.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_grbl_streamer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_homography.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_image_frontend.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_image_otsu.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_image_paper.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_image_refine.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_path_distance.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_stroke_bram.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_stroke_planner.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_machine_map.v 
+-- Compiling module pcb_tinycnn_core_compact
+-- Compiling module pcb_fullboard_spatial96
+-- Compiling module vision_shared_mac
+-- Compiling module cnn_core
+-- Compiling module vision_workspace
+-- Compiling module pcb_tinycnn_core
+-- Compiling module pcb_defect_cluster
+-- Compiling module cnn_result_stabilizer
+-- Compiling module vision_pipeline
+-- Compiling module vision_ccl
+-- Compiling module edge_roi_ccl
+-- Compiling module vision_pixel_reader
+-- Compiling module secondary_top
+-- Compiling module secondary_key3_board_reset
+-- Compiling module grbl_key2_test_ctrl
+-- Compiling module grbl_key1_job_guard
+-- Compiling module secondary_ddr_wrapper
+-- Compiling module hxa_ddr_store
+-- Compiling module grbl_decimal
+-- Compiling module grbl_line_formatter
+-- Compiling module grbl_reporter
+-- Compiling module grbl_response_parser
+-- Compiling module grbl_streamer
+-- Compiling module grbl_vector_font_rom
+-- Compiling module grbl_uart_tx
+-- Compiling module grbl_uart_port
+-- Compiling module grbl_uart_rx
+-- Compiling module hxa_packet_tx
+-- Compiling module hxa_packet_rx
+-- Compiling module hxa_packet_rx_fifo4
+-- Compiling module hxa_secondary_link
+-- Compiling module hxa_config_store
+-- Compiling module hxa_yolo_result_codec
+-- Compiling module reset_sync
+-- Compiling module PLL
+-- Compiling module ph1p_phy_pll_wrapper_25a56e5ce2f9
+-- Compiling module crc32_check
+-- Compiling module crc32_gen
+-- Compiling module mac_cache
+-- Compiling module ph1p_phy_pll_wrapper_d2616deaaa79
+-- Compiling module pll
+-- Compiling module rgmii_interface
+-- Compiling module udp_pkg_buf
+-- Compiling module fifo_cross_domain_addr_process_al_udp_pkg_buf
+-- Compiling module ram_infer_udp_pkg_buf
+-- Compiling module uiarp_layer
+-- Compiling module uiarp_rx
+-- Compiling module uiarp_tx
+-- Compiling module uiicmp_pkg_ctrl
+-- Compiling module uiicmp_pkg_tx
+-- Compiling module uiip_arp_rx
+-- Compiling module uiip_arp_tx
+-- Compiling module uiip_header_checksum
+-- Compiling module uiip_layer
+-- Compiling module uiip_rx
+-- Compiling module uiip_tx
+-- Compiling module uimac_layer
+-- Compiling module uimac_rx
+-- Compiling module uimac_tx
+-- Compiling module uimac_tx_frame_ctrl
+-- Compiling module uimac_tx_pause_ctrl
+-- Compiling module mdio_ctrl
+-- Compiling module uiphyrst
+-- Compiling module uirgmii_rx
+-- Compiling module uirgmii_tx
+-- Compiling module uiudp_layer
+-- Compiling module uiudp_rx
+-- Compiling module uiudp_stack
+-- Compiling module uiudp_tx
+-- Compiling module vision_color_stats
+-- Compiling module text_trace_engine
+-- Compiling module doc_arithmetic
+-- Compiling module doc_copy_pipeline
+-- Compiling module doc_grbl_map
+-- Compiling module doc_grbl_plotter
+-- Compiling module doc_grbl_response_parser
+-- Compiling module doc_grbl_streamer
+-- Compiling module doc_homography
+-- Compiling module doc_image_frontend
+-- Compiling module doc_image_otsu
+-- Compiling module doc_image_paper
+-- Compiling module doc_image_refine
+-- Compiling module doc_path_distance
+-- Compiling module doc_stroke_bram
+-- Compiling module doc_stroke_planner
+-- Compiling module doc_machine_map
+
+Top level modules:
+	secondary_top
+	hxa_packet_rx
+	hxa_yolo_result_codec
+	mdio_ctrl
+	uiphyrst
+	uirgmii_rx
+	uirgmii_tx
+	text_trace_engine
+	doc_homography
+	doc_image_otsu
+	doc_image_paper
+	doc_image_refine
+End time: 16:59:54 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

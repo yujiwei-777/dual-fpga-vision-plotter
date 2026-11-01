@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SEALED_EVIDENCE_AUDIT",
+  "candidate_sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+  "results_sha256": "50A3FF531E8EEE7227296BA8353F8937BB5C4A23B05D527DFB01243CD0F66247",
+  "quick_results_sha256": "3D9AAD17842E4F10948172AF0EFEE9386963713222BFED530B9F72858E0127D6",
+  "runner_sha256": "54DE43B460E5488FD8123EA28C008B15676E232689372F612C0D8937552F6316",
+  "audit_runner_sha256": "6DD5EF1CF0036F174E61E038B6D5D6C274EA82F9A8CBEDAECCEE2E229E374416",
+  "logs_checked": 54,
+  "accepted_warning_codes": {
+    "8891": 65
+  },
+  "warning_8891_reason": "Unoptimized -novopt visibility used by original exact-cycle testbench",
+  "all_result_evidence_hashes_verified": true,
+  "all_inputs_and_origins_verified": true,
+  "production_modified": false,
+  "parent_candidate_modified": false,
+  "hardware_status": "NOT_RUN"
+}

@@ -1,0 +1,1087 @@
+{
+  "status": "PASS",
+  "fresh": false,
+  "scope": "Historical evidence imported by byte copy and SHA256 closure; no new simulation",
+  "historical_candidate_sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+  "historical_reference_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "production_kernel_sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+  "reference_kernel_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "forty_mode_miter": 40,
+  "ten_mode_lifecycle": 10,
+  "aggregate_aborts": 560,
+  "chain": [
+    "R11 kernel to area-grid 8655 reference: imported original area/domain evidence",
+    "8655 reference to metadata-flat 9C946: imported previous fresh exact-cycle evidence",
+    "Current compact production 9C946 vs frozen 8655: fresh suites run separately below"
+  ],
+  "copies": {
+    "imported_metadata_functional\\aligned_a20_s1.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\aligned_a20_s1.txt",
+      "sha256": "DA3B7952C57D96C3620B784EDEFA0B9F3C643F3CDA4920A1285441E2B610112A"
+    },
+    "imported_metadata_functional\\aligned_a20_s19.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\aligned_a20_s19.txt",
+      "sha256": "3A630AB2E4AC72364C70D0628FFC51B951AEC4AF54E788A6DAAD9E13647409EC"
+    },
+    "imported_metadata_functional\\aligned_a22_s6.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\aligned_a22_s6.txt",
+      "sha256": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E"
+    },
+    "imported_metadata_functional\\aligned_a32_s31.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\aligned_a32_s31.txt",
+      "sha256": "40718F01D22E1EFDA2BE90406F85C5031ED9501204CE0653AF1A140F94EFB3EB"
+    },
+    "imported_metadata_functional\\audit_evidence.py": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\audit_evidence.py",
+      "sha256": "6DD5EF1CF0036F174E61E038B6D5D6C274EA82F9A8CBEDAECCEE2E229E374416"
+    },
+    "imported_metadata_functional\\c15h15l15.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c15h15l15.txt",
+      "sha256": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D"
+    },
+    "imported_metadata_functional\\c1h0l1.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c1h0l1.txt",
+      "sha256": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA"
+    },
+    "imported_metadata_functional\\c2h1l2.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c2h1l2.txt",
+      "sha256": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5"
+    },
+    "imported_metadata_functional\\c3h2l3.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c3h2l3.txt",
+      "sha256": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D"
+    },
+    "imported_metadata_functional\\c4h0l4.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c4h0l4.txt",
+      "sha256": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB"
+    },
+    "imported_metadata_functional\\cnn_result_stabilizer.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\cnn_result_stabilizer.v",
+      "sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128"
+    },
+    "imported_metadata_functional\\cnn_result_stabilizer_baseline.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\cnn_result_stabilizer_baseline.v",
+      "sha256": "5EB86B41BE952A4948A50EE17E8DB83EA8A892C7E05365AC8F525BE4D11B10C5"
+    },
+    "imported_metadata_functional\\compile.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\compile.log",
+      "sha256": "850A3B93F14672D6AA2B4F43DB56F2AB11F7C1BE2019B43E62DAA280F038ACE9"
+    },
+    "imported_metadata_functional\\compile_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\compile_command.json",
+      "sha256": "3BE0D129A995C72C8F87E420D937452388C41A8C7757382341EE436FA7E4E934"
+    },
+    "imported_metadata_functional\\FINAL_AUDIT.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\FINAL_AUDIT.json",
+      "sha256": "F9B6F138173D16F8060C9D011B99A60C5A971FA05B51FCE57EC1681F5AF12AAA"
+    },
+    "imported_metadata_functional\\generic_vectors.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\generic_vectors.txt",
+      "sha256": "FD46A8CCE05C6E2C62A25ED3F57BB4716E9BEDCE1C2823A935029D4FFDBF4B6B"
+    },
+    "imported_metadata_functional\\lifecycle_c15h15l15_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c15h15l15_e0.log",
+      "sha256": "B140AF750CF56F842E719CEA60051447E3E692E790ED3A520A72469251B107BF"
+    },
+    "imported_metadata_functional\\lifecycle_c15h15l15_e0_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c15h15l15_e0_command.json",
+      "sha256": "5C944343B4038838D44DDB54F20DBBB141FC7AD02B39D348A6D6D28EC6636E7D"
+    },
+    "imported_metadata_functional\\lifecycle_c15h15l15_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c15h15l15_e1.log",
+      "sha256": "318AA377B1DAE598007A7074D6D52B732CDA5FC724874879657E07F6FE5F252C"
+    },
+    "imported_metadata_functional\\lifecycle_c15h15l15_e1_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c15h15l15_e1_command.json",
+      "sha256": "0F9A4315F209C727FBF1B2EBA7F7EA02A3029013BC5ED866CB8DC40688B5A1A4"
+    },
+    "imported_metadata_functional\\lifecycle_c1h0l1_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c1h0l1_e0.log",
+      "sha256": "E42F02E7CE9ABCC8D7ACED2D0177B2FE764DAE6BFB03DBD66321DD7E14BD6AFF"
+    },
+    "imported_metadata_functional\\lifecycle_c1h0l1_e0_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c1h0l1_e0_command.json",
+      "sha256": "B1BCB8895069FB418F3978BC13EA52AC3DE272328C85D7C65E922617E2C690E5"
+    },
+    "imported_metadata_functional\\lifecycle_c1h0l1_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c1h0l1_e1.log",
+      "sha256": "68D3566BA8CF741F2F90BA65B42008A3CF2DA5078688A0A34D3D39AE873C1FB9"
+    },
+    "imported_metadata_functional\\lifecycle_c1h0l1_e1_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c1h0l1_e1_command.json",
+      "sha256": "B3851526AE149658B1B77AFBB7A8C644C41B3252939E1E0BEB58FA6FC371C2FC"
+    },
+    "imported_metadata_functional\\lifecycle_c2h1l2_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c2h1l2_e0.log",
+      "sha256": "BAB9424206EAA692A7F91AA4EA3665DAA2DE83B47E813BEB845725C3AFF4706E"
+    },
+    "imported_metadata_functional\\lifecycle_c2h1l2_e0_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c2h1l2_e0_command.json",
+      "sha256": "93AF96BD4814A776278A039B41F304E83829FB65D83D814AC3B1324CCBA1B040"
+    },
+    "imported_metadata_functional\\lifecycle_c2h1l2_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c2h1l2_e1.log",
+      "sha256": "59F44C578DEA0A208460B3E6C646FA72053F12B2FD3B3EC6779C9A7FB7D78D83"
+    },
+    "imported_metadata_functional\\lifecycle_c2h1l2_e1_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c2h1l2_e1_command.json",
+      "sha256": "B858D2CAE87590F23A70ADB43FB95A2FAA833A8AC48A013186B434C1C3586F45"
+    },
+    "imported_metadata_functional\\lifecycle_c3h2l3_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c3h2l3_e0.log",
+      "sha256": "025C3AB1682CDCBACBA5EE90394FA54330E96216B36EDD9D8D0D0E900C9BAB21"
+    },
+    "imported_metadata_functional\\lifecycle_c3h2l3_e0_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c3h2l3_e0_command.json",
+      "sha256": "EDE44B76237D182030F227ACB3ACF774232693407DCB22912B4022EC6764D052"
+    },
+    "imported_metadata_functional\\lifecycle_c3h2l3_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c3h2l3_e1.log",
+      "sha256": "5BADA47B849E4FE9C87449F0637B5F4A450902B1FAF375EBD22D3EC3737ADA4F"
+    },
+    "imported_metadata_functional\\lifecycle_c3h2l3_e1_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c3h2l3_e1_command.json",
+      "sha256": "D620B99F7B024771EEC58C44634D50E1F1B5EF02E77E62ADF2AAF17D0D379621"
+    },
+    "imported_metadata_functional\\lifecycle_c4h0l4_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c4h0l4_e0.log",
+      "sha256": "20B7B80E35995EF9F70C9DE7C7097B7C8CE0BD2D06C4B197821F5D162E9F8CA3"
+    },
+    "imported_metadata_functional\\lifecycle_c4h0l4_e0_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c4h0l4_e0_command.json",
+      "sha256": "2010856039F98BD145C226C94457F8FBB25D112C91AB61C248550EE51ACF99D9"
+    },
+    "imported_metadata_functional\\lifecycle_c4h0l4_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c4h0l4_e1.log",
+      "sha256": "FB74E3C5BFBDE85EB27992A1DAF4A929746117756E9879B61B152D91503355E7"
+    },
+    "imported_metadata_functional\\lifecycle_c4h0l4_e1_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\lifecycle_c4h0l4_e1_command.json",
+      "sha256": "9FE2E9C0322224EB567DE69CF615616723DFBBA8CA0FEA5AD41312D6CEDFC1A5"
+    },
+    "imported_metadata_functional\\miter_a20s0_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s0_c0_e0_p3_2_3.log",
+      "sha256": "724723293EFC6D9A5867C33240630AFF4961BF3007CA796AF4996AB990AABAD1"
+    },
+    "imported_metadata_functional\\miter_a20s0_c0_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s0_c0_e0_p3_2_3_command.json",
+      "sha256": "7E2256BDACBB0C87216B59FDC2C85FB23A612DAFB688AD258945C165369B3DE5"
+    },
+    "imported_metadata_functional\\miter_a20s0_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s0_c0_e1_p3_2_3.log",
+      "sha256": "9941A36964EE303AC68EB7F34ECDFD3D522F0866484942B37C2F049D825E002E"
+    },
+    "imported_metadata_functional\\miter_a20s0_c0_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s0_c0_e1_p3_2_3_command.json",
+      "sha256": "4AE0052EB5111681EC48C03C923EBE6C7BFD745CB7967738A7845FB4808DD5B2"
+    },
+    "imported_metadata_functional\\miter_a20s0_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s0_c3_e0_p3_2_3.log",
+      "sha256": "55EA263E8BF4FEF6BD8B6AF73585D8BE3530E09F2FCCB266752C727965C0320E"
+    },
+    "imported_metadata_functional\\miter_a20s0_c3_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s0_c3_e0_p3_2_3_command.json",
+      "sha256": "14C3A43BA688BBE266E0EDE22D7AB2A634B18CC5134A13705CEA6FDEAA46FE78"
+    },
+    "imported_metadata_functional\\miter_a20s0_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s0_c3_e1_p3_2_3.log",
+      "sha256": "887BAE67DC0C270E0402B8CB98F558187D34F54EB0F273F58E3DD34C8B2879E6"
+    },
+    "imported_metadata_functional\\miter_a20s0_c3_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s0_c3_e1_p3_2_3_command.json",
+      "sha256": "001A0BE758B82272CE9B46CDD49CFFD562203CFF229BEF267D6979DC15F8D75A"
+    },
+    "imported_metadata_functional\\miter_a20s19_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s19_c0_e0_p3_2_3.log",
+      "sha256": "76EED25BE9E0A201EAAE765D67D311E53D80B6AB6BA90F4AD4E9C6B18EB2A106"
+    },
+    "imported_metadata_functional\\miter_a20s19_c0_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s19_c0_e0_p3_2_3_command.json",
+      "sha256": "75F3ABD80DFEA487C92D4766E004D0A63519D2F0577648A942569D7BE0FE5EC4"
+    },
+    "imported_metadata_functional\\miter_a20s19_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s19_c0_e1_p3_2_3.log",
+      "sha256": "591A73122DFFF46C297F0BB26E1FF68E0AB01D190993D6AACEB1A9746550D109"
+    },
+    "imported_metadata_functional\\miter_a20s19_c0_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s19_c0_e1_p3_2_3_command.json",
+      "sha256": "E23893D6C35AEC9FFA4E8E798182715305B870EEFBBD5901874E12524A236528"
+    },
+    "imported_metadata_functional\\miter_a20s1_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s1_c0_e0_p3_2_3.log",
+      "sha256": "0BF4A09BCEDFB9D58E19539C36AE057E225C8805EED103413741A5C72FF5DE62"
+    },
+    "imported_metadata_functional\\miter_a20s1_c0_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s1_c0_e0_p3_2_3_command.json",
+      "sha256": "FD364CD53CF33AD8EE96972CFB309040D2F709A4FC49CF3611DF745588218FB8"
+    },
+    "imported_metadata_functional\\miter_a20s1_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s1_c0_e1_p3_2_3.log",
+      "sha256": "D82BEED8FC64E3E0DE7A3FDCBCF823C1A3229DD0C5D7D84EB4B248A72E9CFA65"
+    },
+    "imported_metadata_functional\\miter_a20s1_c0_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a20s1_c0_e1_p3_2_3_command.json",
+      "sha256": "A44516EFBC8AEE599090A1279608A1E658254C9D7B28E001DB91181AE78A8170"
+    },
+    "imported_metadata_functional\\miter_a22s0_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s0_c0_e0_p3_2_3.log",
+      "sha256": "A04DCD6CD42247DBFBA9975428AABE5E458B1B6C41CA88FEC008D9AEFEB09EDD"
+    },
+    "imported_metadata_functional\\miter_a22s0_c0_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s0_c0_e0_p3_2_3_command.json",
+      "sha256": "08C19859AFC5A6F2E9E74EEEB907E1D491EDBBAF7C09DD1F6DB2EA8F0070FBC8"
+    },
+    "imported_metadata_functional\\miter_a22s0_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s0_c0_e1_p3_2_3.log",
+      "sha256": "24877CE7E895048BF4524CAE03D2E4D3B14BE1A464EA83BD6BE72E4D8E4E392F"
+    },
+    "imported_metadata_functional\\miter_a22s0_c0_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s0_c0_e1_p3_2_3_command.json",
+      "sha256": "790FB28A8837EBCE4EBEDF61DFC46DAB7B857FDB43E3E1467120F94E7CD729A0"
+    },
+    "imported_metadata_functional\\miter_a22s0_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s0_c3_e0_p3_2_3.log",
+      "sha256": "8C84522E905D00870898009E2841E8731027BFB95DF81E802AD0CF0EFF554DE7"
+    },
+    "imported_metadata_functional\\miter_a22s0_c3_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s0_c3_e0_p3_2_3_command.json",
+      "sha256": "B5BB418FCFEF62C50A56CC4B9171AB12E28D0B74213352F389FA7292BEDA633F"
+    },
+    "imported_metadata_functional\\miter_a22s0_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s0_c3_e1_p3_2_3.log",
+      "sha256": "B86AE4A3F5E69DC31205D03C25C1BC631A45325E19D7A6D338F7593E710F97E1"
+    },
+    "imported_metadata_functional\\miter_a22s0_c3_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s0_c3_e1_p3_2_3_command.json",
+      "sha256": "CF2838588E61839C0A77F230B848EF179F4C5290CD300AFC4A3232B4C65BEB42"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p15_15_15.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p15_15_15.log",
+      "sha256": "F1DFE70BC5F46AAE7B7B30CF4F5D850795469FDA0CF65BF9B1B15B6D2B4BD5FB"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p15_15_15_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p15_15_15_command.json",
+      "sha256": "01AF5FEB3F2CF9CE767C644BC8E3AC2465FBFF0750BBA7B2D0E37DDE9A121DC1"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p1_0_1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p1_0_1.log",
+      "sha256": "7E16D4325E3687DF400113AF116DEA9AA64EEBD347BE7E06BC92D0F379D019A3"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p1_0_1_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p1_0_1_command.json",
+      "sha256": "F3F258AC1B8676CA7C36663535ED9363E1D207235F420E11827E5783BCC3B38D"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p2_1_2.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p2_1_2.log",
+      "sha256": "A388F5280F1E1B6F3050804DCC6C2484075A2E40022E9FB59754FBA12C1B1113"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p2_1_2_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p2_1_2_command.json",
+      "sha256": "4288FDE72E27163C5758A6D556569E618A6891B91A6F150A5B20B323C38203AF"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p3_2_3.log",
+      "sha256": "765693A10888126F32FBE7A6399D4C3A19B8B2499C586BD3553E3DD96F3A16D1"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p3_2_3_command.json",
+      "sha256": "42B099FBCDC05FCCF3C9FDEDE7E15E474587A8D0F4708A3B74091F7AAAFC122B"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p4_0_4.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p4_0_4.log",
+      "sha256": "894788B5CC9960E4A6A4E6121B82F9F9A139433A25F9433FC5A63ED254D20BE0"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e0_p4_0_4_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e0_p4_0_4_command.json",
+      "sha256": "1EF350142C2276A6E02871C63538BFE1262A5A70C105D9EA639A795BD709242B"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p15_15_15.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p15_15_15.log",
+      "sha256": "0EAA17923C1C57408FF40F6D2C187599F5CFE96393554D047309CBBB90C51980"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p15_15_15_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p15_15_15_command.json",
+      "sha256": "6878BD32C738AB33197D9D68A87ECE0CC210E522A9C574578238EAA032D69C74"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p1_0_1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p1_0_1.log",
+      "sha256": "872CC1F4E751C2CD26AD1B323BBFA2514AF8A5ABC48BB51AE06B72D5B4944923"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p1_0_1_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p1_0_1_command.json",
+      "sha256": "83E818A346515655462F36612F39D900AF4773AD2B0735113D146E15416F42CE"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p2_1_2.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p2_1_2.log",
+      "sha256": "2C98741CB1EF7E77E1B97868201A36B862F6CF75F7F10149F27ADA09126A2F94"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p2_1_2_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p2_1_2_command.json",
+      "sha256": "F22446ECEC504C8064CB053785073CD83092A2B8EA03A0AA6DE506917BEA1427"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p3_2_3.log",
+      "sha256": "CB54E4C574ADEC6CBFC1522E0701495B6FE6D3B079A06D20D220F4F9C23DABDA"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p3_2_3_command.json",
+      "sha256": "A9F2F6A055050E123E013F92AAAC3E2E43FFCC5F867A4FBA045717E68391410A"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p4_0_4.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p4_0_4.log",
+      "sha256": "A3AD72F55DD55088F445AD25FE14416EEA45FADC813FCA655911490E480DD141"
+    },
+    "imported_metadata_functional\\miter_a22s6_c3_e1_p4_0_4_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a22s6_c3_e1_p4_0_4_command.json",
+      "sha256": "A57BB2B5DA8F1D55A4529BE1985739001083E7E836B78ADB34722D96881F956E"
+    },
+    "imported_metadata_functional\\miter_a24s0_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a24s0_c0_e0_p3_2_3.log",
+      "sha256": "E6E0B722E88840173EC7360D63A73244C13BFBD7C7194477B71E6A6DE0F376CE"
+    },
+    "imported_metadata_functional\\miter_a24s0_c0_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a24s0_c0_e0_p3_2_3_command.json",
+      "sha256": "35213FF29BE28547A8FE7FB715FC53C8B1E665EAD18FD16FF75422AA79636E55"
+    },
+    "imported_metadata_functional\\miter_a24s0_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a24s0_c0_e1_p3_2_3.log",
+      "sha256": "43AD193C8EB138409ED1B72D5382378B548C45AF316110ECB7DA6CD9247D15C7"
+    },
+    "imported_metadata_functional\\miter_a24s0_c0_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a24s0_c0_e1_p3_2_3_command.json",
+      "sha256": "822F6698356E48E2B3B3E18AC0BE87BBBBD06D9B69E86A145BC79D6315497965"
+    },
+    "imported_metadata_functional\\miter_a24s0_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a24s0_c3_e0_p3_2_3.log",
+      "sha256": "ECBEE687E3A311724F8EF3C66B4A80392ED27B9FE96014D10BB98FF66CAF6BE6"
+    },
+    "imported_metadata_functional\\miter_a24s0_c3_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a24s0_c3_e0_p3_2_3_command.json",
+      "sha256": "58FBE960E15B8DD8038ACAA147198F644D3295D42F98EFF36908A0BC9B670741"
+    },
+    "imported_metadata_functional\\miter_a24s0_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a24s0_c3_e1_p3_2_3.log",
+      "sha256": "B25FE01DF6E350EAE17B867AF3530766FFD545E4DE51AACDD6E20EE2C890BAFE"
+    },
+    "imported_metadata_functional\\miter_a24s0_c3_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a24s0_c3_e1_p3_2_3_command.json",
+      "sha256": "421109031F4F8A7AD143B97D7CA1AABEC00AC2DDC6114BC517E51186410A5514"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p15_15_15.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p15_15_15.log",
+      "sha256": "992240A01669FC41DE26150BA8883DE21F6276ECF7F0FEB4423F4DFAB7189750"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p15_15_15_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p15_15_15_command.json",
+      "sha256": "2A3BB66FEDD3876DFED73FDF7881CBC667067CF110C5E58C311E759272276206"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p1_0_1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p1_0_1.log",
+      "sha256": "4C6D2C38F8A0C8C4B445BA8E2D4DA7E5B84447C5B017F81EE4BA4724C31F55E9"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p1_0_1_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p1_0_1_command.json",
+      "sha256": "0CDDDADBFAE8744CCC60D09A230D6FA8F83D85ADABF4EE790C77A691313DBABE"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p2_1_2.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p2_1_2.log",
+      "sha256": "E4988300A7B1FBF9CDEDB54781CD2B3856EDDA5035DC29056CCE855A1D819DEB"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p2_1_2_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p2_1_2_command.json",
+      "sha256": "475341D3E9215CD411F555545811D2A5CBB99B418BBCA505DD08E8C01F92146A"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p3_2_3.log",
+      "sha256": "E6406DD63ED35EE32562FC90B39309CBFB056A64D4A4C38FB13A4AA0DC69C83B"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p3_2_3_command.json",
+      "sha256": "CEC2A05C13DB5D5DB81B14F0C9114CF0BBF3157750B266F9A7640CE171F1A899"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p4_0_4.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p4_0_4.log",
+      "sha256": "48D8882CF72DBB0CC8177A549A28FF1FCDD9D3CA41CBF40326AC343F3A307ED4"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e0_p4_0_4_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e0_p4_0_4_command.json",
+      "sha256": "23A2269AE92CEC3BA65E2B07FC79E927CC5B3E10C553CB1DFDD033F8581DDD77"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p15_15_15.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p15_15_15.log",
+      "sha256": "0C6EAB97C6CE6CBF0AF4C96925AF73D7C57ADDACD97621F376C66F4ECF670495"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p15_15_15_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p15_15_15_command.json",
+      "sha256": "1D2DE943CA231FB1EE9ACD1B19887CD09BC3D9EA06A2CE9A99ED75CFAD3C0933"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p1_0_1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p1_0_1.log",
+      "sha256": "8523BD1C1CE4F818B20E3A6FD36D55547F0F1D12E22D2F64736035CE2608DC07"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p1_0_1_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p1_0_1_command.json",
+      "sha256": "F4E7DBE417A9B16D7202CECA9EFA52981B18CC7B08C33A907D1C0B0B7A260F13"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p2_1_2.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p2_1_2.log",
+      "sha256": "931ABFD676929A1093E3CA68BA505555C92576ED5B364086072A3AFCECDACC40"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p2_1_2_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p2_1_2_command.json",
+      "sha256": "C4E60387F6CB0381C863755B212894C0D0F26F8662DE701834F4C66FB194B359"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p3_2_3.log",
+      "sha256": "B772171A9E0E93C8137FCA7DB25E0198190249DE28C82DF89B06C423C88636F2"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p3_2_3_command.json",
+      "sha256": "926C3876E6B2531DE705B152B319905CC641B73B0A51B998FE7C841F35DFEC93"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p4_0_4.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p4_0_4.log",
+      "sha256": "CABD07A40E8FB3C7B2F6E482AF96275A7498330DC0CE903E8ED243F0BAC73272"
+    },
+    "imported_metadata_functional\\miter_a32s0_c0_e1_p4_0_4_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c0_e1_p4_0_4_command.json",
+      "sha256": "88A2F2C4FC9AD1D628FF246517BA0B8376EADD0A53CEC1CDE88422C71E3A85CB"
+    },
+    "imported_metadata_functional\\miter_a32s0_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c3_e0_p3_2_3.log",
+      "sha256": "B1EB4381132B81D1C28D14962339B5707D215A051A28A8B59EE564E8235D3B64"
+    },
+    "imported_metadata_functional\\miter_a32s0_c3_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c3_e0_p3_2_3_command.json",
+      "sha256": "52547978E7D39F1DBBE74D9DBEEABA209B50A4D46DFE65F1CC2DA86738080E32"
+    },
+    "imported_metadata_functional\\miter_a32s0_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c3_e1_p3_2_3.log",
+      "sha256": "F1BE41DBE0359CB7DC8A77F758D66054B6D05391AABCCD2342E1982F0F185E02"
+    },
+    "imported_metadata_functional\\miter_a32s0_c3_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s0_c3_e1_p3_2_3_command.json",
+      "sha256": "6BD4311AF87171A5B97A73ADEF6F05025404CBB29ED1E0A5E14048C48DEF643F"
+    },
+    "imported_metadata_functional\\miter_a32s31_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s31_c0_e0_p3_2_3.log",
+      "sha256": "29BF014DDEC3AE649CC698BC5BDDE9B42FF9AF7D18847AEED3850974B4177555"
+    },
+    "imported_metadata_functional\\miter_a32s31_c0_e0_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s31_c0_e0_p3_2_3_command.json",
+      "sha256": "0BE05DBAB163092699A7BFF01B519C98DB62D4F0857B71D71D67C7E6A3576623"
+    },
+    "imported_metadata_functional\\miter_a32s31_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s31_c0_e1_p3_2_3.log",
+      "sha256": "145EDEFA1BE64709CCDE2EEDB0A61206D5F5842B9E165A8643E47646151A7611"
+    },
+    "imported_metadata_functional\\miter_a32s31_c0_e1_p3_2_3_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\miter_a32s31_c0_e1_p3_2_3_command.json",
+      "sha256": "DB52A81AE7A2C52538AB9CA0BA53A8FB6EC1E83860051CE2C0F3F67624D2C1E0"
+    },
+    "imported_metadata_functional\\pipeline_leaf_stubs.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\pipeline_leaf_stubs.sv",
+      "sha256": "B19E7BDF866824235C6B89DC78E4A3FCD41C48FD0EE4C29FFA8ADFCF89AEAAA2"
+    },
+    "imported_metadata_functional\\PREPARATION.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\PREPARATION.json",
+      "sha256": "86452D333245213B0CB51B44EBBEC1C6100F4645DC442806C8C6BA099155BC80"
+    },
+    "imported_metadata_functional\\production_integer_gold.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\production_integer_gold.log",
+      "sha256": "A2E491D4F744E23E122AA38BEC300E22F73195EA3A02605132A57328A4F2C081"
+    },
+    "imported_metadata_functional\\production_integer_gold_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\production_integer_gold_command.json",
+      "sha256": "4145AC24F3AA9A9063CC02555A713BAC4C2C426B360500C67AFD985101EFC059"
+    },
+    "imported_metadata_functional\\production_pipeline.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\production_pipeline.log",
+      "sha256": "FFF7184C90262336D24239598B77F194FE29C1462E95FAE6E70BFC4E7181BF3C"
+    },
+    "imported_metadata_functional\\production_pipeline_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\production_pipeline_command.json",
+      "sha256": "553A7964C9A434EFEA8B5456D09236591825623E78A5C2A2FD65F50F190FC9C7"
+    },
+    "imported_metadata_functional\\QUICK_RESULTS.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\QUICK_RESULTS.json",
+      "sha256": "3D9AAD17842E4F10948172AF0EFEE9386963713222BFED530B9F72858E0127D6"
+    },
+    "imported_metadata_functional\\README.md": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\README.md",
+      "sha256": "E306FB5FCC7A67C1AE02A95053C8723C071238BE292F577AEBF9B8441830BE89"
+    },
+    "imported_metadata_functional\\RESULTS.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\RESULTS.json",
+      "sha256": "50A3FF531E8EEE7227296BA8353F8937BB5C4A23B05D527DFB01243CD0F66247"
+    },
+    "imported_metadata_functional\\run_regression.py": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\run_regression.py",
+      "sha256": "54DE43B460E5488FD8123EA28C008B15676E232689372F612C0D8937552F6316"
+    },
+    "imported_metadata_functional\\tb_area_grid_equivalence.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\tb_area_grid_equivalence.sv",
+      "sha256": "A9D6CF90462E5BE11F2587E988D4A9149E8ED49548FD04AAF50A62BB58C7985C"
+    },
+    "imported_metadata_functional\\tb_cnn_stability_serial.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\tb_cnn_stability_serial.sv",
+      "sha256": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40"
+    },
+    "imported_metadata_functional\\tb_combined_state_lifecycle.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\tb_combined_state_lifecycle.sv",
+      "sha256": "D02B53183F141DA8C66B8D4DA65CF21C89EEBCD46427DB8D246117A9507FB363"
+    },
+    "imported_metadata_functional\\tb_fixed_grid_mapping_miter.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\tb_fixed_grid_mapping_miter.sv",
+      "sha256": "98A159C7E02713647ADCDF99215B5E69CE7499137B078A66F0A6351AB529E26A"
+    },
+    "imported_metadata_functional\\vectors.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\vectors.txt",
+      "sha256": "FD014AF8DE19ADCAEB79BCFD39DD957F68DF335D3357E6B1B11E9DD1BF13FF84"
+    },
+    "imported_metadata_functional\\VERIFIED_REPORT.md": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\VERIFIED_REPORT.md",
+      "sha256": "B5AEABD3C6DDF223D886D3384DDB56395FB538E185673AE05EFF09136B19E552"
+    },
+    "imported_metadata_functional\\vision_pipeline.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\vision_pipeline.v",
+      "sha256": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9"
+    },
+    "imported_metadata_functional\\vision_pipeline_baseline.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\vision_pipeline_baseline.v",
+      "sha256": "7876918A9EA2347E2E1791DCA47A30004462F8B536EECF81B3780BB8EE1233C3"
+    },
+    "imported_metadata_functional\\vlib.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "imported_metadata_functional\\vlib_command.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\vlib_command.json",
+      "sha256": "9D98126C351DFDDDC51D5404664759899551E200825722005C14D4F580D0C381"
+    },
+    "imported_metadata_origins\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\cnn_result_stabilizer.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\cnn_result_stabilizer.v",
+      "sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C"
+    },
+    "imported_metadata_origins\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\vision_pipeline.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\vision_pipeline.v",
+      "sha256": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9"
+    },
+    "imported_metadata_origins\\secondary_cnn_metadata_flat_scratch_20261031\\cnn_result_stabilizer.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\cnn_result_stabilizer.v",
+      "sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128"
+    },
+    "imported_metadata_origins\\secondary_cnn_metadata_flat_scratch_20261031\\PREPARATION.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\PREPARATION.json",
+      "sha256": "FA3969189B68F3A50752ED5BAF9F352C30B70689524A448C7AFEE06BD2466861"
+    },
+    "imported_metadata_origins\\secondary_cnn_metadata_flat_scratch_20261031\\ONLY_DIFF.patch": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\ONLY_DIFF.patch",
+      "sha256": "2C9D15FAD50E0CF8D4724BB9E3C61C1788852954B784918F2E1551CD1457CEA5"
+    },
+    "imported_metadata_origins\\secondary_cnn_metadata_flat_scratch_20261031\\TD_DIRECTION_RESULTS.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\TD_DIRECTION_RESULTS.json",
+      "sha256": "E013F416E58524B9926DBC1209EF5DCF10F5E6B1765AC7D8E1AB5A74B584BFAC"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\PREPARATION.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\PREPARATION.json",
+      "sha256": "2997233557B7DE0162072FC79D38F5AE78065E8141FFFD0CC59B38DED532B5B5"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\vision_pipeline.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\vision_pipeline.v",
+      "sha256": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\vision_pipeline_baseline.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\vision_pipeline_baseline.v",
+      "sha256": "7876918A9EA2347E2E1791DCA47A30004462F8B536EECF81B3780BB8EE1233C3"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\tb_fixed_grid_mapping_miter.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_fixed_grid_mapping_miter.sv",
+      "sha256": "98A159C7E02713647ADCDF99215B5E69CE7499137B078A66F0A6351AB529E26A"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\pipeline_leaf_stubs.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\pipeline_leaf_stubs.sv",
+      "sha256": "B19E7BDF866824235C6B89DC78E4A3FCD41C48FD0EE4C29FFA8ADFCF89AEAAA2"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\tb_area_grid_equivalence.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_area_grid_equivalence.sv",
+      "sha256": "A9D6CF90462E5BE11F2587E988D4A9149E8ED49548FD04AAF50A62BB58C7985C"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\generic_vectors.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\generic_vectors.txt",
+      "sha256": "FD46A8CCE05C6E2C62A25ED3F57BB4716E9BEDCE1C2823A935029D4FFDBF4B6B"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a20_s1.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a20_s1.txt",
+      "sha256": "DA3B7952C57D96C3620B784EDEFA0B9F3C643F3CDA4920A1285441E2B610112A"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a20_s19.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a20_s19.txt",
+      "sha256": "3A630AB2E4AC72364C70D0628FFC51B951AEC4AF54E788A6DAAD9E13647409EC"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a22_s6.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a22_s6.txt",
+      "sha256": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a32_s31.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a32_s31.txt",
+      "sha256": "40718F01D22E1EFDA2BE90406F85C5031ED9501204CE0653AF1A140F94EFB3EB"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\tb_combined_state_lifecycle.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_combined_state_lifecycle.sv",
+      "sha256": "D02B53183F141DA8C66B8D4DA65CF21C89EEBCD46427DB8D246117A9507FB363"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\tb_cnn_stability_serial.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_cnn_stability_serial.sv",
+      "sha256": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\vectors.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\vectors.txt",
+      "sha256": "FD014AF8DE19ADCAEB79BCFD39DD957F68DF335D3357E6B1B11E9DD1BF13FF84"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\c1h0l1.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c1h0l1.txt",
+      "sha256": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\c2h1l2.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c2h1l2.txt",
+      "sha256": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\c3h2l3.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c3h2l3.txt",
+      "sha256": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\c4h0l4.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c4h0l4.txt",
+      "sha256": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB"
+    },
+    "imported_metadata_origins\\secondary_cnn_geometry_phase_scratch_20261031\\c15h15l15.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c15h15l15.txt",
+      "sha256": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer.v",
+      "sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer_r11.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer_r11.v",
+      "sha256": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36"
+    },
+    "imported_area_derivation\\01_rtl\\cnn_result_stabilizer.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\cnn_result_stabilizer.v",
+      "sha256": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36"
+    },
+    "imported_area_derivation\\01_rtl\\vision_pipeline.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\vision_pipeline.v",
+      "sha256": "C7B43FE8727F1145C2EF060CE9DC464029AF74CB4BD372DF10E1395E5D878413"
+    },
+    "imported_area_derivation\\tools\\cnn_stability_reference.py": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\tools\\cnn_stability_reference.py",
+      "sha256": "402F7F30E8BD1F9036314639BD59B514137016711783D670C52D8CA87BC53503"
+    },
+    "imported_area_derivation\\02_sim\\cnn_stability\\vectors.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\02_sim\\cnn_stability\\vectors.txt",
+      "sha256": "C8B5BF256C7043503782213E9887EAFF0BF58C12FE85E920A4A60E2FB0D131D3"
+    },
+    "imported_area_derivation\\02_sim\\cnn_stability\\reference_trace.jsonl": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\02_sim\\cnn_stability\\reference_trace.jsonl",
+      "sha256": "04E7AB74BCF2A5DC0D2801F9880639EA2F60C05A98954E45761BD8A82F91FADE"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\cnn_result_stabilizer_baseline.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\cnn_result_stabilizer_baseline.sv",
+      "sha256": "FCB7C384764F3D96BF18515E2C0A74C39DFA136D5BE7367738600E4DAD76C968"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_area_grid_equivalence.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_area_grid_equivalence.sv",
+      "sha256": "EB3CDC503E637AF0A80C9E02BE343DF6AB2BC812ACF8AFFFE6E1C9C96309457B"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_cnn_stability_metadata_atomic.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_cnn_stability_metadata_atomic.sv",
+      "sha256": "8EE5CED2636512865830401DAD05A76C6061DF3878E9B64D2DD13670FC7EFDFC"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_cnn_stability_ram.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_cnn_stability_ram.sv",
+      "sha256": "3B0A63F7A92665D82828CF5FEB28302605A607E6009B9F6C3F8AF625C97270C8"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_cnn_stability_serial.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_cnn_stability_serial.sv",
+      "sha256": "D6ACE7233964B2597DAAEC8B340586400F3B5CB86355C07356DAACC6D6D8D575"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a20_s1.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a20_s1.txt",
+      "sha256": "DA3B7952C57D96C3620B784EDEFA0B9F3C643F3CDA4920A1285441E2B610112A"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a20_s19.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a20_s19.txt",
+      "sha256": "3A630AB2E4AC72364C70D0628FFC51B951AEC4AF54E788A6DAAD9E13647409EC"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a22_s6.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a22_s6.txt",
+      "sha256": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a32_s31.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a32_s31.txt",
+      "sha256": "40718F01D22E1EFDA2BE90406F85C5031ED9501204CE0653AF1A140F94EFB3EB"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\generic_vectors.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\generic_vectors.txt",
+      "sha256": "FD46A8CCE05C6E2C62A25ED3F57BB4716E9BEDCE1C2823A935029D4FFDBF4B6B"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\vectors.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\vectors.txt",
+      "sha256": "C8B5BF256C7043503782213E9887EAFF0BF58C12FE85E920A4A60E2FB0D131D3"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\prepare_candidate.py": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\prepare_candidate.py",
+      "sha256": "34C19AFAECE87B26A56465BA96C168CCDEFB428202AD9A140C4BFFE5C5F2FF66"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\PREPARATION.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\PREPARATION.json",
+      "sha256": "5162BFEE2A6E1AACBED14EC1C595F3B6235C96C6FE809111A229020DBA9BE4A5"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\run_verification.py": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\run_verification.py",
+      "sha256": "0FA62151A3E6226AF33B8D9B6337D42E362D16D1FDE6F0787684223CB668BF81"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\compile.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\compile.log",
+      "sha256": "16BE3A55A6513E7B8A8F2AC80FC42A43CE03A438EDD3E75F75E2CF5B8B0987C6"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\default_unchanged_integer_gold.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\default_unchanged_integer_gold.log",
+      "sha256": "346B5D7905D2C10266B162CDD5C2CC977539E23208CA7E626A9436B7C19A9009"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\metadata_atomic_prod_reader0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\metadata_atomic_prod_reader0.log",
+      "sha256": "3150336498882511E1EA144DFE66EC3195525DA4B1A97501079A99C90805EC05"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\metadata_atomic_prod_reader1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\metadata_atomic_prod_reader1.log",
+      "sha256": "DE285D6C496E0297B5B78DBFD02CA5FAFCEC6F105BE45541BD7AD1E717E68AEF"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s0_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s0_c0_e0_p3_2_3.log",
+      "sha256": "6A5F029ABA463AC7C0E57EEAF7B98D6F3D351B598B9F8C7689CC5003B22F6673"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s0_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s0_c0_e1_p3_2_3.log",
+      "sha256": "2D1E3BC86CC91D29F318E43886ECB44E9607E7A31CDDF58802BA33D0E8431CF2"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s0_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s0_c3_e0_p3_2_3.log",
+      "sha256": "11CEF40F067AEC4DEF07B7CC34B79BEF7959F409D2B721DC7D5304A4C26774A8"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s0_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s0_c3_e1_p3_2_3.log",
+      "sha256": "D7D1AD89F2F38B35985D158F2277ED9F7390F04D409AD81B1C75E13C3D681F5B"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s19_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s19_c0_e0_p3_2_3.log",
+      "sha256": "C285AA0B64B8F27CFD2D870348C73229E79686FCC583CE9784077E3B6B8A2639"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s19_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s19_c0_e1_p3_2_3.log",
+      "sha256": "E895A717698C441E26CE3FC86122F637317961E4177F5ACFAC662F05642B39BD"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s1_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s1_c0_e0_p3_2_3.log",
+      "sha256": "76603309B93ADB832A5563E9D048D94211E8C88F69DA6ED9D2A914452A653CFB"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s1_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a20s1_c0_e1_p3_2_3.log",
+      "sha256": "EC5C76BAC928786F69B747C6B091733CFED3D2619450378017B0C2FA08EFD9FA"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s0_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s0_c0_e0_p3_2_3.log",
+      "sha256": "36E42AFA3A722E109AAB2CE99DB5EA4C4856210DD34E25CA92D6904450FE7B56"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s0_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s0_c0_e1_p3_2_3.log",
+      "sha256": "DEEC626FECEFC32015B3F043BCAF847BF52A54E55007BED2D9467BF7350594F5"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s0_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s0_c3_e0_p3_2_3.log",
+      "sha256": "B6A4317E462695EF55E26223393816D5971A6BC50F1AF46D8CCFF2F1D2603F08"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s0_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s0_c3_e1_p3_2_3.log",
+      "sha256": "AD2517ABD34C5422B2580D12EFBFA44920BC265C7D78FB34DF0F7E1339CC5C69"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p15_15_15.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p15_15_15.log",
+      "sha256": "B0FE8318DB68B06458A274CA3F00650142BFC4D263A1A3692F82BAD7B0420F84"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p1_0_1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p1_0_1.log",
+      "sha256": "4F167FEE694337D2A74358F138710C8C875A36146612C3912BCA225E96C47DFB"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p2_1_2.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p2_1_2.log",
+      "sha256": "0DCB204427F765F1DF1ED8B9C27C8835CCBA845A5700911073538DD69F022693"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p3_2_3.log",
+      "sha256": "3123BDFB0125A5DA9C33EDF2A22E776C0251C00A9A6AE85676CA640526FF937C"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p4_0_4.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e0_p4_0_4.log",
+      "sha256": "FCAB5845F16CA4D45654DEBF0A96AC657C70E103718404F92C1C289AB3C0BB1D"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p15_15_15.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p15_15_15.log",
+      "sha256": "0DAF58891A0B7AA0BB6A96882ECAB8608EF95BA4BA6519778DDC3015BC36A3AA"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p1_0_1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p1_0_1.log",
+      "sha256": "13B4B77BC59F480594A263EF0CBA8CD76D65CE970951B01F7591B7ED030E9EF5"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p2_1_2.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p2_1_2.log",
+      "sha256": "CD75B6FB68B76544B0CCE637137A079887D36F59189CD0659DEEA6C31C92E0E2"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p3_2_3.log",
+      "sha256": "C4F2E1F63D5CCDDDD7A41C527602FF3831F29508E0D0D54A73E7ED54BFF31B46"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p4_0_4.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a22s6_c3_e1_p4_0_4.log",
+      "sha256": "36DD33074F41E6FDFF1674E1DDD361E6BB372D6EBC6031607E09C3B196FCBA0C"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a24s0_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a24s0_c0_e0_p3_2_3.log",
+      "sha256": "931999561B6BECE46312AD3203F696D39C4FC9CB8768937ACC94787B6389D01D"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a24s0_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a24s0_c0_e1_p3_2_3.log",
+      "sha256": "D4D64DF0B8075773732A2DDB132361FBB384B8F4096DD0FBEABCF6122DF99F91"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a24s0_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a24s0_c3_e0_p3_2_3.log",
+      "sha256": "BA474DBF6264046E968FA5D322C3F38F6DE36A67D94E919C2F22E44533020B79"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a24s0_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a24s0_c3_e1_p3_2_3.log",
+      "sha256": "9A1F08412A8C52710EFB09968CA5870C58B12E0601CDCB626C6488ADD4A685E0"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p15_15_15.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p15_15_15.log",
+      "sha256": "5AB6525BD526F1C7354A7B911E47388094D12A144424CC8F498C11F3C97C1697"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p1_0_1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p1_0_1.log",
+      "sha256": "BCFB40F0ACF4A0C0D211F2A4A96DB43FF85EC4135863D80488D3A4454D81323B"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p2_1_2.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p2_1_2.log",
+      "sha256": "CE53FC4E792AB67FE48429CFBF447A1714ADB6CEA79BF3E4B282C4A908AEE8E5"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p3_2_3.log",
+      "sha256": "A5E439A2B18ADCDB859A0DFAF2D8FC73053147AC99A6320B08EE4D9C636BB89D"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p4_0_4.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e0_p4_0_4.log",
+      "sha256": "993C0611FC23E53C2132649EDFBD3F2E80D3C1C73CFB8BAACB64F4F92BFE1A16"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p15_15_15.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p15_15_15.log",
+      "sha256": "FFCB38B45780D2E62438CED9FB29ED6E9FCFD349ED6661C6D770440EA9FF5F4A"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p1_0_1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p1_0_1.log",
+      "sha256": "CFDAC548F7B6D7C6AC3E4DA58AD83A0BA4AE41F0E7FEFA7A6182D4B2B79A17D6"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p2_1_2.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p2_1_2.log",
+      "sha256": "76C9D9F599123DEBF9EE50B535D1904023D71967E6171CE2D4D74B181DBFBC49"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p3_2_3.log",
+      "sha256": "CE39FB4C84E6C1B06168172110BE8292F78E0C83260071AC4A9B42C73C3ACF38"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p4_0_4.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c0_e1_p4_0_4.log",
+      "sha256": "E66D6E9D78309609455DE7EA755E94FE61348392287350379950965040738E9C"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c3_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c3_e0_p3_2_3.log",
+      "sha256": "19E68A844698DF57814EA0CBAEBAF04A26E0AC96E862CDEC1DE10404E1B28201"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c3_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s0_c3_e1_p3_2_3.log",
+      "sha256": "14AF73AFF334C80F582C8B27BA0FEF4CC7C42A2B09E34066B1AFEDE3E1D79A3C"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s31_c0_e0_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s31_c0_e0_p3_2_3.log",
+      "sha256": "D2701CD2C765445AE2121894C2CE96A051C493B578ABAC1AA6647DB2870EDC8A"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s31_c0_e1_p3_2_3.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\miter_a32s31_c0_e1_p3_2_3.log",
+      "sha256": "7F0E409646AE906A70ECEC5A686690677381B4769DB7C0F32560A310A2E10188"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\payload_atomic_prod.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\payload_atomic_prod.log",
+      "sha256": "669AA35CB63416F340C28E6E1F77FE0E89490C863951C7E10C1C9D0E33E3F620"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\vlib.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\verification\\RESULTS.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\RESULTS.json",
+      "sha256": "9E2F74DEB2ECA33C8EFB1A08A9BC39FF3E04C10E6E013088F6AEB782303C6407"
+    },
+    "imported_area_derivation\\02_sim\\cnn_stability_serial\\tb_cnn_stability_serial.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\02_sim\\cnn_stability_serial\\tb_cnn_stability_serial.sv",
+      "sha256": "D6ACE7233964B2597DAAEC8B340586400F3B5CB86355C07356DAACC6D6D8D575"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\vectors.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\vectors.txt",
+      "sha256": "FD014AF8DE19ADCAEB79BCFD39DD957F68DF335D3357E6B1B11E9DD1BF13FF84"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\tb_cnn_stability_serial.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\tb_cnn_stability_serial.sv",
+      "sha256": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\run_production_reference.py": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\run_production_reference.py",
+      "sha256": "8DD974135832DE2B5B7BD8D19A9F42518D7E449CCC4ED8C485CF63EA40371CAA"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\compile.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\compile.log",
+      "sha256": "AF5280F0AE37F6438D88358BBF49264D51BBC9469341EB83A572919C6A014C50"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\simulate.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\simulate.log",
+      "sha256": "89AFBD11ACF075320DEB23EBDDA06A1B516CFE6E71054433DD986127F5FF030C"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\vlib.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\RESULTS.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\RESULTS.json",
+      "sha256": "D48A53B43E01A4E12B878B809CFAFDBC00F55C1E49BB57668CE657FC5F72D5D1"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\run_state_lifecycle.py": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\run_state_lifecycle.py",
+      "sha256": "834A2D6B04033176397080CCA4F721F82C3E91EF39AE032C7D8F8C445A1D83DF"
+    },
+    "imported_area_derivation\\reports\\kernel_overlap_redundancy_candidate\\tb_overlap_equivalence.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_overlap_redundancy_candidate\\tb_overlap_equivalence.sv",
+      "sha256": "206CAD1D5DED4BB4D42F4CC63D25912D11D3F87FB1FB6C449310B71E0C669222"
+    },
+    "imported_area_derivation\\01_rtl\\secondary_top.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\secondary_top.v",
+      "sha256": "E2230101BB9E144AF86BBB26C4D4A8F39B832C547D91B34E6F71BE32B2EC71D6"
+    },
+    "imported_area_derivation\\01_rtl\\cnn_core.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\cnn_core.v",
+      "sha256": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\cnn_result_stabilizer_baseline.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\cnn_result_stabilizer_baseline.v",
+      "sha256": "FCB7C384764F3D96BF18515E2C0A74C39DFA136D5BE7367738600E4DAD76C968"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "sha256": "06AAB16A8220685B61D50130B26253855CD9A4AE3019D62D5E214292EC527DF1"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c1h0l1.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c1h0l1.txt",
+      "sha256": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c2h1l2.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c2h1l2.txt",
+      "sha256": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c3h2l3.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c3h2l3.txt",
+      "sha256": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c4h0l4.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c4h0l4.txt",
+      "sha256": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c15h15l15.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c15h15l15.txt",
+      "sha256": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\INPUT_MANIFEST.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\INPUT_MANIFEST.json",
+      "sha256": "E8686123B8EB8A08706CBD8CCD8DDB2998DFB8AEA8D63C5B1F0658788840EFCE"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\vlib.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\compile.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\compile.log",
+      "sha256": "C4B82212F05E143FEDE68E40D09E04CEB7D4714224360C41B7521EED30D97CF3"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\vectors.txt": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\vectors.txt",
+      "sha256": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c1h0l1_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c1h0l1_e0.log",
+      "sha256": "4113BFF88BD17A4A58122CEB476106F2C5814F7587CADB8ADCD1EC19711F76FD"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c1h0l1_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c1h0l1_e1.log",
+      "sha256": "79E3F776B5AE1E7675F28D0694AC52529E9655B8A3D200C213799B8F46FFA015"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c2h1l2_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c2h1l2_e0.log",
+      "sha256": "08E63D783ACD85956CC9C8994E04838C21E89DB902765642F1ED0EE9B5AEA948"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c2h1l2_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c2h1l2_e1.log",
+      "sha256": "E1EC93A6CBF3FE80C7041758F08FF3F972262387F24E956F45C0B6D75A4596CB"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c3h2l3_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c3h2l3_e0.log",
+      "sha256": "068D5CC10CDB963D829D75EB84D814A12282508CE22FC11A1B7C5B2CC37A12A4"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c3h2l3_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c3h2l3_e1.log",
+      "sha256": "DEE2C720ABB4D837E0E1E9AB90110ECF973E188886270C73B1A6BE1D4CB52E78"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c4h0l4_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c4h0l4_e0.log",
+      "sha256": "3922FDF6CC873E4FDAE614BBAFC836589C0F80267BC7019BA65F2A97711D1CB4"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c4h0l4_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c4h0l4_e1.log",
+      "sha256": "CC5534E76C060E98DFF244ABB09E126444C41E6584F963C32C4E34C569E02671"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c15h15l15_e0.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c15h15l15_e0.log",
+      "sha256": "0888C51A9C0DDB4EC59BA429FE3FC1A15B9B9C3788117B899E24C4C14BAFB7E2"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c15h15l15_e1.log": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\production_c15h15l15_e1.log",
+      "sha256": "B64C0D89BC9984277C28E38E276B0CF692D16149A7346BFA1A70C9EE44D40153"
+    },
+    "imported_area_derivation\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\RESULTS.json": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\RESULTS.json",
+      "sha256": "FF06215A4BC4CF8D3D341CCF0FE15DFD739287E0E836863F3521520630CD435B"
+    },
+    "origin\\cnn_result_stabilizer_reference.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\cnn_result_stabilizer.v",
+      "sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C"
+    },
+    "origin\\cnn_result_stabilizer_r11.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_split_20261031\\01_rtl\\cnn_result_stabilizer.v",
+      "sha256": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36"
+    },
+    "origin\\vision_pipeline_r11.v": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_split_20261031\\01_rtl\\vision_pipeline.v",
+      "sha256": "C7B43FE8727F1145C2EF060CE9DC464029AF74CB4BD372DF10E1395E5D878413"
+    },
+    "origin\\reference_trace.jsonl": {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\02_sim\\cnn_stability\\reference_trace.jsonl",
+      "sha256": "04E7AB74BCF2A5DC0D2801F9880639EA2F60C05A98954E45761BD8A82F91FADE"
+    }
+  }
+}

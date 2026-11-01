@@ -1,0 +1,211 @@
+{
+  "status": "PASS",
+  "fresh_rtl_replay": true,
+  "mode_count": 10,
+  "aggregate_aborts": 560,
+  "reference_kernel_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "production_kernel_sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+  "abort_scope": "All 28 FSM states, clear and asynchronous reset, five parameter sets and both readers",
+  "modes": [
+    {
+      "mode": "lifecycle_c1h0l1_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=1/0/1 vectors=2385 gold=2315 jobs=2423 cycles=904906 serial=2943 reuses=2439 aborts=56",
+      "external_reader": 0,
+      "parameters": [
+        1,
+        0,
+        1
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 2423,
+      "cycles": 904906,
+      "serial": 2943,
+      "reuses": 2439,
+      "aborts": 56
+    },
+    {
+      "mode": "lifecycle_c1h0l1_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=1/0/1 vectors=2385 gold=2315 jobs=2423 cycles=904906 serial=2943 reuses=2439 aborts=56",
+      "external_reader": 1,
+      "parameters": [
+        1,
+        0,
+        1
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 2423,
+      "cycles": 904906,
+      "serial": 2943,
+      "reuses": 2439,
+      "aborts": 56
+    },
+    {
+      "mode": "lifecycle_c2h1l2_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=2/1/2 vectors=2385 gold=2315 jobs=2475 cycles=947334 serial=2402 reuses=2491 aborts=56",
+      "external_reader": 0,
+      "parameters": [
+        2,
+        1,
+        2
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 2475,
+      "cycles": 947334,
+      "serial": 2402,
+      "reuses": 2491,
+      "aborts": 56
+    },
+    {
+      "mode": "lifecycle_c2h1l2_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=2/1/2 vectors=2385 gold=2315 jobs=2475 cycles=947334 serial=2402 reuses=2491 aborts=56",
+      "external_reader": 1,
+      "parameters": [
+        2,
+        1,
+        2
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 2475,
+      "cycles": 947334,
+      "serial": 2402,
+      "reuses": 2491,
+      "aborts": 56
+    },
+    {
+      "mode": "lifecycle_c3h2l3_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=3/2/3 vectors=2385 gold=2315 jobs=2527 cycles=991615 serial=2328 reuses=2543 aborts=56",
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 2527,
+      "cycles": 991615,
+      "serial": 2328,
+      "reuses": 2543,
+      "aborts": 56
+    },
+    {
+      "mode": "lifecycle_c3h2l3_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=3/2/3 vectors=2385 gold=2315 jobs=2527 cycles=991615 serial=2328 reuses=2543 aborts=56",
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 2527,
+      "cycles": 991615,
+      "serial": 2328,
+      "reuses": 2543,
+      "aborts": 56
+    },
+    {
+      "mode": "lifecycle_c4h0l4_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=4/0/4 vectors=2385 gold=2315 jobs=2579 cycles=1034343 serial=2041 reuses=2595 aborts=56",
+      "external_reader": 0,
+      "parameters": [
+        4,
+        0,
+        4
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 2579,
+      "cycles": 1034343,
+      "serial": 2041,
+      "reuses": 2595,
+      "aborts": 56
+    },
+    {
+      "mode": "lifecycle_c4h0l4_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=4/0/4 vectors=2385 gold=2315 jobs=2579 cycles=1034343 serial=2041 reuses=2595 aborts=56",
+      "external_reader": 1,
+      "parameters": [
+        4,
+        0,
+        4
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 2579,
+      "cycles": 1034343,
+      "serial": 2041,
+      "reuses": 2595,
+      "aborts": 56
+    },
+    {
+      "mode": "lifecycle_c15h15l15_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=15/15/15 vectors=2385 gold=2315 jobs=3151 cycles=1516266 serial=1371 reuses=3167 aborts=56",
+      "external_reader": 0,
+      "parameters": [
+        15,
+        15,
+        15
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 3151,
+      "cycles": 1516266,
+      "serial": 1371,
+      "reuses": 3167,
+      "aborts": 56
+    },
+    {
+      "mode": "lifecycle_c15h15l15_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=15/15/15 vectors=2385 gold=2315 jobs=3151 cycles=1516266 serial=1371 reuses=3167 aborts=56",
+      "external_reader": 1,
+      "parameters": [
+        15,
+        15,
+        15
+      ],
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "vectors": 2385,
+      "gold": 2315,
+      "jobs": 3151,
+      "cycles": 1516266,
+      "serial": 1371,
+      "reuses": 3167,
+      "aborts": 56
+    }
+  ]
+}

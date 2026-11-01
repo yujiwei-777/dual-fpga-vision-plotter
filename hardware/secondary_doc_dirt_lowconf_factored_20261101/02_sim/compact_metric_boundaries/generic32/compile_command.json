@@ -1,0 +1,17 @@
+{
+  "returncode": 0,
+  "command": [
+    "E:\\model\\win64\\vlog.exe",
+    "-sv",
+    "-lint",
+    "+define+DOC_BEHAVIORAL_RAM",
+    "-work",
+    "simlib",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_planner.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\compact_metric_boundaries\\doc_stroke_planner_baseline.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_bram.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_path_distance.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\compact_metric_boundaries\\generic32\\tb_metric_directed.sv"
+  ],
+  "log_sha256": "A03E4B44D0023D4F6D5A02CF34DD0ED7B66E2377478A6F50850E16DEA175F812"
+}

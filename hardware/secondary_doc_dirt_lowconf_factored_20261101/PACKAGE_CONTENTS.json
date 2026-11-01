@@ -1,0 +1,1604 @@
+{
+  "omitted_simulator_and_cache_files": [
+    {
+      "path": "tools/__pycache__/create_factored_variant.cpython-311.pyc",
+      "bytes": 14861
+    },
+    {
+      "path": "reports/factored_regression_adapter/pcb_fixture_missing_failure/work/_info",
+      "bytes": 8479
+    },
+    {
+      "path": "reports/factored_regression_adapter/pcb_fixture_missing_failure/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "reports/factored_regression_adapter/pcb_fixture_missing_failure/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "reports/factored_regression_adapter/pcb_fixture_missing_failure/work/_lib1_0.qpg",
+      "bytes": 2801664
+    },
+    {
+      "path": "reports/factored_regression_adapter/pcb_fixture_missing_failure/work/_lib1_0.qtl",
+      "bytes": 173372
+    },
+    {
+      "path": "reports/factored_regression_adapter/pcb_fixture_missing_failure/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "reports/factored_source_creation/cone_20261101T085836_382466Z/work/_info",
+      "bytes": 1478
+    },
+    {
+      "path": "reports/factored_source_creation/cone_20261101T085836_382466Z/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "reports/factored_source_creation/cone_20261101T085836_382466Z/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "reports/factored_source_creation/cone_20261101T085836_382466Z/work/_lib1_0.qpg",
+      "bytes": 221184
+    },
+    {
+      "path": "reports/factored_source_creation/cone_20261101T085836_382466Z/work/_lib1_0.qtl",
+      "bytes": 40687
+    },
+    {
+      "path": "reports/factored_source_creation/cone_20261101T085836_382466Z/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_configurations/simlib/_info",
+      "bytes": 2787
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_configurations/simlib/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_configurations/simlib/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_configurations/simlib/_lib1_0.qpg",
+      "bytes": 1236992
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_configurations/simlib/_lib1_0.qtl",
+      "bytes": 45258
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_configurations/simlib/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_lifecycle/simlib/_info",
+      "bytes": 2777
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_lifecycle/simlib/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_lifecycle/simlib/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_lifecycle/simlib/_lib1_0.qpg",
+      "bytes": 1318912
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_lifecycle/simlib/_lib1_0.qtl",
+      "bytes": 46848
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_lifecycle/simlib/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_reference/simlib/_info",
+      "bytes": 1950
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_reference/simlib/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_reference/simlib/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_reference/simlib/_lib1_0.qpg",
+      "bytes": 647168
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_reference/simlib/_lib1_0.qtl",
+      "bytes": 27520
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/kernel_reference/simlib/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib/_info",
+      "bytes": 6477
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib/_lib1_0.qpg",
+      "bytes": 4112384
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib/_lib1_0.qtl",
+      "bytes": 130773
+    },
+    {
+      "path": "02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/pipeline/work/_info",
+      "bytes": 4718
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/pipeline/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/pipeline/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/pipeline/work/_lib1_0.qpg",
+      "bytes": 2211840
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/pipeline/work/_lib1_0.qtl",
+      "bytes": 103516
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/pipeline/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/report/work/_info",
+      "bytes": 4439
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/report/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/report/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/report/work/_lib1_0.qpg",
+      "bytes": 1892352
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/report/work/_lib1_0.qtl",
+      "bytes": 110610
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/report/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/top_metadata/work/_info",
+      "bytes": 5345
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/top_metadata/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/top_metadata/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/top_metadata/work/_lib1_0.qpg",
+      "bytes": 1761280
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/top_metadata/work/_lib1_0.qtl",
+      "bytes": 152195
+    },
+    {
+      "path": "02_sim/cnn_lowconf_accept/20261101T090338_797323Z/top_metadata/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_named_pcb/work/_info",
+      "bytes": 8479
+    },
+    {
+      "path": "02_sim/cnn_named_pcb/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_named_pcb/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_named_pcb/work/_lib1_0.qpg",
+      "bytes": 2801664
+    },
+    {
+      "path": "02_sim/cnn_named_pcb/work/_lib1_0.qtl",
+      "bytes": 173372
+    },
+    {
+      "path": "02_sim/cnn_named_pcb/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_named_report/work/_info",
+      "bytes": 4590
+    },
+    {
+      "path": "02_sim/cnn_named_report/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_named_report/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_named_report/work/_lib1_0.qpg",
+      "bytes": 1900544
+    },
+    {
+      "path": "02_sim/cnn_named_report/work/_lib1_0.qtl",
+      "bytes": 109126
+    },
+    {
+      "path": "02_sim/cnn_named_report/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/cnn_named_top/lintwork/_lib.qdb",
+      "bytes": 65536
+    },
+    {
+      "path": "02_sim/cnn_named_top/lintwork/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_named_top/lintwork/_lib1_0.qpg",
+      "bytes": 917504
+    },
+    {
+      "path": "02_sim/cnn_named_top/lintwork/_lib1_0.qtl",
+      "bytes": 598752
+    },
+    {
+      "path": "02_sim/cnn_named_top/topwork/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_named_top/topwork/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_named_top/topwork/_lib1_0.qpg",
+      "bytes": 1728512
+    },
+    {
+      "path": "02_sim/cnn_named_top/topwork/_lib1_0.qtl",
+      "bytes": 148442
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_data/exempt1aa195",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_data/exempt1f91i5",
+      "bytes": 196
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_data/exemptem3a72",
+      "bytes": 148
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib1_0.qpg",
+      "bytes": 0
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib1_0.qtl",
+      "bytes": 20752
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib2_0.qpg",
+      "bytes": 8192
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib2_0.qtl",
+      "bytes": 18999
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib3_0.qpg",
+      "bytes": 8192
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib3_0.qtl",
+      "bytes": 9034
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib4_0.qpg",
+      "bytes": 180224
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt/_lib4_0.qtl",
+      "bytes": 8312
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_data/exempt40fvrc",
+      "bytes": 148
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_data/exempt44vvcj",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_data/exempt49tvmj",
+      "bytes": 196
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib1_0.qpg",
+      "bytes": 0
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib1_0.qtl",
+      "bytes": 20705
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib2_0.qpg",
+      "bytes": 8192
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib2_0.qtl",
+      "bytes": 20247
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib3_0.qpg",
+      "bytes": 8192
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib3_0.qtl",
+      "bytes": 9117
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib4_0.qpg",
+      "bytes": 237568
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/@_opt1/_lib4_0.qtl",
+      "bytes": 8150
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/_info",
+      "bytes": 4423
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/_lib1_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/_lib1_0.qtl",
+      "bytes": 37135
+    },
+    {
+      "path": "02_sim/cnn_stability_core/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_data/exemptr7be1f",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_data/exemptrfie9q",
+      "bytes": 260
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_data/exemptrt9egf",
+      "bytes": 340
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib1_0.qpg",
+      "bytes": 24576
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib1_0.qtl",
+      "bytes": 31459
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib2_0.qpg",
+      "bytes": 73728
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib2_0.qtl",
+      "bytes": 17411
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib3_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib3_0.qtl",
+      "bytes": 13452
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib4_0.qpg",
+      "bytes": 1269760
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/@_opt/_lib4_0.qtl",
+      "bytes": 11120
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/_info",
+      "bytes": 4242
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/_lib1_0.qpg",
+      "bytes": 163840
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/_lib1_0.qtl",
+      "bytes": 42079
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/finite_bound/simlib/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_data/exemptf87ydk",
+      "bytes": 340
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_data/exemptf8cydx",
+      "bytes": 196
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_data/exemptfc8y1k",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib1_0.qpg",
+      "bytes": 16384
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib1_0.qtl",
+      "bytes": 38665
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib2_0.qpg",
+      "bytes": 73728
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib2_0.qtl",
+      "bytes": 18258
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib3_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib3_0.qtl",
+      "bytes": 13764
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib4_0.qpg",
+      "bytes": 1261568
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/@_opt/_lib4_0.qtl",
+      "bytes": 13072
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/_info",
+      "bytes": 4230
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/_lib1_0.qpg",
+      "bytes": 163840
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/_lib1_0.qtl",
+      "bytes": 43238
+    },
+    {
+      "path": "02_sim/compact_metric_boundaries/generic32/simlib/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_data/exemptjb6exx",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_data/exemptjqees5",
+      "bytes": 100
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_data/exemptjs5e3y",
+      "bytes": 100
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib1_0.qpg",
+      "bytes": 0
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib1_0.qtl",
+      "bytes": 13654
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib2_0.qpg",
+      "bytes": 0
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib2_0.qtl",
+      "bytes": 16645
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib3_0.qpg",
+      "bytes": 0
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib3_0.qtl",
+      "bytes": 8443
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib4_0.qpg",
+      "bytes": 172032
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt/_lib4_0.qtl",
+      "bytes": 3232
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_data/exempt09xqba",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_data/exempt0mmq72",
+      "bytes": 100
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_data/exempt0qwqha",
+      "bytes": 100
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib1_0.qpg",
+      "bytes": 0
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib1_0.qtl",
+      "bytes": 13662
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib2_0.qpg",
+      "bytes": 0
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib2_0.qtl",
+      "bytes": 10315
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib3_0.qpg",
+      "bytes": 0
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib3_0.qtl",
+      "bytes": 5815
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib4_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/@_opt1/_lib4_0.qtl",
+      "bytes": 7580
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/_info",
+      "bytes": 2864
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/_lib1_0.qpg",
+      "bytes": 0
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/_lib1_0.qtl",
+      "bytes": 26697
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/frontend/simlib/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_data/exempt50ihr3",
+      "bytes": 164
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_data/exempt58rh0q",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_data/exempt5inhiq",
+      "bytes": 628
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib1_0.qpg",
+      "bytes": 24576
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib1_0.qtl",
+      "bytes": 34501
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib2_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib2_0.qtl",
+      "bytes": 48419
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib3_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib3_0.qtl",
+      "bytes": 35579
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib4_0.qpg",
+      "bytes": 983040
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/@_opt/_lib4_0.qtl",
+      "bytes": 13504
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/_info",
+      "bytes": 8527
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/_lib1_0.qpg",
+      "bytes": 139264
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/_lib1_0.qtl",
+      "bytes": 109962
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_blank2418/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_data/exemptx67d14",
+      "bytes": 164
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_data/exemptxhsd8j",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_data/exemptxxad4r",
+      "bytes": 628
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib1_0.qpg",
+      "bytes": 24576
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib1_0.qtl",
+      "bytes": 34375
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib2_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib2_0.qtl",
+      "bytes": 48419
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib3_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib3_0.qtl",
+      "bytes": 35568
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib4_0.qpg",
+      "bytes": 991232
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/@_opt/_lib4_0.qtl",
+      "bytes": 6944
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/_info",
+      "bytes": 8524
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/_lib1_0.qpg",
+      "bytes": 139264
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/_lib1_0.qtl",
+      "bytes": 109947
+    },
+    {
+      "path": "02_sim/doc_dirt_frontend/20261101T090224_940901Z/integrated_ink2358/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/key3_top_reset_release/simwork/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/key3_top_reset_release/simwork/_lib1_0.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/key3_top_reset_release/simwork/_lib1_0.qpg",
+      "bytes": 4349952
+    },
+    {
+      "path": "02_sim/key3_top_reset_release/simwork/_lib1_0.qtl",
+      "bytes": 306894
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_data/exempte590i5",
+      "bytes": 164
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_data/exempteb10gx",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_data/exempteg00sx",
+      "bytes": 580
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib1_0.qpg",
+      "bytes": 16384
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib1_0.qtl",
+      "bytes": 35781
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib2_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib2_0.qtl",
+      "bytes": 39678
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib3_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib3_0.qtl",
+      "bytes": 29537
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib4_0.qpg",
+      "bytes": 917504
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/@_opt/_lib4_0.qtl",
+      "bytes": 8560
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/_info",
+      "bytes": 7233
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/_lib1_0.qpg",
+      "bytes": 122880
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/_lib1_0.qtl",
+      "bytes": 86378
+    },
+    {
+      "path": "02_sim/stroke_release/blank/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_data/exemptv3vkkr",
+      "bytes": 580
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_data/exemptvirkfs",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_data/exemptvv4kcm",
+      "bytes": 164
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib1_0.qpg",
+      "bytes": 16384
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib1_0.qtl",
+      "bytes": 36237
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib2_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib2_0.qtl",
+      "bytes": 39686
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib3_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib3_0.qtl",
+      "bytes": 29579
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib4_0.qpg",
+      "bytes": 925696
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/@_opt/_lib4_0.qtl",
+      "bytes": 6192
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/_info",
+      "bytes": 7252
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/_lib1_0.qpg",
+      "bytes": 122880
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/_lib1_0.qtl",
+      "bytes": 86437
+    },
+    {
+      "path": "02_sim/stroke_release/edge_capacity/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_data/exemptti4da2",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_data/exempttq3dj2",
+      "bytes": 340
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_data/exempttxedh9",
+      "bytes": 116
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib1_0.qpg",
+      "bytes": 8192
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib1_0.qtl",
+      "bytes": 30257
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib2_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib2_0.qtl",
+      "bytes": 20761
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib3_0.qpg",
+      "bytes": 24576
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib3_0.qtl",
+      "bytes": 11557
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib4_0.qpg",
+      "bytes": 622592
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/@_opt/_lib4_0.qtl",
+      "bytes": 8288
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/_info",
+      "bytes": 7232
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/_lib1_0.qpg",
+      "bytes": 106496
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/_lib1_0.qtl",
+      "bytes": 84124
+    },
+    {
+      "path": "02_sim/stroke_release/lifecycle/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_data/exemptjg6m8q",
+      "bytes": 164
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_data/exemptjnvm6g",
+      "bytes": 580
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_data/exemptjwam4b",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib1_0.qpg",
+      "bytes": 16384
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib1_0.qtl",
+      "bytes": 35959
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib2_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib2_0.qtl",
+      "bytes": 39681
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib3_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib3_0.qtl",
+      "bytes": 29550
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib4_0.qpg",
+      "bytes": 917504
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/@_opt/_lib4_0.qtl",
+      "bytes": 10240
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/_info",
+      "bytes": 7228
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/_lib1_0.qpg",
+      "bytes": 122880
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/_lib1_0.qtl",
+      "bytes": 86397
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_nn/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_data/exempt24m8ye",
+      "bytes": 580
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_data/exempt2ai8wf",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_data/exemptm9v05i",
+      "bytes": 164
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib1_0.qpg",
+      "bytes": 16384
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib1_0.qtl",
+      "bytes": 36260
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib2_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib2_0.qtl",
+      "bytes": 39686
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib3_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib3_0.qtl",
+      "bytes": 29589
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib4_0.qpg",
+      "bytes": 917504
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/@_opt/_lib4_0.qtl",
+      "bytes": 10352
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/_info",
+      "bytes": 7254
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/_lib1_0.qpg",
+      "bytes": 122880
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/_lib1_0.qtl",
+      "bytes": 86447
+    },
+    {
+      "path": "02_sim/stroke_release/mixed_two_opt/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_data/exempt03tj5q",
+      "bytes": 164
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_data/exempt0gxjn0",
+      "bytes": 580
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_data/exempt0zcjhv",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib1_0.qpg",
+      "bytes": 16384
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib1_0.qtl",
+      "bytes": 36260
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib2_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib2_0.qtl",
+      "bytes": 39686
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib3_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib3_0.qtl",
+      "bytes": 29585
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib4_0.qpg",
+      "bytes": 925696
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/@_opt/_lib4_0.qtl",
+      "bytes": 6176
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/_info",
+      "bytes": 7253
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/_lib1_0.qpg",
+      "bytes": 122880
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/_lib1_0.qtl",
+      "bytes": 86441
+    },
+    {
+      "path": "02_sim/stroke_release/path_capacity/work/_vmake",
+      "bytes": 29
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_data/exemptgdas9r",
+      "bytes": 580
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_data/exemptgsis50",
+      "bytes": 164
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_data/exemptgtbstq",
+      "bytes": 524288
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib1_0.qpg",
+      "bytes": 16384
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib1_0.qtl",
+      "bytes": 36321
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib2_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib2_0.qpg",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib2_0.qtl",
+      "bytes": 39687
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib3_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib3_0.qpg",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib3_0.qtl",
+      "bytes": 29584
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib4_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib4_0.qpg",
+      "bytes": 925696
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/@_opt/_lib4_0.qtl",
+      "bytes": 6208
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/_info",
+      "bytes": 7259
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/_lib.qdb",
+      "bytes": 49152
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/_lib1_0.qdb",
+      "bytes": 32768
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/_lib1_0.qpg",
+      "bytes": 122880
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/_lib1_0.qtl",
+      "bytes": 86444
+    },
+    {
+      "path": "02_sim/stroke_release/point_capacity/work/_vmake",
+      "bytes": 29
+    }
+  ],
+  "frozen_inputs_omitted": [],
+  "release_evidence_exclusions": [
+    {
+      "source_path": "dirt_lowconf_factored_Runs_20261101/phy_1/secondary_cnn_multibox_pr.db",
+      "source_sha256": "9AEA65015C522CCF102EA4999578F921A8474A60CCE6ADF524C39A7715CC152B",
+      "reason": "TD database deliberately omitted"
+    }
+  ],
+  "other_omissions": [
+    "TD databases; only readable final-run evidence retained"
+  ],
+  "only_requested_bit": true
+}

@@ -1,0 +1,245 @@
+{
+  "status": "PASS_COMBINED_STATE_LIFECYCLE",
+  "completed_at_utc": "2026-10-31T12:46:34.405361+00:00",
+  "production_modified": false,
+  "hardware_status": "NOT_RUN",
+  "mode_count": 10,
+  "aggregate_aborts": 560,
+  "modes": [
+    {
+      "mode": "production_c1h0l1_e0",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=1/0/1 vectors=2385 gold=2315 jobs=2423 cycles=904906 serial=2943 reuses=2439 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 1,
+        "HOLD_RESULTS": 0,
+        "LOST_RESULTS": 1,
+        "EXTERNAL_CANDIDATE_READER": 0,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c1h0l1_e0.log",
+      "vectors": "c1h0l1.txt",
+      "log_sha256": "4113BFF88BD17A4A58122CEB476106F2C5814F7587CADB8ADCD1EC19711F76FD",
+      "vectors_sha256": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA",
+      "aborts": 56
+    },
+    {
+      "mode": "production_c1h0l1_e1",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=1/0/1 vectors=2385 gold=2315 jobs=2423 cycles=904906 serial=2943 reuses=2439 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 1,
+        "HOLD_RESULTS": 0,
+        "LOST_RESULTS": 1,
+        "EXTERNAL_CANDIDATE_READER": 1,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c1h0l1_e1.log",
+      "vectors": "c1h0l1.txt",
+      "log_sha256": "79E3F776B5AE1E7675F28D0694AC52529E9655B8A3D200C213799B8F46FFA015",
+      "vectors_sha256": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA",
+      "aborts": 56
+    },
+    {
+      "mode": "production_c2h1l2_e0",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=2/1/2 vectors=2385 gold=2315 jobs=2475 cycles=947334 serial=2402 reuses=2491 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 2,
+        "HOLD_RESULTS": 1,
+        "LOST_RESULTS": 2,
+        "EXTERNAL_CANDIDATE_READER": 0,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c2h1l2_e0.log",
+      "vectors": "c2h1l2.txt",
+      "log_sha256": "08E63D783ACD85956CC9C8994E04838C21E89DB902765642F1ED0EE9B5AEA948",
+      "vectors_sha256": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5",
+      "aborts": 56
+    },
+    {
+      "mode": "production_c2h1l2_e1",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=2/1/2 vectors=2385 gold=2315 jobs=2475 cycles=947334 serial=2402 reuses=2491 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 2,
+        "HOLD_RESULTS": 1,
+        "LOST_RESULTS": 2,
+        "EXTERNAL_CANDIDATE_READER": 1,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c2h1l2_e1.log",
+      "vectors": "c2h1l2.txt",
+      "log_sha256": "E1EC93A6CBF3FE80C7041758F08FF3F972262387F24E956F45C0B6D75A4596CB",
+      "vectors_sha256": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5",
+      "aborts": 56
+    },
+    {
+      "mode": "production_c3h2l3_e0",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=3/2/3 vectors=2385 gold=2315 jobs=2527 cycles=991615 serial=2328 reuses=2543 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 3,
+        "HOLD_RESULTS": 2,
+        "LOST_RESULTS": 3,
+        "EXTERNAL_CANDIDATE_READER": 0,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c3h2l3_e0.log",
+      "vectors": "c3h2l3.txt",
+      "log_sha256": "068D5CC10CDB963D829D75EB84D814A12282508CE22FC11A1B7C5B2CC37A12A4",
+      "vectors_sha256": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D",
+      "aborts": 56
+    },
+    {
+      "mode": "production_c3h2l3_e1",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=3/2/3 vectors=2385 gold=2315 jobs=2527 cycles=991615 serial=2328 reuses=2543 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 3,
+        "HOLD_RESULTS": 2,
+        "LOST_RESULTS": 3,
+        "EXTERNAL_CANDIDATE_READER": 1,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c3h2l3_e1.log",
+      "vectors": "c3h2l3.txt",
+      "log_sha256": "DEE2C720ABB4D837E0E1E9AB90110ECF973E188886270C73B1A6BE1D4CB52E78",
+      "vectors_sha256": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D",
+      "aborts": 56
+    },
+    {
+      "mode": "production_c4h0l4_e0",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=4/0/4 vectors=2385 gold=2315 jobs=2579 cycles=1034343 serial=2041 reuses=2595 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 4,
+        "HOLD_RESULTS": 0,
+        "LOST_RESULTS": 4,
+        "EXTERNAL_CANDIDATE_READER": 0,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c4h0l4_e0.log",
+      "vectors": "c4h0l4.txt",
+      "log_sha256": "3922FDF6CC873E4FDAE614BBAFC836589C0F80267BC7019BA65F2A97711D1CB4",
+      "vectors_sha256": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB",
+      "aborts": 56
+    },
+    {
+      "mode": "production_c4h0l4_e1",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=4/0/4 vectors=2385 gold=2315 jobs=2579 cycles=1034343 serial=2041 reuses=2595 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 4,
+        "HOLD_RESULTS": 0,
+        "LOST_RESULTS": 4,
+        "EXTERNAL_CANDIDATE_READER": 1,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c4h0l4_e1.log",
+      "vectors": "c4h0l4.txt",
+      "log_sha256": "CC5534E76C060E98DFF244ABB09E126444C41E6584F963C32C4E34C569E02671",
+      "vectors_sha256": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB",
+      "aborts": 56
+    },
+    {
+      "mode": "production_c15h15l15_e0",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=15/15/15 vectors=2385 gold=2315 jobs=3151 cycles=1516266 serial=1371 reuses=3167 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 15,
+        "HOLD_RESULTS": 15,
+        "LOST_RESULTS": 15,
+        "EXTERNAL_CANDIDATE_READER": 0,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c15h15l15_e0.log",
+      "vectors": "c15h15l15.txt",
+      "log_sha256": "0888C51A9C0DDB4EC59BA429FE3FC1A15B9B9C3788117B899E24C4C14BAFB7E2",
+      "vectors_sha256": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D",
+      "aborts": 56
+    },
+    {
+      "mode": "production_c15h15l15_e1",
+      "check": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=15/15/15 vectors=2385 gold=2315 jobs=3151 cycles=1516266 serial=1371 reuses=3167 aborts=56",
+      "bench": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv",
+      "params": {
+        "CONFIRM_RESULTS": 15,
+        "HOLD_RESULTS": 15,
+        "LOST_RESULTS": 15,
+        "EXTERNAL_CANDIDATE_READER": 1,
+        "AREA_BITS": 22,
+        "AREA_SHIFT": 6,
+        "COORD_SHIFT": 3
+      },
+      "log": "production_c15h15l15_e1.log",
+      "vectors": "c15h15l15.txt",
+      "log_sha256": "B64C0D89BC9984277C28E38E276B0CF692D16149A7346BFA1A70C9EE44D40153",
+      "vectors_sha256": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D",
+      "aborts": 56
+    }
+  ],
+  "vectors_per_mode": 2385,
+  "gold_checks_per_mode": 2315,
+  "fresh_frozen_gold_checks": 2453,
+  "candidate_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "baseline_sha256": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\run_state_lifecycle.py": "834A2D6B04033176397080CCA4F721F82C3E91EF39AE032C7D8F8C445A1D83DF",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer_r11.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_overlap_redundancy_candidate\\tb_overlap_equivalence.sv": "206CAD1D5DED4BB4D42F4CC63D25912D11D3F87FB1FB6C449310B71E0C669222",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\tools\\cnn_stability_reference.py": "402F7F30E8BD1F9036314639BD59B514137016711783D670C52D8CA87BC53503",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\02_sim\\cnn_stability\\vectors.txt": "C8B5BF256C7043503782213E9887EAFF0BF58C12FE85E920A4A60E2FB0D131D3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\cnn_result_stabilizer.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\vision_pipeline.v": "C7B43FE8727F1145C2EF060CE9DC464029AF74CB4BD372DF10E1395E5D878413",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\secondary_top.v": "E2230101BB9E144AF86BBB26C4D4A8F39B832C547D91B34E6F71BE32B2EC71D6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\cnn_core.v": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\cnn_result_stabilizer_baseline.v": "FCB7C384764F3D96BF18515E2C0A74C39DFA136D5BE7367738600E4DAD76C968",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv": "06AAB16A8220685B61D50130B26253855CD9A4AE3019D62D5E214292EC527DF1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c1h0l1.txt": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c2h1l2.txt": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c3h2l3.txt": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c4h0l4.txt": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c15h15l15.txt": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D"
+  },
+  "evidence_hashes": {
+    "INPUT_MANIFEST.json": "E8686123B8EB8A08706CBD8CCD8DDB2998DFB8AEA8D63C5B1F0658788840EFCE",
+    "vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "compile.log": "C4B82212F05E143FEDE68E40D09E04CEB7D4714224360C41B7521EED30D97CF3",
+    "vectors.txt": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D",
+    "production_c1h0l1_e0.log": "4113BFF88BD17A4A58122CEB476106F2C5814F7587CADB8ADCD1EC19711F76FD",
+    "production_c1h0l1_e1.log": "79E3F776B5AE1E7675F28D0694AC52529E9655B8A3D200C213799B8F46FFA015",
+    "production_c2h1l2_e0.log": "08E63D783ACD85956CC9C8994E04838C21E89DB902765642F1ED0EE9B5AEA948",
+    "production_c2h1l2_e1.log": "E1EC93A6CBF3FE80C7041758F08FF3F972262387F24E956F45C0B6D75A4596CB",
+    "production_c3h2l3_e0.log": "068D5CC10CDB963D829D75EB84D814A12282508CE22FC11A1B7C5B2CC37A12A4",
+    "production_c3h2l3_e1.log": "DEE2C720ABB4D837E0E1E9AB90110ECF973E188886270C73B1A6BE1D4CB52E78",
+    "production_c4h0l4_e0.log": "3922FDF6CC873E4FDAE614BBAFC836589C0F80267BC7019BA65F2A97711D1CB4",
+    "production_c4h0l4_e1.log": "CC5534E76C060E98DFF244ABB09E126444C41E6584F963C32C4E34C569E02671",
+    "production_c15h15l15_e0.log": "0888C51A9C0DDB4EC59BA429FE3FC1A15B9B9C3788117B899E24C4C14BAFB7E2",
+    "production_c15h15l15_e1.log": "B64C0D89BC9984277C28E38E276B0CF692D16149A7346BFA1A70C9EE44D40153"
+  },
+  "limits": [
+    "Legal production domain only; invalid-input behavior is not legalized or tested here.",
+    "All 28 FSM states are reached without force, then aborted once by clear and once by async reset in each mode.",
+    "Kernel only; no TD, place, route, board timing, CDC/FIFO/DDR/DRC, reimport, bitgen or accuracy claim."
+  ]
+}

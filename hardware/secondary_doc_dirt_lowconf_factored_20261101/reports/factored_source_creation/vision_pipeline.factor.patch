@@ -1,0 +1,33 @@
+--- parent/01_rtl/vision_pipeline.v
++++ factored/01_rtl/vision_pipeline.v
+@@ -483,6 +483,10 @@
+     // Threshold lookup must use that same protocol domain.
+     wire [7:0] selected_shape_threshold=(shape_saved==1) ? TRIANGLE_MARGIN_MIN :
+         (shape_saved==2) ? CIRCLE_MARGIN_MIN : SQUARE_MARGIN_MIN;
++    // Separate hard eligibility from the unchanged soft-margin diagnostic.
++    wire cnn_hard_reject=shape_reject_saved || color_samples_saved<8;
++    wire cnn_soft_reject=color_margin_saved<COLOR_MARGIN_MIN ||
++        shape_margin_saved<selected_shape_threshold;
+     reg [1:0] cnn_color_work,cnn_shape_work;
+     wire [15:0] candidate_class_id=({14'd0,cnn_color_work}-16'd1)*16'd3+{14'd0,cnn_shape_work};
+     wire [127:0] packed_cnn_box={{8'd0,area},8'd0,confidence,candidate_class_id,{6'd0,y1},{5'd0,x1},{6'd0,y0},{5'd0,x0}};
+@@ -939,13 +943,13 @@
+                         // Default output preserves zero-confidence soft rejection.
+                         // Opt-in low-score output retains the real margin, while
+                         // hard rejection and the unchanged stabilizer still apply.
+-                        if(shape_reject_saved || color_samples_saved<8 || color_margin_saved<COLOR_MARGIN_MIN ||
+-                           shape_margin_saved<selected_shape_threshold)begin
++                        if(cnn_hard_reject || cnn_soft_reject)
+                             multi_flags[6]<=1'b1;
+-                            confidence_margin<=((CNN_LOWCONF_OUTPUT != 0) &&
+-                                !shape_reject_saved && color_samples_saved>=8) ?
+-                                minimum_cnn_margin : 8'd0;
+-                        end else confidence_margin<=minimum_cnn_margin;
++                        if(CNN_LOWCONF_OUTPUT != 0)
++                            confidence_margin<=cnn_hard_reject ? 8'd0 : minimum_cnn_margin;
++                        else
++                            confidence_margin<=(cnn_hard_reject || cnn_soft_reject) ?
++                                8'd0 : minimum_cnn_margin;
+                         confidence<=0;state<=CONF_SCALE;
+                     end
+                 end

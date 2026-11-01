@@ -1,0 +1,24 @@
+{
+  "status": "PENDING_REGRESSION_ADAPTER_REVIEW_NO_TD",
+  "parent": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_area_20261101\\tools\\build_doc_dirt_lowconf_area_r2.py",
+  "parent_sha256": "3E0897BD497E4359F2E7D5209B731E52F2CDD9BEDF6E61CE957C62C62659E9B6",
+  "builder": "tools\\build_doc_dirt_lowconf_factored.py",
+  "builder_sha256": "2ADA653BB3BB7FD72B3424FA379A3620E5AE363C87505DE90F249C8753B14CBA",
+  "replacements": {
+    "key3_stroke_lowconf_area_regression_gate": "key3_stroke_lowconf_factored_regression_gate",
+    "PIPELINE_SHA = 'D5F83FC41A64071C4BC6E013D731664B8A177094816189D7E6CE22BF83812B42'": "PIPELINE_SHA = '02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5'",
+    "dirt_lowconf_area_r2_Runs_20261101": "dirt_lowconf_factored_Runs_20261101",
+    "dual_fpga_secondary_20261101_doc_dirt_lowconf_area_diagnostic": "dual_fpga_secondary_20261101_doc_dirt_lowconf_factored_diagnostic",
+    "tools/build_doc_dirt_lowconf_area_r2.py": "tools/build_doc_dirt_lowconf_factored.py",
+    "reports/DIRT_LOWCONF_AREA_CREATION_MANIFEST.json": "reports/DIRT_LOWCONF_FACTORED_CREATION_MANIFEST.json",
+    "tools/release_audit_doc_dirt_lowconf_area_config.json": "tools/release_audit_doc_dirt_lowconf_factored_config.json",
+    "secondary_doc_dirt_lowconf_area_20261101": "secondary_doc_dirt_lowconf_factored_20261101",
+    "PASS_EXACT_AREA_SCLK_BASELINE_WITH_FRONTEND_AND_OPTIN_LOW_SCORE": "PASS_EXACT_AREA_SCLK_BASELINE_WITH_FRONTEND_AND_FACTORED_OPTIN_LOW_SCORE",
+    "tools/run_cnn_area_pipeline_lowconf_area.py": "tools/run_cnn_area_pipeline_lowconf_factored.py",
+    "DIRT_LOWCONF_REGRESSION_EVIDENCE_": "DIRT_LOWCONF_FACTORED_REGRESSION_EVIDENCE_",
+    "fixed_dirt_lowconf_area_source_scope": "fixed_dirt_lowconf_factored_source_scope",
+    "PASS_CURRENT_FROZEN_DIRT_LOWCONF_PLAN": "PASS_CURRENT_FROZEN_DIRT_LOWCONF_FACTORED_PLAN",
+    "BUILD_DOC_DIRT_LOWCONF_AREA_FAIL:": "BUILD_DOC_DIRT_LOWCONF_FACTORED_FAIL:"
+  },
+  "hardware_status": "NOT_RUN"
+}

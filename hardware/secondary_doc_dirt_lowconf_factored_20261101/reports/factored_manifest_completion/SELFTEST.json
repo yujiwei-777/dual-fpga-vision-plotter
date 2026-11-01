@@ -1,0 +1,186 @@
+{
+  "status": "PASS_READONLY_MANIFEST_COMPLETION_TESTS_NOT_BUILD_APPROVAL",
+  "negative_count": 21,
+  "cases": [
+    {
+      "name": "reject_byte_drift_secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Snapshot source duplicate/drift: main/user_source/hdl_source/ethernet/uimdio_ctr.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiphyrst.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Snapshot source duplicate/drift: main/user_source/hdl_source/ethernet/uiphyrst.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Snapshot source duplicate/drift: main/user_source/hdl_source/ethernet/uirgmii_rx.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Snapshot source duplicate/drift: main/user_source/hdl_source/ethernet/uirgmii_tx.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_doc_dirt_lowconf_factored_20261101/shared/rtl/hxa_yolo_result_codec.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Snapshot source duplicate/drift: shared/rtl/hxa_yolo_result_codec.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_cnn_key3_stroke_compact_20261101/main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Completion input is not unchanged baseline bytes: main/user_source/hdl_source/ethernet/uimdio_ctr.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_cnn_key3_stroke_compact_20261101/main/user_source/hdl_source/ethernet/uiphyrst.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Completion input is not unchanged baseline bytes: main/user_source/hdl_source/ethernet/uiphyrst.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_cnn_key3_stroke_compact_20261101/main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Completion input is not unchanged baseline bytes: main/user_source/hdl_source/ethernet/uirgmii_rx.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_cnn_key3_stroke_compact_20261101/main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Completion input is not unchanged baseline bytes: main/user_source/hdl_source/ethernet/uirgmii_tx.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_cnn_key3_stroke_compact_20261101/shared/rtl/hxa_yolo_result_codec.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Completion input is not unchanged baseline bytes: shared/rtl/hxa_yolo_result_codec.v"
+    },
+    {
+      "name": "reject_byte_drift_secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/secondary_cnn_multibox_pr.db",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Routed snapshot/database/project drift: phy_1/secondary_cnn_multibox_pr.db"
+    },
+    {
+      "name": "reject_byte_drift_secondary_doc_dirt_lowconf_factored_20261101/tools/review_remote_physical.py",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Original builder/reviewer changed"
+    },
+    {
+      "name": "reject_byte_drift_secondary_doc_dirt_lowconf_factored_20261101/04_pin/timing.sdc",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Snapshot source duplicate/drift: 04_pin/timing.sdc"
+    },
+    {
+      "name": "reject_byte_drift_secondary_doc_dirt_lowconf_factored_20261101/reports/cnn_lowconf_qualification/PREPARED_INPUTS.json",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Frozen plan/qualification/failure archive changed"
+    },
+    {
+      "name": "reject_simulation_file_promoted_to_production",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Production closure expanded"
+    },
+    {
+      "name": "reject_non_extra_origin",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Completion input kind/origin/qualification differs: main/user_source/hdl_source/ethernet/uimdio_ctr.v"
+    },
+    {
+      "name": "reject_additional_protected_manifest_gap",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Protected comparison gap is not the exact five entries"
+    },
+    {
+      "name": "reject_wrong_root",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Wrong completion root/run"
+    },
+    {
+      "name": "reject_active_project_reference",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Completion input is active/duplicated in project: main/user_source/hdl_source/ethernet/uimdio_ctr.v"
+    },
+    {
+      "name": "reject_unexpected_manifest_invocation",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Unexpected reviewer manifest invocation"
+    },
+    {
+      "name": "reject_baseline_entry_already_present",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Completion entry already present in frozen baseline"
+    }
+  ],
+  "qualification": {
+    "status": "PASS_EXACT_FIVE_INACTIVE_SIMULATION_DEPENDENCY_BASELINE_COMPARISON_EXTENSION",
+    "root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101",
+    "run": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\dirt_lowconf_factored_Runs_20261101",
+    "additions": {
+      "main/user_source/hdl_source/ethernet/uimdio_ctr.v": "F22F85D0AB26C4E7C402B0DDD2D25A6F4BE852994226ADD50A2850F732EFF43F",
+      "main/user_source/hdl_source/ethernet/uiphyrst.v": "B272B8584D09DCDC516763C2A3F475D3005E172918FC339D448D7A675883937F",
+      "main/user_source/hdl_source/ethernet/uirgmii_rx.v": "38769F122B452F1ABA2CC9F69E59669B5BFD01CE27A6E1BD67082EDCE28EBDB5",
+      "main/user_source/hdl_source/ethernet/uirgmii_tx.v": "30374E9D9D21743A484084E3F1AD48DC12230883E890E5B37E79B1CD13A2C8A2",
+      "shared/rtl/hxa_yolo_result_codec.v": "9EF958DFFAFCC25F2F6DB6C17D06B6B63589282C09479208457B7DA8658E816F"
+    },
+    "phases": {
+      "syn_1": {
+        "current_snapshot_sha256": "43BE06B106675F0076F5D05F38A2FD8FCE92DF2182BE45C49448500AFC6F5DD7",
+        "baseline_snapshot_sha256": "F8239CE99617295D7CD655BB231B5717B5B4EA705127C8B20C7E05F5BF4B2518",
+        "production_inputs": 133,
+        "protected_manifest_gap": [
+          "main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+          "main/user_source/hdl_source/ethernet/uiphyrst.v",
+          "main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+          "main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+          "shared/rtl/hxa_yolo_result_codec.v"
+        ]
+      },
+      "phy_1": {
+        "current_snapshot_sha256": "5DDF6114C74D1020CFC09F02A8F85D2A8E133D8108287A8C9BEB394665CDF17F",
+        "baseline_snapshot_sha256": "2DAF0A6AD2DDFECC8E0230B1221ED8D124FF4A9CDAEA0389EEE5F4E7FBEF0527",
+        "production_inputs": 133,
+        "protected_manifest_gap": [
+          "main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+          "main/user_source/hdl_source/ethernet/uiphyrst.v",
+          "main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+          "main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+          "shared/rtl/hxa_yolo_result_codec.v"
+        ]
+      }
+    },
+    "excluded_project_entries": {
+      "secondary_cnn_multibox.al": [
+        "main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+        "main/user_source/hdl_source/ethernet/uiphyrst.v",
+        "main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+        "main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+        "shared/rtl/hxa_yolo_result_codec.v"
+      ],
+      "dirt_lowconf_factored_Runs_20261101\\syn_1\\secondary_cnn_multibox.al": [
+        "main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+        "main/user_source/hdl_source/ethernet/uiphyrst.v",
+        "main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+        "main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+        "shared/rtl/hxa_yolo_result_codec.v"
+      ],
+      "dirt_lowconf_factored_Runs_20261101\\phy_1\\secondary_cnn_multibox.al": [
+        "main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+        "main/user_source/hdl_source/ethernet/uiphyrst.v",
+        "main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+        "main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+        "shared/rtl/hxa_yolo_result_codec.v"
+      ]
+    },
+    "prepared_sha256": "F1934B4034CF54B1CA4C90A3662C4E8326A094EEFAEC4E4BB4047CB844C41C2C",
+    "archive_sha256": "5D13BFB317CF2B48646329D8134B2E79D47D2746048F32E22875E17BCD9E6BF2",
+    "builder_sha256": "2ADA653BB3BB7FD72B3424FA379A3620E5AE363C87505DE90F249C8753B14CBA",
+    "reviewer_sha256": "34E80D868E86B1A136C71AC23A10231B57215EAEC8CD7227F9CB7F866EDA13AE",
+    "plan_sha256": "1D147B5094B6CED1242C55BF48CFB6C80819A414F3212CAECB4EEA444C1956FE",
+    "database_sha256": "9AEA65015C522CCF102EA4999578F921A8474A60CCE6ADF524C39A7715CC152B",
+    "production_source_graph_changed": false,
+    "baseline_snapshot_files_changed": false,
+    "reviewer_rules_or_errors_filtered": false,
+    "hardware_status": "NOT_RUN"
+  },
+  "current_manifest_unchanged": true,
+  "no_original_rule_or_error_filter_modified": true,
+  "no_TD_or_gate_or_readonly_or_bitgen_executed": true,
+  "adapter_sha256": "1A507D511DD0B64ABC3D3262AD6AEFEE1FCD98BA630A1411E8F4416CCEC5698B"
+}

@@ -1,0 +1,120 @@
+--- D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_area_20261101\tools\build_doc_dirt_lowconf_area_r2.py
++++ D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\tools\build_doc_dirt_lowconf_factored.py
+@@ -1,4 +1,4 @@
+-"""Build fixed-dirt compensation and optional real low scores with original soft flag6.
++"""Build fixed-dirt compensation and factored optional real low scores with original soft flag6.
+ 
+ The exact successful Tcl flows, clock proof, constraints, model bytes and
+ strict regression/physical/readonly gates are inherited. Only the explicitly
+@@ -18,7 +18,7 @@
+ 
+ import build_vector_release as flow
+ import key3_physical_gate as key3
+-import key3_stroke_lowconf_area_regression_gate as regression
++import key3_stroke_lowconf_factored_regression_gate as regression
+ import build_key3_stroke_compact_area_sclk as sclk
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+@@ -38,16 +38,16 @@
+ TOP_SHA = 'DCA939F1C76E1920FF99647E1C19B733C6A0177033631317DCAED237FD2106DC'
+ OLD_TOP_SHA = '64176506920BFF546415A1D1433FE1F6558FAAA565B5845FA826B56566694DCA'
+ PIPELINE = '01_rtl/vision_pipeline.v'
+-PIPELINE_SHA = 'D5F83FC41A64071C4BC6E013D731664B8A177094816189D7E6CE22BF83812B42'
++PIPELINE_SHA = '02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5'
+ OLD_PIPELINE_SHA = '6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9'
+ LOWCONF_QUALIFICATION = 'reports/cnn_lowconf_qualification'
+-RUNS = 'dirt_lowconf_area_r2_Runs_20261101'
+-STEM = 'dual_fpga_secondary_20261101_doc_dirt_lowconf_area_diagnostic'
++RUNS = 'dirt_lowconf_factored_Runs_20261101'
++STEM = 'dual_fpga_secondary_20261101_doc_dirt_lowconf_factored_diagnostic'
+ NAME = 'secondary_cnn_multibox'
+-SELF = 'tools/build_doc_dirt_lowconf_area_r2.py'
+-CREATION = 'reports/DIRT_LOWCONF_AREA_CREATION_MANIFEST.json'
++SELF = 'tools/build_doc_dirt_lowconf_factored.py'
++CREATION = 'reports/DIRT_LOWCONF_FACTORED_CREATION_MANIFEST.json'
+ QUALIFICATION = 'reports/dirt_qualification'
+-AUDIT_CONFIG = 'tools/release_audit_doc_dirt_lowconf_area_config.json'
++AUDIT_CONFIG = 'tools/release_audit_doc_dirt_lowconf_factored_config.json'
+ SUITES = frozenset(('cnn_named_top', 'key3_top_reset_release', 'stroke_release',
+     'cnn_named_pcb', 'cnn_area_pipeline_compact', 'cnn_stability_core', 'cnn_named_report'))
+ PHASES = ('gate', 'place_begin', 'place_end', 'route_begin', 'route_end')
+@@ -67,7 +67,7 @@
+ 
+ 
+ def baseline():
+-    require(ROOT.name == 'secondary_doc_dirt_lowconf_area_20261101' and ROOT != BASE and
++    require(ROOT.name == 'secondary_doc_dirt_lowconf_factored_20261101' and ROOT != BASE and
+         'work' not in {p.lower() for p in ROOT.resolve().parts}, 'Wrong independent root')
+     bit = BASE / 'artifacts' / (BASE_STEM + '.bit')
+     build_file = bit.with_name(BASE_STEM + '_BUILD.json')
+@@ -164,7 +164,7 @@
+         for relative in extras(closed):
+             require(relative in current and current[relative]['kind'] == 'explicit_dependency',
+                 'Missing explicit build/proof dependency: ' + relative)
+-    return {'status': 'PASS_EXACT_AREA_SCLK_BASELINE_WITH_FRONTEND_AND_OPTIN_LOW_SCORE',
++    return {'status': 'PASS_EXACT_AREA_SCLK_BASELINE_WITH_FRONTEND_AND_FACTORED_OPTIN_LOW_SCORE',
+         'baseline_bit_sha256': BASE_BIT_SHA, 'production_files': len(production),
+         'frontend': {'before': OLD_FRONTEND_SHA, 'after': FRONTEND_SHA},
+         'top_and_pipeline_parameters': top_parameters,
+@@ -221,8 +221,8 @@
+         'tools/build_vector_release.py', 'tools/review_remote_physical.py',
+         'tools/key3_stroke_regression_gate.py', 'tools/key3_physical_gate.py',
+         'tools/run_doc_dirt_regression.py', 'tools/run_cnn_lowconf_accept.py',
+-        'tools/key3_stroke_lowconf_area_regression_gate.py',
+-        'tools/run_cnn_area_pipeline_lowconf_area.py',
++        'tools/key3_stroke_lowconf_factored_regression_gate.py',
++        'tools/run_cnn_area_pipeline_lowconf_factored.py',
+         'tools/release_audit_config.json', AUDIT_CONFIG, *additional)))
+ 
+ 
+@@ -339,7 +339,7 @@
+     result = regression.check(files, required=SUITES)
+     evidence = regression.evidence_manifest(files, required=SUITES)
+     digest = __import__('hashlib').sha256(json.dumps(evidence, sort_keys=True).encode()).hexdigest().upper()
+-    path = ROOT / 'reports' / ('DIRT_LOWCONF_REGRESSION_EVIDENCE_' + digest + '.json')
++    path = ROOT / 'reports' / ('DIRT_LOWCONF_FACTORED_REGRESSION_EVIDENCE_' + digest + '.json')
+     if path.exists():
+         require(load(path) == evidence, 'Regression closure changed')
+     else:
+@@ -625,7 +625,7 @@
+         not data.get('intentional_pcb_model_hash_mismatches'),
+         'Physical review differs from the sole approved vision source delta')
+     old_cnn_review = data['cnn_review']
+-    data['cnn_review'] = ('Only vision_pipeline.v has the exact reviewed opt-in low-score output delta; '
++    data['cnn_review'] = ('Only vision_pipeline.v has the exact reviewed factored opt-in low-score output delta; '
+         'its default parameter zero preserves golden behavior and production top enables it. '
+         'Original soft-margin comparisons/flag6, CNN core, stabilizer, ordinary/PCB model bytes, '
+         'coordinates, HXA, DDR and constraints remain protected. Real-image and hardware validation '
+@@ -640,7 +640,7 @@
+         if old_cnn_review in body:
+             narrative.write_text(body.replace(old_cnn_review, data['cnn_review']), encoding='utf-8')
+     data['key3_reset_proof'] = proof
+-    data['fixed_dirt_lowconf_area_source_scope'] = scope()
++    data['fixed_dirt_lowconf_factored_source_scope'] = scope()
+     save(report, data)
+     logs = text(runs / 'syn_1/td_console.log') + text(runs / 'phy_1/td_console.log')
+     require(not any(code in logs for code in ('PHY-7027', 'PHY-9002', 'RTCLK-5078', 'USR-6113', 'HDL-5105')),
+@@ -690,6 +690,7 @@
+         'pipeline_exact_optin_delta': {'before': OLD_PIPELINE_SHA, 'after': PIPELINE_SHA},
+         'original_soft_margin_comparison_and_flag6_preserved': True,
+         'default_pipeline_parameter_zero_preserves_golden': True,
++        'hard_rejection_separated_from_soft_diagnostics': True,
+         'main_bit_change_required': False}
+ 
+     report['mapping_strategy'] = {'map_mode': 'area_prior', 'pack_effort': 'high', 'add_map_lut_struct': 'high', 'seed': 1}
+@@ -721,7 +722,7 @@
+         return 0
+     validate(runs)
+     if args.action == 'validate':
+-        print('PASS_CURRENT_FROZEN_DIRT_LOWCONF_PLAN')
++        print('PASS_CURRENT_FROZEN_DIRT_LOWCONF_FACTORED_PLAN')
+     elif args.action == 'syn':
+         document = dirt_regression_gate()
+         lowconf = lowconf_regression_gate()
+@@ -761,5 +762,5 @@
+     try:
+         raise SystemExit(main())
+     except (OSError, ValueError, KeyError, RuntimeError, AssertionError, ET.ParseError) as error:
+-        print('BUILD_DOC_DIRT_LOWCONF_AREA_FAIL:', error, file=sys.stderr)
++        print('BUILD_DOC_DIRT_LOWCONF_FACTORED_FAIL:', error, file=sys.stderr)
+         raise SystemExit(1)

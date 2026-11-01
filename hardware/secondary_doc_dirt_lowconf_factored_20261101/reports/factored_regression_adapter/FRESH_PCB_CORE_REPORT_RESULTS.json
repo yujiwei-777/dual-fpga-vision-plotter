@@ -1,0 +1,74 @@
+{
+  "status": "PASS_FRESH_PCB_CORE_REPORT_AFTER_STATIC_FIXTURE_REPAIR",
+  "hardware_status": "NOT_RUN",
+  "root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101",
+  "results": {
+    "cnn_named_pcb": {
+      "status": "PASS",
+      "results": "02_sim\\cnn_named_pcb\\RESULTS.json",
+      "results_sha256": "B5E79038BBFB0CED77E48C5A6E1881E9BC4D429EAA1E75C56B1E517B4EBFB138",
+      "input_count": 22,
+      "raw_binary_fixture_binding": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_named_pcb\\rtl_vectors\\raw_frames.bin": "D129232350AF1D7D04F3F5307F07A26438BDFB6CB0D428C733DFFBB79CAB47A6"
+      },
+      "tests": {
+        "tb_real_pcb_core": {
+          "status": "PASS",
+          "marker": "BINARY_C4_4_GOLDEN_PASS samples=15 sat=0",
+          "checks": [
+            "BINARY_C4_4_SAMPLE_PASS index=0 class=1 score=0 margin=257 logits=(-265,-8) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=1 class=1 score=55 margin=364 logits=(-309,55) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=2 class=1 score=0 margin=116 logits=(-192,-76) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=3 class=1 score=6 margin=306 logits=(-300,6) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=4 class=1 score=0 margin=271 logits=(-283,-12) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=5 class=1 score=0 margin=263 logits=(-280,-17) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=6 class=0 score=0 margin=31 logits=(-138,-169) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=7 class=0 score=0 margin=43 logits=(-128,-171) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=8 class=0 score=0 margin=30 logits=(-134,-164) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=9 class=0 score=0 margin=99 logits=(-97,-196) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=10 class=0 score=0 margin=48 logits=(-115,-163) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=11 class=0 score=0 margin=61 logits=(-107,-168) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=12 class=0 score=255 margin=1309 logits=(607,-702) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=13 class=0 score=255 margin=2786 logits=(958,-1828) cycles=889996",
+            "BINARY_C4_4_SAMPLE_PASS index=14 class=1 score=255 margin=2933 logits=(-1651,1282) cycles=889996",
+            "BINARY_C4_4_GOLDEN_PASS samples=15 sat=0"
+          ]
+        },
+        "tb_real_pcb_pipeline": {
+          "status": "PASS",
+          "marker": "PCB_RAW_PIPELINE_GOLDEN_PASS samples=9",
+          "checks": [
+            "PCB_RAW_PIPELINE_SAMPLE_PASS sample=0 class=1 status=1 margin=257 samples=9216 words=9216 cycles=989845",
+            "PCB_RAW_PIPELINE_SAMPLE_PASS sample=1 class=1 status=1 margin=364 samples=9216 words=9216 cycles=989867",
+            "PCB_RAW_PIPELINE_SAMPLE_PASS sample=2 class=1 status=1 margin=116 samples=9216 words=9216 cycles=989845",
+            "PCB_RAW_PIPELINE_SAMPLE_PASS sample=3 class=1 status=1 margin=306 samples=9216 words=9216 cycles=989847",
+            "PCB_RAW_PIPELINE_SAMPLE_PASS sample=4 class=1 status=1 margin=271 samples=9216 words=9216 cycles=989846",
+            "PCB_RAW_PIPELINE_SAMPLE_PASS sample=5 class=1 status=1 margin=263 samples=9216 words=9216 cycles=989845",
+            "PCB_RAW_PIPELINE_SAMPLE_PASS sample=6 class=0 status=2 margin=31 samples=9216 words=9216 cycles=989844",
+            "PCB_RAW_PIPELINE_SAMPLE_PASS sample=7 class=0 status=0 margin=43 samples=9216 words=9216 cycles=989845",
+            "PCB_RAW_PIPELINE_SAMPLE_PASS sample=8 class=0 status=2 margin=30 samples=9216 words=9216 cycles=989845",
+            "PCB_RAW_PIPELINE_GOLDEN_PASS samples=9"
+          ]
+        }
+      }
+    },
+    "cnn_stability_core": {
+      "status": "PASS",
+      "results": "02_sim\\cnn_stability_core\\RESULTS.json",
+      "results_sha256": "0E7C2BA157046515C4E80495E94EFBE0D3AAE002B79E17E09D6ABCF563B886AC",
+      "input_count": 23,
+      "full_inference_cases": 27
+    },
+    "cnn_named_report": {
+      "status": "PASS",
+      "results": "02_sim\\cnn_named_report\\RESULTS.json",
+      "results_sha256": "83FB03AE718BA83FC796B34A0E581D446D747908C5F6EDD195FD6F2FD1AA096B",
+      "input_count": 8,
+      "jobs": 33
+    }
+  },
+  "old_pass_imported_as_fresh": false,
+  "production_modified": false,
+  "gate_or_builder_mapping_changed": false,
+  "failure_evidence": "reports/factored_regression_adapter/pcb_fixture_missing_failure"
+}

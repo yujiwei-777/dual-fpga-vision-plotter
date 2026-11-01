@@ -1,0 +1,83 @@
+{
+  "status": "PASS_EXACT_FACTORED_SCOPE_NEGATIVE_TESTS",
+  "hardware_status": "NOT_RUN",
+  "positive": {
+    "status": "PASS_EXACT_FACTORED_OPTIN_LOW_SCORE_TOP_AND_PIPELINE_DELTA",
+    "top": {
+      "before": "64176506920BFF546415A1D1433FE1F6558FAAA565B5845FA826B56566694DCA",
+      "after": "DCA939F1C76E1920FF99647E1C19B733C6A0177033631317DCAED237FD2106DC"
+    },
+    "pipeline": {
+      "before": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+      "after": "02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5"
+    },
+    "parameters": {
+      "CNN_LOWCONF_OUTPUT": 1,
+      "TRIANGLE_MARGIN_MIN": 31,
+      "CIRCLE_MARGIN_MIN": 28,
+      "SQUARE_MARGIN_MIN": 77,
+      "COLOR_MARGIN_MIN": 0
+    },
+    "default_pipeline_parameter_zero_preserves_golden": true,
+    "soft_margin_comparison_and_flag6_preserved": true,
+    "hard_rejection_separated_from_soft_diagnostics": true,
+    "inherited_gate_sha256": "39E7074695586C24E76EC5A249DE1286B9DA9A957376ECCB1A0AE63EA75F135A",
+    "legacy_area_wrapper_sha256": "E6F7DA5B40862CF59CD831C898E10015ACF87420DB80A79C59FD3398055C12BF",
+    "all_other_pins_and_seven_suite_contracts_unchanged": true
+  },
+  "negative_cases": [
+    {
+      "case": "baseline_eol_drift",
+      "status": "REJECTED",
+      "reason": "Unexpected baseline EOL"
+    },
+    {
+      "case": "missing_exact_anchor",
+      "status": "REJECTED",
+      "reason": "Unreviewed factored pipeline replacement anchor"
+    },
+    {
+      "case": "duplicated_exact_anchor",
+      "status": "REJECTED",
+      "reason": "Unreviewed factored pipeline replacement anchor"
+    },
+    {
+      "case": "pipeline_pin_drift",
+      "status": "REJECTED",
+      "reason": "Unreviewed low-score source: 01_rtl/vision_pipeline.v"
+    },
+    {
+      "case": "top_pin_drift",
+      "status": "REJECTED",
+      "reason": "Unreviewed low-score source: 01_rtl/secondary_top.v"
+    },
+    {
+      "case": "wrapper_pin_drift",
+      "status": "REJECTED",
+      "reason": "Unreviewed legacy area wrapper"
+    },
+    {
+      "case": "inherited_gate_pin_drift",
+      "status": "REJECTED",
+      "reason": "Inherited strict seven-suite gate was modified"
+    },
+    {
+      "case": "wrong_independent_root",
+      "status": "REJECTED",
+      "reason": "Low-score area gate restricted to its independent root"
+    },
+    {
+      "case": "inherited_gate_preoverridden",
+      "status": "REJECTED",
+      "reason": "Inherited gate root/pin was already overridden"
+    },
+    {
+      "case": "hash_spoof_cannot_bypass_exact_source_reconstruction",
+      "status": "REJECTED",
+      "reason": "Pipeline changed beyond exact optional low-score output branch"
+    }
+  ],
+  "simulation_run": false,
+  "production_modified": false,
+  "all_original_seven_suite_contracts_unchanged": true
+}

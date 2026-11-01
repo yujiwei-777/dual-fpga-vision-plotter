@@ -1,0 +1,59 @@
+--- production/cnn_result_stabilizer.v
++++ candidate/cnn_result_stabilizer.v
+@@ -192,6 +192,13 @@
+     // bad_age is at most HOLD_LIMIT while a confirmed class exists.
+     wire may_hold=!update_is_new && meta_bad<HOLD_LIMIT;
+ 
++    // Mutually exclusive accept/retain cases share their predicates across
++    // every metadata field; no duplicated nested class/streak decisions.
++    wire update_has_confirmed=!update_is_new && meta_confirmed!=0;
++    wire update_accept=update_reliable &&
++        (confirm_now || (update_has_confirmed && update_class==meta_confirmed));
++    wire update_hold=update_has_confirmed && may_hold;
++
+     // Combinational next-word calculation. No second metadata cache is kept.
+     // New allocation initializes every field regardless of old RAM contents.
+     always @* begin
+@@ -199,32 +206,17 @@
+         next_bad=meta_bad;next_lost=meta_lost;next_confidence=meta_confidence;
+         update_visible=0;update_uncertain=0;
+         if(state==S_UPDATE_APPLY)begin
+-            if(update_is_new)begin
+-                next_confirmed=0;next_pending=0;next_count=0;next_bad=0;next_lost=0;next_confidence=0;
+-            end
+-            next_lost=0;next_confidence=0;
+-            if(update_is_new || meta_confirmed==0)begin
+-                next_confirmed=0;next_bad=0;
+-                if(update_reliable)begin
++            next_lost=0;next_confidence=0;next_pending=0;next_count=0;next_bad=0;
++            next_confirmed=update_accept?update_class:
++                (update_hold?meta_confirmed:4'd0);
++            update_visible=update_accept || update_hold;
++            update_uncertain=!update_accept;
++            if(update_accept)next_confidence=update_confidence;
++            else begin
++                if(update_hold)next_bad=meta_bad+1'b1;
++                if(update_reliable && (!update_has_confirmed || may_hold))begin
+                     next_pending=update_class;next_count=next_pending_count;
+-                    if(confirm_now)begin
+-                        next_confirmed=update_class;update_visible=1;next_confidence=update_confidence;
+-                        next_pending=0;next_count=0;
+-                    end else update_uncertain=1;
+-                end else begin next_pending=0;next_count=0;update_uncertain=1;end
+-            end else if(update_reliable && update_class==meta_confirmed)begin
+-                next_pending=0;next_count=0;next_bad=0;
+-                next_confidence=update_confidence;update_visible=1;
+-            end else if(update_reliable && confirm_now)begin
+-                next_confirmed=update_class;next_pending=0;next_count=0;next_bad=0;
+-                next_confidence=update_confidence;update_visible=1;
+-            end else begin
+-                update_uncertain=1;
+-                if(may_hold)begin
+-                    next_bad=meta_bad+1'b1;update_visible=1;
+-                    if(update_reliable)begin next_pending=update_class;next_count=next_pending_count;end
+-                    else begin next_pending=0;next_count=0;end
+-                end else begin next_confirmed=0;next_pending=0;next_count=0;next_bad=0;end
++                end
+             end
+         end else if(state==S_UPDATE_SELECT && track_used[track_index] && !track_matched[track_index])begin
+             // Missing observations never emit ghost geometry. The SELECT

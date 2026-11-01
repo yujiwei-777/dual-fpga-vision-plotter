@@ -1,0 +1,14 @@
+{
+  "command": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-quiet",
+    "-lib",
+    "work",
+    "tb_stroke_split",
+    "-do",
+    "onerror {quit -code 1}; run -all; quit -f"
+  ],
+  "returncode": 0,
+  "log_sha256": "51DB52171E68A5F4598497EE06688AAADB23486FF99112BB42859261DB5DE621"
+}

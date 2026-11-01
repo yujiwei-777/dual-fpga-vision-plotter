@@ -1,0 +1,168 @@
+PORT I_sys_clk
+PORT_NET I_sys_clk
+NET REQUEST=I_key3_n OBJECTS=I_key3_n DEPTH=0
+NET_DRIVERS NET=I_key3_n PINS=I_key3_n
+NET REQUEST=I_key3_n_dup_1 OBJECTS= DEPTH=0
+NET REQUEST=I_key2_n OBJECTS=I_key2_n DEPTH=0
+NET_DRIVERS NET=I_key2_n PINS=I_key2_n
+NET REQUEST=I_key2_n_dup_1 OBJECTS= DEPTH=0
+NET REQUEST=I_key1_n OBJECTS=I_key1_n DEPTH=0
+NET_DRIVERS NET=I_key1_n PINS=I_key1_n
+NET REQUEST=I_key1_n_dup_1 OBJECTS= DEPTH=0
+CELL NAME=I_key3_n_syn_4 OBJECTS=I_key3_n_syn_4
+CELL_PROPERTY I_key3_n_syn_4 TYPE=AL_PHY_HD_PAD
+CELL_PROPERTY I_key3_n_syn_4 REF_NAME=PH1P_PHY_HD_PAD
+CELL_PROPERTY_TABLE_BEGIN I_key3_n_syn_4
+Property             Type       Read-only  Value
+CLASS                string     true       cell
+FILE_NAME            string     true       ../../01_rtl/secondary_top.v
+FORCE_KEEP           bool       false      false
+IS_BLACKBOX          bool       true       false
+IS_DEBUGGABLE        bool       true       false
+IS_PLACED            bool       true       false
+IS_PRIMITIVE         bool       true       false
+LINE_NUMBER          int        true       14
+NAME                 string     true       I_key3_n_syn_4
+PRIMITIVE_COUNT      int        true       0
+REF_NAME             string     true       PH1P_PHY_HD_PAD
+TYPE                 string     true       AL_PHY_HD_PAD
+IDDRMODE             string     true       BYPASS
+IOTYPE               string     true       LVCMOS33
+LOCATION             string     true       B9
+MODE                 string     true       IN
+ODLYEN               string     true       DISABLE
+PULLMODE             string     true       PULLUP
+TSMUX                string     true       1
+
+CELL_PROPERTY_TABLE_END I_key3_n_syn_4
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.ce DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.dly[4] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.dly[3] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.dly[2] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.dly[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.dly[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.dly_in DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.dly_src_sel DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.doq[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.doq[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.in_dl_return DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.in_dl_through DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.ipad DIRECTION=0 NETS=I_key3_n
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.ipclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.lb_enb DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.osclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.rst DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.ts DIRECTION=0 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.di DIRECTION=1 NETS=I_key3_n_dup_3
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.diq[1] DIRECTION=1 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.diq[0] DIRECTION=1 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.dly_out DIRECTION=1 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.opad DIRECTION=1 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.out_dl_return DIRECTION=1 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.out_dl_through DIRECTION=1 NETS=
+CELL_PIN CELL=I_key3_n_syn_4 PIN=I_key3_n_syn_4.bpad DIRECTION=2 NETS=
+CELL NAME=I_key2_n_syn_4 OBJECTS=I_key2_n_syn_4
+CELL_PROPERTY I_key2_n_syn_4 TYPE=AL_PHY_HD_PAD
+CELL_PROPERTY I_key2_n_syn_4 REF_NAME=PH1P_PHY_HD_PAD
+CELL_PROPERTY_TABLE_BEGIN I_key2_n_syn_4
+Property             Type       Read-only  Value
+CLASS                string     true       cell
+FILE_NAME            string     true       ../../01_rtl/secondary_top.v
+FORCE_KEEP           bool       false      false
+IS_BLACKBOX          bool       true       false
+IS_DEBUGGABLE        bool       true       false
+IS_PLACED            bool       true       false
+IS_PRIMITIVE         bool       true       false
+LINE_NUMBER          int        true       14
+NAME                 string     true       I_key2_n_syn_4
+PRIMITIVE_COUNT      int        true       0
+REF_NAME             string     true       PH1P_PHY_HD_PAD
+TYPE                 string     true       AL_PHY_HD_PAD
+IDDRMODE             string     true       BYPASS
+IOTYPE               string     true       LVCMOS33
+LOCATION             string     true       A9
+MODE                 string     true       IN
+ODLYEN               string     true       DISABLE
+PULLMODE             string     true       PULLUP
+TSMUX                string     true       1
+
+CELL_PROPERTY_TABLE_END I_key2_n_syn_4
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.ce DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.dly[4] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.dly[3] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.dly[2] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.dly[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.dly[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.dly_in DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.dly_src_sel DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.doq[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.doq[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.in_dl_return DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.in_dl_through DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.ipad DIRECTION=0 NETS=I_key2_n
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.ipclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.lb_enb DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.osclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.rst DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.ts DIRECTION=0 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.di DIRECTION=1 NETS=I_key2_n_dup_3
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.diq[1] DIRECTION=1 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.diq[0] DIRECTION=1 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.dly_out DIRECTION=1 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.opad DIRECTION=1 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.out_dl_return DIRECTION=1 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.out_dl_through DIRECTION=1 NETS=
+CELL_PIN CELL=I_key2_n_syn_4 PIN=I_key2_n_syn_4.bpad DIRECTION=2 NETS=
+CELL NAME=I_key1_n_syn_4 OBJECTS=I_key1_n_syn_4
+CELL_PROPERTY I_key1_n_syn_4 TYPE=AL_PHY_HD_PAD
+CELL_PROPERTY I_key1_n_syn_4 REF_NAME=PH1P_PHY_HD_PAD
+CELL_PROPERTY_TABLE_BEGIN I_key1_n_syn_4
+Property             Type       Read-only  Value
+CLASS                string     true       cell
+FILE_NAME            string     true       ../../01_rtl/secondary_top.v
+FORCE_KEEP           bool       false      false
+IS_BLACKBOX          bool       true       false
+IS_DEBUGGABLE        bool       true       false
+IS_PLACED            bool       true       false
+IS_PRIMITIVE         bool       true       false
+LINE_NUMBER          int        true       14
+NAME                 string     true       I_key1_n_syn_4
+PRIMITIVE_COUNT      int        true       0
+REF_NAME             string     true       PH1P_PHY_HD_PAD
+TYPE                 string     true       AL_PHY_HD_PAD
+IDDRMODE             string     true       BYPASS
+IOTYPE               string     true       LVCMOS33
+LOCATION             string     true       D5
+MODE                 string     true       IN
+ODLYEN               string     true       DISABLE
+PULLMODE             string     true       PULLUP
+TSMUX                string     true       1
+
+CELL_PROPERTY_TABLE_END I_key1_n_syn_4
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.ce DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.dly[4] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.dly[3] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.dly[2] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.dly[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.dly[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.dly_in DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.dly_src_sel DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.doq[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.doq[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.in_dl_return DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.in_dl_through DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.ipad DIRECTION=0 NETS=I_key1_n
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.ipclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.lb_enb DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.osclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.rst DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.ts DIRECTION=0 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.di DIRECTION=1 NETS=I_key1_n_dup_3
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.diq[1] DIRECTION=1 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.diq[0] DIRECTION=1 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.dly_out DIRECTION=1 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.opad DIRECTION=1 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.out_dl_return DIRECTION=1 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.out_dl_through DIRECTION=1 NETS=
+CELL_PIN CELL=I_key1_n_syn_4 PIN=I_key1_n_syn_4.bpad DIRECTION=2 NETS=
+TD_CLOCK_INVENTORY_PASS

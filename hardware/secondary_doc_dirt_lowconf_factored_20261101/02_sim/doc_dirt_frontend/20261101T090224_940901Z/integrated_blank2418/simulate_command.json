@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-lib",
+    "work",
+    "tb_stroke_split",
+    "-do",
+    "onerror {quit -code 1}; run -all; quit -f"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 13.401,
+  "log_sha256": "4668B41FB21DF300E3D959164085E9388DA2D4A08618164B709306D1E7619FFE"
+}

@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vlog.exe",
+    "-sv",
+    "-lint",
+    "+define+DOC_BEHAVIORAL_RAM",
+    "-work",
+    "work",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_image_frontend.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_planner.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_bram.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_path_distance.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_machine_map.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_plotter.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_map.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_streamer.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_response_parser.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_line_formatter.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_copy_pipeline.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\source\\tb_capture_integrated.sv"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.103,
+  "log_sha256": "1EFD1357C88E216249C2578D891D2868BD687824C1ECAE3CE66FEAADF4E63833"
+}

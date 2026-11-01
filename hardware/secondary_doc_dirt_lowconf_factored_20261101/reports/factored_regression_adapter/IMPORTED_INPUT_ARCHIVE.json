@@ -1,0 +1,184 @@
+{
+  "status": "ARCHIVED_IMPORTED_GENERATED_INPUTS_NOT_SIMULATION_EVIDENCE",
+  "hardware_status": "NOT_RUN",
+  "reason": "Canonical original runner/gate paths must be absent for fresh execution; clone carried only inherited input artifacts.",
+  "moves": [
+    {
+      "from": "02_sim/cnn_named_top",
+      "to": "reports/factored_regression_adapter/imported_generated_inputs/cnn_named_top",
+      "files": {
+        "secondary_top_leaf_stubs.sv": "C7EF60226F9133E5FF56411ABDDA3B06B0AD90D2E4F579ADCC18570FE5889B27",
+        "tb_cnn_named_top.sv": "E8259DDF13A5907CA10145BCFFC894C4AC44EF8F9DBF7EE2EEA2F2768FF3072D"
+      }
+    },
+    {
+      "from": "02_sim/key3_top_reset_release",
+      "to": "reports/factored_regression_adapter/imported_generated_inputs/key3_top_reset_release",
+      "files": {
+        "controlled_leaves.sv": "4E1DA48F8C25B89A854F6298F14183D2899F82BE7388FFF3F2EA263D377E18A8",
+        "tb_key3_top_reset.sv": "BB07E9E50E42A584D5583370564B868EC3C29564AD79048490C84768F7E82B41"
+      }
+    },
+    {
+      "from": "02_sim/stroke_release",
+      "to": "reports/factored_regression_adapter/imported_generated_inputs/stroke_release",
+      "files": {
+        "blank/expected.mem": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "blank/expected.vh": "8BE13A634FE21F3332774649C6BD5DF0FC12397F5B71BEE7BE4987F6DD25D0F8",
+        "blank/input.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+        "blank/skeleton.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+        "blank/tb_stroke_split.sv": "3A14701CA1BC70C3647B8C5A3156B94CCB8A531B51C06D1C8B1545688AB705F7",
+        "edge_capacity/expected.mem": "04C0521586E564117FA01EF08646E4466EAF319057CA35B0475CE2EB4E2111A2",
+        "edge_capacity/expected.vh": "975C1EE10E15228BCD76C17F9843CA41160E7D0AEDBAEF5F2DE0CDE4BE0475F2",
+        "edge_capacity/input.mem": "0C3215E7FC965C3FC9514E5D27E04E408F0F985F6AA26CB72DE49177DF6B1EEA",
+        "edge_capacity/skeleton.mem": "8F3373ED6FAC08A06FD30F5507353B6CAF58D8A25513BC29786EA584FF534F85",
+        "edge_capacity/tb_stroke_split.sv": "3A14701CA1BC70C3647B8C5A3156B94CCB8A531B51C06D1C8B1545688AB705F7",
+        "lifecycle/tb_stroke_lifecycle.sv": "D993A31CBC73AA948B3E088303DDA6842BB20BE3CADC0A12D45D4F43B8495B90",
+        "mixed_nn/expected.mem": "04C0521586E564117FA01EF08646E4466EAF319057CA35B0475CE2EB4E2111A2",
+        "mixed_nn/expected.vh": "75EA7E4EA1861AF74D76C2CEAD8A0E1F2C091D411499E7966A2392CF166EC02C",
+        "mixed_nn/input.mem": "0C3215E7FC965C3FC9514E5D27E04E408F0F985F6AA26CB72DE49177DF6B1EEA",
+        "mixed_nn/skeleton.mem": "8F3373ED6FAC08A06FD30F5507353B6CAF58D8A25513BC29786EA584FF534F85",
+        "mixed_nn/tb_stroke_split.sv": "3A14701CA1BC70C3647B8C5A3156B94CCB8A531B51C06D1C8B1545688AB705F7",
+        "mixed_two_opt/expected.mem": "B75D321C368434960DA3575644C2CC7A2DDFA4E0663CF7BFFEBA077C5D785865",
+        "mixed_two_opt/expected.vh": "43CB30B593637531B7F34A1EB0199481B1851FED14530A477D817FD1B4CE2869",
+        "mixed_two_opt/input.mem": "0C3215E7FC965C3FC9514E5D27E04E408F0F985F6AA26CB72DE49177DF6B1EEA",
+        "mixed_two_opt/skeleton.mem": "8F3373ED6FAC08A06FD30F5507353B6CAF58D8A25513BC29786EA584FF534F85",
+        "mixed_two_opt/tb_stroke_split.sv": "3A14701CA1BC70C3647B8C5A3156B94CCB8A531B51C06D1C8B1545688AB705F7",
+        "path_capacity/expected.mem": "04C0521586E564117FA01EF08646E4466EAF319057CA35B0475CE2EB4E2111A2",
+        "path_capacity/expected.vh": "C0A09F2ED87238BE3009A179734E7E92A8D9F47DD398C8864340260A8D7A180A",
+        "path_capacity/input.mem": "0C3215E7FC965C3FC9514E5D27E04E408F0F985F6AA26CB72DE49177DF6B1EEA",
+        "path_capacity/skeleton.mem": "8F3373ED6FAC08A06FD30F5507353B6CAF58D8A25513BC29786EA584FF534F85",
+        "path_capacity/tb_stroke_split.sv": "3A14701CA1BC70C3647B8C5A3156B94CCB8A531B51C06D1C8B1545688AB705F7",
+        "point_capacity/expected.mem": "04C0521586E564117FA01EF08646E4466EAF319057CA35B0475CE2EB4E2111A2",
+        "point_capacity/expected.vh": "9309BA1373419AB7528F20D5068E976C24C80ECF8F654EFE675D217E729F31CB",
+        "point_capacity/input.mem": "0C3215E7FC965C3FC9514E5D27E04E408F0F985F6AA26CB72DE49177DF6B1EEA",
+        "point_capacity/skeleton.mem": "8F3373ED6FAC08A06FD30F5507353B6CAF58D8A25513BC29786EA584FF534F85",
+        "point_capacity/tb_stroke_split.sv": "3A14701CA1BC70C3647B8C5A3156B94CCB8A531B51C06D1C8B1545688AB705F7"
+      }
+    },
+    {
+      "from": "02_sim/cnn_named_pcb",
+      "to": "reports/factored_regression_adapter/imported_generated_inputs/cnn_named_pcb",
+      "files": {
+        "tb_real_pcb_core.sv": "24AF737C03E552C0B0F03A029A5A843E756878A19573681774EB95AC22F91B03",
+        "tb_real_pcb_pipeline.sv": "D8FBF617406A3A34205CD95E35AC090DD0DC42284B29CD7B10CBB5EDB5E2C5B5",
+        "rtl_vectors/expected_f1.mem": "170FF188D10D5230AFA43AA6485CB5CCEF2E022344BD315C21C1C8D2C5AC2A41",
+        "rtl_vectors/expected_f2.mem": "A4F87980888E10AE972933A5B2964051A23DD4EE0D2E8BB1DC06084208B2F240",
+        "rtl_vectors/expected_logits.mem": "913EEE337B28A7CF6CFA8E3D89C345447B61D704E9B7C65D343F5B7F6496DC27",
+        "rtl_vectors/expected_pool.mem": "CE28E4204B0BEDF708CBBA71F494378D6B8E3D70EC5F877E7B790F3626CAF086",
+        "rtl_vectors/input_pixels.mem": "674BC2C5D72713B16C550A3DCD1F039210D9CC1CEF672C23CEC9EA779AE833F9"
+      }
+    },
+    {
+      "from": "02_sim/cnn_area_pipeline_compact",
+      "to": "reports/factored_regression_adapter/imported_generated_inputs/cnn_area_pipeline_compact",
+      "files": {
+        "domain/prove_compact_area_domain.py": "88A99764B33D2DEA67D2F2D89FB6F74795FAEC7B2DBE55FD95FFB3E37CBC8DE4",
+        "imported_area_derivation/01_rtl/cnn_core.v": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3",
+        "imported_area_derivation/01_rtl/cnn_result_stabilizer.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+        "imported_area_derivation/01_rtl/secondary_top.v": "E2230101BB9E144AF86BBB26C4D4A8F39B832C547D91B34E6F71BE32B2EC71D6",
+        "imported_area_derivation/01_rtl/vision_pipeline.v": "C7B43FE8727F1145C2EF060CE9DC464029AF74CB4BD372DF10E1395E5D878413",
+        "imported_area_derivation/02_sim/cnn_stability_serial/tb_cnn_stability_serial.sv": "D6ACE7233964B2597DAAEC8B340586400F3B5CB86355C07356DAACC6D6D8D575",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/cnn_result_stabilizer.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/cnn_result_stabilizer_r11.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/prepare_candidate.py": "34C19AFAECE87B26A56465BA96C168CCDEFB428202AD9A140C4BFFE5C5F2FF66",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/run_production_reference.py": "8DD974135832DE2B5B7BD8D19A9F42518D7E449CCC4ED8C485CF63EA40371CAA",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/run_state_lifecycle.py": "834A2D6B04033176397080CCA4F721F82C3E91EF39AE032C7D8F8C445A1D83DF",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/run_verification.py": "0FA62151A3E6226AF33B8D9B6337D42E362D16D1FDE6F0787684223CB668BF81",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/production_reference/tb_cnn_stability_serial.sv": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/state_lifecycle/cnn_result_stabilizer_baseline.v": "FCB7C384764F3D96BF18515E2C0A74C39DFA136D5BE7367738600E4DAD76C968",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/state_lifecycle/tb_combined_state_lifecycle.sv": "06AAB16A8220685B61D50130B26253855CD9A4AE3019D62D5E214292EC527DF1",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/verification/cnn_result_stabilizer_baseline.sv": "FCB7C384764F3D96BF18515E2C0A74C39DFA136D5BE7367738600E4DAD76C968",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/verification/tb_area_grid_equivalence.sv": "EB3CDC503E637AF0A80C9E02BE343DF6AB2BC812ACF8AFFFE6E1C9C96309457B",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/verification/tb_cnn_stability_metadata_atomic.sv": "8EE5CED2636512865830401DAD05A76C6061DF3878E9B64D2DD13670FC7EFDFC",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/verification/tb_cnn_stability_ram.sv": "3B0A63F7A92665D82828CF5FEB28302605A607E6009B9F6C3F8AF625C97270C8",
+        "imported_area_derivation/reports/kernel_area_overlap_combined_candidate/verification/tb_cnn_stability_serial.sv": "D6ACE7233964B2597DAAEC8B340586400F3B5CB86355C07356DAACC6D6D8D575",
+        "imported_area_derivation/reports/kernel_overlap_redundancy_candidate/tb_overlap_equivalence.sv": "206CAD1D5DED4BB4D42F4CC63D25912D11D3F87FB1FB6C449310B71E0C669222",
+        "imported_area_derivation/tools/cnn_stability_reference.py": "402F7F30E8BD1F9036314639BD59B514137016711783D670C52D8CA87BC53503",
+        "imported_metadata_functional/audit_evidence.py": "6DD5EF1CF0036F174E61E038B6D5D6C274EA82F9A8CBEDAECCEE2E229E374416",
+        "imported_metadata_functional/cnn_result_stabilizer.v": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+        "imported_metadata_functional/cnn_result_stabilizer_baseline.v": "5EB86B41BE952A4948A50EE17E8DB83EA8A892C7E05365AC8F525BE4D11B10C5",
+        "imported_metadata_functional/pipeline_leaf_stubs.sv": "B19E7BDF866824235C6B89DC78E4A3FCD41C48FD0EE4C29FFA8ADFCF89AEAAA2",
+        "imported_metadata_functional/run_regression.py": "54DE43B460E5488FD8123EA28C008B15676E232689372F612C0D8937552F6316",
+        "imported_metadata_functional/tb_area_grid_equivalence.sv": "A9D6CF90462E5BE11F2587E988D4A9149E8ED49548FD04AAF50A62BB58C7985C",
+        "imported_metadata_functional/tb_cnn_stability_serial.sv": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40",
+        "imported_metadata_functional/tb_combined_state_lifecycle.sv": "D02B53183F141DA8C66B8D4DA65CF21C89EEBCD46427DB8D246117A9507FB363",
+        "imported_metadata_functional/tb_fixed_grid_mapping_miter.sv": "98A159C7E02713647ADCDF99215B5E69CE7499137B078A66F0A6351AB529E26A",
+        "imported_metadata_functional/vision_pipeline.v": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+        "imported_metadata_functional/vision_pipeline_baseline.v": "7876918A9EA2347E2E1791DCA47A30004462F8B536EECF81B3780BB8EE1233C3",
+        "imported_metadata_origins/secondary_cnn_geometry_phase_scratch_20261031/pipeline_leaf_stubs.sv": "B19E7BDF866824235C6B89DC78E4A3FCD41C48FD0EE4C29FFA8ADFCF89AEAAA2",
+        "imported_metadata_origins/secondary_cnn_geometry_phase_scratch_20261031/tb_area_grid_equivalence.sv": "A9D6CF90462E5BE11F2587E988D4A9149E8ED49548FD04AAF50A62BB58C7985C",
+        "imported_metadata_origins/secondary_cnn_geometry_phase_scratch_20261031/tb_cnn_stability_serial.sv": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40",
+        "imported_metadata_origins/secondary_cnn_geometry_phase_scratch_20261031/tb_combined_state_lifecycle.sv": "D02B53183F141DA8C66B8D4DA65CF21C89EEBCD46427DB8D246117A9507FB363",
+        "imported_metadata_origins/secondary_cnn_geometry_phase_scratch_20261031/tb_fixed_grid_mapping_miter.sv": "98A159C7E02713647ADCDF99215B5E69CE7499137B078A66F0A6351AB529E26A",
+        "imported_metadata_origins/secondary_cnn_geometry_phase_scratch_20261031/vision_pipeline.v": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+        "imported_metadata_origins/secondary_cnn_geometry_phase_scratch_20261031/vision_pipeline_baseline.v": "7876918A9EA2347E2E1791DCA47A30004462F8B536EECF81B3780BB8EE1233C3",
+        "imported_metadata_origins/secondary_cnn_key3_stroke_release_20261031/01_rtl/cnn_result_stabilizer.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+        "imported_metadata_origins/secondary_cnn_key3_stroke_release_20261031/01_rtl/vision_pipeline.v": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+        "imported_metadata_origins/secondary_cnn_metadata_flat_scratch_20261031/cnn_result_stabilizer.v": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+        "kernel_configurations/tb_area_grid_equivalence.sv": "A9D6CF90462E5BE11F2587E988D4A9149E8ED49548FD04AAF50A62BB58C7985C",
+        "kernel_lifecycle/tb_combined_state_lifecycle.sv": "D02B53183F141DA8C66B8D4DA65CF21C89EEBCD46427DB8D246117A9507FB363",
+        "kernel_reference/tb_cnn_stability_serial.sv": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40",
+        "origin/cnn_result_stabilizer_baseline.v": "5EB86B41BE952A4948A50EE17E8DB83EA8A892C7E05365AC8F525BE4D11B10C5",
+        "origin/cnn_result_stabilizer_r11.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+        "origin/cnn_result_stabilizer_reference.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+        "origin/prove_domain_original.py": "EE9DEAE0B5792786BA0839B9B49F2F6222DE3F1F55B4EA78021F680BA5071F99",
+        "origin/vision_pipeline_r11.v": "C7B43FE8727F1145C2EF060CE9DC464029AF74CB4BD372DF10E1395E5D878413",
+        "pipeline_miter/pipeline_leaf_stubs.sv": "B19E7BDF866824235C6B89DC78E4A3FCD41C48FD0EE4C29FFA8ADFCF89AEAAA2",
+        "pipeline_miter/tb_fixed_grid_mapping_miter.sv": "98A159C7E02713647ADCDF99215B5E69CE7499137B078A66F0A6351AB529E26A",
+        "pipeline_miter/vision_pipeline_baseline.v": "7E04D7B9A1B898F5E8721415B37C13C72263C76909AAD0FD608AF9CD69E45C4C"
+      }
+    },
+    {
+      "from": "02_sim/cnn_stability_core",
+      "to": "reports/factored_regression_adapter/imported_generated_inputs/cnn_stability_core",
+      "files": {
+        "feature1.mem": "38DA53DCFB1D632BAD524E04E78BCCC7119154E1FCD2A019E2545E69DE02DA2D",
+        "feature2.mem": "225BB3A9EBD3075C6546FB88CB75F61E317F9023C40CF94009C0B14FFCA7CAB3",
+        "pixels.mem": "691C174BA0AA9E361BE9C2184F2BFE0696C03EBAF9E6FFEF81CDE9674F1C60E0",
+        "results.mem": "CE05256BAAC5305D3BC33ADD69F84FA07106594E7D3254A3DEB21193C4ECA25C",
+        "shape.mem": "CBF01DCD08537B4F328CC7DD273A21C671E05A06EC953A2EBC1475411EE3B0D3",
+        "tb_cnn_stability_boundaries.sv": "A6A737D1196C3B5D99784C0A988C1066A844D402199BF2FE6F719AB0613D4090",
+        "tb_cnn_stability_core.sv": "73D46C3BD16C804D477C43669135102587DBA254591404E9491823972D68CF02",
+        "fixture_origin/feature1.mem": "38DA53DCFB1D632BAD524E04E78BCCC7119154E1FCD2A019E2545E69DE02DA2D",
+        "fixture_origin/feature2.mem": "225BB3A9EBD3075C6546FB88CB75F61E317F9023C40CF94009C0B14FFCA7CAB3",
+        "fixture_origin/pixels.mem": "691C174BA0AA9E361BE9C2184F2BFE0696C03EBAF9E6FFEF81CDE9674F1C60E0",
+        "fixture_origin/results.mem": "CE05256BAAC5305D3BC33ADD69F84FA07106594E7D3254A3DEB21193C4ECA25C",
+        "fixture_origin/shape.mem": "CBF01DCD08537B4F328CC7DD273A21C671E05A06EC953A2EBC1475411EE3B0D3",
+        "fixture_origin/tb_remote_detail.sv": "5857D5737FBC89102348D9B0D5244BA7C5EBF04AE288B5233A7DE2F041072C09"
+      }
+    },
+    {
+      "from": "02_sim/cnn_named_report",
+      "to": "reports/factored_regression_adapter/imported_generated_inputs/cnn_named_report",
+      "files": {
+        "tb_cnn_named_report.sv": "DED514DB8DD540B9F90333BE3D21A3A5264B06791DFC7AC906555E31C92C4880"
+      }
+    },
+    {
+      "from": "02_sim/compact_metric_boundaries",
+      "to": "reports/factored_regression_adapter/imported_generated_inputs/compact_metric_boundaries",
+      "files": {
+        "doc_stroke_planner_baseline.v": "8300D0764B8EC88E229CEC24A68EFF7DC2F4AFFA020964A066CE82755BEA5FEC",
+        "finite_bound/tb_metric_directed.sv": "165178A87D3F9FA162157207A7E70FB1D17D22E3538A1BC652C01938F8993473",
+        "generic32/tb_metric_directed.sv": "1CC83F7270F084310165D832415CD27FD5686DEC5C5D0A48616BA35F54DB4370"
+      }
+    },
+    {
+      "from": "02_sim/key3_top_reset",
+      "to": "reports/factored_regression_adapter/imported_generated_inputs/key3_top_reset",
+      "files": {
+        "controlled_leaves.sv": "4E1DA48F8C25B89A854F6298F14183D2899F82BE7388FFF3F2EA263D377E18A8",
+        "tb_key3_top_reset.sv": "BB07E9E50E42A584D5583370564B868EC3C29564AD79048490C84768F7E82B41"
+      }
+    }
+  ],
+  "restored_static_inputs": [
+    {
+      "source": "reports/factored_regression_adapter/imported_generated_inputs/cnn_named_report/tb_cnn_named_report.sv",
+      "target": "02_sim/cnn_named_report/tb_cnn_named_report.sv",
+      "sha256": "DED514DB8DD540B9F90333BE3D21A3A5264B06791DFC7AC906555E31C92C4880",
+      "purpose": "Unmodified canonical reporter testbench input required by legacy runner and lowconf prepare"
+    }
+  ]
+}

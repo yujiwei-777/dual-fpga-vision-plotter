@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "hardware_status": "NOT_RUN",
+  "scope": "Standalone fixed dirt ROI frontend, exact masks and per-cell request sequences, handshake and lifecycle.",
+  "parameters": {
+    "INK_THRESHOLD": 112,
+    "LOCAL_CONTRAST_DELTA": 12,
+    "DIRT_ROI_GRID": [
+      288,
+      319,
+      112,
+      179
+    ],
+    "extra_probe_cells": 2176,
+    "requests_per_frame": 956416,
+    "extra_requests_percent": 3.7777777777777777
+  },
+  "source_sha256": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\doc_fixed_dirt_compensation_20261101\\candidate_frontend\\doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\doc_fixed_dirt_compensation_20261101\\candidate_frontend\\tb_frontend.sv": "5D4FD8D354B77636D77E03916007013B4B50754D57D2560730B45E775D91697C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\doc_fixed_dirt_compensation_20261101\\candidate_frontend\\tb_timeout.sv": "AAEB6964B43BE80B2B603A03C34791C50C6B7BEA117DEA0876B04C24A1546ED2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\doc_fixed_dirt_compensation_20261101\\candidate_frontend\\run_frontend.py": "C49DE0B218339209BFA88F912D2E44F2FF1B3A524D3BA2FE8418D95F448CB1A4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\doc_fixed_dirt_compensation_20261101\\candidate_frontend\\fixed_dirt_reference.py": "8CEF3D2AC9439D2A8F613F57F5132D488D8C7C8B648E15BBA41356CDC48550EC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\doc_ink_noise_diagnostic_20261101\\candidate_frontend\\doc_image_frontend.v": "AE776AACA1E6761F1F725238E01E93EAF3AF4AB9DCDA32D3527141F51BB03DC4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\doc_ink_noise_diagnostic_20261101\\candidate_frontend\\RESULTS.json": "EA70A22D431131FD76D104E47AF0ABE8866E0DF3BD0C784725B2D9FD5AAB1BB8",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_arithmetic.v": "0C7643D7760D730597C61F8C67F267E8961AE471C3C858009C747D6492132988",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_copy_pipeline.v": "4780D3863ABE4BF0D261445209F914D2636B842E6C1DE23E7987647BAD56E330",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_grbl_map.v": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_homography.v": "64000748FD47F45264B41F197EA019ADAF0BD7CDE669A56EFBB3DDB60F8F163F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_image_frontend.v": "69D793BC4B9D38C4BCA3AE39C1C881EB6EC3A2167493FF35D5FFEC2EDCA5EB94",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_image_otsu.v": "07BBE67204B3EE0472C1FD61B72AEF49C2BFCD0FA3B407386A2C490FCF1F2220",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_image_paper.v": "1983C79D3E365A80F8F100E9E11A48FE488542334D6BE9159D2B7D695A93DF8F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_image_refine.v": "D00C62734FC5CFECBFD803DCAEA6B845F5BAF74E556B6544C53CEC65A286C20E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_machine_map.v": "91A74D61C8CB6CFF70D9A7BD31604765C846B50997AE1BD114480EC8924BE836",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_path_distance.v": "265774F97B39989FF199B8D288F892E364AB2B38076C1384025430624FB67174",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\01_rtl\\doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\artifacts\\dual_fpga_secondary_20261101_cnn_key3_stroke_compact_area_sclk_diagnostic.bit": "3C5F52B2247DE0C6DF5E774204D6C0241B326D73AB628352D4ED3042ABDD67F0"
+  },
+  "raw_captures": {
+    "blank2418": {
+      "path": "D:\\ai\\1\\6\\9c73b69185784944b0257c91349771fa\\8d5d2ae7a309404490677c3dcae8ed34\\frame_00002418_1b9eaa4aa3724bc3b7ee4d84a7db5f03.yuyv",
+      "sha256": "FC1A7F48A4CD58D2F603277AF12B88493DF6A96AD45F4C0E2EAF6232F5E7831B"
+    },
+    "ink2358": {
+      "path": "D:\\ai\\1\\6\\9c73b69185784944b0257c91349771fa\\8d5d2ae7a309404490677c3dcae8ed34\\frame_00002358_ef1c6254c9b143328b3243a7fc39ad6d.yuyv",
+      "sha256": "D8BFE1DB18210BBED7F0A1356DED44FE72889A0502EFA58541F6A358D42D62A3"
+    }
+  },
+  "tests": {
+    "blank2418": {
+      "status": "PASS",
+      "checks": [
+        "PASS FRAME blank2418 requests=956416 outputs=102400",
+        "PASS FRONTEND blank2418 cycles=5417980 backpressure=37908 request_stalls=348384"
+      ],
+      "foreground": 0,
+      "requests": 956416,
+      "output_bits": 102400,
+      "expected_sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+      "actual_sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC"
+    },
+    "ink2358": {
+      "status": "PASS",
+      "checks": [
+        "PASS FRAME ink2358 requests=956416 outputs=102400",
+        "PASS FRONTEND ink2358 cycles=5417980 backpressure=37908 request_stalls=348384"
+      ],
+      "foreground": 1148,
+      "requests": 956416,
+      "output_bits": 102400,
+      "expected_sha256": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+      "actual_sha256": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00"
+    },
+    "strokes_on_fixed_dirt": {
+      "status": "PASS",
+      "checks": [
+        "PASS FRAME strokes_on_fixed_dirt requests=956416 outputs=102400",
+        "PASS FRONTEND strokes_on_fixed_dirt cycles=5417980 backpressure=37908 request_stalls=348384"
+      ],
+      "foreground": 165,
+      "requests": 956416,
+      "output_bits": 102400,
+      "expected_sha256": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A",
+      "actual_sha256": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A"
+    },
+    "sample15_roi_border_contract": {
+      "status": "PASS",
+      "checks": [
+        "PASS FRAME sample15_roi_border_contract requests=956416 outputs=102400",
+        "PASS FRONTEND sample15_roi_border_contract cycles=5417980 backpressure=37908 request_stalls=348384"
+      ],
+      "foreground": 587,
+      "requests": 956416,
+      "output_bits": 102400,
+      "expected_sha256": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC",
+      "actual_sha256": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC"
+    },
+    "gray_gradient_grain": {
+      "status": "PASS",
+      "checks": [
+        "PASS FRAME gray_gradient_grain requests=956416 outputs=102400",
+        "PASS FRONTEND gray_gradient_grain cycles=5417980 backpressure=37908 request_stalls=348384"
+      ],
+      "foreground": 4,
+      "requests": 956416,
+      "output_bits": 102400,
+      "expected_sha256": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A",
+      "actual_sha256": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A"
+    },
+    "blank": {
+      "status": "PASS",
+      "checks": [
+        "PASS FRAME blank requests=956416 outputs=102400",
+        "PASS FRONTEND blank cycles=5417980 backpressure=37908 request_stalls=348384"
+      ],
+      "foreground": 0,
+      "requests": 956416,
+      "output_bits": 102400,
+      "expected_sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+      "actual_sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC"
+    },
+    "lifecycle": {
+      "status": "PASS",
+      "checks": [
+        "PASS FRAME lifecycle requests=956416 outputs=102400",
+        "PASS CANCEL_DIRTY_ROI_PENDING_AND_BLANK_REENTRY",
+        "PASS FRAME lifecycle requests=956416 outputs=102400",
+        "PASS RESET_DIRTY_ROI_PENDING_AND_BLANK_REENTRY",
+        "PASS FRONTEND lifecycle cycles=17358126 backpressure=118836 request_stalls=1116254"
+      ],
+      "output_bits": 204800,
+      "dirty_source": "all-zero luma during partial frame before cancel/reset inside ROI background probes",
+      "cancel_at_request": 578069,
+      "reset_at_request": 578079
+    },
+    "timeout": {
+      "status": "PASS",
+      "checks": [
+        "PASS TIMEOUT_PENDING_AND_CANCEL requests=1"
+      ]
+    }
+  },
+  "limitations": [
+    "No pixel-level handwriting labels or physical plotter check.",
+    "Fixed ROI is specific to current 1280x720 SC500 position and readout; movement invalidates calibration.",
+    "Within ROI uniformly dark interiors may be suppressed; strong shadow edges may remain.",
+    "Exact 4x4 replaces endpoint/clamped sampling; outside ROI threshold remains two pixels at Y<=112.",
+    "No production integration, synthesis or bitgen is performed."
+  ]
+}

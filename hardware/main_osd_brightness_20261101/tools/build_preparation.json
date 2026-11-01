@@ -1,0 +1,14 @@
+{
+  "project": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_no_hist_20261031\\01_rtl\\imgq_gain_m\\main\\td_project_compact_v2\\camera_to_dsi_display_720p60_cnn_multibox.al",
+  "source_references": 138,
+  "new_sources": [
+    "osd_compact_font_rom.v",
+    "osd_compact_panel.v",
+    "osd_decimal_snapshot.v"
+  ],
+  "problems": [],
+  "header_present": true,
+  "header_cwd_copy_identical": true,
+  "td_started": false,
+  "bitgen_automatic": false
+}

@@ -1,0 +1,82 @@
+{
+  "status": "PASS_EXACT_SOURCE_TWO_STATE_CONE_EQUIVALENCE",
+  "hardware_status": "NOT_RUN",
+  "candidate_pipeline_sha256": "02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5",
+  "parent_pipeline_sha256": "D5F83FC41A64071C4BC6E013D731664B8A177094816189D7E6CE22BF83812B42",
+  "creation_manifest_sha256": "B7D2F1D8ECD1D56563DA5C8B44C7F9BD7C6D6CE43DFB3A5FED0DF4796DD68A37",
+  "python_boolean_truth_table_cases": 16384,
+  "rtl_abstract_param_checks": 16384,
+  "rtl_raw_numeric_param_checks": 2097160,
+  "rtl_disabled_state_hold_param_checks": 16384,
+  "source_reconstruction_exact": true,
+  "thresholds": {
+    "triangle": 31,
+    "cylinder": 28,
+    "cube": 77
+  },
+  "flag6_hard_and_soft_conditions_unchanged": true,
+  "all_prior_flag_bits_preserved": true,
+  "four_state_x_propagation_equivalence_claimed": false,
+  "limitations": [
+    "Binary initialized register cone only; unknown-state propagation can differ between if and ?: semantics.",
+    "Raw numeric RTL uses production default thresholds; Boolean exhaustive proof covers all comparator outputs.",
+    "Does not replace full pipeline/ordinary CNN/PCB/writer regression, synthesis, place, route, or hardware acceptance.",
+    "No resource or timing benefit is established by this functional proof."
+  ],
+  "commands": [
+    {
+      "name": "vlib",
+      "argv": [
+        "E:\\model\\win64\\vlib.exe",
+        "work"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.125,
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "work",
+        "source_cones.sv",
+        "tb_factored_cones.sv"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.09399999999732245,
+      "log_sha256": "3FA49C4E8751739C35BB2B3C77BA2DB88C94CF4574065230AD6DD0F62CB034BE"
+    },
+    {
+      "name": "simulate",
+      "argv": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-novopt",
+        "-suppress",
+        "12110",
+        "-lib",
+        "work",
+        "tb_factored_cones",
+        "-do",
+        "onerror {quit -code 1}; run -all; quit -f"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 4.889999999999418,
+      "log_sha256": "8E9BEC4015507AA02BA74DBC827CD7290024754C9AF2906CD658284BB6C0D8F4"
+    }
+  ],
+  "input_sha256": {
+    "tools\\run_factored_cone_equivalence.py": "C9F2427F281E9E1179E35B6B336B60604C2ACBE747831687A7C9D3C765EFA6F2",
+    "tools\\create_factored_variant.py": "C4EED2547315894FDDB25F1881972F19CAE82DC9350C8C64C54803BC51C7850A",
+    "01_rtl\\vision_pipeline.v": "02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5",
+    "reports\\factored_source_creation\\vision_pipeline.parent.v": "D5F83FC41A64071C4BC6E013D731664B8A177094816189D7E6CE22BF83812B42",
+    "reports\\factored_source_creation\\cone_20261101T085836_382466Z\\source_cones.sv": "4F611694D2B0481184B765F25A9C28A56EE107216B45AF9019BD31789EA912E3",
+    "reports\\factored_source_creation\\cone_20261101T085836_382466Z\\tb_factored_cones.sv": "0AF443A48A6D24DC21595B9CC8B8BFF3081AFCB880B12C350F12FA770E39F63C"
+  },
+  "td_launched": false
+}

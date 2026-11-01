@@ -1,0 +1,41 @@
+{
+  "variant": "main_osd_chinese_no_hist_20261031",
+  "baseline_bit": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_no_hist_20261031\\artifacts\\dual_fpga_main_20261030_osd_chinese_compact_diagnostic.bit",
+  "baseline_sha256": "7733B6D65811E01C6A07CBA90C54884053B5872B090CCA26ED1B18990321DB06",
+  "bit": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_no_hist_20261031\\artifacts\\dual_fpga_main_20261031_osd_chinese_no_hist_diagnostic.bit",
+  "sha256": "03AC1511A99AE16BD6113BE71C52C059FA4F7A17C75535C41709451EF18DF175",
+  "bytes": 1789547,
+  "binary_diff_bytes": 765109,
+  "change": "OSD mode-row cells 7..13 emit spaces; histogram label and ON/OFF indicator hidden",
+  "rtl_sha256": "3FDAF50C6FE27C2E158FEB037D63E8E37783F08938928B70D81339820C46BEC3",
+  "unit_checks": {
+    "checks": 74186,
+    "errors": 0,
+    "warnings": 0
+  },
+  "bitgen": {
+    "pass": true,
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_no_hist_20261031\\02_sim\\compact_context_v2\\console_bitgen.log"
+  },
+  "route_metrics": {
+    "setup_wns_ns": 0.382,
+    "hold_wns_ns": 0.02,
+    "tns_ns": 0.0,
+    "slice_used": 19642,
+    "slice_total": 21216,
+    "slice_percent": 92.58107088989442,
+    "eram_used": 90,
+    "eram_total": 108,
+    "eram_percent": 83.33333333333333,
+    "dsp_used": 37,
+    "dsp_total": 40,
+    "dsp_percent": 92.5
+  },
+  "hardware_status": "NOT_RUN",
+  "notes": [
+    "Independent copy only; baseline, original project and work/ unchanged.",
+    "Raw historical RUN-8007/USR-8450 diagnostics remain recorded in read-only reports; no unconstr_io override was used.",
+    "The no-hist bit has not been tested on hardware."
+  ],
+  "generated_utc": "2026-10-31T02:28:46.707276+00:00"
+}

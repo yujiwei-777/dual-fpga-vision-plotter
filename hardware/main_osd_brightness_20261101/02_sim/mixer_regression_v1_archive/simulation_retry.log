@@ -1,0 +1,43 @@
+# vsim -batch -voptargs="+acc" mixreg.tb_mixer_regression -l simulation_retry.log -do "run -all; quit -f" 
+# Start time: 21:35:47 on Oct 30,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_mixer_regression(fast)
+# Loading work.hdmi_mixer(fast)
+# Loading work.osd_decimal_snapshot(fast)
+# Loading work.osd_compact_panel(fast)
+# Loading work.osd_compact_font_rom(fast)
+# Loading work.doc_copy_overlay(fast)
+# Loading work.hxa_multibox_overlay(fast)
+# Loading work.hdmi_mixer_baseline(fast)
+# Loading work.osd_char_lib(fast)
+# Loading work.pcb_status_text_rom(fast)
+# Loading work.pcb_status_large_text(fast)
+# Loading work.osd_large_font_rom(fast)
+# Loading work.hxa_multibox_overlay_baseline(fast)
+# 
+# run -all
+# MIXER_FRAME_PASS id=0 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=0
+# MIXER_FRAME_PASS id=1 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=8064
+# MIXER_FRAME_PASS id=2 pixels=921600 baseline_equal=803142 pcb_edges=10880 hidden_motion=0
+# MIXER_FRAME_PASS id=3 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=0
+# MIXER_FRAME_PASS id=4 pixels=921600 baseline_equal=800182 pcb_edges=0 hidden_motion=0
+# ** Fatal: OSD_OUTSIDE_RGB_MISMATCH phase=5 x=900 y=300 new=22202f old=406080
+#    Time: 50447696 ns  Scope: tb_mixer_regression File: D:/program/fpga/lab_ex3_osd_SC500_720P/main_osd_chinese_compact_20261030/02_sim/mixer_regression/tb_mixer_regression.sv Line: 140
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/main_osd_chinese_compact_20261030/02_sim/mixer_regression/tb_mixer_regression.sv(140)
+#    Time: 50447696 ns  Iteration: 0  Instance: /tb_mixer_regression
+# End time: 21:36:09 on Oct 30,2026, Elapsed time: 0:00:22
+# Errors: 1, Warnings: 0

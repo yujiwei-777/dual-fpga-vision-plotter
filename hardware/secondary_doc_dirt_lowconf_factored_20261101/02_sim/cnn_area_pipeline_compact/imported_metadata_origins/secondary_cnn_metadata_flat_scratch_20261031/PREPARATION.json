@@ -1,0 +1,27 @@
+{
+  "status": "INTEGER_EXHAUSTIVE_PASS_RTL_FUNCTIONAL_NOT_RUN",
+  "checks": 262144,
+  "production_unchanged": true,
+  "hardware_status": "NOT_RUN",
+  "candidate_sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+  "source_sha256": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\cnn_result_stabilizer.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\probe.py": "3C49C46D69E82693482E1D55A35B9F1787941FC928BA9BAC4EB58703B9B1A67E"
+  },
+  "control_reused_not_rerun": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\td_control",
+  "control_sources": {
+    "cnn_result_stabilizer.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+    "pipeline_geometry_phase_probe.v": "2FB9E9FB920E125EE5A96A3C56C44FFFC167435CABF92EDF7F48FC1E9B74F42D",
+    "probe.sdc": "9967B356B7662D3A48C45FA7754FF069E6F87D25DB2744843756F9ED166D8510",
+    "run.tcl": "9735C138E7883BA2918652DDF8AA3C70EF77277AF557827EC92E482C16242A0D",
+    "probe_gate.area": "DA472C5A3DA44D0CF2F1CD9DA015CD5EA88BF9DF2011F785781FE1296E74AFA1",
+    "td_console.log": "4BDCDD5DDC322A7C2B7A053E07B5BD04EA05701C146BE9E407E2C97A68916BA0"
+  },
+  "candidate_inputs": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\td_candidate\\cnn_result_stabilizer.v": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\td_candidate\\pipeline_geometry_phase_probe.al": "87394D68B8CDA3EAC7FAD5EBEAC8C756907072A00F8D2203919DDDC37B6764E7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\td_candidate\\pipeline_geometry_phase_probe.v": "2FB9E9FB920E125EE5A96A3C56C44FFFC167435CABF92EDF7F48FC1E9B74F42D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\td_candidate\\probe.sdc": "9967B356B7662D3A48C45FA7754FF069E6F87D25DB2744843756F9ED166D8510",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\td_candidate\\run.tcl": "9735C138E7883BA2918652DDF8AA3C70EF77277AF557827EC92E482C16242A0D"
+  }
+}

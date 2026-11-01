@@ -1,0 +1,158 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "candidate_sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+  "kernel_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "pipeline_sha256": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+  "origins_sha256": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\cnn_result_stabilizer.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\vision_pipeline.v": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\cnn_result_stabilizer.v": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\PREPARATION.json": "FA3969189B68F3A50752ED5BAF9F352C30B70689524A448C7AFEE06BD2466861",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\ONLY_DIFF.patch": "2C9D15FAD50E0CF8D4724BB9E3C61C1788852954B784918F2E1551CD1457CEA5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\TD_DIRECTION_RESULTS.json": "E013F416E58524B9926DBC1209EF5DCF10F5E6B1765AC7D8E1AB5A74B584BFAC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\PREPARATION.json": "2997233557B7DE0162072FC79D38F5AE78065E8141FFFD0CC59B38DED532B5B5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\vision_pipeline.v": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\vision_pipeline_baseline.v": "7876918A9EA2347E2E1791DCA47A30004462F8B536EECF81B3780BB8EE1233C3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_fixed_grid_mapping_miter.sv": "98A159C7E02713647ADCDF99215B5E69CE7499137B078A66F0A6351AB529E26A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\pipeline_leaf_stubs.sv": "B19E7BDF866824235C6B89DC78E4A3FCD41C48FD0EE4C29FFA8ADFCF89AEAAA2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_area_grid_equivalence.sv": "A9D6CF90462E5BE11F2587E988D4A9149E8ED49548FD04AAF50A62BB58C7985C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\generic_vectors.txt": "FD46A8CCE05C6E2C62A25ED3F57BB4716E9BEDCE1C2823A935029D4FFDBF4B6B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a20_s1.txt": "DA3B7952C57D96C3620B784EDEFA0B9F3C643F3CDA4920A1285441E2B610112A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a20_s19.txt": "3A630AB2E4AC72364C70D0628FFC51B951AEC4AF54E788A6DAAD9E13647409EC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a22_s6.txt": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a32_s31.txt": "40718F01D22E1EFDA2BE90406F85C5031ED9501204CE0653AF1A140F94EFB3EB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_combined_state_lifecycle.sv": "D02B53183F141DA8C66B8D4DA65CF21C89EEBCD46427DB8D246117A9507FB363",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_cnn_stability_serial.sv": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\vectors.txt": "FD014AF8DE19ADCAEB79BCFD39DD957F68DF335D3357E6B1B11E9DD1BF13FF84",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c1h0l1.txt": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c2h1l2.txt": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c3h2l3.txt": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c4h0l4.txt": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c15h15l15.txt": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D"
+  },
+  "inputs_sha256": {
+    "aligned_a20_s1.txt": "DA3B7952C57D96C3620B784EDEFA0B9F3C643F3CDA4920A1285441E2B610112A",
+    "aligned_a20_s19.txt": "3A630AB2E4AC72364C70D0628FFC51B951AEC4AF54E788A6DAAD9E13647409EC",
+    "aligned_a22_s6.txt": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E",
+    "aligned_a32_s31.txt": "40718F01D22E1EFDA2BE90406F85C5031ED9501204CE0653AF1A140F94EFB3EB",
+    "c15h15l15.txt": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D",
+    "c1h0l1.txt": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA",
+    "c2h1l2.txt": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5",
+    "c3h2l3.txt": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D",
+    "c4h0l4.txt": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB",
+    "cnn_result_stabilizer.v": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+    "cnn_result_stabilizer_baseline.v": "5EB86B41BE952A4948A50EE17E8DB83EA8A892C7E05365AC8F525BE4D11B10C5",
+    "generic_vectors.txt": "FD46A8CCE05C6E2C62A25ED3F57BB4716E9BEDCE1C2823A935029D4FFDBF4B6B",
+    "pipeline_leaf_stubs.sv": "B19E7BDF866824235C6B89DC78E4A3FCD41C48FD0EE4C29FFA8ADFCF89AEAAA2",
+    "README.md": "E306FB5FCC7A67C1AE02A95053C8723C071238BE292F577AEBF9B8441830BE89",
+    "run_regression.py": "54DE43B460E5488FD8123EA28C008B15676E232689372F612C0D8937552F6316",
+    "tb_area_grid_equivalence.sv": "A9D6CF90462E5BE11F2587E988D4A9149E8ED49548FD04AAF50A62BB58C7985C",
+    "tb_cnn_stability_serial.sv": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40",
+    "tb_combined_state_lifecycle.sv": "D02B53183F141DA8C66B8D4DA65CF21C89EEBCD46427DB8D246117A9507FB363",
+    "tb_fixed_grid_mapping_miter.sv": "98A159C7E02713647ADCDF99215B5E69CE7499137B078A66F0A6351AB529E26A",
+    "vectors.txt": "FD014AF8DE19ADCAEB79BCFD39DD957F68DF335D3357E6B1B11E9DD1BF13FF84",
+    "vision_pipeline.v": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+    "vision_pipeline_baseline.v": "7876918A9EA2347E2E1791DCA47A30004462F8B536EECF81B3780BB8EE1233C3"
+  },
+  "copied_inputs": [
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\cnn_result_stabilizer.v",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\cnn_result_stabilizer.v",
+      "sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\vision_pipeline.v",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\vision_pipeline.v",
+      "sha256": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\vision_pipeline_baseline.v",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\vision_pipeline_baseline.v",
+      "sha256": "7876918A9EA2347E2E1791DCA47A30004462F8B536EECF81B3780BB8EE1233C3"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_fixed_grid_mapping_miter.sv",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\tb_fixed_grid_mapping_miter.sv",
+      "sha256": "98A159C7E02713647ADCDF99215B5E69CE7499137B078A66F0A6351AB529E26A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\pipeline_leaf_stubs.sv",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\pipeline_leaf_stubs.sv",
+      "sha256": "B19E7BDF866824235C6B89DC78E4A3FCD41C48FD0EE4C29FFA8ADFCF89AEAAA2"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_area_grid_equivalence.sv",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\tb_area_grid_equivalence.sv",
+      "sha256": "A9D6CF90462E5BE11F2587E988D4A9149E8ED49548FD04AAF50A62BB58C7985C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\generic_vectors.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\generic_vectors.txt",
+      "sha256": "FD46A8CCE05C6E2C62A25ED3F57BB4716E9BEDCE1C2823A935029D4FFDBF4B6B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a20_s1.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\aligned_a20_s1.txt",
+      "sha256": "DA3B7952C57D96C3620B784EDEFA0B9F3C643F3CDA4920A1285441E2B610112A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a20_s19.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\aligned_a20_s19.txt",
+      "sha256": "3A630AB2E4AC72364C70D0628FFC51B951AEC4AF54E788A6DAAD9E13647409EC"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a22_s6.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\aligned_a22_s6.txt",
+      "sha256": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\aligned_a32_s31.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\aligned_a32_s31.txt",
+      "sha256": "40718F01D22E1EFDA2BE90406F85C5031ED9501204CE0653AF1A140F94EFB3EB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_combined_state_lifecycle.sv",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\tb_combined_state_lifecycle.sv",
+      "sha256": "D02B53183F141DA8C66B8D4DA65CF21C89EEBCD46427DB8D246117A9507FB363"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\tb_cnn_stability_serial.sv",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\tb_cnn_stability_serial.sv",
+      "sha256": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\vectors.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\vectors.txt",
+      "sha256": "FD014AF8DE19ADCAEB79BCFD39DD957F68DF335D3357E6B1B11E9DD1BF13FF84"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c1h0l1.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c1h0l1.txt",
+      "sha256": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c2h1l2.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c2h1l2.txt",
+      "sha256": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c3h2l3.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c3h2l3.txt",
+      "sha256": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c4h0l4.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c4h0l4.txt",
+      "sha256": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_geometry_phase_scratch_20261031\\c15h15l15.txt",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\functional\\c15h15l15.txt",
+      "sha256": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D"
+    }
+  ],
+  "scope": "Exact-cycle actual production pipeline and kernel comparison, controlled leaves",
+  "production_modified": false,
+  "parent_candidate_modified": false,
+  "hardware_status": "NOT_RUN"
+}

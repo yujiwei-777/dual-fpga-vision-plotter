@@ -1,0 +1,435 @@
+{
+  "status": "PASS",
+  "hardware_status": "NOT_RUN",
+  "jobs": [
+    {
+      "job": 1,
+      "class_id": 1,
+      "text": [
+        "RED   TRIANGLE",
+        "X0210 Y0110",
+        "CONF 087"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 318,
+      "pen_downs": 42,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 2,
+      "class_id": 2,
+      "text": [
+        "RED   CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 087"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 299,
+      "pen_downs": 38,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 3,
+      "class_id": 3,
+      "text": [
+        "RED   SQUARE  ",
+        "X0210 Y0110",
+        "CONF 087"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 308,
+      "pen_downs": 38,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 4,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 087"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 340,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 5,
+      "class_id": 5,
+      "text": [
+        "GREEN CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 087"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 321,
+      "pen_downs": 41,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 6,
+      "class_id": 6,
+      "text": [
+        "GREEN SQUARE  ",
+        "X0210 Y0110",
+        "CONF 087"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 330,
+      "pen_downs": 41,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 7,
+      "class_id": 7,
+      "text": [
+        "BLUE  TRIANGLE",
+        "X0210 Y0110",
+        "CONF 087"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 326,
+      "pen_downs": 43,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 8,
+      "class_id": 8,
+      "text": [
+        "BLUE  CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 087"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 307,
+      "pen_downs": 39,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 9,
+      "class_id": 9,
+      "text": [
+        "BLUE  SQUARE  ",
+        "X0210 Y0110",
+        "CONF 087"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 316,
+      "pen_downs": 39,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 10,
+      "class_id": 5,
+      "text": [
+        "NO TARGET"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 96,
+      "pen_downs": 13,
+      "newline_delta_cmm": 860
+    },
+    {
+      "job": 11,
+      "class_id": 0,
+      "text": [
+        "NO TARGET"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 96,
+      "pen_downs": 13,
+      "newline_delta_cmm": 860
+    },
+    {
+      "job": 12,
+      "class_id": 3,
+      "text": [
+        "RED   SQUARE  ",
+        "X0639 Y0359",
+        "CONF 000"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 324,
+      "pen_downs": 37,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 13,
+      "class_id": 8,
+      "text": [
+        "BLUE  CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 100"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 309,
+      "pen_downs": 40,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 14,
+      "class_id": 0,
+      "text": [
+        "PCB 0014 PASS",
+        "DEFECTS 0"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 231,
+      "pen_downs": 26,
+      "newline_delta_cmm": 1460
+    },
+    {
+      "job": 15,
+      "class_id": 0,
+      "text": [
+        "PCB 0015 FAIL",
+        "DEFECTS 0"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 227,
+      "pen_downs": 29,
+      "newline_delta_cmm": 1460
+    },
+    {
+      "job": 16,
+      "class_id": 0,
+      "text": [
+        "PCB 0016 REVIEW",
+        "DEFECTS 0"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 254,
+      "pen_downs": 32,
+      "newline_delta_cmm": 1460
+    },
+    {
+      "job": 17,
+      "class_id": 0,
+      "text": [],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 13,
+      "pen_downs": 1,
+      "newline_delta_cmm": 2500
+    },
+    {
+      "job": 18,
+      "class_id": 0,
+      "text": [],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 13,
+      "pen_downs": 1,
+      "newline_delta_cmm": 2500
+    },
+    {
+      "job": 19,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 20,
+      "class_id": 6,
+      "text": [
+        "GREEN SQUARE  ",
+        "X0210 Y0110",
+        "CONF 099"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 335,
+      "pen_downs": 41,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 21,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 22,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 23,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 24,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 25,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 26,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 27,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 28,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 29,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 30,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 31,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 32,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    },
+    {
+      "job": 33,
+      "class_id": 4,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 066"
+      ],
+      "all_gcode_commands_exact": true,
+      "gcode_lines": 345,
+      "pen_downs": 45,
+      "newline_delta_cmm": 2060
+    }
+  ],
+  "page_exhaustion": "13 reports fit; 14th rejected with error12 before commands; cursor retained",
+  "stop_final_conf_line": "no new complete command or DONE; !, ?, Ctrl-X, ? with fresh Hold/Idle; automatic safe rearm",
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_response_parser.v": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_streamer.v": "60BB7176BD2D1B4F61E0E290C53998F15BBFF0FE260AFB1193E1F5BC7EAC2358",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_reporter.v": "5BCF7EFEB29D38441BD63C3F5E4B1A643281D1E3F41DB5CFA875F01383462535",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_named_report\\tb_cnn_named_report.sv": "DED514DB8DD540B9F90333BE3D21A3A5264B06791DFC7AC906555E31C92C4880",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\tools\\cnn_named_report_reference.py": "7BEF25725B09AA948FF2A2EE8C42655CD7D5F9E9319C8A429249A7866E3FC2C1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\tools\\run_cnn_named_report_regression.py": "28222B11A1290CA7D30A4F1140EEA8BCECDB3729259585CAA7EF41DACA0574FE"
+  },
+  "confidence_contract": "rounded RTL margin score 0..100; not probability",
+  "coordinate_contract": "floor bbox center in original 1280x720 image pixels; packed x/y in low32",
+  "scope": "production reporter/formatter/font/streamer/parser; simulated UART ACKs; no CNN inference, DDR or PHY simulation"
+}

@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vlog.exe",
+    "-sv",
+    "-lint",
+    "-work",
+    "work",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\cnn_lowconf_qualification\\pipeline_stubs.sv",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\vision_pipeline.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\cnn_result_stabilizer.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\cnn_lowconf_qualification\\tb_lowconf_pipeline.sv"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.078,
+  "log_sha256": "2E388AEDBD88CA4A62174CC2E45B401734AA6CCD3ED3D1EFBB857A22AF6FF352"
+}

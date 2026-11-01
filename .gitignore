@@ -1,0 +1,10 @@
+# Only newly generated local files; original hardware evidence is tracked.
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.local
+.DS_Store
+Thumbs.db
+build_local/
+downloads/

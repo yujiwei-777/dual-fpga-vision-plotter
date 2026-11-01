@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-lib",
+    "simlib",
+    "tb_frontend",
+    "+IMAGE=D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\gray_gradient_grain\\source_y.mem",
+    "+EXPECTED=D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\gray_gradient_grain\\expected_binary.mem",
+    "+OUTPUT=D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\doc_dirt_frontend\\20261101T090224_940901Z\\frontend\\gray_gradient_grain_actual.mem",
+    "+CASE=gray_gradient_grain",
+    "-do",
+    "onerror {quit -code 1}; run -all; quit -f"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 3.83,
+  "log_sha256": "DC6439368FB56C0D16B9CE54F96FB57EF015B16567EBAEB9C84B45B387DFD9ED"
+}

@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-lib",
+    "simlib",
+    "tb_frontend",
+    "+IMAGE=D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank\\source_y.mem",
+    "+EXPECTED=D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank\\expected_binary.mem",
+    "+OUTPUT=D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\doc_dirt_frontend\\20261101T090224_940901Z\\frontend\\blank_actual.mem",
+    "+CASE=blank",
+    "-do",
+    "onerror {quit -code 1}; run -all; quit -f"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 3.748,
+  "log_sha256": "902371EADCBF4DD223C98010523E88C2E47D0EADC80A5CB5EF2AEE4D5359C57B"
+}

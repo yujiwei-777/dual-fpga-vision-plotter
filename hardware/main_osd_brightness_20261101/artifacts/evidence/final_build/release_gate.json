@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "bitgen_allowed": true,
+  "run": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_osd_chinese_no_hist_20261031/01_rtl/imgq_gain_m/main/td_project_compact_v2",
+  "name": "camera_to_dsi_display_720p60_cnn_multibox",
+  "generated_utc": "2026-10-31T02:21:10.899241+00:00",
+  "timing_ns": {
+    "SWNS": 0.382,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19642,
+      "total": 21216,
+      "percent": 92.58107088989442,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 90,
+      "total": 108,
+      "percent": 83.33333333333333,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  },
+  "source_manifest_sha256": "09779F85C7E827449CB97CE0FA675E5C61C88F1E9BD2A6451DD5CE4204853E1F",
+  "snapshot": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_osd_chinese_no_hist_20261031/01_rtl/imgq_gain_m/main/td_project_compact_v2/source_snapshot.json",
+  "failures": [],
+  "tracked_warnings": [],
+  "evidence": {
+    "camera_to_dsi_display_720p60_cnn_multibox_pr.timing": {
+      "sha256": "F0835B6296965D3863ED70C3AF68464B03EB37C0C477D272EF6D241BA75927F2",
+      "mtime_ns": 1793413239312348300
+    },
+    "camera_to_dsi_display_720p60_cnn_multibox_phy.area": {
+      "sha256": "D6BC4D6B84C735F31484BD3EECD45B14BB9E110DDEC19A78D17F3EBAC282C185",
+      "mtime_ns": 1793413226526579400
+    },
+    "route_flow.status": {
+      "sha256": "1C588135DD21CD99E7EEB27E5C28C8C71837CEC11B641BF28EC48289CA2478B8",
+      "mtime_ns": 1793413239365943600
+    },
+    ".opt_route.end.f": {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "mtime_ns": 1793413241109277100
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_osd_chinese_no_hist_20261031/01_rtl/imgq_gain_m/main/td_project_compact_v2/.read_design.begin.f": {
+      "sha256": "3986B0CA5EFE73C8007AA24033DB272BC2D55C164DDC48D3A35CEA0FFA2B99D6",
+      "mtime_ns": 1793412086693198500
+    },
+    "camera_to_dsi_display_720p60_cnn_multibox_pr.db": {
+      "sha256": "CE9EC2B2B5B2A03E874A11BAB44B772E50CCF3899CC08AEB2F03B63AB2289DDB",
+      "mtime_ns": 1793413241005564200
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_osd_chinese_no_hist_20261031/01_rtl/imgq_gain_m/main/td_project_compact_v2/console_compact_synth.log": {
+      "sha256": "051C9CAB69AF50D2C5C5FB06310C43DD6FABB230BDDB95A2D75F50657F857EFB"
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_osd_chinese_no_hist_20261031/01_rtl/imgq_gain_m/main/td_project_compact_v2/console_compact_route.log": {
+      "sha256": "C242DC5EEB3E3BAF06119383EE2755EF70D872CE4D802B53FC3042014EE41065"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Build gates only; CDC/DDR/DRC and hardware review remain required"
+}

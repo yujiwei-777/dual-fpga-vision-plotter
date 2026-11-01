@@ -1,0 +1,21 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 21:37:30 on Oct 30,2026
+vlog -sv -work msim -l compile.log "+incdir+D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source" "+incdir+D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\02_sim\mixer_regression" D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\hdmi_mixer.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_decimal_snapshot.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\hxa_multibox_overlay.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\doc_copy_overlay.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_large_font_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_large_font_rom.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_large_font_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_char_lib.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_large_font_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\pcb_status_large_text.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_large_font_20261030\01_rtl\imgq_gain_m\main\user_source\hdl_source\pcb_status_text_rom.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\02_sim\mixer_regression\hdmi_mixer_baseline.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\02_sim\mixer_regression\hxa_multibox_overlay_baseline.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_osd_chinese_compact_20261030\02_sim\mixer_regression\tb_mixer_regression.sv 
+-- Compiling module hdmi_mixer
+-- Compiling module osd_compact_panel
+-- Compiling module osd_compact_font_rom
+-- Compiling module osd_decimal_snapshot
+-- Compiling module hxa_multibox_overlay
+-- Compiling module doc_copy_overlay
+-- Compiling module osd_large_font_rom
+-- Compiling module osd_char_lib
+-- Compiling module pcb_status_large_text
+-- Compiling module pcb_status_text_rom
+-- Compiling module hdmi_mixer_baseline
+-- Compiling module hxa_multibox_overlay_baseline
+-- Compiling module tb_mixer_regression
+
+Top level modules:
+	tb_mixer_regression
+End time: 21:37:31 on Oct 30,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

@@ -1,0 +1,62 @@
+PORT I_sys_clk
+PORT_NET I_sys_clk
+NET REQUEST=I_sys_clk OBJECTS=I_sys_clk DEPTH=0
+NET_DRIVERS NET=I_sys_clk PINS=I_sys_clk
+NET REQUEST=I_sys_clk_dup_1 OBJECTS=I_sys_clk_dup_1 DEPTH=0
+NET_DRIVERS NET=I_sys_clk_dup_1 PINS=I_sys_clk_syn_2.di
+CELL NAME=I_sys_clk_syn_2 OBJECTS=I_sys_clk_syn_2
+CELL_PROPERTY I_sys_clk_syn_2 TYPE=AL_PHY_HD_PAD
+CELL_PROPERTY I_sys_clk_syn_2 REF_NAME=PH1P_PHY_HD_PAD
+CELL_PROPERTY_TABLE_BEGIN I_sys_clk_syn_2
+Property             Type       Read-only  Value
+CLASS                string     true       cell
+FILE_NAME            string     true       ../../01_rtl/secondary_top.v
+FORCE_KEEP           bool       false      false
+IS_BLACKBOX          bool       true       false
+IS_DEBUGGABLE        bool       true       false
+IS_PLACED            bool       true       false
+IS_PRIMITIVE         bool       true       false
+LINE_NUMBER          int        true       14
+NAME                 string     true       I_sys_clk_syn_2
+PRIMITIVE_COUNT      int        true       0
+REF_NAME             string     true       PH1P_PHY_HD_PAD
+TYPE                 string     true       AL_PHY_HD_PAD
+IDDRMODE             string     true       BYPASS
+INCKEN               string     true       ENABLE
+IOTYPE               string     true       LVCMOS33
+LOCATION             string     true       C4
+MODE                 string     true       IN
+ODLYEN               string     true       DISABLE
+PULLMODE             string     true       PULLUP
+TSMUX                string     true       1
+
+CELL_PROPERTY_TABLE_END I_sys_clk_syn_2
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.ce DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[4] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[3] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[2] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly_in DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly_src_sel DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.doq[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.doq[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.in_dl_return DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.in_dl_through DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.ipad DIRECTION=0 NETS=I_sys_clk
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.ipclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.lb_enb DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.osclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.rst DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.ts DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.di DIRECTION=1 NETS=I_sys_clk_dup_1
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.diq[1] DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.diq[0] DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly_out DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.opad DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.out_dl_return DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.out_dl_through DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.bpad DIRECTION=2 NETS=
+NET REQUEST=I_sys_clk OBJECTS=I_sys_clk DEPTH=1
+NET REQUEST=I_sys_clk_syn_11 OBJECTS= DEPTH=0
+TD_CLOCK_INVENTORY_PASS

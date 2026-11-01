@@ -1,0 +1,47 @@
+# vsim -batch -quiet -novopt -suppress 12110 -lib work tb_real_pcb_pipeline -do "onerror {quit -code 1}; run -all; quit -f" 
+# Start time: 17:03:34 on Nov 01,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.tb_real_pcb_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.vision_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.vision_color_stats
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.edge_roi_ccl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.vision_ccl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.vision_shared_mac
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.vision_pixel_reader
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# onerror {quit -code 1}
+# run -all
+# PCB_RAW_PIPELINE_SAMPLE_PASS sample=0 class=1 status=1 margin=257 samples=9216 words=9216 cycles=989845
+# PCB_RAW_PIPELINE_SAMPLE_PASS sample=1 class=1 status=1 margin=364 samples=9216 words=9216 cycles=989867
+# PCB_RAW_PIPELINE_SAMPLE_PASS sample=2 class=1 status=1 margin=116 samples=9216 words=9216 cycles=989845
+# PCB_RAW_PIPELINE_SAMPLE_PASS sample=3 class=1 status=1 margin=306 samples=9216 words=9216 cycles=989847
+# PCB_RAW_PIPELINE_SAMPLE_PASS sample=4 class=1 status=1 margin=271 samples=9216 words=9216 cycles=989846
+# PCB_RAW_PIPELINE_SAMPLE_PASS sample=5 class=1 status=1 margin=263 samples=9216 words=9216 cycles=989845
+# PCB_RAW_PIPELINE_SAMPLE_PASS sample=6 class=0 status=2 margin=31 samples=9216 words=9216 cycles=989844
+# PCB_RAW_PIPELINE_SAMPLE_PASS sample=7 class=0 status=0 margin=43 samples=9216 words=9216 cycles=989845
+# PCB_RAW_PIPELINE_SAMPLE_PASS sample=8 class=0 status=2 margin=30 samples=9216 words=9216 cycles=989845
+# PCB_RAW_PIPELINE_GOLDEN_PASS samples=9
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/tb_real_pcb_pipeline.sv(134)
+#    Time: 71269424 ns  Iteration: 1  Instance: /tb_real_pcb_pipeline
+# End time: 17:03:54 on Nov 01,2026, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1

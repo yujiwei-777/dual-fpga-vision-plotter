@@ -1,0 +1,15 @@
+{
+  "status": "CREATED_EXACT_FACTORED_REGRESSION_ADAPTERS",
+  "hardware_status": "NOT_RUN",
+  "root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101",
+  "inputs": {
+    "tools\\key3_stroke_lowconf_area_regression_gate.py": "C0A51CB27B4AC9744623671B34930255775BFFAF6D0BDF47509FD49E53DA6459",
+    "tools\\run_cnn_area_pipeline_lowconf_area.py": "028E81D725AC0FF02C11D3D763EFEB0D7DA6CA7511CBC9F03073828EC6C77270"
+  },
+  "outputs": {
+    "tools\\key3_stroke_lowconf_factored_regression_gate.py": "983CC189466B24DB8F7BBE73E550C2FF346592646830E5FF7AFEFEEE63F63BED",
+    "tools\\run_cnn_area_pipeline_lowconf_factored.py": "E6F7DA5B40862CF59CD831C898E10015ACF87420DB80A79C59FD3398055C12BF"
+  },
+  "production_pipeline_sha256": "02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5",
+  "scope": "New narrow adapter only; inherited seven runners/gate are byte-identical; no simulation or TD launched."
+}

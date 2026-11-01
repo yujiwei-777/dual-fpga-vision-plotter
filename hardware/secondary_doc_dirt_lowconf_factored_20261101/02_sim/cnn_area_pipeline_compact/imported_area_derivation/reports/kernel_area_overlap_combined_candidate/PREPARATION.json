@@ -1,0 +1,34 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "production_modified": false,
+  "hardware_status": "NOT_RUN",
+  "candidate_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "r11_sha256": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+  "area_source_sha256": "FBC68868447A38D7695F94A86D66DB3E5D36A3A9EEC5743B944998B8F5574005",
+  "changes": "Validated area-grid source plus exactly five redundant-overlap removals; no state/cadence changes",
+  "copied_verification_inputs": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\aligned_a20_s1.txt": "DA3B7952C57D96C3620B784EDEFA0B9F3C643F3CDA4920A1285441E2B610112A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\aligned_a20_s19.txt": "3A630AB2E4AC72364C70D0628FFC51B951AEC4AF54E788A6DAAD9E13647409EC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\aligned_a22_s6.txt": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\aligned_a32_s31.txt": "40718F01D22E1EFDA2BE90406F85C5031ED9501204CE0653AF1A140F94EFB3EB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\cnn_result_stabilizer_baseline.sv": "FCB7C384764F3D96BF18515E2C0A74C39DFA136D5BE7367738600E4DAD76C968",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\generic_vectors.txt": "FD46A8CCE05C6E2C62A25ED3F57BB4716E9BEDCE1C2823A935029D4FFDBF4B6B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\tb_area_grid_equivalence.sv": "EB3CDC503E637AF0A80C9E02BE343DF6AB2BC812ACF8AFFFE6E1C9C96309457B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\tb_cnn_stability_metadata_atomic.sv": "8EE5CED2636512865830401DAD05A76C6061DF3878E9B64D2DD13670FC7EFDFC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\tb_cnn_stability_ram.sv": "3B0A63F7A92665D82828CF5FEB28302605A607E6009B9F6C3F8AF625C97270C8",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\tb_cnn_stability_serial.sv": "D6ACE7233964B2597DAAEC8B340586400F3B5CB86355C07356DAACC6D6D8D575",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\verification_extreme_fix\\vectors.txt": "C8B5BF256C7043503782213E9887EAFF0BF58C12FE85E920A4A60E2FB0D131D3"
+  },
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\cnn_result_stabilizer.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\vision_pipeline.v": "C7B43FE8727F1145C2EF060CE9DC464029AF74CB4BD372DF10E1395E5D878413",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\secondary_top.v": "E2230101BB9E144AF86BBB26C4D4A8F39B832C547D91B34E6F71BE32B2EC71D6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\cnn_core.v": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\cnn_result_stabilizer.v": "FBC68868447A38D7695F94A86D66DB3E5D36A3A9EEC5743B944998B8F5574005",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\cnn_result_stabilizer_r11.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\run_verification.py": "229C54330567E3B63DAFA9E87928311999E8F5BBA93E59046081F8C661442BE8",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_grid_candidate\\run_production_reference.py": "21E5D29C59BB162E806035C6F4ECA1BFB81452668D123BD660948C103C263ECD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\prepare_candidate.py": "34C19AFAECE87B26A56465BA96C168CCDEFB428202AD9A140C4BFFE5C5F2FF66"
+  },
+  "scope": "New scratch kernel only. No TD/full-board build and no bitgen."
+}

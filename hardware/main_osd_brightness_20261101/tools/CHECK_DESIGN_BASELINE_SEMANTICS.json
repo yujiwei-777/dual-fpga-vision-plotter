@@ -1,0 +1,98 @@
+{
+  "readonly_comparison_completed": true,
+  "tool_version": "TD Release_2026.1_SP2 / 6.2.2.200067 / database version 46207",
+  "original_baseline": {
+    "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_spatial_a4_motion_docparams_pcb_key4_20261026/key4_shared_sync_Runs_20261026/phy_1",
+    "slice_used": 19769,
+    "slice_total": 21216,
+    "slice_percent": 93.18,
+    "lslice_models": 19201,
+    "mslice_models": 568,
+    "check_design_catch_status": 1,
+    "check_design_message": "lslices exceed capacity; RUN-8007",
+    "check_plb_attr_catch_status": 0,
+    "check_plb_attr_message": "Check pass."
+  },
+  "architectural_facts": {
+    "source": "D:/program/fpga/06_doc/HX1P35A_Contest_202606/6_PH1P35数据手册/DS1300_PH1P_Datasheet.pdf",
+    "pdf_page": 17,
+    "printed_page": 11,
+    "quote": "PMU 除能够实现所有的PFU 功能外，还可以实现额外的分布式RAM 功能/移位器功能。",
+    "consequence": "Memory-capable PMU sites can implement ordinary logic. Logical LSLICE model count need not equal use of PFU-only physical sites."
+  },
+  "documentation_search": {
+    "check_design_documented_applicable_stage": "NOT_FOUND",
+    "searched": [
+      "SWUG105 TCL Command User Guide",
+      "TD User Guide V6.2",
+      "doc/cmd/help_comment_*.json"
+    ],
+    "command_help": "check_design -help returned no text; no prepack-only applicability claim is supported.",
+    "error_reference": "User Guide PDF196 lists PHY-9009/9010 resource errors and PDF197 legalization errors, but not check_design RUN-8007 after routed import."
+  },
+  "assessment": "The original successful routed baseline reproduces the same check_design error, so it is not a new PCB-window-only regression. PMU/PFU compatibility provides a plausible model-count versus physical-site explanation, but does not prove current route legality. Final site compatibility/uniqueness, check_plb_attr, routing DRC, timing/resources and exact DB identity remain necessary. Do not accept solely from total Slice or positive WNS.",
+  "not_performed": [
+    "production source/constraint edit",
+    "database export/update",
+    "place/route",
+    "bitgen",
+    "work access"
+  ],
+  "evidence": [
+    {
+      "path": "D:/program/fpga/06_doc/HX1P35A_Contest_202606/6_PH1P35数据手册/DS1300_PH1P_Datasheet.pdf",
+      "size": 7813340,
+      "sha256": "5EE95577C6F943AE7CCB1FAF8D3412D7E2F5DD8535FB2DA279ED3676681111CD"
+    },
+    {
+      "path": "E:/td/doc/TD_User_Guide_V6.2.pdf",
+      "size": 11387050,
+      "sha256": "AF52F6BB91C94A066F5FAE6F305FDC66D46FDE08F355F69484594C822D6427EA"
+    },
+    {
+      "path": "E:/td/doc/SWUG/SWUG105_TCL_Command_User_Guide.pdf",
+      "size": 5779223,
+      "sha256": "9D0C71B1F6594A0359B29DE241E3B1D5911237A2E80486B88A62430AF59D0255"
+    },
+    {
+      "path": "E:/td/arch/device_resource/device_resource.csv",
+      "size": 7476,
+      "sha256": "381474042A5B1D01CB702F8F71960430F30487BDEEA35E97DAAF85C4738A0C2D"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_spatial_a4_motion_docparams_pcb_key4_20261026/key4_shared_sync_Runs_20261026/phy_1/camera_to_dsi_display_720p60_cnn_multibox_pr.db",
+      "size": 27522494,
+      "sha256": "37A61D7B2DD4A430FAAC66A6646468F297EDBF625AF26183CDB5DDC8680BCBBA"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_spatial_a4_motion_docparams_pcb_key4_20261026/key4_shared_sync_Runs_20261026/phy_1/camera_to_dsi_display_720p60_cnn_multibox.bit",
+      "size": 1789547,
+      "sha256": "6002751818EABC4ABD31E335A1CAF298829FEE3DF7B9AFCDCDF996CE8028D964"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_spatial_a4_motion_docparams_pcb_key4_20261026/key4_shared_sync_Runs_20261026/phy_1/camera_to_dsi_display_720p60_cnn_multibox_phy.area",
+      "size": 74644,
+      "sha256": "93BE9AC115E20E471DA348D271055A8E67CC676D3F1519562F3E788A3ECDCFB2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_window_osd_20261027/02_sim/implementation_audit/subresource_semantics/original_baseline_check.tcl",
+      "size": 1168,
+      "sha256": "6609011A49C03041D1F00AA66D21265E6BF78ADEE29D5B9275CBE7379E65F819"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_window_osd_20261027/02_sim/implementation_audit/subresource_semantics/original_baseline_check.log",
+      "size": 3416,
+      "sha256": "329D1442C4E804FE71CC477B10F47E4B2DCBEF4620ABF610B2758B6A69175079"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_window_osd_20261027/02_sim/implementation_audit/subresource_semantics/device_resource_probe.tcl",
+      "size": 563,
+      "sha256": "04E002CAEC368D6EBFB6BAF5BDB56A025A78EDB6C55177A6F1CDDD461611C082"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_window_osd_20261027/02_sim/implementation_audit/subresource_semantics/device_resource_probe.log",
+      "size": 1986,
+      "sha256": "2FB7E1BCB02FD8FB2C77D7A9410C23A88BE77965818D84B5097525D049A81FDC"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101",
+  "status": "COMMANDS_ONLY_NOT_RUN",
+  "hardware_status": "NOT_RUN",
+  "environment": {
+    "MGLS_LICENSE_FILE": "E:/model/win64/LICENSE.TXT",
+    "LM_LICENSE_FILE": "E:/model/win64/LICENSE.TXT",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "order": "Run all three prepare commands before builder prepare; groups A/B/C have independent simulator libraries and may execute in parallel; run strict full gate only after all groups pass. No old PASS is imported as current.",
+  "canonical_generated_input_archive": "reports/factored_regression_adapter/IMPORTED_INPUT_ARCHIVE.json",
+  "prepare": [
+    [
+      "python",
+      "-B",
+      "tools/run_cnn_area_pipeline_lowconf_factored.py",
+      "--prepare"
+    ],
+    [
+      "python",
+      "-B",
+      "tools/run_doc_dirt_regression.py",
+      "--prepare"
+    ],
+    [
+      "python",
+      "-B",
+      "tools/run_cnn_lowconf_accept.py",
+      "--prepare"
+    ]
+  ],
+  "group_A": [
+    [
+      "python",
+      "-B",
+      "tools/run_cnn_top_regression.py"
+    ],
+    [
+      "python",
+      "-B",
+      "tools/run_key3_top_reset.py",
+      "--output",
+      "02_sim/key3_top_reset_release"
+    ],
+    [
+      "python",
+      "-B",
+      "tools/run_cnn_named_pcb_regression.py"
+    ],
+    [
+      "python",
+      "-B",
+      "tools/run_cnn_stability_core.py"
+    ],
+    [
+      "python",
+      "-B",
+      "tools/run_cnn_named_report_regression.py"
+    ]
+  ],
+  "group_B": [
+    [
+      "python",
+      "-B",
+      "tools/run_stroke_split_regression.py",
+      "--output",
+      "02_sim/stroke_release"
+    ],
+    [
+      "python",
+      "-B",
+      "tools/run_compact_metric_boundaries.py"
+    ],
+    [
+      "python",
+      "-B",
+      "tools/run_doc_dirt_regression.py",
+      "--run"
+    ],
+    [
+      "python",
+      "-B",
+      "tools/run_cnn_lowconf_accept.py",
+      "--run"
+    ]
+  ],
+  "group_C_area": [
+    [
+      "python",
+      "-B",
+      "tools/run_cnn_area_pipeline_lowconf_factored.py",
+      "--run"
+    ]
+  ],
+  "strict_gate_results": [
+    "02_sim/cnn_named_top/RESULTS.json",
+    "02_sim/key3_top_reset_release/RESULTS.json",
+    "02_sim/stroke_release/RESULTS.json",
+    "02_sim/cnn_named_pcb/RESULTS.json",
+    "02_sim/cnn_area_pipeline_compact/RESULTS.json",
+    "02_sim/cnn_stability_core/RESULTS.json",
+    "02_sim/cnn_named_report/RESULTS.json"
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "passed": false,
+  "generated_utc": "2026-10-30T14:28:28.091253+00:00",
+  "checks": {
+    "area": {
+      "passed": true,
+      "errors": [],
+      "resources": {
+        "slice": {
+          "used": 19741,
+          "total": 21216,
+          "percent": 93.04769984917044
+        },
+        "eram": {
+          "used": 90,
+          "total": 108,
+          "percent": 83.33333333333333
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5
+        }
+      }
+    },
+    "placed_sites": {
+      "passed": true,
+      "errors": [],
+      "expected_slices": 19741,
+      "placed_slices": 19741,
+      "unique_sites": 19741
+    },
+    "check_design": {
+      "passed": true,
+      "errors": [],
+      "raw_status": 1,
+      "known_logical_capacity_discrepancy": true,
+      "window": [
+        "RUN-1001 : lslices exceed capacity",
+        "RUN-8007 ERROR: Design failed the check. The resources used in your design exceed the device limitations. Please try modifying the design or switch to a device with a larger resource capacity.",
+        "RAW_CHECK_DESIGN_STATUS=1 REASON="
+      ]
+    },
+    "check_io": {
+      "passed": false,
+      "errors": [
+        "check_io adverse diagnostic: USR-8450 CRITICAL-WARNING: Please be cautious that there are unconstraint IOs(10 out of 39) in design and tool will auto configure them.",
+        "check_io adverse diagnostic: This is HIGH RISK and might have undefined behavior on board and damages following. Bitgen will abort."
+      ],
+      "window": [
+        "USR-8450 CRITICAL-WARNING: Please be cautious that there are unconstraint IOs(10 out of 39) in design and tool will auto configure them. ",
+        "                           This is HIGH RISK and might have undefined behavior on board and damages following. Bitgen will abort. ",
+        "                           Please constraint all IOs and rerun. If insist on bitgen with risk, please 'set_param bitgen unconstr_io on'.",
+        "CHECK_IO_STATUS=0 REASON="
+      ]
+    },
+    "check_plb": {
+      "passed": true,
+      "errors": [],
+      "window": [
+        "CHECK_PLB_STATUS=0 REASON="
+      ]
+    },
+    "drc": {
+      "passed": true,
+      "errors": [],
+      "total": 104,
+      "summary": [
+        [
+          "SLATR-1036",
+          "NOTE",
+          24
+        ],
+        [
+          "SLATR-1038",
+          "NOTE",
+          80
+        ]
+      ],
+      "detail_count": 104
+    },
+    "timing": {
+      "passed": true,
+      "errors": [],
+      "metrics_ns": {
+        "SWNS": 0.306,
+        "STNS": 0.0,
+        "HWNS": 0.02,
+        "HTNS": 0.0
+      }
+    },
+    "tracked_clock_warnings": {
+      "passed": true,
+      "errors": []
+    },
+    "readonly_unchanged": {
+      "passed": true,
+      "errors": []
+    },
+    "readonly_completion": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  "evidence": {
+    "console_readonly.log": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\console_readonly.log",
+      "sha256": "D12998264F1D65814E50CCBD14E875BC88CBA99DC4AC455C44C7B660E7D8FB2B"
+    },
+    "readonly.drc": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\readonly.drc",
+      "sha256": "F5760421A23469348E5857BCA6F738BE317849E8536FA59E7459D88D447851D5"
+    },
+    "readonly.timing": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\readonly.timing",
+      "sha256": "626E3674F0E8A511AFD64D5BED458B0E38A1115C5BD8D9D75CB25DFAF60146FB"
+    },
+    "readonly.area": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\readonly.area",
+      "sha256": "8965FA288A7CE23F2585A9B878B4499A872587034B80EB6DBEE9DF10859D1160"
+    },
+    "readonly.sites.tsv": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\readonly.sites.tsv",
+      "sha256": "44852A0DE9E964CC0A96F61160A24D41B77F4E2618B9FC530B2C435CB05D438F"
+    },
+    "expected_slice_cells.tsv": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\expected_slice_cells.tsv",
+      "sha256": "D89EA10F83565B659FAB50D093340AEB48036A0B2B6B6FE83A787452EDFCAA7D"
+    },
+    "readonly_input_hashes.json": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\readonly_input_hashes.json",
+      "sha256": "ADD40A25CB693D33CD08C4B52B9684C44C09F6A05C15B4C73B8378914CE81C45"
+    },
+    "readonly_verification.json": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\readonly_verification.json",
+      "sha256": "7768D69993EF181C92FF6D167EBB48D6EC04B37D25B80D986B33E0028CD9C17B"
+    },
+    "physical_capacity/physical_capacity_validation.json": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\physical_capacity\\physical_capacity_validation.json",
+      "sha256": "37CA450993A1102B5C8327CB3B5A1E15609BEA1D17D2C72E6B9DA3140C1E3CCB"
+    },
+    "physical_capacity/named_logic_tiles.tsv": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_chinese_compact_20261030\\02_sim\\compact_readonly_v2\\physical_capacity\\named_logic_tiles.tsv",
+      "sha256": "F9B66E748E10C33ADADF8AEC2B6F5B9592820F3ED49F0651919FFF67ADB802F7"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Strict read-only command/DRC/timing/placed-site audit. Raw adverse IO diagnostics are never hidden by catch=0."
+}

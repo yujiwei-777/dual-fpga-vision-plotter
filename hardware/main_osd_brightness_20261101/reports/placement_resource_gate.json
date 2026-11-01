@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "stage": "placed",
+  "resources": {
+    "slice": {
+      "used": 19642,
+      "total": 21216,
+      "percent": 92.58107088989442,
+      "limit_strict_percent": 95
+    },
+    "eram": {
+      "used": 90,
+      "total": 108,
+      "percent": 83.33333333333333,
+      "limit_strict_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "limit_strict_percent": 95
+    }
+  },
+  "errors": []
+}

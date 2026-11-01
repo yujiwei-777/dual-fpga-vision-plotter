@@ -1,0 +1,29 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 23:43:17 on Oct 31,2026
+vlog -sv -lint -work simlib cnn_result_stabilizer_baseline.v cnn_result_stabilizer.v pipeline_leaf_stubs.sv vision_pipeline_baseline.v vision_pipeline.v tb_fixed_grid_mapping_miter.sv tb_area_grid_equivalence.sv tb_combined_state_lifecycle.sv tb_cnn_stability_serial.sv 
+-- Compiling module cnn_result_stabilizer_baseline
+-- Compiling module cnn_result_stabilizer
+-- Compiling module vision_color_stats
+-- Compiling module vision_pixel_reader
+-- Compiling module edge_roi_ccl
+-- Compiling module vision_workspace
+-- Compiling module vision_shared_mac
+-- Compiling module cnn_core
+-- Compiling module pcb_fullboard_spatial96
+-- Compiling module pcb_tinycnn_core
+-- Compiling module pcb_tinycnn_core_compact
+-- Compiling module pcb_defect_cluster
+-- Compiling module vision_pipeline_baseline
+-- Compiling module vision_pipeline
+-- Compiling module tb_cnn_stability_pipeline
+-- Compiling module tb_area_grid_equivalence
+-- Compiling module tb_combined_state_lifecycle
+-- Compiling module tb_cnn_stability_serial
+
+Top level modules:
+	tb_cnn_stability_pipeline
+	tb_area_grid_equivalence
+	tb_combined_state_lifecycle
+	tb_cnn_stability_serial
+End time: 23:43:17 on Oct 31,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

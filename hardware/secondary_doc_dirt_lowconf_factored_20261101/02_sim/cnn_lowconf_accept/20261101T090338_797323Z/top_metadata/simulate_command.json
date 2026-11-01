@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-novopt",
+    "-suppress",
+    "12110",
+    "-lib",
+    "work",
+    "tb_cnn_named_top",
+    "-do",
+    "onerror {quit -code 1}; run -all; quit -f"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 2.379,
+  "log_sha256": "33BBDB5AA67DB93A997E120EC195BF1664F86D0D04BC5D7F7A98296CBA3FC046"
+}

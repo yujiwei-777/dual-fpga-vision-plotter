@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-lib",
+    "simlib",
+    "tb_timeout",
+    "-do",
+    "onerror {quit -code 1}; run -all; quit -f"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 1.49,
+  "log_sha256": "FA5F7AB787733B26968BAC6B070D933847EB22E076076CB94C491FA97E6C39A1"
+}

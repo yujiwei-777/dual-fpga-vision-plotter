@@ -1,0 +1,45 @@
+# vsim -batch -quiet -novopt -suppress 12110 -lib work tb_real_pcb_core -do "onerror {quit -code 1}; run -all; quit -f" 
+# Start time: 17:03:20 on Nov 01,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.tb_real_pcb_core
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.vision_workspace
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/work.pcb_fullboard_spatial96
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# onerror {quit -code 1}
+# run -all
+# BINARY_C4_4_SAMPLE_PASS index=0 class=1 score=0 margin=257 logits=(-265,-8) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=1 class=1 score=55 margin=364 logits=(-309,55) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=2 class=1 score=0 margin=116 logits=(-192,-76) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=3 class=1 score=6 margin=306 logits=(-300,6) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=4 class=1 score=0 margin=271 logits=(-283,-12) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=5 class=1 score=0 margin=263 logits=(-280,-17) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=6 class=0 score=0 margin=31 logits=(-138,-169) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=7 class=0 score=0 margin=43 logits=(-128,-171) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=8 class=0 score=0 margin=30 logits=(-134,-164) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=9 class=0 score=0 margin=99 logits=(-97,-196) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=10 class=0 score=0 margin=48 logits=(-115,-163) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=11 class=0 score=0 margin=61 logits=(-107,-168) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=12 class=0 score=255 margin=1309 logits=(607,-702) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=13 class=0 score=255 margin=2786 logits=(958,-1828) cycles=889996
+# BINARY_C4_4_SAMPLE_PASS index=14 class=1 score=255 margin=2933 logits=(-1651,1282) cycles=889996
+# BINARY_C4_4_GOLDEN_PASS samples=15 sat=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_pcb/tb_real_pcb_core.sv(76)
+#    Time: 107905713 ns  Iteration: 0  Instance: /tb_real_pcb_core
+# End time: 17:03:34 on Nov 01,2026, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 1

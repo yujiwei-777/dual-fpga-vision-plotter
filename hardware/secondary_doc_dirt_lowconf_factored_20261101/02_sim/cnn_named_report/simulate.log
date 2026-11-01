@@ -1,0 +1,72 @@
+# vsim -batch -quiet -novopt -suppress 12110 -lib D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/work tb_cnn_named_report -do "run -all; quit -f" 
+# Start time: 17:04:31 on Nov 01,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/work.tb_cnn_named_report
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/work.grbl_reporter
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/work.grbl_decimal
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/work.grbl_line_formatter
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/work.grbl_vector_font_rom
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/work.grbl_streamer
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/work.grbl_response_parser
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# run -all
+# PASS job 1 class 1, 318 acknowledged lines
+# PASS job 2 class 2, 299 acknowledged lines
+# PASS job 3 class 3, 308 acknowledged lines
+# PASS job 4 class 4, 340 acknowledged lines
+# PASS job 5 class 5, 321 acknowledged lines
+# PASS job 6 class 6, 330 acknowledged lines
+# PASS job 7 class 7, 326 acknowledged lines
+# PASS job 8 class 8, 307 acknowledged lines
+# PASS job 9 class 9, 316 acknowledged lines
+# PASS job 10 class 5, 96 acknowledged lines
+# PASS job 11 class 0, 96 acknowledged lines
+# PASS job 12 class 3, 324 acknowledged lines
+# PASS job 13 class 8, 309 acknowledged lines
+# PASS job 14 class 0, 231 acknowledged lines
+# PASS job 15 class 0, 227 acknowledged lines
+# PASS job 16 class 0, 254 acknowledged lines
+# PASS job 17 class 0, 13 acknowledged lines
+# PASS job 18 class 0, 13 acknowledged lines
+# PASS job 19 class 4, 345 acknowledged lines
+# PASS job 20 class 6, 335 acknowledged lines
+# PASS job 21 class 4, 345 acknowledged lines
+# PASS job 22 class 4, 345 acknowledged lines
+# PASS job 23 class 4, 345 acknowledged lines
+# PASS job 24 class 4, 345 acknowledged lines
+# PASS job 25 class 4, 345 acknowledged lines
+# PASS job 26 class 4, 345 acknowledged lines
+# PASS job 27 class 4, 345 acknowledged lines
+# PASS job 28 class 4, 345 acknowledged lines
+# PASS job 29 class 4, 345 acknowledged lines
+# PASS job 30 class 4, 345 acknowledged lines
+# PASS job 31 class 4, 345 acknowledged lines
+# PASS job 32 class 4, 345 acknowledged lines
+# PASS job 33 class 4, 345 acknowledged lines
+# PASS 13 complete CNN reports fit; 14th rejected before any command
+# PASS stop during CONF line: no new G-code, no DONE, Hold/reset/fresh Idle verified
+# PASS CNN_NAMED_REPORT_ALL 33 jobs plus capacity and safety
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/tb_cnn_named_report.sv(169)
+#    Time: 11575410 ns  Iteration: 1  Instance: /tb_cnn_named_report
+# End time: 17:04:34 on Nov 01,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1

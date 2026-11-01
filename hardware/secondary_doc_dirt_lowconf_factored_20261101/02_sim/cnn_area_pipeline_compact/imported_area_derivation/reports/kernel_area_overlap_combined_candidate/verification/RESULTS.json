@@ -1,0 +1,405 @@
+{
+  "status": "PASS_SCRATCH_RTL_ONLY",
+  "production_modified": false,
+  "hardware_status": "NOT_RUN",
+  "candidate_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "r11_sha256": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer_r11.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\cnn_result_stabilizer.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\vision_pipeline.v": "C7B43FE8727F1145C2EF060CE9DC464029AF74CB4BD372DF10E1395E5D878413",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\tools\\cnn_stability_reference.py": "402F7F30E8BD1F9036314639BD59B514137016711783D670C52D8CA87BC53503",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\02_sim\\cnn_stability\\vectors.txt": "C8B5BF256C7043503782213E9887EAFF0BF58C12FE85E920A4A60E2FB0D131D3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\02_sim\\cnn_stability\\reference_trace.jsonl": "04E7AB74BCF2A5DC0D2801F9880639EA2F60C05A98954E45761BD8A82F91FADE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\cnn_result_stabilizer_baseline.sv": "FCB7C384764F3D96BF18515E2C0A74C39DFA136D5BE7367738600E4DAD76C968",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_area_grid_equivalence.sv": "EB3CDC503E637AF0A80C9E02BE343DF6AB2BC812ACF8AFFFE6E1C9C96309457B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_cnn_stability_metadata_atomic.sv": "8EE5CED2636512865830401DAD05A76C6061DF3878E9B64D2DD13670FC7EFDFC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_cnn_stability_ram.sv": "3B0A63F7A92665D82828CF5FEB28302605A607E6009B9F6C3F8AF625C97270C8",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\tb_cnn_stability_serial.sv": "D6ACE7233964B2597DAAEC8B340586400F3B5CB86355C07356DAACC6D6D8D575",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a20_s1.txt": "DA3B7952C57D96C3620B784EDEFA0B9F3C643F3CDA4920A1285441E2B610112A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a20_s19.txt": "3A630AB2E4AC72364C70D0628FFC51B951AEC4AF54E788A6DAAD9E13647409EC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a22_s6.txt": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a32_s31.txt": "40718F01D22E1EFDA2BE90406F85C5031ED9501204CE0653AF1A140F94EFB3EB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\generic_vectors.txt": "FD46A8CCE05C6E2C62A25ED3F57BB4716E9BEDCE1C2823A935029D4FFDBF4B6B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\vectors.txt": "C8B5BF256C7043503782213E9887EAFF0BF58C12FE85E920A4A60E2FB0D131D3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\prepare_candidate.py": "34C19AFAECE87B26A56465BA96C168CCDEFB428202AD9A140C4BFFE5C5F2FF66",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\PREPARATION.json": "5162BFEE2A6E1AACBED14EC1C595F3B6235C96C6FE809111A229020DBA9BE4A5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\run_verification.py": "0FA62151A3E6226AF33B8D9B6337D42E362D16D1FDE6F0787684223CB668BF81"
+  },
+  "integer_gold": {
+    "checks": 2453,
+    "vectors": 2485,
+    "serial_records": 3883,
+    "bank_reuses": 2460,
+    "clear_boundaries": 2,
+    "max_cycles": 857
+  },
+  "miter_configurations": 40,
+  "records": [
+    {
+      "test": "default_unchanged_integer_gold",
+      "checks": [
+        "PASS SERIAL_GOLD checks=2453 vectors=2485 emitted=3883 bank_reuses=2460 clear_boundaries=2 max_latency_cycles=857"
+      ],
+      "elapsed_total_seconds": 4.25
+    },
+    {
+      "test": "miter_a20s0_c0_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 9.656
+    },
+    {
+      "test": "miter_a20s0_c3_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 12.672
+    },
+    {
+      "test": "miter_a20s0_c0_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 17.453
+    },
+    {
+      "test": "miter_a20s0_c3_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 20.453
+    },
+    {
+      "test": "miter_a22s0_c0_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 25.156
+    },
+    {
+      "test": "miter_a22s0_c3_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 28.203
+    },
+    {
+      "test": "miter_a22s0_c0_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 32.937
+    },
+    {
+      "test": "miter_a22s0_c3_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 35.937
+    },
+    {
+      "test": "miter_a24s0_c0_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 40.703
+    },
+    {
+      "test": "miter_a24s0_c3_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 43.734
+    },
+    {
+      "test": "miter_a24s0_c0_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 48.562
+    },
+    {
+      "test": "miter_a24s0_c3_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 51.578
+    },
+    {
+      "test": "miter_a32s0_c0_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 56.469
+    },
+    {
+      "test": "miter_a32s0_c3_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 59.594
+    },
+    {
+      "test": "miter_a32s0_c0_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 64.422
+    },
+    {
+      "test": "miter_a32s0_c3_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 67.422
+    },
+    {
+      "test": "miter_a32s0_c0_e0_p1_0_1",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=1/0/1 vectors=2652 jobs=2612 rejected=0 cycle_checks=1312314 serial=4570 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 71.891
+    },
+    {
+      "test": "miter_a32s0_c0_e0_p2_1_2",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=2/1/2 vectors=2652 jobs=2612 rejected=0 cycle_checks=1395646 serial=4374 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 76.609
+    },
+    {
+      "test": "miter_a32s0_c0_e0_p4_0_4",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=4/0/4 vectors=2652 jobs=2612 rejected=0 cycle_checks=1405485 serial=1983 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 81.312
+    },
+    {
+      "test": "miter_a32s0_c0_e0_p15_15_15",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=15/15/15 vectors=2652 jobs=2612 rejected=0 cycle_checks=1396812 serial=882 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 86.031
+    },
+    {
+      "test": "miter_a32s0_c0_e1_p1_0_1",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=1/0/1 vectors=2652 jobs=2612 rejected=0 cycle_checks=1312314 serial=4570 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 90.578
+    },
+    {
+      "test": "miter_a32s0_c0_e1_p2_1_2",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=2/1/2 vectors=2652 jobs=2612 rejected=0 cycle_checks=1395646 serial=4374 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 95.312
+    },
+    {
+      "test": "miter_a32s0_c0_e1_p4_0_4",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=4/0/4 vectors=2652 jobs=2612 rejected=0 cycle_checks=1405485 serial=1983 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 100.156
+    },
+    {
+      "test": "miter_a32s0_c0_e1_p15_15_15",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=15/15/15 vectors=2652 jobs=2612 rejected=0 cycle_checks=1396812 serial=882 bank_reuses=2612"
+      ],
+      "elapsed_total_seconds": 104.906
+    },
+    {
+      "test": "miter_a22s6_c3_e0_p1_0_1",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=1/0/1 vectors=3307 jobs=2952 rejected=288 cycle_checks=978231 serial=3177 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 108.562
+    },
+    {
+      "test": "miter_a22s6_c3_e0_p2_1_2",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=2/1/2 vectors=3307 jobs=2952 rejected=288 cycle_checks=975415 serial=2122 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 112.266
+    },
+    {
+      "test": "miter_a22s6_c3_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=3/2/3 vectors=3307 jobs=2952 rejected=288 cycle_checks=973865 serial=2057 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 115.984
+    },
+    {
+      "test": "miter_a22s6_c3_e0_p4_0_4",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=4/0/4 vectors=3307 jobs=2952 rejected=288 cycle_checks=973257 serial=1857 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 119.656
+    },
+    {
+      "test": "miter_a22s6_c3_e0_p15_15_15",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=15/15/15 vectors=3307 jobs=2952 rejected=288 cycle_checks=967641 serial=1331 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 123.312
+    },
+    {
+      "test": "miter_a22s6_c3_e1_p1_0_1",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=1/0/1 vectors=3307 jobs=2952 rejected=288 cycle_checks=978231 serial=3177 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 126.969
+    },
+    {
+      "test": "miter_a22s6_c3_e1_p2_1_2",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=2/1/2 vectors=3307 jobs=2952 rejected=288 cycle_checks=975415 serial=2122 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 130.594
+    },
+    {
+      "test": "miter_a22s6_c3_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=3/2/3 vectors=3307 jobs=2952 rejected=288 cycle_checks=973865 serial=2057 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 134.156
+    },
+    {
+      "test": "miter_a22s6_c3_e1_p4_0_4",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=4/0/4 vectors=3307 jobs=2952 rejected=288 cycle_checks=973257 serial=1857 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 137.75
+    },
+    {
+      "test": "miter_a22s6_c3_e1_p15_15_15",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=15/15/15 vectors=3307 jobs=2952 rejected=288 cycle_checks=967641 serial=1331 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 141.391
+    },
+    {
+      "test": "miter_a20s1_c0_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=1 coord=0 external=0 params=3/2/3 vectors=3250 jobs=2952 rejected=234 cycle_checks=1009349 serial=2249 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 145.125
+    },
+    {
+      "test": "miter_a20s1_c0_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=1 coord=0 external=1 params=3/2/3 vectors=3250 jobs=2952 rejected=234 cycle_checks=1009349 serial=2249 bank_reuses=2952"
+      ],
+      "elapsed_total_seconds": 148.797
+    },
+    {
+      "test": "miter_a20s19_c0_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=19 coord=0 external=0 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=977075 serial=2169 bank_reuses=2862"
+      ],
+      "elapsed_total_seconds": 152.562
+    },
+    {
+      "test": "miter_a20s19_c0_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=19 coord=0 external=1 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=977075 serial=2169 bank_reuses=2862"
+      ],
+      "elapsed_total_seconds": 156.25
+    },
+    {
+      "test": "miter_a32s31_c0_e0_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=31 coord=0 external=0 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=977887 serial=2169 bank_reuses=2862"
+      ],
+      "elapsed_total_seconds": 160.016
+    },
+    {
+      "test": "miter_a32s31_c0_e1_p3_2_3",
+      "checks": [
+        "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=31 coord=0 external=1 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=977887 serial=2169 bank_reuses=2862"
+      ],
+      "elapsed_total_seconds": 163.891
+    },
+    {
+      "test": "payload_atomic_prod",
+      "checks": [
+        "PASS WIDE_RAM_ATOMIC checks=10 aborts=5"
+      ],
+      "elapsed_total_seconds": 165.562
+    },
+    {
+      "test": "metadata_atomic_prod_reader0",
+      "checks": [
+        "PASS METADATA_ATOMIC area_bits=22 boundaries=24 fresh_checks=147 publications=196 max_latency_cycles=857 external_reader=0"
+      ],
+      "elapsed_total_seconds": 167.375
+    },
+    {
+      "test": "metadata_atomic_prod_reader1",
+      "checks": [
+        "PASS METADATA_ATOMIC area_bits=22 boundaries=24 fresh_checks=147 publications=196 max_latency_cycles=857 external_reader=1"
+      ],
+      "elapsed_total_seconds": 168.625
+    }
+  ],
+  "elapsed_seconds": 168.625,
+  "evidence_hashes": {
+    "compile.log": "16BE3A55A6513E7B8A8F2AC80FC42A43CE03A438EDD3E75F75E2CF5B8B0987C6",
+    "default_unchanged_integer_gold.log": "346B5D7905D2C10266B162CDD5C2CC977539E23208CA7E626A9436B7C19A9009",
+    "metadata_atomic_prod_reader0.log": "3150336498882511E1EA144DFE66EC3195525DA4B1A97501079A99C90805EC05",
+    "metadata_atomic_prod_reader1.log": "DE285D6C496E0297B5B78DBFD02CA5FAFCEC6F105BE45541BD7AD1E717E68AEF",
+    "miter_a20s0_c0_e0_p3_2_3.log": "6A5F029ABA463AC7C0E57EEAF7B98D6F3D351B598B9F8C7689CC5003B22F6673",
+    "miter_a20s0_c0_e1_p3_2_3.log": "2D1E3BC86CC91D29F318E43886ECB44E9607E7A31CDDF58802BA33D0E8431CF2",
+    "miter_a20s0_c3_e0_p3_2_3.log": "11CEF40F067AEC4DEF07B7CC34B79BEF7959F409D2B721DC7D5304A4C26774A8",
+    "miter_a20s0_c3_e1_p3_2_3.log": "D7D1AD89F2F38B35985D158F2277ED9F7390F04D409AD81B1C75E13C3D681F5B",
+    "miter_a20s19_c0_e0_p3_2_3.log": "C285AA0B64B8F27CFD2D870348C73229E79686FCC583CE9784077E3B6B8A2639",
+    "miter_a20s19_c0_e1_p3_2_3.log": "E895A717698C441E26CE3FC86122F637317961E4177F5ACFAC662F05642B39BD",
+    "miter_a20s1_c0_e0_p3_2_3.log": "76603309B93ADB832A5563E9D048D94211E8C88F69DA6ED9D2A914452A653CFB",
+    "miter_a20s1_c0_e1_p3_2_3.log": "EC5C76BAC928786F69B747C6B091733CFED3D2619450378017B0C2FA08EFD9FA",
+    "miter_a22s0_c0_e0_p3_2_3.log": "36E42AFA3A722E109AAB2CE99DB5EA4C4856210DD34E25CA92D6904450FE7B56",
+    "miter_a22s0_c0_e1_p3_2_3.log": "DEEC626FECEFC32015B3F043BCAF847BF52A54E55007BED2D9467BF7350594F5",
+    "miter_a22s0_c3_e0_p3_2_3.log": "B6A4317E462695EF55E26223393816D5971A6BC50F1AF46D8CCFF2F1D2603F08",
+    "miter_a22s0_c3_e1_p3_2_3.log": "AD2517ABD34C5422B2580D12EFBFA44920BC265C7D78FB34DF0F7E1339CC5C69",
+    "miter_a22s6_c3_e0_p15_15_15.log": "B0FE8318DB68B06458A274CA3F00650142BFC4D263A1A3692F82BAD7B0420F84",
+    "miter_a22s6_c3_e0_p1_0_1.log": "4F167FEE694337D2A74358F138710C8C875A36146612C3912BCA225E96C47DFB",
+    "miter_a22s6_c3_e0_p2_1_2.log": "0DCB204427F765F1DF1ED8B9C27C8835CCBA845A5700911073538DD69F022693",
+    "miter_a22s6_c3_e0_p3_2_3.log": "3123BDFB0125A5DA9C33EDF2A22E776C0251C00A9A6AE85676CA640526FF937C",
+    "miter_a22s6_c3_e0_p4_0_4.log": "FCAB5845F16CA4D45654DEBF0A96AC657C70E103718404F92C1C289AB3C0BB1D",
+    "miter_a22s6_c3_e1_p15_15_15.log": "0DAF58891A0B7AA0BB6A96882ECAB8608EF95BA4BA6519778DDC3015BC36A3AA",
+    "miter_a22s6_c3_e1_p1_0_1.log": "13B4B77BC59F480594A263EF0CBA8CD76D65CE970951B01F7591B7ED030E9EF5",
+    "miter_a22s6_c3_e1_p2_1_2.log": "CD75B6FB68B76544B0CCE637137A079887D36F59189CD0659DEEA6C31C92E0E2",
+    "miter_a22s6_c3_e1_p3_2_3.log": "C4F2E1F63D5CCDDDD7A41C527602FF3831F29508E0D0D54A73E7ED54BFF31B46",
+    "miter_a22s6_c3_e1_p4_0_4.log": "36DD33074F41E6FDFF1674E1DDD361E6BB372D6EBC6031607E09C3B196FCBA0C",
+    "miter_a24s0_c0_e0_p3_2_3.log": "931999561B6BECE46312AD3203F696D39C4FC9CB8768937ACC94787B6389D01D",
+    "miter_a24s0_c0_e1_p3_2_3.log": "D4D64DF0B8075773732A2DDB132361FBB384B8F4096DD0FBEABCF6122DF99F91",
+    "miter_a24s0_c3_e0_p3_2_3.log": "BA474DBF6264046E968FA5D322C3F38F6DE36A67D94E919C2F22E44533020B79",
+    "miter_a24s0_c3_e1_p3_2_3.log": "9A1F08412A8C52710EFB09968CA5870C58B12E0601CDCB626C6488ADD4A685E0",
+    "miter_a32s0_c0_e0_p15_15_15.log": "5AB6525BD526F1C7354A7B911E47388094D12A144424CC8F498C11F3C97C1697",
+    "miter_a32s0_c0_e0_p1_0_1.log": "BCFB40F0ACF4A0C0D211F2A4A96DB43FF85EC4135863D80488D3A4454D81323B",
+    "miter_a32s0_c0_e0_p2_1_2.log": "CE53FC4E792AB67FE48429CFBF447A1714ADB6CEA79BF3E4B282C4A908AEE8E5",
+    "miter_a32s0_c0_e0_p3_2_3.log": "A5E439A2B18ADCDB859A0DFAF2D8FC73053147AC99A6320B08EE4D9C636BB89D",
+    "miter_a32s0_c0_e0_p4_0_4.log": "993C0611FC23E53C2132649EDFBD3F2E80D3C1C73CFB8BAACB64F4F92BFE1A16",
+    "miter_a32s0_c0_e1_p15_15_15.log": "FFCB38B45780D2E62438CED9FB29ED6E9FCFD349ED6661C6D770440EA9FF5F4A",
+    "miter_a32s0_c0_e1_p1_0_1.log": "CFDAC548F7B6D7C6AC3E4DA58AD83A0BA4AE41F0E7FEFA7A6182D4B2B79A17D6",
+    "miter_a32s0_c0_e1_p2_1_2.log": "76C9D9F599123DEBF9EE50B535D1904023D71967E6171CE2D4D74B181DBFBC49",
+    "miter_a32s0_c0_e1_p3_2_3.log": "CE39FB4C84E6C1B06168172110BE8292F78E0C83260071AC4A9B42C73C3ACF38",
+    "miter_a32s0_c0_e1_p4_0_4.log": "E66D6E9D78309609455DE7EA755E94FE61348392287350379950965040738E9C",
+    "miter_a32s0_c3_e0_p3_2_3.log": "19E68A844698DF57814EA0CBAEBAF04A26E0AC96E862CDEC1DE10404E1B28201",
+    "miter_a32s0_c3_e1_p3_2_3.log": "14AF73AFF334C80F582C8B27BA0FEF4CC7C42A2B09E34066B1AFEDE3E1D79A3C",
+    "miter_a32s31_c0_e0_p3_2_3.log": "D2701CD2C765445AE2121894C2CE96A051C493B578ABAC1AA6647DB2870EDC8A",
+    "miter_a32s31_c0_e1_p3_2_3.log": "7F0E409646AE906A70ECEC5A686690677381B4769DB7C0F32560A310A2E10188",
+    "payload_atomic_prod.log": "669AA35CB63416F340C28E6E1F77FE0E89490C863951C7E10C1C9D0E33E3F620",
+    "vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  "limits": [
+    "Kernel only; no complete pipeline, DDR, HXA, PCB arithmetic, board synthesis or bitgen",
+    "Default 2453 gold reused byte-for-byte; specialized mode uses aligned observations and frozen-R11 per-cycle oracle",
+    "1170 actual ordinary replay frames retained in production area6 domain; they overlap training/development",
+    "Two-state directed/random simulation; not formal proof over arbitrary X/Z or all event sequences",
+    "No physical ERAM/LUT saving established until the separate local TD probe runs"
+  ]
+}

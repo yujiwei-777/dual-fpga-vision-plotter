@@ -1,0 +1,5 @@
+PASS vlib
+PASS lint
+PASS boundaries
+PASS core
+PASS real ordinary-CNN 27-vector arithmetic and 11 numeric boundary checks

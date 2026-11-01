@@ -1,0 +1,72 @@
+{
+  "status": "PASS_FACTORED_ADAPTER_SOURCE_SCOPE",
+  "hardware_status": "NOT_RUN",
+  "scope": {
+    "status": "PASS_EXACT_FACTORED_OPTIN_LOW_SCORE_TOP_AND_PIPELINE_DELTA",
+    "top": {
+      "before": "64176506920BFF546415A1D1433FE1F6558FAAA565B5845FA826B56566694DCA",
+      "after": "DCA939F1C76E1920FF99647E1C19B733C6A0177033631317DCAED237FD2106DC"
+    },
+    "pipeline": {
+      "before": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+      "after": "02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5"
+    },
+    "parameters": {
+      "CNN_LOWCONF_OUTPUT": 1,
+      "TRIANGLE_MARGIN_MIN": 31,
+      "CIRCLE_MARGIN_MIN": 28,
+      "SQUARE_MARGIN_MIN": 77,
+      "COLOR_MARGIN_MIN": 0
+    },
+    "default_pipeline_parameter_zero_preserves_golden": true,
+    "soft_margin_comparison_and_flag6_preserved": true,
+    "hard_rejection_separated_from_soft_diagnostics": true,
+    "inherited_gate_sha256": "39E7074695586C24E76EC5A249DE1286B9DA9A957376ECCB1A0AE63EA75F135A",
+    "legacy_area_wrapper_sha256": "E6F7DA5B40862CF59CD831C898E10015ACF87420DB80A79C59FD3398055C12BF",
+    "all_other_pins_and_seven_suite_contracts_unchanged": true
+  },
+  "unchanged_original_runners": {
+    "cnn_named_top": {
+      "runner": "run_cnn_top_regression.py",
+      "sha256": "B3A82B8D54A11DE419D532789A80016CEE4EB1ACDBAA844ACAB708E8DEF75EF8"
+    },
+    "key3_top_reset_release": {
+      "runner": "run_key3_top_reset.py",
+      "sha256": "0345C30600CEE927A5358AE1061593F4F32BF5ABA29EE5714408A019EC3B7AEE"
+    },
+    "stroke_release": {
+      "runner": "run_stroke_split_regression.py",
+      "sha256": "69BC73E3DCC627E2B724B09E1FD4CEC3B31D17127C7591533F953427CE91A74B"
+    },
+    "cnn_named_pcb": {
+      "runner": "run_cnn_named_pcb_regression.py",
+      "sha256": "28BF9DDF778D2FE796A2CDC22DCC93BD06A107F666F2BAC593F7E17EF7CF6CE1"
+    },
+    "cnn_area_pipeline_compact": {
+      "runner": "run_cnn_area_pipeline_compact.py",
+      "sha256": "6DF6DDF36EE3E5AB79B6691D521C294B62478600ADDDEB9387C3A18818C4CC19"
+    },
+    "cnn_stability_core": {
+      "runner": "run_cnn_stability_core.py",
+      "sha256": "77BD0601C5217473304A7D013AD16C49B3029D5D93C4F6DF6CEF0C21D5D92757"
+    },
+    "cnn_named_report": {
+      "runner": "run_cnn_named_report_regression.py",
+      "sha256": "28222B11A1290CA7D30A4F1140EEA8BCECDB3729259585CAA7EF41DACA0574FE"
+    }
+  },
+  "exact_current_source_reconstruction": true,
+  "fixture_derivation": {
+    "pipeline_reference": {
+      "relative": "02_sim/cnn_area_pipeline_compact/pipeline_miter/vision_pipeline_baseline.v",
+      "original_sha256": "7876918A9EA2347E2E1791DCA47A30004462F8B536EECF81B3780BB8EE1233C3",
+      "approved_sha256": "7517116C3B533385A0BBF90DAB70D1E082C504778D033179DFE379D2BA0358ED"
+    },
+    "domain_script": {
+      "relative": "02_sim/cnn_area_pipeline_compact/domain/prove_compact_area_domain.py",
+      "original_sha256": "316487DCED53A37E6502746903F7F29A00C2F29A83BF44E0B61D2B803C47DF45",
+      "approved_sha256": "4213775D998DEF3CF478A108D265069EA445787E20E2FE495951A3E676668DDE"
+    }
+  },
+  "no_simulation_or_td_run": true
+}

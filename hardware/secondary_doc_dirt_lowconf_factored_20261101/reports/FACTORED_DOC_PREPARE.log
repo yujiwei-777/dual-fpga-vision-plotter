@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\tools\run_doc_dirt_regression.py", line 220, in <module>
+    if options.prepare:prepare()
+                       ^^^^^^^^^
+  File "D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\tools\run_doc_dirt_regression.py", line 100, in prepare
+    provenance=QUAL/'provenance';provenance.mkdir(exist_ok=False)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\38401\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1116, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [WinError 183] ���ļ��Ѵ���ʱ���޷��������ļ���: 'D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\provenance'

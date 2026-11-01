@@ -1,0 +1,135 @@
+# vsim -batch -quiet -novopt -suppress 12110 -lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\simwork tb_key3_top_reset -do "onerror {quit -code 1}; run -all; quit -f" 
+# Start time: 16:59:59 on Nov 01,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.tb_key3_top_reset
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.secondary_top
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.secondary_key3_board_reset
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.pll
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.PH1P_LOGIC_BUFG
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.reset_sync
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.PLL
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.secondary_ddr_wrapper
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.hxa_ddr_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.uiudp_stack
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.rgmii_interface
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.vision_pixel_reader
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.hxa_secondary_link
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.hxa_packet_tx
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.hxa_packet_rx_fifo4
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.PH1P_LOGIC_ERAM
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.vision_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.hxa_config_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.doc_copy_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_key1_job_guard
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_key2_test_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_uart_port
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_uart_tx
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_uart_rx
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_response_parser
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_reporter
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_decimal
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_line_formatter
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_vector_font_rom
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/simwork.grbl_streamer
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_key3_top_reset/dut File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv Line: 6
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_rgmii_txd'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_rgmii_txc'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_phy_rst'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_uart_tx'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_addr'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_ba'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_cke'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_odt'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_cs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_ck_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_ck_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_ras_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_cas_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_we_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_dm'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_dqs_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_dqs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_dq'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_led'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_key3_top_reset/dut/u_uart/u_parser File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_uart.v Line: 104
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_uart.v(104): [TFMPC] - Missing connection for port 'O_hold0'.
+# 
+# onerror {quit -code 1}
+# run -all
+# PASS release restarts both modeled PLLs and synchronizes application domains
+# PASS boot does not treat KEY3 as GRBL rearm or assume UART ready
+# PASS KEY3 asynchronously asserts both application reset domains
+# PASS KEY3 asserts Ethernet PLL, DDR reference PLL and DDR IP reset
+# PASS PHY, receive synchronizer and MAC reset follow whole-board reset
+# PASS CNN/PCB, document, configuration, HXA and both DDR mailbox ends receive reset
+# PASS reset invalidates classification cache and center coordinates
+# PASS reset clears pending jobs and accepted local job ownership
+# PASS real HXA reset invalidates session, partial frame and completed-frame validity
+# PASS real reporter cursor resets and UART restarts closed and idle high
+# PASS long KEY3 hold keeps all application logic reset without restart loops
+# PASS release restarts both modeled PLLs and synchronizes application domains
+# PASS release does not restore cached report, old G-code or completed image transaction
+# PASS KEY3 asynchronously asserts both application reset domains
+# PASS KEY3 asserts Ethernet PLL, DDR reference PLL and DDR IP reset
+# PASS PHY, receive synchronizer and MAC reset follow whole-board reset
+# PASS CNN/PCB, document, configuration, HXA and both DDR mailbox ends receive reset
+# PASS reset invalidates classification cache and center coordinates
+# PASS reset clears pending jobs and accepted local job ownership
+# PASS real HXA reset invalidates session, partial frame and completed-frame validity
+# PASS real reporter cursor resets and UART restarts closed and idle high
+# PASS release restarts both modeled PLLs and synchronizes application domains
+# PASS KEY1/KEY2 held through reset do not start jobs after boot lock expires
+# PASS debounced release rearms KEY2 after whole-board reset
+# PASS KEY4 still affects task reset rather than whole-board reset
+# PASS two physical KEY3 presses each produce one board reset
+# PASS KEY3_TOP_RESET_ALL checks=26
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/key3_top_reset_release/tb_key3_top_reset.sv(116)
+#    Time: 50005091 ns  Iteration: 0  Instance: /tb_key3_top_reset
+# End time: 17:00:32 on Nov 01,2026, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 24

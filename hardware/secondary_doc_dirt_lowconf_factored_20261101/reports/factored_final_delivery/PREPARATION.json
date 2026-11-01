@@ -1,0 +1,12 @@
+{
+  "status": "PREPARED_FINALIZER_ONLY_ACTUAL_RELEASE_NOT_READY",
+  "root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101",
+  "finalizer_sha256": "89B57D35EBC1ED16E9794B1437B7093BD39684627AFED32CBE8721FC047FE13B",
+  "negative_selftest_sha256": "3B870E87F8991B6B083C9A7031E39D8296B66824CE7F70C02AA7D9FEE6F64730",
+  "actual_not_ready_cli_exit_code": 1,
+  "actual_not_ready_log_sha256": "92E62557211AC57D75798EF54A57A8AF689BA93274E90800FE8911E9A8336663",
+  "quality_report_sha256": "6D215EB338877FBA6E7F8CDBB6B3D1C2D9601B42EFFE48FB2A64D9139997A6F7",
+  "hardware_status": "NOT_RUN",
+  "release_index_generated": false,
+  "frozen_inputs_changed": false
+}

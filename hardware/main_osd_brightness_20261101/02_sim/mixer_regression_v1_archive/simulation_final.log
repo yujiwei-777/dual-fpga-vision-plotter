@@ -1,0 +1,73 @@
+# vsim -batch -voptargs="+acc" mixreg.tb_mixer_regression -l simulation.log -do "run -all; quit -f" 
+# Start time: 21:37:31 on Oct 30,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_mixer_regression(fast)
+# Loading work.hdmi_mixer(fast)
+# Loading work.osd_decimal_snapshot(fast)
+# Loading work.osd_compact_panel(fast)
+# Loading work.osd_compact_font_rom(fast)
+# Loading work.doc_copy_overlay(fast)
+# Loading work.hxa_multibox_overlay(fast)
+# Loading work.hdmi_mixer_baseline(fast)
+# Loading work.osd_char_lib(fast)
+# Loading work.pcb_status_text_rom(fast)
+# Loading work.pcb_status_large_text(fast)
+# Loading work.osd_large_font_rom(fast)
+# Loading work.hxa_multibox_overlay_baseline(fast)
+# 
+# run -all
+# MIXER_FRAME_PASS id=0 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=0
+# MIXER_FRAME_PASS id=1 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=8064
+# MIXER_FRAME_PASS id=2 pixels=921600 baseline_equal=803142 pcb_edges=10880 hidden_motion=0
+# MIXER_FRAME_PASS id=3 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=0
+# MIXER_FRAME_PASS id=4 pixels=921600 baseline_equal=800182 pcb_edges=0 hidden_motion=0
+# MIXER_FRAME_PASS id=5 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=0
+# MIXER_FRAME_PASS id=6 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=0
+# MIXER_CROP_PASS kind=0 id=0 pixels=43008
+# MIXER_CROP_PASS kind=0 id=1 pixels=43008
+# MIXER_CROP_PASS kind=0 id=2 pixels=43008
+# MIXER_CROP_PASS kind=0 id=3 pixels=43008
+# MIXER_CROP_PASS kind=0 id=4 pixels=43008
+# MIXER_CROP_PASS kind=0 id=5 pixels=43008
+# MIXER_CROP_PASS kind=0 id=6 pixels=43008
+# MIXER_CROP_PASS kind=0 id=7 pixels=43008
+# MIXER_CROP_PASS kind=0 id=8 pixels=43008
+# MIXER_CROP_PASS kind=0 id=9 pixels=43008
+# MIXER_CROP_PASS kind=0 id=10 pixels=43008
+# MIXER_CROP_PASS kind=0 id=11 pixels=43008
+# MIXER_CROP_PASS kind=0 id=12 pixels=43008
+# MIXER_CROP_PASS kind=0 id=13 pixels=43008
+# MIXER_CROP_PASS kind=0 id=14 pixels=43008
+# MIXER_CROP_PASS kind=0 id=15 pixels=43008
+# MIXER_CROP_PASS kind=0 id=16 pixels=43008
+# MIXER_CROP_PASS kind=0 id=17 pixels=43008
+# MIXER_CROP_PASS kind=0 id=18 pixels=43008
+# MIXER_CROP_PASS kind=1 id=0 pixels=27648
+# MIXER_CROP_PASS kind=1 id=1 pixels=27648
+# MIXER_CROP_PASS kind=1 id=2 pixels=27648
+# MIXER_CROP_PASS kind=1 id=3 pixels=27648
+# MIXER_CROP_PASS kind=1 id=4 pixels=27648
+# MIXER_CROP_PASS kind=1 id=5 pixels=27648
+# MIXER_CROP_PASS kind=1 id=6 pixels=27648
+# MIXER_CROP_PASS kind=1 id=7 pixels=27648
+# MIXER_CROP_PASS kind=2 id=0 pixels=43008
+# MIXER_CROP_PASS kind=2 id=1 pixels=43008
+# TB_MIXER_REGRESSION_PASS frames=7 stream_pixels=6451200 outside_rgb_compared=5619034 crops=29
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/main_osd_chinese_compact_20261030/02_sim/mixer_regression/tb_mixer_regression.sv(188)
+#    Time: 76471390 ns  Iteration: 1  Instance: /tb_mixer_regression
+# End time: 21:38:07 on Oct 30,2026, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-quiet",
+    "-lib",
+    "work",
+    "tb_stroke_lifecycle",
+    "-do",
+    "onerror {quit -code 1}; run -all; quit -f"
+  ],
+  "returncode": 0,
+  "log_sha256": "997373BC35EBE762B50A95E3B719AF48D8B5B8789DDA8105EEEA7EA900A4B576"
+}

@@ -1,0 +1,22 @@
+mixed_nn: PASS STROKE_SPLIT full thin graph paths mapper Gcode cycles=26260769 edges=549 paths=26 points=64 acked=122
+mixed_two_opt: PASS STROKE_SPLIT full thin graph paths mapper Gcode cycles=26776781 edges=549 paths=26 points=64 acked=122
+blank: PASS STROKE_SPLIT full thin graph paths mapper Gcode cycles=12973103 edges=0 paths=0 points=0 acked=4
+edge_capacity: PASS capacity error=2 before motion
+path_capacity: PASS capacity error=3 before motion
+point_capacity: PASS capacity error=4 before motion
+PASS stroke split regression: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\stroke_release
+finite_bound ['PASS METRIC_FINITE_BOUND checks=13 rejects=3 bound=23164 distance_bits=15 pair_bits=16 route_bits=26', 'PASS METRIC_PUBLIC_CYCLE_MITER cycles=32 public_ports=23 ram_signals=20']
+generic32 ['PASS METRIC_GENERIC32 checks=80 rejects=0 high_value_captures=72 modulo32_cases=6 output64_cases=2', 'PASS METRIC_PUBLIC_CYCLE_MITER cycles=239 public_ports=23 ram_signals=20']
+FRONTEND blank2418: PASS
+FRONTEND ink2358: PASS
+FRONTEND strokes_on_fixed_dirt: PASS
+FRONTEND sample15_roi_border_contract: PASS
+FRONTEND gray_gradient_grain: PASS
+FRONTEND blank: PASS
+INTEGRATED blank2418: PASS {'fixture': 'reports\\dirt_qualification\\fixtures\\blank2418', 'paths': 0, 'points': 0, 'edges': 0, 'gcode_lines': 4, 'source_requests': 956416, 'foreground': 0, 'canvas_bits_checked': 102400, 'skeleton_bits_checked': 57600}
+INTEGRATED ink2358: PASS {'fixture': 'reports\\dirt_qualification\\fixtures\\ink2358', 'paths': 30, 'points': 351, 'edges': 603, 'gcode_lines': 417, 'source_requests': 956416, 'foreground': 1148, 'canvas_bits_checked': 102400, 'skeleton_bits_checked': 57600}
+PASS DOC DIRT REGRESSION D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\doc_dirt_frontend\20261101T090224_940901Z\RESULTS.json
+PIPELINE: PASS
+TOP_METADATA: PASS
+REPORT: PASS
+PASS CNN LOWCONF ACCEPT D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\cnn_lowconf_accept\20261101T090338_797323Z\RESULTS.json

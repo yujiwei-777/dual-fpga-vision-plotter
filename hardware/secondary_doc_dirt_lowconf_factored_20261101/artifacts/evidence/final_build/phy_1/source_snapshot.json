@@ -1,0 +1,3042 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-11-01T09:05:25.640655+00:00",
+  "generated_ns": 1793523925640655100,
+  "project_root": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101",
+  "run": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1",
+  "name": "secondary_cnn_multibox",
+  "al": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/secondary_cnn_multibox.al",
+  "manifest_sha256": "EB634BE11954098D309B6F66A0124C02098DF86501E919471ABBC7EF64747F33",
+  "files": [
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/cnn_core.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 17245,
+      "mtime_ns": 1793519289924042900,
+      "sha256": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/cnn_result_stabilizer.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 26121,
+      "mtime_ns": 1793519290033008200,
+      "sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_arithmetic.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7396,
+      "mtime_ns": 1793519290128006000,
+      "sha256": "0C7643D7760D730597C61F8C67F267E8961AE471C3C858009C747D6492132988"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_copy_pipeline.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 10738,
+      "mtime_ns": 1793519290236986800,
+      "sha256": "4780D3863ABE4BF0D261445209F914D2636B842E6C1DE23E7987647BAD56E330"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_grbl_map.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3722,
+      "mtime_ns": 1793519290267074400,
+      "sha256": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_grbl_plotter.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9425,
+      "mtime_ns": 1793519290294063800,
+      "sha256": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_grbl_response_parser.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2671,
+      "mtime_ns": 1793519290333990800,
+      "sha256": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_grbl_streamer.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 13054,
+      "mtime_ns": 1793519290408471500,
+      "sha256": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_homography.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6781,
+      "mtime_ns": 1793519290434690900,
+      "sha256": "64000748FD47F45264B41F197EA019ADAF0BD7CDE669A56EFBB3DDB60F8F163F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_image_frontend.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7830,
+      "mtime_ns": 1793519290460461500,
+      "sha256": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_image_otsu.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4719,
+      "mtime_ns": 1793519290489451200,
+      "sha256": "07BBE67204B3EE0472C1FD61B72AEF49C2BFCD0FA3B407386A2C490FCF1F2220"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_image_paper.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 11645,
+      "mtime_ns": 1793519290527357300,
+      "sha256": "1983C79D3E365A80F8F100E9E11A48FE488542334D6BE9159D2B7D695A93DF8F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_image_refine.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 11486,
+      "mtime_ns": 1793519290577167000,
+      "sha256": "D00C62734FC5CFECBFD803DCAEA6B845F5BAF74E556B6544C53CEC65A286C20E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_machine_map.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 8946,
+      "mtime_ns": 1793519290601213700,
+      "sha256": "91A74D61C8CB6CFF70D9A7BD31604765C846B50997AE1BD114480EC8924BE836"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_path_distance.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6747,
+      "mtime_ns": 1793519290640366800,
+      "sha256": "265774F97B39989FF199B8D288F892E364AB2B38076C1384025430624FB67174"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_stroke_bram.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2478,
+      "mtime_ns": 1793519290685389300,
+      "sha256": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_stroke_planner.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 35892,
+      "mtime_ns": 1793519290752485400,
+      "sha256": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/edge_roi_ccl.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5910,
+      "mtime_ns": 1793519290792436400,
+      "sha256": "B9F70388734A116B05A1299F9D4FC8175E11C27D19CAB3CCACAAC464D975F5CB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_line_formatter.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5597,
+      "mtime_ns": 1793519290984392300,
+      "sha256": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_reporter.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 51874,
+      "mtime_ns": 1793519291068389200,
+      "sha256": "5BCF7EFEB29D38441BD63C3F5E4B1A643281D1E3F41DB5CFA875F01383462535"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_response_parser.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3435,
+      "mtime_ns": 1793519291140298600,
+      "sha256": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_streamer.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 12117,
+      "mtime_ns": 1793519291165988200,
+      "sha256": "60BB7176BD2D1B4F61E0E290C53998F15BBFF0FE260AFB1193E1F5BC7EAC2358"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_uart.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 8793,
+      "mtime_ns": 1793519291210857300,
+      "sha256": "56182E34F94F7A596D7B315C3EAA72438ECBFD551B661515FFE57572891DDE01"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_vector_font_rom.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 10283,
+      "mtime_ns": 1793519291233736100,
+      "sha256": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/hxa_ddr_store.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3885,
+      "mtime_ns": 1793519291264416900,
+      "sha256": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/model/export/biases.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/cnn_core.v:BIASES_MEM"
+      ],
+      "bytes": 270,
+      "mtime_ns": 1793519291396845400,
+      "sha256": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/model/export/weights.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/cnn_core.v:WEIGHTS_MEM"
+      ],
+      "bytes": 54048,
+      "mtime_ns": 1793519291418808800,
+      "sha256": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_defect_cluster.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7033,
+      "mtime_ns": 1793519291448760800,
+      "sha256": "92D47F68E5095042AE7DEADC4291E36191E1953D0DD4E266759182C0C9490CF1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_fullboard_spatial96.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 22005,
+      "mtime_ns": 1793519291528131400,
+      "sha256": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 21797,
+      "mtime_ns": 1793519291573560900,
+      "sha256": "720884EAE1AF9437C22B0ED7C6E0B923C0E54C7A0AD315CD748AC5897F4FE7FE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 22528,
+      "mtime_ns": 1793519291626286700,
+      "sha256": "90A757B0A97B2E4D87B031830AC439618F36D8F3A601F3CF8EAF8541D1F959DE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/secondary_ddr_wrapper.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4859,
+      "mtime_ns": 1793519292011023600,
+      "sha256": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/secondary_top.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 57203,
+      "mtime_ns": 1793519389949318300,
+      "sha256": "DCA939F1C76E1920FF99647E1C19B733C6A0177033631317DCAED237FD2106DC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/uimac_rx_secondary.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 13644,
+      "mtime_ns": 1793519292184718500,
+      "sha256": "C93F1F976849BC055E93C3D5AFAC72A079600FD6B0CA625947C7F7D497A6C2AA"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/vision_ccl.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 12008,
+      "mtime_ns": 1793519292207636500,
+      "sha256": "310F089904BF287C0943253602D0E5B7BC08D331851083DF0707D6C99BDE1F66"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/vision_color_stats.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 10133,
+      "mtime_ns": 1793519292230253700,
+      "sha256": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/vision_pipeline.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 64633,
+      "mtime_ns": 1793523303006243700,
+      "sha256": "02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/vision_pixel_reader.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3915,
+      "mtime_ns": 1793519292308879100,
+      "sha256": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/vision_shared_mac.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 1216,
+      "mtime_ns": 1793519292335045800,
+      "sha256": "8106B5C3DE5F2C41F3CEF27C851349C19B52B199111E7BED0A4FB73C0B29D135"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/vision_workspace.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3872,
+      "mtime_ns": 1793519292365879100,
+      "sha256": "F4636E94C984B86A54DE00827ED395EEE4F4CD1D9D55638BA845A2E4DC731873"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/tb_cnn_named_report.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 9151,
+      "mtime_ns": 1793523422966368900,
+      "sha256": "DED514DB8DD540B9F90333BE3D21A3A5264B06791DFC7AC906555E31C92C4880"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/doc_stroke_planner_baseline.v",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 34002,
+      "mtime_ns": 1793523741183840100,
+      "sha256": "8300D0764B8EC88E229CEC24A68EFF7DC2F4AFFA020964A066CE82755BEA5FEC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/finite_bound/compile.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1131,
+      "mtime_ns": 1793523741320675800,
+      "sha256": "DB9F19E114B01D503F7A4C877C689881E6D5C0694512079042CB1C56D7893F86"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/finite_bound/compile_command.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 943,
+      "mtime_ns": 1793523741325591600,
+      "sha256": "81454BB13B90D03D5ED12804DD14627D8D1A828FC1541026368A5BC7A261B15A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/finite_bound/simulate.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1335,
+      "mtime_ns": 1793523742840725600,
+      "sha256": "445659B604FA6FD9EA4D3B491F2CB8465DB931338371EDD5CEB1D742A3FEEE06"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/finite_bound/simulate_command.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 299,
+      "mtime_ns": 1793523742943684800,
+      "sha256": "10D376B743A92F0200EABFEF17C14E1BF4D93F5DD472928C9EC3709E1AE0A09E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/finite_bound/tb_metric_directed.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 7680,
+      "mtime_ns": 1793523741183840100,
+      "sha256": "165178A87D3F9FA162157207A7E70FB1D17D22E3538A1BC652C01938F8993473"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/finite_bound/vlib.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 0,
+      "mtime_ns": 1793523741184847000,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/finite_bound/vlib_command.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 173,
+      "mtime_ns": 1793523741238398600,
+      "sha256": "95F0832EC2D966557511952A0280335B77CA7158D588A33076EEC597943E560B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/generic32/compile.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1128,
+      "mtime_ns": 1793523743121239200,
+      "sha256": "A03E4B44D0023D4F6D5A02CF34DD0ED7B66E2377478A6F50850E16DEA175F812"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/generic32/compile_command.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 940,
+      "mtime_ns": 1793523743151338400,
+      "sha256": "0126D9520F45A7F2BF172E8D8E2C8024163571EA63A338E07F6DC974B93D0814"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/generic32/simulate.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1332,
+      "mtime_ns": 1793523744655016300,
+      "sha256": "9EACBD661FD6D25AFDF51EA5E73FB8A7195727D19AB278B22FCCA9E2BC4D4188"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/generic32/simulate_command.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 299,
+      "mtime_ns": 1793523744724977100,
+      "sha256": "D3BF79B0A6BF8F6BE671A10B321DEAA00C198F37BEA3895C74B061A603DD1C9B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/generic32/tb_metric_directed.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 8130,
+      "mtime_ns": 1793523742943684800,
+      "sha256": "1CC83F7270F084310165D832415CD27FD5686DEC5C5D0A48616BA35F54DB4370"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/generic32/vlib.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 0,
+      "mtime_ns": 1793523742943684800,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/generic32/vlib_command.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 173,
+      "mtime_ns": 1793523743044313000,
+      "sha256": "95F0832EC2D966557511952A0280335B77CA7158D588A33076EEC597943E560B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/compact_metric_boundaries/RESULTS.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 4830,
+      "mtime_ns": 1793523744730997200,
+      "sha256": "D5B41C491D69AC4720E3D028591D16B98E7F87EF439941FC9A14CC96F4972C10"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/04_pin/apply_cdc_exceptions.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 22677,
+      "mtime_ns": 1793519292759619300,
+      "sha256": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/04_pin/apply_reset_exceptions.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 43476,
+      "mtime_ns": 1793519292780555100,
+      "sha256": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/04_pin/clocktrace_sclk/prove_key3_supervisor_clocktrace.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 6791,
+      "mtime_ns": 1793519292803486400,
+      "sha256": "B075E954594269ED473318765371C9D92E510B22D2A211D5AE1AD99453DD40E9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/04_pin/pin.adc",
+      "kind": "ADC_FILE",
+      "origins": [
+        "secondary_cnn_multibox.al:ADC_FILE"
+      ],
+      "bytes": 3367,
+      "mtime_ns": 1793519292965926400,
+      "sha256": "A6BDAAAD82779F0E19E6480A43E0DFD83682252E87638B973A621F897DA44855"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/04_pin/prove_key3_supervisor.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 8916,
+      "mtime_ns": 1793519292992885900,
+      "sha256": "9248199C302656DF4FC264CC6BB74248B4849BF4D447880715D39155DF99C0A5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/04_pin/prove_key3_supervisor_clocktrace.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 18515,
+      "mtime_ns": 1793519293025365900,
+      "sha256": "EDC066683001510C7159AC7351348C209FFD556570F3C66CE40DD6735E834A34"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/04_pin/timing.sdc",
+      "kind": "SDC_FILE",
+      "origins": [
+        "secondary_cnn_multibox.al:SDC_FILE"
+      ],
+      "bytes": 4276,
+      "mtime_ns": 1793519293231639900,
+      "sha256": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/_gen_project.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 21552,
+      "mtime_ns": 1793519293256651800,
+      "sha256": "5E8A41FDC5369E52A9C0EF5005DDECD56AE82DB9006D261EEC4A737A5EF2B540"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/secondary_cnn_multibox.al",
+      "kind": "project",
+      "origins": [
+        "command line"
+      ],
+      "bytes": 28177,
+      "mtime_ns": 1793523924699262800,
+      "sha256": "3194B56F95AB6C0764BD0B9BF7285F1EBCFEBEDDEBB43BE239159F0F5B9C916C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/lint_full.f",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 2985,
+      "mtime_ns": 1793519293278729400,
+      "sha256": "229E9F4956D3132A2E7713CA66C1BAB5FBA363C2E179ED8CC8B8C03C8C03696B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/crc32_check.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3965,
+      "mtime_ns": 1793519293300728900,
+      "sha256": "A2ABEDA786F76A299F8E2A9A790AC4703708822BA8B534243F337D9F1DB3828C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/crc32_gen.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4078,
+      "mtime_ns": 1793519293337280600,
+      "sha256": "FE930C7ADF1D24193D0DECE6B83D338CCD89EC698EB5F01682150B31AFC53757"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/mac_cache.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4026,
+      "mtime_ns": 1793519293360358600,
+      "sha256": "6EEFE3B0309EEAC1A9251B3B5F482E433782783D62F7F6F5317E42758E7046A5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/ph1p_phy_pll_wrapper_d2616deaaa79.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 12535,
+      "mtime_ns": 1793519293381572600,
+      "sha256": "C23D50C2B1401D32C0B54C2A23E83085459AFCDA48AE48617FFA6AF93C49DFA8"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/pll.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3610,
+      "mtime_ns": 1793519293403640000,
+      "sha256": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/rgmii_interface.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 17166,
+      "mtime_ns": 1793519293439549700,
+      "sha256": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/udp_pkg_buf.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 33555,
+      "mtime_ns": 1793519293463597500,
+      "sha256": "D0E965C6569060892A90703F13B2938D8FA0956FFFA561B9F429E2D0C82A4DAF"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiarp_layer.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5934,
+      "mtime_ns": 1793519293486557100,
+      "sha256": "5BB05F5EF3FFE334DF5701DF93AF9CCD333B83A8593EDA39EC49153CFC25DC10"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiarp_rx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7117,
+      "mtime_ns": 1793519293507347700,
+      "sha256": "34008198B627D2F461ADCE482194D0854B00FD81F6209E64F302607BFBD41D6A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiarp_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9228,
+      "mtime_ns": 1793519293533235700,
+      "sha256": "1244002FC55E235F24C60CFA942C5803D22C69549FF27A877A6121BAAFFFDAF2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiicmp_pkg_ctrl.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7405,
+      "mtime_ns": 1793519293555320500,
+      "sha256": "1BDC2BD10BD7E3CF3B871FC157BD14EE05869D96B23DCFEB03241B3DE897B39D"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiicmp_pkg_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6891,
+      "mtime_ns": 1793519293577230800,
+      "sha256": "9B2C52B5E4F056CEC1633E96119D5F72220B5D1153B8BC94F74F180F122138D8"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiip_arp_rx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2814,
+      "mtime_ns": 1793519293598316500,
+      "sha256": "C93323F9DF2A6E328539A53D504355201A9E8786D7A86EC330A4AF6DBABAFC56"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiip_arp_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9422,
+      "mtime_ns": 1793519293622305500,
+      "sha256": "65679B546777738DE810EF373521398B59D7BA1824EC7B977F368EAC89A82C58"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiip_header_checksum.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2853,
+      "mtime_ns": 1793519293688418500,
+      "sha256": "B56B2A22B2BBB519FA4C9E9C8621D304CD2AC143F913A54F3E78C3F9938E6005"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiip_layer.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7653,
+      "mtime_ns": 1793519293711129600,
+      "sha256": "B706B94D4A9C6536C8AA8F753FD4624DCA84614629E35A582706FCD00E0CCAEE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiip_rx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 11212,
+      "mtime_ns": 1793519293753370600,
+      "sha256": "10FFFBFC60D685B40B651444A38B211A58EB26E204E36197643B08CE34B7110A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiip_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 13937,
+      "mtime_ns": 1793519293776298200,
+      "sha256": "031D9976A81F448238EAC08170B8D0C74F849EF38B8472303D81F67B752251F5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uimac_layer.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7846,
+      "mtime_ns": 1793519293802718700,
+      "sha256": "04E382B7A8DBF8031A771ADC24661859073E9E134D9EC1D0FEF9754582B298A0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uimac_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 17737,
+      "mtime_ns": 1793519293824716500,
+      "sha256": "3C24BA0B366938E40DC37B129B73D2E78B7B757CDCC859FE93423749B2F6666F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uimac_tx_frame_ctrl.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3450,
+      "mtime_ns": 1793519293851635800,
+      "sha256": "C4D992BB33B3A46506D70CBDF63E0C2C88E88B6716A6F31C043EBBE30A80393A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uimac_tx_pause_ctrl.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3504,
+      "mtime_ns": 1793519293873733200,
+      "sha256": "40505CA9657D951526FB8A3350B283726B368816AD0C7D4A2D9CD07EABA446EB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 7885,
+      "mtime_ns": 1793519293895573900,
+      "sha256": "F22F85D0AB26C4E7C402B0DDD2D25A6F4BE852994226ADD50A2850F732EFF43F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiphyrst.v",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3059,
+      "mtime_ns": 1793519293918650900,
+      "sha256": "B272B8584D09DCDC516763C2A3F475D3005E172918FC339D448D7A675883937F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3367,
+      "mtime_ns": 1793519293953066900,
+      "sha256": "38769F122B452F1ABA2CC9F69E59669B5BFD01CE27A6E1BD67082EDCE28EBDB5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 2837,
+      "mtime_ns": 1793519293978254600,
+      "sha256": "30374E9D9D21743A484084E3F1AD48DC12230883E890E5B37E79B1CD13A2C8A2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiudp_layer.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4651,
+      "mtime_ns": 1793519294000797800,
+      "sha256": "DE40D1F34E8575B5B266FE1FF61F2FB16A3787A48852ADB90B5209312D943352"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiudp_rx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4276,
+      "mtime_ns": 1793519294025782400,
+      "sha256": "9A26F004E0523B3F1B1A8E088AD8E6D417BAE7E9CA27FE9BA3A2CA18402ED179"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiudp_stack.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 15886,
+      "mtime_ns": 1793519294071786400,
+      "sha256": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ethernet/uiudp_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5189,
+      "mtime_ns": 1793519294094354700,
+      "sha256": "AE35A42995E3708D8DC4D5FF677764897FCFAF62D884C6947982A598EE4CC9D1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 4918,
+      "mtime_ns": 1793519294118924600,
+      "sha256": "99910FCD06D61B728C4333F8EB15DD07B61DB32AF197AD3871995283461FE29E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+      "kind": "IP_FILE",
+      "origins": [
+        "secondary_cnn_multibox.al:IP_FILE"
+      ],
+      "bytes": 30731,
+      "mtime_ns": 1793519294158981500,
+      "sha256": "1C0928264DCBC2217F7C1015042FC61E02BD444B727EAC8B2E8F9BC4B89FC720"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 20132,
+      "mtime_ns": 1793519294203184500,
+      "sha256": "A206D148022C1A5BB46C37932714DC9D57FEA32F39FDB344E060E9FC9C6FF1CE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/adc/ddr2.adc",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6482,
+      "mtime_ns": 1793519294229891200,
+      "sha256": "9B579AEF1DD260789B02B7012CA9689AF6280EC9AF530A1A946C5AC0A8C43E81"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_clk_top.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 3890,
+      "mtime_ns": 1793519294299022500,
+      "sha256": "036A13CEFC0014468CB7553AA43064A65BD2BF3008C25D2E495867FC5F43D329"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll0.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 10213,
+      "mtime_ns": 1793519294321504700,
+      "sha256": "AB08D9B46EFF0E2ACF0ABAF5B57E999629894E1BA4F28D14F859C45A6B487FA7"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll1.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 10427,
+      "mtime_ns": 1793519294344535600,
+      "sha256": "9AAFA4558B482EE93F926AD3F710A90CE1BE99DDF8712752D1E1C48404F90AE0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/include/ph1p_mis_define.vh",
+      "kind": "include",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v"
+      ],
+      "bytes": 245,
+      "mtime_ns": 1793519294371935500,
+      "sha256": "A0E0BC78EAB01CD1815A04F246420B68B4A5A616C43C2F36988C4DF94FC1B471"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/init/ph1p_ddrphy_dram_init_ddr2.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 8609,
+      "mtime_ns": 1793519294396032700,
+      "sha256": "B4B6C9E5223852750D2A0D3A013447716A08C56055511AFA517DCE612380649F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 270003,
+      "mtime_ns": 1793519294423140000,
+      "sha256": "19B4B773F7DAE211B9B9ADB73C3871D5B494345FBF684CE1B7DAC9CD3CAE512B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_phy2mc_fifo_ctrl.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 1935,
+      "mtime_ns": 1793519294532186200,
+      "sha256": "CF1500A2D491C637A9150FB36FBC6DE109E62CCA5D8FF3C58DADF5F7F84472C6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 2605,
+      "mtime_ns": 1793519294574157000,
+      "sha256": "21795BF78115DBD04D7EC81F4F240832D8E7267FDEBEDDCB6BE50D3CB95AB8B6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddrphy_sync_rst_gen.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 699,
+      "mtime_ns": 1793519294596158400,
+      "sha256": "8DB3D13DEEC253A2248899DE81A7D1A382EACB7683F229732A28272AB9969C55"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ddrphy_cfg_rom.txt",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v:ROM_INIT"
+      ],
+      "bytes": 720,
+      "mtime_ns": 1793519294620158500,
+      "sha256": "2F5A00C5A364A4D37891042B4D4956A29B3990B3385512D20EDE491C8CCF863B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_board_delay.vh",
+      "kind": "include",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v"
+      ],
+      "bytes": 1762,
+      "mtime_ns": 1793519294693245200,
+      "sha256": "FBB70F7D53984AC052B29DED89FEFDE7C82A003484FC7FC60E0A816372C0DE89"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_bus_matrix.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v"
+      ],
+      "bytes": 6353,
+      "mtime_ns": 1793519294721761400,
+      "sha256": "828CB1DECEAD67B69CCD6540FC7C9B15B8DAEB3B5F101F08C92D2A8A228F4ACB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_ddrio.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v"
+      ],
+      "bytes": 1591,
+      "mtime_ns": 1793519294766852400,
+      "sha256": "8E9BDE3255E6A332FC43AAE1414A29183B5E1ED650D3EF731FDDD2DBBFF21863"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_pad_type.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v"
+      ],
+      "bytes": 768,
+      "mtime_ns": 1793519294793823800,
+      "sha256": "76439AB49AEFB1E41D91D2D4EE12094EF362B1AC69A382B8FAA5D3202842B7FB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 29884,
+      "mtime_ns": 1793519294826786300,
+      "sha256": "D48E70211A598A211CE0F9060C767C04148592B0EC1137017027BB741AD5B283"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_apb_bridge.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 8234,
+      "mtime_ns": 1793519294919846200,
+      "sha256": "CDE632F73A4E58C1CF375F62626B26E144EF553926B5539B5EAE08B655FECB12"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_bankref_cfg.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 2632,
+      "mtime_ns": 1793519294985105300,
+      "sha256": "96121F2A93A56127499518158B07B2DB9DEFF29BBAC464D3C077AB6A718A8F1C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 18435,
+      "mtime_ns": 1793519295119013700,
+      "sha256": "AD7FA1A71337F4A3989CB619D77B770510C30C5B81F126F6661EAF65F01F710C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_decode.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6759,
+      "mtime_ns": 1793519295147995600,
+      "sha256": "B3BD00DF9D41B792D6F6A18B2BE29C8AB363AEB3FB7DC88FE0BE61DFF8905ABD"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_execution.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6428,
+      "mtime_ns": 1793519295176595700,
+      "sha256": "53C5EAAD74ABFC98BB0C2A4EDE0A1863C8A34008DA1955CF7AD397E151D0A9C1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6874,
+      "mtime_ns": 1793519295249905500,
+      "sha256": "82CDEA3269662C94B82C675C8A7E110C1C1FC212775F4C696E876215E7EBD68E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 10532,
+      "mtime_ns": 1793519295313666600,
+      "sha256": "0F335EBF3607A7823B90A6D6278DD3906FDF0E941C019C83186B2D017E613B49"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 3214,
+      "mtime_ns": 1793519295339421300,
+      "sha256": "B130B5B93BCC9FB8FB71A0E38A1000C86CB663AC1D72AEF0A47215D8154AB32C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6738,
+      "mtime_ns": 1793519295367586600,
+      "sha256": "C36A5925A09F8DAFE5D49144CDC72FA85656602B3D4A944F587BBD0D9FA1D5A3"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 17852,
+      "mtime_ns": 1793519295396354000,
+      "sha256": "30CF679296790CAA864D0EBBE6110A17B3C9B6BEE529EF3CD6EEABE37DA2DAC1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 7120,
+      "mtime_ns": 1793519295514517800,
+      "sha256": "FAFA767B0A4D1F431DAC6EA1461DC16AFF2EA1169C8AA45A50A009117A90F5C4"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 15150,
+      "mtime_ns": 1793519295716933000,
+      "sha256": "247C8A832EFEBF5C4733E599D7E2B19ABC3687CA48B6317EA1FC882095768D95"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 3002,
+      "mtime_ns": 1793519295793887300,
+      "sha256": "0B583C987311DEEADEEEDD19DD51A04E8E14B227873E37F1EC8DB8DD18B7C125"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_rphase_ctl.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 5771,
+      "mtime_ns": 1793519295820967200,
+      "sha256": "2E26A87B37C99613BC61C52FD2482012A2F5BD8A662636F782418DE5D9CE6928"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 30807,
+      "mtime_ns": 1793519295905650500,
+      "sha256": "0780509185215671E361E6FCC47A0CD8A986C5F48B8A3E140FAA8EC64AD62EEE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wphase_ctl.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 8197,
+      "mtime_ns": 1793519295934634700,
+      "sha256": "6E62E4E832B2B85859CDBD38D2D08DDE9B8066670246C6C7AB6D675E0DD13680"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 22457,
+      "mtime_ns": 1793519295960582400,
+      "sha256": "12CE7589375EB44F6E71D9D4280AE32CF2BB82EF7519A2DDAAE01F7914BA0467"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1066.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1793519295987257900,
+      "sha256": "B64F54DDCCA5FF29139F55CC2E9BFB388B3781C951EEC156353DD6794171A49C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1333.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1793519296016878500,
+      "sha256": "50F8013FFD18E874A8917E633287E2C7803126C594E0F95BC582931A8E1AAAB5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_400.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 423,
+      "mtime_ns": 1793519296111955400,
+      "sha256": "9CA837EF541E787058F3BBBDACB952B6D97A8FCA315DC87DFC4DB6561AEDFD73"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_533.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1793519296221527700,
+      "sha256": "78495997F24D6A890756101CADBD39EBDCD814EBC3981F190AE43CB319815C9C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_667.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1793519296285523900,
+      "sha256": "66FDE1491AEB55F212CCCCBB174649B63029D4E63DF5105515241765538518D5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_800.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1793519296385223100,
+      "sha256": "034F9FA434E52A7F6E38E3C5D8D01218BC87C60CC8463BDDE6BC5C454E1B25AE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv"
+      ],
+      "bytes": 3163,
+      "mtime_ns": 1793519296411208600,
+      "sha256": "4B10686E72BCDE0F3F2A25C28B31DF92C3478A39257B16B28CF7F88572436DFE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/top/ph1p_ddrmc_top.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 13919,
+      "mtime_ns": 1793519296437253900,
+      "sha256": "067AC86D88E35CB0C12E62816175542DF2E907D244E86F92411611B83123736E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/sdc/ddr2.sdc",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 792,
+      "mtime_ns": 1793519296461163000,
+      "sha256": "ADB6317927DFD09095073CAD40BE8E63D39EA3D941B4C790F2F483B1AED428D6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/reset_sync.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 496,
+      "mtime_ns": 1793519296499220000,
+      "sha256": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/text_trace_engine.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5528,
+      "mtime_ns": 1793519296553089100,
+      "sha256": "5809D56748B59C35AC79764BA367BC90F74A8FE706C4F98F1E89ACE42A440F39"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/ip_source/PLL/PLL.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3911,
+      "mtime_ns": 1793519296578515500,
+      "sha256": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/ip_source/PLL/RTL/ph1p_phy_pll_wrapper_25a56e5ce2f9.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 12535,
+      "mtime_ns": 1793519296631062700,
+      "sha256": "2F6F2560129B950C9F5A36136F128A9304FF858BF1BAE0F2129EA0145D941A1E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_bias_compact.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v:BIASES_MEM"
+      ],
+      "bytes": 230,
+      "mtime_ns": 1793519296658622900,
+      "sha256": "87F1F5471A799EE0001BBBF595B41A46476AFC205275FFF8E8CF416A53332502"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_first_compact.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v:FIRST_MEM"
+      ],
+      "bytes": 92,
+      "mtime_ns": 1793519296724744500,
+      "sha256": "4273B09570BDA21701FFCFD24A1B02E0428F72E415DFBE6017593EFFC2E7F01E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_next_compact.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v:NEXT_MEM"
+      ],
+      "bytes": 320,
+      "mtime_ns": 1793519296768759300,
+      "sha256": "74834992B7549AA722D79655B82A06559588FA11BF4BB40BC37B05F8B3D90FE6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_taps_compact.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v:TAPS_MEM"
+      ],
+      "bytes": 320,
+      "mtime_ns": 1793519296820821300,
+      "sha256": "74D27D4B1790A9885A5F825077C10B00C8DA725AB954D83C8693B84A1B5F2FB2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_weights_compact.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v:WEIGHTS_MEM"
+      ],
+      "bytes": 320,
+      "mtime_ns": 1793519296848790200,
+      "sha256": "A4F92E974B9E7D53B6940A2DE77039A655F1F44541BA2302A2EBF2124206FB98"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/experiments/conv4_4/biases.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_fullboard_spatial96.v:BIASES_MEM"
+      ],
+      "bytes": 100,
+      "mtime_ns": 1793519296980949700,
+      "sha256": "45FAC7544E47F2CD73A5571A6136CB57A82CADD1B130057C8FCB0BC647E51232"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/experiments/conv4_4/weights.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_fullboard_spatial96.v:WEIGHTS_MEM"
+      ],
+      "bytes": 1232,
+      "mtime_ns": 1793519297040136200,
+      "sha256": "9B844CB0B0844F8A72E59192B4F04D3C192B6C1A501DA1F3376CE6BF5354DDE6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_bias.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v:BIASES_MEM"
+      ],
+      "bytes": 230,
+      "mtime_ns": 1793519297300042800,
+      "sha256": "87F1F5471A799EE0001BBBF595B41A46476AFC205275FFF8E8CF416A53332502"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_first.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v:FIRST_MEM"
+      ],
+      "bytes": 115,
+      "mtime_ns": 1793519297330952000,
+      "sha256": "2DFB03DF5F6436B1879CBB34F25627420B7C23EB60EC9EFC30A35AA7707BCC63"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_next.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v:NEXT_MEM"
+      ],
+      "bytes": 4860,
+      "mtime_ns": 1793519297362061600,
+      "sha256": "82556E0AB104CE1073D1A94E69E0966C8A0D8AAFE6DA3AAD385644831A653997"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_taps.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v:TAPS_MEM"
+      ],
+      "bytes": 3888,
+      "mtime_ns": 1793519297386616400,
+      "sha256": "1643E460DCC702F91ED9D300CB1F5E6C7C880FF1D1539E3F9853266722A2F6B5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_weights.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v:WEIGHTS_MEM"
+      ],
+      "bytes": 3888,
+      "mtime_ns": 1793519297413675800,
+      "sha256": "EB148029C2A724CF39E6A3D7FCE6EDBB366FA9E41A0E03579BF313C8E439D224"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/cnn_lowconf_qualification/pipeline_stubs.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 8238,
+      "mtime_ns": 1793523541070647100,
+      "sha256": "740FDE556155EB2FAAEF3799AC58CE3BCADBE9A3171B1F228ED88F1DABB907F0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/cnn_lowconf_qualification/PREPARED_INPUTS.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 11184,
+      "mtime_ns": 1793523541085644900,
+      "sha256": "F1934B4034CF54B1CA4C90A3662C4E8326A094EEFAEC4E4BB4047CB844C41C2C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/cnn_lowconf_qualification/report_jobs.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 775,
+      "mtime_ns": 1793523541076650100,
+      "sha256": "57451B1B608674DDB06D62C25F4D6DAF070432B49DAF970157680B5C76094911"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/cnn_lowconf_qualification/tb_lowconf_pipeline.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 19226,
+      "mtime_ns": 1793523541073649500,
+      "sha256": "C93D41A61C8DF9C05E7334A1C97BCE214B04D9A8C9C5B4220C13792BF38BEB2C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/cnn_lowconf_qualification/tb_lowconf_report.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 9167,
+      "mtime_ns": 1793523541076650100,
+      "sha256": "EB8602DE41F2DACB01A96B635DF5901FBA832C1D493CF4C3A2498B3A8653014B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/cnn_lowconf_qualification/tb_lowconf_top.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 16688,
+      "mtime_ns": 1793523541076650100,
+      "sha256": "13B5DF48E90394F4F830205238810D7F623419365CEECE16C7AFA08FA9F8179C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/cnn_lowconf_qualification/top_metadata_stubs.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 16897,
+      "mtime_ns": 1793523541070647100,
+      "sha256": "2AB96FA2F3C3613CDE7863F4BAE6E58AC89D1C32236C11FBD3F6CA11E476FDF2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/archive_proof_evidence.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3941,
+      "mtime_ns": 1793519299610217800,
+      "sha256": "1EAA454B3CAE3E839C72C2BB50654F452592E92AC73360611779A254D93856FC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/ARCHIVE_MANIFEST.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 8801,
+      "mtime_ns": 1793519299692801800,
+      "sha256": "71FBD091AA2C59B0140B311C7BF245907EF2BA19D5923C36F312FF158463F6EF"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/000_run_sclk_tests.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 5004,
+      "mtime_ns": 1793519299763166800,
+      "sha256": "47A681D73004C91B242E91A7230AA56E7C62E58B0382ACF4B449143EAFCAEBAB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/003_test_sclk_cases.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 10011,
+      "mtime_ns": 1793519299809333500,
+      "sha256": "53D91B9D56EACC9251D491CCE1FEC8545C1CB9078A49E04D6005DB403C65F036"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/004_control_route_inventory.txt",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 10007,
+      "mtime_ns": 1793519299870493800,
+      "sha256": "F65E6794C2788155E9CF8F43D7647A408A86030849E7A9308B8F2C77EE6A9B38"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/005_gate_inventory.txt",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3711,
+      "mtime_ns": 1793519299916373900,
+      "sha256": "ABEB4A99584BECAAA0E3B63E2CD20772EF4997E580068BAABC898BF6520CEB50"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/006_key_pad_inventory.txt",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 10156,
+      "mtime_ns": 1793519299961704900,
+      "sha256": "ED2A6834186B2B9AC235BE7D6D8492A1F114D237D58573E44C429A95BD64F0DC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/007_apply_cdc_exceptions.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 22677,
+      "mtime_ns": 1793519300015777000,
+      "sha256": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/008_apply_reset_exceptions.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 43476,
+      "mtime_ns": 1793519300079008500,
+      "sha256": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/009_prove_key3_supervisor_clocktrace.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 18515,
+      "mtime_ns": 1793519300139563600,
+      "sha256": "EDC066683001510C7159AC7351348C209FFD556570F3C66CE40DD6735E834A34"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/013_ph1p_macro.v",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 468591,
+      "mtime_ns": 1793519300187006600,
+      "sha256": "049A0F45FD59FC645F63C71D1506E42348368170130B4B05E774AEE228436503"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/014_ph1p_clock.v",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 36636,
+      "mtime_ns": 1793519300230785600,
+      "sha256": "B30C8681E511AFA407E647FDAA8068360FB0BBF664EC841800FC2716831CEA0E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/015_UG1310_PH1P_Libraries_Guide_for_HDL_Designs.pdf",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3752925,
+      "mtime_ns": 1793519300276633100,
+      "sha256": "71BFFD594321B92C58116DB5BB28088FA18DB738C20BB279AB801E84F3A4C208"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/016_generated_test.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 26980,
+      "mtime_ns": 1793519300338144100,
+      "sha256": "3DC84B5C81D6A6D1099C0D4F9345592C64D719AB6165526A4DA7FA004DCCA11D"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/017_stdout.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 58464,
+      "mtime_ns": 1793519300402276200,
+      "sha256": "4919D57644BB8F17999163581052B8AF8B208F1C8D520A333E39952BABBC970E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/018_stderr.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 0,
+      "mtime_ns": 1793519300437305600,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/019_secondary_key3_full_gate.rpt",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 38382,
+      "mtime_ns": 1793519300487458100,
+      "sha256": "B0F751438CA52FF141128E6AC852D9600AD8B3ED2E6E45805731C25F256FC78F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/020_secondary_key3_full_mixed.rpt",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 39150,
+      "mtime_ns": 1793519300531370300,
+      "sha256": "BE785C91F6A92283F1BCA6ECC900396CAF766A3BA28D34F4318047E725817B52"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/021_secondary_key3_full_physical.rpt",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 39920,
+      "mtime_ns": 1793519300569806000,
+      "sha256": "250155BC15E004FDFB453FBFC97D68A80A1C3BA0E5E1BDB92B1391F2BFC2456A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/compact_area_sclk_adapter_review_20261101/proof_evidence/RESULTS.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 69541,
+      "mtime_ns": 1793519299726697900,
+      "sha256": "09281BE8B90E918C568EC9C93C3FC07017476A906CB1BDDE107578533A10F63C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/COMPACT_CREATION_MANIFEST.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 114094,
+      "mtime_ns": 1793486977186583300,
+      "sha256": "72220C1FD51668CD0B9D555EF62AFC268FA4B140B92BC8AC6B417333667BF87E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/DIRT_LOWCONF_FACTORED_CREATION_MANIFEST.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3157,
+      "mtime_ns": 1793523538880848100,
+      "sha256": "6F4BAAA609534640BA52567555C71705DD404B5DEEA261C236239B19656AE714"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank/expected_binary.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523540789892700,
+      "sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank/source_y.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3686400,
+      "mtime_ns": 1793523540764888800,
+      "sha256": "F7E50EA9790D238FF696C425E3CD2EFD2DC6958FA80B3338E5CF246902473D50"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv:\"expected.mem\""
+      ],
+      "bytes": 0,
+      "mtime_ns": 1793523538350576500,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected.vh",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv"
+      ],
+      "bytes": 353,
+      "mtime_ns": 1793523538352678300,
+      "sha256": "94F636E09B59E8CB5EE02CD62CC007ABE9780F42D33D403D505AD99F01165D25"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected_binary.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_frontend.sv:expected_path"
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523538233235300,
+      "sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected_coordinates.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 2,
+      "mtime_ns": 1793523538352678300,
+      "sha256": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected_gcode.txt",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 57,
+      "mtime_ns": 1793523538351580200,
+      "sha256": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected_strokes.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 2,
+      "mtime_ns": 1793523538352678300,
+      "sha256": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/input.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv:\"input.mem\""
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523538315553900,
+      "sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/skeleton.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv:\"skeleton.mem\""
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523538350576500,
+      "sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/source_y.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv:\"source_y.mem\"",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_frontend.sv:image_path"
+      ],
+      "bytes": 3686400,
+      "mtime_ns": 1793523538209642700,
+      "sha256": "49EC9AE502DC60597221732A4DA69D49A06D83DDB182F3B88AD3DECE8C830351"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/gray_gradient_grain/expected_binary.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523540307024300,
+      "sha256": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/gray_gradient_grain/source_y.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3686400,
+      "mtime_ns": 1793523540274113600,
+      "sha256": "30E96EF745973D01127C1DB583DA2326553F7DC1D828EE1D60FABC880B8EE72F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/ink2358/expected.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 2808,
+      "mtime_ns": 1793523538963723200,
+      "sha256": "DD920D357DCC2B5017B41D2A26C555FD7885597665019915F3CE68E612A70CA1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/ink2358/expected.vh",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv"
+      ],
+      "bytes": 369,
+      "mtime_ns": 1793523538966721000,
+      "sha256": "B7422CFE048F5E7D35A0A5BBA5E91AB511B5435BB5D11B0ACB8B9FAC9F23CAB9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/ink2358/expected_binary.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523538821817900,
+      "sha256": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/ink2358/expected_coordinates.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 75960,
+      "mtime_ns": 1793523538974159300,
+      "sha256": "86A81D4129718E3EF326624DB335C8222732965CA19BF37B6B8B764B1C816EC3"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/ink2358/expected_gcode.txt",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 10788,
+      "mtime_ns": 1793523538965717400,
+      "sha256": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/ink2358/expected_strokes.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 17573,
+      "mtime_ns": 1793523538968064900,
+      "sha256": "C665DA52520F298402AE0CF993641FEA347E2386EE35D08187373AACEB6AB757"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/ink2358/input.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523538929989800,
+      "sha256": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/ink2358/skeleton.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523538962720100,
+      "sha256": "29060DFFBA0385B1C28A6CCC12BCD45AB480EA02523EB277493DF598DF1AFC50"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/ink2358/source_y.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3686400,
+      "mtime_ns": 1793523538796777000,
+      "sha256": "B30D8E3EA87D460F37A964E52A86E3A090F1E7A23DBBCDB11E203009CA21F72B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/sample15_roi_border_contract/expected_binary.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523539842956100,
+      "sha256": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/sample15_roi_border_contract/source_y.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3686400,
+      "mtime_ns": 1793523539818246300,
+      "sha256": "972D4CCD003993D4CEB6845E2AD118AA2F03BD8E771F44B7E448068A48146E37"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/strokes_on_fixed_dirt/expected_binary.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 307200,
+      "mtime_ns": 1793523539400366300,
+      "sha256": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/strokes_on_fixed_dirt/source_y.mem",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3686400,
+      "mtime_ns": 1793523539377074300,
+      "sha256": "400A1F44497121AA11C88648B725A83C9F826505B55B81A4AD80E00EBC29A32E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/PREPARED_INPUTS.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 13306,
+      "mtime_ns": 1793523540851664200,
+      "sha256": "7CF2229A6187605861A09E0BFBA2B19669E5801447567A397DC9646543C3F34B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/00_doc_image_frontend.v",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 7830,
+      "mtime_ns": 1793523540796876500,
+      "sha256": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/01_RESULTS.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 9891,
+      "mtime_ns": 1793523540797879000,
+      "sha256": "CCB46900CA8306F08ADBFC5421A430D31EB7ABD9E32AA98BFB295684C5223097"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/02_README.md",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 4503,
+      "mtime_ns": 1793523540799875200,
+      "sha256": "88FBC1FC8157B53F4A32762D2B26722179D2E9CFF38AB98922F884BF459E629C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/03_compile.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 712,
+      "mtime_ns": 1793523540799875200,
+      "sha256": "809095474147555AD0CCB2E8180FBE16CA8ED67EF627DC0F991C20A0872A9E00"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/04_blank2418.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1678,
+      "mtime_ns": 1793523540800879800,
+      "sha256": "7E0669BF1B7D119920515F1131675AC00394E937149576170C080CE7408291FC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/05_ink2358.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1676,
+      "mtime_ns": 1793523540801883700,
+      "sha256": "429EDD5765471083C20ED0CE087B49E3875F8EBC7D4D6EE12D46F16765E75166"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/06_lifecycle.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1855,
+      "mtime_ns": 1793523540801883700,
+      "sha256": "8F13DBDD4775D61481DBD26632AC70C9F04B87539407FB444CFAE7A648668EDE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/07_timeout.log",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1150,
+      "mtime_ns": 1793523540802881000,
+      "sha256": "87B62B83A7D006DF380EBB82FD89FD4346233482F1FDE7A1A10BAB779049E89C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/08_run_capture_gcode_rtl.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 7870,
+      "mtime_ns": 1793523540803881900,
+      "sha256": "0524EE608D03D49C16CF433F73678B561B92AE70929E9230E47F206929D736DB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/provenance/09_fixed_ink_reference.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1274,
+      "mtime_ns": 1793523540803881900,
+      "sha256": "7A540990EE05B14DB102FA9AD53ABC0DC2D96C77E33732B3178391F22AAD3A0D"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/README.md",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1116,
+      "mtime_ns": 1793523540804906200,
+      "sha256": "D3165A02BC6F27DEBF770DD804F00382B97E11E2F78D739DFF251EE76B3F08E9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/candidate_runner_provenance.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 8763,
+      "mtime_ns": 1793523537390230700,
+      "sha256": "C49DE0B218339209BFA88F912D2E44F2FF1B3A524D3BA2FE8418D95F448CB1A4"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/fixed_dirt_reference.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1004,
+      "mtime_ns": 1793523537391235000,
+      "sha256": "8CEF3D2AC9439D2A8F613F57F5132D488D8C7C8B648E15BBA41356CDC48550EC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/fixture_reference.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 2248,
+      "mtime_ns": 1793523537715592500,
+      "sha256": "3E42D038C515C5E27FC890B93E8CFFDD6E08A34FC36AEE2EDD2E3D5C092B3DB5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 8703,
+      "mtime_ns": 1793523537393230800,
+      "sha256": "C4C71F186A744CD5863B3029AA1AEC02E3AC2F3661F62E358CBA9C426AD5ABF5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_frontend.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 7468,
+      "mtime_ns": 1793523537394225900,
+      "sha256": "5D4FD8D354B77636D77E03916007013B4B50754D57D2560730B45E775D91697C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_timeout.sv",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1160,
+      "mtime_ns": 1793523537394225900,
+      "sha256": "AAEB6964B43BE80B2B603A03C34791C50C6B7BEA117DEA0876B04C24A1546ED2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/factored_area_wrapper_qualification/PREPARED_INPUTS.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 1553,
+      "mtime_ns": 1793523476496508100,
+      "sha256": "32A285C693D3A28944AE9AC32A62BE387D394735A934434657A33BF5D429CE99"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/key3_clocktrace_verification_20261031/clock_source/test_clocktrace_hook.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 16399,
+      "mtime_ns": 1793519301290220200,
+      "sha256": "8A24047B30F8AD6AECE20B47E9FEC9CB70B50352C51D9DD30AA81498210DC2CF"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/secondary_cnn_multibox.al",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 27655,
+      "mtime_ns": 1793523489444965000,
+      "sha256": "DD4EB6BBE870C89334BDDFB26A368722CDAD4BA6C3665CBD298C2391657338BD"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/shared/rtl/hxa_config_store.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3345,
+      "mtime_ns": 1793519301376092400,
+      "sha256": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/shared/rtl/hxa_packet_codec.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9261,
+      "mtime_ns": 1793519301459806000,
+      "sha256": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/shared/rtl/hxa_packet_rx_fifo4.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 15481,
+      "mtime_ns": 1793519301535623300,
+      "sha256": "3FEDEE99A7083B12A95127EF2D365F488ABE5298CEB6170752F573223783117C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/shared/rtl/hxa_secondary_link.v",
+      "kind": "Verilog",
+      "origins": [
+        "secondary_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 39946,
+      "mtime_ns": 1793519301604811200,
+      "sha256": "0E18687EA99F6209AA8D2A44E135A880CDB4664D4008FE0B984CF918648E8271"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/shared/rtl/hxa_yolo_result_codec.v",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 955,
+      "mtime_ns": 1793519301778841400,
+      "sha256": "9EF958DFFAFCC25F2F6DB6C17D06B6B63589282C09479208457B7DA8658E816F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/accepted_fc8_run_full.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 10138,
+      "mtime_ns": 1793519301822857300,
+      "sha256": "B9A8E1F082384F9D12AF0A8AE27D2A6BE2CECF5525A94F07092CC732B917D15F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/build_cnn_stability_r11.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 34328,
+      "mtime_ns": 1793519302351642600,
+      "sha256": "A7BCE35E79E131CD7FF921C5CCF103FC88620CC100844A0AD673B43D9C96F066"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/build_doc_dirt_lowconf_factored.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 45129,
+      "mtime_ns": 1793523355306890100,
+      "sha256": "2ADA653BB3BB7FD72B3424FA379A3620E5AE363C87505DE90F249C8753B14CBA"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/build_key3_stroke_compact.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 7105,
+      "mtime_ns": 1793519302764030100,
+      "sha256": "D2BEB2DC34F46C8C2C8E7815F8E570E9A82F3605CBC11B66DB4DADF294C3D18F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/build_key3_stroke_compact_area.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 8294,
+      "mtime_ns": 1793519302905650100,
+      "sha256": "BF5809FF1C959F72424CC90765B439AE385B66540A2A871877A8BE333E80605C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/build_key3_stroke_compact_area_sclk.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 15035,
+      "mtime_ns": 1793519302940687300,
+      "sha256": "6EEF6D1296D1C22C4541175C9A277A7ADBE5618F2206D10DC74555463E6ADB1B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/build_key3_stroke_release.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 10602,
+      "mtime_ns": 1793519302968667300,
+      "sha256": "C055B3E2FB49FB4A923722832E5E0DE5550EC7BB058BAFDA2CEE3FD689F240AE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/build_key3_stroke_release_controlmap.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 6323,
+      "mtime_ns": 1793519302998070100,
+      "sha256": "BE5FF6C31160983DFD38ABBA8FDD33FD26F41D3ED85B8C3E2DE82373A7732156"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/build_key3_stroke_release_v2.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 7111,
+      "mtime_ns": 1793519303025075500,
+      "sha256": "64C1776425ED7D64221746EF563DD453EFC1335EA5D4DC8CD3F9B3ED5A1A3AA1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/build_vector_release.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 20383,
+      "mtime_ns": 1793519303063770800,
+      "sha256": "8EEF033491C18BD567ED9D395FEF5AA992ED392A9CC146823E8E5AABAA3E6EB5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/cnn_named_report_reference.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 2980,
+      "mtime_ns": 1793519303378100700,
+      "sha256": "7BEF25725B09AA948FF2A2EE8C42655CD7D5F9E9319C8A429249A7866E3FC2C1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/key3_physical_gate.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 20200,
+      "mtime_ns": 1793519304264311500,
+      "sha256": "1BC78BBA154413DC49E54617B72DC52C5F85A0AD9998712E6197268FA45C7C14"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/key3_stroke_lowconf_factored_regression_gate.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 12776,
+      "mtime_ns": 1793523360737811500,
+      "sha256": "983CC189466B24DB8F7BBE73E550C2FF346592646830E5FF7AFEFEEE63F63BED"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/key3_stroke_regression_gate.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 53694,
+      "mtime_ns": 1793519304356149200,
+      "sha256": "39E7074695586C24E76EC5A249DE1286B9DA9A957376ECCB1A0AE63EA75F135A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/release_audit_config.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 4436,
+      "mtime_ns": 1793519304872602300,
+      "sha256": "2BF6D7ED76CC40A7ACBD28129512B3E8A970B5760FD3D9AA515CBF6A1B70C0B1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/release_audit_doc_dirt_lowconf_factored_config.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra",
+        "--config"
+      ],
+      "bytes": 7936,
+      "mtime_ns": 1793523355307898300,
+      "sha256": "673CB217374BE4A4969B40B8CE15CBA778283A8F9F4701E6ED1D16F0A2E48F19"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/release_source_scope.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 22054,
+      "mtime_ns": 1793519305004722400,
+      "sha256": "92C5D183893876C4753B2922940D768E334B8255631E39C6796FD435BDE1D849"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/review_remote_physical.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 13975,
+      "mtime_ns": 1793519305101604900,
+      "sha256": "34E80D868E86B1A136C71AC23A10231B57215EAEC8CD7227F9CB7F866EDA13AE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_cnn_area_pipeline_compact.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 23396,
+      "mtime_ns": 1793519305324577800,
+      "sha256": "6DF6DDF36EE3E5AB79B6691D521C294B62478600ADDDEB9387C3A18818C4CC19"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_cnn_area_pipeline_lowconf_factored.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 5268,
+      "mtime_ns": 1793523360732212100,
+      "sha256": "E6F7DA5B40862CF59CD831C898E10015ACF87420DB80A79C59FD3398055C12BF"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_cnn_lowconf_accept.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 18537,
+      "mtime_ns": 1793519390059061900,
+      "sha256": "322239274718ED6F7EEF2335A9B8BB1133EE6EAC8C8A9B41A4466A2478BD65F5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_cnn_named_pcb_regression.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 3969,
+      "mtime_ns": 1793519305553565800,
+      "sha256": "28BF9DDF778D2FE796A2CDC22DCC93BD06A107F666F2BAC593F7E17EF7CF6CE1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_cnn_named_report_regression.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 5589,
+      "mtime_ns": 1793519305591081700,
+      "sha256": "28222B11A1290CA7D30A4F1140EEA8BCECDB3729259585CAA7EF41DACA0574FE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_cnn_stability_core.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 7457,
+      "mtime_ns": 1793519305697016000,
+      "sha256": "77BD0601C5217473304A7D013AD16C49B3029D5D93C4F6DF6CEF0C21D5D92757"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_cnn_stability_pipeline.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 20628,
+      "mtime_ns": 1793519305863656200,
+      "sha256": "30A54C5EEA5409483C01D78CC66841B48BFAC83DF7393E188A066131CA4B1266"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_cnn_top_regression.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 19534,
+      "mtime_ns": 1793519306046838500,
+      "sha256": "B3A82B8D54A11DE419D532789A80016CEE4EB1ACDBAA844ACAB708E8DEF75EF8"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_compact_metric_boundaries.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 4690,
+      "mtime_ns": 1793519306128465400,
+      "sha256": "301A7C5959A60B7428468ABBB6AB9FEFE8116DDD0749A6389EB55AD2D17076EA"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_doc_dirt_regression.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 15142,
+      "mtime_ns": 1793519306280446000,
+      "sha256": "F9D12CC1955E1333B1B469487C48A6B9113A27C2A1D0CE9FF896EC7162666A0B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_key3_top_reset.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 11214,
+      "mtime_ns": 1793519306413282800,
+      "sha256": "0345C30600CEE927A5358AE1061593F4F32BF5ABA29EE5714408A019EC3B7AEE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/run_stroke_split_regression.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 18550,
+      "mtime_ns": 1793519306634089200,
+      "sha256": "69BC73E3DCC627E2B724B09E1FD4CEC3B31D17127C7591533F953427CE91A74B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/tools/td_release_audit.py",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 31775,
+      "mtime_ns": 1793519306932418100,
+      "sha256": "72B08AAF0EF99A53C53635AF5F6E11A12178AE39FB217838165225CFF40B4DA1"
+    }
+  ],
+  "memory_references": [
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v",
+      "expression": "WEIGHTS_MEM",
+      "literal": "../../model/compact/pcb_tinycnn_weights_compact.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_weights_compact.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/model/compact/pcb_tinycnn_weights_compact.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_weights_compact.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v",
+      "expression": "BIASES_MEM",
+      "literal": "../../model/compact/pcb_tinycnn_bias_compact.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_bias_compact.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/model/compact/pcb_tinycnn_bias_compact.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_bias_compact.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v",
+      "expression": "FIRST_MEM",
+      "literal": "../../model/compact/pcb_tinycnn_first_compact.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_first_compact.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/model/compact/pcb_tinycnn_first_compact.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_first_compact.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v",
+      "expression": "NEXT_MEM",
+      "literal": "../../model/compact/pcb_tinycnn_next_compact.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_next_compact.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/model/compact/pcb_tinycnn_next_compact.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_next_compact.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core_compact_rombram.v",
+      "expression": "TAPS_MEM",
+      "literal": "../../model/compact/pcb_tinycnn_taps_compact.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_taps_compact.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/model/compact/pcb_tinycnn_taps_compact.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/compact/pcb_tinycnn_taps_compact.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_fullboard_spatial96.v",
+      "expression": "WEIGHTS_MEM",
+      "literal": "../model/experiments/conv4_4/weights.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/model/experiments/conv4_4/weights.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/experiments/conv4_4/weights.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/experiments/conv4_4/weights.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_fullboard_spatial96.v",
+      "expression": "BIASES_MEM",
+      "literal": "../model/experiments/conv4_4/biases.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/model/experiments/conv4_4/biases.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/experiments/conv4_4/biases.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/experiments/conv4_4/biases.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/cnn_core.v",
+      "expression": "WEIGHTS_MEM",
+      "literal": "model/export/weights.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/model/export/weights.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/model/export/weights.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/model/export/weights.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/cnn_core.v",
+      "expression": "BIASES_MEM",
+      "literal": "model/export/biases.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/model/export/biases.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/model/export/biases.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/model/export/biases.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v",
+      "expression": "WEIGHTS_MEM",
+      "literal": "../model/pcb_tinycnn_weights.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/model/pcb_tinycnn_weights.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_weights.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_weights.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v",
+      "expression": "BIASES_MEM",
+      "literal": "../model/pcb_tinycnn_bias.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/model/pcb_tinycnn_bias.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_bias.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_bias.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v",
+      "expression": "FIRST_MEM",
+      "literal": "../model/pcb_tinycnn_first.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/model/pcb_tinycnn_first.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_first.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_first.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v",
+      "expression": "NEXT_MEM",
+      "literal": "../model/pcb_tinycnn_next.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/model/pcb_tinycnn_next.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_next.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_next.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/pcb_tinycnn_core.v",
+      "expression": "TAPS_MEM",
+      "literal": "../model/pcb_tinycnn_taps.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/model/pcb_tinycnn_taps.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_taps.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/model/pcb_tinycnn_taps.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv",
+      "expression": "\"input.mem\"",
+      "literal": "../fixtures/blank2418/input.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/fixtures/blank2418/input.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/input.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/input.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv",
+      "expression": "\"skeleton.mem\"",
+      "literal": "../fixtures/blank2418/skeleton.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/fixtures/blank2418/skeleton.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/skeleton.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/skeleton.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv",
+      "expression": "\"expected.mem\"",
+      "literal": "../fixtures/blank2418/expected.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/fixtures/blank2418/expected.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_capture_integrated.sv",
+      "expression": "\"source_y.mem\"",
+      "literal": "../fixtures/blank2418/source_y.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/fixtures/blank2418/source_y.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/source_y.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/source_y.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_frontend.sv",
+      "expression": "image_path",
+      "literal": "../fixtures/blank2418/source_y.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/fixtures/blank2418/source_y.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/source_y.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/source_y.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/source/tb_frontend.sv",
+      "expression": "expected_path",
+      "literal": "../fixtures/blank2418/expected_binary.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/fixtures/blank2418/expected_binary.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected_binary.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/reports/dirt_qualification/fixtures/blank2418/expected_binary.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v",
+      "expression": "ROM_INIT",
+      "literal": "ddrphy_cfg_rom.txt",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/ddrphy_cfg_rom.txt",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ddrphy_cfg_rom.txt"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ddrphy_cfg_rom.txt"
+      ],
+      "status": "present"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Reviewed inactive include main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v:ph1p_mis_define.vh: PH1P_MIS_SIM branch is inactive for synthesis; the else branch uses src/rtl/include/ph1p_mis_define.vh, which is separately hashed.",
+    "Reviewed inactive include main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv:../timing/ddr3/ddr3_parameter.vh: Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis.",
+    "Reviewed inactive include main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv:../timing/ddr4/ddr4_parameter.vh: Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis.",
+    "Reviewed inactive include main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv:ddr3_parameter.vh: Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis.",
+    "Reviewed inactive include main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv:ddr4_parameter.vh: Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis.",
+    "Reviewed memory override 01_rtl/pcb_fullboard_spatial96.v:BIASES_MEM: The active secondary_top elaboration selects PCB_FULLBOARD_SPATIAL96 with binary C1/C2=4/4; its instance parameter expression resolves to this integrated centered PCB ROM.",
+    "Reviewed memory override 01_rtl/pcb_fullboard_spatial96.v:WEIGHTS_MEM: The active secondary_top elaboration selects PCB_FULLBOARD_SPATIAL96 with binary C1/C2=4/4; its instance parameter expression resolves to this integrated centered PCB ROM.",
+    "Reviewed memory override 01_rtl/pcb_tinycnn_core.v:BIASES_MEM: PCB_ENABLE=1 in the frozen secondary_top elaboration; PCB biases are active build inputs resolved from 01_rtl into the independent project's model directory.",
+    "Reviewed memory override 01_rtl/pcb_tinycnn_core.v:FIRST_MEM: PCB_ENABLE=1 in the frozen secondary_top elaboration; the sparse first-tap table is an active build input in the independent project's model directory.",
+    "Reviewed memory override 01_rtl/pcb_tinycnn_core.v:NEXT_MEM: PCB_ENABLE=1 in the frozen secondary_top elaboration; the sparse next-tap table is an active build input in the independent project's model directory.",
+    "Reviewed memory override 01_rtl/pcb_tinycnn_core.v:TAPS_MEM: PCB_ENABLE=1 in the frozen secondary_top elaboration; the sparse tap descriptor table is an active build input in the independent project's model directory.",
+    "Reviewed memory override 01_rtl/pcb_tinycnn_core.v:WEIGHTS_MEM: PCB_ENABLE=1 in the frozen secondary_top elaboration; PCB class weights are active build inputs resolved from 01_rtl into the independent project's model directory.",
+    "Reviewed memory override main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v:ROM_INIT: DDRPHY_ROM_INIT is defined as ddrphy_cfg_rom.txt in src/rtl/include/ph1p_mis_define.vh; ph1p_ddrphy_wrapper passes it to ph1p_ddrphy_top, then ph1p_ddrphy_init. The file is also an active IP-XACT file-set input. Verify elaboration log retains ROM_INIT=ddrphy_cfg_rom.txt.",
+    "Reviewed memory override reports/dirt_qualification/source/tb_capture_integrated.sv:\"expected.mem\": Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed.",
+    "Reviewed memory override reports/dirt_qualification/source/tb_capture_integrated.sv:\"input.mem\": Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed.",
+    "Reviewed memory override reports/dirt_qualification/source/tb_capture_integrated.sv:\"skeleton.mem\": Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed.",
+    "Reviewed memory override reports/dirt_qualification/source/tb_capture_integrated.sv:\"source_y.mem\": Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed.",
+    "Reviewed memory override reports/dirt_qualification/source/tb_frontend.sv:expected_path: Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed.",
+    "Reviewed memory override reports/dirt_qualification/source/tb_frontend.sv:image_path: Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed."
+  ],
+  "passed": true
+}

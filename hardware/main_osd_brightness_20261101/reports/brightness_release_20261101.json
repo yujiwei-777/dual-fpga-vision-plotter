@@ -1,0 +1,24 @@
+{
+  "variant": "main_osd_brightness_20261101",
+  "baseline": "main_osd_chinese_no_hist_20261031",
+  "bit": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_brightness_20261101\\artifacts\\dual_fpga_main_20261101_osd_brightness_diagnostic.bit",
+  "sha256": "FB3FE4F57721C7068821EC0C010D589CB82398E6F38CCCF3F7892006033E5515",
+  "bytes": 1789547,
+  "source_file": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_osd_brightness_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\display_tone_96.v",
+  "source_sha256": "063737B3786DFCEECB8CCCD5314BDB150256BEF77CA02898D02F65D5CE56EDDC",
+  "baseline_source_sha256": "12A0F723D7E23091BD37BAFA81363660CDBEDD8EB6D2BD91CE48B5BFE25847A0",
+  "change": "display_tone_96 tone curve constant 48 -> 52; approximate +4 code levels in original display tone mid/high range",
+  "scope": "Display/tone path; no hdmi_mixer, CNN protocol, DDR, motion, OSD, HXA1 or sensor register changes.",
+  "route": {
+    "setup_wns_ns": 0.384,
+    "hold_wns_ns": 0.02,
+    "tns_ns": 0.0,
+    "slice_percent": 92.58,
+    "eram_percent": 83.33,
+    "dsp_percent": 92.5
+  },
+  "bitgen_pass": true,
+  "hardware_status": "NOT_RUN",
+  "generated_utc": "2026-11-01T07:54:32.433376+00:00",
+  "audit_status": "post-bit delivery; detailed brightness visual audit pending"
+}

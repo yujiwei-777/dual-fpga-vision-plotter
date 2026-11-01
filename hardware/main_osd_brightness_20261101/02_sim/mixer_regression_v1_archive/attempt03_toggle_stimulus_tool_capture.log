@@ -1,0 +1,9 @@
+Tool-output reconstruction; not the original ModelSim transcript.
+# MIXER_FRAME_PASS id=0 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=0
+# MIXER_FRAME_PASS id=1 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=8064
+# MIXER_FRAME_PASS id=2 pixels=921600 baseline_equal=803142 pcb_edges=10880 hidden_motion=0
+# MIXER_FRAME_PASS id=3 pixels=921600 baseline_equal=803142 pcb_edges=0 hidden_motion=0
+# ** Fatal: MULTIBOX_COMPACT_AVOIDANCE_MISSING
+# Time: 37246910 ns
+# End time: 21:36:57 on Oct 30,2026
+# Errors: 1, Warnings: 0

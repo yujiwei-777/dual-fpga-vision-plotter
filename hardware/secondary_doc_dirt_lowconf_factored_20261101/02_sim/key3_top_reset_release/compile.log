@@ -1,0 +1,40 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 16:59:59 on Nov 01,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\simwork D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\controlled_leaves.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\testmodels\ph1p_logic_eram_stub.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\secondary_top.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\reset_sync.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_secondary_link.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_codec.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_rx_fifo4.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_uart.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_response_parser.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_streamer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_reporter.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_line_formatter.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_vector_font_rom.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\tb_key3_top_reset.sv 
+-- Compiling module pll
+-- Compiling module PLL
+-- Compiling module secondary_ddr_wrapper
+-- Compiling module hxa_ddr_store
+-- Compiling module uiudp_stack
+-- Compiling module vision_pixel_reader
+-- Compiling module vision_pipeline
+-- Compiling module hxa_config_store
+-- Compiling module doc_copy_pipeline
+-- Compiling module rgmii_interface
+-- Compiling module PH1P_LOGIC_BUFG
+-- Compiling module PH1P_LOGIC_ERAM
+-- Compiling module secondary_top
+-- Compiling module secondary_key3_board_reset
+-- Compiling module grbl_key2_test_ctrl
+-- Compiling module grbl_key1_job_guard
+-- Compiling module reset_sync
+-- Compiling module hxa_secondary_link
+-- Compiling module hxa_packet_tx
+-- Compiling module hxa_packet_rx
+-- Compiling module hxa_packet_rx_fifo4
+-- Compiling module grbl_uart_tx
+-- Compiling module grbl_uart_port
+-- Compiling module grbl_uart_rx
+-- Compiling module grbl_response_parser
+-- Compiling module grbl_streamer
+-- Compiling module grbl_reporter
+-- Compiling module grbl_decimal
+-- Compiling module grbl_line_formatter
+-- Compiling module grbl_vector_font_rom
+-- Compiling module tb_key3_top_reset
+
+Top level modules:
+	hxa_packet_rx
+	tb_key3_top_reset
+End time: 16:59:59 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

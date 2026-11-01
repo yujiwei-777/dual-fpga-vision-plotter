@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vlog.exe",
+    "-sv",
+    "-lint",
+    "-work",
+    "simlib",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_image_frontend.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\source\\tb_frontend.sv",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\source\\tb_timeout.sv"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.069,
+  "log_sha256": "A81EEBE87D3F4C707FEDBC8AD8F6C7784F2D2153A2000A8E79F4C225141A193A"
+}

@@ -1,0 +1,9 @@
+# Preserve bytes bound to the original source and build manifests.
+hardware/** -text
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+release/*.json text eol=lf
+release/*.txt text eol=lf
+# Last rule wins: never normalize the immutable bundle.
+hardware/** -text

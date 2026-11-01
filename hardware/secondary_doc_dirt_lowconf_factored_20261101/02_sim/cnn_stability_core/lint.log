@@ -1,0 +1,14 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 17:03:54 on Nov 01,2026
+vlog -sv -lint -work D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_stability_core/work D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/cnn_core.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/vision_workspace.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/vision_shared_mac.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_stability_core/tb_cnn_stability_core.sv D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_stability_core/tb_cnn_stability_boundaries.sv 
+-- Compiling module cnn_core
+-- Compiling module vision_workspace
+-- Compiling module vision_shared_mac
+-- Compiling module tb_cnn_stability_core
+-- Compiling module tb_cnn_stability_boundaries
+
+Top level modules:
+	tb_cnn_stability_core
+	tb_cnn_stability_boundaries
+End time: 17:03:54 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

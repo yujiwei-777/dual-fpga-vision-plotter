@@ -1,0 +1,22 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 17:00:32 on Nov 01,2026
+vlog -sv -lint -work work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_color_stats.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\edge_roi_ccl.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_pixel_reader.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_ccl.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\pcb_defect_cluster.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_workspace.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_shared_mac.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\pcb_fullboard_spatial96.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_pipeline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\cnn_core.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\cnn_result_stabilizer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\cnn_named_pcb\tb_real_pcb_core.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\cnn_named_pcb\tb_real_pcb_pipeline.sv 
+-- Compiling module vision_color_stats
+-- Compiling module edge_roi_ccl
+-- Compiling module vision_pixel_reader
+-- Compiling module vision_ccl
+-- Compiling module pcb_defect_cluster
+-- Compiling module vision_workspace
+-- Compiling module vision_shared_mac
+-- Compiling module pcb_fullboard_spatial96
+-- Compiling module vision_pipeline
+-- Compiling module cnn_core
+-- Compiling module cnn_result_stabilizer
+-- Compiling module tb_real_pcb_core
+-- Compiling module tb_real_pcb_pipeline
+
+Top level modules:
+	tb_real_pcb_core
+	tb_real_pcb_pipeline
+End time: 17:00:32 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "fresh_rtl_replay": true,
+  "checks": {
+    "gold_checks": 3240,
+    "events": 3307,
+    "serial_records": 2059,
+    "bank_reuses": 3247,
+    "clear_boundaries": 2,
+    "max_cycles": 857
+  }
+}

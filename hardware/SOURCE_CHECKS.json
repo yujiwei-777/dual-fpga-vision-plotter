@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "board": "main",
+      "directory": "main_osd_brightness_20261101",
+      "entry": "camera_to_dsi_display_720p60_cnn_multibox.al",
+      "bit": "artifacts/dual_fpga_main_20261101_osd_brightness_diagnostic.bit",
+      "bit_sha256": "FB3FE4F57721C7068821EC0C010D589CB82398E6F38CCCF3F7892006033E5515",
+      "references": 138,
+      "current_input_mappings": 189,
+      "exact_inherited_matches": 187,
+      "inherited_snapshot_deltas": 2,
+      "provenance_status": "CURRENT_AT_PACKAGE_TIME_NOT_BRIGHTNESS_PREBUILD_FREEZE",
+      "hardware_status": "NOT_RUN"
+    },
+    {
+      "board": "secondary",
+      "directory": "secondary_doc_dirt_lowconf_factored_20261101",
+      "entry": "secondary_cnn_multibox.al",
+      "bit": "artifacts/dual_fpga_secondary_20261101_doc_dirt_lowconf_factored_diagnostic.bit",
+      "bit_sha256": "5066DC18572D27361957A63C1702EA3CD060CAEDAB88A0172F8A3C86451C1F34",
+      "references": 80,
+      "frozen_inputs": 271,
+      "hardware_status": "NOT_RUN"
+    }
+  ],
+  "total_project_references": 218,
+  "secondary_unique_frozen_inputs": 271,
+  "main_current_input_mappings": 189,
+  "main_inherited_matches": 187,
+  "main_documented_deltas": 2,
+  "main_note": "Brightness snapshot/readonly/gate inherited from no_hist; no new brightness freeze/readonly claimed",
+  "main_package_details": {
+    "destination": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\release_packages\\dual_fpga_pair_20261101_doc_dirt_lowconf_brightness_portable_clean\\main_osd_brightness_20261101",
+    "references": 138,
+    "current": 189,
+    "exact_inherited": 187,
+    "differences": 2,
+    "bit_sha256": "FB3FE4F57721C7068821EC0C010D589CB82398E6F38CCCF3F7892006033E5515",
+    "hardware_status": "NOT_RUN",
+    "package_verify": "PASS",
+    "source_binding": "PACKAGING_TIME_CURRENT_NOT_BUILD_TIME_FREEZE"
+  },
+  "pair_hardware_status": "NOT_RUN"
+}

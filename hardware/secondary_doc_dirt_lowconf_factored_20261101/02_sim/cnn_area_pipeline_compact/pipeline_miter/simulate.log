@@ -1,0 +1,573 @@
+# vsim -batch -syncio -quiet -novopt -suppress 12110 -lib simlib tb_cnn_stability_pipeline -do "onerror {quit -code 1}; run -all; quit -f" 
+# Start time: 16:59:56 on Nov 01,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.tb_cnn_stability_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.vision_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.vision_color_stats
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.edge_roi_ccl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.vision_shared_mac
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.vision_pipeline_baseline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.cnn_core
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.pcb_fullboard_spatial96
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.cnn_result_stabilizer
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/simlib.cnn_result_stabilizer_baseline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# 
+# onerror {quit -code 1}
+# run -all
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS first reliable result remains unconfirmed
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS second reliable result remains unconfirmed
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS third reliable result confirms cylinder
+# PASS actual CCL-to-native coordinate mapping preserved
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS rejected cube argmax holds confirmed cylinder at zero confidence
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS reliable result immediately ends ambiguity hold
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS first conflicting reliable result cannot switch class
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS second conflicting reliable result cannot switch class
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS third consecutive reliable result switches class
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS first low result keeps prior confirmed class
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS second low result keeps prior confirmed class
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS third low result clears prior class
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS empty frame never emits ghost bbox
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS overflow fails closed and ages history
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS three missing results require fresh confirmation
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS low-margin raw argmax cannot establish new class
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS mid-filter history clear restarts against empty history
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS pipeline can confirm after clear/reentry
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS clear exactly at publish discards old confirmed snapshot
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS reconfirmed before finish-edge clear
+# PASS clear exactly at completion discards old confirmed snapshot
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS cancel clears current processing without completion
+# PASS canceled job emits no late completion
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS cancelled frame cannot retain old confirmation votes
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS reconfirmed before configuration clear
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS configuration commit invalidates ordinary history
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS confirmed before destructive result-bank reuse
+# PASS serial begin releases raw input and clears destination bank
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS clear after bank reuse completes empty without restarting destroyed input
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS post-reuse clear cannot manufacture confirmation votes
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS fresh inference confirms after reuse clear
+# PASS serial first slot is committed into parent bank
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS clear after first serial slot discards partial commit
+# PASS PCB good decision bypasses ordinary confirmation
+# PASS PCB does not start ordinary stabilizer
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS PCB mode transition clears ordinary history
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS four candidates first confirmation is empty
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS four candidates second confirmation is empty
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four candidates serial commit selects largest-area primary
+# PASS all four parent slots retain exact native coordinate identities
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS confidence reorder cannot replace visible primary after shared insertion writes
+# PASS four serial slots keep geometry and area after raw confidence reorder
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS boundary fixture confirms four reordered candidates
+# PASS held history clear stalls at START without releasing raw ownership
+# PASS STORE/INSERT/START history clear preserves completed raw candidate bank
+# PASS nonidentity pointer map remains stable through history clear
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS clear release restarts against empty history
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four reordered candidates confirm after STORE/INSERT/START clear
+# PASS held history clear stalls at START without releasing raw ownership
+# PASS STORE/INSERT/START history clear preserves completed raw candidate bank
+# PASS nonidentity pointer map remains stable through history clear
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS clear release restarts against empty history
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four reordered candidates confirm after STORE/INSERT/START clear
+# PASS held history clear stalls at START without releasing raw ownership
+# PASS STORE/INSERT/START history clear preserves completed raw candidate bank
+# PASS nonidentity pointer map remains stable through history clear
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS clear release restarts against empty history
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four reordered candidates confirm after STORE/INSERT/START clear
+# PASS four-target pre-emit clear preserves raw bank for restart
+# PASS nonidentity pointer map remains stable through history clear
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS four-target pre-emit clear completes first fresh observation
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four targets reconfirm after pre-emit clear
+# PASS pending emit_begin has not transferred raw ownership
+# PASS same-edge clear masks pending emit_begin and preserves source bank
+# PASS nonidentity pointer map remains stable through history clear
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS pending-begin clear restarts without rereading serialized output
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four targets reconfirm after pending-begin clear
+# PASS last serial slot commits before post-release clear
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS clear after last slot publishes empty without restarting destroyed source
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four targets reconfirm after last-slot clear
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS clear at pending done publishes empty and cannot restart committed output
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four targets reconfirm after pending-done clear
+# PASS four-target cancel clears raw bank and source ownership
+# PASS destructive reset clears indirect slot identities
+# PASS four-target canceled task has no late completion
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS fresh task after cancel needs first confirmation
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four targets reconfirm after cancel
+# PASS four-target reset clears raw bank and source ownership
+# PASS destructive reset clears indirect slot identities
+# PASS four-target reset task has no late completion
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS fresh task after reset needs first confirmation
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS Type18 primary and compatibility class/confidence agree
+# PASS Type18 primary and compatibility bbox agree
+# PASS four targets reconfirm after reset
+# PASS all real pipeline/stabilizer integration assertions
+# PASS ORIGINAL_81_JOBS_374_ASSERTIONS_PRESERVED
+# PASS full image exclusive endpoints and maximum legal area
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS top left minimum accepted dimensions
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS bottom right minimum accepted dimensions
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS narrow full-height component preserves ROI mapping
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS wide thin component preserves ROI mapping
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS high endpoint bits reproduce old11/10bit quotient truncation
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS endpoint overflow thresholds and zero area remain equivalent
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS lower area and upper inputs retain their distinct original capture edges
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS mapping cancel clears pipeline without late result
+# PASS mapping cancel does not complete aborted job
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS exactly one completed current job
+# PASS publish retires pipeline busy
+# PASS Type18 flags and compatibility validity agree
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS mapping reset clears pipeline without late result
+# PASS mapping reset does not complete aborted job
+# PASS all added fixed mapping edge assertions
+# PASS FIXED_GRID_PUBLIC_CYCLE_MITER cycles=11742298 public_ports=37 controls=11 completed_jobs=113 assertions=527
+# PASS CNN_STABILITY_PIPELINE_ALL checks=527 jobs=113
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_area_pipeline_compact/pipeline_miter/tb_fixed_grid_mapping_miter.sv(455)
+#    Time: 93938637 ns  Iteration: 0  Instance: /tb_cnn_stability_pipeline
+# End time: 17:01:34 on Nov 01,2026, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 1

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "frames": 7,
+  "stream_pixels": 6451200,
+  "outside_rgb_compared": 5619034,
+  "crops": 29,
+  "camera_photos": false,
+  "full_frames_forced_coordinates": false,
+  "atlas_forced_coordinates": true,
+  "source": "Actual hdmi_mixer O_hdmi_data; all OSD glyph pixels from RTL font ROM",
+  "previews": {
+    "osd_19_modes_rtl.png": "72388358C28248E76102AB0A5689132EA65E7D6C803AD3AC06CE558ABEDE8212",
+    "osd_8_pcb_states_rtl.png": "7CEE39D5796F91FF636247DE945AD31C4A1550829018F2BD4C432428221A00EF",
+    "osd_before_after_rtl.png": "63069B3B9B3F087719F68746D8362B6A0295CA1D74AF4CB8639C3F403F5C4529",
+    "osd_motion_gate_rtl.png": "8E04417032113FA17E9139E822F54922D81D95E117BE9E2307BA7531063870DE"
+  }
+}

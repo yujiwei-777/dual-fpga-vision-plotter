@@ -1,0 +1,97 @@
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |        -1939                |
+|     Setup TNS             |      -191921                |
+|     Num of violated S-EP  |          426                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #registers            |        18902                |
+|     #luts                 |        21751                |
+|     #lut1                 |          138                |
+|     #lut1(~A)             |          138                |
+|     #slices               |         4501                |
+|     slices percentage     |       21.22%                |
+|     #RAMs                 |           91                |
+|     #DSPs                 |           18                |
+|     #f7mux                |        0.46%                |
+|     #MACROs               |          385                |
+|     #insts in MACRO       |         4650                |
+-----------------------------------------------------------
+| kept_net                  |                             |
+|     #syn_keep             |         1300                |
+|     #keep_hier            |          509                |
+|     #dont_touch           |           45                |
+|     #mark_debug           |            0                |
+|     #max_fanout_keep      |            0                |
+|     #async_reg            |            0                |
+-----------------------------------------------------------
+| Top 1% datanet fanout#    |        49.10                |
+| dff(single fanout)->dff   |          604                |
+| dff(single fanout)->dram  |          129                |
+-----------------------------------------------------------
+| Over-quota path num*      |                             |
+|     eth125                |            1                |
+|     u_ddr/u_...           |          145                |
+|     Total Number          |          146                |
+|     Total Level Slack     |         -274                |
+|     Worst Level Slack     |           -2                |
+-----------------------------------------------------------
+| Rent**                    |                             |
+-----------------------------------------------------------
+Note*: Over-quota path shows the over-path-level-threshold path number of each clock.
+       The clock will not be shown if no path is with path level over the threshold.
+       The threshold is defined as worst path_margin / 800ps.
+Note**: Rent shows the rent exponent value of the modules whose rent value exceeds the threshold.
+        Only modules under top are reported, and the threshold is defined as 0.7.
+
+Over-quota Path Details
+--------------------------------------------------------------------------------------------------------------------------
+         Clock          |  Index  |  Budget(Period)  |  Level(Quota)  |  Cell Type List  |        Reason        |  Slack  
+--------------------------------------------------------------------------------------------------------------------------
+         eth125         |    1    |    424(8000)     |      1(1)      |   SEQ,LUT5,SEQ   |  large launch delay  |  -1877  
+  u_ddr/u_ddr2/usr_clk  |    1    |    424(7500)     |      2(1)      |  SEQ,LUT3,DRAM   |  large launch delay  |  -929   
+                        |    2    |    424(7500)     |      2(1)      |  SEQ,LUT3,DRAM   |  large launch delay  |  -929   
+                        |    3    |    424(7500)     |      2(1)      |  SEQ,LUT3,DRAM   |  large launch delay  |  -929   
+                        |    4    |    424(7500)     |      2(1)      |  SEQ,LUT3,DRAM   |  large launch delay  |  -929   
+                        |    5    |    424(7500)     |      2(1)      |  SEQ,LUT3,DRAM   |  large launch delay  |  -929   
+--------------------------------------------------------------------------------------------------------------------------
+Note: Table only show top 5 paths for each clock group in default
+
+Logic Level Distribution
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  Clock                                      |  Period             |  0      |  1      |  2     |  3     |  4     |  5     |  6     |  7    |  8    |  9
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+  ddr_ref100                                 |  10.000ns (100MHz)  |  132    |  285    |  0     |  64    |  0     |  0     |  0     |  0    |  0    |  0
+  eth125                                     |  8.000ns (125MHz)   |  13771  |  11691  |  4099  |  3444  |  2434  |  7370  |  3045  |  340  |  152  |  2
+  eth125_90                                  |  8.000ns (125MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0
+  eth_txc_pad                                |  8.000ns (125MHz)   |  0      |  5      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0
+  rgmii_rxc                                  |  8.000ns (125MHz)   |  0      |  15     |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0
+  sys_clk_50m                                |  20.000ns (50MHz)   |  3      |  2      |  19    |  19    |  67    |  0     |  0     |  0    |  0    |  0
+  u_ddr/u_ddr2/ctl_clk                       |  7.500ns (133MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0
+  u_ddr/u_ddr2/ddr_clk                       |  1.875ns (533MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0
+  u_ddr/u_ddr2/mcu_clk                       |  19.687ns (50MHz)   |  56     |  15     |  244   |  15    |  0     |  6     |  0     |  3    |  0    |  0
+  u_ddr/u_ddr2/ref_clk                       |  7.500ns (133MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0     |  0    |  0    |  0
+  u_ddr/u_ddr2/usr_clk                       |  7.500ns (133MHz)   |  2602   |  1280   |  933   |  960   |  799   |  369   |  0     |  0    |  0    |  0
+  u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout  |  8.000ns (125MHz)   |  542    |  425    |  49    |  22    |  125   |  29    |  12    |  0    |  0    |  0
+  Total                                      |  NA                 |  17106  |  13718  |  5344  |  4524  |  3425  |  7774  |  3057  |  343  |  152  |  2
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Hierarchical Rent Exponent Report
++------------------------------------------------------------------------------+
+|Inst          |Model                   |Rent     |Cell     |Pin     |Term     |
++------------------------------------------------------------------------------+
+|top           |secondary_top           |0.17     |48674    |232256  |31       |
+|  u_link      |hxa_secondary_link_8    |0.61     |7366     |36924   |1111     |
+|  u_reporter  |grbl_reporter_9         |0.52     |3833     |18842   |345      |
+|  u_vision    |vision_pipeline_18      |0.51     |7652     |38003   |462      |
+|  u_copy      |doc_copy_pipeline_2     |0.48     |8311     |41663   |387      |
+|  u_ddr       |secondary_ddr_wrapper_3 |0.47     |9603     |43436   |348      |
+|  u_udp_stack |uiudp_stack_17          |0.34     |7789     |33850   |93       |
++------------------------------------------------------------------------------+
+Note: Cell represents total number of cells inside module; Pin represents total number of pins
+      which have net connection inside module; Term represents total number of PIs and POs of module.
+      Rent represents the relationship between number of terms and number of cells in module.
+      A module with higher rent corresponds to highly connected logic and strong connectivity with others.
+Report gate stage QoR done.
+

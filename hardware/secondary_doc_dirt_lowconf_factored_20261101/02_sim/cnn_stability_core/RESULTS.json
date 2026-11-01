@@ -1,0 +1,378 @@
+{
+  "status": "PASS",
+  "hardware_status": "NOT_RUN",
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\cnn_core.v": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\vision_workspace.v": "F4636E94C984B86A54DE00827ED395EEE4F4CD1D9D55638BA845A2E4DC731873",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\vision_shared_mac.v": "8106B5C3DE5F2C41F3CEF27C851349C19B52B199111E7BED0A4FB73C0B29D135",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\tb_cnn_stability_core.sv": "244CC8F1940094D07A9E6C76181A668F202900A8924CEB113B7FA1DD27A5F927",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\tb_cnn_stability_boundaries.sv": "027F1A1615287B045A490841068D85ABBD96D42C4EE96680D596FEF2CC64DBC9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\model\\export\\weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\model\\export\\biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\model\\export\\quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\tools\\run_cnn_stability_core.py": "77BD0601C5217473304A7D013AD16C49B3029D5D93C4F6DF6CEF0C21D5D92757",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\tools\\run_cnn_boundaries.py": "1FD628F8D88754DC32B8BC08F2DE411EC9956BE4C8E261E6D0B78F926ED8876F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\FIXTURE_PROVENANCE.json": "6C35A7DD1FE0436F5589F6A1AC3C3CCA4496FED721AAFDABAFC47EEFD8D6D43A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\pixels.mem": "691C174BA0AA9E361BE9C2184F2BFE0696C03EBAF9E6FFEF81CDE9674F1C60E0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\shape.mem": "CBF01DCD08537B4F328CC7DD273A21C671E05A06EC953A2EBC1475411EE3B0D3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\feature1.mem": "38DA53DCFB1D632BAD524E04E78BCCC7119154E1FCD2A019E2545E69DE02DA2D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\feature2.mem": "225BB3A9EBD3075C6546FB88CB75F61E317F9023C40CF94009C0B14FFCA7CAB3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\results.mem": "CE05256BAAC5305D3BC33ADD69F84FA07106594E7D3254A3DEB21193C4ECA25C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\fixture_origin\\pixels.mem": "691C174BA0AA9E361BE9C2184F2BFE0696C03EBAF9E6FFEF81CDE9674F1C60E0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\fixture_origin\\shape.mem": "CBF01DCD08537B4F328CC7DD273A21C671E05A06EC953A2EBC1475411EE3B0D3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\fixture_origin\\feature1.mem": "38DA53DCFB1D632BAD524E04E78BCCC7119154E1FCD2A019E2545E69DE02DA2D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\fixture_origin\\feature2.mem": "225BB3A9EBD3075C6546FB88CB75F61E317F9023C40CF94009C0B14FFCA7CAB3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\fixture_origin\\results.mem": "CE05256BAAC5305D3BC33ADD69F84FA07106594E7D3254A3DEB21193C4ECA25C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\fixture_origin\\tb_remote_detail.sv": "5857D5737FBC89102348D9B0D5244BA7C5EBF04AE288B5233A7DE2F041072C09",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_stability_core\\fixture_origin\\RESULTS.json": "3B724B4934A6D7220AE50D733A4341B2FE109E88F87D086C275036A9752484A4"
+  },
+  "production_modules": [
+    "cnn_core",
+    "vision_workspace",
+    "vision_shared_mac"
+  ],
+  "full_inference_cases": 27,
+  "native_roi_cases": 9,
+  "synthetic_detail_cases": 18,
+  "boundary_classify_checks": 11,
+  "reset_before_inference_case": 13,
+  "conv1_byte_values_compared": 221184,
+  "conv2_byte_values_compared": 110592,
+  "fc_logits_compared": 81,
+  "color_sums_compared": 81,
+  "case_results": [
+    {
+      "case": 0,
+      "cycles": 1830933,
+      "logits": [
+        51333,
+        -82949,
+        13983
+      ],
+      "class_id": 1,
+      "color_conf": 136,
+      "shape_conf": 145
+    },
+    {
+      "case": 1,
+      "cycles": 1830933,
+      "logits": [
+        41006,
+        -74552,
+        16398
+      ],
+      "class_id": 1,
+      "color_conf": 128,
+      "shape_conf": 96
+    },
+    {
+      "case": 2,
+      "cycles": 1830933,
+      "logits": [
+        41701,
+        -75933,
+        17062
+      ],
+      "class_id": 1,
+      "color_conf": 128,
+      "shape_conf": 96
+    },
+    {
+      "case": 3,
+      "cycles": 1830933,
+      "logits": [
+        -78460,
+        61880,
+        19997
+      ],
+      "class_id": 2,
+      "color_conf": 175,
+      "shape_conf": 163
+    },
+    {
+      "case": 4,
+      "cycles": 1830933,
+      "logits": [
+        -69059,
+        54126,
+        17243
+      ],
+      "class_id": 2,
+      "color_conf": 162,
+      "shape_conf": 144
+    },
+    {
+      "case": 5,
+      "cycles": 1830933,
+      "logits": [
+        -70617,
+        52721,
+        19131
+      ],
+      "class_id": 2,
+      "color_conf": 173,
+      "shape_conf": 131
+    },
+    {
+      "case": 6,
+      "cycles": 1830933,
+      "logits": [
+        -27726,
+        -651,
+        29002
+      ],
+      "class_id": 3,
+      "color_conf": 190,
+      "shape_conf": 115
+    },
+    {
+      "case": 7,
+      "cycles": 1830933,
+      "logits": [
+        -23355,
+        -2848,
+        27680
+      ],
+      "class_id": 3,
+      "color_conf": 203,
+      "shape_conf": 119
+    },
+    {
+      "case": 8,
+      "cycles": 1830933,
+      "logits": [
+        -22126,
+        -2221,
+        24642
+      ],
+      "class_id": 3,
+      "color_conf": 179,
+      "shape_conf": 104
+    },
+    {
+      "case": 9,
+      "cycles": 1830933,
+      "logits": [
+        92350,
+        -86837,
+        -21368
+      ],
+      "class_id": 4,
+      "color_conf": 32,
+      "shape_conf": 255
+    },
+    {
+      "case": 10,
+      "cycles": 1830933,
+      "logits": [
+        88011,
+        -83619,
+        -17783
+      ],
+      "class_id": 4,
+      "color_conf": 30,
+      "shape_conf": 255
+    },
+    {
+      "case": 11,
+      "cycles": 1830933,
+      "logits": [
+        88112,
+        -88217,
+        -15681
+      ],
+      "class_id": 4,
+      "color_conf": 34,
+      "shape_conf": 255
+    },
+    {
+      "case": 12,
+      "cycles": 1830933,
+      "logits": [
+        -93303,
+        76586,
+        18920
+      ],
+      "class_id": 5,
+      "color_conf": 45,
+      "shape_conf": 225
+    },
+    {
+      "case": 13,
+      "cycles": 1830933,
+      "logits": [
+        -87876,
+        74817,
+        16308
+      ],
+      "class_id": 5,
+      "color_conf": 44,
+      "shape_conf": 228
+    },
+    {
+      "case": 14,
+      "cycles": 1830933,
+      "logits": [
+        -80952,
+        64588,
+        18598
+      ],
+      "class_id": 5,
+      "color_conf": 47,
+      "shape_conf": 179
+    },
+    {
+      "case": 15,
+      "cycles": 1830933,
+      "logits": [
+        -32783,
+        -16366,
+        42758
+      ],
+      "class_id": 6,
+      "color_conf": 41,
+      "shape_conf": 230
+    },
+    {
+      "case": 16,
+      "cycles": 1830933,
+      "logits": [
+        -30151,
+        -15417,
+        39388
+      ],
+      "class_id": 6,
+      "color_conf": 40,
+      "shape_conf": 214
+    },
+    {
+      "case": 17,
+      "cycles": 1830933,
+      "logits": [
+        -31636,
+        -6248,
+        34651
+      ],
+      "class_id": 6,
+      "color_conf": 38,
+      "shape_conf": 159
+    },
+    {
+      "case": 18,
+      "cycles": 1830933,
+      "logits": [
+        80598,
+        -111285,
+        1894
+      ],
+      "class_id": 7,
+      "color_conf": 52,
+      "shape_conf": 255
+    },
+    {
+      "case": 19,
+      "cycles": 1830933,
+      "logits": [
+        62628,
+        -80992,
+        -2889
+      ],
+      "class_id": 7,
+      "color_conf": 48,
+      "shape_conf": 255
+    },
+    {
+      "case": 20,
+      "cycles": 1830933,
+      "logits": [
+        80748,
+        -119197,
+        6561
+      ],
+      "class_id": 7,
+      "color_conf": 53,
+      "shape_conf": 255
+    },
+    {
+      "case": 21,
+      "cycles": 1830933,
+      "logits": [
+        -86734,
+        70531,
+        17420
+      ],
+      "class_id": 8,
+      "color_conf": 45,
+      "shape_conf": 207
+    },
+    {
+      "case": 22,
+      "cycles": 1830933,
+      "logits": [
+        -88226,
+        65504,
+        24196
+      ],
+      "class_id": 8,
+      "color_conf": 46,
+      "shape_conf": 161
+    },
+    {
+      "case": 23,
+      "cycles": 1830933,
+      "logits": [
+        -78292,
+        63497,
+        17554
+      ],
+      "class_id": 8,
+      "color_conf": 46,
+      "shape_conf": 179
+    },
+    {
+      "case": 24,
+      "cycles": 1830933,
+      "logits": [
+        -31129,
+        -8539,
+        33680
+      ],
+      "class_id": 9,
+      "color_conf": 60,
+      "shape_conf": 164
+    },
+    {
+      "case": 25,
+      "cycles": 1830933,
+      "logits": [
+        -28810,
+        -10159,
+        32623
+      ],
+      "class_id": 9,
+      "color_conf": 60,
+      "shape_conf": 167
+    },
+    {
+      "case": 26,
+      "cycles": 1830933,
+      "logits": [
+        -29410,
+        -6287,
+        30726
+      ],
+      "class_id": 9,
+      "color_conf": 58,
+      "shape_conf": 144
+    }
+  ],
+  "confidence_shift": 8,
+  "weight_sha256": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+  "bias_sha256": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+  "limits": [
+    "Nine native existing dataset ROIs plus 18 synthetic detail variants; no independent accuracy claim",
+    "Gold vectors reused only after exact model-ROM identity check; generated by previous integer reference",
+    "Boundary checks inject final scores to isolate classification tie/shift/saturation",
+    "This suite proves ordinary CNN arithmetic/shared RAM/MAC compatibility; full camera/DDR/HXA integration is separate"
+  ]
+}

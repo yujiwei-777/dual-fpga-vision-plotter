@@ -1,0 +1,312 @@
+{
+  "passed": true,
+  "stage": "pre_standard_bitgen",
+  "checks": {
+    "all_prebuild_inputs_still_match": true,
+    "build_resource_routed_setup_hold_gate": true,
+    "readonly_database_al_timing_unchanged": true,
+    "standard_context_database_al_timing_unchanged": true,
+    "strict_design_drc_sites_timing_except_raw_io": true,
+    "all_30_ordinary_adc_locations_match": true,
+    "all_79_physical_io_locations_match_baseline_and_context": true,
+    "dphy0_fixed_macro_source_binding_and_placement": true,
+    "all_79_pad_primitives_placed_at_unique_sites": true,
+    "context_only_recorded_usr8450_warning": true,
+    "timing_check_categories_only_shadowed_count_reduced": true,
+    "copy_status_held_req_constraints_hit_not_shadowed": true,
+    "other_supplementary_checks": true,
+    "full_mixer_regression": true,
+    "simulation_inputs_still_match": true,
+    "display_only_source_scope": true,
+    "baseline_bit_unchanged": true,
+    "bitgen_script_no_unconstrained_or_other_override": true
+  },
+  "details": {
+    "raw_check_io": {
+      "status": "CRITICAL-WARNING / USR-8450 remains; catch=0 is not interpreted as PASS",
+      "standard_context_reproduces_warning": true,
+      "interpretation": "No attribution solely to noanalyze. The ten hard-DPHY ports are bound in unchanged source to placed DPHY0. All 79 ordinary/DDR/TMDS physical IO entries independently match baseline. Standard bitgen must succeed without unconstr_io override. These checks do not prove a vendor checker bug or board electrical behavior."
+    },
+    "ordinary_adc_locations": [
+      {
+        "port": "I_sys_clk",
+        "expected": "C4",
+        "actual": "C4"
+      },
+      {
+        "port": "O_cam_scl",
+        "expected": "K3",
+        "actual": "K3"
+      },
+      {
+        "port": "IO_cam_sda",
+        "expected": "J3",
+        "actual": "J3"
+      },
+      {
+        "port": "O_cam_24m",
+        "expected": "L3",
+        "actual": "L3"
+      },
+      {
+        "port": "O_cam_rst",
+        "expected": "L2",
+        "actual": "L2"
+      },
+      {
+        "port": "I_button[0]",
+        "expected": "D5",
+        "actual": "D5"
+      },
+      {
+        "port": "I_button[1]",
+        "expected": "A9",
+        "actual": "A9"
+      },
+      {
+        "port": "I_button[2]",
+        "expected": "B9",
+        "actual": "B9"
+      },
+      {
+        "port": "I_button[3]",
+        "expected": "C7",
+        "actual": "C7"
+      },
+      {
+        "port": "I_sw1",
+        "expected": "A4",
+        "actual": "A4"
+      },
+      {
+        "port": "I_sw2",
+        "expected": "B4",
+        "actual": "B4"
+      },
+      {
+        "port": "I_rgmii_rxd[0]",
+        "expected": "N9",
+        "actual": "N9"
+      },
+      {
+        "port": "I_rgmii_rxd[1]",
+        "expected": "T7",
+        "actual": "T7"
+      },
+      {
+        "port": "I_rgmii_rxd[2]",
+        "expected": "T8",
+        "actual": "T8"
+      },
+      {
+        "port": "I_rgmii_rxd[3]",
+        "expected": "T9",
+        "actual": "T9"
+      },
+      {
+        "port": "I_rgmii_rx_ctl",
+        "expected": "N8",
+        "actual": "N8"
+      },
+      {
+        "port": "I_rgmii_rxc",
+        "expected": "V3",
+        "actual": "V3"
+      },
+      {
+        "port": "O_rgmii_txd[0]",
+        "expected": "R11",
+        "actual": "R11"
+      },
+      {
+        "port": "O_rgmii_txd[1]",
+        "expected": "P11",
+        "actual": "P11"
+      },
+      {
+        "port": "O_rgmii_txd[2]",
+        "expected": "T10",
+        "actual": "T10"
+      },
+      {
+        "port": "O_rgmii_txd[3]",
+        "expected": "R12",
+        "actual": "R12"
+      },
+      {
+        "port": "O_rgmii_tx_ctl",
+        "expected": "R10",
+        "actual": "R10"
+      },
+      {
+        "port": "O_rgmii_txc",
+        "expected": "U9",
+        "actual": "U9"
+      },
+      {
+        "port": "O_phy_rst",
+        "expected": "V8",
+        "actual": "V8"
+      },
+      {
+        "port": "O_tmds_ch0_p",
+        "expected": "G16",
+        "actual": "G16"
+      },
+      {
+        "port": "O_tmds_ch1_p",
+        "expected": "F17",
+        "actual": "F17"
+      },
+      {
+        "port": "O_tmds_ch2_p",
+        "expected": "H14",
+        "actual": "H14"
+      },
+      {
+        "port": "O_tmds_clk_p",
+        "expected": "C17",
+        "actual": "C17"
+      },
+      {
+        "port": "I_sw3",
+        "expected": "E11",
+        "actual": "E11"
+      },
+      {
+        "port": "I_sw4",
+        "expected": "D11",
+        "actual": "D11"
+      }
+    ],
+    "hard_dphy": [
+      {
+        "cell": "u_mipi_dphy_rx_ph1p_mipiio_wrapper/u_ph1p_mipiio_rx_wrapper/u_PH1P_LOGIC_DPHY_MIPI_RX",
+        "ref_name": "PH1P_PHY_MIPIIO_RX",
+        "is_placed": "1",
+        "col": "47",
+        "row": "0",
+        "offset": "0"
+      }
+    ],
+    "raw_check_design": "FAIL RUN-8007 retained; actual complete compatible unique placed Slice inventory, PLB check, DRC and routed timing independently verified.",
+    "maxdelay_row_changes": {
+      "set_max_delay -from [get_regs {u_copy_status_cdc/req}] -to [get_regs {u_copy_status_cdc/req_s1}] -datapath_only 13.000": {
+        "baseline": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "current": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "set_max_delay -from [get_regs {u_multibox_cdc/held[*]}] -to [get_regs {u_multibox_cdc/staged[*]}] -datapath_only 13.000": {
+        "baseline": [
+          237,
+          207,
+          30,
+          0
+        ],
+        "current": [
+          241,
+          199,
+          42,
+          0
+        ]
+      },
+      "set_max_delay -from [get_regs {u_copy_status_cdc/held[*]}] -to [get_regs {u_copy_status_cdc/staged[*]}] -datapath_only 13.000": {
+        "baseline": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "current": [
+          3,
+          3,
+          0,
+          0
+        ]
+      },
+      "set_max_delay -from [get_regs {u_result_select/box_hold[*] u_result_select/valid_hold u_result_select/pcb_hold}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 13.000": {
+        "baseline": [
+          147,
+          147,
+          0,
+          0
+        ],
+        "current": [
+          163,
+          163,
+          0,
+          0
+        ]
+      }
+    },
+    "constraint_scope": "SDC bytes are unchanged. Copy-status held/req now dominate their 3+1 paths. Multibox held row has 241 paths/199 dominated/42 shadowed (baseline237/207/30), result-select row163/163/0 (baseline147/147/0); these exact changes are preserved. Existing six FIFO exception groups and remaining multibox shadowed paths are not claimed as newly CDC-proven."
+  },
+  "evidence": {
+    "01_rtl\\imgq_gain_m\\main\\td_project_compact_v2\\source_snapshot.json": {
+      "sha256": "21A9F5CC23BF4705168E86146FFDD62F43B9489970084C7D86B5406FD6CD2CA4"
+    },
+    "01_rtl\\imgq_gain_m\\main\\td_project_compact_v2\\release_gate.json": {
+      "sha256": "FBBD92ED2B18346FEA0C328F6753C606A8433B7D7B251D907474F87172FD5EE7"
+    },
+    "02_sim\\compact_readonly_v2\\readonly_verification.json": {
+      "sha256": "7768D69993EF181C92FF6D167EBB48D6EC04B37D25B80D986B33E0028CD9C17B"
+    },
+    "02_sim\\compact_readonly_v2\\strict_independent_release_review.json": {
+      "sha256": "E5E83E8C4799C3C2A308CD8805C6A9B46FF81FBF67D46241917CE71A7E258FA7"
+    },
+    "02_sim\\compact_readonly_v2\\supplementary_audit.json": {
+      "sha256": "466F50E9BA811C7ABD86BFC1576E48A0A3BA1DC496F68F6171A10E01ADDC8578"
+    },
+    "02_sim\\compact_readonly_v2\\readonly.check": {
+      "sha256": "17BAD6E1755FC5C7437ABF5301B69E2E5AC22C235B04932A28154AB224C17A91"
+    },
+    "02_sim\\compact_readonly_v2\\readonly.skew": {
+      "sha256": "CD056448C7A5C75AD5C6664A0D624FBE4337F18EC9EE1851FE3EC983547FE27A"
+    },
+    "02_sim\\compact_readonly_v2\\readonly.clocks": {
+      "sha256": "CFC9194B7C7F238488CA7EC359A300A057B8DF7201C4CBE5DC2E476D44810C4F"
+    },
+    "02_sim\\compact_readonly_v2\\readonly.area": {
+      "sha256": "8965FA288A7CE23F2585A9B878B4499A872587034B80EB6DBEE9DF10859D1160"
+    },
+    "02_sim\\compact_readonly_v2\\readonly.sites.tsv": {
+      "sha256": "44852A0DE9E964CC0A96F61160A24D41B77F4E2618B9FC530B2C435CB05D438F"
+    },
+    "02_sim\\compact_context_v2\\console_standard_context.log": {
+      "sha256": "E7CDF799874F76B2EDA6D93F6B3B8AF623E0111EAFAC082AD8C2CCA6E33050F3"
+    },
+    "02_sim\\compact_context_v2\\standard.area": {
+      "sha256": "022572481569BD3CE7FD91F4216D5E2EBC20316FD84966E9DC30EBD7530631D2"
+    },
+    "02_sim\\compact_context_v2\\input_hashes.json": {
+      "sha256": "1F07763BA85020C319EA3FFE1BB7955F00AC1BDEF786B45C314A39CB32A5848B"
+    },
+    "02_sim\\mixer_regression\\input_hashes.json": {
+      "sha256": "DD32081B885FF157E6E623356ED42C0C468B4F473A4E76253644F6AD9AFC6FA5"
+    },
+    "02_sim\\mixer_regression\\verification.json": {
+      "sha256": "B58DD446E873C943EE9BC37338937E3DA26118EA8E03DEE9BECAF5E1F1F4DA1E"
+    },
+    "reports\\osd_source_scope.json": {
+      "sha256": "E36EC3CDAB765DDDA4C339A0151252050914934237EDBCFC4F735CDBF96163C9"
+    },
+    "tools\\bitgen_from_routed_db.tcl": {
+      "sha256": "E5CC085E6ABA1113CBD13A23B6D6F13ACA2ACC6FA5ADF31B087919A17D607D9E"
+    },
+    "04_pin\\pin.adc": {
+      "sha256": "2FE2F56BFF01E35C248723AD10913A49EC6843FC805731625DD79F0235060D71"
+    }
+  },
+  "generated_utc": "2026-10-30T14:50:23.172214+00:00",
+  "hardware_status": "NOT_RUN",
+  "scope": "Diagnostic release decision using actual physical inventory and standard bitgen; raw auxiliary check_design/check_io failures remain recorded and are not relabeled PASS."
+}

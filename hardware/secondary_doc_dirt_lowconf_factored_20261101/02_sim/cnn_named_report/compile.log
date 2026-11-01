@@ -1,0 +1,15 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 17:04:31 on Nov 01,2026
+vlog -sv -lint -work D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/work D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_line_formatter.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_response_parser.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_streamer.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_vector_font_rom.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/grbl_reporter.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/02_sim/cnn_named_report/tb_cnn_named_report.sv 
+-- Compiling module grbl_decimal
+-- Compiling module grbl_line_formatter
+-- Compiling module grbl_response_parser
+-- Compiling module grbl_streamer
+-- Compiling module grbl_vector_font_rom
+-- Compiling module grbl_reporter
+-- Compiling module tb_cnn_named_report
+
+Top level modules:
+	tb_cnn_named_report
+End time: 17:04:31 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

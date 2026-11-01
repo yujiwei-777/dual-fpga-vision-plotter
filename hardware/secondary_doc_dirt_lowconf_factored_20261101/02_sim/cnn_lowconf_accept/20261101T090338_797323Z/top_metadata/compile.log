@@ -1,0 +1,28 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 17:03:50 on Nov 01,2026
+vlog -sv -lint -work work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\reports\cnn_lowconf_qualification\top_metadata_stubs.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\secondary_top.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\reports\cnn_lowconf_qualification\tb_lowconf_top.sv 
+-- Compiling module pll
+-- Compiling module PLL
+-- Compiling module secondary_ddr_wrapper
+-- Compiling module reset_sync
+-- Compiling module hxa_ddr_store
+-- Compiling module uiudp_stack
+-- Compiling module vision_pixel_reader
+-- Compiling module vision_pipeline
+-- Compiling module hxa_config_store
+-- Compiling module doc_copy_pipeline
+-- Compiling module hxa_secondary_link
+-- Compiling module grbl_uart_port
+-- Compiling module grbl_reporter
+-- Compiling module rgmii_interface
+-- Compiling module PH1P_LOGIC_BUFG
+-- Compiling module secondary_top
+-- Compiling module secondary_key3_board_reset
+-- Compiling module grbl_key2_test_ctrl
+-- Compiling module grbl_key1_job_guard
+-- Compiling module tb_cnn_named_top
+
+Top level modules:
+	tb_cnn_named_top
+End time: 17:03:50 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

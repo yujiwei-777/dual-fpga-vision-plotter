@@ -1,0 +1,889 @@
+{
+  "status": "PASS",
+  "fresh_rtl_replay": true,
+  "mode_count": 40,
+  "reference_kernel_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "production_kernel_sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+  "modes": [
+    {
+      "mode": "miter_a20s0_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612",
+      "area_bits": 20,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1409804,
+        "serial": 4024,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a20s0_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612",
+      "area_bits": 20,
+      "area_shift": 0,
+      "coord_shift": 3,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 743417,
+        "serial": 1254,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a20s0_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612",
+      "area_bits": 20,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1409804,
+        "serial": 4024,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a20s0_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612",
+      "area_bits": 20,
+      "area_shift": 0,
+      "coord_shift": 3,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 743417,
+        "serial": 1254,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a22s0_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612",
+      "area_bits": 22,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1409804,
+        "serial": 4024,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a22s0_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612",
+      "area_bits": 22,
+      "area_shift": 0,
+      "coord_shift": 3,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 743417,
+        "serial": 1254,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a22s0_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612",
+      "area_bits": 22,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1409804,
+        "serial": 4024,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a22s0_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612",
+      "area_bits": 22,
+      "area_shift": 0,
+      "coord_shift": 3,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 743417,
+        "serial": 1254,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a24s0_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612",
+      "area_bits": 24,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1409804,
+        "serial": 4024,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a24s0_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612",
+      "area_bits": 24,
+      "area_shift": 0,
+      "coord_shift": 3,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 743417,
+        "serial": 1254,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a24s0_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612",
+      "area_bits": 24,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1409804,
+        "serial": 4024,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a24s0_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612",
+      "area_bits": 24,
+      "area_shift": 0,
+      "coord_shift": 3,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 743417,
+        "serial": 1254,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1409804,
+        "serial": 4024,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 3,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 743417,
+        "serial": 1254,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1409804,
+        "serial": 4024,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 3,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 743417,
+        "serial": 1254,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p1_0_1",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=1/0/1 vectors=2652 jobs=2612 rejected=0 cycle_checks=1312314 serial=4570 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        1,
+        0,
+        1
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1312314,
+        "serial": 4570,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p2_1_2",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=2/1/2 vectors=2652 jobs=2612 rejected=0 cycle_checks=1395646 serial=4374 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        2,
+        1,
+        2
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1395646,
+        "serial": 4374,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p4_0_4",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=4/0/4 vectors=2652 jobs=2612 rejected=0 cycle_checks=1405485 serial=1983 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        4,
+        0,
+        4
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1405485,
+        "serial": 1983,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p15_15_15",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=15/15/15 vectors=2652 jobs=2612 rejected=0 cycle_checks=1396812 serial=882 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        15,
+        15,
+        15
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1396812,
+        "serial": 882,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p1_0_1",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=1/0/1 vectors=2652 jobs=2612 rejected=0 cycle_checks=1312314 serial=4570 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        1,
+        0,
+        1
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1312314,
+        "serial": 4570,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p2_1_2",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=2/1/2 vectors=2652 jobs=2612 rejected=0 cycle_checks=1395646 serial=4374 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        2,
+        1,
+        2
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1395646,
+        "serial": 4374,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p4_0_4",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=4/0/4 vectors=2652 jobs=2612 rejected=0 cycle_checks=1405485 serial=1983 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        4,
+        0,
+        4
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1405485,
+        "serial": 1983,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p15_15_15",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=15/15/15 vectors=2652 jobs=2612 rejected=0 cycle_checks=1396812 serial=882 bank_reuses=2612",
+      "area_bits": 32,
+      "area_shift": 0,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        15,
+        15,
+        15
+      ],
+      "vectors_file": "generic_vectors.txt",
+      "counts": {
+        "vectors": 2652,
+        "jobs": 2612,
+        "rejected": 0,
+        "cycle_checks": 1396812,
+        "serial": 882,
+        "bank_reuses": 2612
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p1_0_1",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=1/0/1 vectors=3307 jobs=2952 rejected=288 cycle_checks=1034679 serial=3177 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 0,
+      "parameters": [
+        1,
+        0,
+        1
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1034679,
+        "serial": 3177,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p2_1_2",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=2/1/2 vectors=3307 jobs=2952 rejected=288 cycle_checks=1031863 serial=2122 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 0,
+      "parameters": [
+        2,
+        1,
+        2
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1031863,
+        "serial": 2122,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=3/2/3 vectors=3307 jobs=2952 rejected=288 cycle_checks=1030313 serial=2057 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1030313,
+        "serial": 2057,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p4_0_4",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=4/0/4 vectors=3307 jobs=2952 rejected=288 cycle_checks=1029705 serial=1857 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 0,
+      "parameters": [
+        4,
+        0,
+        4
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1029705,
+        "serial": 1857,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p15_15_15",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=15/15/15 vectors=3307 jobs=2952 rejected=288 cycle_checks=1024089 serial=1331 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 0,
+      "parameters": [
+        15,
+        15,
+        15
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1024089,
+        "serial": 1331,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p1_0_1",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=1/0/1 vectors=3307 jobs=2952 rejected=288 cycle_checks=1034679 serial=3177 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 1,
+      "parameters": [
+        1,
+        0,
+        1
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1034679,
+        "serial": 3177,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p2_1_2",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=2/1/2 vectors=3307 jobs=2952 rejected=288 cycle_checks=1031863 serial=2122 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 1,
+      "parameters": [
+        2,
+        1,
+        2
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1031863,
+        "serial": 2122,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=3/2/3 vectors=3307 jobs=2952 rejected=288 cycle_checks=1030313 serial=2057 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1030313,
+        "serial": 2057,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p4_0_4",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=4/0/4 vectors=3307 jobs=2952 rejected=288 cycle_checks=1029705 serial=1857 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 1,
+      "parameters": [
+        4,
+        0,
+        4
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1029705,
+        "serial": 1857,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p15_15_15",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=15/15/15 vectors=3307 jobs=2952 rejected=288 cycle_checks=1024089 serial=1331 bank_reuses=3240",
+      "area_bits": 22,
+      "area_shift": 6,
+      "coord_shift": 3,
+      "external_reader": 1,
+      "parameters": [
+        15,
+        15,
+        15
+      ],
+      "vectors_file": "aligned_a22_s6.txt",
+      "counts": {
+        "vectors": 3307,
+        "jobs": 2952,
+        "rejected": 288,
+        "cycle_checks": 1024089,
+        "serial": 1331,
+        "bank_reuses": 3240
+      }
+    },
+    {
+      "mode": "miter_a20s1_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=1 coord=0 external=0 params=3/2/3 vectors=3250 jobs=2952 rejected=234 cycle_checks=1055213 serial=2249 bank_reuses=3186",
+      "area_bits": 20,
+      "area_shift": 1,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "aligned_a20_s1.txt",
+      "counts": {
+        "vectors": 3250,
+        "jobs": 2952,
+        "rejected": 234,
+        "cycle_checks": 1055213,
+        "serial": 2249,
+        "bank_reuses": 3186
+      }
+    },
+    {
+      "mode": "miter_a20s1_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=1 coord=0 external=1 params=3/2/3 vectors=3250 jobs=2952 rejected=234 cycle_checks=1055213 serial=2249 bank_reuses=3186",
+      "area_bits": 20,
+      "area_shift": 1,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "aligned_a20_s1.txt",
+      "counts": {
+        "vectors": 3250,
+        "jobs": 2952,
+        "rejected": 234,
+        "cycle_checks": 1055213,
+        "serial": 2249,
+        "bank_reuses": 3186
+      }
+    },
+    {
+      "mode": "miter_a20s19_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=19 coord=0 external=0 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=1086443 serial=2169 bank_reuses=3420",
+      "area_bits": 20,
+      "area_shift": 19,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "aligned_a20_s19.txt",
+      "counts": {
+        "vectors": 3497,
+        "jobs": 2862,
+        "rejected": 558,
+        "cycle_checks": 1086443,
+        "serial": 2169,
+        "bank_reuses": 3420
+      }
+    },
+    {
+      "mode": "miter_a20s19_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=19 coord=0 external=1 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=1086443 serial=2169 bank_reuses=3420",
+      "area_bits": 20,
+      "area_shift": 19,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "aligned_a20_s19.txt",
+      "counts": {
+        "vectors": 3497,
+        "jobs": 2862,
+        "rejected": 558,
+        "cycle_checks": 1086443,
+        "serial": 2169,
+        "bank_reuses": 3420
+      }
+    },
+    {
+      "mode": "miter_a32s31_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=31 coord=0 external=0 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=1087255 serial=2169 bank_reuses=3420",
+      "area_bits": 32,
+      "area_shift": 31,
+      "coord_shift": 0,
+      "external_reader": 0,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "aligned_a32_s31.txt",
+      "counts": {
+        "vectors": 3497,
+        "jobs": 2862,
+        "rejected": 558,
+        "cycle_checks": 1087255,
+        "serial": 2169,
+        "bank_reuses": 3420
+      }
+    },
+    {
+      "mode": "miter_a32s31_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=31 coord=0 external=1 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=1087255 serial=2169 bank_reuses=3420",
+      "area_bits": 32,
+      "area_shift": 31,
+      "coord_shift": 0,
+      "external_reader": 1,
+      "parameters": [
+        3,
+        2,
+        3
+      ],
+      "vectors_file": "aligned_a32_s31.txt",
+      "counts": {
+        "vectors": 3497,
+        "jobs": 2862,
+        "rejected": 558,
+        "cycle_checks": 1087255,
+        "serial": 2169,
+        "bank_reuses": 3420
+      }
+    }
+  ]
+}

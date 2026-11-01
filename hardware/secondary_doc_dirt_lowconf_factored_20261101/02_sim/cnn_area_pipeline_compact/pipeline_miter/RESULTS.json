@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "fresh": true,
+  "coverage": {
+    "cycles": 11742298,
+    "public_ports": 37,
+    "controls": 11,
+    "completed_jobs": 113,
+    "assertions": 527
+  },
+  "original_program": {
+    "jobs": 81,
+    "assertions": 374
+  },
+  "compared_kernels": {
+    "reference": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+    "production": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128"
+  },
+  "production_compiled_directly": [
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\vision_pipeline.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\cnn_result_stabilizer.v"
+  ]
+}

@@ -1,0 +1,759 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101
+vdoc_copy_pipeline
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1793523599
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 kP1[62:Cf6J]gNii>4H9C0
+I2YPhZl?2;oJgiCka0OhQA1
+S1
+R0
+Z4 w1793523599
+Z5 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\controlled_leaves.sv
+Z6 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\controlled_leaves.sv
+!i122 0
+L0 278 37
+Z7 OL;L;2020.4;71
+31
+Z8 !s108 1793523599.000000
+Z9 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\tb_key3_top_reset.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_vector_font_rom.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_line_formatter.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_reporter.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_streamer.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_response_parser.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_uart.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_rx_fifo4.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_codec.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_secondary_link.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\reset_sync.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\secondary_top.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\testmodels\ph1p_logic_eram_stub.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\controlled_leaves.sv|
+Z10 !s90 -sv|-lint|-work|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\simwork|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\controlled_leaves.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\testmodels\ph1p_logic_eram_stub.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\secondary_top.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\reset_sync.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_secondary_link.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_codec.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_rx_fifo4.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_uart.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_response_parser.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_streamer.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_reporter.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_line_formatter.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_vector_font_rom.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\tb_key3_top_reset.sv|
+!i113 0
+Z11 o-sv -lint -work {D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\simwork} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vgrbl_decimal
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 1Ha2<l3oO`JHDXZl_]HhV2
+ImnB;WNIM:Sh_B=_zm:`CI0
+S1
+R0
+Z13 w1793519290
+Z14 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_line_formatter.v
+Z15 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_line_formatter.v
+!i122 0
+L0 2 26
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_key1_job_guard
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 d283[6l?6aGCSDEImaT4Q0
+Il9Z>G8]PoJ5Ubjd=6U1Gm0
+S1
+R0
+Z16 w1793519389
+Z17 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\secondary_top.v
+Z18 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\secondary_top.v
+!i122 0
+L0 829 13
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_key2_test_ctrl
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 F;cPe0TAl^LWg]YRO2HFm1
+IQRDcIL^DEQT<Dn25MKTIQ3
+S1
+R0
+R16
+R17
+R18
+!i122 0
+L0 743 83
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_line_formatter
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 z`SD=XgXK=0_DaIRCb@UX3
+I?LnoK9e5X>04AE[D8?9ok2
+S1
+R0
+R13
+R14
+R15
+!i122 0
+L0 31 91
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_reporter
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 jlcUeJ[Hc_^Z9[I2M;mBh3
+IFBOJYf^gYCR8ZUBhKTN2z2
+S1
+R0
+Z19 w1793519291
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_reporter.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_reporter.v
+!i122 0
+L0 6 869
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_response_parser
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 GGPCaXHO?bc15]7O6ADUz2
+IY_1Tz6]0SfEKW9JWO1G:R0
+S1
+R0
+R19
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_response_parser.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_response_parser.v
+!i122 0
+L0 3 59
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_streamer
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 3QHXDVZNB4NQ6SbWc22nK1
+I[a63CU1`4@bIO8ob7LN]03
+S1
+R0
+R19
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_streamer.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_streamer.v
+!i122 0
+L0 4 193
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_uart_port
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 cgoXBE8o=o`cQh<N60KIR2
+In;Q8daGYZ[1=PI@`g2EMD0
+S1
+R0
+R19
+Z20 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_uart.v
+Z21 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_uart.v
+!i122 0
+L0 45 122
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_uart_rx
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 Z4cH>jLLiYR_lanR]8d2X0
+IhD0AgZmWN5XBh3?N<`jPl1
+S1
+R0
+R19
+R20
+R21
+!i122 0
+L0 168 45
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_uart_tx
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 zVEQ^`Lm1a<Sd_3CS9P?J2
+Id?VINdlnBRO>EK;a`PTJ_0
+S1
+R0
+R19
+R20
+R21
+!i122 0
+L0 2 38
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vgrbl_vector_font_rom
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 Sd<4K31;P<[=GdOIIKAo52
+IU^eo0;F7zfce4njPKm:n?0
+S1
+R0
+R19
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_vector_font_rom.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_vector_font_rom.v
+!i122 0
+L0 4 218
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vhxa_config_store
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 R=]P0Da]CUK8;S8h;RC[X0
+IcgZF;_`N?4N9M8];0RIW22
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 255 22
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vhxa_ddr_store
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 Go4B3D05FCN?ZHdRafDU_2
+Ik7?nK^jkbP>?`Y0JJg8JR0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 66 13
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vhxa_packet_rx
+R1
+R2
+!i10b 1
+!s100 eWbLzFECQZi;d`9KK@M5H3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IKd39K?kd]3BzIFXQLG_?`1
+S1
+R0
+Z22 w1793519301
+Z23 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_codec.v
+Z24 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_codec.v
+!i122 0
+L0 113 88
+R3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vhxa_packet_rx_fifo4
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 5eR<94jdBNWd8@nHUdO<T0
+IoKXk6X_?:Ezh6<2D2gCc?3
+S1
+R0
+R22
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_rx_fifo4.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_packet_rx_fifo4.v
+!i122 0
+L0 10 309
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vhxa_packet_tx
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 PT^B>bV^IjhE9>Ye7HRGb2
+Iz4N=6KDGfXRbY[Gag`V?E3
+S1
+R0
+R22
+R23
+R24
+!i122 0
+L0 4 108
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vhxa_secondary_link
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 >;0><OffDYk?eA5^JE0Hj2
+I06zj=E[`^41f^hz>SOjOH0
+S1
+R0
+R22
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_secondary_link.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\shared\rtl\hxa_secondary_link.v
+!i122 0
+L0 3 687
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vPH1P_LOGIC_BUFG
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 a=8aFQ<dl4GklGFb=;bN^1
+IDbE:=i^kQNzCmgH=YN7lo0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 363 1
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@p@h1@p_@l@o@g@i@c_@b@u@f@g
+vPH1P_LOGIC_ERAM
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 G[RWMmC=fE@gBe5:?T_Yj3
+I_cenRNLjQ_]lQQAA5=:5g3
+S1
+R0
+w1793519292
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\testmodels\ph1p_logic_eram_stub.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\testmodels\ph1p_logic_eram_stub.sv
+!i122 0
+L0 1 57
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@p@h1@p_@l@o@g@i@c_@e@r@a@m
+vPLL
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 o@dK;OP6SP>l0oki0NShd1
+I[i=Fla:D[2j;`heog15h=0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 14 12
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@p@l@l
+vpll
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 FV2_3gV9mj1cE^SiBl25V0
+IYGm9ZI@3>PzIMOPbGW^`03
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 2 11
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vreset_sync
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 4m3jVKP`nZe3;KbBn4oXf3
+I_ThEUhdgA@gJdJnCTWbJ`1
+S1
+R0
+w1793519296
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\reset_sync.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\main\user_source\hdl_source\reset_sync.v
+!i122 0
+L0 3 14
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vrgmii_interface
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 f9B<nefYm@53^01NJaCU=0
+IIjOBQnS?LaZFMkRF=Onel1
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 316 46
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vsecondary_ddr_wrapper
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 =kW@Ei;Q9WA?fIe]YL8j?2
+I9U8Re4lA8afbU>M4jEgSF0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 27 38
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vsecondary_key3_board_reset
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 5EXbj[CNlTJcH_2[7UGj@3
+Ijd@mH@L<?mQF3Hkmeg8?Q2
+S1
+R0
+R16
+R17
+R18
+!i122 0
+L0 704 38
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vsecondary_top
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 bF=VV[IN=UIUX[@=^UOa20
+I@9i[DVH=4EcTF^k1TFN300
+S1
+R0
+R16
+R17
+R18
+!i122 0
+L0 6 695
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vtb_key3_top_reset
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 O3l1m_FBX6n6BbUCcjn`I0
+I8T0@=mMl^[@^UYlNI1Sf:3
+S1
+R0
+R4
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\tb_key3_top_reset.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\key3_top_reset_release\tb_key3_top_reset.sv
+!i122 0
+L0 2 118
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vuiudp_stack
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 gB:MUk:5zXJVMf@m[c94l3
+IHkgRY5PdnlQVSL51gMin=0
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 80 39
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vvision_pipeline
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 DM;CCb5A2Fl@aT3PHcY551
+Izn6d8lTOkMQln9mLLgQnP3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 137 117
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vvision_pixel_reader
+R1
+R2
+R3
+r1
+!s85 0
+!i10b 1
+!s100 RDC]WN5K6d8M]G[LcM_G11
+IDXMiV;AS0oBOLQ=dFIzzG3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 120 16
+R7
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12

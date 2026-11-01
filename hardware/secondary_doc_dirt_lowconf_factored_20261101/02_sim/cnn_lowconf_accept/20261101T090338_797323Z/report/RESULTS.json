@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "compiled_production_sources": [
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_line_formatter.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_response_parser.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_streamer.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_vector_font_rom.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_reporter.v"
+  ],
+  "completion_marker": "PASS LOWCONF_NAMED_REPORT_12",
+  "checks": [
+    "PASS job 401 class 1, 315 acknowledged lines",
+    "PASS job 402 class 2, 296 acknowledged lines",
+    "PASS job 403 class 3, 305 acknowledged lines",
+    "PASS job 404 class 4, 337 acknowledged lines",
+    "PASS job 405 class 5, 318 acknowledged lines",
+    "PASS job 406 class 6, 327 acknowledged lines",
+    "PASS job 407 class 7, 323 acknowledged lines",
+    "PASS job 408 class 8, 304 acknowledged lines",
+    "PASS job 409 class 9, 313 acknowledged lines",
+    "PASS job 410 class 5, 323 acknowledged lines",
+    "PASS job 411 class 5, 324 acknowledged lines",
+    "PASS job 412 class 5, 323 acknowledged lines",
+    "PASS LOWCONF_NAMED_REPORT_12"
+  ],
+  "jobs": [
+    {
+      "job": 401,
+      "class_id": 1,
+      "score": 7,
+      "text": [
+        "RED   TRIANGLE",
+        "X0210 Y0110",
+        "CONF 007"
+      ],
+      "gcode_lines": 315,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 402,
+      "class_id": 2,
+      "score": 7,
+      "text": [
+        "RED   CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 007"
+      ],
+      "gcode_lines": 296,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 403,
+      "class_id": 3,
+      "score": 7,
+      "text": [
+        "RED   SQUARE  ",
+        "X0210 Y0110",
+        "CONF 007"
+      ],
+      "gcode_lines": 305,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 404,
+      "class_id": 4,
+      "score": 7,
+      "text": [
+        "GREEN TRIANGLE",
+        "X0210 Y0110",
+        "CONF 007"
+      ],
+      "gcode_lines": 337,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 405,
+      "class_id": 5,
+      "score": 7,
+      "text": [
+        "GREEN CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 007"
+      ],
+      "gcode_lines": 318,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 406,
+      "class_id": 6,
+      "score": 7,
+      "text": [
+        "GREEN SQUARE  ",
+        "X0210 Y0110",
+        "CONF 007"
+      ],
+      "gcode_lines": 327,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 407,
+      "class_id": 7,
+      "score": 7,
+      "text": [
+        "BLUE  TRIANGLE",
+        "X0210 Y0110",
+        "CONF 007"
+      ],
+      "gcode_lines": 323,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 408,
+      "class_id": 8,
+      "score": 7,
+      "text": [
+        "BLUE  CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 007"
+      ],
+      "gcode_lines": 304,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 409,
+      "class_id": 9,
+      "score": 7,
+      "text": [
+        "BLUE  SQUARE  ",
+        "X0210 Y0110",
+        "CONF 007"
+      ],
+      "gcode_lines": 313,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 410,
+      "class_id": 5,
+      "score": 1,
+      "text": [
+        "GREEN CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 001"
+      ],
+      "gcode_lines": 323,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 411,
+      "class_id": 5,
+      "score": 0,
+      "text": [
+        "GREEN CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 000"
+      ],
+      "gcode_lines": 324,
+      "all_gcode_commands_exact": true
+    },
+    {
+      "job": 412,
+      "class_id": 5,
+      "score": 100,
+      "text": [
+        "GREEN CIRCLE  ",
+        "X0210 Y0110",
+        "CONF 100"
+      ],
+      "gcode_lines": 323,
+      "all_gcode_commands_exact": true
+    }
+  ],
+  "name_center_conf_exact": true
+}

@@ -1,0 +1,22 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 17:02:58 on Nov 01,2026
+vlog -sv -lint "+define+DOC_BEHAVIORAL_RAM" -work work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_image_frontend.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_stroke_planner.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_stroke_bram.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_path_distance.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_machine_map.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_grbl_plotter.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_grbl_map.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_grbl_streamer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_grbl_response_parser.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\grbl_line_formatter.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\doc_copy_pipeline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\reports\dirt_qualification\source\tb_capture_integrated.sv 
+-- Compiling module doc_image_frontend
+-- Compiling module doc_stroke_planner
+-- Compiling module doc_stroke_bram
+-- Compiling module doc_path_distance
+-- Compiling module doc_machine_map
+-- Compiling module doc_grbl_plotter
+-- Compiling module doc_grbl_map
+-- Compiling module doc_grbl_streamer
+-- Compiling module doc_grbl_response_parser
+-- Compiling module grbl_decimal
+-- Compiling module grbl_line_formatter
+-- Compiling module doc_copy_pipeline
+-- Compiling module tb_stroke_split
+
+Top level modules:
+	doc_copy_pipeline
+	tb_stroke_split
+End time: 17:02:58 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

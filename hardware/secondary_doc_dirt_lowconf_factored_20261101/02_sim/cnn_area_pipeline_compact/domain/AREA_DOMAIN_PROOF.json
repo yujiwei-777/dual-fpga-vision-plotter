@@ -1,0 +1,138 @@
+{
+  "status": "PASS_SOURCE_DERIVATION_AND_FINITE_INTEGER_CHECKS",
+  "production_modified": false,
+  "hardware_status": "NOT_RUN",
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\vision_pipeline.v": "02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_area_pipeline_compact\\origin\\cnn_result_stabilizer_r11.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\cnn_result_stabilizer.v": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\cnn_area_pipeline_compact\\domain\\prove_compact_area_domain.py": "4213775D998DEF3CF478A108D265069EA445787E20E2FE495951A3E676668DDE"
+  },
+  "source_evidence": [
+    {
+      "line": 222,
+      "text": "wire [15:0] selected_area = cc_areas[{box_index[1:0],4'b0}+:16];"
+    },
+    {
+      "line": 572,
+      "text": "reg [15:0] fixed_area;"
+    },
+    {
+      "line": 852,
+      "text": "fixed_area<=selected_area;"
+    },
+    {
+      "line": 883,
+      "text": "area<={2'b00,fixed_area,6'b000000};"
+    },
+    {
+      "line": 492,
+      "text": "wire [127:0] packed_cnn_box={{8'd0,area},8'd0,confidence,candidate_class_id,"
+    },
+    {
+      "line": 519,
+      "text": "wire [127:0] multi_write_box={8'd0,(stable_slot_write ? stable_emit_box[119:0] :"
+    },
+    {
+      "line": 516,
+      "text": "wire multi_slot_write=(USE_INDIRECT_SORT ? state==MULTI_STORE : state==MULTI_INSERT) || stable_slot_write;"
+    },
+    {
+      "line": 526,
+      "text": ".HOLD_RESULTS(CNN_HOLD_RESULTS),.LOST_RESULTS(CNN_LOST_RESULTS),.AREA_BITS(22),.AREA_SHIFT(6)"
+    },
+    {
+      "line": 992,
+      "text": "stable_start<=1'b1;state<=CNN_STABLE_WAIT;"
+    }
+  ],
+  "fixed_area_assignments": [
+    "0",
+    "selected_area"
+  ],
+  "pcb_reachable_before_finish": [
+    "FINISH",
+    "PCB_CLUSTER_WAIT",
+    "PCB_CONF_DIV",
+    "PCB_EMIT",
+    "PCB_ERROR",
+    "PCB_FINISH",
+    "PCB_NEXT",
+    "PCB_PIXEL_REQ",
+    "PCB_PIXEL_WAIT",
+    "PCB_PIXEL_WRITE",
+    "PCB_START",
+    "PCB_WAIT",
+    "PCB_WINDOW_INIT"
+  ],
+  "pcb_cannot_reach_stabilizer_in_same_transaction": true,
+  "ordinary_post_area_path_to_store": [
+    "CNN_COORD",
+    "CNN_DONE",
+    "CNN_REQ",
+    "CNN_START",
+    "CNN_WAIT",
+    "CNN_WRITE",
+    "CONF_DIV",
+    "CONF_SCALE",
+    "MULTI_STORE",
+    "ROI_CENTER",
+    "ROI_CLAMP",
+    "ROI_MAX",
+    "ROI_PREP",
+    "ROI_SCALE",
+    "ROI_SIDE"
+  ],
+  "invariant": "Each ordinary raw area32 is {10'b0,fixed_area16,6'b0}; 24-bit area bus is {2'b0,fixed_area16,6'b0}",
+  "induction": [
+    "Reset/admission/clear empty raw slots with area=0",
+    "BOX_MAP captures only selected_area16; AREA_DIV writes area={2'b0,fixed_area16,6'b0}",
+    "No area write occurs between AREA_DIV and ordinary MULTI_STORE",
+    "Raw confidence insertion only reorders/copies these exact words",
+    "R11 AREA_BITS24 stabilizer stores/emits area unchanged; destructive bank reuse remains in this domain",
+    "PCB state graph reaches only PCB states and FINISH before new admission; it never starts this ordinary kernel"
+  ],
+  "integer_checks": {
+    "code_domain_size": 65536,
+    "strict_adjacent_order_checks": 65535,
+    "allowed_bit_mask": "003FFFC0",
+    "forbidden_bit_mask": "FFC0003F",
+    "encoded_area_min": 0,
+    "encoded_area_max": 4194240,
+    "encoded_area_sha256": "EDBE990A0F5F56B2B696AEFD06F01EF25C58CB248D188EE13FFA46885AF4B164",
+    "raw_replay_frames": 1170,
+    "raw_replay_boxes": 1223
+  },
+  "metric": {
+    "r11_area_bits": 24,
+    "candidate_code_bits": 16,
+    "coordinate_shift": 3,
+    "distance_bits": 10,
+    "best_metric_bits": 16,
+    "area_phase": "Compare area code without shift; monotonic ordering preserves allocation/primary/ties",
+    "matching_phase": "Exactly the original R11 coordinate-grid distance, 10 low bits, no area rescaling"
+  },
+  "structure": {
+    "payload_r11": {
+      "depth": 4,
+      "logical_width_bits": 54
+    },
+    "payload_candidate": {
+      "depth": 4,
+      "logical_width_bits": 46
+    },
+    "metadata_r11_and_candidate": {
+      "depth": 4,
+      "logical_width_bits": 22
+    },
+    "logical_payload_bits_removed": 32,
+    "best_metric_ff_bits_removed": 8,
+    "physical_eram_count_or_packed_lut_savings": "NOT_MEASURED"
+  },
+  "limits": [
+    "Pinned source/control-flow argument, not a formal Verilog proof",
+    "State graph overapproximates branch conditions and stops at FINISH; fault-forced state corruption not assumed",
+    "Runtime source-to-candidate behavior is verified separately by cycle miter and lifecycle suites",
+    "Logical width reductions can be optimized away already and do not guarantee physical area savings"
+  ]
+}

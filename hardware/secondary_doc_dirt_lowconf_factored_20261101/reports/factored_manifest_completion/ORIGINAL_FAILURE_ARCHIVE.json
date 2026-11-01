@@ -1,0 +1,10 @@
+{
+  "status": "PRESERVED_ORIGINAL_PHYSICAL_REVIEW_FAILURE_NOT_WAIVED",
+  "created_utc": "2026-11-01T10:11:21.357279+00:00",
+  "project_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101",
+  "files_sha256": {
+    "reports/factored_manifest_completion/original_physical_review_failure/FINAL_PHYSICAL_REVIEW.json": "54802785AC04632E8B0BD62E920E10FB4B667555B5AB3039E335402152E93719",
+    "reports/factored_manifest_completion/original_physical_review_failure/FINAL_PHYSICAL_REVIEW.md": "1ECC8EC9DAAF96940CF3FBF1DF3B24773DEDCD7D89813A77BBCDAA46D614A0B9"
+  },
+  "failure": "Original baseline manifest omits exactly five simulation-only transport dependencies. Actual base/current source bytes are unchanged. This archive does not authorize a build."
+}

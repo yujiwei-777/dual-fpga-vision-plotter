@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "hardware_status": "NOT_RUN",
+  "input_sha256": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_path_distance.v": "265774F97B39989FF199B8D288F892E364AB2B38076C1384025430624FB67174",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_machine_map.v": "91A74D61C8CB6CFF70D9A7BD31604765C846B50997AE1BD114480EC8924BE836",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_map.v": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_copy_pipeline.v": "4780D3863ABE4BF0D261445209F914D2636B842E6C1DE23E7987647BAD56E330",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\model\\doc_stroke_reference.py": "CDBF0169E7698678FC62BA23E07603E3586427FE09D800009A7B6BB91C295A92",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\tools\\run_stroke_split_regression.py": "69BC73E3DCC627E2B724B09E1FD4CEC3B31D17127C7591533F953427CE91A74B"
+  },
+  "tests": {
+    "mixed_nn": {
+      "status": "PASS",
+      "checks": [
+        "PASS STROKE_SPLIT full thin graph paths mapper Gcode cycles=26260769 edges=549 paths=26 points=64 acked=122"
+      ],
+      "edges": 549,
+      "paths": 26,
+      "points": 64,
+      "gcode_lines": 122,
+      "baseline_distance_cmm": 133321,
+      "planned_distance_cmm": 57483
+    },
+    "mixed_two_opt": {
+      "status": "PASS",
+      "checks": [
+        "PASS STROKE_SPLIT full thin graph paths mapper Gcode cycles=26776781 edges=549 paths=26 points=64 acked=122"
+      ],
+      "edges": 549,
+      "paths": 26,
+      "points": 64,
+      "gcode_lines": 122,
+      "baseline_distance_cmm": 133321,
+      "planned_distance_cmm": 45979
+    },
+    "blank": {
+      "status": "PASS",
+      "checks": [
+        "PASS STROKE_SPLIT full thin graph paths mapper Gcode cycles=12973103 edges=0 paths=0 points=0 acked=4"
+      ],
+      "edges": 0,
+      "paths": 0,
+      "points": 0,
+      "gcode_lines": 4,
+      "baseline_distance_cmm": 0,
+      "planned_distance_cmm": 0
+    },
+    "edge_capacity": {
+      "status": "PASS",
+      "expected_error": 2,
+      "checks": [
+        "PASS capacity error=2 before motion"
+      ]
+    },
+    "path_capacity": {
+      "status": "PASS",
+      "expected_error": 3,
+      "checks": [
+        "PASS capacity error=3 before motion"
+      ]
+    },
+    "point_capacity": {
+      "status": "PASS",
+      "expected_error": 4,
+      "checks": [
+        "PASS capacity error=4 before motion"
+      ]
+    },
+    "lifecycle": {
+      "status": "PASS",
+      "checks": [
+        "PASS STROKE_LIFECYCLE cancel/reset priority and no replay checks=18"
+      ],
+      "scope": "priority checks by state injection; full cases exercise live traversal separately"
+    }
+  },
+  "scope": "Integer/RTL topology and real document G-code checks, in a fresh library.\n\nThe full cases run the production thinning, synchronous banked graph storage,\npath extraction, ordering, shared mapper, plotter and GRBL parser/streamer.\nThe UART peer is a deterministic simulated GRBL peer; no physical machine is\ncontrolled. Reduced-capacity cases and cancel/reset checks are separate tests."
+}

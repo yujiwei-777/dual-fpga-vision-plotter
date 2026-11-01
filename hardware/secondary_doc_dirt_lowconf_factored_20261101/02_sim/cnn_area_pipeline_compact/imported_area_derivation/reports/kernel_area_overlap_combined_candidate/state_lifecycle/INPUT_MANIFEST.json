@@ -1,0 +1,51 @@
+{
+  "status": "SEALED_INPUTS_BEFORE_SIMULATION",
+  "production_modified": false,
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\run_state_lifecycle.py": "834A2D6B04033176397080CCA4F721F82C3E91EF39AE032C7D8F8C445A1D83DF",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer_r11.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_overlap_redundancy_candidate\\tb_overlap_equivalence.sv": "206CAD1D5DED4BB4D42F4CC63D25912D11D3F87FB1FB6C449310B71E0C669222",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\tools\\cnn_stability_reference.py": "402F7F30E8BD1F9036314639BD59B514137016711783D670C52D8CA87BC53503",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\02_sim\\cnn_stability\\vectors.txt": "C8B5BF256C7043503782213E9887EAFF0BF58C12FE85E920A4A60E2FB0D131D3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\cnn_result_stabilizer.v": "8D44203B9395F92441F09BD856AD77F4A4695343DD4D58AFB544C03DD2819D36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\vision_pipeline.v": "C7B43FE8727F1145C2EF060CE9DC464029AF74CB4BD372DF10E1395E5D878413",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\secondary_top.v": "E2230101BB9E144AF86BBB26C4D4A8F39B832C547D91B34E6F71BE32B2EC71D6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\01_rtl\\cnn_core.v": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\cnn_result_stabilizer_baseline.v": "FCB7C384764F3D96BF18515E2C0A74C39DFA136D5BE7367738600E4DAD76C968",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\tb_combined_state_lifecycle.sv": "06AAB16A8220685B61D50130B26253855CD9A4AE3019D62D5E214292EC527DF1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c1h0l1.txt": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c2h1l2.txt": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c3h2l3.txt": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c4h0l4.txt": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\state_lifecycle\\c15h15l15.txt": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D"
+  },
+  "candidate_parameters": {
+    "AREA_BITS": 22,
+    "AREA_SHIFT": 6,
+    "COORD_SHIFT": 3
+  },
+  "baseline_parameters": {
+    "AREA_BITS": 24,
+    "COORD_SHIFT": 3
+  },
+  "fresh_frozen_checks": 2453,
+  "kept_frozen_observations": 1178,
+  "skipped_out_of_domain_observations": 1276,
+  "input_policy": "Out-of-domain observations are omitted whole; accepted words are bit-identical. No masking, rounding or eligibility adaptation.",
+  "groups": {
+    "area_boundary_clear": 8,
+    "clear_busy": 1,
+    "directed_clear": 22,
+    "directed_seed": 396,
+    "four_target_clear": 1,
+    "four_target_tie_reorder": 40,
+    "frozen_clear_reset": 31,
+    "frozen_legal_unmodified": 1178,
+    "legal_area_boundary": 144,
+    "post_abort_fresh": 1,
+    "random_clear_reset": 7,
+    "random_legal": 160,
+    "touch_separate_center": 396
+  }
+}

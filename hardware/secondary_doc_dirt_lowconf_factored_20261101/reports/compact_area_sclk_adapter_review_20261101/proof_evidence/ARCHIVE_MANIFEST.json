@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "report_origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\RESULTS.json",
+  "report_local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/RESULTS.json",
+  "report_sha256": "09281BE8B90E918C568EC9C93C3FC07017476A906CB1BDDE107578533A10F63C",
+  "files": [
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\run_sclk_tests.py",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/000_run_sclk_tests.py",
+      "sha256": "47A681D73004C91B242E91A7230AA56E7C62E58B0382ACF4B449143EAFCAEBAB"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\04_pin\\clocktrace_sclk\\prove_key3_supervisor_clocktrace.tcl",
+      "local": "04_pin/clocktrace_sclk/prove_key3_supervisor_clocktrace.tcl",
+      "sha256": "B075E954594269ED473318765371C9D92E510B22D2A211D5AE1AD99453DD40E9"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\reports\\key3_clocktrace_verification_20261031\\clock_source\\test_clocktrace_hook.tcl",
+      "local": "reports/key3_clocktrace_verification_20261031/clock_source/test_clocktrace_hook.tcl",
+      "sha256": "8A24047B30F8AD6AECE20B47E9FEC9CB70B50352C51D9DD30AA81498210DC2CF"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\test_sclk_cases.tcl",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/003_test_sclk_cases.tcl",
+      "sha256": "53D91B9D56EACC9251D491CCE1FEC8545C1CB9078A49E04D6005DB403C65F036"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\fixtures\\control_route_inventory.txt",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/004_control_route_inventory.txt",
+      "sha256": "F65E6794C2788155E9CF8F43D7647A408A86030849E7A9308B8F2C77EE6A9B38"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\fixtures\\gate_inventory.txt",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/005_gate_inventory.txt",
+      "sha256": "ABEB4A99584BECAAA0E3B63E2CD20772EF4997E580068BAABC898BF6520CEB50"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\fixtures\\key_pad_inventory.txt",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/006_key_pad_inventory.txt",
+      "sha256": "ED2A6834186B2B9AC235BE7D6D8492A1F114D237D58573E44C429A95BD64F0DC"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\04_pin\\apply_cdc_exceptions.tcl",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/007_apply_cdc_exceptions.tcl",
+      "sha256": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\04_pin\\apply_reset_exceptions.tcl",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/008_apply_reset_exceptions.tcl",
+      "sha256": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\04_pin\\prove_key3_supervisor_clocktrace.tcl",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/009_prove_key3_supervisor_clocktrace.tcl",
+      "sha256": "EDC066683001510C7159AC7351348C209FFD556570F3C66CE40DD6735E834A34"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\04_pin\\prove_key3_supervisor_clocktrace.tcl",
+      "local": "04_pin/prove_key3_supervisor_clocktrace.tcl",
+      "sha256": "EDC066683001510C7159AC7351348C209FFD556570F3C66CE40DD6735E834A34"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\04_pin\\apply_reset_exceptions.tcl",
+      "local": "04_pin/apply_reset_exceptions.tcl",
+      "sha256": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\04_pin\\apply_cdc_exceptions.tcl",
+      "local": "04_pin/apply_cdc_exceptions.tcl",
+      "sha256": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "E:\\td\\arch\\ph1p_macro.v",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/013_ph1p_macro.v",
+      "sha256": "049A0F45FD59FC645F63C71D1506E42348368170130B4B05E774AEE228436503"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "E:\\td\\template\\verilog\\Device-Primitive\\PH1P\\Clock\\ph1p_clock.v",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/014_ph1p_clock.v",
+      "sha256": "B30C8681E511AFA407E647FDAA8068360FB0BBF664EC841800FC2716831CEA0E"
+    },
+    {
+      "group": "input_sha256",
+      "origin": "E:\\td\\doc\\UG1310_PH1P_Libraries_Guide_for_HDL_Designs.pdf",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/015_UG1310_PH1P_Libraries_Guide_for_HDL_Designs.pdf",
+      "sha256": "71BFFD594321B92C58116DB5BB28088FA18DB738C20BB279AB801E84F3A4C208"
+    },
+    {
+      "group": "evidence_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\generated_test.tcl",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/016_generated_test.tcl",
+      "sha256": "3DC84B5C81D6A6D1099C0D4F9345592C64D719AB6165526A4DA7FA004DCCA11D"
+    },
+    {
+      "group": "evidence_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\stdout.log",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/017_stdout.log",
+      "sha256": "4919D57644BB8F17999163581052B8AF8B208F1C8D520A333E39952BABBC970E"
+    },
+    {
+      "group": "evidence_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\stderr.log",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/018_stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "group": "evidence_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\secondary_key3_full_gate.rpt",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/019_secondary_key3_full_gate.rpt",
+      "sha256": "B0F751438CA52FF141128E6AC852D9600AD8B3ED2E6E45805731C25F256FC78F"
+    },
+    {
+      "group": "evidence_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\secondary_key3_full_mixed.rpt",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/020_secondary_key3_full_mixed.rpt",
+      "sha256": "BE785C91F6A92283F1BCA6ECC900396CAF766A3BA28D34F4318047E725817B52"
+    },
+    {
+      "group": "evidence_sha256",
+      "origin": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\secondary_key3_full_physical.rpt",
+      "local": "reports/compact_area_sclk_adapter_review_20261101/proof_evidence/external/021_secondary_key3_full_physical.rpt",
+      "sha256": "250155BC15E004FDFB453FBFC97D68A80A1C3BA0E5E1BDB92B1391F2BFC2456A"
+    }
+  ],
+  "archive_script_sha256": "1EAA454B3CAE3E839C72C2BB50654F452592E92AC73360611779A254D93856FC",
+  "scope": "Exact copies of mocked-proof source/evidence; no physical acceptance."
+}

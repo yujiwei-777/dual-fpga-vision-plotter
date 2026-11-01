@@ -1,0 +1,152 @@
+PORT I_sys_clk
+PORT_NET I_sys_clk
+NET REQUEST=I_sys_clk OBJECTS=I_sys_clk DEPTH=0
+NET_DRIVERS NET=I_sys_clk PINS=I_sys_clk
+NET REQUEST=I_sys_clk_dup_1 OBJECTS=I_sys_clk_dup_1 DEPTH=0
+NET_DRIVERS NET=I_sys_clk_dup_1 PINS=I_sys_clk_syn_2.di
+CELL NAME=I_sys_clk_syn_2 OBJECTS=I_sys_clk_syn_2
+CELL_PROPERTY I_sys_clk_syn_2 TYPE=AL_PHY_HD_PAD
+CELL_PROPERTY I_sys_clk_syn_2 REF_NAME=PH1P_PHY_HD_PAD
+CELL_PROPERTY_TABLE_BEGIN I_sys_clk_syn_2
+Property             Type       Read-only  Value
+CLASS                string     true       cell
+FILE_NAME            string     true       ../../01_rtl/secondary_top.v
+FORCE_KEEP           bool       false      false
+IS_BLACKBOX          bool       true       false
+IS_DEBUGGABLE        bool       true       false
+IS_PLACED            bool       true       true
+IS_PRIMITIVE         bool       true       false
+LINE_NUMBER          int        true       14
+NAME                 string     true       I_sys_clk_syn_2
+PLACED_COL           int        true       33
+PLACED_OFFSET        int        true       0
+PLACED_ROW           int        true       78
+PRIMITIVE_COUNT      int        true       0
+REF_NAME             string     true       PH1P_PHY_HD_PAD
+TYPE                 string     true       AL_PHY_HD_PAD
+IDDRMODE             string     true       BYPASS
+INCKEN               string     true       ENABLE
+IOTYPE               string     true       LVCMOS33
+LOCATION             string     true       C4
+MODE                 string     true       IN
+ODLYEN               string     true       DISABLE
+PULLMODE             string     true       PULLUP
+TSMUX                string     true       1
+
+CELL_PROPERTY_TABLE_END I_sys_clk_syn_2
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.ce DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[4] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[3] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[2] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly_in DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly_src_sel DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.doq[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.doq[0] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.in_dl_return DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.in_dl_through DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.ipad DIRECTION=0 NETS=I_sys_clk
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.ipclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.lb_enb DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.osclk DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.rst DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.ts DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.di DIRECTION=1 NETS=I_sys_clk_dup_1
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.diq[1] DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.diq[0] DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.dly_out DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.opad DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.out_dl_return DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.out_dl_through DIRECTION=1 NETS=
+CELL_PIN CELL=I_sys_clk_syn_2 PIN=I_sys_clk_syn_2.bpad DIRECTION=2 NETS=
+NET REQUEST=I_sys_clk OBJECTS=I_sys_clk DEPTH=1
+NET REQUEST=I_sys_clk_syn_11 OBJECTS=I_sys_clk_syn_11 DEPTH=0
+NET_DRIVERS NET=I_sys_clk_syn_11 PINS=I_sys_clk_dup_1_created_gclkinst.clkout
+CELL NAME=I_sys_clk_dup_1_created_gclkinst OBJECTS=I_sys_clk_dup_1_created_gclkinst
+CELL_PROPERTY I_sys_clk_dup_1_created_gclkinst TYPE=AL_PHY_GCLK
+CELL_PROPERTY I_sys_clk_dup_1_created_gclkinst REF_NAME=PH1P_PHY_GCLK
+CELL_PROPERTY_TABLE_BEGIN I_sys_clk_dup_1_created_gclkinst
+Property             Type       Read-only  Value
+CLASS                string     true       cell
+FILE_NAME            string     true       NOFILE
+FORCE_KEEP           bool       false      true
+IS_BLACKBOX          bool       true       false
+IS_DEBUGGABLE        bool       true       false
+IS_PLACED            bool       true       true
+IS_PRIMITIVE         bool       true       false
+LINE_NUMBER          int        true       0
+NAME                 string     true       I_sys_clk_dup_1_created_gclkinst
+PLACED_COL           int        true       23
+PLACED_OFFSET        int        true       21
+PLACED_ROW           int        true       39
+PRIMITIVE_COUNT      int        true       0
+REF_NAME             string     true       PH1P_PHY_GCLK
+TYPE                 string     true       AL_PHY_GCLK
+FORCE_KEEP           string     true       ON
+GSR                  string     true       ENABLE
+HOLD                 string     true       YES
+PRESELECT            string     true       CLK0
+SEL_TRIGGER          string     true       POS
+
+CELL_PROPERTY_TABLE_END I_sys_clk_dup_1_created_gclkinst
+CELL_PIN CELL=I_sys_clk_dup_1_created_gclkinst PIN=I_sys_clk_dup_1_created_gclkinst.cen[1] DIRECTION=0 NETS=x24y38_auto_gnd
+CELL_PIN CELL=I_sys_clk_dup_1_created_gclkinst PIN=I_sys_clk_dup_1_created_gclkinst.cen[0] DIRECTION=0 NETS=x24y38_auto_gnd
+CELL_PIN CELL=I_sys_clk_dup_1_created_gclkinst PIN=I_sys_clk_dup_1_created_gclkinst.clkin[1] DIRECTION=0 NETS=
+CELL_PIN CELL=I_sys_clk_dup_1_created_gclkinst PIN=I_sys_clk_dup_1_created_gclkinst.clkin[0] DIRECTION=0 NETS=I_sys_clk_dup_1
+CELL_PIN CELL=I_sys_clk_dup_1_created_gclkinst PIN=I_sys_clk_dup_1_created_gclkinst.drct[1] DIRECTION=0 NETS={u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16]}
+CELL_PIN CELL=I_sys_clk_dup_1_created_gclkinst PIN=I_sys_clk_dup_1_created_gclkinst.drct[0] DIRECTION=0 NETS={u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16]}
+CELL_PIN CELL=I_sys_clk_dup_1_created_gclkinst PIN=I_sys_clk_dup_1_created_gclkinst.seln[1] DIRECTION=0 NETS={u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16]}
+CELL_PIN CELL=I_sys_clk_dup_1_created_gclkinst PIN=I_sys_clk_dup_1_created_gclkinst.seln[0] DIRECTION=0 NETS=x24y38_auto_gnd
+CELL_PIN CELL=I_sys_clk_dup_1_created_gclkinst PIN=I_sys_clk_dup_1_created_gclkinst.clkout DIRECTION=1 NETS=I_sys_clk_syn_11
+NET REQUEST=x24y38_auto_gnd OBJECTS=x24y38_auto_gnd DEPTH=1
+NET_DRIVERS NET=x24y38_auto_gnd PINS=x24y38_auto_const.gnd
+CELL NAME=x24y38_auto_const OBJECTS=x24y38_auto_const
+CELL_PROPERTY x24y38_auto_const TYPE=AL_PHY_TIE
+CELL_PROPERTY x24y38_auto_const REF_NAME=PH1P_PHY_TIE
+CELL_PROPERTY_TABLE_BEGIN x24y38_auto_const
+Property             Type       Read-only  Value
+CLASS                string     true       cell
+FILE_NAME            string     true       NOFILE
+FORCE_KEEP           bool       false      false
+IS_BLACKBOX          bool       true       false
+IS_DEBUGGABLE        bool       true       false
+IS_PLACED            bool       true       true
+IS_PRIMITIVE         bool       true       false
+LINE_NUMBER          int        true       0
+NAME                 string     true       x24y38_auto_const
+PLACED_COL           int        true       24
+PLACED_OFFSET        int        true       0
+PLACED_ROW           int        true       38
+PRIMITIVE_COUNT      int        true       0
+REF_NAME             string     true       PH1P_PHY_TIE
+TYPE                 string     true       AL_PHY_TIE
+
+CELL_PROPERTY_TABLE_END x24y38_auto_const
+CELL_PIN CELL=x24y38_auto_const PIN=x24y38_auto_const.gnd DIRECTION=1 NETS=x24y38_auto_gnd
+CELL_PIN CELL=x24y38_auto_const PIN=x24y38_auto_const.vdd DIRECTION=1 NETS=
+NET REQUEST=x24y38_auto_gnd OBJECTS=x24y38_auto_gnd DEPTH=1
+NET REQUEST=I_sys_clk_dup_1 OBJECTS=I_sys_clk_dup_1 DEPTH=1
+NET REQUEST=u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16] OBJECTS={u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16]} DEPTH=1
+NET_DRIVERS NET={u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16]} PINS=_al_const_one.O
+CELL NAME=_al_const_one OBJECTS=_al_const_one
+CELL_PROPERTY _al_const_one TYPE=one
+CELL_PROPERTY _al_const_one REF_NAME=
+CELL_PROPERTY_TABLE_BEGIN _al_const_one
+Property             Type       Read-only  Value
+CLASS                string     true       cell
+FILE_NAME            string     true       NOFILE
+FORCE_KEEP           bool       false      false
+IS_DEBUGGABLE        bool       true       false
+IS_PLACED            bool       true       false
+IS_PRIMITIVE         bool       true       true
+LINE_NUMBER          int        true       0
+NAME                 string     true       _al_const_one
+TYPE                 string     true       one
+
+CELL_PROPERTY_TABLE_END _al_const_one
+CELL_PIN CELL=_al_const_one PIN=_al_const_one.O DIRECTION=1 NETS={u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16]}
+NET REQUEST=u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16] OBJECTS={u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16]} DEPTH=1
+NET REQUEST=x24y38_auto_gnd OBJECTS=x24y38_auto_gnd DEPTH=1
+NET REQUEST=u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16] OBJECTS={u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16]} DEPTH=1
+TD_CLOCK_INVENTORY_PASS

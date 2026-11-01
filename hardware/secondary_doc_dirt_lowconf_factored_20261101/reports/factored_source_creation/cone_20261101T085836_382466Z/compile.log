@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 16:58:36 on Nov 01,2026
+vlog -sv -lint -work work source_cones.sv tb_factored_cones.sv 
+-- Compiling module abstract_parent
+-- Compiling module abstract_factored
+-- Compiling module numeric_parent
+-- Compiling module numeric_factored
+-- Compiling module tb_factored_cones
+
+Top level modules:
+	tb_factored_cones
+End time: 16:58:36 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

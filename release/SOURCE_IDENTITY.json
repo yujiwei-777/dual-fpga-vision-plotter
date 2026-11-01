@@ -1,0 +1,12 @@
+{
+  "schema": "competition_publication_identity_v1",
+  "date": "2026-11-01",
+  "hardware_file_count": 2280,
+  "hardware_bytes": 503958554,
+  "hardware_manifest_sha256": "0ECB83F9C4A10C76224BF8ADDBBADF08DF1970FF8679E91E2217DCD9D53AA516",
+  "verification": "RELEASE_VERIFY_PASS",
+  "rtl_model_constraint_changes": false,
+  "new_bit_generation": false,
+  "hardware_acceptance": "PASS_USER_REPORTED",
+  "source_origin": "dual_fpga_pair_20261101_doc_dirt_lowconf_brightness_portable_clean"
+}

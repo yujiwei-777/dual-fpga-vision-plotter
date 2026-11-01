@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 20:45:49 on Oct 31,2026
+vlog -sv -lint -work work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_cnn_target_stability_20261031\reports\kernel_area_overlap_combined_candidate\state_lifecycle\cnn_result_stabilizer_baseline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_cnn_target_stability_20261031\reports\kernel_area_overlap_combined_candidate\cnn_result_stabilizer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_cnn_target_stability_20261031\reports\kernel_area_overlap_combined_candidate\state_lifecycle\tb_combined_state_lifecycle.sv 
+-- Compiling module cnn_result_stabilizer_baseline
+-- Compiling module cnn_result_stabilizer
+-- Compiling module tb_combined_state_lifecycle
+
+Top level modules:
+	tb_combined_state_lifecycle
+End time: 20:45:49 on Oct 31,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

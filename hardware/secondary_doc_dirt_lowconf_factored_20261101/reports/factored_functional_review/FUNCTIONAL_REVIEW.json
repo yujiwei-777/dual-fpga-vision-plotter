@@ -1,0 +1,418 @@
+{
+  "status": "PASS_READ_ONLY_FUNCTIONAL_REVIEW_WITH_STATED_LIMITS",
+  "hardware_status": "NOT_RUN",
+  "completed_utc": "2026-11-01T09:11:08.077748+00:00",
+  "root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101",
+  "frozen_synthesis_snapshot": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\dirt_lowconf_factored_Runs_20261101\\syn_1\\source_snapshot.json",
+    "sha256": "43BE06B106675F0076F5D05F38A2FD8FCE92DF2182BE45C49448500AFC6F5DD7",
+    "verified_source_count": 270,
+    "drift": []
+  },
+  "unchanged_vs_successful_compact_control": {
+    "01_rtl/cnn_core.v": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3",
+    "01_rtl/cnn_result_stabilizer.v": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+    "01_rtl/grbl_reporter.v": "5BCF7EFEB29D38441BD63C3F5E4B1A643281D1E3F41DB5CFA875F01383462535",
+    "01_rtl/grbl_streamer.v": "60BB7176BD2D1B4F61E0E290C53998F15BBFF0FE260AFB1193E1F5BC7EAC2358",
+    "01_rtl/doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+    "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+    "01_rtl/grbl_uart.v": "56182E34F94F7A596D7B315C3EAA72438ECBFD551B661515FFE57572891DDE01",
+    "01_rtl/doc_copy_pipeline.v": "4780D3863ABE4BF0D261445209F914D2636B842E6C1DE23E7987647BAD56E330",
+    "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+    "01_rtl/pcb_fullboard_spatial96.v": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948",
+    "01_rtl/pcb_tinycnn_core.v": "720884EAE1AF9437C22B0ED7C6E0B923C0E54C7A0AD315CD748AC5897F4FE7FE",
+    "01_rtl/vision_workspace.v": "F4636E94C984B86A54DE00827ED395EEE4F4CD1D9D55638BA845A2E4DC731873",
+    "shared/rtl/hxa_secondary_link.v": "0E18687EA99F6209AA8D2A44E135A880CDB4664D4008FE0B984CF918648E8271",
+    "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+    "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+    "model/export/quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+    "model/experiments/conv4_4/weights.mem": "9B844CB0B0844F8A72E59192B4F04D3C192B6C1A501DA1F3376CE6BF5354DDE6",
+    "model/experiments/conv4_4/biases.mem": "45FAC7544E47F2CD73A5571A6136CB57A82CADD1B130057C8FCB0BC647E51232"
+  },
+  "static_source_checks": {
+    "low_score_pipeline": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\vision_pipeline.v",
+      "sha256": "02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5",
+      "source_evidence": [
+        {
+          "line": 59,
+          "text": "parameter integer CNN_LOWCONF_OUTPUT=0,"
+        },
+        {
+          "line": 487,
+          "text": "wire cnn_hard_reject=shape_reject_saved || color_samples_saved<8;"
+        },
+        {
+          "line": 488,
+          "text": "wire cnn_soft_reject=color_margin_saved<COLOR_MARGIN_MIN ||"
+        },
+        {
+          "line": 946,
+          "text": "if(cnn_hard_reject || cnn_soft_reject)"
+        },
+        {
+          "line": 949,
+          "text": "confidence_margin<=cnn_hard_reject ? 8'd0 : minimum_cnn_margin;"
+        },
+        {
+          "line": 957,
+          "text": "confidence_numerator<=confidence_margin*15'd100+15'd127;"
+        },
+        {
+          "line": 805,
+          "text": "if(confidence_numerator>=15'd255)"
+        }
+      ]
+    },
+    "top_optin_cache_and_report": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\secondary_top.v",
+      "sha256": "DCA939F1C76E1920FF99647E1C19B733C6A0177033631317DCAED237FD2106DC",
+      "source_evidence": [
+        {
+          "line": 376,
+          "text": "vision_pipeline #(.CNN_LOWCONF_OUTPUT(1),"
+        },
+        {
+          "line": 526,
+          "text": "cnn_cache_valid<=target_valid;"
+        },
+        {
+          "line": 528,
+          "text": "cnn_cache_confidence<=confidence;"
+        },
+        {
+          "line": 529,
+          "text": "cnn_cache_center_x<=cnn_input_center_x_sum[11:1];cnn_cache_center_y<=cnn_input_center_y_sum[10:1];"
+        },
+        {
+          "line": 583,
+          "text": "report_cnn_confidence<=cnn_cache_invalid?8'd0:cnn_cache_confidence;"
+        },
+        {
+          "line": 586,
+          "text": "report_judgement<=cnn_cache_valid&&!cnn_cache_invalid?2'd2:2'd0;"
+        },
+        {
+          "line": 492,
+          "text": ".I_cnn_confidence(report_cnn_confidence),"
+        },
+        {
+          "line": 576,
+          "text": "if(key2_report_fail||report_error||report_recovery_required||key4_press)key2_report_pending<=0;"
+        }
+      ]
+    },
+    "stabilizer": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\cnn_result_stabilizer.v",
+      "sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+      "source_evidence": [
+        {
+          "line": 379,
+          "text": "candidate_box[87:80]!=0;"
+        },
+        {
+          "line": 191,
+          "text": "wire confirm_now=update_reliable && next_pending_count>=CONFIRM_LIMIT;"
+        },
+        {
+          "line": 193,
+          "text": "wire may_hold=!update_is_new && meta_bad<HOLD_LIMIT;"
+        },
+        {
+          "line": 209,
+          "text": "next_lost=0;next_confidence=0;next_pending=0;next_count=0;next_bad=0;"
+        },
+        {
+          "line": 214,
+          "text": "if(update_accept)next_confidence=update_confidence;"
+        }
+      ]
+    },
+    "report_has_no_confidence_acceptance_gate": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_reporter.v",
+      "sha256": "5BCF7EFEB29D38441BD63C3F5E4B1A643281D1E3F41DB5CFA875F01383462535",
+      "source_evidence": [
+        {
+          "line": 463,
+          "text": "cnn_target<=I_judgement==2 && I_cnn_class>=1 && I_cnn_class<=9;"
+        },
+        {
+          "line": 479,
+          "text": "decimal_value<=I_cnn_mode?{24'd0,I_cnn_confidence}:I_job_id;"
+        }
+      ]
+    },
+    "report_final_ack": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_streamer.v",
+      "sha256": "60BB7176BD2D1B4F61E0E290C53998F15BBFF0FE260AFB1193E1F5BC7EAC2358",
+      "source_evidence": [
+        {
+          "line": 146,
+          "text": "if(rx_ok)begin"
+        },
+        {
+          "line": 148,
+          "text": "if(last_line)begin"
+        },
+        {
+          "line": 152,
+          "text": "state<=DONE_PENDING;recovery_required<=0;"
+        },
+        {
+          "line": 159,
+          "text": "O_done<=1;state<=IDLE;recovery_required<=0;O_error<=0;O_error_code<=0;"
+        },
+        {
+          "line": 168,
+          "text": "if(rx_hold0 || rx_idle)begin"
+        },
+        {
+          "line": 169,
+          "text": "state<=STOP_RESET;parser_clear<=1;"
+        },
+        {
+          "line": 179,
+          "text": "state<=REARM_QUERY;recovery_required<=1;O_done<=0;"
+        }
+      ]
+    },
+    "document_final_ack": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_streamer.v",
+      "sha256": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+      "source_evidence": [
+        {
+          "line": 135,
+          "text": "end else if(finish)begin"
+        },
+        {
+          "line": 139,
+          "text": "done<=1;state<=IDLE;terminal_state<=4;"
+        },
+        {
+          "line": 140,
+          "text": "recovery_required<=0;error_code<=0;"
+        },
+        {
+          "line": 149,
+          "text": "ACK_WAIT:if(p_ok)begin"
+        }
+      ]
+    },
+    "keys_and_disconnect_guard": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\secondary_top.v",
+      "sha256": "DCA939F1C76E1920FF99647E1C19B733C6A0177033631317DCAED237FD2106DC",
+      "source_evidence": [
+        {
+          "line": 37,
+          "text": "secondary_key3_board_reset u_board_reset"
+        },
+        {
+          "line": 38,
+          "text": ".I_por_n(por_release),.I_key_n(I_key3_n),.O_release(board_release)"
+        },
+        {
+          "line": 80,
+          "text": "wire key4_stop=key4_press;"
+        },
+        {
+          "line": 488,
+          "text": ".I_abort(vision_job_cancel||(!key2_local_active&&!key1_job_protected&&vision_cancel)),"
+        },
+        {
+          "line": 471,
+          "text": ".I_explicit_cancel(vision_job_cancel||key4_press),"
+        },
+        {
+          "line": 820,
+          "text": "K_WAIT_JOB:if(I_job_done||I_job_error)begin state<=K_IDLE;wait_count<=0;end"
+        },
+        {
+          "line": 834,
+          "text": "assign O_protected=O_active||I_accept;"
+        }
+      ]
+    },
+    "hxa_disconnect_boundary": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\shared\\rtl\\hxa_secondary_link.v",
+      "sha256": "0E18687EA99F6209AA8D2A44E135A880CDB4664D4008FE0B984CF918648E8271",
+      "source_evidence": [
+        {
+          "line": 420,
+          "text": "if(!link_ok||(online&&lease_ms>=3000&&"
+        },
+        {
+          "line": 444,
+          "text": "if(job_busy&&!ctrl_job_cancel_take)begin"
+        },
+        {
+          "line": 527,
+          "text": "if(saved_session!=session_id)begin"
+        },
+        {
+          "line": 93,
+          "text": "wire ctrl_explicit_job_cancel_take=ctrl_cancel_take&&ctrl_payload_len==28&&"
+        },
+        {
+          "line": 96,
+          "text": "(ctrl_explicit_job_cancel_take || (ctrl_payload_len==0&&!job_busy));"
+        }
+      ]
+    }
+  },
+  "existing_fresh_simulation_evidence": {
+    "02_sim/cnn_named_top/RESULTS.json": {
+      "status": "PASS_EXISTING_FRESH_TEST",
+      "sha256": "642B3F228A0A9F94802208C86E1658F6E9CE253B32BA285DFCEF2831CBD1C85F",
+      "input_hash_count": 81,
+      "hardware_status": "NOT_RUN",
+      "scope": "Production top report metadata regression with controlled physical/datapath leaves.\n\nThe production top cache, KEY1 debounce, local job guard, report admission,\nhistory clear and PCB branch execute in RTL. Leaf stubs drive no inference,\nDDR, HXA or UART; the held-identity case supplies its published class/conf0\ncontract rather than retesting the temporal classifier itself.\nthis is deliberately a control/metadata test, not a full-board simulation."
+    },
+    "02_sim/key3_top_reset_release/RESULTS.json": {
+      "status": "PASS_EXISTING_FRESH_TEST",
+      "sha256": "E78C2DE42816577E09A626A5039A1EA7AEF90045EF779FBD19D4E22639A1077D",
+      "input_hash_count": 82,
+      "hardware_status": "NOT_RUN",
+      "scope": "KEY3 reset fanout with real top, HXA, UART, reporter and reset synchronizers.\n\nPhysical PLL/DDR/RGMII and image-processing leaves are controlled models. This\ndoes not verify DDR calibration, physical timing, or external machine stopping."
+    },
+    "02_sim/stroke_release/RESULTS.json": {
+      "status": "PASS_EXISTING_FRESH_TEST",
+      "sha256": "069FD8265CE8A1B0F797AA5F545476067D208AE4104CC71DF284BEA2F788DD2B",
+      "input_hash_count": 12,
+      "hardware_status": "NOT_RUN",
+      "scope": "Integer/RTL topology and real document G-code checks, in a fresh library.\n\nThe full cases run the production thinning, synchronous banked graph storage,\npath extraction, ordering, shared mapper, plotter and GRBL parser/streamer.\nThe UART peer is a deterministic simulated GRBL peer; no physical machine is\ncontrolled. Reduced-capacity cases and cancel/reset checks are separate tests."
+    },
+    "02_sim/cnn_named_pcb/RESULTS.json": {
+      "status": "PASS_EXISTING_FRESH_TEST",
+      "sha256": "B5E79038BBFB0CED77E48C5A6E1881E9BC4D429EAA1E75C56B1E517B4EBFB138",
+      "input_hash_count": 22,
+      "hardware_status": "NOT_RUN",
+      "scope": "Replay PCB model/core/reader golden vectors in the CNN-stability variant."
+    },
+    "02_sim/cnn_area_pipeline_compact/RESULTS.json": {
+      "status": "PASS_EXISTING_FRESH_TEST",
+      "sha256": "5ACD97590164E4451B3246ECA57E6C12A7417E6636317D562E88BDECA9661668",
+      "input_hash_count": 298,
+      "hardware_status": "NOT_RUN",
+      "scope": ""
+    },
+    "02_sim/cnn_stability_core/RESULTS.json": {
+      "status": "PASS_EXISTING_FRESH_TEST",
+      "sha256": "0E7C2BA157046515C4E80495E94EFBE0D3AAE002B79E17E09D6ABCF563B886AC",
+      "input_hash_count": 23,
+      "hardware_status": "NOT_RUN",
+      "scope": ""
+    },
+    "02_sim/cnn_named_report/RESULTS.json": {
+      "status": "PASS_EXISTING_FRESH_TEST",
+      "sha256": "83FB03AE718BA83FC796B34A0E581D446D747908C5F6EDD195FD6F2FD1AA096B",
+      "input_hash_count": 8,
+      "hardware_status": "NOT_RUN",
+      "scope": "production reporter/formatter/font/streamer/parser; simulated UART ACKs; no CNN inference, DDR or PHY simulation"
+    },
+    "02_sim/cnn_lowconf_accept/RESULTS.json": {
+      "status": "PASS_EXISTING_FRESH_TEST",
+      "sha256": "949645F09043674562E8F98AC0CAF6437EB10FE9770CFD0094B9701FA4284493",
+      "input_hash_count": 90,
+      "hardware_status": "NOT_RUN",
+      "scope": "Fresh low-score configuration qualification; production RTL is never rewritten.\n\nPrepare freezes generated component benches and integer expectations. Run compiles\nthe production pipeline/kernel, top metadata controller, and writer separately.\nInference/CCL, PHY/DDR and UART peers are controlled leaves, so this is neither\nmodel accuracy evidence nor physical HDMI/plotter acceptance."
+    }
+  },
+  "cone_simulation_evidence": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\factored_source_creation\\CONE_EQUIVALENCE.json",
+    "sha256": "81B71EDC042008D30FBF79E1642084284CE5B4C642D41001349DE102C4250605",
+    "status": "PASS_EXACT_SOURCE_TWO_STATE_CONE_EQUIVALENCE",
+    "rtl_abstract_param_checks": 16384,
+    "rtl_raw_numeric_param_checks": 2097160,
+    "four_state_x_propagation_equivalence_claimed": false
+  },
+  "main_readonly_compatibility": {
+    "frozen_snapshot": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_window_osd_lowerleft_bram_20261028\\pcb_lowerleft_inline_Runs_20261028\\phy_1\\source_snapshot.json",
+    "snapshot_sha256": "493F8D2E6902CBB12D0BC55D35A7EA105431F53C361C5EE4136559D48351937D",
+    "sources": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_window_osd_lowerleft_bram_20261028\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_main_link.v",
+        "sha256": "918D0BB3B9CB8222E09B40F3225E351D783A9ECCD727905522677C8A5B710FBE",
+        "matches_frozen_main_release_snapshot": true
+      },
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_window_osd_lowerleft_bram_20261028\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hdmi_mixer.v",
+        "sha256": "82AB1C8364A502397F57562752CB51CBBF0E67A377C50711E7A3B6071A0F125C",
+        "matches_frozen_main_release_snapshot": true
+      },
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_window_osd_lowerleft_bram_20261028\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hxa_multibox_overlay.v",
+        "sha256": "A177178C9B54CA08A8A9FA196A576110FCBC65D0DA18B979816BE6C59D17EA80",
+        "matches_frozen_main_release_snapshot": true
+      }
+    ],
+    "link_source_evidence": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_window_osd_lowerleft_bram_20261028\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_main_link.v",
+      "sha256": "918D0BB3B9CB8222E09B40F3225E351D783A9ECCD727905522677C8A5B710FBE",
+      "source_evidence": [
+        {
+          "line": 300,
+          "text": "(r_body[103:96]&8'h38)!=0"
+        },
+        {
+          "line": 244,
+          "text": "p[79:64]>=16'd1 && p[79:64]<=16'd9 && p[87:80]<=8'd100 &&"
+        }
+      ]
+    },
+    "overlay_source_evidence": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_window_osd_lowerleft_bram_20261028\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hxa_multibox_overlay.v",
+      "sha256": "A177178C9B54CA08A8A9FA196A576110FCBC65D0DA18B979816BE6C59D17EA80",
+      "source_evidence": [
+        {
+          "line": 107,
+          "text": "slot_valid[load_at]<=I_valid && (load_at<I_count);"
+        },
+        {
+          "line": 108,
+          "text": "bcd[load_at]<=percent_bcd({1'b0,slot[86:80]});"
+        }
+      ]
+    },
+    "main_modified": false,
+    "fresh_simulation_claimed": false,
+    "main_build_claimed": false
+  },
+  "functional_contract": {
+    "production_optin": 1,
+    "shape_thresholds_unchanged": [
+      31,
+      28,
+      77
+    ],
+    "color_threshold_unchanged": 0,
+    "confidence": "(min(color_margin,shape_margin)*100+127)//255; margin-derived integer score, not calibrated probability",
+    "raw_to_score_examples": {
+      "19": 7,
+      "2": 1,
+      "1": 0
+    },
+    "confirmation": "Nonzero low score requires the unchanged 3 consecutive associated same-class observations; no new class from genuine score zero.",
+    "hold": "Already confirmed identity may be retained for 2 ambiguous/zero observations with score0, then cleared on the third; hard reject drives score0 before this unchanged rule.",
+    "diagnostic": "Original soft-margin bit6 remains asserted. It does not suppress valid published boxes or KEY1 reports.",
+    "report": "KEY1 snapshots accepted class, floor center coordinate, and true score; active report is immutable while later observations refresh the cache.",
+    "key3": "Active-low B9 requests whole secondary application reset including PLL/DDR reset supervision; external GRBL stopping is not guaranteed by FPGA reset.",
+    "key4": "Active-low C7 retains safe task stop/reset: hold, fresh Hold/Idle, Ctrl-X, fresh post-reset Idle; it is not whole-board reset.",
+    "normal_completion": "All normal writer paths finish after their last ok; no final Idle poll. ok is controller acceptance, not proof of mechanical completion.",
+    "disconnect": "Accepted KEY1 owner, local KEY2 and active copy/report job protection remains byte-identical to control; ordinary network frame cancel/lease/HELLO cannot create a replacement active report.",
+    "main_static_compatibility": "Existing supplied main source rejects flags0x38 but permits bit6; slot score accepts 0..100 and overlay has no positive minimum score gate."
+  },
+  "material_limitations": [
+    "No real camera, HDMI, PHY, DDR electrical or plotter acceptance; hardware remains NOT_RUN.",
+    "Low-score publication expands accepted weak classifications; no claim that model accuracy improved.",
+    "Lowconfidence pipeline uses controlled inference/CCL leaves; real core arithmetic is separately checked by 27 full inference vectors, not a fresh scene accuracy dataset.",
+    "Fresh top disconnect check uses modeled HXA/PHY leaves. Whole actual PHY/lease/HELLO disconnect matrix is not rerun end-to-end here; source-identical HXA protection and existing top acceptance tests are separately identified.",
+    "Fresh reporter checks two sequential square jobs and safe stop during CONF output; this is not a physical two-button/plotter test.",
+    "Factoring cone proof covers initialized binary states; it explicitly does not claim four-state X-propagation equivalence.",
+    "Static main compatibility is tied to the previously supplied lowerleft main source snapshot; no new main simulation/build or proof of currently loaded main bit.",
+    "Existing explicit network task cancel recognizes the reserved 28-byte format/reason; this review does not claim per-task-ID authorization beyond the unchanged source predicates.",
+    "Successful functional review does not establish synthesis, placement, routing, timing, DRC, readonly reimport or bitgen success."
+  ],
+  "tests_rerun_by_review": false,
+  "production_or_frozen_inputs_modified": false
+}

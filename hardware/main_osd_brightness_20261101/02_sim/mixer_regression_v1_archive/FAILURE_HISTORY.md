@@ -1,0 +1,10 @@
+# Simulation attempt history
+
+All attempts used the same RTL input files; only the testbench mailbox stimulus and ModelSim launch mode changed before the final passing run.
+
+1. The first `vsim -c` attempt passed stream cases 0, 1, 2, and 3. Its Tcl front end then received an HTTP probe on its private RPC socket and crashed. The preserved `vish_stacktrace.vstf` records the crash. The original `simulation.log` was overwritten during subsequent regression iterations before retention was requested. The available tool-captured diagnostics are reproduced in `attempt01_rpc_failure_tool_capture.log`; this is explicitly a tool-output reconstruction, not the original log. No RTL change was made in response.
+2. The first `vsim -batch` attempt passed stream cases 0 through 4, then rejected case 5 because the test cleared the multibox validity without sending the mailbox update toggle. The preserved original `simulation_retry.log` contains the assertion. The test stimulus was corrected to toggle when clearing the mailbox.
+3. One further attempt asserted `MULTIBOX_COMPACT_AVOIDANCE_MISSING` because the new default-toggle stimulus and the explicit case-4 toggle cancelled each other before a clock edge. That attempt's original transcript was also overwritten. Its tool-captured diagnostics are reproduced in `attempt03_toggle_stimulus_tool_capture.log`. The redundant stimulus toggle was removed; RTL was unchanged.
+4. Final attempt: `vsim -batch`, seven complete streaming frames and 29 coordinate-forced atlas windows; no simulator errors or warnings. `simulation.log` and its immutable copy `simulation_final.log` contain the complete PASS marker.
+
+The first scene also exposed a metadata timing issue: the baseline renders committed frame FFFF while the new decimal frame reads 00000 on the first blanking commit. The decimal snapshot is triggered at frame-start before the latency mailbox finishes committing during the same blanking interval. This finding was reported to the main agent; it is separate from the passing pixel/synchronization comparisons and is not hidden by the testbench.

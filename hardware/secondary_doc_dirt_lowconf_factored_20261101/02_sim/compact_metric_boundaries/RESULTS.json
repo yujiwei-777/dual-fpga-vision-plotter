@@ -1,0 +1,54 @@
+{
+  "status": "PASS_FRESH_COMBINED_METRIC_BOUNDARIES",
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\compact_metric_boundaries\\doc_stroke_planner_baseline.v": "8300D0764B8EC88E229CEC24A68EFF7DC2F4AFFA020964A066CE82755BEA5FEC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_path_distance.v": "265774F97B39989FF199B8D288F892E364AB2B38076C1384025430624FB67174",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_copy_pipeline.v": "4780D3863ABE4BF0D261445209F914D2636B842E6C1DE23E7987647BAD56E330",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\tools\\run_compact_metric_boundaries.py": "301A7C5959A60B7428468ABBB6AB9FEFE8116DDD0749A6389EB55AD2D17076EA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\compact_metric_boundaries\\finite_bound\\tb_metric_directed.sv": "165178A87D3F9FA162157207A7E70FB1D17D22E3538A1BC652C01938F8993473",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\02_sim\\compact_metric_boundaries\\generic32\\tb_metric_directed.sv": "1CC83F7270F084310165D832415CD27FD5686DEC5C5D0A48616BA35F54DB4370"
+  },
+  "origin_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_stroke_planner.v": "DB552C7E3619108DACF894232696B95A573AE194C44E2B6439A744705597E204",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_metric_bound_scratch_20261031\\functional_metric\\02_sim\\directed_metrics\\finite_bound\\tb_metric_directed.sv": "165178A87D3F9FA162157207A7E70FB1D17D22E3538A1BC652C01938F8993473",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_metric_bound_scratch_20261031\\functional_metric\\02_sim\\directed_metrics\\generic32\\tb_metric_directed.sv": "1CC83F7270F084310165D832415CD27FD5686DEC5C5D0A48616BA35F54DB4370"
+  },
+  "evidence_hashes": {
+    "doc_stroke_planner_baseline.v": "8300D0764B8EC88E229CEC24A68EFF7DC2F4AFFA020964A066CE82755BEA5FEC",
+    "finite_bound/compile.log": "DB9F19E114B01D503F7A4C877C689881E6D5C0694512079042CB1C56D7893F86",
+    "finite_bound/compile_command.json": "81454BB13B90D03D5ED12804DD14627D8D1A828FC1541026368A5BC7A261B15A",
+    "finite_bound/simulate.log": "445659B604FA6FD9EA4D3B491F2CB8465DB931338371EDD5CEB1D742A3FEEE06",
+    "finite_bound/simulate_command.json": "10D376B743A92F0200EABFEF17C14E1BF4D93F5DD472928C9EC3709E1AE0A09E",
+    "finite_bound/tb_metric_directed.sv": "165178A87D3F9FA162157207A7E70FB1D17D22E3538A1BC652C01938F8993473",
+    "finite_bound/vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "finite_bound/vlib_command.json": "95F0832EC2D966557511952A0280335B77CA7158D588A33076EEC597943E560B",
+    "generic32/compile.log": "A03E4B44D0023D4F6D5A02CF34DD0ED7B66E2377478A6F50850E16DEA175F812",
+    "generic32/compile_command.json": "0126D9520F45A7F2BF172E8D8E2C8024163571EA63A338E07F6DC974B93D0814",
+    "generic32/simulate.log": "9EACBD661FD6D25AFDF51EA5E73FB8A7195727D19AB278B22FCCA9E2BC4D4188",
+    "generic32/simulate_command.json": "D3BF79B0A6BF8F6BE671A10B321DEAA00C198F37BEA3895C74B061A603DD1C9B",
+    "generic32/tb_metric_directed.sv": "1CC83F7270F084310165D832415CD27FD5686DEC5C5D0A48616BA35F54DB4370",
+    "generic32/vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "generic32/vlib_command.json": "95F0832EC2D966557511952A0280335B77CA7158D588A33076EEC597943E560B"
+  },
+  "tests": {
+    "finite_bound": {
+      "status": "PASS",
+      "checks": [
+        "PASS METRIC_FINITE_BOUND checks=13 rejects=3 bound=23164 distance_bits=15 pair_bits=16 route_bits=26",
+        "PASS METRIC_PUBLIC_CYCLE_MITER cycles=32 public_ports=23 ram_signals=20"
+      ]
+    },
+    "generic32": {
+      "status": "PASS",
+      "checks": [
+        "PASS METRIC_GENERIC32 checks=80 rejects=0 high_value_captures=72 modulo32_cases=6 output64_cases=2",
+        "PASS METRIC_PUBLIC_CYCLE_MITER cycles=239 public_ports=23 ram_signals=20"
+      ]
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "planner_sha256": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+  "limits": "Directed state injection complements live golden path/G-code regression; it is not physical timing acceptance."
+}

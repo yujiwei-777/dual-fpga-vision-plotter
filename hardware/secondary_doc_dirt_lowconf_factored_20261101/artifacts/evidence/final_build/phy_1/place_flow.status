@@ -1,0 +1,22 @@
+Location         : D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\dirt_lowconf_factored_Runs_20261101\phy_1
+Running with     : Tang Dynasty Release_2026.1_SP2
+                   Copyright (c) 2012-2026 Anlogic Inc.
+Top Model        : secondary_top
+Device           : PH1P35MDG324
+Speed            : 3
+
+Timing Mode      : manhattan
+Setup            : WNS -1659ps  TNS   -21290ps  NUM_FEPS    15
+Hold             : WNS 2147483647ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+---------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+---------------------------------------------------------------------------------------------------
+      place      |    1     |  4m25s(99%)  |   509(100%)   |       2039        |       2111        
+    import_db    |    1     |    1s(0%)    |     0(0%)     |        791        |        832        
+  import_device  |    1     |    1s(0%)    |     0(0%)     |        330        |        363        
+    read_sdc     |    10    |    0s(0%)    |     0(0%)     |       2085        |       2112        
+---------------------------------------------------------------------------------------------------
+      total      |    13    |    4m27s     |      509      |       2085        |       2112        
+---------------------------------------------------------------------------------------------------

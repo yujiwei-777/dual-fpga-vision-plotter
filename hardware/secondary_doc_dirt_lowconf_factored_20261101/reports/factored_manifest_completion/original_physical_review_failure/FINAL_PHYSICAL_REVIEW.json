@@ -1,0 +1,178 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "errors": [
+    "HXA/DDR/Ethernet source differs from accepted baseline"
+  ],
+  "manifest_sha256": "E679919D216AC47B3CA755CDC900E6547E14A6681AED9520E60C85926922A857",
+  "baseline_run": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\cnn_key3_stroke_compact_area_sclk_Runs_20261101",
+  "baseline_route_log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\cnn_key3_stroke_compact_area_sclk_Runs_20261101\\phy_1\\td_console.log",
+  "baseline_route_log_sha256": "E92672E2539B3DCC4029FDED8D7E38565D8C09EE5584E72FFA11C67352B1EA23",
+  "timing_ns": {
+    "SWNS": 0.005,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19455,
+      "total": 21216,
+      "percent": 91.69966063348416,
+      "limit": 95
+    },
+    "eram": {
+      "used": 91,
+      "total": 108,
+      "percent": 84.25925925925925,
+      "limit": 90
+    },
+    "dsp": {
+      "used": 18,
+      "total": 40,
+      "percent": 45.0,
+      "limit": 95
+    }
+  },
+  "constraints": [
+    {
+      "path": "04_pin/pin.adc",
+      "sha256": "A6BDAAAD82779F0E19E6480A43E0DFD83682252E87638B973A621F897DA44855",
+      "baseline_equal": true,
+      "current_sha256_matches": true
+    },
+    {
+      "path": "04_pin/timing.sdc",
+      "sha256": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF",
+      "baseline_equal": true,
+      "current_sha256_matches": true
+    },
+    {
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/adc/ddr2.adc",
+      "sha256": "9B579AEF1DD260789B02B7012CA9689AF6280EC9AF530A1A946C5AC0A8C43E81",
+      "baseline_equal": true,
+      "current_sha256_matches": true
+    },
+    {
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/sdc/ddr2.sdc",
+      "sha256": "ADB6317927DFD09095073CAD40BE8E63D39EA3D941B4C790F2F483B1AED428D6",
+      "baseline_equal": true,
+      "current_sha256_matches": true
+    }
+  ],
+  "exception_hooks": [
+    {
+      "path": "04_pin/apply_cdc_exceptions.tcl",
+      "sha256": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0",
+      "baseline_equal": true
+    },
+    {
+      "path": "04_pin/apply_reset_exceptions.tcl",
+      "sha256": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94",
+      "baseline_equal": true
+    }
+  ],
+  "active_source_mismatches": [],
+  "effective_markers": [
+    "EFFECTIVE_RESET_PIN_CONSTRAINTS 12",
+    "EFFECTIVE_SMD_PATHS 290 128 9 52"
+  ],
+  "effective_reset_pin_constraints": 12,
+  "applied_reset_unique_async_pins": 12,
+  "proven_reset_synchronizers": 5,
+  "cdc_report_prefix_counts": {
+    "ASYNC_GRAY": 52,
+    "SAME_CLOCK_GRAY_NO_EXCEPTION": 60,
+    "MAILBOX_CONTROL_SOURCE": 9,
+    "MAILBOX_CONTROL": 5,
+    "PHY_LINK": 1,
+    "HELD_REQUEST": 162,
+    "HELD_RETURN": 128,
+    "CDC_GROUP": 10,
+    "CDC_MAPPING_COMPLETE": 1
+  },
+  "ignored_final_exception_counts": {
+    "rows": 40,
+    "shadowed": 0,
+    "ignored": 0
+  },
+  "drc_visible_message_counts": {
+    "baseline": {
+      "SLATR-1036": 10,
+      "SLATR-1038": 10
+    },
+    "new": {
+      "SLATR-1036": 10,
+      "SLATR-1038": 10
+    }
+  },
+  "new_drc_codes": [],
+  "increased_drc_counts": {},
+  "timing_check_categories": {
+    "baseline": {
+      "no clock": 0,
+      "clock definition": 0,
+      "dummy node": 2,
+      "invalid constraint": 0,
+      "pll/clock buffer clock constraints": 0,
+      "combinational loops": 0,
+      "soft fifo timing exception constraints": 2,
+      "no path constraints": 0,
+      "shadowed/ignored timing exception constraints": 0,
+      "no input delay": 29,
+      "no output delay": 51,
+      "partial input delay": 0,
+      "partial output delay": 0,
+      "abnormal input delay": 0
+    },
+    "new": {
+      "no clock": 0,
+      "clock definition": 0,
+      "dummy node": 2,
+      "invalid constraint": 0,
+      "pll/clock buffer clock constraints": 0,
+      "combinational loops": 0,
+      "soft fifo timing exception constraints": 2,
+      "no path constraints": 0,
+      "shadowed/ignored timing exception constraints": 0,
+      "no input delay": 29,
+      "no output delay": 51,
+      "partial input delay": 0,
+      "partial output delay": 0,
+      "abnormal input delay": 0
+    }
+  },
+  "increased_check_categories": {},
+  "protected_source_mismatches": [
+    "main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+    "main/user_source/hdl_source/ethernet/uiphyrst.v",
+    "main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+    "main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+    "shared/rtl/hxa_yolo_result_codec.v"
+  ],
+  "cnn_pcb_protected_input_count": 25,
+  "cnn_pcb_source_mismatches": [
+    "01_rtl/vision_pipeline.v"
+  ],
+  "fifo_review": "Inherited async soft-FIFO groups use exact datapath-only first-stage Gray bounds; second synchronizer stages remain timed. Effective route-end Gray path count must stay 52.",
+  "ddr_review": "DDR, frame store, configuration ROM and constraints match accepted baseline. Routed timing is checked here; electrical DDR hardware validation remains NOT_RUN.",
+  "cnn_review": "Ordinary CNN, PCB RTL/vision logic and all model inputs match the exact new-capture-mix baseline by SHA256. This report-format change permits no model, inference, HXA, DDR or constraint changes. PCB accuracy and physical writing remain subject to real-image and hardware validation.",
+  "intentional_pcb_model_updates": {
+    "01_rtl/vision_pipeline.v": "02E7954C55C5696E299D7B980DE0C4BF95C1FDF65531D1D005CFDC6882D099D5"
+  },
+  "unexpected_cnn_pcb_mismatches": [],
+  "intentional_pcb_model_hash_mismatches": [],
+  "warning_limits": "Inherited SLATR-1036/1038, dummy-node, bounded async FIFO and legacy I/O delay groups are recorded; this does not claim a warning-free design.",
+  "hardware": "NOT_RUN",
+  "readonly_reimport": "separate mandatory gate",
+  "reviewed_report_hashes": {
+    "dirt_lowconf_factored_Runs_20261101/phy_1/secondary_cnn_multibox_pr.timing": "86C3BC524CDAA5661FAF26DB8ECDD278DFB6AE9A6F7ECC490487272699F43CB0",
+    "dirt_lowconf_factored_Runs_20261101/phy_1/secondary_cnn_multibox_chk.timing": "17C0DCE2C240F06197853D6232C77A4FA19A725D240ABC5CF57196F479352B91",
+    "dirt_lowconf_factored_Runs_20261101/phy_1/secondary_cnn_multibox_phy.area": "765ED9AFEC53335F5644AEF7FD19131A3007BA8CDBF3071BAFFE0D5B7333BA40",
+    "dirt_lowconf_factored_Runs_20261101/phy_1/route_flow.status": "5ED04ACFB812C62E01ED9217D11D8EDF7F18EDFC9D7FD94430DB3C8B08D68BAE",
+    "dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log": "0998CC5B38D8BD2112DD3FDC8D29279DA48E1712797337C5CCDAB2481038FF2F",
+    "dirt_lowconf_factored_Runs_20261101/phy_1/secondary_loaded_route_end.rpt": "091459A433C7AE475CCC09D94BC26BD4F49DD329982C6241D5161DF92D9649AC",
+    "dirt_lowconf_factored_Runs_20261101/phy_1/secondary_cdc_route_end.rpt": "26132E73155BBA710CDBDD986029970FDD70A97A6530DED695B8D863AD22CD42",
+    "dirt_lowconf_factored_Runs_20261101/phy_1/secondary_reset_route_end.rpt": "23AF812B5951C07819F641237A9A74AB9A9DB6B0D6A48B21DD2AD6AC04A6ED1D",
+    "dirt_lowconf_factored_Runs_20261101/phy_1/secondary_effective_route_end.ignored.rpt": "C825F413077F5B47042581B76BCC31D6A5839CCA2DFA5BD2B2D814323507E653"
+  }
+}

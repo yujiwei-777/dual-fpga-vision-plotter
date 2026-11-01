@@ -1,0 +1,35 @@
+{
+  "status": "PASS_PRODUCTION_INTEGER_REFERENCE",
+  "production_modified": false,
+  "hardware_status": "NOT_RUN",
+  "candidate_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\cnn_result_stabilizer.v": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\tools\\cnn_stability_reference.py": "402F7F30E8BD1F9036314639BD59B514137016711783D670C52D8CA87BC53503",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\verification\\aligned_a22_s6.txt": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\02_sim\\cnn_stability_serial\\tb_cnn_stability_serial.sv": "D6ACE7233964B2597DAAEC8B340586400F3B5CB86355C07356DAACC6D6D8D575",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\vectors.txt": "FD014AF8DE19ADCAEB79BCFD39DD957F68DF335D3357E6B1B11E9DD1BF13FF84",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\production_reference\\tb_cnn_stability_serial.sv": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_target_stability_20261031\\reports\\kernel_area_overlap_combined_candidate\\run_production_reference.py": "8DD974135832DE2B5B7BD8D19A9F42518D7E449CCC4ED8C485CF63EA40371CAA"
+  },
+  "checks": {
+    "gold_checks": 3240,
+    "events": 3307,
+    "serial_records": 2059,
+    "bank_reuses": 3247,
+    "clear_boundaries": 2,
+    "max_latency_cycles": 857
+  },
+  "rejected_observations_or_slots": 504,
+  "reference_adapter": "Only non-grid coordinates or forbidden area bits -> class_id0, to invoke the unchanged oracle's invalid-candidate handling; every accepted input remains bit-identical",
+  "evidence_hashes": {
+    "compile.log": "AF5280F0AE37F6438D88358BBF49264D51BBC9469341EB83A572919C6A014C50",
+    "simulate.log": "89AFBD11ACF075320DEB23EBDDA06A1B516CFE6E71054433DD986127F5FF030C",
+    "vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  "limits": [
+    "Kernel only, no physical board or accuracy claim",
+    "The ordinary 1170-frame subset overlaps training/development",
+    "No arbitrary X/Z formal equivalence"
+  ]
+}

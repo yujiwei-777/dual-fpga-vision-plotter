@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "bitgen_allowed": true,
+  "run": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1",
+  "name": "secondary_cnn_multibox",
+  "generated_utc": "2026-11-01T10:15:35.354163+00:00",
+  "timing_ns": {
+    "SWNS": 0.005,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19455,
+      "total": 21216,
+      "percent": 91.69966063348416,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 91,
+      "total": 108,
+      "percent": 84.25925925925925,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 18,
+      "total": 40,
+      "percent": 45.0,
+      "strict_limit_percent": 95
+    }
+  },
+  "source_manifest_sha256": "EB634BE11954098D309B6F66A0124C02098DF86501E919471ABBC7EF64747F33",
+  "snapshot": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/syn_1/source_snapshot.json",
+  "failures": [],
+  "tracked_warnings": [
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34402,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34403,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34404,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34405,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34406,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34407,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_7 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34408,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_8 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34409,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_9 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34410,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34411,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34412,
+      "text": "SLATR-1036 Similar messages will be suppressed."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34413,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34414,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34415,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34416,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34417,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34418,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34419,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34420,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34421,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34422,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log",
+      "line": 34423,
+      "text": "SLATR-1038 Similar messages will be suppressed."
+    }
+  ],
+  "evidence": {
+    "secondary_cnn_multibox_pr.timing": {
+      "sha256": "86C3BC524CDAA5661FAF26DB8ECDD278DFB6AE9A6F7ECC490487272699F43CB0",
+      "mtime_ns": 1793527612288192900
+    },
+    "secondary_cnn_multibox_phy.area": {
+      "sha256": "765ED9AFEC53335F5644AEF7FD19131A3007BA8CDBF3071BAFFE0D5B7333BA40",
+      "mtime_ns": 1793527557977155900
+    },
+    "route_flow.status": {
+      "sha256": "5ED04ACFB812C62E01ED9217D11D8EDF7F18EDFC9D7FD94430DB3C8B08D68BAE",
+      "mtime_ns": 1793527612326785500
+    },
+    ".opt_route.end.f": {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "mtime_ns": 1793527614301766900
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/syn_1/.read_design.begin.f": {
+      "sha256": "C07EBC36ED81453F8C4A6ADCF0614A369C85F824A468EDC30284DFEDDDCB4F66",
+      "mtime_ns": 1793523940107466300
+    },
+    "secondary_cnn_multibox_pr.db": {
+      "sha256": "9AEA65015C522CCF102EA4999578F921A8474A60CCE6ADF524C39A7715CC152B",
+      "mtime_ns": 1793527614186925100
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/syn_1/td_console.log": {
+      "sha256": "12323D0AC25D36BA7A982992BBC673B500FDA24611E12EA910D25CBBC5FAF179"
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_doc_dirt_lowconf_factored_20261101/dirt_lowconf_factored_Runs_20261101/phy_1/td_console.log": {
+      "sha256": "0998CC5B38D8BD2112DD3FDC8D29279DA48E1712797337C5CCDAB2481038FF2F"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Build gates only; CDC/DDR/DRC and hardware review remain required"
+}

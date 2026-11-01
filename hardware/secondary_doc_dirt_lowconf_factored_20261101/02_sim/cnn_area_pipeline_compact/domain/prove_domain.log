@@ -1,0 +1,32 @@
+{
+  "status": "PASS_SOURCE_DERIVATION_AND_FINITE_INTEGER_CHECKS",
+  "proof_sha256": "AD2C6E6E3B8DF729E5F1437BB98FE1290B89343464536C4508DC257C6ED6F08C",
+  "integer_checks": {
+    "code_domain_size": 65536,
+    "strict_adjacent_order_checks": 65535,
+    "allowed_bit_mask": "003FFFC0",
+    "forbidden_bit_mask": "FFC0003F",
+    "encoded_area_min": 0,
+    "encoded_area_max": 4194240,
+    "encoded_area_sha256": "EDBE990A0F5F56B2B696AEFD06F01EF25C58CB248D188EE13FFA46885AF4B164",
+    "raw_replay_frames": 1170,
+    "raw_replay_boxes": 1223
+  },
+  "structure": {
+    "payload_r11": {
+      "depth": 4,
+      "logical_width_bits": 54
+    },
+    "payload_candidate": {
+      "depth": 4,
+      "logical_width_bits": 46
+    },
+    "metadata_r11_and_candidate": {
+      "depth": 4,
+      "logical_width_bits": 22
+    },
+    "logical_payload_bits_removed": 32,
+    "best_metric_ff_bits_removed": 8,
+    "physical_eram_count_or_packed_lut_savings": "NOT_MEASURED"
+  }
+}

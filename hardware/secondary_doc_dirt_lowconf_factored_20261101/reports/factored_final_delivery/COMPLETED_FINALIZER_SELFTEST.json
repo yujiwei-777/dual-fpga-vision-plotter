@@ -1,0 +1,54 @@
+{
+  "status": "PASS_SUPPLEMENT_NEGATIVES_ONLY_NOT_FINAL_RELEASE",
+  "count": 9,
+  "cases": [
+    {
+      "name": "reject_supplement_drift_finalize_delivery.py",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Original strict finalizer changed"
+    },
+    {
+      "name": "reject_supplement_drift_complete_release.py",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Manifest-completion input changed: reports/factored_manifest_completion/complete_release.py"
+    },
+    {
+      "name": "reject_supplement_drift_SELFTEST.json",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Manifest-completion input changed: reports/factored_manifest_completion/SELFTEST.json"
+    },
+    {
+      "name": "reject_supplement_drift_test_completion.py",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Manifest-completion input changed: reports/factored_manifest_completion/test_completion.py"
+    },
+    {
+      "name": "reject_supplement_drift_ORIGINAL_FAILURE_ARCHIVE.json",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Manifest-completion input changed: reports/factored_manifest_completion/ORIGINAL_FAILURE_ARCHIVE.json"
+    },
+    {
+      "name": "reject_invalid_negative_proof_negative_count",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Manifest-completion negative proof differs"
+    },
+    {
+      "name": "reject_invalid_negative_proof_current_manifest_unchanged",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Manifest-completion negative proof differs"
+    },
+    {
+      "name": "reject_invalid_negative_proof_no_original_rule_or_error_filter_modified",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Manifest-completion negative proof differs"
+    },
+    {
+      "name": "reject_invalid_negative_proof_no_TD_or_gate_or_readonly_or_bitgen_executed",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Manifest-completion negative proof differs"
+    }
+  ],
+  "wrapped_finalizer_unchanged_sha256": "89B57D35EBC1ED16E9794B1437B7093BD39684627AFED32CBE8721FC047FE13B",
+  "completed_finalizer_sha256": "0C501697A25BBE235F65CAEBD753F1122BDBAA55E1CDBD1991AB0F3B096CA42C",
+  "no_gate_or_TD_or_publish_executed": true
+}

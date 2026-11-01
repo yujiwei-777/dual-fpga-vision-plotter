@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-01T07:12:09.929234+00:00",
+  "status": "SOURCE_ONLY_REQUIRES_ALL_NEW_REGRESSION_AND_PHYSICAL_GATES",
+  "project_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_cnn_lowconf_20261101",
+  "baseline_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101",
+  "baseline_run": "cnn_key3_stroke_compact_area_sclk_Runs_20261101",
+  "baseline_bit_sha256": "3C5F52B2247DE0C6DF5E774204D6C0241B326D73AB628352D4ED3042ABDD67F0",
+  "rtl_delta": {
+    "01_rtl/doc_image_frontend.v": {
+      "before": "69D793BC4B9D38C4BCA3AE39C1C881EB6EC3A2167493FF35D5FFEC2EDCA5EB94",
+      "after": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4"
+    },
+    "01_rtl/secondary_top.v": {
+      "before": "64176506920BFF546415A1D1433FE1F6558FAAA565B5845FA826B56566694DCA",
+      "after": "3E72FBEA76575DC277DAEFB75DFD213E502009F29B1F31C9F0EA23501ECA2B2E"
+    }
+  },
+  "models_constraints_protocol_pipeline_core_stabilizer_unchanged": true,
+  "hardware_status": "NOT_RUN",
+  "lowconf_semantics": "Only production top shape thresholds explicitly zero; genuine scaled score zero retains original uncertain behavior; confidence is margin score, not calibrated probability."
+}

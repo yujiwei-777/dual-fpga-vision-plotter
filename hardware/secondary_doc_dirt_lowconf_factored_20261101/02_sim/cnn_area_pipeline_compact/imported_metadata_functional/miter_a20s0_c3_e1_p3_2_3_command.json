@@ -1,0 +1,29 @@
+{
+  "returncode": 0,
+  "args": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-novopt",
+    "-suppress",
+    "12110",
+    "-lib",
+    "simlib",
+    "tb_area_grid_equivalence",
+    "-gAREA_BITS=20",
+    "-gAREA_SHIFT=0",
+    "-gCOORD_SHIFT=3",
+    "-gEXTERNAL_CANDIDATE_READER=1",
+    "-gCONFIRM_RESULTS=3",
+    "-gHOLD_RESULTS=2",
+    "-gLOST_RESULTS=3",
+    "+vectors=generic_vectors.txt",
+    "-do",
+    "onerror {quit -code 1}; run -all; quit -f"
+  ],
+  "runner_sha256": "54DE43B460E5488FD8123EA28C008B15676E232689372F612C0D8937552F6316",
+  "manifest_sha256": "86452D333245213B0CB51B44EBBEC1C6100F4645DC442806C8C6BA099155BC80",
+  "MGLS_LICENSE_FILE": "E:/model/win64/LICENSE.TXT",
+  "LM_LICENSE_FILE": "E:/model/win64/LICENSE.TXT"
+}

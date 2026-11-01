@@ -1,0 +1,2 @@
+tb_real_pcb_core: BINARY_C4_4_GOLDEN_PASS samples=15 sat=0
+tb_real_pcb_pipeline: PCB_RAW_PIPELINE_GOLDEN_PASS samples=9

@@ -1,0 +1,370 @@
+{
+  "status": "PASS_SCRATCH_RTL_EXACT_CYCLE",
+  "candidate_sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+  "source_kernel_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+  "source_pipeline_sha256": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+  "quick_results_sha256": "3D9AAD17842E4F10948172AF0EFEE9386963713222BFED530B9F72858E0127D6",
+  "pipeline_coverage": {
+    "cycles": 11742298,
+    "public_ports": 37,
+    "controls": 11,
+    "jobs": 113,
+    "assertions": 527
+  },
+  "integer_gold": {
+    "checks": 3240,
+    "vectors": 3307,
+    "emitted": 2059,
+    "bank_reuses": 3247,
+    "clear_boundaries": 2,
+    "max_latency_cycles": 857
+  },
+  "generic_miter_modes": [
+    {
+      "mode": "miter_a20s0_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a20s0_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a20s0_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a20s0_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a22s0_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a22s0_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a22s0_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a22s0_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a24s0_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a24s0_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a24s0_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a24s0_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=24 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=3 external=0 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=1409804 serial=4024 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=3 external=1 params=3/2/3 vectors=2652 jobs=2612 rejected=0 cycle_checks=743417 serial=1254 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p1_0_1",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=1/0/1 vectors=2652 jobs=2612 rejected=0 cycle_checks=1312314 serial=4570 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p2_1_2",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=2/1/2 vectors=2652 jobs=2612 rejected=0 cycle_checks=1395646 serial=4374 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p4_0_4",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=4/0/4 vectors=2652 jobs=2612 rejected=0 cycle_checks=1405485 serial=1983 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e0_p15_15_15",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=0 params=15/15/15 vectors=2652 jobs=2612 rejected=0 cycle_checks=1396812 serial=882 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p1_0_1",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=1/0/1 vectors=2652 jobs=2612 rejected=0 cycle_checks=1312314 serial=4570 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p2_1_2",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=2/1/2 vectors=2652 jobs=2612 rejected=0 cycle_checks=1395646 serial=4374 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p4_0_4",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=4/0/4 vectors=2652 jobs=2612 rejected=0 cycle_checks=1405485 serial=1983 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a32s0_c0_e1_p15_15_15",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=0 coord=0 external=1 params=15/15/15 vectors=2652 jobs=2612 rejected=0 cycle_checks=1396812 serial=882 bank_reuses=2612"
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p1_0_1",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=1/0/1 vectors=3307 jobs=2952 rejected=288 cycle_checks=1034679 serial=3177 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p2_1_2",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=2/1/2 vectors=3307 jobs=2952 rejected=288 cycle_checks=1031863 serial=2122 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=3/2/3 vectors=3307 jobs=2952 rejected=288 cycle_checks=1030313 serial=2057 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p4_0_4",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=4/0/4 vectors=3307 jobs=2952 rejected=288 cycle_checks=1029705 serial=1857 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a22s6_c3_e0_p15_15_15",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=0 params=15/15/15 vectors=3307 jobs=2952 rejected=288 cycle_checks=1024089 serial=1331 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p1_0_1",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=1/0/1 vectors=3307 jobs=2952 rejected=288 cycle_checks=1034679 serial=3177 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p2_1_2",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=2/1/2 vectors=3307 jobs=2952 rejected=288 cycle_checks=1031863 serial=2122 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=3/2/3 vectors=3307 jobs=2952 rejected=288 cycle_checks=1030313 serial=2057 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p4_0_4",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=4/0/4 vectors=3307 jobs=2952 rejected=288 cycle_checks=1029705 serial=1857 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a22s6_c3_e1_p15_15_15",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=22 shift=6 coord=3 external=1 params=15/15/15 vectors=3307 jobs=2952 rejected=288 cycle_checks=1024089 serial=1331 bank_reuses=3240"
+    },
+    {
+      "mode": "miter_a20s1_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=1 coord=0 external=0 params=3/2/3 vectors=3250 jobs=2952 rejected=234 cycle_checks=1055213 serial=2249 bank_reuses=3186"
+    },
+    {
+      "mode": "miter_a20s1_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=1 coord=0 external=1 params=3/2/3 vectors=3250 jobs=2952 rejected=234 cycle_checks=1055213 serial=2249 bank_reuses=3186"
+    },
+    {
+      "mode": "miter_a20s19_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=19 coord=0 external=0 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=1086443 serial=2169 bank_reuses=3420"
+    },
+    {
+      "mode": "miter_a20s19_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=20 shift=19 coord=0 external=1 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=1086443 serial=2169 bank_reuses=3420"
+    },
+    {
+      "mode": "miter_a32s31_c0_e0_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=31 coord=0 external=0 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=1087255 serial=2169 bank_reuses=3420"
+    },
+    {
+      "mode": "miter_a32s31_c0_e1_p3_2_3",
+      "summary": "PASS AREA_GRID_EQUIVALENCE area_bits=32 shift=31 coord=0 external=1 params=3/2/3 vectors=3497 jobs=2862 rejected=558 cycle_checks=1087255 serial=2169 bank_reuses=3420"
+    }
+  ],
+  "lifecycle_modes": [
+    {
+      "mode": "lifecycle_c1h0l1_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=1/0/1 vectors=2385 gold=2315 jobs=2423 cycles=904906 serial=2943 reuses=2439 aborts=56"
+    },
+    {
+      "mode": "lifecycle_c1h0l1_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=1/0/1 vectors=2385 gold=2315 jobs=2423 cycles=904906 serial=2943 reuses=2439 aborts=56"
+    },
+    {
+      "mode": "lifecycle_c2h1l2_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=2/1/2 vectors=2385 gold=2315 jobs=2475 cycles=947334 serial=2402 reuses=2491 aborts=56"
+    },
+    {
+      "mode": "lifecycle_c2h1l2_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=2/1/2 vectors=2385 gold=2315 jobs=2475 cycles=947334 serial=2402 reuses=2491 aborts=56"
+    },
+    {
+      "mode": "lifecycle_c3h2l3_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=3/2/3 vectors=2385 gold=2315 jobs=2527 cycles=991615 serial=2328 reuses=2543 aborts=56"
+    },
+    {
+      "mode": "lifecycle_c3h2l3_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=3/2/3 vectors=2385 gold=2315 jobs=2527 cycles=991615 serial=2328 reuses=2543 aborts=56"
+    },
+    {
+      "mode": "lifecycle_c4h0l4_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=4/0/4 vectors=2385 gold=2315 jobs=2579 cycles=1034343 serial=2041 reuses=2595 aborts=56"
+    },
+    {
+      "mode": "lifecycle_c4h0l4_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=4/0/4 vectors=2385 gold=2315 jobs=2579 cycles=1034343 serial=2041 reuses=2595 aborts=56"
+    },
+    {
+      "mode": "lifecycle_c15h15l15_e0",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=0 params=15/15/15 vectors=2385 gold=2315 jobs=3151 cycles=1516266 serial=1371 reuses=3167 aborts=56"
+    },
+    {
+      "mode": "lifecycle_c15h15l15_e1",
+      "summary": "PASS COMBINED_STATE_LIFECYCLE coord=3 area=22 reader=1 params=15/15/15 vectors=2385 gold=2315 jobs=3151 cycles=1516266 serial=1371 reuses=3167 aborts=56"
+    }
+  ],
+  "aggregate_state_aborts": 560,
+  "evidence_sha256": {
+    "aligned_a20_s1.txt": "DA3B7952C57D96C3620B784EDEFA0B9F3C643F3CDA4920A1285441E2B610112A",
+    "aligned_a20_s19.txt": "3A630AB2E4AC72364C70D0628FFC51B951AEC4AF54E788A6DAAD9E13647409EC",
+    "aligned_a22_s6.txt": "D852AFD23D4D01B854C7665C4BD425EBEC5A4AE38FD41CA01A1705460C61078E",
+    "aligned_a32_s31.txt": "40718F01D22E1EFDA2BE90406F85C5031ED9501204CE0653AF1A140F94EFB3EB",
+    "c15h15l15.txt": "2562530600D6C133F37E6F2842858E76D008F36230759F7D681EF1D06CB0CF0D",
+    "c1h0l1.txt": "896A078D14039C7CB6E36CBEAAC81030F729D464F057263450024EE1B26C70FA",
+    "c2h1l2.txt": "7FC7013A3153902223CB362C1A84908B6D9BC1350C2AA4630CDC484EC29531E5",
+    "c3h2l3.txt": "658A4BD13198A33B99CBB97238772C448ED2CF029FC9AE45822B4EB1660B779D",
+    "c4h0l4.txt": "3FCC6A366FCB428A203A88B6916651449C04EF634F1C25A63F9F5D967A31AFAB",
+    "cnn_result_stabilizer.v": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+    "cnn_result_stabilizer_baseline.v": "5EB86B41BE952A4948A50EE17E8DB83EA8A892C7E05365AC8F525BE4D11B10C5",
+    "compile.log": "850A3B93F14672D6AA2B4F43DB56F2AB11F7C1BE2019B43E62DAA280F038ACE9",
+    "compile_command.json": "3BE0D129A995C72C8F87E420D937452388C41A8C7757382341EE436FA7E4E934",
+    "generic_vectors.txt": "FD46A8CCE05C6E2C62A25ED3F57BB4716E9BEDCE1C2823A935029D4FFDBF4B6B",
+    "lifecycle_c15h15l15_e0.log": "B140AF750CF56F842E719CEA60051447E3E692E790ED3A520A72469251B107BF",
+    "lifecycle_c15h15l15_e0_command.json": "5C944343B4038838D44DDB54F20DBBB141FC7AD02B39D348A6D6D28EC6636E7D",
+    "lifecycle_c15h15l15_e1.log": "318AA377B1DAE598007A7074D6D52B732CDA5FC724874879657E07F6FE5F252C",
+    "lifecycle_c15h15l15_e1_command.json": "0F9A4315F209C727FBF1B2EBA7F7EA02A3029013BC5ED866CB8DC40688B5A1A4",
+    "lifecycle_c1h0l1_e0.log": "E42F02E7CE9ABCC8D7ACED2D0177B2FE764DAE6BFB03DBD66321DD7E14BD6AFF",
+    "lifecycle_c1h0l1_e0_command.json": "B1BCB8895069FB418F3978BC13EA52AC3DE272328C85D7C65E922617E2C690E5",
+    "lifecycle_c1h0l1_e1.log": "68D3566BA8CF741F2F90BA65B42008A3CF2DA5078688A0A34D3D39AE873C1FB9",
+    "lifecycle_c1h0l1_e1_command.json": "B3851526AE149658B1B77AFBB7A8C644C41B3252939E1E0BEB58FA6FC371C2FC",
+    "lifecycle_c2h1l2_e0.log": "BAB9424206EAA692A7F91AA4EA3665DAA2DE83B47E813BEB845725C3AFF4706E",
+    "lifecycle_c2h1l2_e0_command.json": "93AF96BD4814A776278A039B41F304E83829FB65D83D814AC3B1324CCBA1B040",
+    "lifecycle_c2h1l2_e1.log": "59F44C578DEA0A208460B3E6C646FA72053F12B2FD3B3EC6779C9A7FB7D78D83",
+    "lifecycle_c2h1l2_e1_command.json": "B858D2CAE87590F23A70ADB43FB95A2FAA833A8AC48A013186B434C1C3586F45",
+    "lifecycle_c3h2l3_e0.log": "025C3AB1682CDCBACBA5EE90394FA54330E96216B36EDD9D8D0D0E900C9BAB21",
+    "lifecycle_c3h2l3_e0_command.json": "EDE44B76237D182030F227ACB3ACF774232693407DCB22912B4022EC6764D052",
+    "lifecycle_c3h2l3_e1.log": "5BADA47B849E4FE9C87449F0637B5F4A450902B1FAF375EBD22D3EC3737ADA4F",
+    "lifecycle_c3h2l3_e1_command.json": "D620B99F7B024771EEC58C44634D50E1F1B5EF02E77E62ADF2AAF17D0D379621",
+    "lifecycle_c4h0l4_e0.log": "20B7B80E35995EF9F70C9DE7C7097B7C8CE0BD2D06C4B197821F5D162E9F8CA3",
+    "lifecycle_c4h0l4_e0_command.json": "2010856039F98BD145C226C94457F8FBB25D112C91AB61C248550EE51ACF99D9",
+    "lifecycle_c4h0l4_e1.log": "FB74E3C5BFBDE85EB27992A1DAF4A929746117756E9879B61B152D91503355E7",
+    "lifecycle_c4h0l4_e1_command.json": "9FE2E9C0322224EB567DE69CF615616723DFBBA8CA0FEA5AD41312D6CEDFC1A5",
+    "miter_a20s0_c0_e0_p3_2_3.log": "724723293EFC6D9A5867C33240630AFF4961BF3007CA796AF4996AB990AABAD1",
+    "miter_a20s0_c0_e0_p3_2_3_command.json": "7E2256BDACBB0C87216B59FDC2C85FB23A612DAFB688AD258945C165369B3DE5",
+    "miter_a20s0_c0_e1_p3_2_3.log": "9941A36964EE303AC68EB7F34ECDFD3D522F0866484942B37C2F049D825E002E",
+    "miter_a20s0_c0_e1_p3_2_3_command.json": "4AE0052EB5111681EC48C03C923EBE6C7BFD745CB7967738A7845FB4808DD5B2",
+    "miter_a20s0_c3_e0_p3_2_3.log": "55EA263E8BF4FEF6BD8B6AF73585D8BE3530E09F2FCCB266752C727965C0320E",
+    "miter_a20s0_c3_e0_p3_2_3_command.json": "14C3A43BA688BBE266E0EDE22D7AB2A634B18CC5134A13705CEA6FDEAA46FE78",
+    "miter_a20s0_c3_e1_p3_2_3.log": "887BAE67DC0C270E0402B8CB98F558187D34F54EB0F273F58E3DD34C8B2879E6",
+    "miter_a20s0_c3_e1_p3_2_3_command.json": "001A0BE758B82272CE9B46CDD49CFFD562203CFF229BEF267D6979DC15F8D75A",
+    "miter_a20s19_c0_e0_p3_2_3.log": "76EED25BE9E0A201EAAE765D67D311E53D80B6AB6BA90F4AD4E9C6B18EB2A106",
+    "miter_a20s19_c0_e0_p3_2_3_command.json": "75F3ABD80DFEA487C92D4766E004D0A63519D2F0577648A942569D7BE0FE5EC4",
+    "miter_a20s19_c0_e1_p3_2_3.log": "591A73122DFFF46C297F0BB26E1FF68E0AB01D190993D6AACEB1A9746550D109",
+    "miter_a20s19_c0_e1_p3_2_3_command.json": "E23893D6C35AEC9FFA4E8E798182715305B870EEFBBD5901874E12524A236528",
+    "miter_a20s1_c0_e0_p3_2_3.log": "0BF4A09BCEDFB9D58E19539C36AE057E225C8805EED103413741A5C72FF5DE62",
+    "miter_a20s1_c0_e0_p3_2_3_command.json": "FD364CD53CF33AD8EE96972CFB309040D2F709A4FC49CF3611DF745588218FB8",
+    "miter_a20s1_c0_e1_p3_2_3.log": "D82BEED8FC64E3E0DE7A3FDCBCF823C1A3229DD0C5D7D84EB4B248A72E9CFA65",
+    "miter_a20s1_c0_e1_p3_2_3_command.json": "A44516EFBC8AEE599090A1279608A1E658254C9D7B28E001DB91181AE78A8170",
+    "miter_a22s0_c0_e0_p3_2_3.log": "A04DCD6CD42247DBFBA9975428AABE5E458B1B6C41CA88FEC008D9AEFEB09EDD",
+    "miter_a22s0_c0_e0_p3_2_3_command.json": "08C19859AFC5A6F2E9E74EEEB907E1D491EDBBAF7C09DD1F6DB2EA8F0070FBC8",
+    "miter_a22s0_c0_e1_p3_2_3.log": "24877CE7E895048BF4524CAE03D2E4D3B14BE1A464EA83BD6BE72E4D8E4E392F",
+    "miter_a22s0_c0_e1_p3_2_3_command.json": "790FB28A8837EBCE4EBEDF61DFC46DAB7B857FDB43E3E1467120F94E7CD729A0",
+    "miter_a22s0_c3_e0_p3_2_3.log": "8C84522E905D00870898009E2841E8731027BFB95DF81E802AD0CF0EFF554DE7",
+    "miter_a22s0_c3_e0_p3_2_3_command.json": "B5BB418FCFEF62C50A56CC4B9171AB12E28D0B74213352F389FA7292BEDA633F",
+    "miter_a22s0_c3_e1_p3_2_3.log": "B86AE4A3F5E69DC31205D03C25C1BC631A45325E19D7A6D338F7593E710F97E1",
+    "miter_a22s0_c3_e1_p3_2_3_command.json": "CF2838588E61839C0A77F230B848EF179F4C5290CD300AFC4A3232B4C65BEB42",
+    "miter_a22s6_c3_e0_p15_15_15.log": "F1DFE70BC5F46AAE7B7B30CF4F5D850795469FDA0CF65BF9B1B15B6D2B4BD5FB",
+    "miter_a22s6_c3_e0_p15_15_15_command.json": "01AF5FEB3F2CF9CE767C644BC8E3AC2465FBFF0750BBA7B2D0E37DDE9A121DC1",
+    "miter_a22s6_c3_e0_p1_0_1.log": "7E16D4325E3687DF400113AF116DEA9AA64EEBD347BE7E06BC92D0F379D019A3",
+    "miter_a22s6_c3_e0_p1_0_1_command.json": "F3F258AC1B8676CA7C36663535ED9363E1D207235F420E11827E5783BCC3B38D",
+    "miter_a22s6_c3_e0_p2_1_2.log": "A388F5280F1E1B6F3050804DCC6C2484075A2E40022E9FB59754FBA12C1B1113",
+    "miter_a22s6_c3_e0_p2_1_2_command.json": "4288FDE72E27163C5758A6D556569E618A6891B91A6F150A5B20B323C38203AF",
+    "miter_a22s6_c3_e0_p3_2_3.log": "765693A10888126F32FBE7A6399D4C3A19B8B2499C586BD3553E3DD96F3A16D1",
+    "miter_a22s6_c3_e0_p3_2_3_command.json": "42B099FBCDC05FCCF3C9FDEDE7E15E474587A8D0F4708A3B74091F7AAAFC122B",
+    "miter_a22s6_c3_e0_p4_0_4.log": "894788B5CC9960E4A6A4E6121B82F9F9A139433A25F9433FC5A63ED254D20BE0",
+    "miter_a22s6_c3_e0_p4_0_4_command.json": "1EF350142C2276A6E02871C63538BFE1262A5A70C105D9EA639A795BD709242B",
+    "miter_a22s6_c3_e1_p15_15_15.log": "0EAA17923C1C57408FF40F6D2C187599F5CFE96393554D047309CBBB90C51980",
+    "miter_a22s6_c3_e1_p15_15_15_command.json": "6878BD32C738AB33197D9D68A87ECE0CC210E522A9C574578238EAA032D69C74",
+    "miter_a22s6_c3_e1_p1_0_1.log": "872CC1F4E751C2CD26AD1B323BBFA2514AF8A5ABC48BB51AE06B72D5B4944923",
+    "miter_a22s6_c3_e1_p1_0_1_command.json": "83E818A346515655462F36612F39D900AF4773AD2B0735113D146E15416F42CE",
+    "miter_a22s6_c3_e1_p2_1_2.log": "2C98741CB1EF7E77E1B97868201A36B862F6CF75F7F10149F27ADA09126A2F94",
+    "miter_a22s6_c3_e1_p2_1_2_command.json": "F22446ECEC504C8064CB053785073CD83092A2B8EA03A0AA6DE506917BEA1427",
+    "miter_a22s6_c3_e1_p3_2_3.log": "CB54E4C574ADEC6CBFC1522E0701495B6FE6D3B079A06D20D220F4F9C23DABDA",
+    "miter_a22s6_c3_e1_p3_2_3_command.json": "A9F2F6A055050E123E013F92AAAC3E2E43FFCC5F867A4FBA045717E68391410A",
+    "miter_a22s6_c3_e1_p4_0_4.log": "A3AD72F55DD55088F445AD25FE14416EEA45FADC813FCA655911490E480DD141",
+    "miter_a22s6_c3_e1_p4_0_4_command.json": "A57BB2B5DA8F1D55A4529BE1985739001083E7E836B78ADB34722D96881F956E",
+    "miter_a24s0_c0_e0_p3_2_3.log": "E6E0B722E88840173EC7360D63A73244C13BFBD7C7194477B71E6A6DE0F376CE",
+    "miter_a24s0_c0_e0_p3_2_3_command.json": "35213FF29BE28547A8FE7FB715FC53C8B1E665EAD18FD16FF75422AA79636E55",
+    "miter_a24s0_c0_e1_p3_2_3.log": "43AD193C8EB138409ED1B72D5382378B548C45AF316110ECB7DA6CD9247D15C7",
+    "miter_a24s0_c0_e1_p3_2_3_command.json": "822F6698356E48E2B3B3E18AC0BE87BBBBD06D9B69E86A145BC79D6315497965",
+    "miter_a24s0_c3_e0_p3_2_3.log": "ECBEE687E3A311724F8EF3C66B4A80392ED27B9FE96014D10BB98FF66CAF6BE6",
+    "miter_a24s0_c3_e0_p3_2_3_command.json": "58FBE960E15B8DD8038ACAA147198F644D3295D42F98EFF36908A0BC9B670741",
+    "miter_a24s0_c3_e1_p3_2_3.log": "B25FE01DF6E350EAE17B867AF3530766FFD545E4DE51AACDD6E20EE2C890BAFE",
+    "miter_a24s0_c3_e1_p3_2_3_command.json": "421109031F4F8A7AD143B97D7CA1AABEC00AC2DDC6114BC517E51186410A5514",
+    "miter_a32s0_c0_e0_p15_15_15.log": "992240A01669FC41DE26150BA8883DE21F6276ECF7F0FEB4423F4DFAB7189750",
+    "miter_a32s0_c0_e0_p15_15_15_command.json": "2A3BB66FEDD3876DFED73FDF7881CBC667067CF110C5E58C311E759272276206",
+    "miter_a32s0_c0_e0_p1_0_1.log": "4C6D2C38F8A0C8C4B445BA8E2D4DA7E5B84447C5B017F81EE4BA4724C31F55E9",
+    "miter_a32s0_c0_e0_p1_0_1_command.json": "0CDDDADBFAE8744CCC60D09A230D6FA8F83D85ADABF4EE790C77A691313DBABE",
+    "miter_a32s0_c0_e0_p2_1_2.log": "E4988300A7B1FBF9CDEDB54781CD2B3856EDDA5035DC29056CCE855A1D819DEB",
+    "miter_a32s0_c0_e0_p2_1_2_command.json": "475341D3E9215CD411F555545811D2A5CBB99B418BBCA505DD08E8C01F92146A",
+    "miter_a32s0_c0_e0_p3_2_3.log": "E6406DD63ED35EE32562FC90B39309CBFB056A64D4A4C38FB13A4AA0DC69C83B",
+    "miter_a32s0_c0_e0_p3_2_3_command.json": "CEC2A05C13DB5D5DB81B14F0C9114CF0BBF3157750B266F9A7640CE171F1A899",
+    "miter_a32s0_c0_e0_p4_0_4.log": "48D8882CF72DBB0CC8177A549A28FF1FCDD9D3CA41CBF40326AC343F3A307ED4",
+    "miter_a32s0_c0_e0_p4_0_4_command.json": "23A2269AE92CEC3BA65E2B07FC79E927CC5B3E10C553CB1DFDD033F8581DDD77",
+    "miter_a32s0_c0_e1_p15_15_15.log": "0C6EAB97C6CE6CBF0AF4C96925AF73D7C57ADDACD97621F376C66F4ECF670495",
+    "miter_a32s0_c0_e1_p15_15_15_command.json": "1D2DE943CA231FB1EE9ACD1B19887CD09BC3D9EA06A2CE9A99ED75CFAD3C0933",
+    "miter_a32s0_c0_e1_p1_0_1.log": "8523BD1C1CE4F818B20E3A6FD36D55547F0F1D12E22D2F64736035CE2608DC07",
+    "miter_a32s0_c0_e1_p1_0_1_command.json": "F4E7DBE417A9B16D7202CECA9EFA52981B18CC7B08C33A907D1C0B0B7A260F13",
+    "miter_a32s0_c0_e1_p2_1_2.log": "931ABFD676929A1093E3CA68BA505555C92576ED5B364086072A3AFCECDACC40",
+    "miter_a32s0_c0_e1_p2_1_2_command.json": "C4E60387F6CB0381C863755B212894C0D0F26F8662DE701834F4C66FB194B359",
+    "miter_a32s0_c0_e1_p3_2_3.log": "B772171A9E0E93C8137FCA7DB25E0198190249DE28C82DF89B06C423C88636F2",
+    "miter_a32s0_c0_e1_p3_2_3_command.json": "926C3876E6B2531DE705B152B319905CC641B73B0A51B998FE7C841F35DFEC93",
+    "miter_a32s0_c0_e1_p4_0_4.log": "CABD07A40E8FB3C7B2F6E482AF96275A7498330DC0CE903E8ED243F0BAC73272",
+    "miter_a32s0_c0_e1_p4_0_4_command.json": "88A2F2C4FC9AD1D628FF246517BA0B8376EADD0A53CEC1CDE88422C71E3A85CB",
+    "miter_a32s0_c3_e0_p3_2_3.log": "B1EB4381132B81D1C28D14962339B5707D215A051A28A8B59EE564E8235D3B64",
+    "miter_a32s0_c3_e0_p3_2_3_command.json": "52547978E7D39F1DBBE74D9DBEEABA209B50A4D46DFE65F1CC2DA86738080E32",
+    "miter_a32s0_c3_e1_p3_2_3.log": "F1BE41DBE0359CB7DC8A77F758D66054B6D05391AABCCD2342E1982F0F185E02",
+    "miter_a32s0_c3_e1_p3_2_3_command.json": "6BD4311AF87171A5B97A73ADEF6F05025404CBB29ED1E0A5E14048C48DEF643F",
+    "miter_a32s31_c0_e0_p3_2_3.log": "29BF014DDEC3AE649CC698BC5BDDE9B42FF9AF7D18847AEED3850974B4177555",
+    "miter_a32s31_c0_e0_p3_2_3_command.json": "0BE05DBAB163092699A7BFF01B519C98DB62D4F0857B71D71D67C7E6A3576623",
+    "miter_a32s31_c0_e1_p3_2_3.log": "145EDEFA1BE64709CCDE2EEDB0A61206D5F5842B9E165A8643E47646151A7611",
+    "miter_a32s31_c0_e1_p3_2_3_command.json": "DB52A81AE7A2C52538AB9CA0BA53A8FB6EC1E83860051CE2C0F3F67624D2C1E0",
+    "pipeline_leaf_stubs.sv": "B19E7BDF866824235C6B89DC78E4A3FCD41C48FD0EE4C29FFA8ADFCF89AEAAA2",
+    "PREPARATION.json": "86452D333245213B0CB51B44EBBEC1C6100F4645DC442806C8C6BA099155BC80",
+    "production_integer_gold.log": "A2E491D4F744E23E122AA38BEC300E22F73195EA3A02605132A57328A4F2C081",
+    "production_integer_gold_command.json": "4145AC24F3AA9A9063CC02555A713BAC4C2C426B360500C67AFD985101EFC059",
+    "production_pipeline.log": "FFF7184C90262336D24239598B77F194FE29C1462E95FAE6E70BFC4E7181BF3C",
+    "production_pipeline_command.json": "553A7964C9A434EFEA8B5456D09236591825623E78A5C2A2FD65F50F190FC9C7",
+    "QUICK_RESULTS.json": "3D9AAD17842E4F10948172AF0EFEE9386963713222BFED530B9F72858E0127D6",
+    "README.md": "E306FB5FCC7A67C1AE02A95053C8723C071238BE292F577AEBF9B8441830BE89",
+    "run_regression.py": "54DE43B460E5488FD8123EA28C008B15676E232689372F612C0D8937552F6316",
+    "tb_area_grid_equivalence.sv": "A9D6CF90462E5BE11F2587E988D4A9149E8ED49548FD04AAF50A62BB58C7985C",
+    "tb_cnn_stability_serial.sv": "596711FFF2A8629B024F4896D6C443128E94BF0D8605F0F81901C22D7E826E40",
+    "tb_combined_state_lifecycle.sv": "D02B53183F141DA8C66B8D4DA65CF21C89EEBCD46427DB8D246117A9507FB363",
+    "tb_fixed_grid_mapping_miter.sv": "98A159C7E02713647ADCDF99215B5E69CE7499137B078A66F0A6351AB529E26A",
+    "vectors.txt": "FD014AF8DE19ADCAEB79BCFD39DD957F68DF335D3357E6B1B11E9DD1BF13FF84",
+    "vision_pipeline.v": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9",
+    "vision_pipeline_baseline.v": "7876918A9EA2347E2E1791DCA47A30004462F8B536EECF81B3780BB8EE1233C3",
+    "vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "vlib_command.json": "9D98126C351DFDDDC51D5404664759899551E200825722005C14D4F580D0C381"
+  },
+  "production_modified": false,
+  "parent_candidate_modified": false,
+  "hardware_status": "NOT_RUN",
+  "limits": [
+    "Directed/random simulation, not mathematical formal proof",
+    "Actual production pipeline and kernel, with controlled leaf modules",
+    "No board place/route/timing/CDC/FIFO/DDR/DRC acceptance or new image-quality claim",
+    "Metadata-only resource saving is local; no claim that board placement is solved"
+  ]
+}

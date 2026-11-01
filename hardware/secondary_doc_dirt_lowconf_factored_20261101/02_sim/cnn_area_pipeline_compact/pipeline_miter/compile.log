@@ -1,0 +1,23 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 16:59:55 on Nov 01,2026
+vlog -sv -lint -work simlib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\cnn_area_pipeline_compact\pipeline_miter\pipeline_leaf_stubs.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\cnn_area_pipeline_compact\pipeline_miter\vision_pipeline_baseline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\cnn_area_pipeline_compact\origin\cnn_result_stabilizer_baseline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\vision_pipeline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\01_rtl\cnn_result_stabilizer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_doc_dirt_lowconf_factored_20261101\02_sim\cnn_area_pipeline_compact\pipeline_miter\tb_fixed_grid_mapping_miter.sv 
+-- Compiling module vision_color_stats
+-- Compiling module vision_pixel_reader
+-- Compiling module edge_roi_ccl
+-- Compiling module vision_workspace
+-- Compiling module vision_shared_mac
+-- Compiling module cnn_core
+-- Compiling module pcb_fullboard_spatial96
+-- Compiling module pcb_tinycnn_core
+-- Compiling module pcb_tinycnn_core_compact
+-- Compiling module pcb_defect_cluster
+-- Compiling module vision_pipeline_baseline
+-- Compiling module cnn_result_stabilizer_baseline
+-- Compiling module vision_pipeline
+-- Compiling module cnn_result_stabilizer
+-- Compiling module tb_cnn_stability_pipeline
+
+Top level modules:
+	tb_cnn_stability_pipeline
+End time: 16:59:55 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

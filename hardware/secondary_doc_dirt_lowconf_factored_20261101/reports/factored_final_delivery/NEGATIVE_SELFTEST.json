@@ -1,0 +1,103 @@
+{
+  "status": "PASS_NEGATIVE_SELFTEST_ONLY_NOT_RELEASE_EVIDENCE",
+  "cases": [
+    {
+      "name": "actual_build_without_routed_bit_is_not_ready",
+      "status": "EXPECTED_REJECTION",
+      "reason": "NOT_READY: missing artifacts\\dual_fpga_secondary_20261101_doc_dirt_lowconf_factored_diagnostic.bit, artifacts\\dual_fpga_secondary_20261101_doc_dirt_lowconf_factored_diagnostic_BUILD.json, artifacts\\dual_fpga_secondary_20261101_doc_dirt_lowconf_factored_diagnostic.bit.sha256, dirt_lowconf_factored_Runs_20261101\\phy_1\\secondary_cnn_multibox.bit, dirt_lowconf_factored_Runs_20261101\\phy_1\\.opt_place.end.f, dirt_lowconf_factored_Runs_20261101\\phy_1\\.opt_route.end.f, dirt_lowconf_factored_Runs_20261101\\phy_1\\.bitgen.end.f, dirt_lowconf_factored_Runs_20261101\\syn_1\\.opt_gate.end.f, dirt_lowconf_factored_Runs_20261101\\phy_1\\release_gate.json, dirt_lowconf_factored_Runs_20261101\\phy_1\\secondary_cnn_multibox_pr.timing, dirt_lowconf_factored_Runs_20261101\\phy_1\\secondary_cnn_multibox_phy.area, 02_sim\\dirt_lowconf_factored_Runs_20261101_physical_review\\FINAL_PHYSICAL_REVIEW.json, 02_sim\\dirt_lowconf_factored_Runs_20261101_readonly\\readonly_verification.json"
+    },
+    {
+      "name": "source_or_plan_drift_doc_image_frontend.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Production pin differs: 01_rtl/doc_image_frontend.v"
+    },
+    {
+      "name": "source_or_plan_drift_secondary_top.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Production pin differs: 01_rtl/secondary_top.v"
+    },
+    {
+      "name": "source_or_plan_drift_vision_pipeline.v",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Production pin differs: 01_rtl/vision_pipeline.v"
+    },
+    {
+      "name": "source_or_plan_drift_BUILD_PLAN.json",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Frozen build plan differs"
+    },
+    {
+      "name": "wrong_independent_root",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Wrong/protected root"
+    },
+    {
+      "name": "non_diagnostic_build_status",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Bit status differs"
+    },
+    {
+      "name": "failed_routed_gate_7",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Routed gate failed"
+    },
+    {
+      "name": "failed_routed_gate_8",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Routed gate failed"
+    },
+    {
+      "name": "failed_routed_gate_9",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Routed gate failed"
+    },
+    {
+      "name": "failed_readonly",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Readonly verification failed"
+    },
+    {
+      "name": "missing_readonly_DB_AL_hashes",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Readonly DB/AL closure differs"
+    },
+    {
+      "name": "quality_hardware_claim",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Quality scope differs"
+    },
+    {
+      "name": "quality_unbound_plan",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Quality root/run/plan differs"
+    },
+    {
+      "name": "quality_wrong_source_scope",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Quality current-source/RTL evidence differs"
+    },
+    {
+      "name": "quality_wrong_production",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Quality production pins differ"
+    },
+    {
+      "name": "quality_physical_overclaim",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Quality overclaims or lacks provenance/limits"
+    },
+    {
+      "name": "quality_missing_limits",
+      "status": "EXPECTED_REJECTION",
+      "reason": "Quality overclaims or lacks provenance/limits"
+    }
+  ],
+  "count": 18,
+  "actual_finalizer_status": "NOT_READY",
+  "no_TD_started": true,
+  "no_PASS_release_or_fake_route_artifacts_created": true,
+  "protected_inputs_unchanged": true,
+  "finalizer_sha256": "89B57D35EBC1ED16E9794B1437B7093BD39684627AFED32CBE8721FC047FE13B",
+  "test_sha256": "6D5B5EF6EB8A9E6F9131B4A670E267846ED5EE083F14B238C0B421568B0C73AD",
+  "hardware_status": "NOT_RUN"
+}

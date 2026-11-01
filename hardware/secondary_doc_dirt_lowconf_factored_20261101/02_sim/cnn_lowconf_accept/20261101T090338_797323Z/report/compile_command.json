@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "E:\\model\\win64\\vlog.exe",
+    "-sv",
+    "-lint",
+    "-work",
+    "work",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_line_formatter.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_response_parser.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_streamer.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_vector_font_rom.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_reporter.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\cnn_lowconf_qualification\\tb_lowconf_report.sv"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.081,
+  "log_sha256": "A0AA85083076D5B3BE488CF0F315DF51B3D7117827BF49D69F22FD6AF19DEB61"
+}

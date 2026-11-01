@@ -1,0 +1,12 @@
+{
+  "vlog_log": "reports/panel_unit_no_hist/compile_no_hist.log",
+  "result": "PASS; 74186 checks; 0 errors; 0 warnings",
+  "testbench": "reports/panel_unit_no_hist/tb_osd_compact_panel.v",
+  "variant": "main_osd_chinese_no_hist_20261031",
+  "rtl_file": "01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_compact_panel.v",
+  "baseline": "main_osd_chinese_compact_20261030",
+  "changed_cells": "line=1, cell 7..13",
+  "baseline_sha256": "BE43004C5DE76568CD5C686984E4933EA958106D31860AE2B68A060B8B5B02F7",
+  "variant_sha256": "3FDAF50C6FE27C2E158FEB037D63E8E37783F08938928B70D81339820C46BEC3",
+  "vsim_log": "reports/panel_unit_no_hist/transcript_no_hist.log"
+}

@@ -1,0 +1,1802 @@
+{
+  "status": "EXPERIMENTAL_CANDIDATE_NOT_QUALIFIED_NOT_BUILT",
+  "baseline_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031",
+  "project_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101",
+  "copy_records": [
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\cnn_core.v",
+      "path": "01_rtl/cnn_core.v",
+      "sha256": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\cnn_core_shared.v",
+      "path": "01_rtl/cnn_core_shared.v",
+      "sha256": "3535F3C931D9E50CC93BA1DB57398BE5AE895B7B8877089B18CBA608D8371500"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\cnn_result_stabilizer.v",
+      "path": "01_rtl/cnn_result_stabilizer.v",
+      "sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_arithmetic.v",
+      "path": "01_rtl/doc_arithmetic.v",
+      "sha256": "0C7643D7760D730597C61F8C67F267E8961AE471C3C858009C747D6492132988"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_copy_pipeline.v",
+      "path": "01_rtl/doc_copy_pipeline.v",
+      "sha256": "74FEAE6403C59F99D1BD8D9FAFFFDEF147620BA1D580F63BE9B25132A35F8E46"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_grbl_map.v",
+      "path": "01_rtl/doc_grbl_map.v",
+      "sha256": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_grbl_plotter.v",
+      "path": "01_rtl/doc_grbl_plotter.v",
+      "sha256": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_grbl_response_parser.v",
+      "path": "01_rtl/doc_grbl_response_parser.v",
+      "sha256": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_grbl_streamer.v",
+      "path": "01_rtl/doc_grbl_streamer.v",
+      "sha256": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_homography.v",
+      "path": "01_rtl/doc_homography.v",
+      "sha256": "64000748FD47F45264B41F197EA019ADAF0BD7CDE669A56EFBB3DDB60F8F163F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_image_frontend.v",
+      "path": "01_rtl/doc_image_frontend.v",
+      "sha256": "69D793BC4B9D38C4BCA3AE39C1C881EB6EC3A2167493FF35D5FFEC2EDCA5EB94"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_image_otsu.v",
+      "path": "01_rtl/doc_image_otsu.v",
+      "sha256": "07BBE67204B3EE0472C1FD61B72AEF49C2BFCD0FA3B407386A2C490FCF1F2220"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_image_paper.v",
+      "path": "01_rtl/doc_image_paper.v",
+      "sha256": "1983C79D3E365A80F8F100E9E11A48FE488542334D6BE9159D2B7D695A93DF8F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_image_refine.v",
+      "path": "01_rtl/doc_image_refine.v",
+      "sha256": "D00C62734FC5CFECBFD803DCAEA6B845F5BAF74E556B6544C53CEC65A286C20E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_machine_map.v",
+      "path": "01_rtl/doc_machine_map.v",
+      "sha256": "91A74D61C8CB6CFF70D9A7BD31604765C846B50997AE1BD114480EC8924BE836"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_path_distance.v",
+      "path": "01_rtl/doc_path_distance.v",
+      "sha256": "265774F97B39989FF199B8D288F892E364AB2B38076C1384025430624FB67174"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_stroke_bram.v",
+      "path": "01_rtl/doc_stroke_bram.v",
+      "sha256": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\doc_stroke_planner.v",
+      "path": "01_rtl/doc_stroke_planner.v",
+      "sha256": "DB552C7E3619108DACF894232696B95A573AE194C44E2B6439A744705597E204"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\edge_roi_ccl.v",
+      "path": "01_rtl/edge_roi_ccl.v",
+      "sha256": "B9F70388734A116B05A1299F9D4FC8175E11C27D19CAB3CCACAAC464D975F5CB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\edge_roi_ccl_fast.v",
+      "path": "01_rtl/edge_roi_ccl_fast.v",
+      "sha256": "B328301DD46E8C4428B861678FB3A49A86D5931BDD5DA3C633E81B18C5675867"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\grbl_line_formatter.v",
+      "path": "01_rtl/grbl_line_formatter.v",
+      "sha256": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\grbl_reporter.v",
+      "path": "01_rtl/grbl_reporter.v",
+      "sha256": "5BCF7EFEB29D38441BD63C3F5E4B1A643281D1E3F41DB5CFA875F01383462535"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\grbl_response_parser.v",
+      "path": "01_rtl/grbl_response_parser.v",
+      "sha256": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\grbl_streamer.v",
+      "path": "01_rtl/grbl_streamer.v",
+      "sha256": "60BB7176BD2D1B4F61E0E290C53998F15BBFF0FE260AFB1193E1F5BC7EAC2358"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\grbl_stroke_rom.v",
+      "path": "01_rtl/grbl_stroke_rom.v",
+      "sha256": "F2D100C57ED1557B3C38857321A7CBE269451523699A1FDF16DA1963D632902E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\grbl_uart.v",
+      "path": "01_rtl/grbl_uart.v",
+      "sha256": "56182E34F94F7A596D7B315C3EAA72438ECBFD551B661515FFE57572891DDE01"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\grbl_vector_font_rom.v",
+      "path": "01_rtl/grbl_vector_font_rom.v",
+      "sha256": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\hxa_ddr_store.v",
+      "path": "01_rtl/hxa_ddr_store.v",
+      "sha256": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\maze_arithmetic.v",
+      "path": "01_rtl/maze_arithmetic.v",
+      "sha256": "C779935133BFC9C8D2A621D0565B81A9808DF541B97B78A34958C5E3F7063E12"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\maze_homography.v",
+      "path": "01_rtl/maze_homography.v",
+      "sha256": "8DBD15CFF7C26E1481166A4FCF846A430D04D869D29C58BAB62248B92F1D2769"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\maze_image_pipeline.v",
+      "path": "01_rtl/maze_image_pipeline.v",
+      "sha256": "C7CCD5972BBD8E6D31ADE20D5CACF4E9FAAD5FD509FD1648125CDD4B065FD787"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\maze_solver_16x16.v",
+      "path": "01_rtl/maze_solver_16x16.v",
+      "sha256": "13213178E750FB0B7CE24E74FADE9BB5F3BBCDF870559A8ED3C1FF3BAE3C4BEE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\pcb_defect_cluster.v",
+      "path": "01_rtl/pcb_defect_cluster.v",
+      "sha256": "92D47F68E5095042AE7DEADC4291E36191E1953D0DD4E266759182C0C9490CF1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\pcb_defect_cluster_single.v",
+      "path": "01_rtl/pcb_defect_cluster_single.v",
+      "sha256": "3DE3216EF29703926026016C55AD22A779842027DBC19361BEB9DA41DB2001FD"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\pcb_defect_cluster_stream.v",
+      "path": "01_rtl/pcb_defect_cluster_stream.v",
+      "sha256": "99824C282DDA8B3F1F6AB1897B9A4B5270D1F00DFB51376325C96AB504688508"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\pcb_fullboard_spatial96.v",
+      "path": "01_rtl/pcb_fullboard_spatial96.v",
+      "sha256": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\pcb_tinycnn_core.v",
+      "path": "01_rtl/pcb_tinycnn_core.v",
+      "sha256": "720884EAE1AF9437C22B0ED7C6E0B923C0E54C7A0AD315CD748AC5897F4FE7FE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\pcb_tinycnn_core_compact_ramdist.v",
+      "path": "01_rtl/pcb_tinycnn_core_compact_ramdist.v",
+      "sha256": "166E7109712988463EA73F99545E5F1E8F2855BB27CD99A91A9CEA7C8EB2796C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\pcb_tinycnn_core_compact_rombram.v",
+      "path": "01_rtl/pcb_tinycnn_core_compact_rombram.v",
+      "sha256": "90A757B0A97B2E4D87B031830AC439618F36D8F3A601F3CF8EAF8541D1F959DE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\pcb_tinycnn_core_rangeopt.v",
+      "path": "01_rtl/pcb_tinycnn_core_rangeopt.v",
+      "sha256": "99281C1A748B6819332AD8CD352FFB84100C30FC0268B80C9AE381CEA3C1F6F8"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\pcb_tinycnn_core_shared.v",
+      "path": "01_rtl/pcb_tinycnn_core_shared.v",
+      "sha256": "B5B2CFCF656697C29CF7877BABDBBB5B1372DFB1EC441FFDA0FF2DEFBC49B90A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_a_bit_top.v",
+      "path": "01_rtl/secondary_a_bit_top.v",
+      "sha256": "2104299FCF636FE45F24ECF7CE5A7C7FEF204012949F7D35240BACDEC8DCDA24"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_a_roi_sampler.v",
+      "path": "01_rtl/secondary_a_roi_sampler.v",
+      "sha256": "629AF1FD62C82174B15C84B1FECA80B70C0FE569AB79C96A91BE4EC1A2099BDF"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_a_top.v",
+      "path": "01_rtl/secondary_a_top.v",
+      "sha256": "9ABCC63C347B7A71D2833CD6A04D159D8FE1FFFF06164292F5D790270EA881FC"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_a_yolo_bridge.v",
+      "path": "01_rtl/secondary_a_yolo_bridge.v",
+      "sha256": "8E3A123118BE7C65B48B0DD88E638011B01D26DC8F93B918A971FFD61527F391"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_b_tiny_yolo_core.v",
+      "path": "01_rtl/secondary_b_tiny_yolo_core.v",
+      "sha256": "1A229E871AF64E7A1CB04B47CFD13EA4C965FA907694F228F6A8F53B9115C005"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_b_tiny_yolo_weights_rom.v",
+      "path": "01_rtl/secondary_b_tiny_yolo_weights_rom.v",
+      "sha256": "EB8D0F026F98D11EBF89F9609B8B50D79C636116416AF3752D5E39A6FCE1CA02"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_b_top.v",
+      "path": "01_rtl/secondary_b_top.v",
+      "sha256": "CD111A047030FD628BA658CD956A40FAC791C2E540A2AA38DC9A931186BFFE96"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_ddr_wrapper.v",
+      "path": "01_rtl/secondary_ddr_wrapper.v",
+      "sha256": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_top.v",
+      "path": "01_rtl/secondary_top.v",
+      "sha256": "64176506920BFF546415A1D1433FE1F6558FAAA565B5845FA826B56566694DCA"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_top_c44.v",
+      "path": "01_rtl/secondary_top_c44.v",
+      "sha256": "5C8E22288ABCBD738360C20599B9E082FCEA81354D2CEF0F1508873A0BE1A88E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\secondary_top_c44_impl.v",
+      "path": "01_rtl/secondary_top_c44_impl.v",
+      "sha256": "49BB5C31197607DE7A1C5D54E8CCA3051F05B9D46ACC3C3CE65F9E3D3B8283FD"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\uimac_rx_secondary.v",
+      "path": "01_rtl/uimac_rx_secondary.v",
+      "sha256": "C93F1F976849BC055E93C3D5AFAC72A079600FD6B0CA625947C7F7D497A6C2AA"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\vision_ccl.v",
+      "path": "01_rtl/vision_ccl.v",
+      "sha256": "310F089904BF287C0943253602D0E5B7BC08D331851083DF0707D6C99BDE1F66"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\vision_color_stats.v",
+      "path": "01_rtl/vision_color_stats.v",
+      "sha256": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\vision_pipeline.v",
+      "path": "01_rtl/vision_pipeline.v",
+      "sha256": "6D9B376A6FCEA579A8DF96845C80F162FD973A99ED9BDD9A015A9A48CE84A6E9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\vision_pixel_reader.v",
+      "path": "01_rtl/vision_pixel_reader.v",
+      "sha256": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\vision_shared_mac.v",
+      "path": "01_rtl/vision_shared_mac.v",
+      "sha256": "8106B5C3DE5F2C41F3CEF27C851349C19B52B199111E7BED0A4FB73C0B29D135"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\vision_workspace.v",
+      "path": "01_rtl/vision_workspace.v",
+      "sha256": "F4636E94C984B86A54DE00827ED395EEE4F4CD1D9D55638BA845A2E4DC731873"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\model\\export\\biases.mem",
+      "path": "01_rtl/model/export/biases.mem",
+      "sha256": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\01_rtl\\model\\export\\weights.mem",
+      "path": "01_rtl/model/export/weights.mem",
+      "sha256": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\02_sim\\centered_50plus_inputs_20261029\\tb_real_pcb_core.sv",
+      "path": "02_sim/centered_50plus_inputs_20261029/tb_real_pcb_core.sv",
+      "sha256": "3F6CDB44A1623DC5BFB460EDB8E480A19EACB4EBD712BB3F5DAA6AE6010BC3C1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\02_sim\\centered_50plus_inputs_20261029\\tb_real_pcb_pipeline.sv",
+      "path": "02_sim/centered_50plus_inputs_20261029/tb_real_pcb_pipeline.sv",
+      "sha256": "BDEB7A188E1CEEEDF5542BE0C3A89E898E6912F2175102750F1B824F625DC570"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\02_sim\\testmodels\\ph1p_logic_eram_stub.sv",
+      "path": "02_sim/testmodels/ph1p_logic_eram_stub.sv",
+      "sha256": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\02_sim\\new_capture_mix_vectors3_20261029\\rtl_vectors\\expected_f1.mem",
+      "path": "02_sim/new_capture_mix_vectors3_20261029/rtl_vectors/expected_f1.mem",
+      "sha256": "170FF188D10D5230AFA43AA6485CB5CCEF2E022344BD315C21C1C8D2C5AC2A41"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\02_sim\\new_capture_mix_vectors3_20261029\\rtl_vectors\\expected_f2.mem",
+      "path": "02_sim/new_capture_mix_vectors3_20261029/rtl_vectors/expected_f2.mem",
+      "sha256": "A4F87980888E10AE972933A5B2964051A23DD4EE0D2E8BB1DC06084208B2F240"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\02_sim\\new_capture_mix_vectors3_20261029\\rtl_vectors\\expected_logits.mem",
+      "path": "02_sim/new_capture_mix_vectors3_20261029/rtl_vectors/expected_logits.mem",
+      "sha256": "913EEE337B28A7CF6CFA8E3D89C345447B61D704E9B7C65D343F5B7F6496DC27"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\02_sim\\new_capture_mix_vectors3_20261029\\rtl_vectors\\expected_pool.mem",
+      "path": "02_sim/new_capture_mix_vectors3_20261029/rtl_vectors/expected_pool.mem",
+      "sha256": "CE28E4204B0BEDF708CBBA71F494378D6B8E3D70EC5F877E7B790F3626CAF086"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\02_sim\\new_capture_mix_vectors3_20261029\\rtl_vectors\\input_pixels.mem",
+      "path": "02_sim/new_capture_mix_vectors3_20261029/rtl_vectors/input_pixels.mem",
+      "sha256": "674BC2C5D72713B16C550A3DCD1F039210D9CC1CEF672C23CEC9EA779AE833F9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\02_sim\\new_capture_mix_vectors3_20261029\\rtl_vectors\\raw_frames.bin",
+      "path": "02_sim/new_capture_mix_vectors3_20261029/rtl_vectors/raw_frames.bin",
+      "sha256": "D129232350AF1D7D04F3F5307F07A26438BDFB6CB0D428C733DFFBB79CAB47A6"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\apply_cdc_exceptions.tcl",
+      "path": "04_pin/apply_cdc_exceptions.tcl",
+      "sha256": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\apply_reset_exceptions.tcl",
+      "path": "04_pin/apply_reset_exceptions.tcl",
+      "sha256": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\pin.adc",
+      "path": "04_pin/pin.adc",
+      "sha256": "A6BDAAAD82779F0E19E6480A43E0DFD83682252E87638B973A621F897DA44855"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\prove_key3_supervisor.tcl",
+      "path": "04_pin/prove_key3_supervisor.tcl",
+      "sha256": "9248199C302656DF4FC264CC6BB74248B4849BF4D447880715D39155DF99C0A5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\prove_key3_supervisor_clocktrace.tcl",
+      "path": "04_pin/prove_key3_supervisor_clocktrace.tcl",
+      "sha256": "EDC066683001510C7159AC7351348C209FFD556570F3C66CE40DD6735E834A34"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\secondary_a_spi_pin.adc",
+      "path": "04_pin/secondary_a_spi_pin.adc",
+      "sha256": "F7E2AF71F43DE4B70BE2C5969F2B4926171C77ABE461FA23211D31182A6A3FD7"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\secondary_a_timing.sdc",
+      "path": "04_pin/secondary_a_timing.sdc",
+      "sha256": "FD76D3A7825C1F9C3EA8089E89BFCD83C14CEC9965E53F8A360DC89EDEF281D0"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\secondary_b_pin.adc",
+      "path": "04_pin/secondary_b_pin.adc",
+      "sha256": "D6CDDBAC655F11310FE6F71EEA8A0EE90999E3087F0BE12A5A6DF2F62CB7BA60"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\secondary_b_timing.sdc",
+      "path": "04_pin/secondary_b_timing.sdc",
+      "sha256": "7D1C69A5275A3D358DB9563DBBACFD99E3312F0C05BC5F02736ACE3F2C88B467"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\04_pin\\timing.sdc",
+      "path": "04_pin/timing.sdc",
+      "sha256": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\reset_sync.v",
+      "path": "main/user_source/hdl_source/reset_sync.v",
+      "sha256": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\text_trace_engine.v",
+      "path": "main/user_source/hdl_source/text_trace_engine.v",
+      "sha256": "5809D56748B59C35AC79764BA367BC90F74A8FE706C4F98F1E89ACE42A440F39"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\crc32_check.v",
+      "path": "main/user_source/hdl_source/ethernet/crc32_check.v",
+      "sha256": "A2ABEDA786F76A299F8E2A9A790AC4703708822BA8B534243F337D9F1DB3828C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\crc32_gen.v",
+      "path": "main/user_source/hdl_source/ethernet/crc32_gen.v",
+      "sha256": "FE930C7ADF1D24193D0DECE6B83D338CCD89EC698EB5F01682150B31AFC53757"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\mac_cache.v",
+      "path": "main/user_source/hdl_source/ethernet/mac_cache.v",
+      "sha256": "6EEFE3B0309EEAC1A9251B3B5F482E433782783D62F7F6F5317E42758E7046A5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\ph1p_phy_pll_wrapper_d2616deaaa79.v",
+      "path": "main/user_source/hdl_source/ethernet/ph1p_phy_pll_wrapper_d2616deaaa79.v",
+      "sha256": "C23D50C2B1401D32C0B54C2A23E83085459AFCDA48AE48617FFA6AF93C49DFA8"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\pll.v",
+      "path": "main/user_source/hdl_source/ethernet/pll.v",
+      "sha256": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\rgmii_interface.v",
+      "path": "main/user_source/hdl_source/ethernet/rgmii_interface.v",
+      "sha256": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\udp_pkg_buf.v",
+      "path": "main/user_source/hdl_source/ethernet/udp_pkg_buf.v",
+      "sha256": "D0E965C6569060892A90703F13B2938D8FA0956FFFA561B9F429E2D0C82A4DAF"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiarp_layer.v",
+      "path": "main/user_source/hdl_source/ethernet/uiarp_layer.v",
+      "sha256": "5BB05F5EF3FFE334DF5701DF93AF9CCD333B83A8593EDA39EC49153CFC25DC10"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiarp_rx.v",
+      "path": "main/user_source/hdl_source/ethernet/uiarp_rx.v",
+      "sha256": "34008198B627D2F461ADCE482194D0854B00FD81F6209E64F302607BFBD41D6A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiarp_tx.v",
+      "path": "main/user_source/hdl_source/ethernet/uiarp_tx.v",
+      "sha256": "1244002FC55E235F24C60CFA942C5803D22C69549FF27A877A6121BAAFFFDAF2"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiicmp_pkg_ctrl.v",
+      "path": "main/user_source/hdl_source/ethernet/uiicmp_pkg_ctrl.v",
+      "sha256": "1BDC2BD10BD7E3CF3B871FC157BD14EE05869D96B23DCFEB03241B3DE897B39D"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiicmp_pkg_tx.v",
+      "path": "main/user_source/hdl_source/ethernet/uiicmp_pkg_tx.v",
+      "sha256": "9B2C52B5E4F056CEC1633E96119D5F72220B5D1153B8BC94F74F180F122138D8"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiip_arp_rx.v",
+      "path": "main/user_source/hdl_source/ethernet/uiip_arp_rx.v",
+      "sha256": "C93323F9DF2A6E328539A53D504355201A9E8786D7A86EC330A4AF6DBABAFC56"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiip_arp_tx.v",
+      "path": "main/user_source/hdl_source/ethernet/uiip_arp_tx.v",
+      "sha256": "65679B546777738DE810EF373521398B59D7BA1824EC7B977F368EAC89A82C58"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiip_header_checksum.v",
+      "path": "main/user_source/hdl_source/ethernet/uiip_header_checksum.v",
+      "sha256": "B56B2A22B2BBB519FA4C9E9C8621D304CD2AC143F913A54F3E78C3F9938E6005"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiip_layer.v",
+      "path": "main/user_source/hdl_source/ethernet/uiip_layer.v",
+      "sha256": "B706B94D4A9C6536C8AA8F753FD4624DCA84614629E35A582706FCD00E0CCAEE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiip_rx.v",
+      "path": "main/user_source/hdl_source/ethernet/uiip_rx.v",
+      "sha256": "10FFFBFC60D685B40B651444A38B211A58EB26E204E36197643B08CE34B7110A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiip_tx.v",
+      "path": "main/user_source/hdl_source/ethernet/uiip_tx.v",
+      "sha256": "031D9976A81F448238EAC08170B8D0C74F849EF38B8472303D81F67B752251F5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uimac_layer.v",
+      "path": "main/user_source/hdl_source/ethernet/uimac_layer.v",
+      "sha256": "04E382B7A8DBF8031A771ADC24661859073E9E134D9EC1D0FEF9754582B298A0"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uimac_tx.v",
+      "path": "main/user_source/hdl_source/ethernet/uimac_tx.v",
+      "sha256": "3C24BA0B366938E40DC37B129B73D2E78B7B757CDCC859FE93423749B2F6666F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uimac_tx_frame_ctrl.v",
+      "path": "main/user_source/hdl_source/ethernet/uimac_tx_frame_ctrl.v",
+      "sha256": "C4D992BB33B3A46506D70CBDF63E0C2C88E88B6716A6F31C043EBBE30A80393A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uimac_tx_pause_ctrl.v",
+      "path": "main/user_source/hdl_source/ethernet/uimac_tx_pause_ctrl.v",
+      "sha256": "40505CA9657D951526FB8A3350B283726B368816AD0C7D4A2D9CD07EABA446EB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uimdio_ctr.v",
+      "path": "main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+      "sha256": "F22F85D0AB26C4E7C402B0DDD2D25A6F4BE852994226ADD50A2850F732EFF43F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiphyrst.v",
+      "path": "main/user_source/hdl_source/ethernet/uiphyrst.v",
+      "sha256": "B272B8584D09DCDC516763C2A3F475D3005E172918FC339D448D7A675883937F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uirgmii_rx.v",
+      "path": "main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+      "sha256": "38769F122B452F1ABA2CC9F69E59669B5BFD01CE27A6E1BD67082EDCE28EBDB5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uirgmii_tx.v",
+      "path": "main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+      "sha256": "30374E9D9D21743A484084E3F1AD48DC12230883E890E5B37E79B1CD13A2C8A2"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiudp_layer.v",
+      "path": "main/user_source/hdl_source/ethernet/uiudp_layer.v",
+      "sha256": "DE40D1F34E8575B5B266FE1FF61F2FB16A3787A48852ADB90B5209312D943352"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiudp_rx.v",
+      "path": "main/user_source/hdl_source/ethernet/uiudp_rx.v",
+      "sha256": "9A26F004E0523B3F1B1A8E088AD8E6D417BAE7E9CA27FE9BA3A2CA18402ED179"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiudp_stack.v",
+      "path": "main/user_source/hdl_source/ethernet/uiudp_stack.v",
+      "sha256": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ethernet\\uiudp_tx.v",
+      "path": "main/user_source/hdl_source/ethernet/uiudp_tx.v",
+      "sha256": "AE35A42995E3708D8DC4D5FF677764897FCFAF62D884C6947982A598EE4CC9D1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ddr2.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.v",
+      "sha256": "99910FCD06D61B728C4333F8EB15DD07B61DB32AF197AD3871995283461FE29E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ddr2.xml",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+      "sha256": "1C0928264DCBC2217F7C1015042FC61E02BD444B727EAC8B2E8F9BC4B89FC720"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "sha256": "A206D148022C1A5BB46C37932714DC9D57FEA32F39FDB344E060E9FC9C6FF1CE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\adc\\ddr2.adc",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/adc/ddr2.adc",
+      "sha256": "9B579AEF1DD260789B02B7012CA9689AF6280EC9AF530A1A946C5AC0A8C43E81"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\sdc\\ddr2.sdc",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/sdc/ddr2.sdc",
+      "sha256": "ADB6317927DFD09095073CAD40BE8E63D39EA3D941B4C790F2F483B1AED428D6"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\clk\\ph1p_ddrphy_clk_top.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_clk_top.v",
+      "sha256": "036A13CEFC0014468CB7553AA43064A65BD2BF3008C25D2E495867FC5F43D329"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\clk\\ph1p_ddrphy_pll0.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll0.v",
+      "sha256": "AB08D9B46EFF0E2ACF0ABAF5B57E999629894E1BA4F28D14F859C45A6B487FA7"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\clk\\ph1p_ddrphy_pll1.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll1.v",
+      "sha256": "9AAFA4558B482EE93F926AD3F710A90CE1BE99DDF8712752D1E1C48404F90AE0"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\include\\ph1p_mis_define.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/include/ph1p_mis_define.vh",
+      "sha256": "A0E0BC78EAB01CD1815A04F246420B68B4A5A616C43C2F36988C4DF94FC1B471"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\init\\ph1p_ddrphy_dram_init_ddr2.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/init/ph1p_ddrphy_dram_init_ddr2.v",
+      "sha256": "B4B6C9E5223852750D2A0D3A013447716A08C56055511AFA517DCE612380649F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\mc\\alc_mc_top_all.enc.sv",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "sha256": "19B4B773F7DAE211B9B9ADB73C3871D5B494345FBF684CE1B7DAC9CD3CAE512B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\mc\\alc_phy2mc_fifo_ctrl.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_phy2mc_fifo_ctrl.v",
+      "sha256": "CF1500A2D491C637A9150FB36FBC6DE109E62CCA5D8FF3C58DADF5F7F84472C6"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\misc\\ph1p_ddrphy_sync_rst_gen.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddrphy_sync_rst_gen.v",
+      "sha256": "8DB3D13DEEC253A2248899DE81A7D1A382EACB7683F229732A28272AB9969C55"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\misc\\ph1p_ddr_fifo_dram_sync.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v",
+      "sha256": "21795BF78115DBD04D7EC81F4F240832D8E7267FDEBEDDCB6BE50D3CB95AB8B6"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ddrphy_cfg_rom.txt",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ddrphy_cfg_rom.txt",
+      "sha256": "2F5A00C5A364A4D37891042B4D4956A29B3990B3385512D20EDE491C8CCF863B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v",
+      "sha256": "D48E70211A598A211CE0F9060C767C04148592B0EC1137017027BB741AD5B283"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_apb_bridge.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_apb_bridge.v",
+      "sha256": "CDE632F73A4E58C1CF375F62626B26E144EF553926B5539B5EAE08B655FECB12"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_bankref_cfg.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_bankref_cfg.v",
+      "sha256": "96121F2A93A56127499518158B07B2DB9DEFF29BBAC464D3C077AB6A718A8F1C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_byte_wrapper.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v",
+      "sha256": "AD7FA1A71337F4A3989CB619D77B770510C30C5B81F126F6661EAF65F01F710C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_cmd_decode.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_decode.v",
+      "sha256": "B3BD00DF9D41B792D6F6A18B2BE29C8AB363AEB3FB7DC88FE0BE61DFF8905ABD"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_cmd_execution.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_execution.v",
+      "sha256": "53C5EAAD74ABFC98BB0C2A4EDE0A1863C8A34008DA1955CF7AD397E151D0A9C1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_cmd_wrapper.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_wrapper.v",
+      "sha256": "82CDEA3269662C94B82C675C8A7E110C1C1FC212775F4C696E876215E7EBD68E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_dcu.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu.v",
+      "sha256": "0F335EBF3607A7823B90A6D6278DD3906FDF0E941C019C83186B2D017E613B49"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_dcu_wrapper.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu_wrapper.v",
+      "sha256": "B130B5B93BCC9FB8FB71A0E38A1000C86CB663AC1D72AEF0A47215D8154AB32C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_fast_init.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init.v",
+      "sha256": "C36A5925A09F8DAFE5D49144CDC72FA85656602B3D4A944F587BBD0D9FA1D5A3"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_fast_init_wrapper.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v",
+      "sha256": "30CF679296790CAA864D0EBBE6110A17B3C9B6BEE529EF3CD6EEABE37DA2DAC1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_init.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v",
+      "sha256": "FAFA767B0A4D1F431DAC6EA1461DC16AFF2EA1169C8AA45A50A009117A90F5C4"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_mdl_cal.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal.v",
+      "sha256": "247C8A832EFEBF5C4733E599D7E2B19ABC3687CA48B6317EA1FC882095768D95"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_mdl_cal_wrapper.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal_wrapper.v",
+      "sha256": "0B583C987311DEEADEEEDD19DD51A04E8E14B227873E37F1EC8DB8DD18B7C125"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_rphase_ctl.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_rphase_ctl.v",
+      "sha256": "2E26A87B37C99613BC61C52FD2482012A2F5BD8A662636F782418DE5D9CE6928"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_top.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v",
+      "sha256": "0780509185215671E361E6FCC47A0CD8A986C5F48B8A3E140FAA8EC64AD62EEE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_wphase_ctl.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wphase_ctl.v",
+      "sha256": "6E62E4E832B2B85859CDBD38D2D08DDE9B8066670246C6C7AB6D675E0DD13680"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_wrapper.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v",
+      "sha256": "12CE7589375EB44F6E71D9D4280AE32CF2BB82EF7519A2DDAAE01F7914BA0467"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\top\\ph1p_ddrmc_top.v",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/top/ph1p_ddrmc_top.v",
+      "sha256": "067AC86D88E35CB0C12E62816175542DF2E907D244E86F92411611B83123736E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_board_delay.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_board_delay.vh",
+      "sha256": "FBB70F7D53984AC052B29DED89FEFDE7C82A003484FC7FC60E0A816372C0DE89"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_bus_matrix.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_bus_matrix.vh",
+      "sha256": "828CB1DECEAD67B69CCD6540FC7C9B15B8DAEB3B5F101F08C92D2A8A228F4ACB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_ddrio.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_ddrio.vh",
+      "sha256": "8E9BDE3255E6A332FC43AAE1414A29183B5E1ED650D3EF731FDDD2DBBFF21863"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_pad_type.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_pad_type.vh",
+      "sha256": "76439AB49AEFB1E41D91D2D4EE12094EF362B1AC69A382B8FAA5D3202842B7FB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_1066.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1066.vh",
+      "sha256": "B64F54DDCCA5FF29139F55CC2E9BFB388B3781C951EEC156353DD6794171A49C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_1333.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1333.vh",
+      "sha256": "50F8013FFD18E874A8917E633287E2C7803126C594E0F95BC582931A8E1AAAB5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_400.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_400.vh",
+      "sha256": "9CA837EF541E787058F3BBBDACB952B6D97A8FCA315DC87DFC4DB6561AEDFD73"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_533.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_533.vh",
+      "sha256": "78495997F24D6A890756101CADBD39EBDCD814EBC3981F190AE43CB319815C9C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_667.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_667.vh",
+      "sha256": "66FDE1491AEB55F212CCCCBB174649B63029D4E63DF5105515241765538518D5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_800.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_800.vh",
+      "sha256": "034F9FA434E52A7F6E38E3C5D8D01218BC87C60CC8463BDDE6BC5C454E1B25AE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_parameter.vh",
+      "path": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+      "sha256": "4B10686E72BCDE0F3F2A25C28B31DF92C3478A39257B16B28CF7F88572436DFE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\ip_source\\PLL\\PLL.v",
+      "path": "main/user_source/ip_source/PLL/PLL.v",
+      "sha256": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\main\\user_source\\ip_source\\PLL\\RTL\\ph1p_phy_pll_wrapper_25a56e5ce2f9.v",
+      "path": "main/user_source/ip_source/PLL/RTL/ph1p_phy_pll_wrapper_25a56e5ce2f9.v",
+      "sha256": "2F6F2560129B950C9F5A36136F128A9304FF858BF1BAE0F2129EA0145D941A1E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\doc_stroke_reference.py",
+      "path": "model/doc_stroke_reference.py",
+      "sha256": "CDBF0169E7698678FC62BA23E07603E3586427FE09D800009A7B6BB91C295A92"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\pcb_tinycnn_bias.mem",
+      "path": "model/pcb_tinycnn_bias.mem",
+      "sha256": "87F1F5471A799EE0001BBBF595B41A46476AFC205275FFF8E8CF416A53332502"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\pcb_tinycnn_first.mem",
+      "path": "model/pcb_tinycnn_first.mem",
+      "sha256": "2DFB03DF5F6436B1879CBB34F25627420B7C23EB60EC9EFC30A35AA7707BCC63"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\pcb_tinycnn_next.mem",
+      "path": "model/pcb_tinycnn_next.mem",
+      "sha256": "82556E0AB104CE1073D1A94E69E0966C8A0D8AAFE6DA3AAD385644831A653997"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\pcb_tinycnn_taps.mem",
+      "path": "model/pcb_tinycnn_taps.mem",
+      "sha256": "1643E460DCC702F91ED9D300CB1F5E6C7C880FF1D1539E3F9853266722A2F6B5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\pcb_tinycnn_weights.mem",
+      "path": "model/pcb_tinycnn_weights.mem",
+      "sha256": "EB148029C2A724CF39E6A3D7FCE6EDBB366FA9E41A0E03579BF313C8E439D224"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\compact\\pcb_tinycnn_bias_compact.mem",
+      "path": "model/compact/pcb_tinycnn_bias_compact.mem",
+      "sha256": "87F1F5471A799EE0001BBBF595B41A46476AFC205275FFF8E8CF416A53332502"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\compact\\pcb_tinycnn_first_compact.mem",
+      "path": "model/compact/pcb_tinycnn_first_compact.mem",
+      "sha256": "4273B09570BDA21701FFCFD24A1B02E0428F72E415DFBE6017593EFFC2E7F01E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\compact\\pcb_tinycnn_next_compact.mem",
+      "path": "model/compact/pcb_tinycnn_next_compact.mem",
+      "sha256": "74834992B7549AA722D79655B82A06559588FA11BF4BB40BC37B05F8B3D90FE6"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\compact\\pcb_tinycnn_taps_compact.mem",
+      "path": "model/compact/pcb_tinycnn_taps_compact.mem",
+      "sha256": "74D27D4B1790A9885A5F825077C10B00C8DA725AB954D83C8693B84A1B5F2FB2"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\compact\\pcb_tinycnn_weights_compact.mem",
+      "path": "model/compact/pcb_tinycnn_weights_compact.mem",
+      "sha256": "A4F92E974B9E7D53B6940A2DE77039A655F1F44541BA2302A2EBF2124206FB98"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\export\\biases.mem",
+      "path": "model/export/biases.mem",
+      "sha256": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\export\\quantization.json",
+      "path": "model/export/quantization.json",
+      "sha256": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\export\\weights.mem",
+      "path": "model/export/weights.mem",
+      "sha256": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\fullboard\\biases.mem",
+      "path": "model/fullboard/biases.mem",
+      "sha256": "8D5DFC9E1C76B48F89189E71E21BE6F95B6A9A9AAC265FCEB8B349101FE75EBC"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\fullboard\\weights.mem",
+      "path": "model/fullboard/weights.mem",
+      "sha256": "C6028BF41B0560843443FF94DFAB38FE727BB9A95808EDD5CAFDCBB3BB4A85B0"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\experiments\\conv2_8\\biases.mem",
+      "path": "model/experiments/conv2_8/biases.mem",
+      "sha256": "85ABC3374DB7F8A23DE7061C7FEBC6D2BAC6B1D5E8ACC6F1DC3FAC29EBF7222B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\experiments\\conv2_8\\weights.mem",
+      "path": "model/experiments/conv2_8/weights.mem",
+      "sha256": "FC4FC825929351C723187C40D83CF44D3EA67414C48C06878AFC0C5B77B4ED5B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\experiments\\conv4_4\\biases.mem",
+      "path": "model/experiments/conv4_4/biases.mem",
+      "sha256": "45FAC7544E47F2CD73A5571A6136CB57A82CADD1B130057C8FCB0BC647E51232"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\model\\experiments\\conv4_4\\weights.mem",
+      "path": "model/experiments/conv4_4/weights.mem",
+      "sha256": "9B844CB0B0844F8A72E59192B4F04D3C192B6C1A501DA1F3376CE6BF5354DDE6"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\shared\\rtl\\hxa_config_store.v",
+      "path": "shared/rtl/hxa_config_store.v",
+      "sha256": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\shared\\rtl\\hxa_packet_codec.v",
+      "path": "shared/rtl/hxa_packet_codec.v",
+      "sha256": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+      "path": "shared/rtl/hxa_packet_rx_fifo4.v",
+      "sha256": "3FEDEE99A7083B12A95127EF2D365F488ABE5298CEB6170752F573223783117C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\shared\\rtl\\hxa_secondary_link.v",
+      "path": "shared/rtl/hxa_secondary_link.v",
+      "sha256": "0E18687EA99F6209AA8D2A44E135A880CDB4664D4008FE0B984CF918648E8271"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\shared\\rtl\\hxa_yolo_result_codec.v",
+      "path": "shared/rtl/hxa_yolo_result_codec.v",
+      "sha256": "9EF958DFFAFCC25F2F6DB6C17D06B6B63589282C09479208457B7DA8658E816F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\accepted_fc8_run_full.tcl",
+      "path": "tools/accepted_fc8_run_full.tcl",
+      "sha256": "B9A8E1F082384F9D12AF0A8AE27D2A6BE2CECF5525A94F07092CC732B917D15F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\archive_link_stability.py",
+      "path": "tools/archive_link_stability.py",
+      "sha256": "E96BB2DFDAA4F0A1795FA34DC61CC7304DD95E44816B5BAA27CCBAE9550D6558"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\archive_selected_pair.py",
+      "path": "tools/archive_selected_pair.py",
+      "sha256": "3DC6ADBD0C1451E876B65EDCD95C38EF64D66D27A850548AB338309D4666D4AA"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\audit_pcb_rom_bounds.py",
+      "path": "tools/audit_pcb_rom_bounds.py",
+      "sha256": "41A84B0997DDA59D44B51E8185F4196A3148FD17C78E99560C2F0B2B915C65A2"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_cart_key3.py",
+      "path": "tools/build_cart_key3.py",
+      "sha256": "6C85AD76B34AE7C4A6C79E05A386AC74A56E0F2C7C9671E2402B8084C567BBF8"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_cart_roll_fix.py",
+      "path": "tools/build_cart_roll_fix.py",
+      "sha256": "A14ABB274E14A617C0D9A90D6F133561AABFA103F7C55BFBA67D943A82B3BB50"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_cnn_stability.py",
+      "path": "tools/build_cnn_stability.py",
+      "sha256": "6581E2934F46D1309098E58165539C98C0AA808AF1373581A60D0361D509F6AA"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_cnn_stability_area.py",
+      "path": "tools/build_cnn_stability_area.py",
+      "sha256": "8A8C069E32A967986B48B95EB282C959C827237091FAFC6B6945B98F3C27D21C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_cnn_stability_r10.py",
+      "path": "tools/build_cnn_stability_r10.py",
+      "sha256": "7064CCCDA1413E93964EAA94BD441E32D893F2227B7833B905AA1F0DB2A18FEB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_cnn_stability_r11.py",
+      "path": "tools/build_cnn_stability_r11.py",
+      "sha256": "A7BCE35E79E131CD7FF921C5CCF103FC88620CC100844A0AD673B43D9C96F066"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_cnn_stability_r9.py",
+      "path": "tools/build_cnn_stability_r9.py",
+      "sha256": "9095E9A479E9DCC17A80AFF63D9AAF5B3A05714BB466911171B74FA89AB7F99B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_cnn_stability_resume.py",
+      "path": "tools/build_cnn_stability_resume.py",
+      "sha256": "EE256E573E281445078D10BD7C447DE7A3DE179495F734FC1C51839656B98751"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_key3_stroke_release.py",
+      "path": "tools/build_key3_stroke_release.py",
+      "sha256": "C055B3E2FB49FB4A923722832E5E0DE5550EC7BB058BAFDA2CEE3FD689F240AE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_key3_stroke_release_controlmap.py",
+      "path": "tools/build_key3_stroke_release_controlmap.py",
+      "sha256": "BE5FF6C31160983DFD38ABBA8FDD33FD26F41D3ED85B8C3E2DE82373A7732156"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_key3_stroke_release_v2.py",
+      "path": "tools/build_key3_stroke_release_v2.py",
+      "sha256": "64C1776425ED7D64221746EF563DD453EFC1335EA5D4DC8CD3F9B3ED5A1A3AA1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\build_vector_release.py",
+      "path": "tools/build_vector_release.py",
+      "sha256": "8EEF033491C18BD567ED9D395FEF5AA992ED392A9CC146823E8E5AABAA3E6EB5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\bundle_cart_closure_evidence.py",
+      "path": "tools/bundle_cart_closure_evidence.py",
+      "sha256": "24705B4E29690D82713FB9CA192B5534E500CF4AE840F02E605D9F771F7E287D"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\cart_reference.py",
+      "path": "tools/cart_reference.py",
+      "sha256": "9C6590CC0A00CCB25A1857EBDA49F1854243BEC0E6873D2248D921D896A711CA"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\check_route_release.py",
+      "path": "tools/check_route_release.py",
+      "sha256": "D2EBE4B4D156B63D7C4D6FD5806350EFA7A7D24CE7988A9F94E8A2268A75EEC8"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\check_vector_reference.py",
+      "path": "tools/check_vector_reference.py",
+      "sha256": "7AFD8EDF8F5A3FA3E3DE71A2DB680D041A901C842C73FB59CAF2B63462210BDE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\cnn_named_report_reference.py",
+      "path": "tools/cnn_named_report_reference.py",
+      "sha256": "7BEF25725B09AA948FF2A2EE8C42655CD7D5F9E9319C8A429249A7866E3FC2C1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\cnn_stability_examples.py",
+      "path": "tools/cnn_stability_examples.py",
+      "sha256": "98A5EB5795E0D21D82D415F420BAA1F7952DF322CC162611BE6DD91E8C9355E9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\cnn_stability_grid_common.py",
+      "path": "tools/cnn_stability_grid_common.py",
+      "sha256": "581736A9BBF3C8D5A9FBE6B783D4337B27DEA70689CF8284A5955F3BA8D7E106"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\cnn_stability_reference.py",
+      "path": "tools/cnn_stability_reference.py",
+      "sha256": "402F7F30E8BD1F9036314639BD59B514137016711783D670C52D8CA87BC53503"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\continue_cnn_stability_r10.py",
+      "path": "tools/continue_cnn_stability_r10.py",
+      "sha256": "36FBBBA4D73A6FF051B84D77B9DCF0FF8BE29923805F286B338BFB8D678C06CB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\continue_cnn_stability_r11.py",
+      "path": "tools/continue_cnn_stability_r11.py",
+      "sha256": "5D482B7296AB0903A8668B62B95180103804853DCF5420362B74257C4A5120F4"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\continue_cnn_stability_r9.py",
+      "path": "tools/continue_cnn_stability_r9.py",
+      "sha256": "8B63B74B4091C03AF179EB6BCEE2CFA1D1CA86C8E08D10DD07B768B318F37B1B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\create_document_link_test.py",
+      "path": "tools/create_document_link_test.py",
+      "sha256": "EAD8C67DDE9254FB78947303228355384C65D715846AE4F83BD37D751F9544E3"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\document_sim.py",
+      "path": "tools/document_sim.py",
+      "sha256": "603BB518DD28F7531B0E003157A1CF23DA23DF6C1C630FA4A201BAEC7FC1744B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\finalize_r4_validation.py",
+      "path": "tools/finalize_r4_validation.py",
+      "sha256": "A652740E4CF56CC46285F565E03934B1736BC57C16B2C40084402FC058BFB16A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\finalize_uart_build.py",
+      "path": "tools/finalize_uart_build.py",
+      "sha256": "8C01154F5FDA11DE8DF8378CAA94FB4D21EDBE6AC8D93A0B95DD619B21AF76E6"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\freeze_cnn_stability_physical_project.py",
+      "path": "tools/freeze_cnn_stability_physical_project.py",
+      "sha256": "AB21D8DF32A6AF19F471E6FE2EB394AFA78DF20E4D9365B17CC10502C5B1ACA9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\freeze_cnn_stability_run.py",
+      "path": "tools/freeze_cnn_stability_run.py",
+      "sha256": "9B7F083825FFF0C9232AEC16F8E9905EC1BE5C13BCEA01597E18CC9661792DF3"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\generate_model_vectors.py",
+      "path": "tools/generate_model_vectors.py",
+      "sha256": "E19169C4C777CA61189289424165EDFFF737483361053257CC8498D941433559"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\handwriting_threshold_report.py",
+      "path": "tools/handwriting_threshold_report.py",
+      "sha256": "1746BA91CDBA28D2AC4D1AF8D689E30F83DC227FBC6CF50016A54F21AAE1E330"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\install_model_rom.py",
+      "path": "tools/install_model_rom.py",
+      "sha256": "61C7555632B5CFCF8095243EECB95718B262A41842A8DA1B041F74CC78733DE0"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\install_single_line_font.py",
+      "path": "tools/install_single_line_font.py",
+      "sha256": "F9533735B7D64F30429929F113CC2EAE3A3B630166F7D1DDD598253FF4243D89"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\key3_physical_gate.py",
+      "path": "tools/key3_physical_gate.py",
+      "sha256": "1BC78BBA154413DC49E54617B72DC52C5F85A0AD9998712E6197268FA45C7C14"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\key3_stroke_regression_gate.py",
+      "path": "tools/key3_stroke_regression_gate.py",
+      "sha256": "12AAB60163A4E4664C6FB687AD54574B00F817BCED03AD7A1AF8415047BECEBF"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\lint_shared.py",
+      "path": "tools/lint_shared.py",
+      "sha256": "D9AAE58312B0DBEDAAA1896BCFE9A085C324710236462D1F60F035FD0DF8714F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\package_frame_a4_release.py",
+      "path": "tools/package_frame_a4_release.py",
+      "sha256": "738F6664A9F95192C2909F6CA5B9A9092E48B8D55BF4435C1E8D39C24C17AA8E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\package_ordinary_release.py",
+      "path": "tools/package_ordinary_release.py",
+      "sha256": "BD9EF37ED870453B366D5193230F14CC8630519E3C16611886FCA3844B70A87C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\package_remote_cnn_release.py",
+      "path": "tools/package_remote_cnn_release.py",
+      "sha256": "40DCA7D7AD801F47F0530BC8FFD13056B77F0B4E29807E9AE1AA8C54EC56BBE5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\package_return_newline_release.py",
+      "path": "tools/package_return_newline_release.py",
+      "sha256": "88940199FC54B0265ED14FD3B5BB0EAA35680FB152AF6950804047804FBA6887"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\patch_completion_reset.py",
+      "path": "tools/patch_completion_reset.py",
+      "sha256": "CB6BD9FF505451976EEA90A77F6E4DB36710095485B008A87BC751AEF233BA9E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\patch_vector_reporter.py",
+      "path": "tools/patch_vector_reporter.py",
+      "sha256": "83933699450F2D4C11F4C99C7E8BBC2A4033A895D9F2F4AE900BD60CE3BF8FDF"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\prepare_r3_equivalence.py",
+      "path": "tools/prepare_r3_equivalence.py",
+      "sha256": "F03A7C9C0CFE88B4B31C7D7175A253BB9FB94F1523EF8F0872A11AAE84D92019"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\prepare_r4_equivalence.py",
+      "path": "tools/prepare_r4_equivalence.py",
+      "sha256": "0F4B18ED487F457E7470083410CCC3AAA9DBE48181B17781043BB0EB8E025FA7"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\prepare_retrained_variant.py",
+      "path": "tools/prepare_retrained_variant.py",
+      "sha256": "9C9DBF9A109A0BC4D77F14CF8FC5DA93F35A2B82EA1ACAAABF771C9BF2F3D9A7"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\prepare_top_pending_test.py",
+      "path": "tools/prepare_top_pending_test.py",
+      "sha256": "042A8DF9B48CBE6E2B6A3DCB789A9C72D54BD09289FF4743016701E77618165F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\prepare_vector_tests.py",
+      "path": "tools/prepare_vector_tests.py",
+      "sha256": "7B190F89847E034A3E0A169D233D8B9AF59E1E5FADCE10E6D76ABA31909C7FB5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\preview_cnn_named_report.py",
+      "path": "tools/preview_cnn_named_report.py",
+      "sha256": "B097B3FF68BDB4AA711756D56F48886E1050290B4AAA2A37950E2D8A098A51B8"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\release_audit_config.json",
+      "path": "tools/release_audit_config.json",
+      "sha256": "2BF6D7ED76CC40A7ACBD28129512B3E8A970B5760FD3D9AA515CBF6A1B70C0B1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\release_source_scope.py",
+      "path": "tools/release_source_scope.py",
+      "sha256": "B2F690000FDEA53535160AD61B26462CECE92347D1A239F7B9987A75F8570C36"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\report_newline_reference.py",
+      "path": "tools/report_newline_reference.py",
+      "sha256": "9106725CAA0200FEE0D97BBBEE1012DD6EB62DED74F3A02A10232CD1BD2D7C64"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\review_remote_physical.py",
+      "path": "tools/review_remote_physical.py",
+      "sha256": "34E80D868E86B1A136C71AC23A10231B57215EAEC8CD7227F9CB7F866EDA13AE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_active_lint.py",
+      "path": "tools/run_active_lint.py",
+      "sha256": "29917B73CDEE424867D4FAAC26BDFE5F80F018D8A9C6C7EAEB9E193CA3808AC9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cart_full_fifo.py",
+      "path": "tools/run_cart_full_fifo.py",
+      "sha256": "1095F5D4C5C8E7881DCFBBAC13EBD3E933E0CE02A7EF801A4982F42A15D4ECAC"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cart_refine_tests.py",
+      "path": "tools/run_cart_refine_tests.py",
+      "sha256": "57432C42D12BEB41B0ACD233BC3C906E741FB613656AC2DE3EAEF36D04125DCB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_centered_50plus_regression.py",
+      "path": "tools/run_centered_50plus_regression.py",
+      "sha256": "B9DF361583CF199C577B81D977235D504941A3ADFDC614C5ABF0E658303129B7"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_centered_model_regression.py",
+      "path": "tools/run_centered_model_regression.py",
+      "sha256": "FF459E27FC660228821B4686BB79F2BDFAE6D5CE9CBF13BB3AB9964AD36376F4"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_area_pipeline_release.py",
+      "path": "tools/run_cnn_area_pipeline_release.py",
+      "sha256": "18AD3752DB1A855C0A504E9C6ECC1F513098F3E18CCF729E52F0AD758C7DD28B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_boundaries.py",
+      "path": "tools/run_cnn_boundaries.py",
+      "sha256": "1FD628F8D88754DC32B8BC08F2DE411EC9956BE4C8E261E6D0B78F926ED8876F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_fixed_grid_mapping.py",
+      "path": "tools/run_cnn_fixed_grid_mapping.py",
+      "sha256": "2691B1707A6CB968ADB6E2786B2D09F1EBECC6C3CBC2BF7C5D6C3BEADEB1E134"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_named_pcb_regression.py",
+      "path": "tools/run_cnn_named_pcb_regression.py",
+      "sha256": "28BF9DDF778D2FE796A2CDC22DCC93BD06A107F666F2BAC593F7E17EF7CF6CE1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_named_report_regression.py",
+      "path": "tools/run_cnn_named_report_regression.py",
+      "sha256": "28222B11A1290CA7D30A4F1140EEA8BCECDB3729259585CAA7EF41DACA0574FE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_remote_detail.py",
+      "path": "tools/run_cnn_remote_detail.py",
+      "sha256": "17C0002F66EFCBF2D297F7C7818F5FF93DF30DC6BD5F7DED42B4D22D0284144D"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_area24.py",
+      "path": "tools/run_cnn_stability_area24.py",
+      "sha256": "E91CE99B842119DC04DB4F86817BCC84DF77D5DD1CBF7688479B1990439156E8"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_core.py",
+      "path": "tools/run_cnn_stability_core.py",
+      "sha256": "77BD0601C5217473304A7D013AD16C49B3029D5D93C4F6DF6CEF0C21D5D92757"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_grid.py",
+      "path": "tools/run_cnn_stability_grid.py",
+      "sha256": "85F1AB43A42B197FE4F4D23BAC904322E38E31AA9160F3323288BB9745B2D138"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_grid_equivalence.py",
+      "path": "tools/run_cnn_stability_grid_equivalence.py",
+      "sha256": "620EBF33277771671E0A270C52A2603D858DF276DD838502DF0D0B4167496788"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_grid_lifecycle.py",
+      "path": "tools/run_cnn_stability_grid_lifecycle.py",
+      "sha256": "FD7C4DF25B86951BF494354D6C55BDEF04CFEAD8EC1147B514DA661E38C5BCBC"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_grid_transfer.py",
+      "path": "tools/run_cnn_stability_grid_transfer.py",
+      "sha256": "E2A619D7E357208A1CB8C0231DDEF73B5E165D0DD0768A3A4A2E526EF07B9D94"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_pipeline.py",
+      "path": "tools/run_cnn_stability_pipeline.py",
+      "sha256": "30A54C5EEA5409483C01D78CC66841B48BFAC83DF7393E188A066131CA4B1266"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_ram.py",
+      "path": "tools/run_cnn_stability_ram.py",
+      "sha256": "C0BD4D457094E2791AF3132BCCA0B6936BC3851E6E1008D626C3CF1931C0358C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_regression.py",
+      "path": "tools/run_cnn_stability_regression.py",
+      "sha256": "ED8A75E85DD403221315A6E4D62875251AC19A35CFCB22113AFF8B763F57EF9F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_stability_serial.py",
+      "path": "tools/run_cnn_stability_serial.py",
+      "sha256": "1798A2D34D52E7C6B34611222A5CF573CAB5322E45009B0CDC3A7686F6996D92"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_cnn_top_regression.py",
+      "path": "tools/run_cnn_top_regression.py",
+      "sha256": "B3A82B8D54A11DE419D532789A80016CEE4EB1ACDBAA844ACAB708E8DEF75EF8"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_detached_cnn_stage.py",
+      "path": "tools/run_detached_cnn_stage.py",
+      "sha256": "8A198B46020B7FD1D314FE96AB69352FCCBD7172CD6F7B7628C3728BA1C2B51B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_detached_cnn_stage_r10.py",
+      "path": "tools/run_detached_cnn_stage_r10.py",
+      "sha256": "9DA97AA3565810BBB6DAE9150DB0505B43B8A6ADFBE22CC551ACB388E206EFF0"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_detached_cnn_stage_r11.py",
+      "path": "tools/run_detached_cnn_stage_r11.py",
+      "sha256": "954B99EE38D55EC52521752901FAD10FFACE24446D06C52DC8B35396490D3072"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_guard_snapshot_hxa.py",
+      "path": "tools/run_guard_snapshot_hxa.py",
+      "sha256": "9F85E6B4BB5C601AFE184D98221811A0967C7B05145E2E063D69E36F5A7F7516"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_key1_network_regression.py",
+      "path": "tools/run_key1_network_regression.py",
+      "sha256": "24429671C417FE711459ACD17B2A5F4E9F1BAB818919DB1ED41504F4456A2248"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_key3_reset_unit.py",
+      "path": "tools/run_key3_reset_unit.py",
+      "sha256": "EE9E3E1F757CCEC1DDEC791248A05EDC7E8D65247EE0554552565B38560BF80D"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_key3_top_reset.py",
+      "path": "tools/run_key3_top_reset.py",
+      "sha256": "0345C30600CEE927A5358AE1061593F4F32BF5ABA29EE5714408A019EC3B7AEE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_motion_regression.py",
+      "path": "tools/run_motion_regression.py",
+      "sha256": "ACD698E417D79F120AF3276307D56AB586F4C6AE2BF062A4B222F480624286E6"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_newline_regression.py",
+      "path": "tools/run_newline_regression.py",
+      "sha256": "1667DF11871BC3FB120C89D143F93F9D49537936A40EB8DDA76AB9958C30E04F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_release_regression.py",
+      "path": "tools/run_release_regression.py",
+      "sha256": "984FB2DE05D5F92812625A1877BE3E62825343C38681F769107B78813B61F98E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_retrained_integer_replay.py",
+      "path": "tools/run_retrained_integer_replay.py",
+      "sha256": "65207A9CC5786FF55AAADAC1061D31FB484F5F7C7677437335CBD2EE8D00C3E7"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_stroke_split_regression.py",
+      "path": "tools/run_stroke_split_regression.py",
+      "sha256": "912AA6D97ABFF287DF42FFBD2B97DC7560DACE3F3AE9C9D9AD888F0C494C440E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_top_doc_shared_recovery.py",
+      "path": "tools/run_top_doc_shared_recovery.py",
+      "sha256": "D82DC9EEB926BF952AF9118B0E30B8D97CA95B7913A76C6292AE2C58AE659C90"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_vector_r2_priority_regression.py",
+      "path": "tools/run_vector_r2_priority_regression.py",
+      "sha256": "C9C3DE72EC6C4828D7FBB226FB3EB859363426412A4F81076B9BF1A2F826748A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_vector_r3_area_regression.py",
+      "path": "tools/run_vector_r3_area_regression.py",
+      "sha256": "B9A169E54AB70F6D497D3C81B889FD1AB5A283B825D88617DFF15CB6847AA31C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_vector_r4_regression.py",
+      "path": "tools/run_vector_r4_regression.py",
+      "sha256": "2BC1E6FE5D673CBD929E56B2E3CF89AD925573E65686D8B65F21E50FD0822A0E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\run_vector_regression.py",
+      "path": "tools/run_vector_regression.py",
+      "sha256": "3847E60C13FE755B4A81A0A1809EDD52029922829E1F55B52334E6A329525163"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\stroke_split_reference_report.py",
+      "path": "tools/stroke_split_reference_report.py",
+      "sha256": "9BBF1F538C8ABCF3E900350FDA4EA134564C2E79C3B96B429B72094252763908"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\summarize_reference_impact.py",
+      "path": "tools/summarize_reference_impact.py",
+      "sha256": "DB384BB566B533996259A78E432081218DE7BE5433AB40C3333B0563856E8B76"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\td_release_audit.py",
+      "path": "tools/td_release_audit.py",
+      "sha256": "72B08AAF0EF99A53C53635AF5F6E11A12178AE39FB217838165225CFF40B4DA1"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\test_key3_release_gates.py",
+      "path": "tools/test_key3_release_gates.py",
+      "sha256": "F17AAC41B89976BDA1B712A2B06FBA0241448A9CFD033CE17D98D14209A09CAB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\test_td_release_audit.py",
+      "path": "tools/test_td_release_audit.py",
+      "sha256": "465992E2A3F08B806E705EAF8E82076AC797F478A803BA1D8FCF9CED86AD160A"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\text_trace_reference.py",
+      "path": "tools/text_trace_reference.py",
+      "sha256": "5FD595A336A6518089BDF65FB1EBC94B4C9D8899FDD19880D5810C967E257C96"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\text_trace_selfcheck.py",
+      "path": "tools/text_trace_selfcheck.py",
+      "sha256": "13D854BF7FF27A0ACE70DEA5BF6C3D061FAEA19F871007A8EF359A967476CC60"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\update_cnn_stability_status_r10.py",
+      "path": "tools/update_cnn_stability_status_r10.py",
+      "sha256": "36B13E5D3D3B929AD32407524CAE4811BF82EEBA10A98D5FF66A9856A19097D0"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\update_cnn_stability_status_r11.py",
+      "path": "tools/update_cnn_stability_status_r11.py",
+      "sha256": "0C7ED7E6B005F67B7FC414A8C8B330BB4C3FC2C2ED5CB4C3F81D9918E0463F86"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\update_cnn_stability_status_r9.py",
+      "path": "tools/update_cnn_stability_status_r9.py",
+      "sha256": "9CE05DE6402E84AA8110FD9A756D99EF8300F140283C2470B6EF5557909243B9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\verify_remote_rom_binding.py",
+      "path": "tools/verify_remote_rom_binding.py",
+      "sha256": "61A4FE8AAA85A8F9342E46D105F574052FDE9ADF65D0F6AD4BA1461C2611B657"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\cart_build_templates\\phy_1.cfg",
+      "path": "tools/cart_build_templates/phy_1.cfg",
+      "sha256": "F6EA42F726924CB3B423ED97A870D17A63CE0542BC3E1E6A8AE956DCBC9C1B3D"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\tools\\cart_build_templates\\syn_1.cfg",
+      "path": "tools/cart_build_templates/syn_1.cfg",
+      "sha256": "F486411C2D9727E24F45E17204F02BC7C2AC8BE2C3A04E4F1652E58785C01FAB"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\CLOCKPROOF_RUN_PLACE_FAILURE_20261031.json",
+      "path": "reports/CLOCKPROOF_RUN_PLACE_FAILURE_20261031.json",
+      "sha256": "B63DE29DDAB842DB6565E8C002FB7F3511CF13192884EAC491471A5B1005405B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\CLONE_INPUTS.json",
+      "path": "reports/CLONE_INPUTS.json",
+      "sha256": "6F5566632495037E39F30B016D6258F2499E5B0CE9A792E57C3219A7508BD958"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\FIRST_SYN_PROOF_FAILURE_20261031.json",
+      "path": "reports/FIRST_SYN_PROOF_FAILURE_20261031.json",
+      "sha256": "837F566832B3FC15646E788317BDE5D2E2D37796D1318B085450F76C2F09ADCE"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_stroke_regression_gate_selftest.json",
+      "path": "reports/key3_stroke_regression_gate_selftest.json",
+      "sha256": "6061708ED27695BE90E860E8350DF60887C194EEB6C638BD368D4C6F32D6829E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_stroke_regression_gate_selftest_12AAB60163A4.json",
+      "path": "reports/key3_stroke_regression_gate_selftest_12AAB60163A4.json",
+      "sha256": "4A935B252D1C453054BA64ADB0A8883F52CC8F20A60D43E663AF505F10325C4E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\ORDINARY_MODEL_REFERENCE_INPUTS.json",
+      "path": "reports/ORDINARY_MODEL_REFERENCE_INPUTS.json",
+      "sha256": "9F16806205B2AA162F37B717D4F968A767A4A56DE867B8E5563838F44F8C7E50"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\RELEASE_REGRESSION_EVIDENCE_37F5A0FFE3D714A35E1869425024E4D74F30F1FC10ACF2ACAB5E5CF6A40A5AA6.json",
+      "path": "reports/RELEASE_REGRESSION_EVIDENCE_37F5A0FFE3D714A35E1869425024E4D74F30F1FC10ACF2ACAB5E5CF6A40A5AA6.json",
+      "sha256": "540B9C608F989A8431988E7EA60F979A06D230C7523CEDF8E6DCB4B2FDEBF627"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\RELEASE_REGRESSION_EVIDENCE_F514963E590E916557F84B9F2956344C85BBB667CF27347757686FE9E1A690B0.json",
+      "path": "reports/RELEASE_REGRESSION_EVIDENCE_F514963E590E916557F84B9F2956344C85BBB667CF27347757686FE9E1A690B0.json",
+      "sha256": "0274FDC31BD04A66CE4AAC9C08216E26C05E96A9560492BB63A092A8B740BB4F"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\RELEASE_TEST_DEPENDENCIES.json",
+      "path": "reports/RELEASE_TEST_DEPENDENCIES.json",
+      "sha256": "88C4152C9DF648B6567B4BEA0D7D731F7465EBBD38F8F22CB08EDCEB2B3DEE9C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\cnn_release_promotion\\PIPELINE_ONLY.patch",
+      "path": "reports/cnn_release_promotion/PIPELINE_ONLY.patch",
+      "sha256": "B5FED7E322020EA6F3ADCF2ACFC08250CDC2647FBF64C835629592546D898566"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\cnn_release_promotion\\PROMOTION.json",
+      "path": "reports/cnn_release_promotion/PROMOTION.json",
+      "sha256": "EE0A0D579C04FBC19A944BD7DAC2A9F33F1239FA09103AABFD3716FDEBA3A8F4"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\MANIFEST.json",
+      "path": "reports/key3_clocktrace_verification_20261031/MANIFEST.json",
+      "sha256": "602C2A45091A4709D5EB0CA0D74EED957A2E50CA60888C6B862614DACAB90E56"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\README.md",
+      "path": "reports/key3_supervisor_proof/README.md",
+      "sha256": "54EDF7F0FC32C1AB359B29CFC1C6B816A22DC0CAE0A79DFDF443AE1E2E5E3F24"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\test_hook.py",
+      "path": "reports/key3_supervisor_proof/test_hook.py",
+      "sha256": "F1F97CAAA02450FF21D7DD18BAF5E8CB6CE9FEFA71C6ACBF4D53CE9F8168B0CC"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\test_identity_buffer.py",
+      "path": "reports/key3_supervisor_proof/test_identity_buffer.py",
+      "sha256": "99B63A74CE7A9B68CD999F17C73382777D9C49E1D1AD704677FE7F63EDE24483"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\release_source_scope\\GATE_SELFTEST.json",
+      "path": "reports/release_source_scope/GATE_SELFTEST.json",
+      "sha256": "B93A9E1D41F6B6FEF06481377DC9D667AB635C10BCC872683A5868639BEE9866"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\release_source_scope\\README.md",
+      "path": "reports/release_source_scope/README.md",
+      "sha256": "189C8815FF4C733FBE36F150B6FC71DA8AA5D3DF50D788F56D766132B93EC31C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\clocktrace_helpers.tcl",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/clocktrace_helpers.tcl",
+      "sha256": "618B26B7C27660770475D1DCD7EE9D55CA37588B42E493123BF7E195174DAB61"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\control_route_inventory.txt",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/control_route_inventory.txt",
+      "sha256": "F65E6794C2788155E9CF8F43D7647A408A86030849E7A9308B8F2C77EE6A9B38"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\gate_inventory.txt",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/gate_inventory.txt",
+      "sha256": "ABEB4A99584BECAAA0E3B63E2CD20772EF4997E580068BAABC898BF6520CEB50"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\key_pad_inventory.txt",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/key_pad_inventory.txt",
+      "sha256": "ED2A6834186B2B9AC235BE7D6D8492A1F114D237D58573E44C429A95BD64F0DC"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\run_clocktrace_hook_tests.py",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/run_clocktrace_hook_tests.py",
+      "sha256": "736BED0A730D7E3021EF7BE0CBDD1CB0DE61596B4A514167E65A7E6978E5B380"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\test_clocktrace_hook.tcl",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/test_clocktrace_hook.tcl",
+      "sha256": "8A24047B30F8AD6AECE20B47E9FEC9CB70B50352C51D9DD30AA81498210DC2CF"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\clocktrace_unit_20261031T142612_042103Z\\RESULTS.json",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/clocktrace_unit_20261031T142612_042103Z/RESULTS.json",
+      "sha256": "646DD00148CE6611C522DA52254A2EC863B0FA8028410B8686CADFE9810B1501"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\clocktrace_unit_20261031T142612_042103Z\\tcl_stderr.log",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/clocktrace_unit_20261031T142612_042103Z/tcl_stderr.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\clocktrace_unit_20261031T142612_042103Z\\tcl_stdout.log",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/clocktrace_unit_20261031T142612_042103Z/tcl_stdout.log",
+      "sha256": "056E5726EA207B6678887B6E66BADE5D09BA2C950D1B5C914BA843D343C1D6EA"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\gate_console.log",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/gate_console.log",
+      "sha256": "ACD049E525F47149DF8243C03AD0C1A6341A0D8ADA1E534B40B0083654A19AE9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\gate_proof.tcl",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/gate_proof.tcl",
+      "sha256": "62732CB87821D3858CA85DA242DE842E42E0404D45D81CBF071635FFF561E30E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\gate_proof.txt",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/gate_proof.txt",
+      "sha256": "1166AFD293D5DF29F5E6C70D689FEBEEADACEE00D0F87785765E1D4AEB7CEE0B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\gate_RESULTS.json",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/gate_RESULTS.json",
+      "sha256": "296B4E85B669E652F619D63B2B04BAD6DE33707603F25E7763FD48381B11C417"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\route_console.log",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/route_console.log",
+      "sha256": "6B38E3E016847BE6498CE2F5BB3506C42A2006DA7866CB5870442C39337F630B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\route_proof.tcl",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/route_proof.tcl",
+      "sha256": "F051A32C539E0DAE3722C3183585046424E261074B3EFED0D784C759E43B3796"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\route_proof.txt",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/route_proof.txt",
+      "sha256": "EA35C938CB5662BAC18084C89B69D5D9A91AC02CBD09E237B105BCB99B65AE83"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\route_RESULTS.json",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/route_RESULTS.json",
+      "sha256": "DA7C81255FFD8A728BAC23A03D1694D6720A42BC7DC5640EFA6A8B7263C2BB07"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\td_20261031_222500.log",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/td_20261031_222500.log",
+      "sha256": "ACD049E525F47149DF8243C03AD0C1A6341A0D8ADA1E534B40B0083654A19AE9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\td_20261031_222500.logw",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/td_20261031_222500.logw",
+      "sha256": "F6269DE9B5E3B34E333D53EC08B77BBD6454408861129BC1AE80CC460D82680D"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\td_20261031_222504.log",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/td_20261031_222504.log",
+      "sha256": "6B38E3E016847BE6498CE2F5BB3506C42A2006DA7866CB5870442C39337F630B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\clock_source\\proofs_v2\\td_20261031_222504.logw",
+      "path": "reports/key3_clocktrace_verification_20261031/clock_source/proofs_v2/td_20261031_222504.logw",
+      "sha256": "9B317EF5A730F206FD225F07691B149B0F847C5F7F2C297251DA576965F9BC80"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\key3_supervisor_probe.v",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/key3_supervisor_probe.v",
+      "sha256": "283F6D38CCD0DDCD4ED7F9D38DE0DCA35AC2F8B22FC0B64DB6A36DD394AA577B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\probe.adc",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/probe.adc",
+      "sha256": "94FD27CA72D941714C8109FDC3DB23443ACBDE44AC4B16953BE3567ACF580081"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\probe.sdc",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/probe.sdc",
+      "sha256": "5B076ECE9A26AC97E802001F7B2BC017841F1B74A29CCFDBC12D9C8F6054D098"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\run.tcl",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/run.tcl",
+      "sha256": "249A3C51B007FDA7FEEEAF3244476F1588B11BB1443188C351C0FBAD0D614CA9"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\SOURCE_MANIFEST.json",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/SOURCE_MANIFEST.json",
+      "sha256": "8E65F713D00B73BCD5D326456AC1E67814A7C60EED8FD267BD6F442CFA6CE059"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\physical_probe\\place.qor",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/physical_probe/place.qor",
+      "sha256": "3BA8647EB5B6F8CEDE5EC0D26D7A7DA32F8F67ED5BCCEE09D9F65393D872FAE3"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\physical_probe\\RESULTS.json",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/physical_probe/RESULTS.json",
+      "sha256": "5B9F7FEA25101336440FD46FB92F089AB5F3F005A16ED7FE5A87617EBF42C66E"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\physical_probe\\run.tcl",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/physical_probe/run.tcl",
+      "sha256": "DA113588F7D0297B546E38B44777D97B81394D9F195ADB658A781BA9F0B25D3B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\physical_probe\\secondary_key3_supervisor_place.rpt",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/physical_probe/secondary_key3_supervisor_place.rpt",
+      "sha256": "96D2BE202ACFF86FC515D9E41A9431CBFCCBE4E971070E68606CAA5603FB6C10"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\proof_v2\\proof.tcl",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/proof_v2/proof.tcl",
+      "sha256": "1813B2587EC9E61683212C806AF51D0F9BBCF01A919B49F72A93D7114294AAB5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\proof_v2\\RESULTS.json",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/proof_v2/RESULTS.json",
+      "sha256": "9015B883A745188092591819CD746018456DF69704E3B34E78EF07DD319BD9C5"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_clocktrace_verification_20261031\\supervisor\\map_boardpins\\proof_v2\\secondary_key3_supervisor_gate.rpt",
+      "path": "reports/key3_clocktrace_verification_20261031/supervisor/map_boardpins/proof_v2/secondary_key3_supervisor_gate.rpt",
+      "sha256": "52EFD91397E92C19C3297D55FB3E593B0D39D9F4D8AE74072D56790F599181EA"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\harness_run_20261031T133448_334870Z\\RESULTS.json",
+      "path": "reports/key3_supervisor_proof/harness_run_20261031T133448_334870Z/RESULTS.json",
+      "sha256": "A2CB0E1C46AAF532258F64C9BC4F46C210EF61F54591395FD786C54143F87F35"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\identity_run_20261031T133630_137203Z\\RESULTS.json",
+      "path": "reports/key3_supervisor_proof/identity_run_20261031T133630_137203Z/RESULTS.json",
+      "sha256": "C7F14FEB64A2E0DDFF19BFB99E559C53C771A66B78A1A6ADD16360174EF4B82C"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\harness_run_20261031T133448_334870Z\\case_00_gate_none\\secondary_key3_case_00_gate_none.rpt",
+      "path": "reports/key3_supervisor_proof/harness_run_20261031T133448_334870Z/case_00_gate_none/secondary_key3_case_00_gate_none.rpt",
+      "sha256": "6925C2FFB7531A688D0116A9C93386570D95A744336707BB5F4B8A56999CC01B"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\harness_run_20261031T133448_334870Z\\case_01_physical_none\\secondary_key3_case_01_physical_none.rpt",
+      "path": "reports/key3_supervisor_proof/harness_run_20261031T133448_334870Z/case_01_physical_none/secondary_key3_case_01_physical_none.rpt",
+      "sha256": "05E80F582BA87A32945D798DFAEB93EE3B1E9BC326FBE68DCBFABC2D9E7DD253"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\harness_run_20261031T133448_334870Z\\case_02_mixed_none\\secondary_key3_case_02_mixed_none.rpt",
+      "path": "reports/key3_supervisor_proof/harness_run_20261031T133448_334870Z/case_02_mixed_none/secondary_key3_case_02_mixed_none.rpt",
+      "sha256": "709DA0AED30DCBC11EE7D4913F0161D2D4D7BED2658274C9C280C05FFC8656CC"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\identity_run_20261031T133630_137203Z\\gate_proven_buffer\\secondary_key3_gate_proven_buffer.rpt",
+      "path": "reports/key3_supervisor_proof/identity_run_20261031T133630_137203Z/gate_proven_buffer/secondary_key3_gate_proven_buffer.rpt",
+      "sha256": "7159E430F163D4B75BF36288F79A14004F2B4976560F02D2ADE05401697F032D"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\reports\\key3_supervisor_proof\\identity_run_20261031T133630_137203Z\\physical_proven_buffer\\secondary_key3_physical_proven_buffer.rpt",
+      "path": "reports/key3_supervisor_proof/identity_run_20261031T133630_137203Z/physical_proven_buffer/secondary_key3_physical_proven_buffer.rpt",
+      "sha256": "0AB63F8D626D46FEC27DA21AC1A8B95E798AE2E16AA2D37A412A215B77B29558"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\_gen_project.py",
+      "path": "_gen_project.py",
+      "sha256": "5E8A41FDC5369E52A9C0EF5005DDECD56AE82DB9006D261EEC4A737A5EF2B540"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\secondary_cnn_multibox.al",
+      "path": "secondary_cnn_multibox.al",
+      "sha256": "BE536A32D975D884CE409CEE454FBCB048374F2397F499B34539225459126922"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_release_20261031\\lint_full.f",
+      "path": "lint_full.f",
+      "sha256": "229E9F4956D3132A2E7713CA66C1BAB5FBA363C2E179ED8CC8B8C03C8C03696B"
+    }
+  ],
+  "rtl_changes": [
+    {
+      "path": "01_rtl/cnn_result_stabilizer.v",
+      "before_sha256": "8655EB872B8FD09C002FAD93331953F298BEEDA35A2FFFDCFBC9903AE5625B0C",
+      "after_sha256": "9C946B4DDBA2E0BE3CE917E172EAF6775095349E19A28B95D4300A5596157128",
+      "candidate_source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_metadata_flat_scratch_20261031\\cnn_result_stabilizer.v"
+    },
+    {
+      "path": "01_rtl/doc_stroke_planner.v",
+      "before_sha256": "DB552C7E3619108DACF894232696B95A573AE194C44E2B6439A744705597E204",
+      "after_sha256": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+      "candidate_source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_production_opt0_screen_20261101\\planner_metric_step.v"
+    },
+    {
+      "path": "01_rtl/doc_copy_pipeline.v",
+      "before_sha256": "74FEAE6403C59F99D1BD8D9FAFFFDEF147620BA1D580F63BE9B25132A35F8E46",
+      "after_sha256": "4780D3863ABE4BF0D261445209F914D2636B842E6C1DE23E7987647BAD56E330",
+      "change": "Explicit exact production metric upper bound."
+    }
+  ],
+  "source_baseline_unchanged": true,
+  "production_parameters": {
+    "PCB_ENABLE": 1,
+    "CNN_TRACKS": 4,
+    "CNN_CONFIRM_RESULTS": 3,
+    "CNN_HOLD_RESULTS": 2,
+    "CNN_LOST_RESULTS": 3,
+    "MAX_EDGES": 32768,
+    "MAX_PATHS": 2048,
+    "MAX_POINTS": 8192,
+    "OPT_PASSES": 0,
+    "METRIC_DISTANCE_BOUND": 23164
+  },
+  "formal_release_gates": "NOT_RUN; copied builders still intentionally reject new unapproved source hashes.",
+  "hardware_status": "NOT_RUN"
+}

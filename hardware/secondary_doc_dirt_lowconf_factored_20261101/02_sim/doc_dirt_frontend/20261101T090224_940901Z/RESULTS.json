@@ -1,0 +1,270 @@
+{
+  "status": "PASS",
+  "hardware_status": "NOT_RUN",
+  "project_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101",
+  "compiled_frontend": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_image_frontend.v",
+  "compiled_backend": [
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_planner.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_stroke_bram.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_path_distance.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_machine_map.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_plotter.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_map.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_streamer.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\doc_grbl_response_parser.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\01_rtl\\grbl_line_formatter.v"
+  ],
+  "prepared_manifest_sha256": "7CF2229A6187605861A09E0BFBA2B19669E5801447567A397DC9646543C3F34B",
+  "prepared_source_sha256": {
+    "tools\\run_doc_dirt_regression.py": "F9D12CC1955E1333B1B469487C48A6B9113A27C2A1D0CE9FF896EC7162666A0B",
+    "01_rtl\\doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+    "01_rtl\\doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+    "01_rtl\\doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+    "01_rtl\\doc_path_distance.v": "265774F97B39989FF199B8D288F892E364AB2B38076C1384025430624FB67174",
+    "01_rtl\\doc_machine_map.v": "91A74D61C8CB6CFF70D9A7BD31604765C846B50997AE1BD114480EC8924BE836",
+    "01_rtl\\doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+    "01_rtl\\doc_grbl_map.v": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+    "01_rtl\\doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+    "01_rtl\\doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+    "01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "01_rtl\\doc_copy_pipeline.v": "4780D3863ABE4BF0D261445209F914D2636B842E6C1DE23E7987647BAD56E330",
+    "model\\doc_stroke_reference.py": "CDBF0169E7698678FC62BA23E07603E3586427FE09D800009A7B6BB91C295A92",
+    "tools\\run_stroke_split_regression.py": "69BC73E3DCC627E2B724B09E1FD4CEC3B31D17127C7591533F953427CE91A74B"
+  },
+  "fixture_sha256": {
+    "reports\\dirt_qualification\\README.md": "D3165A02BC6F27DEBF770DD804F00382B97E11E2F78D739DFF251EE76B3F08E9",
+    "reports\\dirt_qualification\\fixtures\\blank\\expected_binary.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "reports\\dirt_qualification\\fixtures\\blank\\source_y.mem": "F7E50EA9790D238FF696C425E3CD2EFD2DC6958FA80B3338E5CF246902473D50",
+    "reports\\dirt_qualification\\fixtures\\blank2418\\expected.mem": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "reports\\dirt_qualification\\fixtures\\blank2418\\expected.vh": "94F636E09B59E8CB5EE02CD62CC007ABE9780F42D33D403D505AD99F01165D25",
+    "reports\\dirt_qualification\\fixtures\\blank2418\\expected_binary.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "reports\\dirt_qualification\\fixtures\\blank2418\\expected_coordinates.json": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+    "reports\\dirt_qualification\\fixtures\\blank2418\\expected_gcode.txt": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+    "reports\\dirt_qualification\\fixtures\\blank2418\\expected_strokes.json": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+    "reports\\dirt_qualification\\fixtures\\blank2418\\input.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "reports\\dirt_qualification\\fixtures\\blank2418\\skeleton.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "reports\\dirt_qualification\\fixtures\\blank2418\\source_y.mem": "49EC9AE502DC60597221732A4DA69D49A06D83DDB182F3B88AD3DECE8C830351",
+    "reports\\dirt_qualification\\fixtures\\gray_gradient_grain\\expected_binary.mem": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A",
+    "reports\\dirt_qualification\\fixtures\\gray_gradient_grain\\source_y.mem": "30E96EF745973D01127C1DB583DA2326553F7DC1D828EE1D60FABC880B8EE72F",
+    "reports\\dirt_qualification\\fixtures\\ink2358\\expected.mem": "DD920D357DCC2B5017B41D2A26C555FD7885597665019915F3CE68E612A70CA1",
+    "reports\\dirt_qualification\\fixtures\\ink2358\\expected.vh": "B7422CFE048F5E7D35A0A5BBA5E91AB511B5435BB5D11B0ACB8B9FAC9F23CAB9",
+    "reports\\dirt_qualification\\fixtures\\ink2358\\expected_binary.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+    "reports\\dirt_qualification\\fixtures\\ink2358\\expected_coordinates.json": "86A81D4129718E3EF326624DB335C8222732965CA19BF37B6B8B764B1C816EC3",
+    "reports\\dirt_qualification\\fixtures\\ink2358\\expected_gcode.txt": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+    "reports\\dirt_qualification\\fixtures\\ink2358\\expected_strokes.json": "C665DA52520F298402AE0CF993641FEA347E2386EE35D08187373AACEB6AB757",
+    "reports\\dirt_qualification\\fixtures\\ink2358\\input.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+    "reports\\dirt_qualification\\fixtures\\ink2358\\skeleton.mem": "29060DFFBA0385B1C28A6CCC12BCD45AB480EA02523EB277493DF598DF1AFC50",
+    "reports\\dirt_qualification\\fixtures\\ink2358\\source_y.mem": "B30D8E3EA87D460F37A964E52A86E3A090F1E7A23DBBCDB11E203009CA21F72B",
+    "reports\\dirt_qualification\\fixtures\\sample15_roi_border_contract\\expected_binary.mem": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC",
+    "reports\\dirt_qualification\\fixtures\\sample15_roi_border_contract\\source_y.mem": "972D4CCD003993D4CEB6845E2AD118AA2F03BD8E771F44B7E448068A48146E37",
+    "reports\\dirt_qualification\\fixtures\\strokes_on_fixed_dirt\\expected_binary.mem": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A",
+    "reports\\dirt_qualification\\fixtures\\strokes_on_fixed_dirt\\source_y.mem": "400A1F44497121AA11C88648B725A83C9F826505B55B81A4AD80E00EBC29A32E",
+    "reports\\dirt_qualification\\provenance\\00_doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+    "reports\\dirt_qualification\\provenance\\01_RESULTS.json": "CCB46900CA8306F08ADBFC5421A430D31EB7ABD9E32AA98BFB295684C5223097",
+    "reports\\dirt_qualification\\provenance\\02_README.md": "88FBC1FC8157B53F4A32762D2B26722179D2E9CFF38AB98922F884BF459E629C",
+    "reports\\dirt_qualification\\provenance\\03_compile.log": "809095474147555AD0CCB2E8180FBE16CA8ED67EF627DC0F991C20A0872A9E00",
+    "reports\\dirt_qualification\\provenance\\04_blank2418.log": "7E0669BF1B7D119920515F1131675AC00394E937149576170C080CE7408291FC",
+    "reports\\dirt_qualification\\provenance\\05_ink2358.log": "429EDD5765471083C20ED0CE087B49E3875F8EBC7D4D6EE12D46F16765E75166",
+    "reports\\dirt_qualification\\provenance\\06_lifecycle.log": "8F13DBDD4775D61481DBD26632AC70C9F04B87539407FB444CFAE7A648668EDE",
+    "reports\\dirt_qualification\\provenance\\07_timeout.log": "87B62B83A7D006DF380EBB82FD89FD4346233482F1FDE7A1A10BAB779049E89C",
+    "reports\\dirt_qualification\\provenance\\08_run_capture_gcode_rtl.py": "0524EE608D03D49C16CF433F73678B561B92AE70929E9230E47F206929D736DB",
+    "reports\\dirt_qualification\\provenance\\09_fixed_ink_reference.py": "7A540990EE05B14DB102FA9AD53ABC0DC2D96C77E33732B3178391F22AAD3A0D",
+    "reports\\dirt_qualification\\source\\candidate_runner_provenance.py": "C49DE0B218339209BFA88F912D2E44F2FF1B3A524D3BA2FE8418D95F448CB1A4",
+    "reports\\dirt_qualification\\source\\fixed_dirt_reference.py": "8CEF3D2AC9439D2A8F613F57F5132D488D8C7C8B648E15BBA41356CDC48550EC",
+    "reports\\dirt_qualification\\source\\fixture_reference.py": "3E42D038C515C5E27FC890B93E8CFFDD6E08A34FC36AEE2EDD2E3D5C092B3DB5",
+    "reports\\dirt_qualification\\source\\tb_capture_integrated.sv": "C4C71F186A744CD5863B3029AA1AEC02E3AC2F3661F62E358CBA9C426AD5ABF5",
+    "reports\\dirt_qualification\\source\\tb_frontend.sv": "5D4FD8D354B77636D77E03916007013B4B50754D57D2560730B45E775D91697C",
+    "reports\\dirt_qualification\\source\\tb_timeout.sv": "AAEB6964B43BE80B2B603A03C34791C50C6B7BEA117DEA0876B04C24A1546ED2"
+  },
+  "tests": {
+    "frontend": {
+      "blank2418": {
+        "status": "PASS",
+        "fixture": "reports\\dirt_qualification\\fixtures\\blank2418",
+        "foreground": 0,
+        "output_bits": 102400,
+        "source_requests": 956416,
+        "checks": [
+          "PASS FRAME blank2418 requests=956416 outputs=102400",
+          "PASS FRONTEND blank2418 cycles=5417980 backpressure=37908 request_stalls=348384"
+        ],
+        "actual_sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC"
+      },
+      "ink2358": {
+        "status": "PASS",
+        "fixture": "reports\\dirt_qualification\\fixtures\\ink2358",
+        "foreground": 1148,
+        "output_bits": 102400,
+        "source_requests": 956416,
+        "checks": [
+          "PASS FRAME ink2358 requests=956416 outputs=102400",
+          "PASS FRONTEND ink2358 cycles=5417980 backpressure=37908 request_stalls=348384"
+        ],
+        "actual_sha256": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00"
+      },
+      "strokes_on_fixed_dirt": {
+        "status": "PASS",
+        "fixture": "reports\\dirt_qualification\\fixtures\\strokes_on_fixed_dirt",
+        "foreground": 165,
+        "output_bits": 102400,
+        "source_requests": 956416,
+        "checks": [
+          "PASS FRAME strokes_on_fixed_dirt requests=956416 outputs=102400",
+          "PASS FRONTEND strokes_on_fixed_dirt cycles=5417980 backpressure=37908 request_stalls=348384"
+        ],
+        "actual_sha256": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A"
+      },
+      "sample15_roi_border_contract": {
+        "status": "PASS",
+        "fixture": "reports\\dirt_qualification\\fixtures\\sample15_roi_border_contract",
+        "foreground": 587,
+        "output_bits": 102400,
+        "source_requests": 956416,
+        "checks": [
+          "PASS FRAME sample15_roi_border_contract requests=956416 outputs=102400",
+          "PASS FRONTEND sample15_roi_border_contract cycles=5417980 backpressure=37908 request_stalls=348384"
+        ],
+        "actual_sha256": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC"
+      },
+      "gray_gradient_grain": {
+        "status": "PASS",
+        "fixture": "reports\\dirt_qualification\\fixtures\\gray_gradient_grain",
+        "foreground": 4,
+        "output_bits": 102400,
+        "source_requests": 956416,
+        "checks": [
+          "PASS FRAME gray_gradient_grain requests=956416 outputs=102400",
+          "PASS FRONTEND gray_gradient_grain cycles=5417980 backpressure=37908 request_stalls=348384"
+        ],
+        "actual_sha256": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A"
+      },
+      "blank": {
+        "status": "PASS",
+        "fixture": "reports\\dirt_qualification\\fixtures\\blank",
+        "foreground": 0,
+        "output_bits": 102400,
+        "source_requests": 956416,
+        "checks": [
+          "PASS FRAME blank requests=956416 outputs=102400",
+          "PASS FRONTEND blank cycles=5417980 backpressure=37908 request_stalls=348384"
+        ],
+        "actual_sha256": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC"
+      },
+      "lifecycle": {
+        "status": "PASS",
+        "checks": [
+          "PASS FRAME lifecycle requests=956416 outputs=102400",
+          "PASS CANCEL_DIRTY_ROI_PENDING_AND_BLANK_REENTRY",
+          "PASS FRAME lifecycle requests=956416 outputs=102400",
+          "PASS RESET_DIRTY_ROI_PENDING_AND_BLANK_REENTRY",
+          "PASS FRONTEND lifecycle cycles=17358126 backpressure=118836 request_stalls=1116254"
+        ],
+        "output_bits": 204800,
+        "actual_sha256": "C897D2F74C446FDA15BABD5F06DFECBB95F69EF9926707453317D4C0E7AAB7EC"
+      },
+      "timeout": {
+        "status": "PASS",
+        "checks": [
+          "PASS TIMEOUT_PENDING_AND_CANCEL requests=1"
+        ]
+      }
+    },
+    "integrated": {
+      "blank2418": {
+        "status": "PASS",
+        "fixture": "reports\\dirt_qualification\\fixtures\\blank2418",
+        "paths": 0,
+        "points": 0,
+        "edges": 0,
+        "gcode_lines": 4,
+        "source_requests": 956416,
+        "foreground": 0,
+        "canvas_bits_checked": 102400,
+        "skeleton_bits_checked": 57600,
+        "checks": [
+          "PASS CAPTURE_INTEGRATED frontend thin graph paths mapper Gcode cycles=19324205 edges=0 paths=0 points=0 acked=4"
+        ],
+        "gcode_sha256": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+        "raw_paths_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "pen_down_commands": 0
+      },
+      "ink2358": {
+        "status": "PASS",
+        "fixture": "reports\\dirt_qualification\\fixtures\\ink2358",
+        "paths": 30,
+        "points": 351,
+        "edges": 603,
+        "gcode_lines": 417,
+        "source_requests": 956416,
+        "foreground": 1148,
+        "canvas_bits_checked": 102400,
+        "skeleton_bits_checked": 57600,
+        "checks": [
+          "PASS CAPTURE_INTEGRATED frontend thin graph paths mapper Gcode cycles=39278861 edges=603 paths=30 points=351 acked=417"
+        ],
+        "gcode_sha256": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+        "raw_paths_sha256": "0C3A1CF9FC73DB34C239F63E5E2D52F21E9429957D57B714EFAE9B9DC338D999",
+        "pen_down_commands": 30
+      }
+    }
+  },
+  "scope": "Production-root RTL; standalone frontend/lifecycle and captured raw YUYV to planner/mapper/plotter/parser/streamer/G-code component chain.",
+  "limitations": [
+    "Simulated GRBL peer; no physical plotter/camera acceptance.",
+    "No pixel ground truth; exact replay is not handwriting accuracy.",
+    "No synthesis, timing, DRC, reimport or bitgen is performed by this script."
+  ],
+  "output_sha256": {
+    "frontend\\blank.log": "902371EADCBF4DD223C98010523E88C2E47D0EADC80A5CB5EF2AEE4D5359C57B",
+    "frontend\\blank2418.log": "66EDBB7E2E4D067A6FE84E499A2E224EA649E99B49A800E509205AFDC5DD927C",
+    "frontend\\blank2418_actual.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "frontend\\blank2418_command.json": "30738B040C8E4403D61EFB3B7B58490AFC0D35475FE37C27D608D7AFFA3CA037",
+    "frontend\\blank_actual.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "frontend\\blank_command.json": "577AB7266503AAD75C1841BB90E6028BA755DA45C0EF9DE49ABBF84ACBAD3A7E",
+    "frontend\\compile.log": "A81EEBE87D3F4C707FEDBC8AD8F6C7784F2D2153A2000A8E79F4C225141A193A",
+    "frontend\\compile_command.json": "EA7A7432ECA280FA5179C0B9E5170FB4E112B28375F88BB8F6659A7B07CCFC07",
+    "frontend\\gray_gradient_grain.log": "DC6439368FB56C0D16B9CE54F96FB57EF015B16567EBAEB9C84B45B387DFD9ED",
+    "frontend\\gray_gradient_grain_actual.mem": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A",
+    "frontend\\gray_gradient_grain_command.json": "8E5153F64E1A014076E191528D4DF4BF8DF62553A4A79142D519EF04A5424158",
+    "frontend\\ink2358.log": "346C409064CA3D4210316A3DB7DA5F05B30A0ACDBE6DCF281173209E0B67D780",
+    "frontend\\ink2358_actual.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+    "frontend\\ink2358_command.json": "F7944FF9CD3F6E2D296FDABB4F87F4FECD66C76BD391AD86A61393FF69D2934C",
+    "frontend\\lifecycle.log": "D9BF7B74565256C539ECF8F9CB2BC76EB78FA57DADCFC2245D181F575F581AC2",
+    "frontend\\lifecycle_actual.mem": "C897D2F74C446FDA15BABD5F06DFECBB95F69EF9926707453317D4C0E7AAB7EC",
+    "frontend\\lifecycle_command.json": "EF4C2A0EF3E4EA3C70D5F57BB3371CDB6A3E2E73AFE983745CCDA19BD3841016",
+    "frontend\\sample15_roi_border_contract.log": "CD5D310670C06CC046D1D1C740D17F8B64C2B8A9CC78214AED7AF6EC14CA5304",
+    "frontend\\sample15_roi_border_contract_actual.mem": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC",
+    "frontend\\sample15_roi_border_contract_command.json": "6DC950BACA48C0A20BC1C9850B23D56DBB2173C4BC33163A570AC109E6820D1C",
+    "frontend\\strokes_on_fixed_dirt.log": "5F254F4722D137469F8DBF9743C137A849163AA1814A049BEE769B983E67AC13",
+    "frontend\\strokes_on_fixed_dirt_actual.mem": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A",
+    "frontend\\strokes_on_fixed_dirt_command.json": "6361882F85CD0333DBFEF41F4D2C7667708E7893A4F321078EACD9AA3168BCF0",
+    "frontend\\timeout.log": "FA5F7AB787733B26968BAC6B070D933847EB22E076076CB94C491FA97E6C39A1",
+    "frontend\\timeout_command.json": "363BF752C41807BDC74BEBE46B53A48A36AABA2EAE8691EA2B35E4EC030DA7C1",
+    "frontend\\vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "frontend\\vlib_command.json": "8EB6E04A2490DD46B19F5117BA0E1E359B7C139EE91E2CEDB15AF34C813C1448",
+    "integrated_blank2418\\compile.log": "D92DE03F6D2146FFCE6B2B3CB141541DFDA2ED2600311AA227E8BBD029CFD4C2",
+    "integrated_blank2418\\compile_command.json": "2DCF31144F8668C1B39B409D9FABB88C384926212E83CBE4FA780124D5AB8488",
+    "integrated_blank2418\\expected.mem": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "integrated_blank2418\\gcode.txt": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+    "integrated_blank2418\\input.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "integrated_blank2418\\raw_paths.txt": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "integrated_blank2418\\simulate.log": "4668B41FB21DF300E3D959164085E9388DA2D4A08618164B709306D1E7619FFE",
+    "integrated_blank2418\\simulate_command.json": "5742072D538C62E9660A2D7496D9C12B85FB3761FFDAA2D56FFDB597FEA7B624",
+    "integrated_blank2418\\skeleton.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "integrated_blank2418\\source_y.mem": "49EC9AE502DC60597221732A4DA69D49A06D83DDB182F3B88AD3DECE8C830351",
+    "integrated_blank2418\\vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "integrated_blank2418\\vlib_command.json": "19306E2D4752346A77E88673D6A81DC32BEE14CD2B1C4929B686CB04363F3224",
+    "integrated_ink2358\\compile.log": "1EFD1357C88E216249C2578D891D2868BD687824C1ECAE3CE66FEAADF4E63833",
+    "integrated_ink2358\\compile_command.json": "7B7FF70BA63677C1E95AD53260C98EEBD039252FA0C8EB78F535869879B837C7",
+    "integrated_ink2358\\expected.mem": "DD920D357DCC2B5017B41D2A26C555FD7885597665019915F3CE68E612A70CA1",
+    "integrated_ink2358\\gcode.txt": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+    "integrated_ink2358\\input.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+    "integrated_ink2358\\raw_paths.txt": "0C3A1CF9FC73DB34C239F63E5E2D52F21E9429957D57B714EFAE9B9DC338D999",
+    "integrated_ink2358\\simulate.log": "ECA6B936328F8907A73536CCF0EDD42A20658781FE3DB6D134B06D40BE754394",
+    "integrated_ink2358\\simulate_command.json": "E4EBB439CB3C1DB17D59CA1A775D4A2CA19405A0B93D4F04CDB295DFA9864914",
+    "integrated_ink2358\\skeleton.mem": "29060DFFBA0385B1C28A6CCC12BCD45AB480EA02523EB277493DF598DF1AFC50",
+    "integrated_ink2358\\source_y.mem": "B30D8E3EA87D460F37A964E52A86E3A090F1E7A23DBBCDB11E203009CA21F72B",
+    "integrated_ink2358\\vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "integrated_ink2358\\vlib_command.json": "AA70E5A2C2FA88A0710B226AD83AB971149A881843B3F682550EDBF07833BFFA"
+  }
+}

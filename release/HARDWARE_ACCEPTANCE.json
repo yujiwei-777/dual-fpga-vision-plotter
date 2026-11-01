@@ -1,0 +1,14 @@
+{
+  "schema": "dual_fpga_user_hardware_acceptance_v1",
+  "date": "2026-11-01",
+  "timezone": "Asia/Shanghai",
+  "status": "PASS_USER_REPORTED",
+  "source": "Direct user confirmation in the publication conversation",
+  "user_statement": "全部通过实测了",
+  "scope": "The two user-selected main and secondary bits and their combined functionality",
+  "evidence_detail": "No per-case instrument logs, photos, videos or duration supplied with this confirmation",
+  "main_bit_sha256": "FB3FE4F57721C7068821EC0C010D589CB82398E6F38CCCF3F7892006033E5515",
+  "secondary_bit_sha256": "5066DC18572D27361957A63C1702EA3CD060CAEDAB88A0172F8A3C86451C1F34",
+  "historical_reports": "Preserved unchanged, including their earlier NOT_RUN status",
+  "publication_action": "Source and documentation packaging only; no RTL/model/constraint edits or new bit generation"
+}

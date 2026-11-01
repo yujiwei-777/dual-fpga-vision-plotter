@@ -1,0 +1,1107 @@
+{
+  "passed": true,
+  "hook_sha256": "B075E954594269ED473318765371C9D92E510B22D2A211D5AE1AD99453DD40E9",
+  "hook_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\04_pin\\clocktrace_sclk\\prove_key3_supervisor_clocktrace.tcl",
+  "summary": [
+    {
+      "cases": 211,
+      "positive": 32,
+      "negative": 179,
+      "failed": 0
+    }
+  ],
+  "cases": [
+    {
+      "name": "gate_real_pad",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "route_real_static_gclk",
+      "status": "PASS",
+      "detail": "GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE)"
+    },
+    {
+      "name": "key_real_pad",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_key3_n_syn_4 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=DISABLE IN=I_key3_n OUT=I_key3_n_dup_3 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "clock_direct_canonical",
+      "status": "PASS",
+      "detail": "DIRECT expected=I_sys_clk"
+    },
+    {
+      "name": "key_direct_canonical",
+      "status": "PASS",
+      "detail": "DIRECT expected=I_key3_n"
+    },
+    {
+      "name": "key_bufkeep_from_real_pad",
+      "status": "PASS",
+      "detail": "BUFKEEP cell=key_buf IN=I_key3_n_dup_3 OUT=key_buffered UPSTREAM=(INPUT_PAD cell=I_key3_n_syn_4 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=DISABLE IN=I_key3_n OUT=I_key3_n_dup_3 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE)"
+    },
+    {
+      "name": "key_three_bufkeep_chain",
+      "status": "PASS",
+      "detail": "BUFKEEP cell=b2 IN=n1 OUT=n2 UPSTREAM=(BUFKEEP cell=b1 IN=n0 OUT=n1 UPSTREAM=(BUFKEEP cell=b0 IN=I_key3_n_dup_3 OUT=n0 UPSTREAM=(INPUT_PAD cell=I_key3_n_syn_4 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=DISABLE IN=I_key3_n OUT=I_key3_n_dup_3 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE)))"
+    },
+    {
+      "name": "key_explicit_incken_disabled",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_key3_n_syn_4 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=DISABLE IN=I_key3_n OUT=I_key3_n_dup_3 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "route_explicit_tie_vdd",
+      "status": "PASS",
+      "detail": "GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:AL_PHY_TIE:x24y38_auto_const.vdd,drct1=CONST:1:AL_PHY_TIE:x24y38_auto_const.vdd,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:AL_PHY_TIE:x24y38_auto_const.vdd UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE)"
+    },
+    {
+      "name": "clock_pad_wrong_MODE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 MODE=OUT expected=IN"
+    },
+    {
+      "name": "clock_pad_wrong_IDDRMODE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 IDDRMODE=IDDRX1 expected=BYPASS"
+    },
+    {
+      "name": "clock_pad_wrong_ODLYEN",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 ODLYEN=ENABLE expected=DISABLE"
+    },
+    {
+      "name": "clock_pad_wrong_TSMUX",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 TSMUX=SIG expected=1"
+    },
+    {
+      "name": "clock_pad_wrong_INCKEN",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 INCKEN=DISABLE expected=ENABLE"
+    },
+    {
+      "name": "clock_pad_wrong_REF_NAME",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported CLOCK source I_sys_clk_dup_1 DRIVER=I_sys_clk_syn_2.di TYPE=AL_PHY_HD_PAD REF_NAME=WRONG_PAD"
+    },
+    {
+      "name": "clock_pad_wrong_TYPE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported CLOCK source I_sys_clk_dup_1 DRIVER=I_sys_clk_syn_2.di TYPE=WRONG_PAD REF_NAME=PH1P_PHY_HD_PAD"
+    },
+    {
+      "name": "key_pad_wrong_incken",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_key3_n_syn_4 INCKEN=ENABLE expected=DISABLE"
+    },
+    {
+      "name": "clock_pad_missing_TYPE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete input-pad inventory I_sys_clk_syn_2 missing TYPE"
+    },
+    {
+      "name": "clock_pad_missing_REF_NAME",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete input-pad inventory I_sys_clk_syn_2 missing REF_NAME"
+    },
+    {
+      "name": "clock_pad_missing_MODE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete input-pad inventory I_sys_clk_syn_2 missing MODE"
+    },
+    {
+      "name": "clock_pad_missing_IDDRMODE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete input-pad inventory I_sys_clk_syn_2 missing IDDRMODE"
+    },
+    {
+      "name": "clock_pad_missing_ODLYEN",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete input-pad inventory I_sys_clk_syn_2 missing ODLYEN"
+    },
+    {
+      "name": "clock_pad_missing_TSMUX",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete input-pad inventory I_sys_clk_syn_2 missing TSMUX"
+    },
+    {
+      "name": "clock_pad_missing_INCKEN",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST clock input-pad I_sys_clk_syn_2 lacks explicit INCKEN=ENABLE"
+    },
+    {
+      "name": "clock_pad_explicit_default_DI_SEL",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=EXPLICIT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "clock_pad_bad_default_DI_SEL",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 DI_SEL=WRONG expected=SIG"
+    },
+    {
+      "name": "clock_pad_explicit_default_DI_TEST",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,EXPLICIT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "clock_pad_bad_default_DI_TEST",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 DI_TEST=WRONG expected=DO"
+    },
+    {
+      "name": "clock_pad_explicit_default_IDLYEN",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,EXPLICIT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "clock_pad_bad_default_IDLYEN",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 IDLYEN=WRONG expected=DISABLE"
+    },
+    {
+      "name": "clock_pad_explicit_default_IPCLK_DLY",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,EXPLICIT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "clock_pad_bad_default_IPCLK_DLY",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 IPCLK_DLY=WRONG expected=DISABLE"
+    },
+    {
+      "name": "clock_pad_explicit_default_IPCLKSWI",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,EXPLICIT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "clock_pad_bad_default_IPCLKSWI",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 IPCLKSWI=WRONG expected=SIG"
+    },
+    {
+      "name": "clock_pad_explicit_default_DLYCAS_MODE",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,EXPLICIT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "clock_pad_bad_default_DLYCAS_MODE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 DLYCAS_MODE=WRONG expected=NONE"
+    },
+    {
+      "name": "clock_pad_explicit_default_DLYSRC",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,EXPLICIT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE"
+    },
+    {
+      "name": "clock_pad_bad_default_DLYSRC",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 DLYSRC=WRONG expected=IOB"
+    },
+    {
+      "name": "clock_pad_explicit_default_GSR",
+      "status": "PASS",
+      "detail": "INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,EXPLICIT:GSR=ENABLE"
+    },
+    {
+      "name": "clock_pad_bad_default_GSR",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_syn_2 GSR=WRONG expected=ENABLE"
+    },
+    {
+      "name": "clock_pad_wrong_canonical_input",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST input pad does not directly connect canonical I_sys_clk: IN=other_clock OUT=I_sys_clk_dup_1"
+    },
+    {
+      "name": "key_pad_wrong_canonical_input",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST input pad does not directly connect canonical I_key3_n: IN=other_key OUT=I_key3_n_dup_3"
+    },
+    {
+      "name": "clock_pad_output_net_mismatch",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST input pad does not directly connect canonical I_sys_clk: IN=I_sys_clk OUT=disconnected_output"
+    },
+    {
+      "name": "clock_pad_wrong_output_pin",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported CLOCK source I_sys_clk_dup_1 DRIVER=I_sys_clk_syn_2.opad TYPE=AL_PHY_HD_PAD REF_NAME=PH1P_PHY_HD_PAD"
+    },
+    {
+      "name": "clock_multiple_drivers",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST CLOCK I_sys_clk_dup_1 lacks one primitive driver: I_sys_clk_syn_2.di rogue.o"
+    },
+    {
+      "name": "clock_missing_driver",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST CLOCK I_sys_clk_dup_1 lacks one primitive driver: "
+    },
+    {
+      "name": "clock_net_ambiguous",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST ambiguous CLOCK net I_sys_clk_dup_1"
+    },
+    {
+      "name": "clock_cell_ambiguous",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST ambiguous source cell I_sys_clk_syn_2"
+    },
+    {
+      "name": "clock_canonical_port_missing",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST canonical input port I_sys_clk is missing/ambiguous"
+    },
+    {
+      "name": "clock_canonical_port_ambiguous",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST canonical input port I_sys_clk is missing/ambiguous"
+    },
+    {
+      "name": "clock_canonical_port_wrong_net",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST canonical input I_sys_clk is not connected to I_sys_clk: wrong_port_net"
+    },
+    {
+      "name": "clock_canonical_multiple_drivers",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST canonical input I_sys_clk has unexpected drivers: I_sys_clk rogue.o"
+    },
+    {
+      "name": "key_canonical_multiple_drivers",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST canonical input I_key3_n has unexpected drivers: I_key3_n rogue.o"
+    },
+    {
+      "name": "clock_bad_inventory_header",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST missing/malformed complete property inventory for I_sys_clk_syn_2"
+    },
+    {
+      "name": "clock_duplicate_inventory_property",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST duplicate configured property I_sys_clk_syn_2 MODE"
+    },
+    {
+      "name": "clock_pad_missing_aux_pin",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected PH1P input-pad pin inventory I_sys_clk_syn_2: {I_sys_clk_syn_2.dly[4]} {I_sys_clk_syn_2.dly[3]} {I_sys_clk_syn_2.dly[2]} {I_sys_clk_syn_2.dly[1]} {I_sys_clk_syn_2.dly[0]} I_sys_clk_syn_2.dly_in I_sys_clk_syn_2.dly_src_sel {I_sys_clk_syn_2.doq[1]} {I_sys_clk_syn_2.doq[0]} I_sys_clk_syn_2.in_dl_return I_sys_clk_syn_2.in_dl_through I_sys_clk_syn_2.ipad I_sys_clk_syn_2.ipclk I_sys_clk_syn_2.lb_enb I_sys_clk_syn_2.osclk I_sys_clk_syn_2.rst I_sys_clk_syn_2.ts"
+    },
+    {
+      "name": "clock_pad_duplicate_input_inventory",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected PH1P input-pad pin inventory I_sys_clk_syn_2: I_sys_clk_syn_2.ce {I_sys_clk_syn_2.dly[4]} {I_sys_clk_syn_2.dly[3]} {I_sys_clk_syn_2.dly[2]} {I_sys_clk_syn_2.dly[1]} {I_sys_clk_syn_2.dly[0]} I_sys_clk_syn_2.dly_in I_sys_clk_syn_2.dly_src_sel {I_sys_clk_syn_2.doq[1]} {I_sys_clk_syn_2.doq[0]} I_sys_clk_syn_2.in_dl_return I_sys_clk_syn_2.in_dl_through I_sys_clk_syn_2.ipad I_sys_clk_syn_2.ipclk I_sys_clk_syn_2.lb_enb I_sys_clk_syn_2.osclk I_sys_clk_syn_2.rst I_sys_clk_syn_2.ts I_sys_clk_syn_2.ce"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.ce",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.ce"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.dly[4]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.dly[4]"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.dly[3]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.dly[3]"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.dly[2]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.dly[2]"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.dly[1]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.dly[1]"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.dly[0]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.dly[0]"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.dly_in",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.dly_in"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.dly_src_sel",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.dly_src_sel"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.doq[1]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.doq[1]"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.doq[0]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.doq[0]"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.in_dl_return",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.in_dl_return"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.in_dl_through",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.in_dl_through"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.ipclk",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.ipclk"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.lb_enb",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.lb_enb"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.osclk",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.osclk"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.rst",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.rst"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.ts",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.ts"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.diq[1]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.diq[1]"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.diq[0]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.diq[0]"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.dly_out",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.dly_out"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.opad",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.opad"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.out_dl_return",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.out_dl_return"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.out_dl_through",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.out_dl_through"
+    },
+    {
+      "name": "aux_connected_I_sys_clk_syn_2.bpad",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_syn_2.bpad"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.ce",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.ce"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.dly[4]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.dly[4]"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.dly[3]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.dly[3]"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.dly[2]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.dly[2]"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.dly[1]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.dly[1]"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.dly[0]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.dly[0]"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.dly_in",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.dly_in"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.dly_src_sel",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.dly_src_sel"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.doq[1]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.doq[1]"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.doq[0]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.doq[0]"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.in_dl_return",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.in_dl_return"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.in_dl_through",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.in_dl_through"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.ipclk",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.ipclk"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.lb_enb",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.lb_enb"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.osclk",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.osclk"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.rst",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.rst"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.ts",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.ts"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.diq[1]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.diq[1]"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.diq[0]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.diq[0]"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.dly_out",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.dly_out"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.opad",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.opad"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.out_dl_return",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.out_dl_return"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.out_dl_through",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.out_dl_through"
+    },
+    {
+      "name": "aux_connected_I_key3_n_syn_4.bpad",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_key3_n_syn_4.bpad"
+    },
+    {
+      "name": "gclk_wrong_PRESELECT",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_dup_1_created_gclkinst PRESELECT=CLK1 expected=CLK0"
+    },
+    {
+      "name": "gclk_wrong_HOLD",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_dup_1_created_gclkinst HOLD=NO expected=YES"
+    },
+    {
+      "name": "gclk_wrong_SEL_TRIGGER",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_dup_1_created_gclkinst SEL_TRIGGER=NEG expected=POS"
+    },
+    {
+      "name": "gclk_wrong_GSR",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_dup_1_created_gclkinst GSR=DISABLE expected=ENABLE"
+    },
+    {
+      "name": "gclk_wrong_REF_NAME",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported CLOCK source I_sys_clk_syn_11 DRIVER=I_sys_clk_dup_1_created_gclkinst.clkout TYPE=AL_PHY_GCLK REF_NAME=WRONG_GCLK"
+    },
+    {
+      "name": "gclk_wrong_TYPE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported CLOCK source I_sys_clk_syn_11 DRIVER=I_sys_clk_dup_1_created_gclkinst.clkout TYPE=WRONG_GCLK REF_NAME=PH1P_PHY_GCLK"
+    },
+    {
+      "name": "gclk_missing_TYPE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete GCLK inventory I_sys_clk_dup_1_created_gclkinst missing TYPE"
+    },
+    {
+      "name": "gclk_missing_REF_NAME",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete GCLK inventory I_sys_clk_dup_1_created_gclkinst missing REF_NAME"
+    },
+    {
+      "name": "gclk_missing_PRESELECT",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete GCLK inventory I_sys_clk_dup_1_created_gclkinst missing PRESELECT"
+    },
+    {
+      "name": "gclk_missing_HOLD",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete GCLK inventory I_sys_clk_dup_1_created_gclkinst missing HOLD"
+    },
+    {
+      "name": "gclk_missing_SEL_TRIGGER",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete GCLK inventory I_sys_clk_dup_1_created_gclkinst missing SEL_TRIGGER"
+    },
+    {
+      "name": "gclk_missing_GSR",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete GCLK inventory I_sys_clk_dup_1_created_gclkinst missing GSR"
+    },
+    {
+      "name": "gclk_control_wrong_cen0",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant phy_wrong_one TYPE=one PORT=O VALUE=1 EXPECTED=0"
+    },
+    {
+      "name": "gclk_control_wrong_cen1",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant phy_wrong_one TYPE=one PORT=O VALUE=1 EXPECTED=0"
+    },
+    {
+      "name": "gclk_control_wrong_drct0",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant x24y38_auto_gnd TYPE=AL_PHY_TIE PORT=gnd VALUE=0 EXPECTED=1"
+    },
+    {
+      "name": "gclk_control_wrong_drct1",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant x24y38_auto_gnd TYPE=AL_PHY_TIE PORT=gnd VALUE=0 EXPECTED=1"
+    },
+    {
+      "name": "gclk_control_wrong_seln0",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_fiu_wrapper/rdata_08[16] TYPE=one PORT=O VALUE=1 EXPECTED=1"
+    },
+    {
+      "name": "gclk_control_wrong_seln1",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant x24y38_auto_gnd TYPE=AL_PHY_TIE PORT=gnd VALUE=0 EXPECTED=1"
+    },
+    {
+      "name": "gclk_aux_clkin1_connected",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST expected one unconnected pin I_sys_clk_dup_1_created_gclkinst.clkin[1]"
+    },
+    {
+      "name": "gclk_extra_input",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected GCLK input pin inventory I_sys_clk_dup_1_created_gclkinst: {I_sys_clk_dup_1_created_gclkinst.cen[1]} {I_sys_clk_dup_1_created_gclkinst.cen[0]} {I_sys_clk_dup_1_created_gclkinst.clkin[1]} {I_sys_clk_dup_1_created_gclkinst.clkin[0]} {I_sys_clk_dup_1_created_gclkinst.drct[1]} {I_sys_clk_dup_1_created_gclkinst.drct[0]} {I_sys_clk_dup_1_created_gclkinst.seln[1]} {I_sys_clk_dup_1_created_gclkinst.seln[0]} I_sys_clk_dup_1_created_gclkinst.extra"
+    },
+    {
+      "name": "gclk_missing_input",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected GCLK input pin inventory I_sys_clk_dup_1_created_gclkinst: {I_sys_clk_dup_1_created_gclkinst.cen[1]} {I_sys_clk_dup_1_created_gclkinst.clkin[1]} {I_sys_clk_dup_1_created_gclkinst.clkin[0]} {I_sys_clk_dup_1_created_gclkinst.drct[1]} {I_sys_clk_dup_1_created_gclkinst.drct[0]} {I_sys_clk_dup_1_created_gclkinst.seln[1]} {I_sys_clk_dup_1_created_gclkinst.seln[0]}"
+    },
+    {
+      "name": "gclk_duplicate_input",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected GCLK input pin inventory I_sys_clk_dup_1_created_gclkinst: {I_sys_clk_dup_1_created_gclkinst.cen[1]} {I_sys_clk_dup_1_created_gclkinst.cen[0]} {I_sys_clk_dup_1_created_gclkinst.clkin[1]} {I_sys_clk_dup_1_created_gclkinst.clkin[0]} {I_sys_clk_dup_1_created_gclkinst.drct[1]} {I_sys_clk_dup_1_created_gclkinst.drct[0]} {I_sys_clk_dup_1_created_gclkinst.seln[1]} {I_sys_clk_dup_1_created_gclkinst.seln[0]} {I_sys_clk_dup_1_created_gclkinst.cen[1]}"
+    },
+    {
+      "name": "gclk_wrong_output_net",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST GCLK output disconnected from I_sys_clk_syn_11"
+    },
+    {
+      "name": "gclk_output_multiple_drivers",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST CLOCK I_sys_clk_syn_11 lacks one primitive driver: I_sys_clk_dup_1_created_gclkinst.clkout rogue.o"
+    },
+    {
+      "name": "gclk_constant_multiple_drivers",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST constant x24y38_auto_gnd lacks one primitive driver: x24y38_auto_const.gnd rogue.o"
+    },
+    {
+      "name": "gclk_constant_wrong_tie_reference",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST x24y38_auto_const REF_NAME=WRONG_TIE expected=PH1P_PHY_TIE"
+    },
+    {
+      "name": "gclk_constant_unsupported_primitive",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant x24y38_auto_gnd TYPE=AL_LOGIC_LUT4 PORT=gnd VALUE=-1 EXPECTED=0"
+    },
+    {
+      "name": "gclk_constant_output_mismatch",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant x24y38_auto_gnd TYPE=AL_PHY_TIE PORT=gnd VALUE=0 EXPECTED=0"
+    },
+    {
+      "name": "gclk_constant_wrong_driver_port",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_RESET_MAPPING_ERROR TEST expected one net at x24y38_auto_const.vdd: "
+    },
+    {
+      "name": "gclk_constant_missing_net",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST constant net is missing/ambiguous: x24y38_auto_gnd"
+    },
+    {
+      "name": "gclk_cycle",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST cyclic/overlong CLOCK source chain: I_sys_clk_syn_11 -> I_sys_clk_syn_11"
+    },
+    {
+      "name": "key_buffer_wrong_primitive",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported KEY source key_buffered DRIVER=key_buf.o TYPE=AL_LOGIC_BUFKEEP REF_NAME=UNPROVEN_BUFFER"
+    },
+    {
+      "name": "key_buffer_output_mismatch",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST BUFKEEP output disconnected from key_buffered"
+    },
+    {
+      "name": "key_buffer_self_cycle",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST cyclic/overlong KEY source chain: key_buffered -> key_buffered"
+    },
+    {
+      "name": "key_buffer_two_node_cycle",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST cyclic/overlong KEY source chain: n1 n0 -> n1"
+    },
+    {
+      "name": "key_buffer_overlong_chain",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST cyclic/overlong KEY source chain: n3 n2 n1 n0 -> I_key3_n_dup_3"
+    },
+    {
+      "name": "clock_unapproved_bufkeep",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported CLOCK source clock_buffered DRIVER=clock_buf.o TYPE=AL_LOGIC_BUFKEEP REF_NAME=AL_BUFKEEP"
+    },
+    {
+      "name": "key_unapproved_gclk",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported KEY source I_sys_clk_syn_11 DRIVER=I_sys_clk_dup_1_created_gclkinst.clkout TYPE=AL_PHY_GCLK REF_NAME=PH1P_PHY_GCLK"
+    },
+    {
+      "name": "sclk_defaults_open",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_explicit_GSR",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=EXPLICIT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_explicit_BYPASS",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,EXPLICIT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_explicit_DELAY",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,EXPLICIT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_explicit_DELAY_DYN",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,EXPLICIT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_wrong_GSR",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST test_sclk GSR=DISABLE expected=ENABLE"
+    },
+    {
+      "name": "sclk_wrong_BYPASS",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST test_sclk BYPASS=DISABLE expected=ENABLE"
+    },
+    {
+      "name": "sclk_wrong_DELAY",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST test_sclk DELAY=1 expected=0"
+    },
+    {
+      "name": "sclk_wrong_DELAY_DYN",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST test_sclk DELAY_DYN=ENABLE expected=DISABLE"
+    },
+    {
+      "name": "sclk_wrong_TYPE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported CLOCK source sclk_output DRIVER=test_sclk.clkout TYPE=AL_PHY_GCLK REF_NAME=PH1P_PHY_SCLK_V2"
+    },
+    {
+      "name": "sclk_wrong_REF_NAME",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported CLOCK source sclk_output DRIVER=test_sclk.clkout TYPE=AL_PHY_SCLK REF_NAME=PH1P_PHY_SCLK"
+    },
+    {
+      "name": "sclk_missing_TYPE",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete SCLK inventory test_sclk missing TYPE"
+    },
+    {
+      "name": "sclk_missing_REF_NAME",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST incomplete SCLK inventory test_sclk missing REF_NAME"
+    },
+    {
+      "name": "sclk_all_explicit",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=EXPLICIT:GSR=ENABLE,EXPLICIT:BYPASS=ENABLE,EXPLICIT:DELAY=0,EXPLICIT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_const_one_ce",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=ce=CONST:1:one:sclk_one.O,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_tie_vdd_ce",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=ce=CONST:1:AL_PHY_TIE:x24y38_auto_const.vdd,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_zero_delay_pins",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,dlytrim[0]=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,dlytrim[1]=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_ce_zero",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant x24y38_auto_gnd TYPE=AL_PHY_TIE PORT=gnd VALUE=0 EXPECTED=1"
+    },
+    {
+      "name": "sclk_ce_dynamic",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant I_sys_clk_dup_1 TYPE=AL_PHY_HD_PAD PORT=di VALUE=-1 EXPECTED=1"
+    },
+    {
+      "name": "sclk_delay_dynamic_0",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant I_sys_clk_dup_1 TYPE=AL_PHY_HD_PAD PORT=di VALUE=-1 EXPECTED=0"
+    },
+    {
+      "name": "sclk_delay_dynamic_1",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unproven constant I_sys_clk_dup_1 TYPE=AL_PHY_HD_PAD PORT=di VALUE=-1 EXPECTED=0"
+    },
+    {
+      "name": "sclk_ce_multiple_nets",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST ambiguous SCLK control net test_sclk.ce: I_sys_clk_dup_1 x24y38_auto_gnd"
+    },
+    {
+      "name": "sclk_ce_multiple_drivers",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST constant x24y38_auto_gnd lacks one primitive driver: x24y38_auto_const.gnd rogue.o"
+    },
+    {
+      "name": "sclk_unknown_parameter",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported SCLK property test_sclk CLK_DIV"
+    },
+    {
+      "name": "sclk_unknown_lowercase_parameter",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported SCLK inventory field test_sclk clk_div"
+    },
+    {
+      "name": "sclk_routed_metadata",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_duplicate_lowercase_metadata",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST duplicate SCLK inventory field test_sclk inferred"
+    },
+    {
+      "name": "sclk_bad_header",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST missing/malformed complete property inventory for test_sclk"
+    },
+    {
+      "name": "sclk_duplicate_property",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST duplicate configured property test_sclk BYPASS"
+    },
+    {
+      "name": "sclk_extra_input",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.select OUTPUTS=test_sclk.clkout ALL=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.clkout test_sclk.select"
+    },
+    {
+      "name": "sclk_extra_output",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} OUTPUTS=test_sclk.clkout test_sclk.other ALL=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.clkout test_sclk.other"
+    },
+    {
+      "name": "sclk_extra_inout",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} OUTPUTS=test_sclk.clkout ALL=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.clkout test_sclk.bidir"
+    },
+    {
+      "name": "sclk_missing_pin_ce",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} OUTPUTS=test_sclk.clkout ALL=test_sclk.clkin {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.clkout"
+    },
+    {
+      "name": "sclk_missing_pin_clkin",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} OUTPUTS=test_sclk.clkout ALL=test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.clkout"
+    },
+    {
+      "name": "sclk_missing_pin_dlytrim[0]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[1]} OUTPUTS=test_sclk.clkout ALL=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[1]} test_sclk.clkout"
+    },
+    {
+      "name": "sclk_missing_pin_dlytrim[1]",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} OUTPUTS=test_sclk.clkout ALL=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} test_sclk.clkout"
+    },
+    {
+      "name": "sclk_missing_pin_clkout",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} OUTPUTS= ALL=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]}"
+    },
+    {
+      "name": "sclk_duplicate_input",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.ce OUTPUTS=test_sclk.clkout ALL=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.clkout"
+    },
+    {
+      "name": "sclk_bad_input_direction",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} OUTPUTS=test_sclk.ce test_sclk.clkout ALL=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.clkout"
+    },
+    {
+      "name": "sclk_bad_output_direction",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unexpected SCLK pin inventory test_sclk: INPUTS=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.clkout OUTPUTS= ALL=test_sclk.clkin test_sclk.ce {test_sclk.dlytrim[0]} {test_sclk.dlytrim[1]} test_sclk.clkout"
+    },
+    {
+      "name": "sclk_wrong_output",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST SCLK output disconnected from sclk_output"
+    },
+    {
+      "name": "sclk_wrong_driver_pin",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported CLOCK source sclk_output DRIVER=test_sclk.clkin TYPE=AL_PHY_SCLK REF_NAME=PH1P_PHY_SCLK_V2"
+    },
+    {
+      "name": "sclk_multiple_drivers",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST CLOCK sclk_output lacks one primitive driver: test_sclk.clkout rogue.o"
+    },
+    {
+      "name": "sclk_missing_driver",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST CLOCK sclk_output lacks one primitive driver: "
+    },
+    {
+      "name": "sclk_ambiguous_cell",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST ambiguous source cell test_sclk"
+    },
+    {
+      "name": "sclk_ambiguous_net",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST ambiguous CLOCK net sclk_output"
+    },
+    {
+      "name": "sclk_unconnected_input",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_RESET_MAPPING_ERROR TEST expected one net at test_sclk.clkin: "
+    },
+    {
+      "name": "sclk_self_cycle",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST cyclic/overlong CLOCK source chain: sclk_output -> sclk_output"
+    },
+    {
+      "name": "sclk_two_node_cycle",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST cyclic/overlong CLOCK source chain: sclk_output other_out -> sclk_output"
+    },
+    {
+      "name": "sclk_at_original_depth_limit",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=other_sclk IN=sclk_output OUT=other_out DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE)))"
+    },
+    {
+      "name": "sclk_over_original_depth_limit",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST cyclic/overlong CLOCK source chain: third_out other_out sclk_output I_sys_clk_syn_11 -> I_sys_clk_dup_1"
+    },
+    {
+      "name": "sclk_wrong_upstream_pad",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST input pad does not directly connect canonical I_sys_clk: IN=I_key3_n OUT=I_sys_clk_dup_1"
+    },
+    {
+      "name": "sclk_wrong_upstream_gclk",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST I_sys_clk_dup_1_created_gclkinst PRESELECT=CLK1 expected=CLK0"
+    },
+    {
+      "name": "sclk_clock_not_key",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR TEST unsupported KEY source sclk_output DRIVER=test_sclk.clkout TYPE=AL_PHY_SCLK REF_NAME=PH1P_PHY_SCLK_V2"
+    },
+    {
+      "name": "sclk_source_twice",
+      "status": "PASS",
+      "detail": "SCLK_STATIC cell=test_sclk IN=I_sys_clk_syn_11 OUT=sclk_output DEFAULTS=PH1P_DEFAULT:GSR=ENABLE,PH1P_DEFAULT:BYPASS=ENABLE,PH1P_DEFAULT:DELAY=0,PH1P_DEFAULT:DELAY_DYN=DISABLE CONTROLS=OPEN:ce,OPEN:dlytrim[0],OPEN:dlytrim[1] UPSTREAM=(GCLK_STATIC cell=I_sys_clk_dup_1_created_gclkinst IN=I_sys_clk_dup_1 OUT=I_sys_clk_syn_11 PRESELECT=CLK0 HOLD=YES SEL_TRIGGER=POS GSR=ENABLE CONTROLS=cen0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,cen1=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,drct0=CONST:1:one:_al_const_one.O,drct1=CONST:1:one:_al_const_one.O,seln0=CONST:0:AL_PHY_TIE:x24y38_auto_const.gnd,seln1=CONST:1:one:_al_const_one.O UPSTREAM=(INPUT_PAD cell=I_sys_clk_syn_2 PAD_TYPE=AL_PHY_HD_PAD PAD_MODE=IN IDDRMODE=BYPASS INCKEN=ENABLE IN=I_sys_clk OUT=I_sys_clk_dup_1 DEFAULTS=PH1P_DEFAULT:DI_SEL=SIG,PH1P_DEFAULT:DI_TEST=DO,PH1P_DEFAULT:IDLYEN=DISABLE,PH1P_DEFAULT:IPCLK_DLY=DISABLE,PH1P_DEFAULT:IPCLKSWI=SIG,PH1P_DEFAULT:DLYCAS_MODE=NONE,PH1P_DEFAULT:DLYSRC=IOB,PH1P_DEFAULT:GSR=ENABLE))"
+    },
+    {
+      "name": "sclk_polluted_alias_body",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR LOAD unrecognized original-trace alias"
+    },
+    {
+      "name": "sclk_polluted_alias_args",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR LOAD unrecognized original-trace alias"
+    },
+    {
+      "name": "sclk_polluted_alias_defaults",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR LOAD changed original-trace alias argument defaults"
+    },
+    {
+      "name": "full_supervisor_gate",
+      "status": "PASS",
+      "detail": "FULL_SUPERVISOR_26_PROVEN report=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_key3_sclk_proof_scratch_20261101/unit_20261031T235456_001946Z/secondary_key3_full_gate.rpt overwrite_rejected=1"
+    },
+    {
+      "name": "full_supervisor_physical",
+      "status": "PASS",
+      "detail": "FULL_SUPERVISOR_26_PROVEN report=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_key3_sclk_proof_scratch_20261101/unit_20261031T235456_001946Z/secondary_key3_full_physical.rpt overwrite_rejected=1"
+    },
+    {
+      "name": "full_supervisor_mixed",
+      "status": "PASS",
+      "detail": "FULL_SUPERVISOR_26_PROVEN report=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_key3_sclk_proof_scratch_20261101/unit_20261031T235456_001946Z/secondary_key3_full_mixed.rpt overwrite_rejected=1"
+    },
+    {
+      "name": "full_supervisor_bad_reset_value",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR reject_bad_reset_value full_ff_0 REGSET=RESET expected=SET"
+    },
+    {
+      "name": "full_supervisor_bad_sync_data",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR reject_bad_sync_data SYNC D is not exactly META Q"
+    },
+    {
+      "name": "full_supervisor_bad_counter_reset",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_RESET_MAPPING_ERROR reject_bad_counter_reset wrong async source NET=board_release; expected one combinational LUT driver, got full_ff_25.q"
+    },
+    {
+      "name": "full_supervisor_bad_clock",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR reject_bad_clock clock input-pad I_key3_n_syn_4 lacks explicit INCKEN=ENABLE"
+    },
+    {
+      "name": "full_supervisor_missing_counter",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_RESET_MAPPING_ERROR reject_missing_counter expected one source net u_board_reset/stable_count[19]: "
+    },
+    {
+      "name": "full_supervisor_merged_register",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR reject_merged_register merged supervisor registers at u_board_reset/key_sync"
+    },
+    {
+      "name": "full_supervisor_cloned_register",
+      "status": "EXPECTED_REJECTION",
+      "detail": "SECONDARY_KEY3_PROOF_ERROR reject_cloned_register unsupported cloned supervisor register u_board_reset/key_meta: u_board_reset/key_meta_dup_1"
+    }
+  ],
+  "input_sha256": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\run_sclk_tests.py": "47A681D73004C91B242E91A7230AA56E7C62E58B0382ACF4B449143EAFCAEBAB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\04_pin\\clocktrace_sclk\\prove_key3_supervisor_clocktrace.tcl": "B075E954594269ED473318765371C9D92E510B22D2A211D5AE1AD99453DD40E9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\reports\\key3_clocktrace_verification_20261031\\clock_source\\test_clocktrace_hook.tcl": "8A24047B30F8AD6AECE20B47E9FEC9CB70B50352C51D9DD30AA81498210DC2CF",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\test_sclk_cases.tcl": "53D91B9D56EACC9251D491CCE1FEC8545C1CB9078A49E04D6005DB403C65F036",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\fixtures\\control_route_inventory.txt": "F65E6794C2788155E9CF8F43D7647A408A86030849E7A9308B8F2C77EE6A9B38",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\fixtures\\gate_inventory.txt": "ABEB4A99584BECAAA0E3B63E2CD20772EF4997E580068BAABC898BF6520CEB50",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\fixtures\\key_pad_inventory.txt": "ED2A6834186B2B9AC235BE7D6D8492A1F114D237D58573E44C429A95BD64F0DC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\04_pin\\apply_cdc_exceptions.tcl": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\04_pin\\apply_reset_exceptions.tcl": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\04_pin\\prove_key3_supervisor_clocktrace.tcl": "EDC066683001510C7159AC7351348C209FFD556570F3C66CE40DD6735E834A34",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\04_pin\\prove_key3_supervisor_clocktrace.tcl": "EDC066683001510C7159AC7351348C209FFD556570F3C66CE40DD6735E834A34",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\04_pin\\apply_reset_exceptions.tcl": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key3_stroke_compact_20261101\\04_pin\\apply_cdc_exceptions.tcl": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0",
+    "E:\\td\\arch\\ph1p_macro.v": "049A0F45FD59FC645F63C71D1506E42348368170130B4B05E774AEE228436503",
+    "E:\\td\\template\\verilog\\Device-Primitive\\PH1P\\Clock\\ph1p_clock.v": "B30C8681E511AFA407E647FDAA8068360FB0BBF664EC841800FC2716831CEA0E",
+    "E:\\td\\doc\\UG1310_PH1P_Libraries_Guide_for_HDL_Designs.pdf": "71BFFD594321B92C58116DB5BB28088FA18DB738C20BB279AB801E84F3A4C208"
+  },
+  "inputs_unchanged": true,
+  "tcl_executable": "D:\\conda\\Library\\bin\\tclsh.EXE",
+  "tcl_exit_code": 0,
+  "full_supervisor_reports_valid": true,
+  "evidence_sha256": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\generated_test.tcl": "3DC84B5C81D6A6D1099C0D4F9345592C64D719AB6165526A4DA7FA004DCCA11D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\stdout.log": "4919D57644BB8F17999163581052B8AF8B208F1C8D520A333E39952BABBC970E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\stderr.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\secondary_key3_full_gate.rpt": "B0F751438CA52FF141128E6AC852D9600AD8B3ED2E6E45805731C25F256FC78F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\secondary_key3_full_mixed.rpt": "BE785C91F6A92283F1BCA6ECC900396CAF766A3BA28D34F4318047E725817B52",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_key3_sclk_proof_scratch_20261101\\unit_20261031T235456_001946Z\\secondary_key3_full_physical.rpt": "250155BC15E004FDFB453FBFC97D68A80A1C3BA0E5E1BDB92B1391F2BFC2456A"
+  },
+  "td_invoked": false,
+  "rtl_simulation_invoked": false,
+  "timing_exceptions_installed": false,
+  "limits": [
+    "Pure Tcl mocked database; requires a separate live mapped/routed proof.",
+    "Original 26 register proof and original maximum trace depth are unchanged."
+  ]
+}
