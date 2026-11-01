@@ -4,6 +4,8 @@
 
 发布内容包括两板 RTL、IP 依赖、ADC / SDC、模型与 ROM、参考模型、仿真输入、构建报告及 diagnostic bit。下载 bit 后请用 SHA256SUMS.txt 校验。
 
+系统架构、开发阶段实拍和文档路径回放见 [演示图集](https://github.com/yujiwei-777/dual-fpga-vision-plotter/blob/main/docs/GALLERY.md)。
+
 使用说明见 [README](https://github.com/yujiwei-777/dual-fpga-vision-plotter/blob/main/README.md)，算法参数与源码入口见 [版本功能范围](https://github.com/yujiwei-777/dual-fpga-vision-plotter/blob/main/docs/VERSION_SCOPE.md)。标签与源码压缩包保留发布时的内容，说明文档在 main 分支持续更新。
 
 实板测试结论及对应 bit 校验值见 [验收记录](https://github.com/yujiwei-777/dual-fpga-vision-plotter/blob/main/release/HARDWARE_ACCEPTANCE.json)，构建与仿真记录见 [验证说明](https://github.com/yujiwei-777/dual-fpga-vision-plotter/blob/main/docs/VALIDATION.md)。

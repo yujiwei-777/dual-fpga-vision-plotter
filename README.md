@@ -10,15 +10,19 @@
 
 ## 系统结构
 
-~~~mermaid
-flowchart LR
-    CAMERA[SC500 摄像头] --> MAIN[主 FPGA：采集 / 图像处理 / 调度]
-    MAIN --> HDMI[HDMI：画面 / 识别框 / 中文 OSD]
-    MAIN <-->|以太网 HXA1 / Type18| SECOND[副 FPGA：DDR / CNN / PCB / 笔迹规划]
-    SECOND <-->|UART 115200 8N1| BRIDGE[串口无线桥接模块]
-    BRIDGE <--> GRBL[GRBL 执行控制器]
-    GRBL --> PLOTTER[写字机]
-~~~
+![系统架构：主板采集与显示，副板识别及路径规划，经无线桥接驱动 GRBL 写字机](docs/assets/system-architecture.png)
+
+[查看 SVG 矢量图](docs/assets/system-architecture.svg)
+
+## 实拍展示
+
+| HDMI 图像采集与显示 | 多目标识别与信息叠加 |
+| --- | --- |
+| ![HDMI 显示器上的摄像头实时画面](docs/assets/hdmi-live.jpg) | ![绿色圆柱与红色三角物块的识别演示](docs/assets/cnn-targets.jpg) |
+| **不同物块识别** | **写字机执行平台** |
+| ![红色与蓝色物块的多目标识别画面](docs/assets/cnn-multiple.jpg) | ![安装笔夹的写字机与开发阶段纸面绘制结果](docs/assets/plotter-hardware.jpg) |
+
+照片取自项目开发阶段的实拍记录，画面中的 OSD 为当时版本。更多图像处理效果及文档路径回放见 [演示图集](docs/GALLERY.md)。
 
 ## 主要功能
 
