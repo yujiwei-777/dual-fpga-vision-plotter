@@ -1,6 +1,6 @@
 # 构建与核验
 
-## 先核验交付身份
+## 文件校验
 
 完整下载仓库，使用 Python 3.11+ 在仓库根运行：
 
@@ -8,9 +8,9 @@
 python -B verify_release.py
 ~~~
 
-该命令检查原包全部文件的数量、尺寸、SHA256、218 条工程引用、双板 bit 及归档副本；再核对实测确认对应相同两个 bit。它不运行综合或仿真，也不将用户反馈转为仪器测试日志。
+该命令检查源文件数量、尺寸、SHA256、218 条工程引用、双板 bit 及归档副本，并核对验收记录中的 bit 校验值。综合与仿真需单独运行。
 
-hardware/ 保留原始可移交包的字节和精确文件集合，请在额外工作副本中构建。新增仿真库或构建目录会使原包校验失效。Git 属性关闭该目录自动换行转换，确保克隆后身份可核验。
+请复制 hardware/ 后再构建，避免生成文件影响原目录的完整性校验。该目录已关闭 Git 自动换行转换，以保留源文件字节。
 
 ## 工具与入口
 
@@ -31,12 +31,12 @@ hardware/ 保留原始可移交包的字节和精确文件集合，请在额外�
 2. 在新副本先执行包根 python -B verify_package.py。
 3. 在板卡目录运行 python -B prepare_portable_run.py，按该板 README 处理运行目录参数和入口。该脚本只准备目录，不执行 TD，不生成 bit。
 4. 用兼容 TD 按生成的 Tcl 与目录结构依次完成 synthesis、place、route；历史辅助脚本可能含开发机工具路径或兄弟工程路径，需逐项适配。
-5. 为新数据库重新执行 lint / RTL 回归、CDC、FIFO、DDR、复位、DRC、只读 reimport 和资源 / 时序审核，通过后再自行执行 bitgen。历史发布 gate 不能批准新构建。
-6. 为新 bit 生成新哈希、源清单和验收记录。指定 bit 以及原报告不因重建自动替换。
+5. 对新构建执行 lint / RTL 回归、CDC、FIFO、DDR、复位、DRC、只读 reimport 和资源 / 时序检查，通过后执行 bitgen。
+6. 保存新 bit 的 SHA256、源清单和验收记录，与原版本分别归档。
 
 门槛：setup / hold WNS ≥ 0、TNS = 0、Slice < 95%、ERAM < 90%、DSP < 95%。也需要检查局部可放置性、固定 DDR / RGMII / 时钟区域及实际布线关键路径。
 
-## 证据入口
+## 报告与记录
 
 - hardware/PACKAGE_README.md、SOURCE_CHECKS.json、PACKAGE_MANIFEST.json。
 - 各板 PACKAGE_README.md、SOURCE_PROVENANCE.json、artifacts/README.md。
@@ -44,4 +44,4 @@ hardware/ 保留原始可移交包的字节和精确文件集合，请在额外�
 - 副板 reports/factored_delivery_quality/QUALITY.json、reports/factored_functional_review/FUNCTIONAL_REVIEW.json。
 - 各板 artifacts/evidence/ 与 02_sim/ 中的原始记录。
 
-本仓库没有声称已验证一条脱离原工具环境的全自动一键重建流水线。
+构建脚本中的工具路径和运行参数需按本机环境配置。
