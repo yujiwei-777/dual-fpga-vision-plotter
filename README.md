@@ -1,6 +1,6 @@
-# 双 FPGA 视觉识别与智能描绘系统
+# 视觉识别质检与控制描摹系统
 
-**Dual-FPGA Vision & Plotter · FPGA 创新设计大赛参赛工程**
+**Vision Inspection, Control & Tracing System · Dual-FPGA · FPGA 创新设计大赛参赛工程**
 
 本作品以 HX1P35A 平台为核心，由主从双 FPGA 和串口无线桥接模块协同完成图像采集、视觉识别、PCB 检测、结果显示和写字机输出。主板采集 SC500 摄像头 1280×720 图像，进行图像处理、运动检测与计数、A4 占比估距及 HDMI 信息叠加；副板通过以太网接收图像，执行普通目标 CNN、PCB 二分类及文档笔迹中心线提取，并向 GRBL 执行控制器发送确认式 G-code。
 
