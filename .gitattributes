@@ -7,3 +7,6 @@ release/*.json text eol=lf
 release/*.txt text eol=lf
 # Last rule wins: never normalize the immutable bundle.
 hardware/** -text
+
+# Preserve exact bytes of the separately versioned pose7 bundle.
+hardware_versions/** -text

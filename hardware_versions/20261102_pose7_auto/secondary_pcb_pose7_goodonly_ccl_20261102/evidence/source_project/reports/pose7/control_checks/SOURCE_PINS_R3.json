@@ -1,0 +1,98 @@
+{
+  "build_root": "E:\\codex_pcb_pose7_20261102_r3",
+  "source_manifest_sha256": "CD568E74649049B9DDC9105916FACB45DA8A6C8EBB2F11A167EF0A60B7F0EDD2",
+  "production": {
+    "01_rtl/secondary_top.v": {
+      "build_path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\secondary_top.v",
+      "source_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\secondary_top.v",
+      "sha256": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862",
+      "D_equals_frozen_E": true
+    },
+    "01_rtl/vision_pipeline.v": {
+      "build_path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_pipeline.v",
+      "source_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\vision_pipeline.v",
+      "sha256": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB",
+      "D_equals_frozen_E": true
+    },
+    "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": {
+      "build_path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v",
+      "source_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v",
+      "sha256": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+      "D_equals_frozen_E": true
+    },
+    "01_rtl/vision_ccl_pcb_candidate.v": {
+      "build_path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_ccl_pcb_candidate.v",
+      "source_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\vision_ccl_pcb_candidate.v",
+      "sha256": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+      "D_equals_frozen_E": true
+    },
+    "shared/rtl/hxa_packet_codec.v": {
+      "build_path": "E:\\codex_pcb_pose7_20261102_r3\\shared\\rtl\\hxa_packet_codec.v",
+      "source_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\shared\\rtl\\hxa_packet_codec.v",
+      "sha256": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+      "D_equals_frozen_E": true
+    },
+    "shared/rtl/hxa_packet_rx_fifo4.v": {
+      "build_path": "E:\\codex_pcb_pose7_20261102_r3\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+      "source_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+      "sha256": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+      "D_equals_frozen_E": true
+    },
+    "shared/rtl/hxa_secondary_link.v": {
+      "build_path": "E:\\codex_pcb_pose7_20261102_r3\\shared\\rtl\\hxa_secondary_link.v",
+      "source_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\shared\\rtl\\hxa_secondary_link.v",
+      "sha256": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+      "D_equals_frozen_E": true
+    }
+  },
+  "test_artifacts": {
+    "tb_pose7_top_control.v": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_top_control.v",
+      "sha256": "51549860FEBC8C10AB9D3167EE3FED8AEF82F45A19BCFA3B00222EE101DB570F"
+    },
+    "pose7_top_control_probe.v": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\pose7_top_control_probe.v",
+      "sha256": "5BC43D74708C024E45B0877C64F142267986C641493986BD9A767903681BFDD5"
+    },
+    "RUN_CONTROL.do": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\RUN_CONTROL.do",
+      "sha256": "E5CEFD60EA969181D32E27D186A84826D7B02C8C70677CBC0BEC385CB9864FE1"
+    },
+    "tb_pose7_frame_owner.v": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_frame_owner.v",
+      "sha256": "0CB738F5AF9F7982DB2BEA9618CCC5613E43E576261F595CD0A9815FDB995068"
+    },
+    "pose7_frame_owner_probe.v": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\pose7_frame_owner_probe.v",
+      "sha256": "185A97C1690F9522C01F25F1D748ABFDECB002E68009C7146CA2357B4CD22AB0"
+    },
+    "RUN_OWNER.do": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\RUN_OWNER.do",
+      "sha256": "A732F9F1412D7E557E2FD49FCC31F7617ECEF2F7FEAF736375874B8A79284DA0"
+    },
+    "tb_pose7_ccl_frames.v": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_ccl_frames.v",
+      "sha256": "4C3033EAA6C1CAEA230B9A9833572AB0D7272ACC18A8560662E14EE5F7C06F1A"
+    },
+    "RUN_CCL.do": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\RUN_CCL.do",
+      "sha256": "90E6E56BC8070EB4C070C95027D2DE88961D7EB106181905704D66582C545905"
+    },
+    "tb_pose7_hxa_admission.v": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_hxa_admission.v",
+      "sha256": "3314338B1542D44656F715814EB111B7E28C2FC3C9241C4C5DC85C5ACC261013"
+    },
+    "RUN_HXA_ADMISSION.do": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\RUN_HXA_ADMISSION.do",
+      "sha256": "521AD10A0DE45C2695F2C45E701D65853FD04FDB06BDF20708D04FDEA2238A2D"
+    },
+    "ph1p_logic_eram_stub.sv": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\ph1p_logic_eram_stub.sv",
+      "sha256": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176"
+    },
+    "PREPARED.json": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\PREPARED.json",
+      "sha256": "D758D341FF21DDC9F370023DB401EC974FBE416CC66B21BD3472CF09489DF188"
+    }
+  }
+}

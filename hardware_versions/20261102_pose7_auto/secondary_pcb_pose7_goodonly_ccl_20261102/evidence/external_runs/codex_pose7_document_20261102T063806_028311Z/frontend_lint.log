@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 14:38:06 on Nov 02,2026
+vlog -sv -lint -work front_lib E:\codex_pcb_pose7_20261102_r3\01_rtl\doc_image_frontend.v E:\codex_pose7_document_20261102T063806_028311Z\tb_frontend.sv 
+-- Compiling module doc_image_frontend
+-- Compiling module tb_frontend
+
+Top level modules:
+	tb_frontend
+End time: 14:38:06 on Nov 02,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

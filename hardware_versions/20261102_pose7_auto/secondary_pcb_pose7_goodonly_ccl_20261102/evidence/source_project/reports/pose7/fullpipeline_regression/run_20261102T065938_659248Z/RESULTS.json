@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "run_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\fullpipeline_regression\\run_20261102T065938_659248Z",
+  "command": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-do",
+    "run.do"
+  ],
+  "working_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\fullpipeline_regression\\run_20261102T065938_659248Z",
+  "RTL": "PASS",
+  "hardware": "NOT_RUN",
+  "latency_scope": "Abstract pixel reader, 2..4 cycles per accepted read; NOT actual DDR pipeline latency.",
+  "design": "E:\\codex_pcb_pose7_20261102_r4",
+  "source_manifest_sha256": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+  "returncode": 0,
+  "frames_passed": 6,
+  "cancellation_cases_passed": 3,
+  "sources_unchanged": true,
+  "frozen_sources_unchanged": true,
+  "latency_records": [
+    "POSE7_FULLPIPELINE_FRAME_PASS name=golden_good total_cycles=1310472 scan_ccl_cycles=247140 auto_cycles=1063330 abstract_us=10483.776000 score=6 status=0 flip=0 ccl_count=2",
+    "POSE7_FULLPIPELINE_FRAME_PASS name=golden_missing_pad total_cycles=1294088 scan_ccl_cycles=244532 auto_cycles=1049554 abstract_us=10352.704000 score=243 status=1 flip=0 ccl_count=1",
+    "POSE7_FULLPIPELINE_FRAME_PASS name=golden_missing_corner total_cycles=1275600 scan_ccl_cycles=239852 auto_cycles=1035746 abstract_us=10204.800000 score=296 status=1 flip=0 ccl_count=1",
+    "POSE7_FULLPIPELINE_FRAME_PASS name=golden_good total_cycles=1310472 scan_ccl_cycles=247140 auto_cycles=1063330 abstract_us=10483.776000 score=6 status=0 flip=0 ccl_count=2",
+    "POSE7_FULLPIPELINE_FRAME_PASS name=golden_good total_cycles=1310472 scan_ccl_cycles=247140 auto_cycles=1063330 abstract_us=10483.776000 score=6 status=0 flip=0 ccl_count=2",
+    "POSE7_FULLPIPELINE_FRAME_PASS name=golden_good total_cycles=1310472 scan_ccl_cycles=247140 auto_cycles=1063330 abstract_us=10483.776000 score=6 status=0 flip=0 ccl_count=2"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "dual_fpga_hardware_acceptance_v2",
+  "date": "2026-11-02",
+  "status": "NOT_RUN",
+  "scope": "pose7 CCL secondary and auto-compatible main paired hardware validation",
+  "main_bit_sha256": "B048D5BD30915F7C08791A9947D90982B741929E00CC0BE3036F7018C76209BC",
+  "secondary_bit_sha256": "AD02D4FC18AA58307EC2A3CBC1C5482B2B92B3FCF93CC0077B76748D11B692A8"
+}

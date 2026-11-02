@@ -1,0 +1,199 @@
+{
+  "status": "DIAGNOSTIC_NOT_RUN",
+  "created_utc": "2026-11-02T08:22:14.103265+00:00",
+  "project_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102",
+  "frozen_build": "E:\\codex_pcb_pose7_20261102_r5",
+  "bit": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\artifacts\\dual_fpga_secondary_20261102_pcb_pose7_goodonly_ccl_diagnostic.bit",
+  "bit_sha256": "AD02D4FC18AA58307EC2A3CBC1C5482B2B92B3FCF93CC0077B76748D11B692A8",
+  "source_manifest_sha256": "3D847C5B889CEEF42A5CACAD22412145447AB4BC510463722DD0CDC852FC74FE",
+  "source_entries": 305,
+  "routed_database_sha256": "6EC6440179FD21D27A60469B52AD524F316E0031C4913256EE20883CC33CEA88",
+  "timing_ns": {
+    "SWNS": 0.002,
+    "STNS": 0.0,
+    "HWNS": 0.017,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19335,
+      "total": 21216,
+      "percent": 91.13404977375566,
+      "original_strict_limit_percent": 95,
+      "within_original_limit": true
+    },
+    "eram": {
+      "used": 87,
+      "total": 108,
+      "percent": 80.55555555555556,
+      "original_strict_limit_percent": 90,
+      "within_original_limit": true
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0,
+      "original_strict_limit_percent": 95,
+      "within_original_limit": true
+    }
+  },
+  "gate_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\final_gate_r5\\GATE_PREPARED_R5.json",
+  "gate_sha256": "D05104DE19E39808D66D213A1941DB93E337BBC3332B0F27E098909B1345784A",
+  "checks": {
+    "cancel_reentry": true,
+    "cdc": true,
+    "ddr": true,
+    "document": true,
+    "drc": true,
+    "fifo": true,
+    "integer_stages": true,
+    "ordinary_cnn": true,
+    "readonly": true,
+    "writing": true
+  },
+  "evidence_count": 579,
+  "model_assets": {
+    "pose_statistics\\models\\pose7_96x96\\weights.mem": "68896CCC11E00F11BD6E31F1DAD306A0F350DB16E8514587B947D29DE002CBDB",
+    "pose_statistics\\models\\pose7_96x96\\biases.mem": "D812552EEB7FE77458CF2D0CC38652AC0A235B5049DCBE6EE8D0D1C63C742664",
+    "pose_statistics\\models\\pose7_96x96\\encoder_integer.npz": "69592B3CCF53183AA2EF3F5B4584C8C5557CA543A268CC0C2AAA328561E26F92",
+    "pose_statistics\\models\\pose7_96x96\\orientation_reference.mem": "C377CB4F148A59C0C764924F8A0D6824F33D5A4BDC1A56FFC2049B71001FFAC5",
+    "pose_statistics\\models\\pose7_96x96\\feature_centre.mem": "ED42834E1B538B5ABC8C0155FFD6B1E415DD7ADEAA13C28DAE0FF45AFE04FD2B",
+    "pose_statistics\\models\\pose7_96x96\\feature_tolerance.mem": "DA8A9ACB92C003774B8577DBECB6B49126857501619598CE1FE8DFC5932BC9F7",
+    "pose_statistics\\models\\pose7_96x96\\good_statistics.npz": "802615C4E45DB8CD0EA9F44F247EEA1FA504E2935E6F3DE7AEF71B1801E78D1A",
+    "pose_statistics\\models\\pose7_96x96\\MODEL.json": "AE6E5C01E533EFED960DF48CB5692279136C491122A2C9F2135FB81EB00ACAD2"
+  },
+  "copied_reports": {
+    "SOURCE_MANIFEST.json": {
+      "sha256": "3D847C5B889CEEF42A5CACAD22412145447AB4BC510463722DD0CDC852FC74FE",
+      "bytes": 96316,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\SOURCE_MANIFEST.json"
+    },
+    "BUILD_PLAN.json": {
+      "sha256": "DA7B86FB6C3AEA75D4605C3A945EFC0FD946003EBCDF38394388BA930B500BF6",
+      "bytes": 14875,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\BUILD_PLAN.json"
+    },
+    "SYNTHESIS_REVIEW.json": {
+      "sha256": "753FD720584743B18B75AE782DDAFAD810EE1BC04BA0ED91005DE65695FF8BF6",
+      "bytes": 2466,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\SYNTHESIS_REVIEW.json"
+    },
+    "PLACE_REVIEW.json": {
+      "sha256": "38C2BD9221642406E9AB28EAF276F37667000D19502080FDD08E7E640A7AC5A0",
+      "bytes": 2364,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\PLACE_REVIEW.json"
+    },
+    "PRE_BITGEN_REVIEW.json": {
+      "sha256": "92742F424E9B086C3752B00CCCF4E2326FD4F20E33F88C9D4840E332C4616B05",
+      "bytes": 2710,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\PRE_BITGEN_REVIEW.json"
+    },
+    "READONLY_VERIFICATION.json": {
+      "sha256": "63278DE8C8E529310BA23A848DFBCAA7EDA283480FDAC085B32F3F938BDFD26B",
+      "bytes": 231,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\READONLY_VERIFICATION.json"
+    },
+    "BITGEN_RESULT.json": {
+      "sha256": "0C35C84BC04EA35B7FFEEBCFDC8DC88F752975576DBE2C9AF35C6CF0F29C5CD9",
+      "bytes": 244,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\BITGEN_RESULT.json"
+    },
+    "runs/syn_1/secondary_cnn_multibox_gate.area": {
+      "sha256": "10C3FBFA4B284494B4BDBEB9ACF4BF332923905C397DCDBCA27838A7F8A1E65E",
+      "bytes": 38776,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\runs\\syn_1\\secondary_cnn_multibox_gate.area"
+    },
+    "runs/phy_1/secondary_cnn_multibox_phy.area": {
+      "sha256": "C231FC89ADA2E95BCC35FC511B176FE47F4E5546088395AEA02AD57911B322B4",
+      "bytes": 53738,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\runs\\phy_1\\secondary_cnn_multibox_phy.area"
+    },
+    "runs/phy_1/secondary_cnn_multibox_pr.timing": {
+      "sha256": "A711733CFB2E42AA3CB737C8152BD3201693A5FB5567BBDBAD98A413CA4EFCA3",
+      "bytes": 5813428,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\runs\\phy_1\\secondary_cnn_multibox_pr.timing"
+    },
+    "runs/phy_1/secondary_cnn_multibox_chk.timing": {
+      "sha256": "D95B40C9DE5A1C7EB2308DF14E624298050C5193F46405A7F9EACCC53921D378",
+      "bytes": 40286,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\runs\\phy_1\\secondary_cnn_multibox_chk.timing"
+    },
+    "runs/phy_1/route_flow.status": {
+      "sha256": "32C81F6A7B723EEFA2A91243D135653374B654FE8D797E9CCD34C8FDA5EBFCDE",
+      "bytes": 1650,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\runs\\phy_1\\route_flow.status"
+    },
+    "readonly/readonly.ts": {
+      "sha256": "946DCD5DFC73C1672DB3FF78B59ECB694C8ADAF26784E4A5BB6EF081D7EC569F",
+      "bytes": 62,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\readonly\\readonly.ts"
+    },
+    "readonly/readonly.area": {
+      "sha256": "C231FC89ADA2E95BCC35FC511B176FE47F4E5546088395AEA02AD57911B322B4",
+      "bytes": 53738,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\readonly\\readonly.area"
+    },
+    "readonly/readonly.check": {
+      "sha256": "A86EB1FCEB2046F4A0AFEFF9A2BFD72159C0AD65F7750A311B8788E0251E0F86",
+      "bytes": 39957,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\readonly\\readonly.check"
+    },
+    "readonly/readonly.timing": {
+      "sha256": "A99FD934144136B8A0B7F3BDCCE1BBA8135F0CF783179B1841A4F4F8D3FD76CB",
+      "bytes": 5813428,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\readonly\\readonly.timing"
+    },
+    "logs/syn.json": {
+      "sha256": "5D430CB84D69684E03F73BEF64CEFAAADA3BB3369AD20E67E18E087BE174A0F9",
+      "bytes": 534,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\syn.json"
+    },
+    "logs/syn.log": {
+      "sha256": "AECBF355684A902B38A8BA6473CCCC5521CF0389A443F65BFA5C2E496AB60B2E",
+      "bytes": 3252351,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\syn.log"
+    },
+    "logs/place.json": {
+      "sha256": "DCE5B31CD3073CAB9187024E68856870B08769E21B14A1FF6FCB1834EC870FC3",
+      "bytes": 548,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\place.json"
+    },
+    "logs/place.log": {
+      "sha256": "1A7908A4774C736E94343D97C87C55588D4F3A530C53CEB33166861498182E7A",
+      "bytes": 6069723,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\place.log"
+    },
+    "logs/route.json": {
+      "sha256": "A6D6715C1B0E6EC932671979EBDDF2906183B7C8DD5FFC1B5B74CD5F5C56F78D",
+      "bytes": 548,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\route.json"
+    },
+    "logs/route.log": {
+      "sha256": "244E6442F1DF5E7FD0D5519DE9F728624E76D551C78752EA923D1F07B6F9DCC4",
+      "bytes": 6579479,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\route.log"
+    },
+    "logs/readonly.json": {
+      "sha256": "3BCB403E6615AC408D45A404BECDBCE63335EE7C427FD64FAD8778838E21DE0C",
+      "bytes": 564,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\readonly.json"
+    },
+    "logs/readonly.log": {
+      "sha256": "58892876EDA299A4C58E16ACB02BC3F938F6A7B7C1D7C32AC5564524CC6F2F4F",
+      "bytes": 10657,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\readonly.log"
+    },
+    "logs/bitgen.json": {
+      "sha256": "D179C3D5DE3146F141922DE2352F9FEF9D733C81673F10022E6D1AC8BC3B36C6",
+      "bytes": 551,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\bitgen.json"
+    },
+    "logs/bitgen.log": {
+      "sha256": "92A775F49AFE77B2B8A3547B4431F21CB3A9955F60237E8AA307A67AE40E0DA7",
+      "bytes": 23228,
+      "original_path": "E:\\codex_pcb_pose7_20261102_r5\\logs\\bitgen.log"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "main_board_changed": false
+}

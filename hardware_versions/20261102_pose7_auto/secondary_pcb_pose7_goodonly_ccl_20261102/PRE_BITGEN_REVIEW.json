@@ -1,0 +1,134 @@
+{
+  "resources": {
+    "slice": {
+      "used": 19335,
+      "total": 21216,
+      "percent": 91.13404977375566,
+      "original_strict_limit_percent": 95,
+      "within_original_limit": true
+    },
+    "eram": {
+      "used": 87,
+      "total": 108,
+      "percent": 80.55555555555556,
+      "original_strict_limit_percent": 90,
+      "within_original_limit": true
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0,
+      "original_strict_limit_percent": 95,
+      "within_original_limit": true
+    }
+  },
+  "reported_capacity": {
+    "io": {
+      "used": 71,
+      "total": 160,
+      "percent": 44.375
+    },
+    "lut6": {
+      "used": 18570,
+      "total": 21216,
+      "percent": 87.52828054298642
+    },
+    "slice_reg": {
+      "used": 17748,
+      "total": 42432,
+      "percent": 41.82692307692308
+    },
+    "slice": {
+      "used": 19335,
+      "total": 21216,
+      "percent": 91.13404977375566
+    },
+    "f7mux": {
+      "used": 49,
+      "total": 10608,
+      "percent": 0.46191553544494723
+    },
+    "f8mux": {
+      "used": 9,
+      "total": 5304,
+      "percent": 0.16968325791855204
+    },
+    "eram": {
+      "used": 87,
+      "total": 108,
+      "percent": 80.55555555555556
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0
+    },
+    "ddr_byte": {
+      "used": 6,
+      "total": 12,
+      "percent": 50.0
+    },
+    "mipi_tx": {
+      "used": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "mipi_rx": {
+      "used": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "pad": {
+      "used": 26,
+      "total": 160,
+      "percent": 16.25
+    },
+    "pll": {
+      "used": 4,
+      "total": 6,
+      "percent": 66.66666666666667
+    },
+    "dpll": {
+      "used": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "gclk": {
+      "used": 7,
+      "total": 32,
+      "percent": 21.875
+    },
+    "lclk": {
+      "used": 1,
+      "total": 16,
+      "percent": 6.25
+    },
+    "sclk": {
+      "used": 14,
+      "total": 48,
+      "percent": 29.166666666666668
+    },
+    "mlclk": {
+      "used": 2,
+      "total": 16,
+      "percent": 12.5
+    },
+    "ioclk": {
+      "used": 4,
+      "total": 12,
+      "percent": 33.333333333333336
+    }
+  },
+  "timing_ns": {
+    "SWNS": 0.002,
+    "STNS": 0.0,
+    "HWNS": 0.017,
+    "HTNS": 0.0
+  },
+  "routed_two_corner": true,
+  "final_timing_pass": true,
+  "final_resources_pass": true,
+  "routed_database_sha256": "6EC6440179FD21D27A60469B52AD524F316E0031C4913256EE20883CC33CEA88",
+  "bitgen_allowed": false,
+  "hardware_status": "NOT_RUN"
+}

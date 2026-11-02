@@ -1,0 +1,100 @@
+# 
+# do run.do
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:20:41 on Nov 02,2026
+# vlog -sv -lint -work simlib E:/codex_pcb_pose7_20261102_r4/01_rtl/vision_pixel_reader.v E:/codex_pcb_pose7_20261102_r4/01_rtl/hxa_ddr_store.v E:/codex_pose7_reader_20261102_r4/run_20261102T072040_848611Z/top_read_route_probe.sv E:/codex_pose7_reader_20261102_r4/run_20261102T072040_848611Z/hxa_read_route_probe.sv E:/codex_pose7_reader_20261102_r4/tb_reader.sv 
+# -- Compiling module vision_pixel_reader
+# -- Compiling module hxa_ddr_store
+# -- Compiling module pose7_read_route_probe
+# -- Compiling module pose7_hxa_read_route_probe
+# -- Compiling module tb_pose7_real_reader
+# 
+# Top level modules:
+# 	tb_pose7_real_reader
+# End time: 15:20:41 on Nov 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" simlib.tb_pose7_real_reader 
+# Start time: 15:20:40 on Nov 02,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "vision_pixel_reader(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "hxa_ddr_store(fast)".
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_pose7_real_reader(fast)
+# Loading work.pose7_read_route_probe(fast)
+# Loading work.vision_pixel_reader(fast)
+# Loading work.pose7_hxa_read_route_probe(fast)
+# Loading work.hxa_ddr_store(fast)
+# POSE7_REAL_READER_PIXEL generation=0 x=0 y=0 actual_Y=17 expected_Y=17 actual_RGB=006200 expected_RGB=006200
+# POSE7_REAL_READER_CASE_PASS name=calibration_fences_requests
+# POSE7_REAL_READER_PIXEL generation=0 x=0 y=0 actual_Y=17 expected_Y=17 actual_RGB=006200 expected_RGB=006200
+# POSE7_REAL_READER_PIXEL generation=0 x=1 y=0 actual_Y=43 expected_Y=43 actual_RGB=008000 expected_RGB=008000
+# POSE7_REAL_READER_PIXEL generation=0 x=2 y=0 actual_Y=69 expected_Y=69 actual_RGB=1e6000 expected_RGB=1e6000
+# POSE7_REAL_READER_PIXEL generation=0 x=3 y=0 actual_Y=95 expected_Y=95 actual_RGB=3c7e00 expected_RGB=3c7e00
+# POSE7_REAL_READER_PIXEL generation=0 x=4 y=0 actual_Y=121 expected_Y=121 actual_RGB=ad5e86 expected_RGB=ad5e86
+# POSE7_REAL_READER_PIXEL generation=0 x=5 y=0 actual_Y=147 expected_Y=147 actual_RGB=cc7ca5 expected_RGB=cc7ca5
+# POSE7_REAL_READER_PIXEL generation=0 x=6 y=0 actual_Y=173 expected_Y=173 actual_RGB=ff5cff expected_RGB=ff5cff
+# POSE7_REAL_READER_PIXEL generation=0 x=7 y=0 actual_Y=199 expected_Y=199 actual_RGB=ff7aff expected_RGB=ff7aff
+# POSE7_REAL_READER_CASE_PASS name=all_eight_Y_lanes_odd_even_cache
+# POSE7_REAL_READER_PIXEL generation=0 x=8 y=0 actual_Y=225 expected_Y=225 actual_RGB=34ffff expected_RGB=34ffff
+# POSE7_REAL_READER_PIXEL generation=0 x=1279 y=719 actual_Y=247 expected_Y=247 actual_RGB=47ffff expected_RGB=47ffff
+# POSE7_REAL_READER_PIXEL generation=0 x=0 y=1 actual_Y=17 expected_Y=17 actual_RGB=006200 expected_RGB=006200
+# POSE7_REAL_READER_PIXEL generation=0 x=3 y=1 actual_Y=95 expected_Y=95 actual_RGB=3c7e00 expected_RGB=3c7e00
+# POSE7_REAL_READER_PIXEL generation=0 x=64 y=38 actual_Y=145 expected_Y=145 actual_RGB=f05dd3 expected_RGB=f05dd3
+# POSE7_REAL_READER_PIXEL generation=0 x=125 y=75 actual_Y=195 expected_Y=195 actual_RGB=ff7aff expected_RGB=ff7aff
+# POSE7_REAL_READER_PIXEL generation=0 x=186 y=112 actual_Y=245 expected_Y=245 actual_RGB=6bff0d expected_RGB=6bff0d
+# POSE7_REAL_READER_PIXEL generation=0 x=247 y=149 actual_Y=39 expected_Y=39 actual_RGB=008000 expected_RGB=008000
+# POSE7_REAL_READER_PIXEL generation=0 x=308 y=186 actual_Y=89 expected_Y=89 actual_RGB=555f21 expected_RGB=555f21
+# POSE7_REAL_READER_PIXEL generation=0 x=369 y=223 actual_Y=139 expected_Y=139 actual_RGB=b67c8b expected_RGB=b67c8b
+# POSE7_REAL_READER_PIXEL generation=0 x=430 y=260 actual_Y=189 expected_Y=189 actual_RGB=ff5bff expected_RGB=ff5bff
+# POSE7_REAL_READER_PIXEL generation=0 x=491 y=297 actual_Y=239 expected_Y=239 actual_RGB=ff79ff expected_RGB=ff79ff
+# POSE7_REAL_READER_PIXEL generation=0 x=552 y=334 actual_Y=33 expected_Y=33 actual_RGB=006100 expected_RGB=006100
+# POSE7_REAL_READER_PIXEL generation=0 x=613 y=371 actual_Y=83 expected_Y=83 actual_RGB=1b7f00 expected_RGB=1b7f00
+# POSE7_REAL_READER_PIXEL generation=0 x=674 y=408 actual_Y=133 expected_Y=133 actual_RGB=ce5dac expected_RGB=ce5dac
+# POSE7_REAL_READER_PIXEL generation=0 x=735 y=445 actual_Y=183 expected_Y=183 actual_RGB=ff7bff expected_RGB=ff7bff
+# POSE7_REAL_READER_PIXEL generation=0 x=796 y=482 actual_Y=233 expected_Y=233 actual_RGB=4affff expected_RGB=4affff
+# POSE7_REAL_READER_PIXEL generation=0 x=857 y=519 actual_Y=27 expected_Y=27 actual_RGB=008100 expected_RGB=008100
+# POSE7_REAL_READER_PIXEL generation=0 x=918 y=556 actual_Y=77 expected_Y=77 actual_RGB=346000 expected_RGB=346000
+# POSE7_REAL_READER_PIXEL generation=0 x=979 y=593 actual_Y=127 expected_Y=127 actual_RGB=947d65 expected_RGB=947d65
+# POSE7_REAL_READER_PIXEL generation=0 x=1040 y=630 actual_Y=177 expected_Y=177 actual_RGB=ff5cff expected_RGB=ff5cff
+# POSE7_REAL_READER_PIXEL generation=0 x=1101 y=667 actual_Y=227 expected_Y=227 actual_RGB=ff79ff expected_RGB=ff79ff
+# POSE7_REAL_READER_PIXEL generation=0 x=1162 y=704 actual_Y=21 expected_Y=21 actual_RGB=006200 expected_RGB=006200
+# POSE7_REAL_READER_CASE_PASS name=miss_boundaries_last_address_and_variable_latency
+# POSE7_REAL_READER_PIXEL generation=1 x=1162 y=704 actual_Y=68 expected_Y=68 actual_RGB=1b6000 expected_RGB=1b6000
+# POSE7_REAL_READER_CASE_PASS name=frame_invalidate_changes_same_word
+# POSE7_REAL_READER_PIXEL generation=1 x=71 y=19 actual_Y=118 expected_Y=118 actual_RGB=7c7d48 expected_RGB=7c7d48
+# POSE7_REAL_READER_CASE_PASS name=app_command_backpressure_and_samecycle_app_response
+# POSE7_REAL_READER_PIXEL generation=1 x=72 y=19 actual_Y=144 expected_Y=144 actual_RGB=ed5dcf expected_RGB=ed5dcf
+# POSE7_REAL_READER_CASE_PASS name=ordinary_color_word_port_masks_pixel_reply
+# POSE7_REAL_READER_PIXEL generation=1 x=91 y=45 actual_Y=126 expected_Y=126 actual_RGB=927d62 expected_RGB=927d62
+# POSE7_REAL_READER_CASE_PASS name=document_owns_reader_ignores_live_purpose_and_color
+# POSE7_REAL_READER_PIXEL generation=1 x=73 y=27 actual_Y=170 expected_Y=170 actual_RGB=ff7bee expected_RGB=ff7bee
+# POSE7_REAL_READER_PIXEL generation=1 x=74 y=27 actual_Y=196 expected_Y=196 actual_RGB=ff5bff expected_RGB=ff5bff
+# POSE7_REAL_READER_CASE_PASS name=PCB_network_cancel_retains_inflight_response
+# POSE7_REAL_READER_PIXEL generation=1 x=37 y=29 actual_Y=2 expected_Y=2 actual_RGB=001edc expected_RGB=001edc
+# POSE7_REAL_READER_PIXEL generation=2 x=37 y=29 actual_Y=49 expected_Y=49 actual_RGB=008000 expected_RGB=008000
+# POSE7_REAL_READER_CASE_PASS name=explicit_doc_cancel_drain_and_reentry
+# POSE7_REAL_READER_PIXEL generation=2 x=37 y=29 actual_Y=49 expected_Y=49 actual_RGB=008000 expected_RGB=008000
+# POSE7_REAL_READER_PIXEL generation=3 x=37 y=29 actual_Y=96 expected_Y=96 actual_RGB=3f7e02 expected_RGB=3f7e02
+# POSE7_REAL_READER_CASE_PASS name=KEY4_doc_drain_and_reentry
+# POSE7_REAL_READER_PIXEL generation=3 x=75 y=27 actual_Y=60 expected_Y=60 actual_RGB=008000 expected_RGB=008000
+# POSE7_REAL_READER_CASE_PASS name=CRC_read_owner_never_publishes_pixel
+# POSE7_REAL_READER_PIXEL generation=4 x=99 y=49 actual_Y=219 expected_Y=219 actual_RGB=ff79ff expected_RGB=ff79ff
+# POSE7_REAL_READER_CASE_PASS name=unreturned_doc_response_locks_until_raw_reset
+# POSE7_REAL_READER_PASS cases=12 checks=506 pixels=44 client_words=37 app_words=37 clocks=8ns_14ns
+# ** Note: $finish    : E:/codex_pose7_reader_20261102_r4/tb_reader.sv(244)
+#    Time: 9304 ns  Iteration: 1  Instance: /tb_pose7_real_reader
+# End time: 15:20:43 on Nov 02,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

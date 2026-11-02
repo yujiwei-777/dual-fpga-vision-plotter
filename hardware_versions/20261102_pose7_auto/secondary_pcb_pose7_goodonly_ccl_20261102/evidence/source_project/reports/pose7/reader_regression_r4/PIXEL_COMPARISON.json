@@ -1,0 +1,403 @@
+{
+  "status": "PASS",
+  "count": 44,
+  "oracle": "Independent address/YUYV byte lane and integer RGB formula in testbench; every returned pixel has an expected value, not transaction counts only.",
+  "rows": [
+    {
+      "generation": 0,
+      "x": 0,
+      "y": 0,
+      "actual_Y": 17,
+      "expected_Y": 17,
+      "actual_RGB": 25088,
+      "expected_RGB": 25088
+    },
+    {
+      "generation": 0,
+      "x": 0,
+      "y": 0,
+      "actual_Y": 17,
+      "expected_Y": 17,
+      "actual_RGB": 25088,
+      "expected_RGB": 25088
+    },
+    {
+      "generation": 0,
+      "x": 1,
+      "y": 0,
+      "actual_Y": 43,
+      "expected_Y": 43,
+      "actual_RGB": 32768,
+      "expected_RGB": 32768
+    },
+    {
+      "generation": 0,
+      "x": 2,
+      "y": 0,
+      "actual_Y": 69,
+      "expected_Y": 69,
+      "actual_RGB": 1990656,
+      "expected_RGB": 1990656
+    },
+    {
+      "generation": 0,
+      "x": 3,
+      "y": 0,
+      "actual_Y": 95,
+      "expected_Y": 95,
+      "actual_RGB": 3964416,
+      "expected_RGB": 3964416
+    },
+    {
+      "generation": 0,
+      "x": 4,
+      "y": 0,
+      "actual_Y": 121,
+      "expected_Y": 121,
+      "actual_RGB": 11361926,
+      "expected_RGB": 11361926
+    },
+    {
+      "generation": 0,
+      "x": 5,
+      "y": 0,
+      "actual_Y": 147,
+      "expected_Y": 147,
+      "actual_RGB": 13401253,
+      "expected_RGB": 13401253
+    },
+    {
+      "generation": 0,
+      "x": 6,
+      "y": 0,
+      "actual_Y": 173,
+      "expected_Y": 173,
+      "actual_RGB": 16735487,
+      "expected_RGB": 16735487
+    },
+    {
+      "generation": 0,
+      "x": 7,
+      "y": 0,
+      "actual_Y": 199,
+      "expected_Y": 199,
+      "actual_RGB": 16743167,
+      "expected_RGB": 16743167
+    },
+    {
+      "generation": 0,
+      "x": 8,
+      "y": 0,
+      "actual_Y": 225,
+      "expected_Y": 225,
+      "actual_RGB": 3473407,
+      "expected_RGB": 3473407
+    },
+    {
+      "generation": 0,
+      "x": 1279,
+      "y": 719,
+      "actual_Y": 247,
+      "expected_Y": 247,
+      "actual_RGB": 4718591,
+      "expected_RGB": 4718591
+    },
+    {
+      "generation": 0,
+      "x": 0,
+      "y": 1,
+      "actual_Y": 17,
+      "expected_Y": 17,
+      "actual_RGB": 25088,
+      "expected_RGB": 25088
+    },
+    {
+      "generation": 0,
+      "x": 3,
+      "y": 1,
+      "actual_Y": 95,
+      "expected_Y": 95,
+      "actual_RGB": 3964416,
+      "expected_RGB": 3964416
+    },
+    {
+      "generation": 0,
+      "x": 64,
+      "y": 38,
+      "actual_Y": 145,
+      "expected_Y": 145,
+      "actual_RGB": 15752659,
+      "expected_RGB": 15752659
+    },
+    {
+      "generation": 0,
+      "x": 125,
+      "y": 75,
+      "actual_Y": 195,
+      "expected_Y": 195,
+      "actual_RGB": 16743167,
+      "expected_RGB": 16743167
+    },
+    {
+      "generation": 0,
+      "x": 186,
+      "y": 112,
+      "actual_Y": 245,
+      "expected_Y": 245,
+      "actual_RGB": 7077645,
+      "expected_RGB": 7077645
+    },
+    {
+      "generation": 0,
+      "x": 247,
+      "y": 149,
+      "actual_Y": 39,
+      "expected_Y": 39,
+      "actual_RGB": 32768,
+      "expected_RGB": 32768
+    },
+    {
+      "generation": 0,
+      "x": 308,
+      "y": 186,
+      "actual_Y": 89,
+      "expected_Y": 89,
+      "actual_RGB": 5594913,
+      "expected_RGB": 5594913
+    },
+    {
+      "generation": 0,
+      "x": 369,
+      "y": 223,
+      "actual_Y": 139,
+      "expected_Y": 139,
+      "actual_RGB": 11959435,
+      "expected_RGB": 11959435
+    },
+    {
+      "generation": 0,
+      "x": 430,
+      "y": 260,
+      "actual_Y": 189,
+      "expected_Y": 189,
+      "actual_RGB": 16735231,
+      "expected_RGB": 16735231
+    },
+    {
+      "generation": 0,
+      "x": 491,
+      "y": 297,
+      "actual_Y": 239,
+      "expected_Y": 239,
+      "actual_RGB": 16742911,
+      "expected_RGB": 16742911
+    },
+    {
+      "generation": 0,
+      "x": 552,
+      "y": 334,
+      "actual_Y": 33,
+      "expected_Y": 33,
+      "actual_RGB": 24832,
+      "expected_RGB": 24832
+    },
+    {
+      "generation": 0,
+      "x": 613,
+      "y": 371,
+      "actual_Y": 83,
+      "expected_Y": 83,
+      "actual_RGB": 1801984,
+      "expected_RGB": 1801984
+    },
+    {
+      "generation": 0,
+      "x": 674,
+      "y": 408,
+      "actual_Y": 133,
+      "expected_Y": 133,
+      "actual_RGB": 13524396,
+      "expected_RGB": 13524396
+    },
+    {
+      "generation": 0,
+      "x": 735,
+      "y": 445,
+      "actual_Y": 183,
+      "expected_Y": 183,
+      "actual_RGB": 16743423,
+      "expected_RGB": 16743423
+    },
+    {
+      "generation": 0,
+      "x": 796,
+      "y": 482,
+      "actual_Y": 233,
+      "expected_Y": 233,
+      "actual_RGB": 4915199,
+      "expected_RGB": 4915199
+    },
+    {
+      "generation": 0,
+      "x": 857,
+      "y": 519,
+      "actual_Y": 27,
+      "expected_Y": 27,
+      "actual_RGB": 33024,
+      "expected_RGB": 33024
+    },
+    {
+      "generation": 0,
+      "x": 918,
+      "y": 556,
+      "actual_Y": 77,
+      "expected_Y": 77,
+      "actual_RGB": 3432448,
+      "expected_RGB": 3432448
+    },
+    {
+      "generation": 0,
+      "x": 979,
+      "y": 593,
+      "actual_Y": 127,
+      "expected_Y": 127,
+      "actual_RGB": 9731429,
+      "expected_RGB": 9731429
+    },
+    {
+      "generation": 0,
+      "x": 1040,
+      "y": 630,
+      "actual_Y": 177,
+      "expected_Y": 177,
+      "actual_RGB": 16735487,
+      "expected_RGB": 16735487
+    },
+    {
+      "generation": 0,
+      "x": 1101,
+      "y": 667,
+      "actual_Y": 227,
+      "expected_Y": 227,
+      "actual_RGB": 16742911,
+      "expected_RGB": 16742911
+    },
+    {
+      "generation": 0,
+      "x": 1162,
+      "y": 704,
+      "actual_Y": 21,
+      "expected_Y": 21,
+      "actual_RGB": 25088,
+      "expected_RGB": 25088
+    },
+    {
+      "generation": 1,
+      "x": 1162,
+      "y": 704,
+      "actual_Y": 68,
+      "expected_Y": 68,
+      "actual_RGB": 1794048,
+      "expected_RGB": 1794048
+    },
+    {
+      "generation": 1,
+      "x": 71,
+      "y": 19,
+      "actual_Y": 118,
+      "expected_Y": 118,
+      "actual_RGB": 8158536,
+      "expected_RGB": 8158536
+    },
+    {
+      "generation": 1,
+      "x": 72,
+      "y": 19,
+      "actual_Y": 144,
+      "expected_Y": 144,
+      "actual_RGB": 15556047,
+      "expected_RGB": 15556047
+    },
+    {
+      "generation": 1,
+      "x": 91,
+      "y": 45,
+      "actual_Y": 126,
+      "expected_Y": 126,
+      "actual_RGB": 9600354,
+      "expected_RGB": 9600354
+    },
+    {
+      "generation": 1,
+      "x": 73,
+      "y": 27,
+      "actual_Y": 170,
+      "expected_Y": 170,
+      "actual_RGB": 16743406,
+      "expected_RGB": 16743406
+    },
+    {
+      "generation": 1,
+      "x": 74,
+      "y": 27,
+      "actual_Y": 196,
+      "expected_Y": 196,
+      "actual_RGB": 16735231,
+      "expected_RGB": 16735231
+    },
+    {
+      "generation": 1,
+      "x": 37,
+      "y": 29,
+      "actual_Y": 2,
+      "expected_Y": 2,
+      "actual_RGB": 7900,
+      "expected_RGB": 7900
+    },
+    {
+      "generation": 2,
+      "x": 37,
+      "y": 29,
+      "actual_Y": 49,
+      "expected_Y": 49,
+      "actual_RGB": 32768,
+      "expected_RGB": 32768
+    },
+    {
+      "generation": 2,
+      "x": 37,
+      "y": 29,
+      "actual_Y": 49,
+      "expected_Y": 49,
+      "actual_RGB": 32768,
+      "expected_RGB": 32768
+    },
+    {
+      "generation": 3,
+      "x": 37,
+      "y": 29,
+      "actual_Y": 96,
+      "expected_Y": 96,
+      "actual_RGB": 4161026,
+      "expected_RGB": 4161026
+    },
+    {
+      "generation": 3,
+      "x": 75,
+      "y": 27,
+      "actual_Y": 60,
+      "expected_Y": 60,
+      "actual_RGB": 32768,
+      "expected_RGB": 32768
+    },
+    {
+      "generation": 4,
+      "x": 99,
+      "y": 49,
+      "actual_Y": 219,
+      "expected_Y": 219,
+      "actual_RGB": 16742911,
+      "expected_RGB": 16742911
+    }
+  ]
+}

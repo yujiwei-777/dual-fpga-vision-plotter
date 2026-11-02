@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "authoritative_results": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\RESULTS.json",
+  "source_E_run": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z",
+  "source_manifest_sha256": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+  "files": {
+    "AUDIT.json": {
+      "sha256": "915321D20392073C68B4FEDD7B410A20471EC2C2BD30AE1D5CD2D9232136A2D3",
+      "bytes": 3873
+    },
+    "hxa_read_route_probe.sv": {
+      "sha256": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+      "bytes": 1519
+    },
+    "PIXEL_COMPARISON.json": {
+      "sha256": "7E3323EC4037547B36F7B812A1AB44C0B082CCA074F55B3406CF307ED07C616E",
+      "bytes": 8192
+    },
+    "README.md": {
+      "sha256": "DCFA7C0D58BE5B0B687A94020FAEC4E816F90CB4A2F3EFBC9C8F4FF16576DEFD",
+      "bytes": 1866
+    },
+    "RESULTS.json": {
+      "sha256": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+      "bytes": 2210
+    },
+    "run_reader.py": {
+      "sha256": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+      "bytes": 6272
+    },
+    "SOURCE_SHA256.json": {
+      "sha256": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99",
+      "bytes": 1246
+    },
+    "tb_reader.sv": {
+      "sha256": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+      "bytes": 13524
+    },
+    "top_read_route_probe.sv": {
+      "sha256": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5",
+      "bytes": 4408
+    }
+  }
+}

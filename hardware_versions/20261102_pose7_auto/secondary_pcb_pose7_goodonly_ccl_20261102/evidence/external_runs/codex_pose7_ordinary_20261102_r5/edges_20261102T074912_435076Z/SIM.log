@@ -1,0 +1,63 @@
+# 
+# do run.do
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:49:13 on Nov 02,2026
+# vlog -sv -lint -work simlib E:/codex_pcb_pose7_20261102_r5/01_rtl/cnn_core.v E:/codex_pcb_pose7_20261102_r5/01_rtl/vision_workspace_goodonly.v E:/codex_pcb_pose7_20261102_r5/01_rtl/vision_shared_mac.v E:/codex_pose7_ordinary_20261102_r5/edges_20261102T074912_435076Z/cnn_core_reference.v E:/codex_pose7_ordinary_20261102_r5/edges_20261102T074912_435076Z/tb_remote_detail.sv 
+# -- Compiling module cnn_core
+# -- Compiling module vision_workspace_goodonly
+# -- Compiling module vision_shared_mac
+# -- Compiling module cnn_core_reference
+# -- Compiling module tb_remote_detail
+# 
+# Top level modules:
+# 	tb_remote_detail
+# End time: 15:49:13 on Nov 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" simlib.tb_remote_detail 
+# Start time: 15:49:12 on Nov 02,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "cnn_core(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "cnn_core_reference(fast)".
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_remote_detail(fast)
+# Loading work.cnn_core_reference(fast)
+# Loading work.cnn_core(fast)
+# Loading work.vision_workspace_goodonly(fast)
+# Loading work.vision_shared_mac(fast)
+# CNN_R5_EDGE_COMPLETE_PASS run=1 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088
+# CNN_R5_RESET_PASS boundary=0
+# CNN_R5_PURPOSE_PASS case=1
+# CNN_R5_EDGE_COMPLETE_PASS run=2 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088
+# CNN_R5_RESET_PASS boundary=1
+# CNN_R5_PURPOSE_PASS case=2
+# CNN_R5_EDGE_COMPLETE_PASS run=3 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088
+# CNN_R5_RESET_PASS boundary=2
+# CNN_R5_PURPOSE_PASS case=3
+# CNN_R5_EDGE_COMPLETE_PASS run=4 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088
+# CNN_R5_RESET_PASS boundary=3
+# CNN_R5_PURPOSE_PASS case=4
+# CNN_R5_EDGE_COMPLETE_PASS run=5 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088
+# CNN_R5_RESET_PASS boundary=4
+# CNN_R5_PURPOSE_PASS case=5
+# CNN_R5_EDGE_COMPLETE_PASS run=6 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088
+# CNN_R5_RESET_PASS boundary=5
+# CNN_R5_PURPOSE_PASS case=6
+# CNN_R5_EDGE_COMPLETE_PASS run=7 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088
+# CNN_R5_PIPELINE_EDGES_PASS complete_runs=7 reset_cases=6 purpose_cases=6
+# ** Note: $finish    : E:/codex_pose7_ordinary_20261102_r5/edges_20261102T074912_435076Z/tb_remote_detail.sv(179)
+#    Time: 140089968 ns  Iteration: 1  Instance: /tb_remote_detail
+# End time: 15:50:41 on Nov 02,2026, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 0

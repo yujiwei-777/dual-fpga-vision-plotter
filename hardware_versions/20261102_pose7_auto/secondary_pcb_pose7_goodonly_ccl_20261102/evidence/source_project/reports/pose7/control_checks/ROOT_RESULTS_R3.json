@@ -1,0 +1,61 @@
+{
+  "status": "PASS_FOCUSED_REGRESSIONS",
+  "scope": "Source-derived top/raw owner controls, actual shared CCL masks, actual decoded HXA admission. This is not complete packet CRC/DMA, full-board, physical, or hardware acceptance.",
+  "hardware_status": "NOT_RUN",
+  "build_root": "E:\\codex_pcb_pose7_20261102_r3",
+  "source_manifest_sha256": "CD568E74649049B9DDC9105916FACB45DA8A6C8EBB2F11A167EF0A60B7F0EDD2",
+  "rows": [
+    {
+      "name": "CONTROL",
+      "status": "PASS",
+      "scope": "Source-derived exact top owner/pending sequential RTL and abort/reset predicates; not full-board elaboration or G-code replay.",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\CONTROL_ROOT_R3.log",
+      "sha256": "37439CDA09375B3E59BD8023A2828733AA3116A8F3D19452227821BA828D6138",
+      "pass_marker": "POSE7_TOP_CONTROL_PASS checks=50",
+      "final_errors": 0,
+      "final_warnings": 0,
+      "checks": 50
+    },
+    {
+      "name": "OWNER",
+      "status": "PASS",
+      "scope": "Source-derived raw-reset PCB owner RTL, driven states; cancellation drain and normal finish owner lifetime.",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\OWNER_ROOT_R3.log",
+      "sha256": "5D7A70556364CDC52FA7954D3D1B4CE5BD23A130DA00437E4D6D5707814FB524",
+      "pass_marker": "POSE7_FRAME_OWNER_PASS checks=23",
+      "final_errors": 0,
+      "final_warnings": 0,
+      "checks": 23
+    },
+    {
+      "name": "CCL",
+      "status": "PASS",
+      "scope": "Actual shared CCL receives five complete 160x90 masks: blank, interior, boundary, label-overflow, ordinary colour. Does not include source DDR raster acquisition or pose7 ROI.",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\CCL_ROOT_R3.log",
+      "sha256": "ABB497C8EFE9FFFC3B044349DCA4A7737D27DF2098DDDE86F4BDF0749BCB42F8",
+      "pass_marker": "POSE7_CCL_FRAMES_PASS cases=5",
+      "final_errors": 0,
+      "final_warnings": 0,
+      "cases": 5
+    },
+    {
+      "name": "HXA_ADMISSION",
+      "status": "PASS",
+      "scope": "Actual HXA DISPATCH admission with decoded packet metadata injected. Parameter0/1, 3 drain flags and FRAME_BEGIN/Type20. Packet CRC and complete DMA are outside this bench. Uses PH1P_LOGIC_ERAM behavioural test stub.",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\HXA_ADMISSION_ROOT_R3.log",
+      "sha256": "5151977B3A6747E88FAB36215F5AB27C8C199E937DDFD6C13FE7C7450F15274A",
+      "pass_marker": "POSE7_HXA_ADMISSION_PASS cases=32",
+      "final_errors": 0,
+      "final_warnings": 86,
+      "cases": 32,
+      "warnings_detail": {
+        "unconnected_output_port_warnings": 84,
+        "too_few_connections_warnings": 2,
+        "library_already_exists_prep_warning": 1,
+        "all_DUT_inputs_connected": true,
+        "unknown_missing_inputs": false
+      }
+    }
+  ],
+  "source_pins": "SOURCE_PINS_R3.json"
+}

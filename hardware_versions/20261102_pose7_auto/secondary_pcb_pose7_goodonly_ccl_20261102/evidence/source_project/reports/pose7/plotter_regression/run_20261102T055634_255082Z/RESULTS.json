@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "command": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-do",
+    "run.do"
+  ],
+  "working_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\plotter_regression\\run_20261102T055634_255082Z",
+  "network_HXA_integration": "NOT_RUN",
+  "hardware": "NOT_RUN",
+  "returncode": 0,
+  "cases_passed": 13,
+  "sources_unchanged": true
+}

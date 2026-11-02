@@ -1,0 +1,17 @@
+{
+  "phase": "place",
+  "status": "PASS_TOOL_INVOCATION",
+  "started_ns": 1793606875475222000,
+  "cwd": "E:\\codex_pcb_pose7_20261102_r5\\runs\\phy_1",
+  "script": "run_place.tcl",
+  "script_sha256": "EC18F7507C310D0CAE98E4E797200B4BC083D134CFF52ED1D408D69EE1470FAF",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_place.tcl"
+  ],
+  "exit_code": 0,
+  "finished_ns": 1793607172797303500,
+  "log_sha256": "1A7908A4774C736E94343D97C87C55588D4F3A530C53CEB33166861498182E7A",
+  "errors": [],
+  "error_markers": []
+}

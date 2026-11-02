@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "run_directory": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z",
+  "sim_log": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\SIM.log",
+  "sim_log_sha256": "9BB43C1A574250089E95BD48DA8FB12731CBC870966B7BD6DF826DFF600075E9",
+  "source_manifest_sha256": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+  "summary": "12 cases, 506 checks, 44 individually checked Y+RGB pixels, 37 client words and 37 app words; compile/sim Errors0 Warnings0.",
+  "source_extraction": [
+    {
+      "source": "E:/codex_pcb_pose7_20261102_r4/01_rtl/secondary_top.v",
+      "slice": "From reg copy_pixel_pending through v_rd_addr assignment; the only declaration adaptation exposes color_word_active as a probe input, no logic change.",
+      "probe": "top_read_route_probe.sv"
+    },
+    {
+      "source": "E:/codex_pcb_pose7_20261102_r4/shared/rtl/hxa_secondary_link.v",
+      "slice": "Exact vision_read_owner/drain_admission_safe predicates, vision_read_outstanding always block, and rd_req/rd_byte_addr/v_rd_ready/v_rd_valid/v_rd_data assignments.",
+      "probe": "hxa_read_route_probe.sv"
+    }
+  ],
+  "late_reply_assertions": "During explicit/KEY4 cancel, an attempted normal start and normal pixel request are held while the old doc read is pending. Every remaining response-cycle and the pixel-valid edge assert old document owner, purpose=2, frame lock and pixel pending; client transaction count cannot increase. The old pixel is checked against its original expected coordinate/generation. Only after drain releases the owner is a new-generation normal pixel requested and checked.",
+  "prior_evidence": [
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/cnn_lat_s1/02_sim/tb_vision_pixel_reader.v",
+      "scope": "Old standalone reader bench checks immediate word response/all Y lanes/odd RGB/cache/last address/frame invalidation; source and bench alone do not establish current top coverage."
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_cnn_candidate_pcb_goodonly_auto_20261101/reports/model_design/hxa_auto_drain_20261101T224320_458107Z/RESULTS.json",
+      "scope": "Prior 13-case real-reader/old-auto-pipeline cancel drain control PASS. Its old pipeline/top integration is not current r4, and DDR words were supplied by bench."
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_pose7_goodonly_ccl_20261102/reports/pose7/control_checks/ROOT_RESULTS_R3.json",
+      "scope": "Current-source top ownership/control probes, with manually driven reader ready/valid; complementary control-only evidence."
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_pose7_goodonly_ccl_20261102/reports/pose7/fullpipeline_regression/run_20261102T065938_659248Z/RESULTS.json",
+      "scope": "Current r4 model pipeline values/cancel/reentry, but abstract 2..4-cycle pixel reader rather than actual reader/mailbox."
+    }
+  ],
+  "remaining_limits": [
+    "Behavioral app ready/data model, not vendor controller/PHY, no physical DDR latency or hardware CDC proof.",
+    "Top and HXA routing slices are source extracted; this is not full secondary_top/HXA state machine elaboration.",
+    "Normal/doc/PCB ownership inputs and CRC scanner state are controlled; admission protocol has separate packet/control regressions.",
+    "No complete model inference in this test; r4 fullpipeline separately checks values with abstract pixel reader.",
+    "Only fixed 8ns/14ns clocks and selected digital ready/response schedules were simulated; no metastability, analog margin, or exhaustive clock phase proof.",
+    "No complete 1280-fragment image DMA, full camera/YUYV/HXA/DDR/inference/OSD path, or multi-frame hardware replay is claimed."
+  ],
+  "hardware": "NOT_RUN"
+}

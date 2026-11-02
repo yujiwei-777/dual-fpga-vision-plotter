@@ -1,0 +1,37 @@
+{
+  "resolved_memory_references": [
+    {
+      "source": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v",
+      "expression": "ROM_INIT",
+      "literal": "ddrphy_cfg_rom.txt",
+      "reason": "DDRPHY_ROM_INIT is defined as ddrphy_cfg_rom.txt in src/rtl/include/ph1p_mis_define.vh; ph1p_ddrphy_wrapper passes it to ph1p_ddrphy_top, then ph1p_ddrphy_init. The file is also an active IP-XACT file-set input. Verify elaboration log retains ROM_INIT=ddrphy_cfg_rom.txt."
+    }
+  ],
+  "inactive_include_references": [
+    {
+      "source": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "ddr3_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "ddr4_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "../timing/ddr3/ddr3_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "../timing/ddr4/ddr4_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "include": "ph1p_mis_define.vh",
+      "reason": "PH1P_MIS_SIM branch is inactive for synthesis; the else branch uses src/rtl/include/ph1p_mis_define.vh, which is separately hashed."
+    }
+  ]
+}

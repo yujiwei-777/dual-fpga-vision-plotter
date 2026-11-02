@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "design": "E:\\codex_pcb_pose7_20261102_r4",
+  "run_directory": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z",
+  "source_manifest_sha256": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+  "returncode": 0,
+  "sources_unchanged": true,
+  "frozen_sources_unchanged": true,
+  "scope": "Actual vision_pixel_reader+hxa_ddr_store; exact source-extracted top shared owner/request/data mux and HXA read routing/outstanding logic; controlled owner/CRC input state.",
+  "coverage_records": [
+    "POSE7_REAL_READER_CASE_PASS name=calibration_fences_requests",
+    "POSE7_REAL_READER_CASE_PASS name=all_eight_Y_lanes_odd_even_cache",
+    "POSE7_REAL_READER_CASE_PASS name=miss_boundaries_last_address_and_variable_latency",
+    "POSE7_REAL_READER_CASE_PASS name=frame_invalidate_changes_same_word",
+    "POSE7_REAL_READER_CASE_PASS name=app_command_backpressure_and_samecycle_app_response",
+    "POSE7_REAL_READER_CASE_PASS name=ordinary_color_word_port_masks_pixel_reply",
+    "POSE7_REAL_READER_CASE_PASS name=document_owns_reader_ignores_live_purpose_and_color",
+    "POSE7_REAL_READER_CASE_PASS name=PCB_network_cancel_retains_inflight_response",
+    "POSE7_REAL_READER_CASE_PASS name=explicit_doc_cancel_drain_and_reentry",
+    "POSE7_REAL_READER_CASE_PASS name=KEY4_doc_drain_and_reentry",
+    "POSE7_REAL_READER_CASE_PASS name=CRC_read_owner_never_publishes_pixel",
+    "POSE7_REAL_READER_CASE_PASS name=unreturned_doc_response_locks_until_raw_reset"
+  ],
+  "summary": [
+    "POSE7_REAL_READER_PASS cases=12 checks=506 pixels=44 client_words=37 app_words=37 clocks=8ns_14ns"
+  ],
+  "limitations": [
+    "Behavioral app ready/data model, not vendor controller/PHY, no physical DDR latency or hardware CDC proof.",
+    "Top and HXA routing slices are source extracted; this is not full secondary_top/HXA state machine elaboration.",
+    "Normal/doc/PCB ownership inputs and CRC scanner state are controlled; admission protocol has separate packet/control regressions.",
+    "No complete model inference in this test; r4 fullpipeline separately checks values with abstract pixel reader."
+  ],
+  "hardware": "NOT_RUN"
+}

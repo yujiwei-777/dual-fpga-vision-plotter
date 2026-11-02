@@ -1,0 +1,82 @@
+[
+  {
+    "acc": -2147483648,
+    "rounded_shift": -16777216,
+    "activation": 0
+  },
+  {
+    "acc": -65,
+    "rounded_shift": -1,
+    "activation": 0
+  },
+  {
+    "acc": -64,
+    "rounded_shift": 0,
+    "activation": 0
+  },
+  {
+    "acc": -63,
+    "rounded_shift": 0,
+    "activation": 0
+  },
+  {
+    "acc": -1,
+    "rounded_shift": 0,
+    "activation": 0
+  },
+  {
+    "acc": 0,
+    "rounded_shift": 0,
+    "activation": 0
+  },
+  {
+    "acc": 63,
+    "rounded_shift": 0,
+    "activation": 0
+  },
+  {
+    "acc": 64,
+    "rounded_shift": 1,
+    "activation": 1
+  },
+  {
+    "acc": 65,
+    "rounded_shift": 1,
+    "activation": 1
+  },
+  {
+    "acc": 127,
+    "rounded_shift": 1,
+    "activation": 1
+  },
+  {
+    "acc": 128,
+    "rounded_shift": 1,
+    "activation": 1
+  },
+  {
+    "acc": 32575,
+    "rounded_shift": 254,
+    "activation": 254
+  },
+  {
+    "acc": 32576,
+    "rounded_shift": 255,
+    "activation": 255
+  },
+  {
+    "acc": 32703,
+    "rounded_shift": 255,
+    "activation": 255
+  },
+  {
+    "acc": 32704,
+    "rounded_shift": 256,
+    "activation": 255
+  },
+  {
+    "acc": 2147483583,
+    "rounded_shift": 16777215,
+    "activation": 255
+  }
+]

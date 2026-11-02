@@ -1,0 +1,10 @@
+{
+  "status": "PASS_READONLY",
+  "timing_ns": {
+    "SWNS": 0.002,
+    "STNS": 0.0,
+    "HWNS": 0.017,
+    "HTNS": 0.0
+  },
+  "routed_database_sha256": "6EC6440179FD21D27A60469B52AD524F316E0031C4913256EE20883CC33CEA88"
+}

@@ -1,0 +1,34 @@
+{
+  "blank": {
+    "provisional_labels": 0,
+    "overflow": false,
+    "count": 0,
+    "bbox": null,
+    "border_touch": false,
+    "decision": "REVIEW",
+    "output_box_valid": false
+  },
+  "full_dark_border": {
+    "provisional_labels": 1,
+    "overflow": false,
+    "count": 1,
+    "bbox": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "border_touch": true,
+    "decision": "REVIEW",
+    "output_box_valid": false
+  },
+  "overflow": {
+    "provisional_labels": 3600,
+    "overflow": true,
+    "count": 0,
+    "bbox": null,
+    "border_touch": false,
+    "decision": "REVIEW",
+    "output_box_valid": false
+  }
+}

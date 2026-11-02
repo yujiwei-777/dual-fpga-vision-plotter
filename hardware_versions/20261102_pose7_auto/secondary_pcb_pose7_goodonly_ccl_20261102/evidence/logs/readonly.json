@@ -1,0 +1,17 @@
+{
+  "phase": "readonly",
+  "status": "PASS_TOOL_INVOCATION",
+  "started_ns": 1793607478663670600,
+  "cwd": "E:\\codex_pcb_pose7_20261102_r5\\readonly",
+  "script": "readonly_reimport.tcl",
+  "script_sha256": "8D804FEE035CE18647E3479AE071B8ACCC255D470A981DB8AD18870446F2EF09",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "readonly_reimport.tcl"
+  ],
+  "exit_code": 0,
+  "finished_ns": 1793607501650436800,
+  "log_sha256": "58892876EDA299A4C58E16ACB02BC3F938F6A7B7C1D7C32AC5564524CC6F2F4F",
+  "errors": [],
+  "error_markers": []
+}

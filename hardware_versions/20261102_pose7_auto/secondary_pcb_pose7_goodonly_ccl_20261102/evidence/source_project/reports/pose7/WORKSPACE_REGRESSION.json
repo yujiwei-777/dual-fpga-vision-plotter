@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "output": "E:\\codex_pose7_workspace_20261102T054401_608536Z",
+  "input_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\vision_workspace_goodonly.v": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_goodonly_ccl_affine6_joint_shared_r3_20261102\\01_rtl\\vision_workspace_goodonly.v": "577BF79BC8A939FD0867A2A43BC91725E2635BE8CD36A2A5F8783F4338F4DD2B",
+    "E:\\codex_pose7_workspace_20261102T054401_608536Z\\workspace_control.v": "46ECAFC5983F9EEAE0358C4CF749C4D76F3E52C1B4E555809A4ADD03E486EC64",
+    "E:\\codex_pose7_workspace_20261102T054401_608536Z\\tb_workspace_pose7.sv": "2FAFEF0D3E0DBA86486537B2901AD43ED3E9A10C3E43246BCDDD219077E9D74A"
+  },
+  "scope": "Full ordinary address range and both live PCB bank ranges (0..6047), three purpose reentries; synchronous read/write timing against frozen RTL.",
+  "hardware": "NOT_RUN"
+}

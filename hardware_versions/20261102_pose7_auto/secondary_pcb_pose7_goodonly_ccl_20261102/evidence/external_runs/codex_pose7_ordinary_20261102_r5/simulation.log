@@ -1,0 +1,51 @@
+# vsim -batch -syncio -quiet -lib work tb_remote_detail -do "onerror {quit -code 1}; run -all; quit -code 0" 
+# Start time: 15:44:02 on Nov 02,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# run -all
+# PASS CNN CASE 0 cycles=1880088 logits=51333,-82949,13983 class=1 color_conf=136 shape_conf=145
+# PASS CNN CASE 1 cycles=1880088 logits=41006,-74552,16398 class=1 color_conf=128 shape_conf=96
+# PASS CNN CASE 2 cycles=1880088 logits=41701,-75933,17062 class=1 color_conf=128 shape_conf=96
+# PASS CNN CASE 3 cycles=1880088 logits=-78460,61880,19997 class=2 color_conf=175 shape_conf=163
+# PASS CNN CASE 4 cycles=1880088 logits=-69059,54126,17243 class=2 color_conf=162 shape_conf=144
+# PASS CNN CASE 5 cycles=1880088 logits=-70617,52721,19131 class=2 color_conf=173 shape_conf=131
+# PASS CNN CASE 6 cycles=1880088 logits=-27726,-651,29002 class=3 color_conf=190 shape_conf=115
+# PASS CNN CASE 7 cycles=1880088 logits=-23355,-2848,27680 class=3 color_conf=203 shape_conf=119
+# PASS CNN CASE 8 cycles=1880088 logits=-22126,-2221,24642 class=3 color_conf=179 shape_conf=104
+# PASS CNN CASE 9 cycles=1880088 logits=92350,-86837,-21368 class=4 color_conf=32 shape_conf=255
+# PASS CNN CASE 10 cycles=1880088 logits=88011,-83619,-17783 class=4 color_conf=30 shape_conf=255
+# PASS CNN CASE 11 cycles=1880088 logits=88112,-88217,-15681 class=4 color_conf=34 shape_conf=255
+# PASS CNN CASE 12 cycles=1880088 logits=-93303,76586,18920 class=5 color_conf=45 shape_conf=225
+# PASS CNN CASE 13 cycles=1880088 logits=-87876,74817,16308 class=5 color_conf=44 shape_conf=228
+# PASS CNN CASE 14 cycles=1880088 logits=-80952,64588,18598 class=5 color_conf=47 shape_conf=179
+# PASS CNN CASE 15 cycles=1880088 logits=-32783,-16366,42758 class=6 color_conf=41 shape_conf=230
+# PASS CNN CASE 16 cycles=1880088 logits=-30151,-15417,39388 class=6 color_conf=40 shape_conf=214
+# PASS CNN CASE 17 cycles=1880088 logits=-31636,-6248,34651 class=6 color_conf=38 shape_conf=159
+# PASS CNN CASE 18 cycles=1880088 logits=80598,-111285,1894 class=7 color_conf=52 shape_conf=255
+# PASS CNN CASE 19 cycles=1880088 logits=62628,-80992,-2889 class=7 color_conf=48 shape_conf=255
+# PASS CNN CASE 20 cycles=1880088 logits=80748,-119197,6561 class=7 color_conf=53 shape_conf=255
+# PASS CNN CASE 21 cycles=1880088 logits=-86734,70531,17420 class=8 color_conf=45 shape_conf=207
+# PASS CNN CASE 22 cycles=1880088 logits=-88226,65504,24196 class=8 color_conf=46 shape_conf=161
+# PASS CNN CASE 23 cycles=1880088 logits=-78292,63497,17554 class=8 color_conf=46 shape_conf=179
+# PASS CNN CASE 24 cycles=1880088 logits=-31129,-8539,33680 class=9 color_conf=60 shape_conf=164
+# PASS CNN CASE 25 cycles=1880088 logits=-28810,-10159,32623 class=9 color_conf=60 shape_conf=167
+# PASS CNN CASE 26 cycles=1880088 logits=-29410,-6287,30726 class=9 color_conf=58 shape_conf=144
+# PASS ALL CNN REMOTE DETAIL cases=27
+# ** Note: $finish    : E:/codex_pose7_ordinary_20261102_r5/tb_remote_detail.sv(55)
+#    Time: 406984432 ns  Iteration: 1  Instance: /tb_remote_detail
+# End time: 15:44:39 on Nov 02,2026, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0

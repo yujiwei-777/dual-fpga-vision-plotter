@@ -1,0 +1,17 @@
+{
+  "phase": "bitgen",
+  "status": "PASS_TOOL_INVOCATION",
+  "started_ns": 1793607591276454100,
+  "cwd": "E:\\codex_pcb_pose7_20261102_r5\\runs\\phy_1",
+  "script": "run_bitgen.tcl",
+  "script_sha256": "E359B382D7ACB80C2399DCF644AEA68F1C9F36919329D1020B86BA5E6CBD26C1",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_bitgen.tcl"
+  ],
+  "exit_code": 0,
+  "finished_ns": 1793607606795051300,
+  "log_sha256": "92A775F49AFE77B2B8A3547B4431F21CB3A9955F60237E8AA307A67AE40E0DA7",
+  "errors": [],
+  "error_markers": []
+}

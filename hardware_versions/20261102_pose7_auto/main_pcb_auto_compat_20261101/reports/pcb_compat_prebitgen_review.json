@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "checks": {
+    "frozen_prebuild_inputs_match": true,
+    "fresh_route_gate": true,
+    "readonly_input_timing_unchanged": true,
+    "baseline_bit_unchanged": true,
+    "four_source_scope": true,
+    "complete_compatible_unique_placed_capacity": true,
+    "strict_area_sites_design_plb_drc_timing": true,
+    "standard_context_inputs_unchanged": true,
+    "standard_context_only_known_raw_io_diagnostic": true,
+    "raw_io_only_known_or_clean": true,
+    "all_79_physical_io_locations_match_baseline_context": true,
+    "ordinary_adc_locations_match": true,
+    "all_79_pad_sites_placed_unique": true,
+    "hard_dphy0_source_binding_and_placement": true,
+    "no_new_timing_check_category_or_increased_warning_count": true,
+    "fifo_mailbox_skew_constraints_retained_all_pass": true,
+    "ddr_hdmi_clocks_retained": true,
+    "tracked_clock_diagnostics_absent": true,
+    "required_rtl_regression": true
+  },
+  "details": {
+    "route_gate_evidence_review": {
+      "passed": true,
+      "errors": [],
+      "required_evidence_count": 9
+    },
+    "raw_check_design": {
+      "passed": true,
+      "errors": [],
+      "raw_status": 1,
+      "known_logical_capacity_discrepancy": true,
+      "window": [
+        "RUN-1001 : lslices exceed capacity",
+        "RUN-8007 ERROR: Design failed the check. The resources used in your design exceed the device limitations. Please try modifying the design or switch to a device with a larger resource capacity.",
+        "RAW_CHECK_DESIGN_STATUS=1 REASON="
+      ]
+    },
+    "raw_check_io": {
+      "passed": false,
+      "errors": [
+        "check_io adverse diagnostic: USR-8450 CRITICAL-WARNING: Please be cautious that there are unconstraint IOs(10 out of 39) in design and tool will auto configure them.",
+        "check_io adverse diagnostic: This is HIGH RISK and might have undefined behavior on board and damages following. Bitgen will abort."
+      ],
+      "window": [
+        "USR-8450 CRITICAL-WARNING: Please be cautious that there are unconstraint IOs(10 out of 39) in design and tool will auto configure them. ",
+        "                           This is HIGH RISK and might have undefined behavior on board and damages following. Bitgen will abort. ",
+        "                           Please constraint all IOs and rerun. If insist on bitgen with risk, please 'set_param bitgen unconstr_io on'.",
+        "CHECK_IO_STATUS=0 REASON="
+      ]
+    },
+    "standard_context_adverse_diagnostics": [
+      "USR-8450 CRITICAL-WARNING: Please be cautious that there are unconstraint IOs(10 out of 39) in design and tool will auto configure them. "
+    ],
+    "timing_check_category_changes": {},
+    "regression_evidence_review": {
+      "passed": true,
+      "errors": [],
+      "required_check_count": 21,
+      "required_rtl_count": 5,
+      "required_log_count": 13
+    },
+    "cdc_ddr_fifo_scope": "No new clock domain or memory datapath is authorized. Existing result mailbox and FIFO/DDR constraint scope is retained, source equality outside four reviewed modules is checked, fresh clock/check/skew reports and RTL lifecycle/OSD tests are required. This is not a new exhaustive asynchronous CDC or DDR electrical proof.",
+    "raw_io_interpretation": "Raw USR-8450 remains an adverse diagnostic; catch=0 is not clean. Independent source binding, all physical pads, baseline/context pin identity and standard bitgen without unconstr_io override are required. No claim of a vendor bug."
+  },
+  "evidence": {
+    "01_rtl\\imgq_gain_m\\main\\td_project_pcb_auto_v2\\source_snapshot.json": {
+      "sha256": "7B9B149BB371D6FCA596B77D3D6E64E99FFE08AF3AA9EBE6F47874CF3E5556AB"
+    },
+    "01_rtl\\imgq_gain_m\\main\\td_project_pcb_auto_v2\\release_gate.json": {
+      "sha256": "5477052FEEDAF7DFAEE56405742F527C71549DF380105C192EEA0019A3EBDE3A"
+    },
+    "reports\\pcb_compat_source_scope.json": {
+      "sha256": "E91EF7AE7CBD531384197A50BE25D14B4192CCE01E1F39DA95F958B55DCD72D9"
+    },
+    "reports\\pcb_compat_regression.json": {
+      "sha256": "A5C6286D88C54D32A115059CEE0735EF40BAA8FD101F88FEF00DFA4779639BD1"
+    },
+    "02_sim\\pcb_compat_readonly\\readonly_verification.json": {
+      "sha256": "7768D69993EF181C92FF6D167EBB48D6EC04B37D25B80D986B33E0028CD9C17B"
+    },
+    "02_sim\\pcb_compat_readonly\\readonly_input_hashes.json": {
+      "sha256": "101C7BF60F2608A0A335A06953E29349B5EEF1455A27C8F1594A44C2761284F5"
+    },
+    "02_sim\\pcb_compat_standard_context\\input_hashes.json": {
+      "sha256": "D05DEB2998363486DA81FB603E92F4A842095A9AE0C658C45BA5176B3586AFD3"
+    },
+    "02_sim\\pcb_compat_readonly\\console_readonly.log": {
+      "sha256": "B04B11AAAE20456FB143C2F5AAF9FCCF4777A0AF01C834EADC8A6B42F5079870"
+    },
+    "02_sim\\pcb_compat_standard_context\\console_standard_context.log": {
+      "sha256": "1ACD58F65C0CAA8838191410D09708C226B8EB6506A84B04D84891C68BD8B6AB"
+    },
+    "02_sim\\pcb_compat_readonly\\readonly.area": {
+      "sha256": "3EAFD1EEF6F80F8D089A1B1F10E7B584D6CA7A2986983531B556FDF72D06B33A"
+    },
+    "02_sim\\pcb_compat_standard_context\\standard.area": {
+      "sha256": "B5E867F4446658A3ECD7D47EE1473FCD44359765B475B50E242B45F70F834A3D"
+    },
+    "02_sim\\pcb_compat_readonly\\readonly.check": {
+      "sha256": "47FDF89A9DB2942CE944CAC046D86B5C091E462EA768236EC1F80342FBC82B38"
+    },
+    "02_sim\\pcb_compat_readonly\\readonly.skew": {
+      "sha256": "7636A7CADACD87AE91ED2B0B50CAA145106688B261C0A97A564D55A26A403E4C"
+    },
+    "02_sim\\pcb_compat_readonly\\readonly.clocks": {
+      "sha256": "E0E8379EAA24F4373CD6F7813CF3EED756A502BE3483521A1FB2FEED10E3F9A4"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Independent companion diagnostic release. Raw check_design/check_io diagnostics are retained. PCB 30 s total-pipeline budget remains provisional."
+}

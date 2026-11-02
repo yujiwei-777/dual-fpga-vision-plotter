@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "design": "E:\\codex_pcb_pose7_20261102_r5",
+  "run_directory": "E:\\codex_pose7_ordinary_20261102_r5\\edges_20261102T074912_435076Z",
+  "source_manifest_sha256": "3D847C5B889CEEF42A5CACAD22412145447AB4BC510463722DD0CDC852FC74FE",
+  "returncode": 0,
+  "new_external_MAC": 1,
+  "new_shared_workspace": 1,
+  "reference": "Frozen r4 local-MAC/local-workspace core plus newly generated integer vector0",
+  "sources_unchanged": true,
+  "frozen_sources_unchanged": true,
+  "complete_records": [
+    "CNN_R5_EDGE_COMPLETE_PASS run=1 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088",
+    "CNN_R5_EDGE_COMPLETE_PASS run=2 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088",
+    "CNN_R5_EDGE_COMPLETE_PASS run=3 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088",
+    "CNN_R5_EDGE_COMPLETE_PASS run=4 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088",
+    "CNN_R5_EDGE_COMPLETE_PASS run=5 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088",
+    "CNN_R5_EDGE_COMPLETE_PASS run=6 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088",
+    "CNN_R5_EDGE_COMPLETE_PASS run=7 products=1486848 first=49155 last=49155 padding=54752 c_drains=49152 f_drains=3 cycles=1880088"
+  ],
+  "reset_records": [
+    "CNN_R5_RESET_PASS boundary=0",
+    "CNN_R5_RESET_PASS boundary=1",
+    "CNN_R5_RESET_PASS boundary=2",
+    "CNN_R5_RESET_PASS boundary=3",
+    "CNN_R5_RESET_PASS boundary=4",
+    "CNN_R5_RESET_PASS boundary=5"
+  ],
+  "purpose_records": [
+    "CNN_R5_PURPOSE_PASS case=1",
+    "CNN_R5_PURPOSE_PASS case=2",
+    "CNN_R5_PURPOSE_PASS case=3",
+    "CNN_R5_PURPOSE_PASS case=4",
+    "CNN_R5_PURPOSE_PASS case=5",
+    "CNN_R5_PURPOSE_PASS case=6"
+  ],
+  "hardware": "NOT_RUN",
+  "limitations": [
+    "This bench tests core/workspace/MAC and idle owner reuse, not full HXA/DDR/top task admission.",
+    "Reset tests use core raw reset; top safety authorization is separately tested.",
+    "Per-tap addresses/padding indices observe current core issue state; independent integer full feature maps/logits are the separate arithmetic oracle."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "scope": "Current-bound ordinary publication integration; default prepares only.\n\nReal production vision_pipeline and packed stabilizer, with controlled CCL/CNN\nleaves. Reuses the prior pipeline integration harness technique. This checks\npublication/control coupling, not classifier arithmetic, real CCL, DDR or top\nnetwork/cache behavior. Exact-SHA prior kernel differential PASS is reused.",
+  "source_root": "E:\\codex_pcb_pose7_20261102_r3",
+  "source_hashes": {
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_pipeline.v": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\cnn_core.v": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\pcb_pose7_core.v": "F84221463D40CD92A6023CD81644F478855D203B1CFF29E98272A7B67E65C8C3",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_shared_mac.v": "12D1C9F5198976A05A8657F90E4566BA63855093E3828A687F2C044799FE0E1C",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_workspace_goodonly.v": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789",
+    "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\tb_cnn_publication_integration.sv": "60A9CEA325A8BC671D9AE8F58523DC68F1DDFA477D439781258E17FFD0FC9928",
+    "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\controlled_leaf_interfaces.sv": "D572E558A93551FCEFAA56C9FC4F4847FEBAACE2C991E5DE4C9546C903A7492A",
+    "E:\\codex_pcb_pose7_20261102_r3\\tools\\run_cnn_publication_integration.py": "9FDCDD6A702D7BB5E7A3E3AADEFACE5A778CE6120900FBBC54DC7C0DDAFBE5E0"
+  },
+  "production_specialization": "PCB_GOODONLY_AUTO1/CNN_LOWCONF_OUTPUT1/EXTERNAL_READER1/LOCAL_CNN1/PCB_ENABLE1/SHARED_WORKSPACE1",
+  "prior_kernel_results": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_goodonly_auto_affine6_20261102\\reports\\stabilizer_packed_regression_prepared\\run_20261102T051056_497275Z\\RESULTS.json",
+  "prior_kernel_results_sha256": "3071DDEDBCB7EBEBC037E6F60A66733FDFBBA3EBF5C0F8317CCC45019D570401",
+  "prior_kernel_complete_observations": 288,
+  "prior_kernel_clear_boundaries": 38,
+  "coverage": [
+    "first current bbox/class/actual confidence/uncertain",
+    "third same-class confirms",
+    "HOLD2 current bbox/actual confidence",
+    "soft low and zero margin",
+    "no target no ghost",
+    "hard reject branch",
+    "malformed native bounds/order",
+    "clear before and after raw-bank reuse",
+    "clear at publish/completion",
+    "cancel and config clear"
+  ],
+  "hardware": "NOT_RUN",
+  "td": "NOT_RUN",
+  "started_utc": "20261102T064533_214958Z",
+  "commands": [
+    {
+      "name": "vlib",
+      "argv": [
+        "E:\\model\\win64\\vlib.exe",
+        "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\run_20261102T064533_214958Z\\simlib"
+      ]
+    },
+    {
+      "name": "compile",
+      "argv": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\run_20261102T064533_214958Z\\simlib",
+        "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\controlled_leaf_interfaces.sv",
+        "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_pipeline.v",
+        "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\cnn_result_stabilizer.v",
+        "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\tb_cnn_publication_integration.sv"
+      ]
+    },
+    {
+      "name": "simulate",
+      "argv": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-novopt",
+        "-suppress",
+        "12110",
+        "-lib",
+        "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\run_20261102T064533_214958Z\\simlib",
+        "tb_cnn_publication_integration",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 1}; run -all; quit -f"
+      ]
+    }
+  ],
+  "checks": 170,
+  "jobs": 30,
+  "stabilizer_starts": 32,
+  "logs_sha256": {
+    "compile.log": "C42C7B96B5DEB02653B4EB1338DAF8AA116A6E092A9899D3DE86DC5C689AE3FD",
+    "simulate.log": "A85EAB7D1C8B087CB9F0E5F75C123F530BCDC64E60B67E7935B708F9C32031CA",
+    "vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  }
+}

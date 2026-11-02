@@ -1,0 +1,17 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 14:45:33 on Nov 02,2026
+vlog -sv -lint -work E:\codex_pcb_pose7_20261102_r3\reports\pose7\cnn_publication_integration\run_20261102T064533_214958Z\simlib E:\codex_pcb_pose7_20261102_r3\reports\pose7\cnn_publication_integration\controlled_leaf_interfaces.sv E:\codex_pcb_pose7_20261102_r3\01_rtl\vision_pipeline.v E:\codex_pcb_pose7_20261102_r3\01_rtl\cnn_result_stabilizer.v E:\codex_pcb_pose7_20261102_r3\reports\pose7\tb_cnn_publication_integration.sv 
+-- Compiling module vision_color_stats
+-- Compiling module edge_roi_ccl_shared_pcb_candidate
+-- Compiling module cnn_core
+-- Compiling module pcb_pose7_core
+-- Compiling module vision_shared_mac
+-- Compiling module vision_workspace_goodonly
+-- Compiling module vision_pipeline
+-- Compiling module cnn_result_stabilizer
+-- Compiling module tb_cnn_publication_integration
+
+Top level modules:
+	tb_cnn_publication_integration
+End time: 14:45:33 on Nov 02,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

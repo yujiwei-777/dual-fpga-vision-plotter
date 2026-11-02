@@ -1,0 +1,188 @@
+{
+  "status": "PASS_READONLY_R4_READER_EVIDENCE_REVIEW",
+  "generated_utc": "2026-11-02T07:23:50.711589+00:00",
+  "build_root": "E:\\codex_pcb_pose7_20261102_r4",
+  "source_manifest_sha256": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+  "original_result": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\RESULTS.json",
+  "result_sha256": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+  "execution": "ACTUAL_R4_PRODUCTION_READER_AND_STORE_WITH_SOURCE_EXTRACTED_CONTROL_SLICES",
+  "counts": {
+    "cases": 12,
+    "checks": 506,
+    "pixels": 44,
+    "client_words": 37,
+    "app_words": 37
+  },
+  "final_errors": 0,
+  "final_warnings": 0,
+  "coverage": [
+    "POSE7_REAL_READER_CASE_PASS name=calibration_fences_requests",
+    "POSE7_REAL_READER_CASE_PASS name=all_eight_Y_lanes_odd_even_cache",
+    "POSE7_REAL_READER_CASE_PASS name=miss_boundaries_last_address_and_variable_latency",
+    "POSE7_REAL_READER_CASE_PASS name=frame_invalidate_changes_same_word",
+    "POSE7_REAL_READER_CASE_PASS name=app_command_backpressure_and_samecycle_app_response",
+    "POSE7_REAL_READER_CASE_PASS name=ordinary_color_word_port_masks_pixel_reply",
+    "POSE7_REAL_READER_CASE_PASS name=document_owns_reader_ignores_live_purpose_and_color",
+    "POSE7_REAL_READER_CASE_PASS name=PCB_network_cancel_retains_inflight_response",
+    "POSE7_REAL_READER_CASE_PASS name=explicit_doc_cancel_drain_and_reentry",
+    "POSE7_REAL_READER_CASE_PASS name=KEY4_doc_drain_and_reentry",
+    "POSE7_REAL_READER_CASE_PASS name=CRC_read_owner_never_publishes_pixel",
+    "POSE7_REAL_READER_CASE_PASS name=unreturned_doc_response_locks_until_raw_reset"
+  ],
+  "exact_source_extraction": {
+    "top_source": "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\secondary_top.v",
+    "top_source_lines": [
+      240,
+      291
+    ],
+    "top_fragment_after_decl_exposure_sha256": "228D4F67FAE8A2A0E20FEC81B5CFD710F403A74D395D0395EE215FD4D6711A87",
+    "allowed_declaration_change": "Only remove duplicate color_word_active declaration; expose it as controlled input. Original shared_word_req declaration retained.",
+    "hxa_source": "E:\\codex_pcb_pose7_20261102_r4\\shared\\rtl\\hxa_secondary_link.v",
+    "hxa_statements": [
+      {
+        "prefix": "wire vision_read_owner=",
+        "source_lines": [
+          272,
+          272
+        ],
+        "normalized_text_sha256": "0A289C5F42AA169D4D1A23D764659B2E09DF4D0A990064E78630CDAC34A92CFA"
+      },
+      {
+        "prefix": "wire drain_admission_safe=",
+        "source_lines": [
+          277,
+          278
+        ],
+        "normalized_text_sha256": "8BE37B7EEDD1DA2DC1FAA46BAA08E93F9ED49B4CFD533072FA706BDE8D73EFE6"
+      },
+      {
+        "prefix": "assign rd_req=",
+        "source_lines": [
+          290,
+          291
+        ],
+        "normalized_text_sha256": "47C1DFDC17BF50E1D1FADF6E79B884E909673429267495E8D6949EDCD883A4D8"
+      },
+      {
+        "prefix": "assign rd_byte_addr=",
+        "source_lines": [
+          296,
+          296
+        ],
+        "normalized_text_sha256": "6D5FF8E1F5E7E45C56A462F664F40936E7D0D9C3DBCB5E12E3B22BDD2A7F4CE3"
+      },
+      {
+        "prefix": "assign v_rd_ready=",
+        "source_lines": [
+          297,
+          297
+        ],
+        "normalized_text_sha256": "638191DE1B6EEA89082509B19CFA0EE4425132616C08CB290A44C3D1A3AA6701"
+      },
+      {
+        "prefix": "assign v_rd_valid=",
+        "source_lines": [
+          300,
+          300
+        ],
+        "normalized_text_sha256": "0EEE5C8E158B1A70648E55CAD4B90709C5F090AA296172E745F260D284EC45F3"
+      },
+      {
+        "prefix": "assign v_rd_data=",
+        "source_lines": [
+          301,
+          301
+        ],
+        "normalized_text_sha256": "355376FEB8A4BF0F1ECFD162460DCCD3742EDE7AB2DC2EFBDB57A067361D3DD3"
+      }
+    ],
+    "hxa_outstanding_source_lines": [
+      279,
+      284
+    ],
+    "hxa_outstanding_sha256": "40F9CC8B7CCD0AF30F352B7F71A129F650C97D3C2270C890B1248977D315A59B",
+    "preserve_vision_drain_specialization": 1
+  },
+  "actual_compiled_sources": [
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\vision_pixel_reader.v",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\hxa_ddr_store.v",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\top_read_route_probe.sv",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\hxa_read_route_probe.sv",
+    "E:\\codex_pose7_reader_20261102_r4\\tb_reader.sv"
+  ],
+  "mirror_files": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\hxa_read_route_probe.sv",
+      "original": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\hxa_read_route_probe.sv",
+      "sha256": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\RESULTS.json",
+      "original": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\RESULTS.json",
+      "sha256": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\run_reader.py",
+      "original": "E:\\codex_pose7_reader_20261102_r4\\run_reader.py",
+      "sha256": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\SOURCE_SHA256.json",
+      "original": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\SOURCE_SHA256.json",
+      "sha256": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\tb_reader.sv",
+      "original": "E:\\codex_pose7_reader_20261102_r4\\tb_reader.sv",
+      "sha256": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\top_read_route_probe.sv",
+      "original": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\top_read_route_probe.sv",
+      "sha256": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5"
+    }
+  ],
+  "late_reply": "Explicit and KEY4 cancel hold an attempted normal start/request; every remaining response cycle and old pixel-valid edge checks original doc owner/purpose2/lock/pending, with no newly accepted client word. Old pixel is checked before new-generation normal reentry.",
+  "independent_pixel_comparison": {
+    "count": 44,
+    "rows_match_log": true,
+    "python_YUYV_RGB_oracle_matches": true
+  },
+  "digital_ddr_scope": "Actual vision_pixel_reader and hxa_ddr_store request/cache/YUYV/address/mailbox behavior plus exact source-extracted top/HXA ownership and response routing. Two simulated clocks8ns/14ns; controlled behavioral app commands/data.",
+  "limitations": [
+    "Behavioral app ready/data model, not vendor controller/PHY, no physical DDR latency or hardware CDC proof.",
+    "Top and HXA routing slices are source extracted; this is not full secondary_top/HXA state machine elaboration.",
+    "Normal/doc/PCB ownership inputs and CRC scanner state are controlled; admission protocol has separate packet/control regressions.",
+    "No complete model inference in this test; r4 fullpipeline separately checks values with abstract pixel reader.",
+    "Read side only: wr_valid is held zero; no DDR write-stream validation is added.",
+    "12 cases cover44 pixels/37 words, not a full-frame inference or complete640/720p data stream.",
+    "Read-routing controlled explicit-cancel inputs do not repair or validate task-ID admission semantics; existing explicit Type11 reason0x80 does not compare task/frame ID."
+  ],
+  "source_evidence_sha256": {
+    "E:\\codex_pcb_pose7_20261102_r4\\SOURCE_MANIFEST.json": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\secondary_top.v": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862",
+    "E:\\codex_pcb_pose7_20261102_r4\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\top_read_route_probe.sv": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\hxa_read_route_probe.sv": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+    "E:\\codex_pose7_reader_20261102_r4\\tb_reader.sv": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+    "E:\\codex_pose7_reader_20261102_r4\\run_reader.py": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\RESULTS.json": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\SOURCE_SHA256.json": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\SIM.log": "9BB43C1A574250089E95BD48DA8FB12731CBC870966B7BD6DF826DFF600075E9",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\run.do": "CC9B2B71EF4AF1A9425F5EF2821DD570AFD9DC4614A929CD68AB54579774BCEA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\MIRROR_INDEX.json": "C4B38DAE35E0A47E7935EF12A0D57AA7211260153F2DA2530F4CD6290E393568",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\AUDIT.json": "915321D20392073C68B4FEDD7B410A20471EC2C2BD30AE1D5CD2D9232136A2D3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\hxa_read_route_probe.sv": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\PIXEL_COMPARISON.json": "7E3323EC4037547B36F7B812A1AB44C0B082CCA074F55B3406CF307ED07C616E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\README.md": "DCFA7C0D58BE5B0B687A94020FAEC4E816F90CB4A2F3EFBC9C8F4FF16576DEFD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\RESULTS.json": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\run_reader.py": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\SOURCE_SHA256.json": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\tb_reader.sv": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\top_read_route_probe.sv": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5"
+  },
+  "bitgen_allowed": false,
+  "hardware_status": "NOT_RUN"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "commands": [
+    [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-do",
+      "tb_pose7_fifo4.do"
+    ],
+    [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-do",
+      "tb_pose7_hxa_crc_network.do"
+    ]
+  ],
+  "working_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_regression\\run_20261102T064144_154717Z",
+  "design": "E:\\codex_pcb_pose7_20261102_r3",
+  "zero_frame_crc32": "52C44A22",
+  "source_manifest_sha256": "CD568E74649049B9DDC9105916FACB45DA8A6C8EBB2F11A167EF0A60B7F0EDD2",
+  "limitations": [
+    "Frame DATA staging count is deposited; no claim of complete 1280-fragment DMA/write validation.",
+    "Actual frame CRC reads all115200 DDR words; actual HXA bytes and packet CRC run.",
+    "Existing explicit Type11 reason80 authenticates session but does not compare task/frame ID.",
+    "Physical DDR PHY/CDC and hardware are not tested by behavioral RAM/read model."
+  ],
+  "hardware": "NOT_RUN",
+  "returncodes": [
+    0,
+    0
+  ],
+  "HXA_cases_passed": 11,
+  "explicit_wrong_ID_baseline_limitation_observed": true,
+  "sources_unchanged": true,
+  "frozen_sources_unchanged": true
+}

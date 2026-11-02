@@ -1,0 +1,24 @@
+Location         : E:\codex_pcb_pose7_20261102_r5\runs\phy_1
+Running with     : Tang Dynasty Release_2026.1_SP2
+                   Copyright (c) 2012-2026 Anlogic Inc.
+Top Model        : secondary_top
+Device           : PH1P35MDG324
+Speed            : 3
+
+Timing Mode      : final
+Setup            : WNS     2ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS    17ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+---------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+---------------------------------------------------------------------------------------------------
+      route      |    1     |  2m38s(78%)  |    46(95%)    |       2808        |       3323        
+    fix_hold     |    1     |   23s(11%)   |     1(2%)     |       2918        |       3323        
+    phys_opt     |    1     |   18s(8%)    |     1(2%)     |       2951        |       3323        
+    import_db    |    1     |    2s(0%)    |     0(0%)     |        968        |       1013        
+  import_device  |    1     |    1s(0%)    |     0(0%)     |        329        |        363        
+    read_sdc     |    10    |    0s(0%)    |     0(0%)     |       2811        |       3323        
+---------------------------------------------------------------------------------------------------
+      total      |    15    |    3m22s     |      48       |       2951        |       3323        
+---------------------------------------------------------------------------------------------------

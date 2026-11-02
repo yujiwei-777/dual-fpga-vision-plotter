@@ -1,0 +1,11 @@
+{
+  "schema": "competition_publication_identity_v2",
+  "date": "2026-11-02",
+  "hardware_file_count": 1050,
+  "hardware_bytes": 170094997,
+  "hardware_manifest_sha256": "632FDF2A0810F16B6A5B04AFBC9915E78ED6318E4DE473BCACB98CB0EEA6E870",
+  "rtl_model_constraint_changes": false,
+  "new_bit_generation": false,
+  "hardware_acceptance": "NOT_RUN",
+  "source_origin": "dual_fpga_pair_pose7_auto_20261102_complete"
+}

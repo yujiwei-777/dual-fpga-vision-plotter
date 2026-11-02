@@ -1,0 +1,69 @@
+# 
+# do run.do
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:45:29 on Nov 02,2026
+# vlog -sv "+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_pose7_goodonly_ccl_20261102/reports/pose7/fullpipeline_regression/run_20261102T074528_523921Z" E:/codex_pcb_pose7_20261102_r5/01_rtl/vision_pipeline.v E:/codex_pcb_pose7_20261102_r5/01_rtl/edge_roi_ccl_shared_pcb_candidate.v E:/codex_pcb_pose7_20261102_r5/01_rtl/vision_ccl_pcb_candidate.v E:/codex_pcb_pose7_20261102_r5/01_rtl/pcb_pose7_core.v E:/codex_pcb_pose7_20261102_r5/01_rtl/cnn_core.v E:/codex_pcb_pose7_20261102_r5/01_rtl/vision_workspace_goodonly.v E:/codex_pcb_pose7_20261102_r5/01_rtl/vision_shared_mac.v E:/codex_pcb_pose7_20261102_r5/01_rtl/cnn_result_stabilizer.v E:/codex_pcb_pose7_20261102_r5/01_rtl/vision_color_stats.v E:/codex_pcb_pose7_20261102_r5/01_rtl/vision_pixel_reader.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_pose7_goodonly_ccl_20261102/reports/pose7/tb_pose7_fullpipeline.sv 
+# -- Compiling module vision_pipeline
+# -- Compiling module edge_roi_ccl_shared_pcb_candidate
+# -- Compiling module vision_ccl_pcb_candidate
+# -- Compiling module pcb_pose7_core
+# -- Compiling module cnn_core
+# -- Compiling module vision_workspace_goodonly
+# -- Compiling module vision_shared_mac
+# -- Compiling module cnn_result_stabilizer
+# -- Compiling module vision_color_stats
+# -- Compiling module vision_pixel_reader
+# -- Compiling module tb_pose7_fullpipeline
+# 
+# Top level modules:
+# 	tb_pose7_fullpipeline
+# End time: 15:45:29 on Nov 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.tb_pose7_fullpipeline "+FIXTURES=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_pose7_goodonly_ccl_20261102/reports/pose7/fullpipeline_regression/fixtures" 
+# Start time: 15:45:28 on Nov 02,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "vision_pipeline(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "pcb_pose7_core(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "cnn_result_stabilizer(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "cnn_core(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "vision_ccl_pcb_candidate(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "vision_color_stats(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "edge_roi_ccl_shared_pcb_candidate(fast)".
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_pose7_fullpipeline(fast)
+# Loading work.vision_pipeline(fast)
+# Loading work.vision_color_stats(fast)
+# Loading work.edge_roi_ccl_shared_pcb_candidate(fast)
+# Loading work.vision_ccl_pcb_candidate(fast)
+# Loading work.cnn_core(fast)
+# Loading work.pcb_pose7_core(fast)
+# Loading work.vision_shared_mac(fast)
+# Loading work.vision_workspace_goodonly(fast)
+# Loading work.cnn_result_stabilizer(fast)
+# POSE7_FULLPIPELINE_FRAME_PASS name=golden_good total_cycles=1310472 scan_ccl_cycles=247140 auto_cycles=1063330 abstract_us=10483.776000 score=6 status=0 flip=0 ccl_count=2
+# POSE7_FULLPIPELINE_FRAME_PASS name=golden_missing_pad total_cycles=1294088 scan_ccl_cycles=244532 auto_cycles=1049554 abstract_us=10352.704000 score=243 status=1 flip=0 ccl_count=1
+# POSE7_FULLPIPELINE_FRAME_PASS name=golden_missing_corner total_cycles=1275600 scan_ccl_cycles=239852 auto_cycles=1035746 abstract_us=10204.800000 score=296 status=1 flip=0 ccl_count=1
+# POSE7_FULLPIPELINE_CANCEL_PASS mode=0 accepts=70849 replies=70849 drain_cycles=3
+# POSE7_FULLPIPELINE_FRAME_PASS name=golden_good total_cycles=1310472 scan_ccl_cycles=247140 auto_cycles=1063330 abstract_us=10483.776000 score=6 status=0 flip=0 ccl_count=2
+# POSE7_FULLPIPELINE_CANCEL_PASS mode=1 accepts=108866 replies=108866 drain_cycles=3
+# POSE7_FULLPIPELINE_FRAME_PASS name=golden_good total_cycles=1310472 scan_ccl_cycles=247140 auto_cycles=1063330 abstract_us=10483.776000 score=6 status=0 flip=0 ccl_count=2
+# POSE7_FULLPIPELINE_CANCEL_PASS mode=2 accepts=156098 replies=156098 drain_cycles=0
+# POSE7_FULLPIPELINE_FRAME_PASS name=golden_good total_cycles=1310472 scan_ccl_cycles=247140 auto_cycles=1063330 abstract_us=10483.776000 score=6 status=0 flip=0 ccl_count=2
+# POSE7_FULLPIPELINE_REGRESSION_PASS frames=6 cancellation=3 accepts=179714 replies=179714 latency=abstract_pixel_reader_NOT_DDR
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_pose7_goodonly_ccl_20261102/reports/pose7/tb_pose7_fullpipeline.sv(237)
+#    Time: 71464752 ns  Iteration: 1  Instance: /tb_pose7_fullpipeline
+# End time: 15:45:49 on Nov 02,2026, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

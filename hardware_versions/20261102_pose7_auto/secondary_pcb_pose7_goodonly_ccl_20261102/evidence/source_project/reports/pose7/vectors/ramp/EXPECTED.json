@@ -1,0 +1,18 @@
+{
+  "flip180": false,
+  "thumb_means": [
+    127,
+    127
+  ],
+  "orientation_costs": [
+    32584,
+    35354
+  ],
+  "reference_mean": 102,
+  "score": 684,
+  "peak_xy": [
+    7,
+    5
+  ],
+  "decision": "FAIL"
+}

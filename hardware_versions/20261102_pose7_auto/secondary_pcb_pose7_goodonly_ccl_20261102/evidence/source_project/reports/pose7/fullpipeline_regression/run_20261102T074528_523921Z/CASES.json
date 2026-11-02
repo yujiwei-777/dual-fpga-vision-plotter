@@ -1,0 +1,223 @@
+[
+  {
+    "name": "golden_good",
+    "frame": {
+      "name": "golden_good",
+      "source_json": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00034008_8b136d6deac14025932dfc87eda1992e.json",
+      "source_json_sha256": "6F562C8C2208731B9EC82440D6C7863E98BB0AEDF902C325E4F5446B33F6E6BD",
+      "provisional_labels": 295,
+      "overflow": false,
+      "count": 2,
+      "bbox": [
+        40,
+        104,
+        1208,
+        624
+      ],
+      "border_touch": false,
+      "source_Y_SHA256": "0C2565FA3081A6D22CC157B28BFC3DC5538C05AA28EE0F16C4EA1B73AF2AF253"
+    },
+    "expected": {
+      "flip180": false,
+      "thumb_means": [
+        101,
+        100
+      ],
+      "orientation_costs": [
+        9697,
+        17509
+      ],
+      "reference_mean": 102,
+      "score": 6,
+      "peak_xy": [
+        21,
+        12
+      ],
+      "decision": "PASS"
+    },
+    "ccl": {
+      "provisional_labels": 295,
+      "overflow": false,
+      "truncated": false,
+      "count": 2,
+      "eligible_components": [
+        {
+          "area": 7029,
+          "first": 2090,
+          "grid_box": [
+            5,
+            13,
+            151,
+            78
+          ]
+        },
+        {
+          "area": 75,
+          "first": 7785,
+          "grid_box": [
+            105,
+            48,
+            125,
+            54
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 7029,
+          "first": 2090,
+          "grid_box": [
+            5,
+            13,
+            151,
+            78
+          ]
+        },
+        {
+          "area": 75,
+          "first": 7785,
+          "grid_box": [
+            105,
+            48,
+            125,
+            54
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "golden_missing_pad",
+    "frame": {
+      "name": "golden_missing_pad",
+      "source_json": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00024928_b51681eb753d4d499490d4784dfeaba8.json",
+      "source_json_sha256": "9792AD5B0072B02E702177F6BD2B914F9C2889D83228C6B498AE5FA7007BE634",
+      "provisional_labels": 137,
+      "overflow": false,
+      "count": 1,
+      "bbox": [
+        176,
+        104,
+        1200,
+        576
+      ],
+      "border_touch": false,
+      "source_Y_SHA256": "3A74702F28FB955CE1A5D3699BC704D1D9F8A94B2848E79BC83EAB94043115F4"
+    },
+    "expected": {
+      "flip180": false,
+      "thumb_means": [
+        87,
+        87
+      ],
+      "orientation_costs": [
+        12774,
+        13972
+      ],
+      "reference_mean": 102,
+      "score": 243,
+      "peak_xy": [
+        10,
+        7
+      ],
+      "decision": "FAIL"
+    },
+    "ccl": {
+      "provisional_labels": 137,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 6358,
+          "first": 2106,
+          "grid_box": [
+            22,
+            13,
+            150,
+            72
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 6358,
+          "first": 2106,
+          "grid_box": [
+            22,
+            13,
+            150,
+            72
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "name": "golden_missing_corner",
+    "frame": {
+      "name": "golden_missing_corner",
+      "source_json": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00002496_70085896c1fa47e79d27d16e45854546.json",
+      "source_json_sha256": "CA4DB7FEBE9C12D66249E34AFA60A0A41E0FFF09718939FEE508B6CBD9E0B3D3",
+      "provisional_labels": 95,
+      "overflow": false,
+      "count": 1,
+      "bbox": [
+        160,
+        176,
+        1040,
+        568
+      ],
+      "border_touch": false,
+      "source_Y_SHA256": "18A9217395911C5687D4C431573CB31F54B847AE28EF8A0D28E6589720D8B037"
+    },
+    "expected": {
+      "flip180": false,
+      "thumb_means": [
+        92,
+        92
+      ],
+      "orientation_costs": [
+        12810,
+        14755
+      ],
+      "reference_mean": 102,
+      "score": 296,
+      "peak_xy": [
+        8,
+        16
+      ],
+      "decision": "FAIL"
+    },
+    "ccl": {
+      "provisional_labels": 95,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 4237,
+          "first": 3560,
+          "grid_box": [
+            20,
+            22,
+            130,
+            71
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 4237,
+          "first": 3560,
+          "grid_box": [
+            20,
+            22,
+            130,
+            71
+          ]
+        }
+      ]
+    }
+  }
+]

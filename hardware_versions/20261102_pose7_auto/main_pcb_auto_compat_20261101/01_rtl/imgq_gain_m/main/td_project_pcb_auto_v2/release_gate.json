@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "bitgen_allowed": true,
+  "run": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2",
+  "name": "camera_to_dsi_display_720p60_cnn_multibox",
+  "generated_utc": "2026-11-01T14:51:50.815318+00:00",
+  "timing_ns": {
+    "SWNS": 0.384,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19715,
+      "total": 21216,
+      "percent": 92.9251508295626,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 90,
+      "total": 108,
+      "percent": 83.33333333333333,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  },
+  "source_manifest_sha256": "6BBD8723E367293756C621C7C07D9D975200415D7F7742FBC1C4CD5D0042F24D",
+  "snapshot": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/source_snapshot.json",
+  "failures": [],
+  "tracked_warnings": [
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1276,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1277,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1278,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1279,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1280,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1281,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_7 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1282,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_8 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1283,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_9 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1284,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1285,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1286,
+      "text": "SLATR-1036 Similar messages will be suppressed."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1287,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_10 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1288,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_10 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1289,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_11 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1290,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_11 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1291,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_12 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1292,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_12 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1293,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_13 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1294,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_13 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1295,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_14 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1296,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/S_island_guard_band_1d_syn_14 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log",
+      "line": 1297,
+      "text": "SLATR-1038 Similar messages will be suppressed."
+    }
+  ],
+  "evidence": {
+    "camera_to_dsi_display_720p60_cnn_multibox_pr.timing": {
+      "sha256": "7DBDCFC1297C52A82318DAF63817A11ED02A9A711CBF54ECA59056C5B47528C4",
+      "mtime_ns": 1793544685585377800
+    },
+    "camera_to_dsi_display_720p60_cnn_multibox_phy.area": {
+      "sha256": "3EAFD1EEF6F80F8D089A1B1F10E7B584D6CA7A2986983531B556FDF72D06B33A",
+      "mtime_ns": 1793544672365973000
+    },
+    "route_flow.status": {
+      "sha256": "80C0051DA5660B367E759452E8E761F6F98D1AEB44E6C73336E22C2B075D0CD3",
+      "mtime_ns": 1793544685694839000
+    },
+    ".opt_route.end.f": {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "mtime_ns": 1793544687490754100
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/.read_design.begin.f": {
+      "sha256": "D2EB328CF374B03DAF1929404D3FF0AB262CD642CC2C3057CA21D138C99E38FD",
+      "mtime_ns": 1793543925756515400
+    },
+    "camera_to_dsi_display_720p60_cnn_multibox_pr.db": {
+      "sha256": "0757EF1CC5D13918774D470FAE87D15BD680D4C01F9E9225A180ED1037A08977",
+      "mtime_ns": 1793544687361338100
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/synth.log": {
+      "sha256": "F2C77385EEA458F8E9769F954BF2693EEF35A8627E62022CD5BCADEAF4F48F22"
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/place.log": {
+      "sha256": "6C481AB00BF5F4C1E9293207F52F94D519B2500FBEC986988581EA63FBDEFC58"
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/01_rtl/imgq_gain_m/main/td_project_pcb_auto_v2/route.log": {
+      "sha256": "643227565BFB114A216CBC904A7BF94CB6C118D32AF978195C373D4D1DB41567"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Build gates only; CDC/DDR/DRC and hardware review remain required"
+}

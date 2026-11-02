@@ -1,5 +1,8 @@
 # 验证记录与实测状态
 
+> 本页保留 2026-11-01 固定窗口版本记录。2026-11-02 自动定位 PCB 配套版本的算法、工程入口与 NOT_RUN 状态见 [新版说明](POSE7_AUTO_20261102.md)。
+
+
 ## 实板测试
 
 2026-11-01 主副板组合的实板测试结论为通过。验收声明及对应 bit 的 SHA256 见 [HARDWARE_ACCEPTANCE.json](../release/HARDWARE_ACCEPTANCE.json)，记录类型为 PASS_USER_REPORTED。

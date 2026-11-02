@@ -1,0 +1,20 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 14:38:44 on Nov 02,2026
+vlog -sv -lint -work E:\codex_pose7_document_20261102T063806_028311Z\ink2358_lib "+incdir+E:/codex_pose7_document_20261102T063806_028311Z/fixtures/ink2358" E:\codex_pcb_pose7_20261102_r3\01_rtl\doc_image_frontend.v E:\codex_pcb_pose7_20261102_r3\01_rtl\doc_stroke_planner.v E:\codex_pcb_pose7_20261102_r3\01_rtl\doc_stroke_bram.v E:\codex_pcb_pose7_20261102_r3\01_rtl\doc_machine_map.v E:\codex_pcb_pose7_20261102_r3\01_rtl\doc_grbl_plotter.v E:\codex_pcb_pose7_20261102_r3\01_rtl\doc_grbl_map.v E:\codex_pcb_pose7_20261102_r3\01_rtl\doc_grbl_streamer.v E:\codex_pcb_pose7_20261102_r3\01_rtl\doc_grbl_response_parser.v E:\codex_pcb_pose7_20261102_r3\01_rtl\grbl_line_formatter.v E:\codex_pose7_document_20261102T063806_028311Z\ph1p_logic_eram_stub.sv E:\codex_pose7_document_20261102T063806_028311Z\tb_capture_integrated.sv 
+-- Compiling module doc_image_frontend
+-- Compiling module doc_stroke_planner
+-- Compiling module doc_stroke_bram
+-- Compiling module doc_machine_map
+-- Compiling module doc_grbl_plotter
+-- Compiling module doc_grbl_map
+-- Compiling module doc_grbl_streamer
+-- Compiling module doc_grbl_response_parser
+-- Compiling module grbl_decimal
+-- Compiling module grbl_line_formatter
+-- Compiling module PH1P_LOGIC_ERAM
+-- Compiling module tb_stroke_split
+
+Top level modules:
+	tb_stroke_split
+End time: 14:38:44 on Nov 02,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

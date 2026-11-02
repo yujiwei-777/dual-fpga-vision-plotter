@@ -1,0 +1,9 @@
+run_frame("golden_good");
+run_frame("golden_missing_pad");
+run_frame("golden_missing_corner");
+run_cancel(0);
+run_frame("golden_good");
+run_cancel(1);
+run_frame("golden_good");
+run_cancel(2);
+run_frame("golden_good");

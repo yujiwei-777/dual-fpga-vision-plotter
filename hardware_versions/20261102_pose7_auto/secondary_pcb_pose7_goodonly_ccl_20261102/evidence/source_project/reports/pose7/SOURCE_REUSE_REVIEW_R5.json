@@ -1,0 +1,1351 @@
+{
+  "status": "PASS_ONLY_CNN_CORE_CHANGED_AND_SCOPED_REUSE_BINDINGS",
+  "generated_utc": "2026-11-02T07:48:25.248136+00:00",
+  "source_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102",
+  "r4_root": "E:\\codex_pcb_pose7_20261102_r4",
+  "r5_root": "E:\\codex_pcb_pose7_20261102_r5",
+  "r4_manifest_sha256": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+  "r5_manifest_sha256": "3D847C5B889CEEF42A5CACAD22412145447AB4BC510463722DD0CDC852FC74FE",
+  "frozen_entries": 305,
+  "production_changed": [
+    {
+      "path": "01_rtl/cnn_core.v",
+      "r4_sha256": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3",
+      "r5_sha256": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8"
+    }
+  ],
+  "test_tool_changes": [
+    {
+      "path": "tools/run_pose7_core_regression.py",
+      "r4_sha256": "5719265050F9CCA22325954862B991BD9BE082A8E8DBA9FB9C4707B2CB863BE3",
+      "r5_sha256": "07588E81EBD1BA6FC7A77DCEB68D6093ADD240697479E3BC38FD172B15E87EB3"
+    },
+    {
+      "path": "tools/run_pose7_fullpipeline_regression.py",
+      "r4_sha256": "3CF61635A0A407C7FD6C24549848C2E3C338F7548E916A544205E58E1669B88E",
+      "r5_sha256": "C06D67C1FF99A4239DAD7653385FF5B1B33E24F4D98C85BE800E03075C456871"
+    }
+  ],
+  "regenerated_metadata_changes": [
+    {
+      "path": "secondary_cnn_multibox.al",
+      "r4_sha256": "02BCEF98BC6F43E373F3B95237F6E7BBF1A58B4E6DEEB17F2EB46BFE5A8AA3E5",
+      "r5_sha256": "CEF1BE0C07D7F7D5B789D70D97FA52640B50728A435B23AACDCBCC1C888A69A8"
+    },
+    {
+      "path": "secondary_cnn_multibox.prj",
+      "r4_sha256": "02BCEF98BC6F43E373F3B95237F6E7BBF1A58B4E6DEEB17F2EB46BFE5A8AA3E5",
+      "r5_sha256": "CEF1BE0C07D7F7D5B789D70D97FA52640B50728A435B23AACDCBCC1C888A69A8"
+    },
+    {
+      "path": "runs/syn_1/secondary_cnn_multibox.al",
+      "r4_sha256": "B733CF2680D3FB51FB88843DD8C29586218C0B0C52603F5373EA53DB3E4B2B3F",
+      "r5_sha256": "1F0966860D4EA4CAD48113D2B4964BE1960CE47BBC39DE25805F52C8459E0785"
+    },
+    {
+      "path": "runs/syn_1/secondary_cnn_multibox.prj",
+      "r4_sha256": "B733CF2680D3FB51FB88843DD8C29586218C0B0C52603F5373EA53DB3E4B2B3F",
+      "r5_sha256": "1F0966860D4EA4CAD48113D2B4964BE1960CE47BBC39DE25805F52C8459E0785"
+    },
+    {
+      "path": "runs/phy_1/secondary_cnn_multibox.al",
+      "r4_sha256": "39A28C7FEAF18340486E6D20F5E8EF6292CFA686590F105A82926AFEC4173564",
+      "r5_sha256": "B11907C9285C281E94147E9AFF879E498FCF67EC3B5C0A321C74EA00CB1D87C1"
+    },
+    {
+      "path": "runs/phy_1/secondary_cnn_multibox.prj",
+      "r4_sha256": "39A28C7FEAF18340486E6D20F5E8EF6292CFA686590F105A82926AFEC4173564",
+      "r5_sha256": "B11907C9285C281E94147E9AFF879E498FCF67EC3B5C0A321C74EA00CB1D87C1"
+    },
+    {
+      "path": "readonly/readonly_reimport.tcl",
+      "r4_sha256": "4F54BC428A203DE61139F657B8491270B6B1C6C16165F339CF7EA195F35F9C21",
+      "r5_sha256": "8D804FEE035CE18647E3479AE071B8ACCC255D470A981DB8AD18870446F2EF09"
+    },
+    {
+      "path": "runs/syn_1/source_snapshot.json",
+      "r4_sha256": "7865B9E42321B55F079A721F3AAE053AEBF31C3FD9501206832C11F2358FF7BB",
+      "r5_sha256": "20BE53441A9327DD37638219F28558D7A380A6126ED0CBEE60A6FC0FDB83833F"
+    },
+    {
+      "path": "runs/phy_1/source_snapshot.json",
+      "r4_sha256": "7A4F6006DAE66532089EFD9D2CCE15A8961453E20FD77A8A8A89DB3618C6E76A",
+      "r5_sha256": "6416A93223C4F1C2F0D1F324CA7728A5480EBBBFAE665DC5D4967A08B047D071"
+    }
+  ],
+  "active_verilog": 75,
+  "protected_ip_constraints": 86,
+  "frozen_model_assets": 8,
+  "reused_prior_results": [
+    {
+      "name": "document frontend and two captured-frame end-to-end fixtures",
+      "result_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\DOCUMENT_REGRESSION.json",
+      "result_sha256": "2BA4DAF3F03359A66626250311A158EFB353624DF31D66E28738BD6E2AA3C87E",
+      "execution": "HISTORICAL_EXECUTION_REUSED_ON_IDENTICAL_TESTED_INPUTS",
+      "executed_again_for_r5": false,
+      "input_bindings": [
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_image_frontend.v",
+          "expected": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+          "actual": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_image_frontend.v",
+          "r5_sha256": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_stroke_planner.v",
+          "expected": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+          "actual": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_stroke_planner.v",
+          "r5_sha256": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_stroke_bram.v",
+          "expected": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+          "actual": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_stroke_bram.v",
+          "r5_sha256": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_machine_map.v",
+          "expected": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+          "actual": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_machine_map.v",
+          "r5_sha256": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_grbl_plotter.v",
+          "expected": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+          "actual": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_grbl_plotter.v",
+          "r5_sha256": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_grbl_map.v",
+          "expected": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+          "actual": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_grbl_map.v",
+          "r5_sha256": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_grbl_streamer.v",
+          "expected": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+          "actual": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_grbl_streamer.v",
+          "r5_sha256": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_grbl_response_parser.v",
+          "expected": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+          "actual": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_grbl_response_parser.v",
+          "r5_sha256": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\grbl_line_formatter.v",
+          "expected": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+          "actual": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\grbl_line_formatter.v",
+          "r5_sha256": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank\\expected_binary.mem",
+          "expected": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+          "actual": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank\\source_y.mem",
+          "expected": "F7E50EA9790D238FF696C425E3CD2EFD2DC6958FA80B3338E5CF246902473D50",
+          "actual": "F7E50EA9790D238FF696C425E3CD2EFD2DC6958FA80B3338E5CF246902473D50",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected.mem",
+          "expected": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "actual": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected.vh",
+          "expected": "94F636E09B59E8CB5EE02CD62CC007ABE9780F42D33D403D505AD99F01165D25",
+          "actual": "94F636E09B59E8CB5EE02CD62CC007ABE9780F42D33D403D505AD99F01165D25",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected_binary.mem",
+          "expected": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+          "actual": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected_coordinates.json",
+          "expected": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+          "actual": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected_gcode.txt",
+          "expected": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+          "actual": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected_strokes.json",
+          "expected": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+          "actual": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\input.mem",
+          "expected": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+          "actual": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\skeleton.mem",
+          "expected": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+          "actual": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\source_y.mem",
+          "expected": "49EC9AE502DC60597221732A4DA69D49A06D83DDB182F3B88AD3DECE8C830351",
+          "actual": "49EC9AE502DC60597221732A4DA69D49A06D83DDB182F3B88AD3DECE8C830351",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\gray_gradient_grain\\expected_binary.mem",
+          "expected": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A",
+          "actual": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\gray_gradient_grain\\source_y.mem",
+          "expected": "30E96EF745973D01127C1DB583DA2326553F7DC1D828EE1D60FABC880B8EE72F",
+          "actual": "30E96EF745973D01127C1DB583DA2326553F7DC1D828EE1D60FABC880B8EE72F",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected.mem",
+          "expected": "DD920D357DCC2B5017B41D2A26C555FD7885597665019915F3CE68E612A70CA1",
+          "actual": "DD920D357DCC2B5017B41D2A26C555FD7885597665019915F3CE68E612A70CA1",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected.vh",
+          "expected": "B7422CFE048F5E7D35A0A5BBA5E91AB511B5435BB5D11B0ACB8B9FAC9F23CAB9",
+          "actual": "B7422CFE048F5E7D35A0A5BBA5E91AB511B5435BB5D11B0ACB8B9FAC9F23CAB9",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected_binary.mem",
+          "expected": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+          "actual": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected_coordinates.json",
+          "expected": "86A81D4129718E3EF326624DB335C8222732965CA19BF37B6B8B764B1C816EC3",
+          "actual": "86A81D4129718E3EF326624DB335C8222732965CA19BF37B6B8B764B1C816EC3",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected_gcode.txt",
+          "expected": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+          "actual": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected_strokes.json",
+          "expected": "C665DA52520F298402AE0CF993641FEA347E2386EE35D08187373AACEB6AB757",
+          "actual": "C665DA52520F298402AE0CF993641FEA347E2386EE35D08187373AACEB6AB757",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\input.mem",
+          "expected": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+          "actual": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\skeleton.mem",
+          "expected": "29060DFFBA0385B1C28A6CCC12BCD45AB480EA02523EB277493DF598DF1AFC50",
+          "actual": "29060DFFBA0385B1C28A6CCC12BCD45AB480EA02523EB277493DF598DF1AFC50",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\source_y.mem",
+          "expected": "B30D8E3EA87D460F37A964E52A86E3A090F1E7A23DBBCDB11E203009CA21F72B",
+          "actual": "B30D8E3EA87D460F37A964E52A86E3A090F1E7A23DBBCDB11E203009CA21F72B",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\sample15_roi_border_contract\\expected_binary.mem",
+          "expected": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC",
+          "actual": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\sample15_roi_border_contract\\source_y.mem",
+          "expected": "972D4CCD003993D4CEB6845E2AD118AA2F03BD8E771F44B7E448068A48146E37",
+          "actual": "972D4CCD003993D4CEB6845E2AD118AA2F03BD8E771F44B7E448068A48146E37",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\strokes_on_fixed_dirt\\expected_binary.mem",
+          "expected": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A",
+          "actual": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\strokes_on_fixed_dirt\\source_y.mem",
+          "expected": "400A1F44497121AA11C88648B725A83C9F826505B55B81A4AD80E00EBC29A32E",
+          "actual": "400A1F44497121AA11C88648B725A83C9F826505B55B81A4AD80E00EBC29A32E",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\tb_frontend.sv",
+          "expected": "5D4FD8D354B77636D77E03916007013B4B50754D57D2560730B45E775D91697C",
+          "actual": "5D4FD8D354B77636D77E03916007013B4B50754D57D2560730B45E775D91697C",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\tb_capture_integrated.sv",
+          "expected": "C4C71F186A744CD5863B3029AA1AEC02E3AC2F3661F62E358CBA9C426AD5ABF5",
+          "actual": "C4C71F186A744CD5863B3029AA1AEC02E3AC2F3661F62E358CBA9C426AD5ABF5",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_document_20261102T063806_028311Z\\ph1p_logic_eram_stub.sv",
+          "expected": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+          "actual": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        }
+      ],
+      "scope": "Six frontend full-frame fixtures plus two captured-frame frontend/skeleton/paths/machine-coordinate/G-code comparisons. Actual shared transport is covered separately.",
+      "limitations": []
+    },
+    {
+      "name": "shared workspace",
+      "result_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\WORKSPACE_REGRESSION.json",
+      "result_sha256": "029079693E507ED7AB670B116CEED73B6BD56C5913A40E9070B97295C26629F2",
+      "execution": "HISTORICAL_EXECUTION_REUSED_ON_IDENTICAL_TESTED_INPUTS",
+      "executed_again_for_r5": false,
+      "input_bindings": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\vision_workspace_goodonly.v",
+          "expected": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789",
+          "actual": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_workspace_goodonly.v",
+          "r5_sha256": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_goodonly_ccl_affine6_joint_shared_r3_20261102\\01_rtl\\vision_workspace_goodonly.v",
+          "expected": "577BF79BC8A939FD0867A2A43BC91725E2635BE8CD36A2A5F8783F4338F4DD2B",
+          "actual": "577BF79BC8A939FD0867A2A43BC91725E2635BE8CD36A2A5F8783F4338F4DD2B",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_workspace_20261102T054401_608536Z\\workspace_control.v",
+          "expected": "46ECAFC5983F9EEAE0358C4CF749C4D76F3E52C1B4E555809A4ADD03E486EC64",
+          "actual": "46ECAFC5983F9EEAE0358C4CF749C4D76F3E52C1B4E555809A4ADD03E486EC64",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_workspace_20261102T054401_608536Z\\tb_workspace_pose7.sv",
+          "expected": "2FAFEF0D3E0DBA86486537B2901AD43ED3E9A10C3E43246BCDDD219077E9D74A",
+          "actual": "2FAFEF0D3E0DBA86486537B2901AD43ED3E9A10C3E43246BCDDD219077E9D74A",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        }
+      ],
+      "scope": "Full ordinary address range and both live PCB bank ranges (0..6047), three purpose reentries; synchronous read/write timing against frozen RTL.",
+      "limitations": []
+    },
+    {
+      "name": "writing transport",
+      "result_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\plotter_regression\\run_20261102T055634_255082Z\\RESULTS.json",
+      "result_sha256": "2708F931E255675A2044EEDF928BA2AC1047C3906E42F5BF73ED07E50DE1A2E1",
+      "execution": "HISTORICAL_EXECUTION_REUSED_ON_IDENTICAL_TESTED_INPUTS",
+      "executed_again_for_r5": false,
+      "input_bindings": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\grbl_line_formatter.v",
+          "expected": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+          "actual": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\grbl_line_formatter.v",
+          "r5_sha256": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\grbl_response_parser.v",
+          "expected": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89",
+          "actual": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\grbl_response_parser.v",
+          "r5_sha256": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\grbl_shared_transport_candidate.v",
+          "expected": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+          "actual": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\grbl_shared_transport_candidate.v",
+          "r5_sha256": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\tb_pose7_plotter.sv",
+          "expected": "4B2E12A9B83BDD6C030D8E1B8863D3E1EEBFCFFB5CE128814F9D532058228A66",
+          "actual": "4B2E12A9B83BDD6C030D8E1B8863D3E1EEBFCFFB5CE128814F9D532058228A66",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\tools\\run_pose7_plotter_regression.py",
+          "expected": "177F7343942396E5D832439E9E1BDDBA802B5667C4FF4C5CEEB38CC0B62726DA",
+          "actual": "177F7343942396E5D832439E9E1BDDBA802B5667C4FF4C5CEEB38CC0B62726DA",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\tools\\run_pose7_plotter_regression.py",
+          "r5_sha256": "177F7343942396E5D832439E9E1BDDBA802B5667C4FF4C5CEEB38CC0B62726DA"
+        }
+      ],
+      "scope": "13 actual shared transport/formatter/parser cases; not complete top-level report formatting or physical writing.",
+      "limitations": []
+    },
+    {
+      "name": "HXA CRC and FIFO",
+      "result_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_regression\\run_20261102T064144_154717Z\\RESULTS.json",
+      "result_sha256": "4F9DB17638D5C73E733145AA8FDA90F11417DA0E5D8175BB52B78786486757A4",
+      "execution": "HISTORICAL_EXECUTION_REUSED_ON_IDENTICAL_TESTED_INPUTS",
+      "executed_again_for_r5": false,
+      "input_bindings": [
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\shared\\rtl\\hxa_packet_codec.v",
+          "expected": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+          "actual": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_packet_codec.v",
+          "r5_sha256": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+          "expected": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+          "actual": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+          "r5_sha256": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\shared\\rtl\\hxa_secondary_link.v",
+          "expected": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+          "actual": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_secondary_link.v",
+          "r5_sha256": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\ph1p_logic_eram_stub.sv",
+          "expected": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+          "actual": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\tb_pose7_fifo4.sv",
+          "expected": "BA2997D48D9E31802D6097A647425B4FE020A87374E39A02BB72E41E856F551B",
+          "actual": "BA2997D48D9E31802D6097A647425B4FE020A87374E39A02BB72E41E856F551B",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\tb_pose7_hxa_crc_network.sv",
+          "expected": "7018E1F36A872A0CB92B6517CBCFD1DF35190D9F3F518A0E2A7B90CB7C58ED2E",
+          "actual": "7018E1F36A872A0CB92B6517CBCFD1DF35190D9F3F518A0E2A7B90CB7C58ED2E",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\tools\\run_pose7_hxa_regression.py",
+          "expected": "C4125D8BFD99CB77AA40231EEEB87AD3CFC20A807C4281761DE0947944888C5A",
+          "actual": "C4125D8BFD99CB77AA40231EEEB87AD3CFC20A807C4281761DE0947944888C5A",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\tools\\run_pose7_hxa_regression.py",
+          "r5_sha256": "C4125D8BFD99CB77AA40231EEEB87AD3CFC20A807C4281761DE0947944888C5A"
+        }
+      ],
+      "scope": "11 actual HXA network/CRC cases plus FIFO; DATA staging count deposited, actual frame CRC reads all115200 words. Explicit cancel reason80 does not compare task/frame ID (baseline limitation).",
+      "limitations": [
+        "Frame DATA staging count is deposited; no claim of complete 1280-fragment DMA/write validation.",
+        "Actual frame CRC reads all115200 DDR words; actual HXA bytes and packet CRC run.",
+        "Existing explicit Type11 reason80 authenticates session but does not compare task/frame ID.",
+        "Physical DDR PHY/CDC and hardware are not tested by behavioral RAM/read model."
+      ]
+    },
+    {
+      "name": "current CNN publication integration",
+      "result_path": "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\run_20261102T064533_214958Z\\RESULTS.json",
+      "result_sha256": "F0E9411EAC2C98571693EC538306577B13D8BCE77F8060195589321B6B0627E1",
+      "execution": "HISTORICAL_EXECUTION_REUSED_ON_IDENTICAL_TESTED_INPUTS",
+      "executed_again_for_r5": false,
+      "input_bindings": [
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_pipeline.v",
+          "expected": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB",
+          "actual": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_pipeline.v",
+          "r5_sha256": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\cnn_result_stabilizer.v",
+          "expected": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+          "actual": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\cnn_result_stabilizer.v",
+          "r5_sha256": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_color_stats.v",
+          "expected": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+          "actual": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_color_stats.v",
+          "r5_sha256": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v",
+          "expected": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+          "actual": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v",
+          "r5_sha256": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\cnn_core.v",
+          "expected": "CD3C6128836B816D5CA211722E22090E4676173CA52DB462592224E18C3E5ED3",
+          "binding": "CONTEXT_ONLY_NOT_COMPILED",
+          "reason": "Controlled leaf replaces this module; hash is context, not compiled production arithmetic. New ordinary-CNN regression must validate changed cnn_core."
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\pcb_pose7_core.v",
+          "expected": "F84221463D40CD92A6023CD81644F478855D203B1CFF29E98272A7B67E65C8C3",
+          "binding": "CONTEXT_ONLY_NOT_COMPILED",
+          "reason": "Controlled leaf replaces this module; hash is context, not compiled production arithmetic. New ordinary-CNN regression must validate changed cnn_core."
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_shared_mac.v",
+          "expected": "12D1C9F5198976A05A8657F90E4566BA63855093E3828A687F2C044799FE0E1C",
+          "actual": "12D1C9F5198976A05A8657F90E4566BA63855093E3828A687F2C044799FE0E1C",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_shared_mac.v",
+          "r5_sha256": "12D1C9F5198976A05A8657F90E4566BA63855093E3828A687F2C044799FE0E1C"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_workspace_goodonly.v",
+          "expected": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789",
+          "actual": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_workspace_goodonly.v",
+          "r5_sha256": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\tb_cnn_publication_integration.sv",
+          "expected": "60A9CEA325A8BC671D9AE8F58523DC68F1DDFA477D439781258E17FFD0FC9928",
+          "actual": "60A9CEA325A8BC671D9AE8F58523DC68F1DDFA477D439781258E17FFD0FC9928",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\controlled_leaf_interfaces.sv",
+          "expected": "D572E558A93551FCEFAA56C9FC4F4847FEBAACE2C991E5DE4C9546C903A7492A",
+          "actual": "D572E558A93551FCEFAA56C9FC4F4847FEBAACE2C991E5DE4C9546C903A7492A",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r3\\tools\\run_cnn_publication_integration.py",
+          "expected": "9FDCDD6A702D7BB5E7A3E3AADEFACE5A778CE6120900FBBC54DC7C0DDAFBE5E0",
+          "actual": "9FDCDD6A702D7BB5E7A3E3AADEFACE5A778CE6120900FBBC54DC7C0DDAFBE5E0",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\tools\\run_cnn_publication_integration.py",
+          "r5_sha256": "9FDCDD6A702D7BB5E7A3E3AADEFACE5A778CE6120900FBBC54DC7C0DDAFBE5E0"
+        }
+      ],
+      "scope": "Current-bound ordinary publication integration; default prepares only.\n\nReal production vision_pipeline and packed stabilizer, with controlled CCL/CNN\nleaves. Reuses the prior pipeline integration harness technique. This checks\npublication/control coupling, not classifier arithmetic, real CCL, DDR or top\nnetwork/cache behavior. Exact-SHA prior kernel differential PASS is reused.",
+      "limitations": []
+    },
+    {
+      "name": "focused controls / ownership / shared CCL / HXA admission",
+      "result_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\ROOT_RESULTS_R3.json",
+      "result_sha256": "3590402EAA26D203CEC15852CB0FEE50068BF6D05734431C5B19EAC85DD1D6C6",
+      "execution": "HISTORICAL_EXECUTION_REUSED_ON_IDENTICAL_TESTED_INPUTS",
+      "executed_again_for_r5": false,
+      "input_bindings": [
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\secondary_top.v",
+          "expected": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862",
+          "actual": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\secondary_top.v",
+          "r5_sha256": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\vision_pipeline.v",
+          "expected": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB",
+          "actual": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_pipeline.v",
+          "r5_sha256": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v",
+          "expected": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+          "actual": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v",
+          "r5_sha256": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\vision_ccl_pcb_candidate.v",
+          "expected": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+          "actual": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_ccl_pcb_candidate.v",
+          "r5_sha256": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\shared\\rtl\\hxa_packet_codec.v",
+          "expected": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+          "actual": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_packet_codec.v",
+          "r5_sha256": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+          "expected": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+          "actual": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+          "r5_sha256": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\shared\\rtl\\hxa_secondary_link.v",
+          "expected": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+          "actual": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_secondary_link.v",
+          "r5_sha256": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D"
+        }
+      ],
+      "scope": "Source-derived top/raw owner controls, actual shared CCL masks, actual decoded HXA admission. This is not complete packet CRC/DMA, full-board, physical, or hardware acceptance.",
+      "limitations": []
+    },
+    {
+      "name": "pose7 core integer/threshold/cancel",
+      "result_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\core_regression\\run_20261102T065853_582280Z\\RESULTS.json",
+      "result_sha256": "EB5D365429EFAAB5F40A61D38E97293510AB9C4DD6924367397ACB71A8D05C99",
+      "execution": "ACTUALLY_EXECUTED_ON_R4_REUSED_FOR_IDENTICAL_R5_PCB_CORE",
+      "executed_again_for_r5": false,
+      "input_bindings": [
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\pcb_pose7_core.v",
+          "expected": "6E00FE06A31F928748FE165C0E7A03C1F49F2C13EF98B733E9AD1DA08F101CAC",
+          "actual": "6E00FE06A31F928748FE165C0E7A03C1F49F2C13EF98B733E9AD1DA08F101CAC",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\pcb_pose7_core.v",
+          "r5_sha256": "6E00FE06A31F928748FE165C0E7A03C1F49F2C13EF98B733E9AD1DA08F101CAC"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\tb_pose7_core.sv",
+          "expected": "8EEA6CAB86FB1B5DA21E5AEB4BAEA64CB5707FF7475CDBE1F434C1DF4F9A7C15",
+          "actual": "8EEA6CAB86FB1B5DA21E5AEB4BAEA64CB5707FF7475CDBE1F434C1DF4F9A7C15",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\tools\\run_pose7_core_regression.py",
+          "expected": "07588E81EBD1BA6FC7A77DCEB68D6093ADD240697479E3BC38FD172B15E87EB3",
+          "actual": "07588E81EBD1BA6FC7A77DCEB68D6093ADD240697479E3BC38FD172B15E87EB3",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\tools\\run_pose7_core_regression.py",
+          "r5_sha256": "07588E81EBD1BA6FC7A77DCEB68D6093ADD240697479E3BC38FD172B15E87EB3"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\SHA256.json",
+          "expected": "27CFC5B1839B4B14D943C45EACB9CF2BA4D579D3BBA6F18E5A12076D5101A4F4",
+          "actual": "27CFC5B1839B4B14D943C45EACB9CF2BA4D579D3BBA6F18E5A12076D5101A4F4",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\biases.mem",
+          "expected": "D812552EEB7FE77458CF2D0CC38652AC0A235B5049DCBE6EE8D0D1C63C742664",
+          "actual": "D812552EEB7FE77458CF2D0CC38652AC0A235B5049DCBE6EE8D0D1C63C742664",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\biases.mem",
+          "r5_sha256": "D812552EEB7FE77458CF2D0CC38652AC0A235B5049DCBE6EE8D0D1C63C742664"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\feature_centre.mem",
+          "expected": "ED42834E1B538B5ABC8C0155FFD6B1E415DD7ADEAA13C28DAE0FF45AFE04FD2B",
+          "actual": "ED42834E1B538B5ABC8C0155FFD6B1E415DD7ADEAA13C28DAE0FF45AFE04FD2B",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\feature_centre.mem",
+          "r5_sha256": "ED42834E1B538B5ABC8C0155FFD6B1E415DD7ADEAA13C28DAE0FF45AFE04FD2B"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\feature_tolerance.mem",
+          "expected": "DA8A9ACB92C003774B8577DBECB6B49126857501619598CE1FE8DFC5932BC9F7",
+          "actual": "DA8A9ACB92C003774B8577DBECB6B49126857501619598CE1FE8DFC5932BC9F7",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\feature_tolerance.mem",
+          "r5_sha256": "DA8A9ACB92C003774B8577DBECB6B49126857501619598CE1FE8DFC5932BC9F7"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\orientation_reference.mem",
+          "expected": "C377CB4F148A59C0C764924F8A0D6824F33D5A4BDC1A56FFC2049B71001FFAC5",
+          "actual": "C377CB4F148A59C0C764924F8A0D6824F33D5A4BDC1A56FFC2049B71001FFAC5",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\orientation_reference.mem",
+          "r5_sha256": "C377CB4F148A59C0C764924F8A0D6824F33D5A4BDC1A56FFC2049B71001FFAC5"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\weights.mem",
+          "expected": "68896CCC11E00F11BD6E31F1DAD306A0F350DB16E8514587B947D29DE002CBDB",
+          "actual": "68896CCC11E00F11BD6E31F1DAD306A0F350DB16E8514587B947D29DE002CBDB",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\weights.mem",
+          "r5_sha256": "68896CCC11E00F11BD6E31F1DAD306A0F350DB16E8514587B947D29DE002CBDB"
+        }
+      ],
+      "counts": {
+        "ROI": 12,
+        "head": 5,
+        "safety": 23
+      },
+      "scope": "Exact ROI, orientation, Conv1, Conv2, anomaly score/status and three new operand-state cancellation checks. No changed ordinary CNN arithmetic is covered."
+    },
+    {
+      "name": "reader/store and source-extracted ownership routing",
+      "result_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\INDEPENDENT_REVIEW.json",
+      "result_sha256": "E67E04B1B6181E0F4D666D0A86834F760B3B559163916F8B8183CE703DC99C67",
+      "execution": "ACTUALLY_EXECUTED_ON_R4_REUSED_FOR_IDENTICAL_R5_READ_PATH",
+      "executed_again_for_r5": false,
+      "input_bindings": [
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\SOURCE_MANIFEST.json",
+          "expected": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+          "actual": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\secondary_top.v",
+          "expected": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862",
+          "actual": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\secondary_top.v",
+          "r5_sha256": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\shared\\rtl\\hxa_secondary_link.v",
+          "expected": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+          "actual": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_secondary_link.v",
+          "r5_sha256": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\vision_pixel_reader.v",
+          "expected": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+          "actual": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_pixel_reader.v",
+          "r5_sha256": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2"
+        },
+        {
+          "path": "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\hxa_ddr_store.v",
+          "expected": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+          "actual": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+          "binding": "EXACT_TESTED_SOURCE_REUSE",
+          "r5_path": "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\hxa_ddr_store.v",
+          "r5_sha256": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2"
+        },
+        {
+          "path": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\top_read_route_probe.sv",
+          "expected": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5",
+          "actual": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\hxa_read_route_probe.sv",
+          "expected": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+          "actual": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_reader_20261102_r4\\tb_reader.sv",
+          "expected": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+          "actual": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_reader_20261102_r4\\run_reader.py",
+          "expected": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+          "actual": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\RESULTS.json",
+          "expected": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+          "actual": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\SOURCE_SHA256.json",
+          "expected": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99",
+          "actual": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\SIM.log",
+          "expected": "9BB43C1A574250089E95BD48DA8FB12731CBC870966B7BD6DF826DFF600075E9",
+          "actual": "9BB43C1A574250089E95BD48DA8FB12731CBC870966B7BD6DF826DFF600075E9",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\run.do",
+          "expected": "CC9B2B71EF4AF1A9425F5EF2821DD570AFD9DC4614A929CD68AB54579774BCEA",
+          "actual": "CC9B2B71EF4AF1A9425F5EF2821DD570AFD9DC4614A929CD68AB54579774BCEA",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\MIRROR_INDEX.json",
+          "expected": "C4B38DAE35E0A47E7935EF12A0D57AA7211260153F2DA2530F4CD6290E393568",
+          "actual": "C4B38DAE35E0A47E7935EF12A0D57AA7211260153F2DA2530F4CD6290E393568",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\AUDIT.json",
+          "expected": "915321D20392073C68B4FEDD7B410A20471EC2C2BD30AE1D5CD2D9232136A2D3",
+          "actual": "915321D20392073C68B4FEDD7B410A20471EC2C2BD30AE1D5CD2D9232136A2D3",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\hxa_read_route_probe.sv",
+          "expected": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+          "actual": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\PIXEL_COMPARISON.json",
+          "expected": "7E3323EC4037547B36F7B812A1AB44C0B082CCA074F55B3406CF307ED07C616E",
+          "actual": "7E3323EC4037547B36F7B812A1AB44C0B082CCA074F55B3406CF307ED07C616E",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\README.md",
+          "expected": "DCFA7C0D58BE5B0B687A94020FAEC4E816F90CB4A2F3EFBC9C8F4FF16576DEFD",
+          "actual": "DCFA7C0D58BE5B0B687A94020FAEC4E816F90CB4A2F3EFBC9C8F4FF16576DEFD",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\RESULTS.json",
+          "expected": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+          "actual": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\run_reader.py",
+          "expected": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+          "actual": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\SOURCE_SHA256.json",
+          "expected": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99",
+          "actual": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\tb_reader.sv",
+          "expected": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+          "actual": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\top_read_route_probe.sv",
+          "expected": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5",
+          "actual": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5",
+          "binding": "HISTORICAL_TEST_ASSET_UNCHANGED"
+        }
+      ],
+      "counts": {
+        "cases": 12,
+        "checks": 506,
+        "pixels": 44,
+        "client_words": 37,
+        "app_words": 37
+      },
+      "scope": "Actual vision_pixel_reader and hxa_ddr_store request/cache/YUYV/address/mailbox behavior plus exact source-extracted top/HXA ownership and response routing. Two simulated clocks8ns/14ns; controlled behavioral app commands/data.",
+      "limitations": [
+        "Behavioral app ready/data model, not vendor controller/PHY, no physical DDR latency or hardware CDC proof.",
+        "Top and HXA routing slices are source extracted; this is not full secondary_top/HXA state machine elaboration.",
+        "Normal/doc/PCB ownership inputs and CRC scanner state are controlled; admission protocol has separate packet/control regressions.",
+        "No complete model inference in this test; r4 fullpipeline separately checks values with abstract pixel reader.",
+        "Read side only: wr_valid is held zero; no DDR write-stream validation is added.",
+        "12 cases cover44 pixels/37 words, not a full-frame inference or complete640/720p data stream.",
+        "Read-routing controlled explicit-cancel inputs do not repair or validate task-ID admission semantics; existing explicit Type11 reason0x80 does not compare task/frame ID."
+      ],
+      "original_result": "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\RESULTS.json",
+      "late_reply": "Explicit and KEY4 cancel hold an attempted normal start/request; every remaining response cycle and old pixel-valid edge checks original doc owner/purpose2/lock/pending, with no newly accepted client word. Old pixel is checked before new-generation normal reentry."
+    }
+  ],
+  "evidence_sha256": {
+    "E:\\codex_pcb_pose7_20261102_r4\\SOURCE_MANIFEST.json": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+    "E:\\codex_pcb_pose7_20261102_r5\\SOURCE_MANIFEST.json": "3D847C5B889CEEF42A5CACAD22412145447AB4BC510463722DD0CDC852FC74FE",
+    "E:\\codex_pcb_pose7_20261102_r5\\04_pin\\apply_cdc_exceptions.tcl": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0",
+    "E:\\codex_pcb_pose7_20261102_r5\\04_pin\\apply_reset_exceptions.tcl": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94",
+    "E:\\codex_pcb_pose7_20261102_r5\\04_pin\\clocktrace_sclk\\prove_key3_supervisor_clocktrace.tcl": "B075E954594269ED473318765371C9D92E510B22D2A211D5AE1AD99453DD40E9",
+    "E:\\codex_pcb_pose7_20261102_r5\\04_pin\\pin.adc": "A6BDAAAD82779F0E19E6480A43E0DFD83682252E87638B973A621F897DA44855",
+    "E:\\codex_pcb_pose7_20261102_r5\\04_pin\\prove_key3_supervisor.tcl": "9248199C302656DF4FC264CC6BB74248B4849BF4D447880715D39155DF99C0A5",
+    "E:\\codex_pcb_pose7_20261102_r5\\04_pin\\prove_key3_supervisor_clocktrace.tcl": "EDC066683001510C7159AC7351348C209FFD556570F3C66CE40DD6735E834A34",
+    "E:\\codex_pcb_pose7_20261102_r5\\04_pin\\timing.sdc": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\crc32_check.v": "A2ABEDA786F76A299F8E2A9A790AC4703708822BA8B534243F337D9F1DB3828C",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\crc32_gen.v": "FE930C7ADF1D24193D0DECE6B83D338CCD89EC698EB5F01682150B31AFC53757",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\mac_cache.v": "6EEFE3B0309EEAC1A9251B3B5F482E433782783D62F7F6F5317E42758E7046A5",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\ph1p_phy_pll_wrapper_d2616deaaa79.v": "C23D50C2B1401D32C0B54C2A23E83085459AFCDA48AE48617FFA6AF93C49DFA8",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\udp_pkg_buf.v": "D0E965C6569060892A90703F13B2938D8FA0956FFFA561B9F429E2D0C82A4DAF",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiarp_layer.v": "5BB05F5EF3FFE334DF5701DF93AF9CCD333B83A8593EDA39EC49153CFC25DC10",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiarp_rx.v": "34008198B627D2F461ADCE482194D0854B00FD81F6209E64F302607BFBD41D6A",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiarp_tx.v": "1244002FC55E235F24C60CFA942C5803D22C69549FF27A877A6121BAAFFFDAF2",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiicmp_pkg_ctrl.v": "1BDC2BD10BD7E3CF3B871FC157BD14EE05869D96B23DCFEB03241B3DE897B39D",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiicmp_pkg_tx.v": "9B2C52B5E4F056CEC1633E96119D5F72220B5D1153B8BC94F74F180F122138D8",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiip_arp_rx.v": "C93323F9DF2A6E328539A53D504355201A9E8786D7A86EC330A4AF6DBABAFC56",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiip_arp_tx.v": "65679B546777738DE810EF373521398B59D7BA1824EC7B977F368EAC89A82C58",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiip_header_checksum.v": "B56B2A22B2BBB519FA4C9E9C8621D304CD2AC143F913A54F3E78C3F9938E6005",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiip_layer.v": "B706B94D4A9C6536C8AA8F753FD4624DCA84614629E35A582706FCD00E0CCAEE",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiip_rx.v": "10FFFBFC60D685B40B651444A38B211A58EB26E204E36197643B08CE34B7110A",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiip_tx.v": "031D9976A81F448238EAC08170B8D0C74F849EF38B8472303D81F67B752251F5",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uimac_layer.v": "04E382B7A8DBF8031A771ADC24661859073E9E134D9EC1D0FEF9754582B298A0",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uimac_tx.v": "3C24BA0B366938E40DC37B129B73D2E78B7B757CDCC859FE93423749B2F6666F",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uimac_tx_frame_ctrl.v": "C4D992BB33B3A46506D70CBDF63E0C2C88E88B6716A6F31C043EBBE30A80393A",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uimac_tx_pause_ctrl.v": "40505CA9657D951526FB8A3350B283726B368816AD0C7D4A2D9CD07EABA446EB",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uimdio_ctr.v": "F22F85D0AB26C4E7C402B0DDD2D25A6F4BE852994226ADD50A2850F732EFF43F",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiphyrst.v": "B272B8584D09DCDC516763C2A3F475D3005E172918FC339D448D7A675883937F",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uirgmii_rx.v": "38769F122B452F1ABA2CC9F69E59669B5BFD01CE27A6E1BD67082EDCE28EBDB5",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uirgmii_tx.v": "30374E9D9D21743A484084E3F1AD48DC12230883E890E5B37E79B1CD13A2C8A2",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiudp_layer.v": "DE40D1F34E8575B5B266FE1FF61F2FB16A3787A48852ADB90B5209312D943352",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiudp_rx.v": "9A26F004E0523B3F1B1A8E088AD8E6D417BAE7E9CA27FE9BA3A2CA18402ED179",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ethernet\\uiudp_tx.v": "AE35A42995E3708D8DC4D5FF677764897FCFAF62D884C6947982A598EE4CC9D1",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ddr2.v": "99910FCD06D61B728C4333F8EB15DD07B61DB32AF197AD3871995283461FE29E",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ddr2.xml": "1C0928264DCBC2217F7C1015042FC61E02BD444B727EAC8B2E8F9BC4B89FC720",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\ph1p_ddrmc_wrapper_63f4ac254419.v": "A206D148022C1A5BB46C37932714DC9D57FEA32F39FDB344E060E9FC9C6FF1CE",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\adc\\ddr2.adc": "9B579AEF1DD260789B02B7012CA9689AF6280EC9AF530A1A946C5AC0A8C43E81",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\clk\\ph1p_ddrphy_clk_top.v": "036A13CEFC0014468CB7553AA43064A65BD2BF3008C25D2E495867FC5F43D329",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\clk\\ph1p_ddrphy_pll0.v": "AB08D9B46EFF0E2ACF0ABAF5B57E999629894E1BA4F28D14F859C45A6B487FA7",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\clk\\ph1p_ddrphy_pll1.v": "9AAFA4558B482EE93F926AD3F710A90CE1BE99DDF8712752D1E1C48404F90AE0",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\include\\ph1p_mis_define.vh": "A0E0BC78EAB01CD1815A04F246420B68B4A5A616C43C2F36988C4DF94FC1B471",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\init\\ph1p_ddrphy_dram_init_ddr2.v": "B4B6C9E5223852750D2A0D3A013447716A08C56055511AFA517DCE612380649F",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\mc\\alc_mc_top_all.enc.sv": "19B4B773F7DAE211B9B9ADB73C3871D5B494345FBF684CE1B7DAC9CD3CAE512B",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\mc\\alc_phy2mc_fifo_ctrl.v": "CF1500A2D491C637A9150FB36FBC6DE109E62CCA5D8FF3C58DADF5F7F84472C6",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\misc\\ph1p_ddr_fifo_dram_sync.v": "21795BF78115DBD04D7EC81F4F240832D8E7267FDEBEDDCB6BE50D3CB95AB8B6",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\misc\\ph1p_ddrphy_sync_rst_gen.v": "8DB3D13DEEC253A2248899DE81A7D1A382EACB7683F229732A28272AB9969C55",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ddrphy_cfg_rom.txt": "2F5A00C5A364A4D37891042B4D4956A29B3990B3385512D20EDE491C8CCF863B",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_board_delay.vh": "FBB70F7D53984AC052B29DED89FEFDE7C82A003484FC7FC60E0A816372C0DE89",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_bus_matrix.vh": "828CB1DECEAD67B69CCD6540FC7C9B15B8DAEB3B5F101F08C92D2A8A228F4ACB",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_ddrio.vh": "8E9BDE3255E6A332FC43AAE1414A29183B5E1ED650D3EF731FDDD2DBBFF21863",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\include\\ph1p_ddrphy_pad_type.vh": "76439AB49AEFB1E41D91D2D4EE12094EF362B1AC69A382B8FAA5D3202842B7FB",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy.v": "D48E70211A598A211CE0F9060C767C04148592B0EC1137017027BB741AD5B283",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_apb_bridge.v": "CDE632F73A4E58C1CF375F62626B26E144EF553926B5539B5EAE08B655FECB12",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_bankref_cfg.v": "96121F2A93A56127499518158B07B2DB9DEFF29BBAC464D3C077AB6A718A8F1C",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_byte_wrapper.v": "AD7FA1A71337F4A3989CB619D77B770510C30C5B81F126F6661EAF65F01F710C",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_cmd_decode.v": "B3BD00DF9D41B792D6F6A18B2BE29C8AB363AEB3FB7DC88FE0BE61DFF8905ABD",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_cmd_execution.v": "53C5EAAD74ABFC98BB0C2A4EDE0A1863C8A34008DA1955CF7AD397E151D0A9C1",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_cmd_wrapper.v": "82CDEA3269662C94B82C675C8A7E110C1C1FC212775F4C696E876215E7EBD68E",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_dcu.v": "0F335EBF3607A7823B90A6D6278DD3906FDF0E941C019C83186B2D017E613B49",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_dcu_wrapper.v": "B130B5B93BCC9FB8FB71A0E38A1000C86CB663AC1D72AEF0A47215D8154AB32C",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_fast_init.v": "C36A5925A09F8DAFE5D49144CDC72FA85656602B3D4A944F587BBD0D9FA1D5A3",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_fast_init_wrapper.v": "30CF679296790CAA864D0EBBE6110A17B3C9B6BEE529EF3CD6EEABE37DA2DAC1",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_init.v": "FAFA767B0A4D1F431DAC6EA1461DC16AFF2EA1169C8AA45A50A009117A90F5C4",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_mdl_cal.v": "247C8A832EFEBF5C4733E599D7E2B19ABC3687CA48B6317EA1FC882095768D95",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_mdl_cal_wrapper.v": "0B583C987311DEEADEEEDD19DD51A04E8E14B227873E37F1EC8DB8DD18B7C125",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_rphase_ctl.v": "2E26A87B37C99613BC61C52FD2482012A2F5BD8A662636F782418DE5D9CE6928",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_top.v": "0780509185215671E361E6FCC47A0CD8A986C5F48B8A3E140FAA8EC64AD62EEE",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_wphase_ctl.v": "6E62E4E832B2B85859CDBD38D2D08DDE9B8066670246C6C7AB6D675E0DD13680",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\phy\\ph1p_ddrphy_wrapper.v": "12CE7589375EB44F6E71D9D4280AE32CF2BB82EF7519A2DDAAE01F7914BA0467",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_1066.vh": "B64F54DDCCA5FF29139F55CC2E9BFB388B3781C951EEC156353DD6794171A49C",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_1333.vh": "50F8013FFD18E874A8917E633287E2C7803126C594E0F95BC582931A8E1AAAB5",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_400.vh": "9CA837EF541E787058F3BBBDACB952B6D97A8FCA315DC87DFC4DB6561AEDFD73",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_533.vh": "78495997F24D6A890756101CADBD39EBDCD814EBC3981F190AE43CB319815C9C",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_667.vh": "66FDE1491AEB55F212CCCCBB174649B63029D4E63DF5105515241765538518D5",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_800.vh": "034F9FA434E52A7F6E38E3C5D8D01218BC87C60CC8463BDDE6BC5C454E1B25AE",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\timing\\ddr2\\ddr2_parameter.vh": "4B10686E72BCDE0F3F2A25C28B31DF92C3478A39257B16B28CF7F88572436DFE",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\rtl\\top\\ph1p_ddrmc_top.v": "067AC86D88E35CB0C12E62816175542DF2E907D244E86F92411611B83123736E",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\ph1p35_ddr\\ddr2\\src\\sdc\\ddr2.sdc": "ADB6317927DFD09095073CAD40BE8E63D39EA3D941B4C790F2F483B1AED428D6",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\hdl_source\\text_trace_engine.v": "5809D56748B59C35AC79764BA367BC90F74A8FE706C4F98F1E89ACE42A440F39",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\ip_source\\PLL\\PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+    "E:\\codex_pcb_pose7_20261102_r5\\main\\user_source\\ip_source\\PLL\\RTL\\ph1p_phy_pll_wrapper_25a56e5ce2f9.v": "2F6F2560129B950C9F5A36136F128A9304FF858BF1BAE0F2129EA0145D941A1E",
+    "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\weights.mem": "68896CCC11E00F11BD6E31F1DAD306A0F350DB16E8514587B947D29DE002CBDB",
+    "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\biases.mem": "D812552EEB7FE77458CF2D0CC38652AC0A235B5049DCBE6EE8D0D1C63C742664",
+    "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\encoder_integer.npz": "69592B3CCF53183AA2EF3F5B4584C8C5557CA543A268CC0C2AAA328561E26F92",
+    "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\orientation_reference.mem": "C377CB4F148A59C0C764924F8A0D6824F33D5A4BDC1A56FFC2049B71001FFAC5",
+    "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\feature_centre.mem": "ED42834E1B538B5ABC8C0155FFD6B1E415DD7ADEAA13C28DAE0FF45AFE04FD2B",
+    "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\feature_tolerance.mem": "DA8A9ACB92C003774B8577DBECB6B49126857501619598CE1FE8DFC5932BC9F7",
+    "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\good_statistics.npz": "802615C4E45DB8CD0EA9F44F247EEA1FA504E2935E6F3DE7AEF71B1801E78D1A",
+    "E:\\codex_pcb_pose7_20261102_r5\\model\\pose7_96x96\\MODEL.json": "AE6E5C01E533EFED960DF48CB5692279136C491122A2C9F2135FB81EB00ACAD2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\SOURCE_REUSE_REVIEW_R4.json": "2B73B0CC2A4C57AA586416C5A61B6B9D80207E66CC2DEB7AD03A01D3242E6AD1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\DOCUMENT_REGRESSION.json": "2BA4DAF3F03359A66626250311A158EFB353624DF31D66E28738BD6E2AA3C87E",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_machine_map.v": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_machine_map.v": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_grbl_map.v": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_grbl_map.v": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank\\expected_binary.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank\\source_y.mem": "F7E50EA9790D238FF696C425E3CD2EFD2DC6958FA80B3338E5CF246902473D50",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected.mem": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected.vh": "94F636E09B59E8CB5EE02CD62CC007ABE9780F42D33D403D505AD99F01165D25",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected_binary.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected_coordinates.json": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected_gcode.txt": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\expected_strokes.json": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\input.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\skeleton.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\blank2418\\source_y.mem": "49EC9AE502DC60597221732A4DA69D49A06D83DDB182F3B88AD3DECE8C830351",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\gray_gradient_grain\\expected_binary.mem": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\gray_gradient_grain\\source_y.mem": "30E96EF745973D01127C1DB583DA2326553F7DC1D828EE1D60FABC880B8EE72F",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected.mem": "DD920D357DCC2B5017B41D2A26C555FD7885597665019915F3CE68E612A70CA1",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected.vh": "B7422CFE048F5E7D35A0A5BBA5E91AB511B5435BB5D11B0ACB8B9FAC9F23CAB9",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected_binary.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected_coordinates.json": "86A81D4129718E3EF326624DB335C8222732965CA19BF37B6B8B764B1C816EC3",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected_gcode.txt": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\expected_strokes.json": "C665DA52520F298402AE0CF993641FEA347E2386EE35D08187373AACEB6AB757",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\input.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\skeleton.mem": "29060DFFBA0385B1C28A6CCC12BCD45AB480EA02523EB277493DF598DF1AFC50",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\ink2358\\source_y.mem": "B30D8E3EA87D460F37A964E52A86E3A090F1E7A23DBBCDB11E203009CA21F72B",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\sample15_roi_border_contract\\expected_binary.mem": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\sample15_roi_border_contract\\source_y.mem": "972D4CCD003993D4CEB6845E2AD118AA2F03BD8E771F44B7E448068A48146E37",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\strokes_on_fixed_dirt\\expected_binary.mem": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\fixtures\\strokes_on_fixed_dirt\\source_y.mem": "400A1F44497121AA11C88648B725A83C9F826505B55B81A4AD80E00EBC29A32E",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\tb_frontend.sv": "5D4FD8D354B77636D77E03916007013B4B50754D57D2560730B45E775D91697C",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\tb_capture_integrated.sv": "C4C71F186A744CD5863B3029AA1AEC02E3AC2F3661F62E358CBA9C426AD5ABF5",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\frontend_vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\frontend_lint.log": "B14DEE16C81AA0E2B5B19127BD684099BC1412C193CAB272D0CB40E9C7BFF3F8",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\frontend_blank.log": "EAF72DFE45809242A56A018E810D6FDF2A7F51FCA9DB959AC62FE72C9A3D53AA",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\frontend_blank2418.log": "8558D73E0B9D2C4CD12FDBA291E3037474E193337EA179CBE9712DE4CA2D9023",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\frontend_gray_gradient_grain.log": "D0674398F51304F28D49E5665836159FBE11B0875B8DDAA3C8E7B73D91A91A40",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\frontend_ink2358.log": "A02A32FF0D2CE6ABC8363B8E4AFE4EB2CB2DCE121901A02440F421EA28F3E896",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\frontend_sample15_roi_border_contract.log": "BEABD76B94035067FBF0FDC67724A5BA904D9FFC446808FEFBA0B38031680F08",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\frontend_strokes_on_fixed_dirt.log": "EE840819162D074C6F1AC4FF3B9281E2A48CEB3F9351D1A8CA9A05F623E784BF",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\blank2418_vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\blank2418_lint.log": "1B0499E7B9E8E6062F89DA60F9A8274FDEE5528098D07F18C1F65D386FD4AECF",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\blank2418_integrated.log": "6C246180C445BA503DBD9B2F7961031660C812876FD01D7C01F08B4AB064B618",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\ink2358_vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\ink2358_lint.log": "2C2B31B1A962742BDBED30B4C70227C6192EAF4603A3250A01C11FF63B3F168E",
+    "E:\\codex_pose7_document_20261102T063806_028311Z\\ink2358_integrated.log": "5059E658FEFECA277F195EA16719622F1C98B4DB6589670B1420458388FEEF48",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\WORKSPACE_REGRESSION.json": "029079693E507ED7AB670B116CEED73B6BD56C5913A40E9070B97295C26629F2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\vision_workspace_goodonly.v": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_workspace_goodonly.v": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_goodonly_ccl_affine6_joint_shared_r3_20261102\\01_rtl\\vision_workspace_goodonly.v": "577BF79BC8A939FD0867A2A43BC91725E2635BE8CD36A2A5F8783F4338F4DD2B",
+    "E:\\codex_pose7_workspace_20261102T054401_608536Z\\workspace_control.v": "46ECAFC5983F9EEAE0358C4CF749C4D76F3E52C1B4E555809A4ADD03E486EC64",
+    "E:\\codex_pose7_workspace_20261102T054401_608536Z\\tb_workspace_pose7.sv": "2FAFEF0D3E0DBA86486537B2901AD43ED3E9A10C3E43246BCDDD219077E9D74A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\plotter_regression\\run_20261102T055634_255082Z\\RESULTS.json": "2708F931E255675A2044EEDF928BA2AC1047C3906E42F5BF73ED07E50DE1A2E1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\grbl_response_parser.v": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\grbl_response_parser.v": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\01_rtl\\grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\tb_pose7_plotter.sv": "4B2E12A9B83BDD6C030D8E1B8863D3E1EEBFCFFB5CE128814F9D532058228A66",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\tools\\run_pose7_plotter_regression.py": "177F7343942396E5D832439E9E1BDDBA802B5667C4FF4C5CEEB38CC0B62726DA",
+    "E:\\codex_pcb_pose7_20261102_r5\\tools\\run_pose7_plotter_regression.py": "177F7343942396E5D832439E9E1BDDBA802B5667C4FF4C5CEEB38CC0B62726DA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\plotter_regression\\run_20261102T055634_255082Z\\SIM.log": "8873E2E15C665D4D524C8124C371E404484753A26A4F2F606C2198F887A3BF74",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_regression\\run_20261102T064144_154717Z\\RESULTS.json": "4F9DB17638D5C73E733145AA8FDA90F11417DA0E5D8175BB52B78786486757A4",
+    "E:\\codex_pcb_pose7_20261102_r3\\shared\\rtl\\hxa_packet_codec.v": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+    "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_packet_codec.v": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+    "E:\\codex_pcb_pose7_20261102_r3\\shared\\rtl\\hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+    "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+    "E:\\codex_pcb_pose7_20261102_r3\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "E:\\codex_pcb_pose7_20261102_r5\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\tb_pose7_fifo4.sv": "BA2997D48D9E31802D6097A647425B4FE020A87374E39A02BB72E41E856F551B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\tb_pose7_hxa_crc_network.sv": "7018E1F36A872A0CB92B6517CBCFD1DF35190D9F3F518A0E2A7B90CB7C58ED2E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\tools\\run_pose7_hxa_regression.py": "C4125D8BFD99CB77AA40231EEEB87AD3CFC20A807C4281761DE0947944888C5A",
+    "E:\\codex_pcb_pose7_20261102_r5\\tools\\run_pose7_hxa_regression.py": "C4125D8BFD99CB77AA40231EEEB87AD3CFC20A807C4281761DE0947944888C5A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_regression\\run_20261102T064144_154717Z\\SIM.log": "4E6AB49A259E062D680C3478ED895D67BEB0E02F25CB45FFB8EF542B0456C10D",
+    "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\run_20261102T064533_214958Z\\RESULTS.json": "F0E9411EAC2C98571693EC538306577B13D8BCE77F8060195589321B6B0627E1",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_pipeline.v": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_pipeline.v": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_shared_mac.v": "12D1C9F5198976A05A8657F90E4566BA63855093E3828A687F2C044799FE0E1C",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_shared_mac.v": "12D1C9F5198976A05A8657F90E4566BA63855093E3828A687F2C044799FE0E1C",
+    "E:\\codex_pcb_pose7_20261102_r3\\01_rtl\\vision_workspace_goodonly.v": "8D045C51F454DD1BC94881107AB5535B1BDD8985865CB2B4246B814555BAB789",
+    "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\tb_cnn_publication_integration.sv": "60A9CEA325A8BC671D9AE8F58523DC68F1DDFA477D439781258E17FFD0FC9928",
+    "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\controlled_leaf_interfaces.sv": "D572E558A93551FCEFAA56C9FC4F4847FEBAACE2C991E5DE4C9546C903A7492A",
+    "E:\\codex_pcb_pose7_20261102_r3\\tools\\run_cnn_publication_integration.py": "9FDCDD6A702D7BB5E7A3E3AADEFACE5A778CE6120900FBBC54DC7C0DDAFBE5E0",
+    "E:\\codex_pcb_pose7_20261102_r5\\tools\\run_cnn_publication_integration.py": "9FDCDD6A702D7BB5E7A3E3AADEFACE5A778CE6120900FBBC54DC7C0DDAFBE5E0",
+    "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\run_20261102T064533_214958Z\\compile.log": "C42C7B96B5DEB02653B4EB1338DAF8AA116A6E092A9899D3DE86DC5C689AE3FD",
+    "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\run_20261102T064533_214958Z\\simulate.log": "A85EAB7D1C8B087CB9F0E5F75C123F530BCDC64E60B67E7935B708F9C32031CA",
+    "E:\\codex_pcb_pose7_20261102_r3\\reports\\pose7\\cnn_publication_integration\\run_20261102T064533_214958Z\\vlib.log": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\ROOT_RESULTS_R3.json": "3590402EAA26D203CEC15852CB0FEE50068BF6D05734431C5B19EAC85DD1D6C6",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\secondary_top.v": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\secondary_top.v": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\vision_pipeline.v": "BB0516AC5B8C112AA69010E8F2B44E63F3C24F46D6772072A5845F5EAC26A2BB",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\vision_ccl_pcb_candidate.v": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_ccl_pcb_candidate.v": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+    "E:\\codex_pcb_pose7_20261102_r4\\shared\\rtl\\hxa_packet_codec.v": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+    "E:\\codex_pcb_pose7_20261102_r4\\shared\\rtl\\hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+    "E:\\codex_pcb_pose7_20261102_r4\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\SOURCE_PINS_R3.json": "38FE74B04B957E46E3330C48A4A62A14A3BCB8FEC1B51F7F0C631C998E03A4C3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_top_control.v": "51549860FEBC8C10AB9D3167EE3FED8AEF82F45A19BCFA3B00222EE101DB570F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\pose7_top_control_probe.v": "5BC43D74708C024E45B0877C64F142267986C641493986BD9A767903681BFDD5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\RUN_CONTROL.do": "E5CEFD60EA969181D32E27D186A84826D7B02C8C70677CBC0BEC385CB9864FE1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_frame_owner.v": "0CB738F5AF9F7982DB2BEA9618CCC5613E43E576261F595CD0A9815FDB995068",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\pose7_frame_owner_probe.v": "185A97C1690F9522C01F25F1D748ABFDECB002E68009C7146CA2357B4CD22AB0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\RUN_OWNER.do": "A732F9F1412D7E557E2FD49FCC31F7617ECEF2F7FEAF736375874B8A79284DA0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_ccl_frames.v": "4C3033EAA6C1CAEA230B9A9833572AB0D7272ACC18A8560662E14EE5F7C06F1A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\RUN_CCL.do": "90E6E56BC8070EB4C070C95027D2DE88961D7EB106181905704D66582C545905",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_hxa_admission.v": "3314338B1542D44656F715814EB111B7E28C2FC3C9241C4C5DC85C5ACC261013",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\RUN_HXA_ADMISSION.do": "521AD10A0DE45C2695F2C45E701D65853FD04FDB06BDF20708D04FDEA2238A2D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\PREPARED.json": "D758D341FF21DDC9F370023DB401EC974FBE416CC66B21BD3472CF09489DF188",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\CONTROL_ROOT_R3.log": "37439CDA09375B3E59BD8023A2828733AA3116A8F3D19452227821BA828D6138",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\OWNER_ROOT_R3.log": "5D7A70556364CDC52FA7954D3D1B4CE5BD23A130DA00437E4D6D5707814FB524",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\CCL_ROOT_R3.log": "ABB497C8EFE9FFFC3B044349DCA4A7737D27DF2098DDDE86F4BDF0749BCB42F8",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\HXA_ADMISSION_ROOT_R3.log": "5151977B3A6747E88FAB36215F5AB27C8C199E937DDFD6C13FE7C7450F15274A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\core_regression\\run_20261102T065853_582280Z\\RESULTS.json": "EB5D365429EFAAB5F40A61D38E97293510AB9C4DD6924367397ACB71A8D05C99",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\core_regression\\run_20261102T065853_582280Z\\SOURCE_SHA256.json": "5F12BCE3CB9A244B08BBEE104A3FA80B0CF6B3439AA0776DFAFD03CE8B47ADE7",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\pcb_pose7_core.v": "6E00FE06A31F928748FE165C0E7A03C1F49F2C13EF98B733E9AD1DA08F101CAC",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\pcb_pose7_core.v": "6E00FE06A31F928748FE165C0E7A03C1F49F2C13EF98B733E9AD1DA08F101CAC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\tb_pose7_core.sv": "8EEA6CAB86FB1B5DA21E5AEB4BAEA64CB5707FF7475CDBE1F434C1DF4F9A7C15",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\tools\\run_pose7_core_regression.py": "07588E81EBD1BA6FC7A77DCEB68D6093ADD240697479E3BC38FD172B15E87EB3",
+    "E:\\codex_pcb_pose7_20261102_r5\\tools\\run_pose7_core_regression.py": "07588E81EBD1BA6FC7A77DCEB68D6093ADD240697479E3BC38FD172B15E87EB3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\SHA256.json": "27CFC5B1839B4B14D943C45EACB9CF2BA4D579D3BBA6F18E5A12076D5101A4F4",
+    "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\biases.mem": "D812552EEB7FE77458CF2D0CC38652AC0A235B5049DCBE6EE8D0D1C63C742664",
+    "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\feature_centre.mem": "ED42834E1B538B5ABC8C0155FFD6B1E415DD7ADEAA13C28DAE0FF45AFE04FD2B",
+    "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\feature_tolerance.mem": "DA8A9ACB92C003774B8577DBECB6B49126857501619598CE1FE8DFC5932BC9F7",
+    "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\orientation_reference.mem": "C377CB4F148A59C0C764924F8A0D6824F33D5A4BDC1A56FFC2049B71001FFAC5",
+    "E:\\codex_pcb_pose7_20261102_r4\\model\\pose7_96x96\\weights.mem": "68896CCC11E00F11BD6E31F1DAD306A0F350DB16E8514587B947D29DE002CBDB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\core_regression\\run_20261102T065853_582280Z\\SIM.log": "8FE04AAFD5ABA087972D86641C0592956463D845B75CFB2827130C112091C7C6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ACTIVATION_EXPECTED.json": "6C3B8F9733CC5DC5995503DFB1247C19C9D70185AC9B69D34BC3298366A2AF17",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\conv1.mem": "65795088C79FA0C08E4FFDAF330FD2C38E076F81EAD29ECC95A2A2E4BB94DD02",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\conv1_acc.mem": "074733CA4AC4AC36642C67C8AFB901BA0544D5A286BACBA681C198AD15CFEEB7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\conv2.mem": "D86B89DE239D864FDFE02C6248631BAB07DF0E24CAE82E61DA39E5F70579BC4E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\conv2_acc.mem": "EDB27F2C6342A1E7E52BAA58E8C3F50F73D0E89D53F441832C52EB623A99A647",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\EXPECTED.json": "3D6DE7C8C77D9AF84E16B01720DA44EBD5137BB981EEE6F62E5C9C3260DF1F0C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\oriented_roi.mem": "7B2AEA75821CD15CAA38A60FF9758BB850F673B3F83F0352EEF6F88CB5A57D4D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\residual.mem": "20A5343344313F93C49F5EF944143442686E5C58D896FF082B8D713FD03A6586",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\roi.mem": "7B2AEA75821CD15CAA38A60FF9758BB850F673B3F83F0352EEF6F88CB5A57D4D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\thumb0.mem": "81BB0438902A053A5183686415C039D77B5B35AE31FCD339F86E2D13CE4BA2B2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\thumb180.mem": "81BB0438902A053A5183686415C039D77B5B35AE31FCD339F86E2D13CE4BA2B2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_255\\windows.mem": "5F9A37A5241DC2754B0A3BED6D9C286AE277AF50D6951E622F8AD303052B66CF",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ALL_FRAME_REFERENCE_PARITY.json": "A4499CE2EDA1153F97CF500F6960EE528A7010FBD6922ECB3167E6230602FD4A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\conv1.mem": "E7FE61B4F2DA1EEF7BA836D13630320EDD25D93082CC9CB602236A5AFDBF89E9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\conv1_acc.mem": "6023D3BE7A2A95D67185755E0236EDB002938CAFFD05A8501F1AE0964F56D9DD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\conv2.mem": "522D788CA7FCC7DAAE608537800F9F73F456F4343D570772F47740E686D0A75E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\conv2_acc.mem": "AF58B477947ACFD6CF16646DAE9244F540AA4D7702D7C29E3D00364EBCE1A758",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\EXPECTED.json": "86E46D3AC16B662CAFD35B154C99FBA3021A0592C2AA55B4B027D418A7B3D14B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\oriented_roi.mem": "0EAFA9625A36D3C337431DB32A85CD92CF95E0627235C5A1E2E370E81FD1C693",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\residual.mem": "AD0AA8EA4F0FD87C000D957019E378B9FBC22D38FF78D97310E4989049B845A6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\roi.mem": "0EAFA9625A36D3C337431DB32A85CD92CF95E0627235C5A1E2E370E81FD1C693",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\thumb0.mem": "54E30031C442995EB98586644A4CCC4C11500E43E70D9B3BE681A75A92CB4F2D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\thumb180.mem": "54E30031C442995EB98586644A4CCC4C11500E43E70D9B3BE681A75A92CB4F2D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\all_zero\\windows.mem": "DD8382A59621A9711598B2AD121A3499C69A7FF2EE49995E4A85736C3A55BDB9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\conv1.mem": "20E9767F39EC3083E8041E9B77E9DBAB40875AF1B28A317AC2068D6C42B7A575",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\conv1_acc.mem": "56BED379FD6D9DA81001BF278D3EF61830185EE45643DD2309A8ED50C81E15CD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\conv2.mem": "33171C8B64909D3A6E99432F19F7CB0D84C328E8197142D2AECAEC6DF619B545",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\conv2_acc.mem": "FCC1B5363A9359106E737BED2EB26202187E5EA42744CDCB3470B55236669594",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\EXPECTED.json": "728E3F8DAF02A0EF9930CC51E518FBCE85A574A53874A8792FC63F22FF9961EA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\oriented_roi.mem": "EDDD86A2716C999DE6E7D32CD0FF110896E662AEAF8DEFE3DF58B69748053F20",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\residual.mem": "426D3665D0FABFCC26BA8AC4C1EC551FABC802ADE25738A6F78BBCABCBA9F660",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\roi.mem": "EDDD86A2716C999DE6E7D32CD0FF110896E662AEAF8DEFE3DF58B69748053F20",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\thumb0.mem": "66817DF5C4885AE95B248F21065AD054873F5C4124CFDF6E26FCC9B03E219C01",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\thumb180.mem": "66817DF5C4885AE95B248F21065AD054873F5C4124CFDF6E26FCC9B03E219C01",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\edge_impulse\\windows.mem": "B586D0F16A1B67BC3D1EE9AE63C585610D42EF6E753C4B6C67F96ACA10551A7F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\conv1.mem": "36BADDA734B08E07464C5D3D1FB3993511C278909B9E7664D7645E8BCD77617D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\conv1_acc.mem": "3758088F7E08B43538728BAF81F4EF83F14F8987049B80E689669E0B4BAF3FED",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\conv2.mem": "2C3648D49904AAF3A320F762F6B8EA85D9A58631CAA72838D5B1FB5CF570EC42",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\conv2_acc.mem": "521F1124846850DB30FC853A75AB971C79FE58EF176C1A84F00DE8C583586FDC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\EXPECTED.json": "0D79B47307F8B3BF9125F8A3115A028C1D8B0F3FCDC65E36FC204370144E8075",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\FRAME.json": "D8FEF285734AFFFAC456B667B630D6EDE4CFA0D96A774EEDC91AAA8D18D9098B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\oriented_roi.mem": "582A6722B621D4ADEADCECBCC932B546256868E974B920284111A06E836636D4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\residual.mem": "83B8D78EB2A03B9383E8187936A16F25AF4CD30A4D595BBFDE1C6A9761070930",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\roi.mem": "582A6722B621D4ADEADCECBCC932B546256868E974B920284111A06E836636D4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\sample_x.mem": "5B4D2AB825726E80B3445336DE430FFAE9198549AA03429D8C83117E40B5B105",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\sample_y.mem": "A4EFB09267930810277DF445B6B37A1529F52C4D202864EB86D80D8EC7134261",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\source_y.mem": "3D41671146BCF75E7126C1ACDB6D8CC31E2100BE7324BE789FFAE8CB849D60F5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\thumb0.mem": "D18A224E80E7F37A71D211C74D96B4CB2B14E53554AE25BEC9565C9E38F8E4A1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\thumb180.mem": "85F1A087EEED4A58BE8363821B124FAC8A65563BA76FFB508E13A70E8B5520DD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good\\windows.mem": "BC7F6310CA91D2A98117436504C5962E08A26AC38F7E658F8F66875BD587D617",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\conv1.mem": "36BADDA734B08E07464C5D3D1FB3993511C278909B9E7664D7645E8BCD77617D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\conv1_acc.mem": "3758088F7E08B43538728BAF81F4EF83F14F8987049B80E689669E0B4BAF3FED",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\conv2.mem": "2C3648D49904AAF3A320F762F6B8EA85D9A58631CAA72838D5B1FB5CF570EC42",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\conv2_acc.mem": "521F1124846850DB30FC853A75AB971C79FE58EF176C1A84F00DE8C583586FDC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\EXPECTED.json": "CEDC45379DAB765BF6AD96E0D6FA9D13FEA8DB6C62A6524DE97229F597EC8BB2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\oriented_roi.mem": "582A6722B621D4ADEADCECBCC932B546256868E974B920284111A06E836636D4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\residual.mem": "83B8D78EB2A03B9383E8187936A16F25AF4CD30A4D595BBFDE1C6A9761070930",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\roi.mem": "07E4D84B6226C80BDDC52BB388DF76CEA0D4FCB287EDDDB7E2623FE102005462",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\thumb0.mem": "85F1A087EEED4A58BE8363821B124FAC8A65563BA76FFB508E13A70E8B5520DD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\thumb180.mem": "D18A224E80E7F37A71D211C74D96B4CB2B14E53554AE25BEC9565C9E38F8E4A1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_good_180\\windows.mem": "BC7F6310CA91D2A98117436504C5962E08A26AC38F7E658F8F66875BD587D617",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\conv1.mem": "0108EFA01ED1680B86194A276A126A116749846149E894E628850F45990DB804",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\conv1_acc.mem": "C0DD705705B8D6782B0AFB64ECD9D0F7047D96B1DE104144EC4B5FF6C113C90E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\conv2.mem": "F3CAA63072463025FC0B705046D277ABD226A5E52050E7A71AD32B06E961D517",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\conv2_acc.mem": "0110C7F4ADBC895D9DBFDED7D9589F18C6A4961DE46B8E2AF4F723852C6027EE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\EXPECTED.json": "0821ADC5C2437C58771AAEA7D51677F7F193BD5B15E164C462F47C1B76C7C812",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\FRAME.json": "903A8B224C2DB91AA4D40791D64D76A9608D795B711BA56C56E93D9EE09BF68D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\oriented_roi.mem": "77A7498AD5D4CEAD1268291D81D828AAA291E89FB7A3034F201C92D1246E2529",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\residual.mem": "D5FB6C7934B8184D32F1B82A2477273C691C6E3B4F6860702A569F32C8BFB062",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\roi.mem": "77A7498AD5D4CEAD1268291D81D828AAA291E89FB7A3034F201C92D1246E2529",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\sample_x.mem": "DB770CE93B6EE69E14D8F1CCAC6C89D375ED1C91B7C6B2908BCED24B18B50010",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\sample_y.mem": "8D43E79A36A0CEABCC98343E3A12E650FA9B1BDA7E43E27FD8B0A5B690D4DE5E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\source_y.mem": "0453A788FC7140F7266A230858454B4D0A42A1F8B66192AF7274955ADC131EB0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\thumb0.mem": "AE46319530BD8B49FA18A985ED64B3BBD79CCA25B05FE03D3A49CC28F305AA86",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\thumb180.mem": "BA211BF1A648AFD094289A3070FEEC2E34AB0A80D3B7BE98632A275767FC6DF4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner\\windows.mem": "A8098755A0A9283F9F819C896DE38B41794C1192D7FD51E2E722DADB9BF2CCD1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\conv1.mem": "0108EFA01ED1680B86194A276A126A116749846149E894E628850F45990DB804",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\conv1_acc.mem": "C0DD705705B8D6782B0AFB64ECD9D0F7047D96B1DE104144EC4B5FF6C113C90E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\conv2.mem": "F3CAA63072463025FC0B705046D277ABD226A5E52050E7A71AD32B06E961D517",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\conv2_acc.mem": "0110C7F4ADBC895D9DBFDED7D9589F18C6A4961DE46B8E2AF4F723852C6027EE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\EXPECTED.json": "1865046A0ED8909A8E4A6408B750A3EDCDA9065ACCAE1DDDE41BA2E874FA3D9D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\oriented_roi.mem": "77A7498AD5D4CEAD1268291D81D828AAA291E89FB7A3034F201C92D1246E2529",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\residual.mem": "D5FB6C7934B8184D32F1B82A2477273C691C6E3B4F6860702A569F32C8BFB062",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\roi.mem": "16C36AF9A19972E33AE38EC3233E9438F40F2976C591D719FFF750B8BCFE11D5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\thumb0.mem": "BA211BF1A648AFD094289A3070FEEC2E34AB0A80D3B7BE98632A275767FC6DF4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\thumb180.mem": "AE46319530BD8B49FA18A985ED64B3BBD79CCA25B05FE03D3A49CC28F305AA86",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_corner_180\\windows.mem": "A8098755A0A9283F9F819C896DE38B41794C1192D7FD51E2E722DADB9BF2CCD1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\conv1.mem": "97856EE9E4050721B4E33336D2259B464C383F8CFAD7FD3E15A191121CED108D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\conv1_acc.mem": "AB9ED70314B2D17B47A27885F22AD94ACF18FEF8F0E6D6AEAF8C051F1116C2DB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\conv2.mem": "2AE131E96F7EA04776CD5445B30AE97276754E18B5E5B4617E26B23FB920449C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\conv2_acc.mem": "8831485F6AFBBA95AF0B112052798EA7FC24C2BC8212ED82383B884415A88429",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\EXPECTED.json": "D50BA217EE94F7BC57BA17FF3A27FA4C6F1A1146224AC4038BCCB342B93254A0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\FRAME.json": "0908666C2ED9CE486FC9E1EBC08E5E4953186DB92E9C1BDB57C104097B14B713",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\oriented_roi.mem": "35C7EDD4B9E33A9C44457FB2D4034FC664116D448B018F66E2A287898293BDFB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\residual.mem": "0E4935D125D8B3C815621D0BC30C7980167BCA14A92329897050BD8F43F9CCF0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\roi.mem": "35C7EDD4B9E33A9C44457FB2D4034FC664116D448B018F66E2A287898293BDFB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\sample_x.mem": "A18852868DD91B2EAAC20A301ECFCB8334A96B962D0CE3CEE212EA0765CBBB76",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\sample_y.mem": "B75E6E0CD054F7EBF5632FB0C7D9B3A024D41CF37C7E05005015FBE15A487BCC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\source_y.mem": "023BBE1ABCC867A79E85238FC40398D19F34072A6DA2C97189B546BA7C7FD086",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\thumb0.mem": "1B1FCDD4C2F9FCC7E0D5E6293CF73DE087912EB847EB1F692208922561EBDCFA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\thumb180.mem": "481932ECEB263780C184E904B699009CB831BE5058110B0250BAE241C121715A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad\\windows.mem": "1662D765D1A22B0BF9A3147A832A5229371E2FD263FF74DA53761069C0FB6C70",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\conv1.mem": "97856EE9E4050721B4E33336D2259B464C383F8CFAD7FD3E15A191121CED108D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\conv1_acc.mem": "AB9ED70314B2D17B47A27885F22AD94ACF18FEF8F0E6D6AEAF8C051F1116C2DB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\conv2.mem": "2AE131E96F7EA04776CD5445B30AE97276754E18B5E5B4617E26B23FB920449C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\conv2_acc.mem": "8831485F6AFBBA95AF0B112052798EA7FC24C2BC8212ED82383B884415A88429",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\EXPECTED.json": "B52B1E89BA6E2D686AF37AED1B54FFB40ACCDF3F29BAB8CA41CEA81C4A0D054F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\oriented_roi.mem": "35C7EDD4B9E33A9C44457FB2D4034FC664116D448B018F66E2A287898293BDFB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\residual.mem": "0E4935D125D8B3C815621D0BC30C7980167BCA14A92329897050BD8F43F9CCF0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\roi.mem": "337B1A74ACE6192C576678E2845FF71D49441D65AF2E4D7CDC55994F63910EA3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\thumb0.mem": "481932ECEB263780C184E904B699009CB831BE5058110B0250BAE241C121715A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\thumb180.mem": "1B1FCDD4C2F9FCC7E0D5E6293CF73DE087912EB847EB1F692208922561EBDCFA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\golden_missing_pad_180\\windows.mem": "1662D765D1A22B0BF9A3147A832A5229371E2FD263FF74DA53761069C0FB6C70",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_0\\conv2.mem": "ED42834E1B538B5ABC8C0155FFD6B1E415DD7ADEAA13C28DAE0FF45AFE04FD2B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_0\\EXPECTED.json": "3DB3AB708DC3B2FFAF5662BE2F3B0E5F455D8FC10C3EDE89D24CDFBDD0AC1CF8",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_0\\residual.mem": "C4D2F3715FFCF9D6CE34B911A7B995F49772A0ABF26A1A70F17C7E1469279FC5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_0\\windows.mem": "C0EE8EEA1230579184FFF36F25B10B11E90DD5FC3DE85B97C888CEAF80B75983",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_106\\conv2.mem": "37404DAA446956228744A0BBF38257810870B18901ABE1B59FFD8CA9517E88B7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_106\\EXPECTED.json": "F4B278A9C2223278101E21DA630DB9B74620843F300BE89E5064B3D035B93F74",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_106\\residual.mem": "38169DBAD8A58986E8D94E1D15EBE0088F074D80449E9EBF8D79193A3C190EF2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_106\\windows.mem": "37730424059507B9D556AA7B0B19C148ACC231C6AEF436959D83092475EBF2F5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_107\\conv2.mem": "AC629F60803C8173A2F377B4D34ADDDC0BECD3E5F88D3AFB8D7A925CB38B2B3C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_107\\EXPECTED.json": "B77738581215CD0F4B3823FC1719D4C93FF5FAF0666C13E1484683F292A01D0B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_107\\residual.mem": "73E860C1D8E16DF016E84E6AE068FE65360F6DE75E2B94843DA35C07A8D8EC8B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_107\\windows.mem": "E84187E9AFACB927F8077CC1B86A6F53E632B2441EAB9C96AEE4B6DFBF7252D7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_204\\conv2.mem": "31E9FA2D4A2C906F517D20DCB15FB675CAECE5B410961D92B0593A94CA8E8C14",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_204\\EXPECTED.json": "559480AAE2D5ACDFB96D9F8187FE69FFF4208C3BA8614A8997CCC2EFD610C1B4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_204\\residual.mem": "8FBC8ED65E36DF5C823C0C47148C0EA36A59AFB245BC77A902243EDA66045288",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_204\\windows.mem": "A4AE6F67FD97039E7E615635004965DAEA6348709583B7A6AAB6516E0C05BB2F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_205\\conv2.mem": "384B2754DB5862D5E4EBAA276C6A1F9D23905CDE2C8D005F588B0A164CD81F61",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_205\\EXPECTED.json": "805BB9784408C2A4728716174705496F1D5E76CFCD3C2F21FB3486CBE580683C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_205\\residual.mem": "905D20AF684CEF925C832D905A37B81EAA062D2A746C4643B72F6B0425B64446",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\head_score_205\\windows.mem": "DBC9B5D1095CACA7DCD086545EEDB286EF374F5B78B8408777E1689071086660",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\INDEX.json": "F62A9D37E32658A9E98E6E3BF984ED255A9BA916F0C08B10E95CEADC25D72515",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\QUALITY_EXPECTED.json": "22A07ADDC186AEEC8A9334B9FF810DDDE78F6EDD92A7D025641A94B97367F6DA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\conv1.mem": "752B7763E81489C7AA56100C7A21A7E887C93B7353B1939354B9C189EC010A9D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\conv1_acc.mem": "55C3A675DA457C4FD4FF79C8DC6CA98A43F3777FB71F3A187AE4F9139BD584A3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\conv2.mem": "9A433938FF63AF187C412C0E7A462B60452FD13727B7EF9336AFABBA5802F530",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\conv2_acc.mem": "D1E0E45CAF9727878230C96192452E7EF289B966CF1577AFFE832B319B911DAE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\EXPECTED.json": "AEAD11D6D4E8167F1336C7FFCEE4CF8CC417E8A432D2D233613F588BB345F3A3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\oriented_roi.mem": "D3D88D3F117030DF341ABFD796E7C62A5A9681D6990A75705D779A6A0F086BD2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\residual.mem": "8CC6460D411F172EA80BF8F51CEAB61208B95126A40CADFC8AE1D34BD7AC0042",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\roi.mem": "D3D88D3F117030DF341ABFD796E7C62A5A9681D6990A75705D779A6A0F086BD2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\thumb0.mem": "E6E75F4DD19ACEB4EAD0524A40537927BA225AB11DDD5ACE12A7919951ACE6C4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\thumb180.mem": "4E6AE096B3FFDAC8593A97A3A9B8CDF90DD9D32D6D78AEB02C42898B4DD287E7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\ramp\\windows.mem": "6731EFEF173E1D1CC4EC7780BC3312B9A97EE4BCBC5580BD8F5E8AE724B191EE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\conv1.mem": "B00D20F8864651B6700745EAF8C107F986344FD71F2ED86A10C923028784419F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\conv1_acc.mem": "3FC87681319E0C0E05A354B27F01B50295393042588F5BF6B4884AF69349D4F3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\conv2.mem": "EE916D118B0576BD965CA9BA26752FADDD5B633BD27DEE66F4EF7DEA6C4707F0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\conv2_acc.mem": "707080F0EF7EFD3E3EB4A54FA428DBD3B88DCA528A9B021E74F5AB14913218B4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\EXPECTED.json": "902D33CEBBF1C6CA346BF93E5CA591CC7805341F2518701535E88915B305F333",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\oriented_roi.mem": "174382962C933C2BDF2BF439DC725E60D600DD14A81AC1F470FD0E5310BB2939",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\residual.mem": "EB82AA7E5AD2D6929393B5EE6D89A224CF1B717F1EC280314ABE11DE65C56947",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\roi.mem": "174382962C933C2BDF2BF439DC725E60D600DD14A81AC1F470FD0E5310BB2939",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\thumb0.mem": "F156BCCB35997DCC1CA379659F0B909B8A22E5F46A51C814E49FFD61AC9C5BCB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\thumb180.mem": "365E88463AB7287F68A476B7DB6C28180B571289213D4E18C078D38AD482DF42",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\thumb_phase\\windows.mem": "ED07616E03E9ECF5139152A8356342370E10E5790417EFD32371464BE254D9C7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\vectors\\THUMB_PHASE_TRAP.json": "784689E608440E2DFA2DD213A24577ECD7EFE2F745A2C4C5D3F1DE5A1B4C2CE4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\INDEPENDENT_REVIEW.json": "E67E04B1B6181E0F4D666D0A86834F760B3B559163916F8B8183CE703DC99C67",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+    "E:\\codex_pcb_pose7_20261102_r4\\01_rtl\\hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+    "E:\\codex_pcb_pose7_20261102_r5\\01_rtl\\hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\top_read_route_probe.sv": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\hxa_read_route_probe.sv": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+    "E:\\codex_pose7_reader_20261102_r4\\tb_reader.sv": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+    "E:\\codex_pose7_reader_20261102_r4\\run_reader.py": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\RESULTS.json": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\SOURCE_SHA256.json": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\SIM.log": "9BB43C1A574250089E95BD48DA8FB12731CBC870966B7BD6DF826DFF600075E9",
+    "E:\\codex_pose7_reader_20261102_r4\\run_20261102T072040_848611Z\\run.do": "CC9B2B71EF4AF1A9425F5EF2821DD570AFD9DC4614A929CD68AB54579774BCEA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\MIRROR_INDEX.json": "C4B38DAE35E0A47E7935EF12A0D57AA7211260153F2DA2530F4CD6290E393568",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\AUDIT.json": "915321D20392073C68B4FEDD7B410A20471EC2C2BD30AE1D5CD2D9232136A2D3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\hxa_read_route_probe.sv": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\PIXEL_COMPARISON.json": "7E3323EC4037547B36F7B812A1AB44C0B082CCA074F55B3406CF307ED07C616E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\README.md": "DCFA7C0D58BE5B0B687A94020FAEC4E816F90CB4A2F3EFBC9C8F4FF16576DEFD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\RESULTS.json": "9757B3D369721F3CABC6AF97929DF19445E546D5334969F12CCA9F417763DBDA",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\run_reader.py": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\SOURCE_SHA256.json": "2555E1174C7173BC3DA86DA918F44F56E1EBBEA3AB70F2ACF8E09988B1E6BD99",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\tb_reader.sv": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\top_read_route_probe.sv": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5"
+  },
+  "r5_required": [
+    "Bind new 27-case ordinary CNN workspace + external MAC integer regression to actual r5 cnn_core.",
+    "Bind new six-frame/three-cancel PCB fullpipeline execution on r5.",
+    "Complete current five-phase reset/CDC/KEY3, routed resources/timing/DRC and read-only DB identity."
+  ],
+  "not_claimed": [
+    "No historical execution is renamed as r5.",
+    "Old ordinary arithmetic is not reused for changed cnn_core; old publication compiles controlled leaves and does not cover its datapath.",
+    "Local background_reject remains constant zero; a forced hard-reject branch does not establish learned background rejection.",
+    "Reader/store supplement remains controlled-clock read-side behavior, not complete top/HXA FSM, vendor DDR/PHY or measured board latency.",
+    "HXA authenticated explicit Type11 reason80 retains baseline lack of task-ID comparison.",
+    "Failed r3/r4 setup results remain failed; only fresh r5 final routed timing can satisfy release."
+  ],
+  "bitgen_allowed": false,
+  "hardware_status": "NOT_RUN"
+}

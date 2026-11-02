@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "run_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\core_regression\\run_20261102T065853_582280Z",
+  "command": [
+    "E:\\model\\win64\\vsim.exe",
+    "-batch",
+    "-syncio",
+    "-do",
+    "run.do"
+  ],
+  "working_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\core_regression\\run_20261102T065853_582280Z",
+  "RTL": "PASS",
+  "hardware": "NOT_RUN",
+  "design": "E:\\codex_pcb_pose7_20261102_r4",
+  "source_manifest_sha256": "052CDD89A612A1ECF03AAFE1E91D0D343F9AEC131C6F6773DEA5C1C1CD31D178",
+  "returncode": 0,
+  "ROI_cases_passed": 12,
+  "head_cases_passed": 5,
+  "safety_cases_passed": 23,
+  "sources_unchanged": true,
+  "frozen_sources_unchanged": true,
+  "latency_records": [
+    "POSE7_ROI_PASS name=golden_good cycles=969786 source=9216 conv1=9216 conv2=2304 score=6 flip=0",
+    "POSE7_ROI_PASS name=golden_missing_pad cycles=969786 source=9216 conv1=9216 conv2=2304 score=243 flip=0",
+    "POSE7_ROI_PASS name=golden_missing_corner cycles=969786 source=9216 conv1=9216 conv2=2304 score=296 flip=0",
+    "POSE7_ROI_PASS name=golden_good_180 cycles=969786 source=9216 conv1=9216 conv2=2304 score=6 flip=1",
+    "POSE7_ROI_PASS name=golden_missing_pad_180 cycles=969786 source=9216 conv1=9216 conv2=2304 score=243 flip=1",
+    "POSE7_ROI_PASS name=golden_missing_corner_180 cycles=969786 source=9216 conv1=9216 conv2=2304 score=296 flip=1",
+    "POSE7_ROI_PASS name=thumb_phase cycles=969786 source=9216 conv1=9216 conv2=2304 score=383 flip=0",
+    "POSE7_ROI_PASS name=all_zero cycles=969786 source=9216 conv1=9216 conv2=2304 score=832 flip=0",
+    "POSE7_ROI_PASS name=all_255 cycles=969786 source=9216 conv1=9216 conv2=2304 score=794 flip=0",
+    "POSE7_ROI_PASS name=ramp cycles=969786 source=9216 conv1=9216 conv2=2304 score=684 flip=0",
+    "POSE7_ROI_PASS name=edge_impulse cycles=969786 source=9216 conv1=9216 conv2=2304 score=369 flip=0",
+    "POSE7_ROI_PASS name=golden_good cycles=969786 source=9216 conv1=9216 conv2=2304 score=6 flip=0"
+  ]
+}
