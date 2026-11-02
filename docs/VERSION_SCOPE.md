@@ -36,11 +36,36 @@ PCB 使用固定窗口 x=158..1113、y=140..551，宽 956、高 412，按硬件�
 
 依据：[文档前端](../hardware/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_image_frontend.v)、[笔画规划器](../hardware/secondary_doc_dirt_lowconf_factored_20261101/01_rtl/doc_stroke_planner.v)。实拍回放范围与已知限制见 [验证记录](VALIDATION.md)。
 
-## 运动显示与亮度
+## 图像风格化、运动检测与成像调节
+
+### 图像处理与风格化
+
+主板采用定点运算、行缓存和流水线实现原图及 18 种图像处理模式。按处理类型可分为：
+
+| 类型 | 模式 |
+| --- | --- |
+| 亮度与颜色变换 | 灰度化、二值化、负片、红色通道、蓝色通道 |
+| 轮廓与形态学 | Sobel 边缘、反向边缘、浮雕、腐蚀、膨胀、形态梯度 |
+| 图像风格化 | 伪彩、海报化、卡通化 |
+| 视觉增强 | 饱和度增强、暗部提亮、对比度拉伸、伽马提亮 |
+
+模式通过按键切换，OSD 同步显示模式信息。卡通化结合边缘提取与颜色量化，其他模式使用像素映射或邻域运算，不采用神经网络风格迁移。
+
+依据：[风格化流水线](../hardware/main_osd_brightness_20261101/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/style_transfer_96.v)、[模式控制](../hardware/main_osd_brightness_20261101/01_rtl/imgq_gain_m/main/user_source/hdl_source/style_controls.v)。实拍效果见 [演示图集](GALLERY.md)。
+
+### 运动区域检测
 
 当前主板采用 4×4 亮度块生成 320×180 运动网格，结合亮度自适应差分、区域筛选和连续确认输出运动框。OSD 计数来自所选区域的变化采样点数，会随运动强度和范围改变，不应作为累计通行计数使用。
 
+### 成像质量自动调节
+
+自动曝光控制器根据帧亮度、过曝比例和 ROI 亮度统计，反馈调整 SC500 曝光及模拟 / 数字增益；使用亮度死区、调整间隔和恢复保持等控制，限制频繁调节。RAW 域自动白平衡采用灰世界统计，按颜色通道反馈调整增益。当前顶层启用 RAW 自动曝光统计与 RAW 自动白平衡。
+
+显示支路另有保边空间滤波，用于减轻细小颗粒；空间滤波不使用历史帧，不属于 TNR。自动成像调节、固定亮度曲线和显示滤波是不同环节，实际效果受光源、场景颜色和传感器噪声影响。
+
 固定亮度曲线同时进入 fixed tap，会影响副板接收到的像素；显示空间滤波则使用独立的支路连接。当前顶层的距离显示输入固定关闭。
+
+依据：[自动曝光与增益控制](../hardware/main_osd_brightness_20261101/01_rtl/imgq_gain_m/main/user_source/hdl_source/uiisp_beta/ae_auto.v)、[RAW 自动白平衡](../hardware/main_osd_brightness_20261101/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/awb_raw10_bggr_grayworld.v)。
 
 依据：[主板顶层](../hardware/main_osd_brightness_20261101/01_rtl/imgq_gain_m/main/user_source/hdl_source/design_top_wrapper.v)、[运动检测](../hardware/main_osd_brightness_20261101/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/motion_detect.v)、[运动区域筛选](../hardware/main_osd_brightness_20261101/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/motion_region_select.v)、[亮度曲线](../hardware/main_osd_brightness_20261101/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/display_tone_96.v)、[ISP 连接](../hardware/main_osd_brightness_20261101/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/isp_top_basic_core.v)。
 
