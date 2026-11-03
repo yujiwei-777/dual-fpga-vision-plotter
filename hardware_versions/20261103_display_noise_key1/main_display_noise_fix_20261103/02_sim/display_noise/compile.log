@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+vmap -c 
+Copying E:/model/win64/../modelsim.ini to modelsim.ini
+Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+vmap -modelsimini D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise/modelsim.ini sim_work D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise/sim_work 
+Modifying D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise/modelsim.ini
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 11:16:24 on Nov 03,2026
+vlog -work sim_work -sv D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/a4_display_spatial_h1.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise/tb_display_spatial.sv 
+-- Compiling module a4_display_spatial_h1
+-- Compiling module tb_display_spatial
+
+Top level modules:
+	tb_display_spatial
+End time: 11:16:24 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

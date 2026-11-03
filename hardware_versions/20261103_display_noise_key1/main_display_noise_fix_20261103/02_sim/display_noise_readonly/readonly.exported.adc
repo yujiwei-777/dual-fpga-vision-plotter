@@ -1,0 +1,9 @@
+create_bound { Intnl_25_0_23_40 } -mode fixed -width 23 -height 40 -origin { 25 0 }
+add_cells_to_bound -bound { Intnl_25_0_23_40 } -net { }
+create_bound { Intnl_0_0_25_40 } -mode fixed -width 25 -height 40 -origin { 0 0 }
+add_cells_to_bound -bound { Intnl_0_0_25_40 } -net { }
+create_bound { Intnl_0_40_25_40 } -mode fixed -width 25 -height 40 -origin { 0 40 }
+add_cells_to_bound -bound { Intnl_0_40_25_40 } -net { }
+create_bound { Intnl_25_40_19_40 } -mode fixed -width 19 -height 40 -origin { 25 40 }
+add_cells_to_bound -bound { Intnl_25_40_19_40 } -net { }
+

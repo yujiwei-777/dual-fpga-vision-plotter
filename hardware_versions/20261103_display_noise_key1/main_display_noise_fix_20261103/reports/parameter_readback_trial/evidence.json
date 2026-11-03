@@ -1,0 +1,147 @@
+{
+  "scope": "Read-only review of a snapshot of still-running V8; no TD process started, no product/RUN/build script changed.",
+  "run": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8",
+  "log_source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8\\synth.log",
+  "log_snapshot_sha256": "F9029F9392425A65F564862E652D273C46F1B3BC6D129B028537793A83BB6876",
+  "log_snapshot_bytes": 149216,
+  "log_is_final": false,
+  "checker_source_sha256": "36D5FF8257D6A341A8E3B90266ECC30E92E500BAA7DC285042773576199ED788",
+  "public_table_row_presence": {
+    "add_map_lut_struct": false,
+    "map_mode": true,
+    "multi_thread_mapping": false,
+    "resource_sharing": false,
+    "shifter_style": false,
+    "pack_effort": true
+  },
+  "line_evidence": [
+    {
+      "line": 395,
+      "text": "RUN-1002 : start command \"set_param gate add_map_lut_struct high\""
+    },
+    {
+      "line": 396,
+      "text": "RUN-1002 : start command \"set_param gate map_mode area_prior\""
+    },
+    {
+      "line": 397,
+      "text": "RUN-1002 : start command \"set_param gate opt_area high\""
+    },
+    {
+      "line": 398,
+      "text": "RUN-1002 : start command \"set_param gate multi_thread_mapping partition\""
+    },
+    {
+      "line": 399,
+      "text": "RUN-1002 : start command \"set_param rtl resource_sharing auto\""
+    },
+    {
+      "line": 400,
+      "text": "RUN-1002 : start command \"set_param rtl shifter_style shifter_reg\""
+    },
+    {
+      "line": 401,
+      "text": "RUN-1002 : start command \"set_param gate pack_effort high\""
+    },
+    {
+      "line": 960,
+      "text": "RUN-1002 : start command \"commit_param -step rtl\""
+    },
+    {
+      "line": 1294,
+      "text": "RUN-1002 : start command \"commit_param -step gate\""
+    },
+    {
+      "line": 1312,
+      "text": "RUN-1001 :        map_mode        |  area_prior  |       auto       |   *    "
+    },
+    {
+      "line": 1314,
+      "text": "RUN-1001 :       pack_effort      |     high     |      medium      |   *    "
+    },
+    {
+      "line": 1398,
+      "text": "SYN-3001 : multi-thread mapping mode: partition"
+    }
+  ],
+  "official_report_param": {
+    "pdf": "E:\\td\\doc\\SWUG\\SWUG105_TCL_Command_User_Guide.pdf",
+    "pdf_sha256": "9D0C71B1F6594A0359B29DE241E3B1D5911237A2E80486B88A62430AF59D0255",
+    "pdf_page": 29,
+    "printed_page": 22,
+    "section": "4.1.19",
+    "default_scope": "nondefault public parameters",
+    "detail": "includes default-valued parameters",
+    "file": "only nondefault parameters even with -detail"
+  },
+  "installed_executable": {
+    "path": "E:\\td\\bin\\td_commands_prompt.exe",
+    "sha256": "79EC56674F8F7B889E25E11BDCA91F7D64C24BA0DE99E80680248F00B4F87190",
+    "static_command_evidence": [
+      {
+        "ascii": "get_param",
+        "offset": 91526000,
+        "present": true,
+        "nearby_ascii": [
+          "_reg",
+          "step_name param_name param_value -run <string> -help -projmngr",
+          "step_name param_name -run <string> -help",
+          "get_param",
+          "-h -help param_name param_value",
+          "set_device_param",
+          "-h -help param_name",
+          "get_device_param",
+          "-h -help -stage <string> -detail -all -file <string>",
+          "report_param",
+          "clear_pa"
+        ]
+      },
+      {
+        "ascii": "step_name param_name -run <string> -help",
+        "offset": 91525952,
+        "present": true,
+        "nearby_ascii": [
+          "i_reg",
+          "-chip <string> -name <string>",
+          "read_vpi_reg",
+          "step_name param_name param_value -run <string> -help -projmngr",
+          "step_name param_name -run <string> -help",
+          "get_param",
+          "-h -help param_name param_value",
+          "set_device_param",
+          "-h -help param_name",
+          "get_device_param",
+          "-h -help -stage <string> -detail"
+        ]
+      },
+      {
+        "ascii": "-h -help -stage <string> -detail -all -file <string>",
+        "offset": 91526120,
+        "present": true,
+        "nearby_ascii": [
+          "get_param",
+          "-h -help param_name param_value",
+          "set_device_param",
+          "-h -help param_name",
+          "get_device_param",
+          "-h -help -stage <string> -detail -all -file <string>",
+          "report_param",
+          "clear_param",
+          "export_params",
+          "id -help",
+          "print_net",
+          "net_name -clear -help -bank <integer> -bufg",
+          "set_clock_net"
+        ]
+      }
+    ],
+    "runtime_tested": false
+  },
+  "readback_tcl": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\parameter_readback_trial\\read_v8_parameters.tcl",
+    "sha256": "8D0F47DE9AEBC97801CD6F4FE77DAE006896321D0CD86AE219F137AB6792F7A2",
+    "executed": false
+  },
+  "strict_checker_missing_rows_cannot_be_inferred_from_start_messages": true,
+  "physical_acceptance_scope": "Actual final resource/timing/standard bitgen gates remain mandatory; hidden-value visibility is a provenance confidence issue."
+}

@@ -1,0 +1,23 @@
+Location         : D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\01_rtl\imgq_gain_m\main\td_project_display_noise_v3
+Running with     : Tang Dynasty Release_2026.1_SP2
+                   Copyright (c) 2012-2026 Anlogic Inc.
+Top Model        : design_top_wrapper
+Device           : PH1P35MDG324
+Speed            : 3
+
+Timing Mode      : basic
+Setup            : WNS -1265ps  TNS   -18198ps  NUM_FEPS    21
+Hold             : WNS 2147483647ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+---------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+---------------------------------------------------------------------------------------------------
+  optimize_gate  |    1     |  2m3s(55%)   |    37(62%)    |       1894        |       2082        
+  optimize_rtl   |    1     |  1m35s(43%)  |    22(37%)    |       1809        |       2082        
+  import_device  |    1     |    2s(0%)    |     0(0%)     |        330        |        363        
+    read_adc     |    2     |    0s(0%)    |     0(0%)     |        864        |       1183        
+    read_sdc     |    2     |    0s(0%)    |     0(0%)     |        864        |       1183        
+---------------------------------------------------------------------------------------------------
+      total      |    7     |    3m40s     |      59       |       1894        |       2082        
+---------------------------------------------------------------------------------------------------

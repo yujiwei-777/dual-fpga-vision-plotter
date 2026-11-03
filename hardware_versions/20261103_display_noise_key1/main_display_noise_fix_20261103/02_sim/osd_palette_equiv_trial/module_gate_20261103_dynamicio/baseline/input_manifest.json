@@ -1,0 +1,33 @@
+{
+  "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\osd_palette_equiv_trial\\module_gate_20261103_dynamicio\\normalized_sources\\baseline.v",
+  "source_sha256": "78C5AFE9DD50647A98ECD7F64D2ECEDEE5F58021E0C63159BAC5A2B47DD2A700",
+  "copied_source_sha256": "78C5AFE9DD50647A98ECD7F64D2ECEDEE5F58021E0C63159BAC5A2B47DD2A700",
+  "parameters": {},
+  "device": "PH1P35MDG324",
+  "speed": 3,
+  "mapping": "default auto",
+  "pack_effort": "high",
+  "inputs": {
+    "module_source.v": "78C5AFE9DD50647A98ECD7F64D2ECEDEE5F58021E0C63159BAC5A2B47DD2A700",
+    "module_area_top.v": "C40C47609D5193E76B88DE633F2EB072360BCF2E5C0411B43A9234F1CA2E4DC0",
+    "module_area.al": "C7D8BE65F1744DE219333C38BAE5D9774715763FA0916C38A812727FE5E25E93",
+    "run.tcl": "FE1D5A4604D12139D3A29D4C269D49EF593D2D9345B795182690108A0F1A160E",
+    "osd_compact_glyphs.vh": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A"
+  },
+  "all_dynamic_module_io_connected": true,
+  "product_constraints_used_or_changed": false,
+  "place_route_bitgen": false,
+  "resource_kind": "PRELIMINARY_SINGLE_MODULE_GATE_ESTIMATE",
+  "complete_verilog_filelist": [
+    "module_source.v",
+    "module_area_top.v"
+  ],
+  "include_files": {
+    "osd_compact_glyphs.vh": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A"
+  },
+  "upstream_source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\osd_palette_equiv_trial\\osd_compact_panel_frozen.v",
+  "upstream_sha256": "8E16AB5DC68A69603AE4C8A7F480C350BE9461A46E63BC8E9840459EB1526C9B",
+  "only_preparation_source_change": "module declaration renamed to common area DUT",
+  "all_eight_pcb_statuses_and_normal_panel_runtime_dynamic": true,
+  "wrapper_metadata_loading": "112 FF shifted by 32 arbitrary external bits; all input values reachable in four clocks"
+}

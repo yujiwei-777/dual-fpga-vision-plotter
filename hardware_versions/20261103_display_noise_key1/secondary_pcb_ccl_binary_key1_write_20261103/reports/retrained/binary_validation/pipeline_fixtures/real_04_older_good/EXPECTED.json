@@ -1,0 +1,65 @@
+{
+  "name": "real_04_older_good",
+  "ccl": {
+    "provisional_labels": 288,
+    "overflow": false,
+    "truncated": false,
+    "count": 2,
+    "eligible_components": [
+      {
+        "area": 6895,
+        "first": 2250,
+        "grid_box": [
+          5,
+          14,
+          150,
+          78
+        ]
+      },
+      {
+        "area": 77,
+        "first": 7784,
+        "grid_box": [
+          104,
+          48,
+          124,
+          54
+        ]
+      }
+    ],
+    "top4": [
+      {
+        "area": 6895,
+        "first": 2250,
+        "grid_box": [
+          5,
+          14,
+          150,
+          78
+        ]
+      },
+      {
+        "area": 77,
+        "first": 7784,
+        "grid_box": [
+          104,
+          48,
+          124,
+          54
+        ]
+      }
+    ]
+  },
+  "valid": true,
+  "bbox": [
+    40,
+    112,
+    1200,
+    624
+  ],
+  "status": 0,
+  "score": 162,
+  "margin": 490,
+  "class_id": 0,
+  "core_case": 4
+}

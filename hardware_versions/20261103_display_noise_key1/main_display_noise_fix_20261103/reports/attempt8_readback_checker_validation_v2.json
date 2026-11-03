@@ -1,0 +1,54 @@
+{
+  "scope": "Actual checker rerun plus actual tool tests and supplementary finalizer preparation; no new product, constraint or TD execution",
+  "command": [
+    "C:\\Users\\38401\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\verify_display_noise_build_strategy.py",
+    "--require-log",
+    "--require-snapshot"
+  ],
+  "process_exit_code": 0,
+  "passed": true,
+  "checker_sha256": "097F6CB165A9B5D9A11954C338057A524374CD9B8DE84E756FA23BDC476EA930",
+  "tests_sha256": "30045D2E6D89648CA3FC2A8977A72F45562AFACCD24D5D3000D9DDD226C548D7",
+  "strategy_result_sha256": "DE20185168828A49F2937EA847CF82B57F477B06BEBA7EC42B191D46A24FF21B",
+  "raw_validation_log_sha256": "72A8E75C4558385651276F615B74060C402455C00B621D23D0F16B0684FBD090",
+  "original_failure_manifest_sha256": "CA3D762CAEEEFCABD8EC50BBF3493372F63741A5D7F3530D19057B74C933B195",
+  "actual_readback_receipt_sha256": "1C26AEC82250F03BE7A179DB65FF274A823D99E77B6BA64CDD33222E3CFB943E",
+  "board_validation": "NOT_RUN",
+  "physical_acceptance_claimed": false,
+  "previous_validation_receipt": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt8_readback_checker_validation.json",
+    "sha256": "4AB6C816A1334F1197CCFD82706ABF153BE8E9125303CE356A6866563AEF4118",
+    "preserved_unchanged": true
+  },
+  "tool_tests": {
+    "command": [
+      "C:\\Users\\38401\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-m",
+      "unittest",
+      "test_display_equivalence_chain",
+      "test_display_noise_build_strategy",
+      "test_display_noise_release_evidence",
+      "test_audit_log_encoding",
+      "test_td_release_audit",
+      "test_strict_release_review"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools",
+    "process_exit_code": 0,
+    "passed": true,
+    "actual_tests": 81,
+    "raw_log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\v8_readback_tool_tests.log",
+    "raw_log_sha256": "771282534A5098373B3F887230DE208F8DEF214E9BD1BFCE71BD7BCBA731840E",
+    "test_source_sha256": {
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\test_display_equivalence_chain.py": "7903E90E7D4916CC25A9262487EC19339336FB1D81F6A7A1326634B0107D39A4",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\test_display_noise_build_strategy.py": "30045D2E6D89648CA3FC2A8977A72F45562AFACCD24D5D3000D9DDD226C548D7",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\test_display_noise_release_evidence.py": "4E5A5C407D441057639C181495A98A04650DBC35188AF70AF5F44FAAAC53B53D",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\test_audit_log_encoding.py": "9F401BA7041FED0A5D3B0295BC75F7B7AE27A1349DAD1511C4189D0B5EB3175D",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\test_td_release_audit.py": "465992E2A3F08B806E705EAF8E82076AC797F478A803BA1D8FCF9CED86AD160A",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\test_strict_release_review.py": "380B01E980D95C196D2291826D59688BE85F84FDE99001E9DB5E61A0F76D6DDF"
+    }
+  },
+  "finalizer_sha256": "4AFD9E9A0166ED7CAE25A3759DBB6D2F8B1B9D8D5369298594476B666DBE22A5",
+  "noise_limits_report_sha256": "F6FF21B1B2483F7D3AEC57AF42662A517D724DAE63E6032E7ACC7860D715C554",
+  "OSD_isolated_report_sha256": "815079D62812BF96817B9A9B395D6BBD5F11A1CC21CD8CF9777D569C48EDFF0F"
+}

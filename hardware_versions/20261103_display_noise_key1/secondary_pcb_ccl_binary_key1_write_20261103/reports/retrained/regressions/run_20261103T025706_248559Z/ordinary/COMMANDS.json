@@ -1,0 +1,22 @@
+[
+  {
+    "label": "ordinary_integer27",
+    "command": [
+      "C:\\Users\\38401\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\tools\\run_ordinary_pose7_regression.py",
+      "--rtl-root",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "--model",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\export",
+      "--output",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary\\integer27"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary\\ordinary_integer27.log",
+    "log_sha256": "6A770B8D8819B44CE3F8204447FF085EB2BF4D7D03DE09F72DD8C894E0762DBD",
+    "warnings": []
+  }
+]

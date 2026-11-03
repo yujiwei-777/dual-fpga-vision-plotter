@@ -1,0 +1,136 @@
+{
+  "baseline_synthesis_has_PRJ_7001": false,
+  "new_run_synthesis_has_PRJ_7001": true,
+  "missing_count": 9,
+  "files": [
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/roi_sampler_720p.v",
+      "baseline_exists": true,
+      "baseline_sha256": "36B46BB73CBEBF6CD54628ABDB9F78DF58DC625917AA37B7245EBA233FB76818",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "28"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/image_correction.v",
+      "baseline_exists": true,
+      "baseline_sha256": "6BF43322799BD1B4A727F0571EAE2224FCB4C1F8C72575CF005F0B3E56BD2DF8",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "39"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/uiisp_beta/ae_set.v",
+      "baseline_exists": true,
+      "baseline_sha256": "B4E7084ED794855892132214CFF9D063C2C0702A19147D291BD6B1D7F9F7D87B",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "45"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/edge_detect_96.v",
+      "baseline_exists": true,
+      "baseline_sha256": "36D1E1CF697CCDBB28EC4EE98BCDA446ABF7B05EF4A3C907F8143F772D58E57B",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "58"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+      "baseline_exists": true,
+      "baseline_sha256": "F22F85D0AB26C4E7C402B0DDD2D25A6F4BE852994226ADD50A2850F732EFF43F",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "85"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+      "baseline_exists": true,
+      "baseline_sha256": "38769F122B452F1ABA2CC9F69E59669B5BFD01CE27A6E1BD67082EDCE28EBDB5",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "87"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+      "baseline_exists": true,
+      "baseline_sha256": "30374E9D9D21743A484084E3F1AD48DC12230883E890E5B37E79B1CD13A2C8A2",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "88"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/blk_mem_gen_awb_delay_signal.xml",
+      "baseline_exists": true,
+      "baseline_sha256": "2A4036C207EE38A5CC415E9DF729333F00B82072C774AC911EB71A8855BCD423",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "17"
+      },
+      "section": "IP_FILE"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/divider/divider.ipc",
+      "baseline_exists": true,
+      "baseline_sha256": "6C8D11F165ACA0D4818325452B554EF11C11FF618E2E99473B50AF32745AFA62",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "18"
+      },
+      "section": "IP_FILE"
+    }
+  ],
+  "interpretation": "New project warnings caused by copying only active frozen dependencies. All listed AL entries are explicitly AutoExcluded=true; they were not synthesized in the baseline. Baseline files exist; warnings are new, not inherited. Current running synthesis inputs were not altered.",
+  "hardware_status": "NOT_RUN",
+  "first_attempt": {
+    "run": "01_rtl/imgq_gain_m/main/td_project_display_noise_v1",
+    "synth_log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v1\\synth.log",
+    "synth_log_sha256": "ABD2F6F5A655A9AF4077D260D37A010EFF2C1878286D68273E2812CDAF17C72A",
+    "synth_log_encoding": "UTF-16 BOM",
+    "v1_has_PRJ_7001": true,
+    "PRJ_7001_count": 9,
+    "interpretation": "First-attempt warnings retained unchanged; v2 restores inactive ordinary files before its own separate freeze/build."
+  },
+  "new_run_field_scope": "Historical first attempt v1, not current configured tools.RUN"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "check": "ordinary_cnn",
+  "scope": "27 numerical RTL vectors for the existing ordinary CNN path.",
+  "limitations": [
+    "Archived/synthetic regression vectors only; this does not establish independent field accuracy."
+  ],
+  "artifacts": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary\\integer27\\RESULTS.json",
+      "sha256": "8BB99C1079DC070EF386766BAD038D4498F4256F92B87487E9CB56BA5FC9612B"
+    }
+  ],
+  "source_sha256": {
+    "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+    "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+    "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+    "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+    "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+    "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+    "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98"
+  }
+}

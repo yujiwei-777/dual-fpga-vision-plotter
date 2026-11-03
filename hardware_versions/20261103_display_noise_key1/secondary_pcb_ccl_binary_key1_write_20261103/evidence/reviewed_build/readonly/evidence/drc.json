@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "check": "drc",
+  "scope": "Default device DRC completed on the current routed database with no ERROR/FATAL findings; 72 NOTE-level slice attribute findings are retained.",
+  "limitations": [
+    "The 72 NOTE findings are not silently suppressed; details are in routed.drc."
+  ],
+  "artifacts": [
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\routed.drc",
+      "sha256": "7EDFA4A594CBF52DB57F5CF8205C00A27EC29BEBF8263F416DA61CA0F2CBDCD9"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\drc_reimport.tcl",
+      "sha256": "51FA467E69AE5A7D229F0A9767EEC309B568FAD438AFA3315784F72AD2FD746D"
+    }
+  ],
+  "source_sha256": {
+    "04_pin/timing.sdc": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF",
+    "04_pin/apply_cdc_exceptions.tcl": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0",
+    "01_rtl/secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02"
+  }
+}

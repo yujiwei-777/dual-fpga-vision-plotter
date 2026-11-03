@@ -1,0 +1,36 @@
+# vsim -batch link_legacy.tb_hxa_main_stability -l D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\link_legacy_regression_v2\ordinary_stability.log -do "run -all; quit -f" 
+# Start time: 09:39:56 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_hxa_main_stability(fast)
+# 
+# run -all
+# CHECK full 1280 DATA/FRAME_ACK/Type18/ACK; 0x41 low-confidence accepted t=49386812000
+# CHECK cached result ACK while CAPTURE busy preserves old frame/job and returns to capture
+# CHECK frame cancellation retains session/online; 300 ms hold expires once
+# CHECK illegal flag bit3 rejected with hold; valid 0x80/count0 clears
+# CHECK detection-disable and mode switch clear immediately without reconnect
+# CHECK packet_error cancels exactly one frame and retains session
+# CHECK actual codec tx_error/stack_reset cancels frame without reconnect
+# CHECK bad FRAME_ACK image CRC ignored; FRAME_END retry then valid ACK/result recover
+# CHECK busy CAPTURE sends and receives heartbeat >1 s
+# CHECK malformed packet CRC does not disconnect
+# CHECK no valid peer traffic expires lease at 3000 ms
+# PASS tb_hxa_main_stability data=7680 frames=6 acks=7 heartbeat=22 failed=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/link_legacy_regression_v2/tb_hxa_main_stability.sv(297)
+#    Time: 640720088 ns  Iteration: 1  Instance: /tb_hxa_main_stability
+# End time: 09:40:40 on Nov 03,2026, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0

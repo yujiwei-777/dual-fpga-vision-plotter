@@ -1,0 +1,23 @@
+{
+  "status": "FAIL",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+  "suite_results": [
+    {
+      "status": "FAIL",
+      "generated_utc": "2026-11-03T02:28:46.968474+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\key1_top_metadata\\top_metadata",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\key1_top_metadata\\top_metadata\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B"
+      },
+      "commands": [],
+      "scope": [],
+      "limitations": [],
+      "source_drift": [],
+      "error": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\cnn_lowconf_qualification\\tb_lowconf_top.sv",
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    }
+  ],
+  "hardware": "NOT_RUN"
+}

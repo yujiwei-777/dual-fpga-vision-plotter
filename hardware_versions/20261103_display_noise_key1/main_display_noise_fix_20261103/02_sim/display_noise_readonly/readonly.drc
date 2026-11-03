@@ -1,0 +1,429 @@
+1. REPORT SUMMARY
+
+ Max violations	: <unlimited>
+ Violations found	: 104
++------------+-----------+----------------------+------------+
+| Rule       | Serverity | Description          | Violations |
++------------+-----------+----------------------+------------+
+| SLATR-1036 | NOTE      | slice attr check ... | 24         |
+| SLATR-1038 | NOTE      | slice attr check ... | 80         |
++------------+-----------+----------------------+------------+
+
+2. REPORT DETAILS
+
+SLATR-1036#1 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_8 connecting to no used ce.
+
+SLATR-1036#2 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 connecting to no used ce.
+
+SLATR-1036#3 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 connecting to no used ce.
+
+SLATR-1036#4 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 connecting to no used ce.
+
+SLATR-1036#5 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 connecting to no used ce.
+
+SLATR-1036#6 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_7 connecting to no used ce.
+
+SLATR-1036#7 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_8 connecting to no used ce.
+
+SLATR-1036#8 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_9 connecting to no used ce.
+
+SLATR-1036#9 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_6 connecting to no used ce.
+
+SLATR-1036#10 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_4 connecting to no used ce.
+
+SLATR-1036#11 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_2 connecting to no used ce.
+
+SLATR-1036#12 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_5 connecting to no used ce.
+
+SLATR-1036#13 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_9 connecting to no used ce.
+
+SLATR-1036#14 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_3 connecting to no used ce.
+
+SLATR-1036#15 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_7 connecting to no used ce.
+
+SLATR-1036#16 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 connecting to no used ce.
+
+SLATR-1036#17 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_9 connecting to no used ce.
+
+SLATR-1036#18 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_7 connecting to no used ce.
+
+SLATR-1036#19 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_6 connecting to no used ce.
+
+SLATR-1036#20 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_8 connecting to no used ce.
+
+SLATR-1036#21 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_4 connecting to no used ce.
+
+SLATR-1036#22 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_3 connecting to no used ce.
+
+SLATR-1036#23 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_2 connecting to no used ce.
+
+SLATR-1036#24 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_5 connecting to no used ce.
+
+SLATR-1038#1 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_8 getting reg attributes.
+
+SLATR-1038#2 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_8 getting ce attributes.
+
+SLATR-1038#3 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 getting reg attributes.
+
+SLATR-1038#4 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 getting ce attributes.
+
+SLATR-1038#5 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 getting reg attributes.
+
+SLATR-1038#6 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 getting ce attributes.
+
+SLATR-1038#7 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 getting reg attributes.
+
+SLATR-1038#8 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 getting ce attributes.
+
+SLATR-1038#9 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 getting reg attributes.
+
+SLATR-1038#10 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 getting ce attributes.
+
+SLATR-1038#11 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_7 getting reg attributes.
+
+SLATR-1038#12 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_7 getting ce attributes.
+
+SLATR-1038#13 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_8 getting reg attributes.
+
+SLATR-1038#14 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_8 getting ce attributes.
+
+SLATR-1038#15 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_9 getting reg attributes.
+
+SLATR-1038#16 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_9 getting ce attributes.
+
+SLATR-1038#17 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_6 getting reg attributes.
+
+SLATR-1038#18 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_6 getting ce attributes.
+
+SLATR-1038#19 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_4 getting reg attributes.
+
+SLATR-1038#20 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_4 getting ce attributes.
+
+SLATR-1038#21 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_2 getting reg attributes.
+
+SLATR-1038#22 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_2 getting ce attributes.
+
+SLATR-1038#23 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_5 getting reg attributes.
+
+SLATR-1038#24 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_5 getting ce attributes.
+
+SLATR-1038#25 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_9 getting reg attributes.
+
+SLATR-1038#26 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_9 getting ce attributes.
+
+SLATR-1038#27 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_3 getting reg attributes.
+
+SLATR-1038#28 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_3 getting ce attributes.
+
+SLATR-1038#29 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_7 getting reg attributes.
+
+SLATR-1038#30 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_7 getting ce attributes.
+
+SLATR-1038#31 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 getting reg attributes.
+
+SLATR-1038#32 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 getting ce attributes.
+
+SLATR-1038#33 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_9 getting reg attributes.
+
+SLATR-1038#34 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_9 getting ce attributes.
+
+SLATR-1038#35 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_7 getting reg attributes.
+
+SLATR-1038#36 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_7 getting ce attributes.
+
+SLATR-1038#37 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_6 getting reg attributes.
+
+SLATR-1038#38 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_6 getting ce attributes.
+
+SLATR-1038#39 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_8 getting reg attributes.
+
+SLATR-1038#40 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_8 getting ce attributes.
+
+SLATR-1038#41 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_4 getting reg attributes.
+
+SLATR-1038#42 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_4 getting ce attributes.
+
+SLATR-1038#43 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_3 getting reg attributes.
+
+SLATR-1038#44 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_3 getting ce attributes.
+
+SLATR-1038#45 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_2 getting reg attributes.
+
+SLATR-1038#46 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_2 getting ce attributes.
+
+SLATR-1038#47 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_5 getting reg attributes.
+
+SLATR-1038#48 NOTE
+slice attr check ...
+Found mslice u_udp_cfg/u_udp_stack/udp_layer_inst/udp_tx_inst/shift_udp_inst_syn_5 getting ce attributes.
+
+SLATR-1038#49 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_39 getting reg attributes.
+
+SLATR-1038#50 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_39 getting ce attributes.
+
+SLATR-1038#51 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_38 getting reg attributes.
+
+SLATR-1038#52 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_38 getting ce attributes.
+
+SLATR-1038#53 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_17 getting reg attributes.
+
+SLATR-1038#54 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_17 getting ce attributes.
+
+SLATR-1038#55 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_43 getting reg attributes.
+
+SLATR-1038#56 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_43 getting ce attributes.
+
+SLATR-1038#57 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_36 getting reg attributes.
+
+SLATR-1038#58 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_36 getting ce attributes.
+
+SLATR-1038#59 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_37 getting reg attributes.
+
+SLATR-1038#60 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_37 getting ce attributes.
+
+SLATR-1038#61 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_10 getting reg attributes.
+
+SLATR-1038#62 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_10 getting ce attributes.
+
+SLATR-1038#63 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_11 getting reg attributes.
+
+SLATR-1038#64 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_11 getting ce attributes.
+
+SLATR-1038#65 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_12 getting reg attributes.
+
+SLATR-1038#66 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_12 getting ce attributes.
+
+SLATR-1038#67 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_15 getting reg attributes.
+
+SLATR-1038#68 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_15 getting ce attributes.
+
+SLATR-1038#69 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_14 getting reg attributes.
+
+SLATR-1038#70 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_14 getting ce attributes.
+
+SLATR-1038#71 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_13 getting reg attributes.
+
+SLATR-1038#72 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_13 getting ce attributes.
+
+SLATR-1038#73 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_16 getting reg attributes.
+
+SLATR-1038#74 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_16 getting ce attributes.
+
+SLATR-1038#75 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_42 getting reg attributes.
+
+SLATR-1038#76 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_42 getting ce attributes.
+
+SLATR-1038#77 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_41 getting reg attributes.
+
+SLATR-1038#78 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_41 getting ce attributes.
+
+SLATR-1038#79 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_40 getting reg attributes.
+
+SLATR-1038#80 NOTE
+slice attr check ...
+Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_40 getting ce attributes.
+

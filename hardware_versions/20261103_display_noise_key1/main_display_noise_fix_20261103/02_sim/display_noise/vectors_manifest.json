@@ -1,0 +1,218 @@
+{
+  "algorithm": "H=guarded rounded source horizontal avg2; O=guarded rounded current/previous-row H avg2",
+  "edge_threshold": 16,
+  "reference_sha256": "8C5BB22686DB26CFDB2F1C256038AEBC42C01E4FD01F652194700307FEAA5609",
+  "rtl_sha256": "CD72245FA5CF73F16F35C2F655E5F13DD5F4949D14D258A7B99F9179AA219696",
+  "cases": [
+    {
+      "name": "flat_noise",
+      "width": 128,
+      "height": 64,
+      "cycles": 9623,
+      "source_pixels": 8192,
+      "tags": [
+        "independent_rgb_noise",
+        "de_gaps",
+        "nonrecursive"
+      ],
+      "inputs": {
+        "stim.mem": "8A44171D65F3808E56D2FAA49531184D94F5FC2045B04ECB7CEB376F8B6A2B35",
+        "expected.mem": "47D2B2D7FD5446CE974690DAD00DAB68D6AABB2E394952B807AB250024A8F167",
+        "source.mem": "314A31E99F80F57B2C8A8EAEF752F2612721FF207649B1069C19744BA3D6BA78"
+      }
+    },
+    {
+      "name": "strong_edges",
+      "width": 32,
+      "height": 12,
+      "cycles": 2230,
+      "source_pixels": 1920,
+      "tags": [
+        "horizontal",
+        "vertical",
+        "diagonal",
+        "one_pixel_line",
+        "checkerboard",
+        "back_to_back_frames"
+      ],
+      "inputs": {
+        "stim.mem": "9DBBD41D3AC27C6333C476C230050B6EBB655BF9F1A1F3FEBE60F585F34D074F",
+        "expected.mem": "15D59A395590A2691A8AFB5399D160B6DE3C80FF22B25D7F98B3C3F7F22D322B",
+        "source.mem": "15D59A395590A2691A8AFB5399D160B6DE3C80FF22B25D7F98B3C3F7F22D322B"
+      }
+    },
+    {
+      "name": "rgb8_range",
+      "width": 5,
+      "height": 3,
+      "cycles": 3846,
+      "source_pixels": 3840,
+      "tags": [
+        "all_256_values",
+        "no_bit_clear",
+        "no_quantization",
+        "first_last_row_column"
+      ],
+      "inputs": {
+        "stim.mem": "2E18FA8E693FE10E98BD29FD490DE9F895D213F821721A414095D1EB24EC38D1",
+        "expected.mem": "A05EDD6740B36B07D53C23B80DCC2B2A73009C3903CBD389238C5BE51804C80B",
+        "source.mem": "A05EDD6740B36B07D53C23B80DCC2B2A73009C3903CBD389238C5BE51804C80B"
+      }
+    },
+    {
+      "name": "threshold_rgb_guard",
+      "width": 16,
+      "height": 6,
+      "cycles": 135,
+      "source_pixels": 96,
+      "tags": [
+        "threshold_16_inclusive",
+        "threshold_17_reject",
+        "three_channel_guard"
+      ],
+      "inputs": {
+        "stim.mem": "8602FFB39AC46A51924DB9D2299700F23C10AC1C16B522C75AF123BBD8BF5B18",
+        "expected.mem": "E8B1D058E2A81E70CCEC20E5DB15E239F10F5A2D3D6D3ABB35E21D9AA6F1CCBF",
+        "source.mem": "1D6F44DDE78BDE754D3775EE1BD63C29BB7898B883BE600DC6ED5F6AED840416"
+      }
+    },
+    {
+      "name": "geometry_1x1",
+      "width": 1,
+      "height": 1,
+      "cycles": 20,
+      "source_pixels": 4,
+      "tags": [
+        "ram_collision",
+        "reset",
+        "isolated_sof",
+        "first_last_row_column"
+      ],
+      "inputs": {
+        "stim.mem": "C1AC7AD10C957706EE7EDDCF6397DDD07FB21CD5842CE4148FD2493409D81FCD",
+        "expected.mem": "58CAFB846E01CEBA5559212163BC8B9B8C16218D5C357CAF027BBE25F83EE629",
+        "source.mem": "58CAFB846E01CEBA5559212163BC8B9B8C16218D5C357CAF027BBE25F83EE629"
+      }
+    },
+    {
+      "name": "geometry_1x7",
+      "width": 1,
+      "height": 7,
+      "cycles": 64,
+      "source_pixels": 22,
+      "tags": [
+        "ram_collision",
+        "reset",
+        "isolated_sof",
+        "first_last_row_column"
+      ],
+      "inputs": {
+        "stim.mem": "485410A06939C1A672BF86FDDB49BD9539A903A26447D0171168F698371B3A9F",
+        "expected.mem": "20FECAB3FE09283F406F29639951E17326008F2A5BCCE8C4265E1C68A33D52CD",
+        "source.mem": "A39502CBF4B724E397F776ADA6FD101769C89DBE5E17FD1DC33A2D39949FBAF2"
+      }
+    },
+    {
+      "name": "geometry_2x5",
+      "width": 2,
+      "height": 5,
+      "cycles": 67,
+      "source_pixels": 32,
+      "tags": [
+        "ram_collision",
+        "reset",
+        "isolated_sof",
+        "first_last_row_column"
+      ],
+      "inputs": {
+        "stim.mem": "BF701A02BA1782F3EF9785A788CA311CCF4C546C00306543C06E7F9D5B54C923",
+        "expected.mem": "E247847A4F718435068178E44F2FD959282CF1B2C66AA48BCF0E73FA6D4FFFED",
+        "source.mem": "88093BEAA92C43AC5E57C0F1307E1A0EF6BBBE65F22B13F551551DD2B8AD921F"
+      }
+    },
+    {
+      "name": "geometry_7x1",
+      "width": 7,
+      "height": 1,
+      "cycles": 45,
+      "source_pixels": 28,
+      "tags": [
+        "ram_collision",
+        "reset",
+        "isolated_sof",
+        "first_last_row_column"
+      ],
+      "inputs": {
+        "stim.mem": "1B55B4C9C949828CC812F4101DA61E459657E8FAF6E92772C125C6D8CC2454E7",
+        "expected.mem": "22C32A5FFD2B35595BFE0F9ED584E4D84F04A3E52FC47387562F603F7F7132C7",
+        "source.mem": "22C32A5FFD2B35595BFE0F9ED584E4D84F04A3E52FC47387562F603F7F7132C7"
+      }
+    },
+    {
+      "name": "geometry_7x5",
+      "width": 7,
+      "height": 5,
+      "cycles": 156,
+      "source_pixels": 112,
+      "tags": [
+        "ram_collision",
+        "reset",
+        "isolated_sof",
+        "first_last_row_column"
+      ],
+      "inputs": {
+        "stim.mem": "5117CD71F2635F12BB4B411F7C57CC95462C1425DF95A5C97B14BB15BA21D688",
+        "expected.mem": "A5454406523179E202598C2CDE64952B7FA57F946160063379938FBBD275A19B",
+        "source.mem": "6A4565C812F01C2473A68A6F208B444112EA3967251D3FC20E94418FB48E8ECD"
+      }
+    },
+    {
+      "name": "malformed_reentry",
+      "width": 8,
+      "height": 4,
+      "cycles": 131,
+      "source_pixels": 93,
+      "tags": [
+        "early_eol",
+        "missing_eol",
+        "abrupt_sof",
+        "held_sof",
+        "no_sof_after_eof",
+        "no_stale_ram"
+      ],
+      "inputs": {
+        "stim.mem": "4F0B187C828BCD023E6A4F493A598BB42203DD405999666BE7C155FACB91489F",
+        "expected.mem": "964E45EDA18FDF99802F78F8B5473596342CBDFEF0C818C95F0DE039A9CC56B5",
+        "source.mem": "2B21A2E1EBDF608CCF2872D763BCA3AD36E7B079444E9B4A7216CE66264356D4"
+      }
+    },
+    {
+      "name": "full_720p",
+      "width": 1280,
+      "height": 720,
+      "cycles": 1843206,
+      "source_pixels": 1843200,
+      "tags": [
+        "1280x720",
+        "1843200_pixels",
+        "source_row_not_filtered",
+        "back_to_back_frames",
+        "final_row_no_drain"
+      ],
+      "inputs": {
+        "stim.mem": "5F89582A7F71C0EBD9AB804455ABDE546BADA23320ACB601C7B0224943FC6873",
+        "expected.mem": "C8B0D6B0DBD9DDBB1B6438FEDBD6AEAE1C445271D9B72DE1EF6F47A51FBBECA6",
+        "source.mem": "8E0ECEC4435C80FB9AEE9A7B94022060D2D18C72DFAEC7D3ED343B96D5850618"
+      }
+    }
+  ],
+  "synthetic_noise_rms": {
+    "raw": 3.3041592954565786,
+    "baseline_h1": 2.3723328542323605,
+    "guarded_separable_2x2": 1.7731982322920425,
+    "change_vs_h1_percent": -25.255082602402602
+  },
+  "software_assertions": "PASS: strong-edge identity, all RGB8 flat values, threshold boundaries, synthetic noise reduction",
+  "hardware_validation": "NOT_RUN",
+  "limitations": "Synthetic noise metrics do not establish real-camera quality, defect root cause, or board timing/resources."
+}

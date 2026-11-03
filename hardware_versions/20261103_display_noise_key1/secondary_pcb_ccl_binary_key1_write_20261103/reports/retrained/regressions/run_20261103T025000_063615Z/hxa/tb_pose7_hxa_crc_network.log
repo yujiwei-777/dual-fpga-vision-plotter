@@ -1,0 +1,37 @@
+# vsim -batch -syncio -quiet -lib hxa_lib tb_pose7_hxa_crc_network -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 10:50:03 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# POSE7_HXA_CASE_PASS name=bad_FRAME_BEGIN_packet_CRC
+# POSE7_HXA_CASE_PASS name=bad_FRAME_END_packet_CRC
+# POSE7_HXA_CASE_PASS name=complete_DDR_frame_bad_CRC
+# POSE7_HXA_CASE_PASS name=complete_DDR_frame_correct_CRC
+# POSE7_HXA_CASE_PASS name=ordinary_empty_Type11_busy_job_preserved
+# POSE7_HXA_CASE_PASS name=ordinary_HXD1_Type11_busy_job_preserved
+# POSE7_HXA_CASE_PASS name=PHY_drop_busy_job_preserved
+# POSE7_HXA_CASE_PASS name=lease_expiry_busy_job_preserved
+# POSE7_HXA_CASE_PASS name=HELLO_session_change_busy_job_preserved
+# POSE7_HXA_CASE_PASS name=wrong_session_Type11_rejected
+# POSE7_HXA_CASE_PASS name=explicit_reason80_Type11_cancels
+# POSE7_HXA_BASELINE_LIMITATION explicit_reason80_authenticated_session_accepts_nonmatching_frame_ID=1
+# POSE7_HXA_CRC_NETWORK_PASS cases=11
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/hxa/tb_pose7_hxa_crc_network.sv(162)
+#    Time: 14784824 ns  Iteration: 1  Instance: /tb_pose7_hxa_crc_network
+# End time: 10:50:06 on Nov 03,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

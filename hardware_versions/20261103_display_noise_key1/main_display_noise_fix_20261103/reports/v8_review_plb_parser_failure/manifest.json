@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "original": "reports/v8_review_wrapper.log",
+      "backup": "reports\\v8_review_plb_parser_failure\\v8_review_wrapper.log",
+      "sha256": "3B0AB7B7AB80923C60E096F9A19C4620AAC770462A1931CAE410AC4CE50B4351"
+    },
+    {
+      "original": "reports/display_noise_prebitgen_review.json",
+      "backup": "reports\\v8_review_plb_parser_failure\\display_noise_prebitgen_review.json",
+      "sha256": "832F43496C174542D931FF1E6DD2141773641CB6E4224D4F134F9182A86C42BD"
+    },
+    {
+      "original": "02_sim/display_noise_readonly/strict_independent_release_review.json",
+      "backup": "reports\\v8_review_plb_parser_failure\\strict_independent_release_review.json",
+      "sha256": "9C39EDB3E971FE928E0EFB89DBDC3B80583F37CEBC4256DEB5638BBD01B56724"
+    },
+    {
+      "original": "tools/strict_release_review.py",
+      "backup": "reports\\v8_review_plb_parser_failure\\strict_release_review.py",
+      "sha256": "0F64ADE2AA5139EF6BA4B739115633AAE2170A72D0ACF79F2B227CF0FDCE2468"
+    },
+    {
+      "original": "tools/test_strict_release_review.py",
+      "backup": "reports\\v8_review_plb_parser_failure\\test_strict_release_review.py",
+      "sha256": "380B01E980D95C196D2291826D59688BE85F84FDE99001E9DB5E61A0F76D6DDF"
+    }
+  ],
+  "reason": "PLB command matcher incorrectly excluded literal letter n from paths; raw PLB invocation and successful status were present. No RTL/DB/constraint change."
+}

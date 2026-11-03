@@ -1,0 +1,116 @@
+{
+  "resolved_memory_references": [
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v",
+      "expression": "ROM_INIT",
+      "literal": "ddrphy_cfg_rom.txt",
+      "reason": "DDRPHY_ROM_INIT is defined as ddrphy_cfg_rom.txt in src/rtl/include/ph1p_mis_define.vh; ph1p_ddrphy_wrapper passes it to ph1p_ddrphy_top, then ph1p_ddrphy_init. The file is also an active IP-XACT file-set input. Verify elaboration log retains ROM_INIT=ddrphy_cfg_rom.txt."
+    },
+    {
+      "source": "01_rtl/pcb_tinycnn_core.v",
+      "expression": "WEIGHTS_MEM",
+      "literal": "../model/pcb_tinycnn_weights.mem",
+      "reason": "PCB_ENABLE=1 in the frozen secondary_top elaboration; PCB class weights are active build inputs resolved from 01_rtl into the independent project's model directory."
+    },
+    {
+      "source": "01_rtl/pcb_tinycnn_core.v",
+      "expression": "BIASES_MEM",
+      "literal": "../model/pcb_tinycnn_bias.mem",
+      "reason": "PCB_ENABLE=1 in the frozen secondary_top elaboration; PCB biases are active build inputs resolved from 01_rtl into the independent project's model directory."
+    },
+    {
+      "source": "01_rtl/pcb_tinycnn_core.v",
+      "expression": "FIRST_MEM",
+      "literal": "../model/pcb_tinycnn_first.mem",
+      "reason": "PCB_ENABLE=1 in the frozen secondary_top elaboration; the sparse first-tap table is an active build input in the independent project's model directory."
+    },
+    {
+      "source": "01_rtl/pcb_tinycnn_core.v",
+      "expression": "NEXT_MEM",
+      "literal": "../model/pcb_tinycnn_next.mem",
+      "reason": "PCB_ENABLE=1 in the frozen secondary_top elaboration; the sparse next-tap table is an active build input in the independent project's model directory."
+    },
+    {
+      "source": "01_rtl/pcb_tinycnn_core.v",
+      "expression": "TAPS_MEM",
+      "literal": "../model/pcb_tinycnn_taps.mem",
+      "reason": "PCB_ENABLE=1 in the frozen secondary_top elaboration; the sparse tap descriptor table is an active build input in the independent project's model directory."
+    },
+    {
+      "source": "01_rtl/pcb_fullboard_spatial96.v",
+      "expression": "WEIGHTS_MEM",
+      "literal": "../model/experiments/conv4_4/weights.mem",
+      "reason": "The active secondary_top elaboration selects PCB_FULLBOARD_SPATIAL96 with binary C1/C2=4/4; its instance parameter expression resolves to this integrated centered PCB ROM."
+    },
+    {
+      "source": "01_rtl/pcb_fullboard_spatial96.v",
+      "expression": "BIASES_MEM",
+      "literal": "../model/experiments/conv4_4/biases.mem",
+      "reason": "The active secondary_top elaboration selects PCB_FULLBOARD_SPATIAL96 with binary C1/C2=4/4; its instance parameter expression resolves to this integrated centered PCB ROM."
+    },
+    {
+      "source": "reports/dirt_qualification/source/tb_capture_integrated.sv",
+      "expression": "\"expected.mem\"",
+      "literal": "../fixtures/blank2418/expected.mem",
+      "reason": "Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed."
+    },
+    {
+      "source": "reports/dirt_qualification/source/tb_capture_integrated.sv",
+      "expression": "\"input.mem\"",
+      "literal": "../fixtures/blank2418/input.mem",
+      "reason": "Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed."
+    },
+    {
+      "source": "reports/dirt_qualification/source/tb_capture_integrated.sv",
+      "expression": "\"skeleton.mem\"",
+      "literal": "../fixtures/blank2418/skeleton.mem",
+      "reason": "Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed."
+    },
+    {
+      "source": "reports/dirt_qualification/source/tb_capture_integrated.sv",
+      "expression": "\"source_y.mem\"",
+      "literal": "../fixtures/blank2418/source_y.mem",
+      "reason": "Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed."
+    },
+    {
+      "source": "reports/dirt_qualification/source/tb_frontend.sv",
+      "expression": "expected_path",
+      "literal": "../fixtures/blank2418/expected_binary.mem",
+      "reason": "Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed."
+    },
+    {
+      "source": "reports/dirt_qualification/source/tb_frontend.sv",
+      "expression": "image_path",
+      "literal": "../fixtures/blank2418/source_y.mem",
+      "reason": "Simulation-only testbench, absent from the active TD source project. The scanner cannot elaborate simulator cwd/plusargs. This static binding names the blank2418 fixture; all six frontend and two integrated case fixtures are explicitly frozen and separately validated by the mandatory current-root doc regression. No production memory reference or timing constraint is changed."
+    }
+  ],
+  "inactive_include_references": [
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "ddr3_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "ddr4_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "../timing/ddr3/ddr3_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "../timing/ddr4/ddr4_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "include": "ph1p_mis_define.vh",
+      "reason": "PH1P_MIS_SIM branch is inactive for synthesis; the else branch uses src/rtl/include/ph1p_mis_define.vh, which is separately hashed."
+    }
+  ],
+  "inactive_memory_references": []
+}

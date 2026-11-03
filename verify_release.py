@@ -88,7 +88,54 @@ def main():
     gate = json.loads((key1_secondary / "reports/retrained/release_20261103/bitgen_evidence_gate.json").read_text(encoding="utf-8"))
     if not all(gate["checks"].values()) or gate["source_manifest_sha256"] != key1_identity["secondary_frozen_manifest_sha256"]:
         raise ValueError("KEY1 evidence gate mismatch")
-    print("RELEASE_VERIFY_PASS: original=PASS_USER_REPORTED; pose7/CCL binary/KEY1=NOT_RUN")
+
+    display_bundle = ROOT / "hardware_versions/20261103_display_noise_key1"
+    subprocess.run([sys.executable, "-B", str(display_bundle / "verify_package.py")], check=True)
+    display_release = ROOT / "release/20261103_display_noise_key1"
+    display_identity = json.loads((display_release / "SOURCE_IDENTITY.json").read_text(encoding="utf-8"))
+    display_acceptance = json.loads((display_release / "HARDWARE_ACCEPTANCE.json").read_text(encoding="utf-8"))
+    display_manifest = json.loads((display_bundle / "PACKAGE_MANIFEST.json").read_text(encoding="utf-8"))
+    if display_identity["hardware_acceptance"] != "NOT_RUN" or display_acceptance["status"] != "NOT_RUN":
+        raise ValueError("Unexpected display-noise pair hardware status")
+    if sha256(display_bundle / "PACKAGE_MANIFEST.json") != display_identity["hardware_manifest_sha256"]:
+        raise ValueError("Display-noise package identity mismatch")
+    for project in display_manifest["projects"]:
+        digest = project["bit_sha256"]
+        if digest != display_acceptance[project["board"] + "_bit_sha256"]:
+            raise ValueError("Display-noise bit/acceptance mismatch")
+        if sha256(display_bundle / project["directory"] / project["bit"]) != digest:
+            raise ValueError("Display-noise bit identity mismatch")
+    display_main = display_bundle / "main_display_noise_fix_20261103"
+    delivery_path = display_main / "reports/DISPLAY_NOISE_DELIVERY_MANIFEST.json"
+    if sha256(delivery_path) != display_identity["main_delivery_manifest_sha256"]:
+        raise ValueError("Display-noise delivery manifest mismatch")
+    delivery = json.loads(delivery_path.read_text(encoding="utf-8"))
+    if len(delivery["active_and_build_inputs"]) != 193:
+        raise ValueError("Display-noise build input count mismatch")
+    for name, digest in delivery["active_and_build_inputs"].items():
+        if sha256(display_main / name) != digest:
+            raise ValueError("Display-noise frozen input mismatch: " + name)
+    snapshot = display_main / "01_rtl/imgq_gain_m/main/td_project_display_noise_v8/source_snapshot.json"
+    if sha256(snapshot) != display_identity["main_prebuild_snapshot_sha256"]:
+        raise ValueError("Display-noise prebuild snapshot mismatch")
+    review_path = display_main / "reports/display_noise_release.json"
+    if sha256(review_path) != display_identity["main_release_sha256"]:
+        raise ValueError("Display-noise final release review mismatch")
+    review = json.loads(review_path.read_text(encoding="utf-8"))
+    if not review["passed"] or not all(review["checks"].values()):
+        raise ValueError("Display-noise release checks failed")
+    for name, item in review["evidence"].items():
+        if sha256(display_main / Path(name.replace("\\", "/"))) != item["sha256"]:
+            raise ValueError("Display-noise bound evidence mismatch: " + name)
+    display_secondary = display_bundle / "secondary_pcb_ccl_binary_key1_write_20261103"
+    if sha256(display_secondary / "evidence/SOURCE_MANIFEST.json") != display_identity["secondary_frozen_manifest_sha256"]:
+        raise ValueError("Display-noise pair secondary frozen inputs mismatch")
+    # The secondary is unchanged from the independently verified KEY1 release.
+    for name, item in key1_manifest["files"].items():
+        if name.startswith("secondary_pcb_ccl_binary_key1_write_20261103/"):
+            if sha256(display_bundle / name) != item["sha256"]:
+                raise ValueError("Unchanged KEY1 secondary differs: " + name)
+    print("RELEASE_VERIFY_PASS: original=PASS_USER_REPORTED; four later pairs=NOT_RUN")
 
 if __name__ == "__main__":
     main()

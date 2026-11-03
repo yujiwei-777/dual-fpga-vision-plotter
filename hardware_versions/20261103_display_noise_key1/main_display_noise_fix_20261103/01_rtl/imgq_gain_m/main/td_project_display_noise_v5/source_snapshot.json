@@ -1,0 +1,2061 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-11-03T02:57:29.565393+00:00",
+  "generated_ns": 1793674649565393100,
+  "project_root": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103",
+  "run": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5",
+  "name": "camera_to_dsi_display_720p60_cnn_multibox",
+  "al": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5/camera_to_dsi_display_720p60_cnn_multibox.al",
+  "manifest_sha256": "606365DE9307F5585D1082D904972A6E18233BD62D0962F2F3F20CB5BD7C3AEE",
+  "files": [
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5/camera_to_dsi_display_720p60_cnn_multibox.al",
+      "kind": "project",
+      "origins": [
+        "command line"
+      ],
+      "bytes": 67469,
+      "mtime_ns": 1793674059644291700,
+      "sha256": "133E11F292EBA6D9F04F0566AB116E07D45707C80992AF80B2CEABFA3DB85F15"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5/osd_compact_glyphs.vh",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_compact_panel.v"
+      ],
+      "bytes": 3780,
+      "mtime_ns": 1793543830723824600,
+      "sha256": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5/run_display_noise_place.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 9414,
+      "mtime_ns": 1793670835373103100,
+      "sha256": "7F37E60BC89F993AD45FFEF350A60F0956B629B94789F83BA56906F8CC97EF74"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5/run_display_noise_route.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 9414,
+      "mtime_ns": 1793670835374103600,
+      "sha256": "2B7EDE0874A3CD6E1599CB3FAA04DFCABFC73D06FB706B48556DFE78F042BF2A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5/run_display_noise_synth.tcl",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 9458,
+      "mtime_ns": 1793674610822058900,
+      "sha256": "7738B8CB0C810B55AD693C9910D9725AEA57BBD12A791F5B161B4DB956C7A69C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/a4_display_spatial_h1.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6681,
+      "mtime_ns": 1793674240475224200,
+      "sha256": "B680381A4307D79BC6B259A8B33C177E5F2CD59120FF38EE902BC691438C20A0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/anlogic_logo_rom.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 398435,
+      "mtime_ns": 1792506846634060000,
+      "sha256": "059925363E06E89680254AB11C1FFC727DC425FA7022ACF0441AFE26086905D7"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/audio_arc_calculate.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 1702,
+      "mtime_ns": 1792506846634579100,
+      "sha256": "552D8D86AFD237666B30AE08F31247808E89EB024EFDE5EFC670B82EB617A7DC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/awb.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 29213,
+      "mtime_ns": 1792506846636596400,
+      "sha256": "C51E9AD0A180EEEE24B07D13628DAAD67CC75529282413A3A04664369150238C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/camera_startup_reset.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4714,
+      "mtime_ns": 1792506846638108700,
+      "sha256": "440A25C6F76CDC1ECBDDB25A92D980E4AA0C21AA251D513EFAE343C49C7D42D6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/design_top_wrapper.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 104299,
+      "mtime_ns": 1793669967136294400,
+      "sha256": "A5073977A06A789163F8759B2475A21FA314672EBAA30A929A2711CEFB0D8DA7"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/doc_copy_overlay.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2993,
+      "mtime_ns": 1792508002512503800,
+      "sha256": "F86E5EFEA7A556C0BDCA9969A55C0037A8B3BA723BBE347F2AF149F30F14C682"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/doc_copy_status_cdc.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 1491,
+      "mtime_ns": 1792507966987684900,
+      "sha256": "AF7CC0270C3958C4154865E99EDBF11B73E9F0AD057BAC99D5F22D02D6F64891"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/crc32_check.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3965,
+      "mtime_ns": 1792506846641003200,
+      "sha256": "A2ABEDA786F76A299F8E2A9A790AC4703708822BA8B534243F337D9F1DB3828C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/crc32_gen.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4078,
+      "mtime_ns": 1792506846642112500,
+      "sha256": "FE930C7ADF1D24193D0DECE6B83D338CCD89EC698EB5F01682150B31AFC53757"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/mac_cache.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4026,
+      "mtime_ns": 1792506846642112500,
+      "sha256": "6EEFE3B0309EEAC1A9251B3B5F482E433782783D62F7F6F5317E42758E7046A5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/ph1p_phy_pll_wrapper_d2616deaaa79.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 12535,
+      "mtime_ns": 1792506846643117900,
+      "sha256": "C23D50C2B1401D32C0B54C2A23E83085459AFCDA48AE48617FFA6AF93C49DFA8"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/pll.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3610,
+      "mtime_ns": 1792506846643117900,
+      "sha256": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/rgmii_interface.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 17166,
+      "mtime_ns": 1792506846645133100,
+      "sha256": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/udp_config_status.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 88292,
+      "mtime_ns": 1792506846645133100,
+      "sha256": "848435E16FF72AFC2765B355CA101CF77E52B30392CEE052EF554C3D1636370D"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/udp_pkg_buf.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 33555,
+      "mtime_ns": 1792506846646137800,
+      "sha256": "D0E965C6569060892A90703F13B2938D8FA0956FFFA561B9F429E2D0C82A4DAF"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiarp_layer.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5934,
+      "mtime_ns": 1792506846646137800,
+      "sha256": "5BB05F5EF3FFE334DF5701DF93AF9CCD333B83A8593EDA39EC49153CFC25DC10"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiarp_rx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7117,
+      "mtime_ns": 1792506846647138000,
+      "sha256": "34008198B627D2F461ADCE482194D0854B00FD81F6209E64F302607BFBD41D6A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiarp_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9228,
+      "mtime_ns": 1792506846647138000,
+      "sha256": "1244002FC55E235F24C60CFA942C5803D22C69549FF27A877A6121BAAFFFDAF2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiicmp_pkg_ctrl.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7405,
+      "mtime_ns": 1792506846648137900,
+      "sha256": "1BDC2BD10BD7E3CF3B871FC157BD14EE05869D96B23DCFEB03241B3DE897B39D"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiicmp_pkg_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6891,
+      "mtime_ns": 1792506846648642000,
+      "sha256": "9B2C52B5E4F056CEC1633E96119D5F72220B5D1153B8BC94F74F180F122138D8"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_arp_rx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2814,
+      "mtime_ns": 1792506846648642000,
+      "sha256": "C93323F9DF2A6E328539A53D504355201A9E8786D7A86EC330A4AF6DBABAFC56"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_arp_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9422,
+      "mtime_ns": 1792506846649647000,
+      "sha256": "65679B546777738DE810EF373521398B59D7BA1824EC7B977F368EAC89A82C58"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_header_checksum.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2853,
+      "mtime_ns": 1792506846649647000,
+      "sha256": "B56B2A22B2BBB519FA4C9E9C8621D304CD2AC143F913A54F3E78C3F9938E6005"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_layer.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7787,
+      "mtime_ns": 1792506846649647000,
+      "sha256": "9750D62B8C6AD62B5A0E3664056C392926D577B780AF58A8351D57932A2B88FF"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_rx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 11344,
+      "mtime_ns": 1792506846650651500,
+      "sha256": "797EEA5222F6E3CAD7544CD0CF4DDE8ABFAFCA436C8DBC3F9B965D5D06257671"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 13937,
+      "mtime_ns": 1792506846650651500,
+      "sha256": "031D9976A81F448238EAC08170B8D0C74F849EF38B8472303D81F67B752251F5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimac_layer.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7846,
+      "mtime_ns": 1792506846651651500,
+      "sha256": "04E382B7A8DBF8031A771ADC24661859073E9E134D9EC1D0FEF9754582B298A0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimac_rx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 13065,
+      "mtime_ns": 1792506846651651500,
+      "sha256": "C78550A016CD468A1A9271022A988B43B1DFAFA6DB9E464A4AD814169FDB05D0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimac_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 17737,
+      "mtime_ns": 1792506846652651400,
+      "sha256": "3C24BA0B366938E40DC37B129B73D2E78B7B757CDCC859FE93423749B2F6666F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimac_tx_frame_ctrl.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3450,
+      "mtime_ns": 1792506846652651400,
+      "sha256": "C4D992BB33B3A46506D70CBDF63E0C2C88E88B6716A6F31C043EBBE30A80393A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimac_tx_pause_ctrl.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3504,
+      "mtime_ns": 1792506846653651400,
+      "sha256": "40505CA9657D951526FB8A3350B283726B368816AD0C7D4A2D9CD07EABA446EB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiphyrst.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3059,
+      "mtime_ns": 1792506846654651400,
+      "sha256": "B272B8584D09DCDC516763C2A3F475D3005E172918FC339D448D7A675883937F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiudp_layer.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4651,
+      "mtime_ns": 1792506846655651500,
+      "sha256": "DE40D1F34E8575B5B266FE1FF61F2FB16A3787A48852ADB90B5209312D943352"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiudp_rx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4276,
+      "mtime_ns": 1792506846656650900,
+      "sha256": "9A26F004E0523B3F1B1A8E088AD8E6D417BAE7E9CA27FE9BA3A2CA18402ED179"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiudp_stack.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 16354,
+      "mtime_ns": 1792506846656650900,
+      "sha256": "958027BC0DA57DB85BC62846C94F4F50A18A39F5CC57F55206D06D2B6C1191E9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiudp_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5189,
+      "mtime_ns": 1792506846656650900,
+      "sha256": "AE35A42995E3708D8DC4D5FF677764897FCFAF62D884C6947982A598EE4CC9D1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/frame_guard.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4413,
+      "mtime_ns": 1792506846656650900,
+      "sha256": "63C7EA8419000B61F59D0282E9BF50A523E0DC172D728E43DEBF25F7C336ABFE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 328975,
+      "mtime_ns": 1792506846658155400,
+      "sha256": "867E0B0BDD874BC383D00918C9E1BE3FE01EDF41F343B6A0D73E262776596A63"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hdmi_mixer.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 57932,
+      "mtime_ns": 1793518557946935100,
+      "sha256": "BE5C6576DAA38D5D05325673D35C57BDB80CE3536B2C98E223A19E126A16B7F5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hdmi_phy_warpper.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4252,
+      "mtime_ns": 1792506846659160200,
+      "sha256": "7C147577132D406BF269FE42396FB7B96336150D908A1CAAA1AC74194CBB38F3"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hdmi_tx.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 10076,
+      "mtime_ns": 1792506846660164500,
+      "sha256": "D1D5AE9F0C07279D3ADA7196500FE3B721370B613FAA551A7BDDC990ECD9C5EB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hx_pcb_presence.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6354,
+      "mtime_ns": 1792506846661164500,
+      "sha256": "DB93010F36E409E10F64848C90DB443A56667E38F7612C113B531D4C08AC3E9E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hx_result_select.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6208,
+      "mtime_ns": 1793543110228622000,
+      "sha256": "4AAF5AA2B8A6C60376528605B3369345E5A227A724C056B3FC91A5B6EAFB081F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hx_snapshot_ddr_arbiter.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4550,
+      "mtime_ns": 1792506846662164600,
+      "sha256": "AABEFC0B5FEF3A532309746BEB450E85AD7E0E95C853954276C166F93594D873"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hx_snapshot_service.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 30068,
+      "mtime_ns": 1792506846663165900,
+      "sha256": "4D00538D1DC9AEE4C4E21077F548E99E677D839F0F3690DC6CCCD73FBEA44C71"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hxa_multibox_cdc.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4841,
+      "mtime_ns": 1792506846663165900,
+      "sha256": "9395E1F8D588C622723FF4DFDC352C94D1D40243A3496F5EA17615C91D4BA54D"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hxa_multibox_overlay.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 12005,
+      "mtime_ns": 1793366751331680800,
+      "sha256": "BF1959F2AAA36DED1619407C9F5D920508BA53272B9B53C1095AB808D84CD54D"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/I2S_receiver.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4205,
+      "mtime_ns": 1792506846664165000,
+      "sha256": "08904598B42C2E1A4836CD9FB3293BC6C791EA2F79E35C7663A33127DC97F47B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/awb_raw10_bggr.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 18644,
+      "mtime_ns": 1792506846671673900,
+      "sha256": "080D8F9BCA93893DF44CE1037804D68E053D698ADC51E70B8B919B5FDB6F6DD2"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/awb_raw10_bggr_grayworld.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 18688,
+      "mtime_ns": 1792506846671673900,
+      "sha256": "628F803C37B24C9701AA49C5A0357EDED07C989EB1479019860D0430396F0524"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/awb_rgb10.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9064,
+      "mtime_ns": 1792506846673775400,
+      "sha256": "CEC5B89A090C05570191A35F40E6D1570A6E4AC56AF427865AAD103E43E8156A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/bilinear_interpolation10_edge.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4106,
+      "mtime_ns": 1792506846673775400,
+      "sha256": "688742788E9493CD5B3ADC30C0BFD59B9CE1F0879BCC79D9FE3484A66721EC7F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/BLC/raw10_bggr_blc.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7416,
+      "mtime_ns": 1792506846674768500,
+      "sha256": "4A99477AF83C9FC72E3BF03934C09127B2BDF2078AB3B5D2B8044D079F8B02E7"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/cartoon_96.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5487,
+      "mtime_ns": 1792506846675761500,
+      "sha256": "6B8FC92B7EB60981DE64C1E8B5E91DF5EB17CDC226BF608713C454A32FB65838"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/cartoon_sobel_96.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 8713,
+      "mtime_ns": 1792506846676769300,
+      "sha256": "C018704D3D60EA3496A04EB84E152C3EC8F5FE21DB341E7D891D1FA6D2F07283"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/ccm8_4x.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7380,
+      "mtime_ns": 1792506846676769300,
+      "sha256": "515E6B8452B7D826D7E71CD6E487D6B4C215D09DC3B07AED1A31F1B0498F1822"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/csi_unpacket_2lane.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4336,
+      "mtime_ns": 1792506846678275400,
+      "sha256": "B7E093E1E377F5A61A22216E9A4EC404068A3346923758297867B465679DACDD"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/data128_96/data128_96.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 587,
+      "mtime_ns": 1792506846679288900,
+      "sha256": "B6ACCEB73CC76058D4AFE6EC593360BAE6701646FDDA780A9264ADA3BEFD5318"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/data96_128/data96_128.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2947,
+      "mtime_ns": 1792506846679288900,
+      "sha256": "7E16DEC912876537316565F31FDF4BCC230629578869A767354FB7256ECAF7BE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic10_edge.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2349,
+      "mtime_ns": 1792506846680286400,
+      "sha256": "7FEECA6758CF1D806DE7DBB53D3FB9F452C3427B4C46FBE46BBF1FD3CAF6FA05"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/bilinear_interpolation.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 35597,
+      "mtime_ns": 1792506846681279300,
+      "sha256": "5226D559384BFAAD5F0B8DED77434CCE2B0F1759C7C9ECE403CECBDC9BBB5AF9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_demosaic_new/demosaic_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_demosaic_new/ipdef_demosaic.xml"
+      ],
+      "bytes": 1719,
+      "mtime_ns": 1792506846691462900,
+      "sha256": "CD110F053CD7092395FEEF125417EE51C86969C0A39B87F85C41ACAC20BA80AB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_demosaic_new/ipdef_demosaic.xml",
+      "kind": "IP_FILE",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:IP_FILE"
+      ],
+      "bytes": 7760,
+      "mtime_ns": 1792506846694519000,
+      "sha256": "27B6280DA8D8DCEC4887BD6494C4B8B501BA0F81C7CF1C7F982482A8092361B7"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_demosaic_new/RTL/demosaic_mem.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_demosaic_new/ipdef_demosaic.xml"
+      ],
+      "bytes": 2146,
+      "mtime_ns": 1792506846694519000,
+      "sha256": "4C007B82769A2AF9474683EC27711133C735AC776FD1F3D037D4EB00CC20A832"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_zhenghe/blk_mem_gen_zhenghe.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_zhenghe/blk_mem_gen_zhenghe.xml"
+      ],
+      "bytes": 1687,
+      "mtime_ns": 1792506846700591800,
+      "sha256": "A20638F9C75851143F66F91C2CDB99804467CDFA8815185209A9E60EE5BB33F6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_zhenghe/blk_mem_gen_zhenghe.xml",
+      "kind": "IP_FILE",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:IP_FILE"
+      ],
+      "bytes": 7591,
+      "mtime_ns": 1792506846701597200,
+      "sha256": "48EDBC23F5A159C7174D46CFB3F71D57726553D99EE9C7095D3913ECB3B7A6EF"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_zhenghe/RTL/ram_d32970204f32.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/blk_mem_gen_zhenghe/blk_mem_gen_zhenghe.xml"
+      ],
+      "bytes": 2146,
+      "mtime_ns": 1792506846703967900,
+      "sha256": "FACBB17D5CF7AA37E7CB63764780C2C7ACC655FF421A766701C656ADBB9F8C26"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/demosaic.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4633,
+      "mtime_ns": 1792506846704968500,
+      "sha256": "95FF3EAA0E99FD1DBE63C153164E36FAA1A97B19D071E4A0B0BB3936287F22D4"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/line_buffer_demosaic.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4253,
+      "mtime_ns": 1792506846704968500,
+      "sha256": "57D2626EF83F555D027CC442FAE0959A916CF1B0939C0115AAA9D414745F94C7"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/mipi_to_raw_converter.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2493,
+      "mtime_ns": 1792506846704968500,
+      "sha256": "B77E678034AF9968D0969655F403CAC3B992412B109DBA889E8CCB3F6F224975"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/raw_matrix_3x3_buffer.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 14900,
+      "mtime_ns": 1792506846705968300,
+      "sha256": "28F19502F5A70B48E9BDEEADDCB84500052B7BD0C6E15B4DA1EA9899265577C3"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/zhenghe.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6546,
+      "mtime_ns": 1792506846706979800,
+      "sha256": "ABCC6447EA9C47185B0E93B5ACAEF001F19E5FF99D0F80CC6E4CB4BB852A4BDD"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/denoise_96.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 8263,
+      "mtime_ns": 1792506846707969500,
+      "sha256": "2D0222DD55845AAF962EE1B15E0CDDA40B288BA41008CDFD1D41DEFF044F0BE7"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/display_tone_96.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5019,
+      "mtime_ns": 1793670483996326300,
+      "sha256": "FC4A0929BAF40AFF73008B3F29207A24D00F6F0C5DCFA0D9A9C2820B4420193C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/horizontal.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw10_color_lsc_grid9x7.v:HROM_FILE"
+      ],
+      "bytes": 40960,
+      "mtime_ns": 1792506846710145100,
+      "sha256": "A30DE3259BD5B8F1D8C92258C0BE89A515CDBADCCD2B3F5871E1E4B376AB96BC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/isp_luma_stat.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 8481,
+      "mtime_ns": 1792506846711145100,
+      "sha256": "37E847091A19FCA441EF4BF5EE745EB8749D933E7FEAB787D5DD6C3A6AC7E872"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/isp_top_basic.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3759,
+      "mtime_ns": 1792506846712144600,
+      "sha256": "FC35FC1DCD414E448DBF98E750E04D9E5682DD159EE9EB1413F5D7390FDBFBC3"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/isp_top_basic_core.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 16992,
+      "mtime_ns": 1792506846712144600,
+      "sha256": "B51EC917099C67A1D88692312A890D2389A48BD35E91B0B7EDECFF525995BB43"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/motion_detect.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 8824,
+      "mtime_ns": 1793026743563405800,
+      "sha256": "B038E6DBB614D3BE55AEDF27240AA48A0505A9E74F7344A2A8D88AC59D993EDA"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/motion_region_select.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 17115,
+      "mtime_ns": 1793026743564397800,
+      "sha256": "6A849AD625ADA532D0DFBCD71D5C4F17879ECEC4558BC712C3E6B81F45BD8255"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw10_ae_stat.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 15459,
+      "mtime_ns": 1792506846713144700,
+      "sha256": "6DC9462654555187DF16CD16682025634FE72B42FAD05FA8268C386D6E7FD065"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw10_color_lsc_grid9x7.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6720,
+      "mtime_ns": 1792506846714143900,
+      "sha256": "67933174F6570116EBB0D286D55287C2510C747509C73565D8586DF3FAFF2E5C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw10_unpacket_2lane.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 8377,
+      "mtime_ns": 1792506846715144000,
+      "sha256": "83F89D7F8E2B19322A7F6A8DDC0CAE64FCBD83FED6B742C10F5D2339F59D30FD"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw_matrix_3x3_buffer10.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 8607,
+      "mtime_ns": 1792506846715144000,
+      "sha256": "3E3E54D721C688AC8596C04F343E5402DDCB16DA7FA91D3F4BE16637579E4E6C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/rgb10_to_rgb8.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 1393,
+      "mtime_ns": 1792506846716144800,
+      "sha256": "985584D12B0FCCB4203A0854BB8C7C4E0662BE9A1B662D4F1AF30E674B5EA37B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/style_input_fifo.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 1782,
+      "mtime_ns": 1792506846717144500,
+      "sha256": "CA71F42251278E8C42AD92F2F9988DCFE0E1EF95CE925D53E641C5C7B62C2653"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/style_transfer_96.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 36274,
+      "mtime_ns": 1792506846717144500,
+      "sha256": "9E8D7DC30411E5C38CAD9C52CA1F446E37D353EE6A66B16728544E58BA12EAF9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/style_video_96.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4551,
+      "mtime_ns": 1792506846718144500,
+      "sha256": "4BBC1F10847AEDDE39F813F4EEAB02CAED5D3A0E02D4ECBECC0F837507B7D4AE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/uial2axis.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3832,
+      "mtime_ns": 1792506846719292300,
+      "sha256": "7A3CDC0F70824EEB69B92051776F00AADF2C207C4045F88C065230351EDFACAB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/vertical.mem",
+      "kind": "readmem_dependency",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw10_color_lsc_grid9x7.v:VROM_FILE"
+      ],
+      "bytes": 10240,
+      "mtime_ns": 1792506846720291900,
+      "sha256": "4E5A557C75BEDECAB62D7BE6EC39042DAF043EA0817648988F1403E66AC12732"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/key4_hold_debounce.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5069,
+      "mtime_ns": 1793542863387968000,
+      "sha256": "647E4AE545EB270F70A09E508E8F2DF0C917EDA987A1476F408CE3BB4D3DF01C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/key_remove_shakes.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 1762,
+      "mtime_ns": 1792506846721292000,
+      "sha256": "8832F59E7BA94BFB8CF31E4F5A772EF7177D5257A5A2532D53CBFA1D9B7F5CD9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/lane_lvds_10_1.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4498,
+      "mtime_ns": 1792506846721292000,
+      "sha256": "19A5840F2A972CC27E7A40CE58631E152F28C016A0821E3DCA45398BEFEAD852"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/mc_to_user_interface.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4752,
+      "mtime_ns": 1792506846722291300,
+      "sha256": "7E6D4D721743D3E28C1C21E5F9FDFD400999C12439843E5CA86FE892FFC23CE6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/mipi_dphy_rx/byte_aligner.enc.v",
+      "kind": "System_Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:System_Verilog"
+      ],
+      "bytes": 23004,
+      "mtime_ns": 1792506846723291900,
+      "sha256": "25A3581A512AD89BB43FED2758E32CE089CCCA29DEC445EF9B71DA36423F217C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/mipi_dphy_rx/byte_aligner_wrapper.enc.sv",
+      "kind": "System_Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:System_Verilog"
+      ],
+      "bytes": 6766,
+      "mtime_ns": 1792506846723291900,
+      "sha256": "D98AE007D77AE262C0C34B53586A5AA8A840EDC7DCDBFCC9091EB89CC68A6776"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/mipi_dphy_rx/channel_aligner.enc.v",
+      "kind": "System_Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:System_Verilog"
+      ],
+      "bytes": 7651,
+      "mtime_ns": 1792506846724292500,
+      "sha256": "3824E224A0B0B4E2B37CA4AC5533002221BCAEC2694EE86DE5C0F1A104DFFEBB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/mipi_dphy_rx/channel_aligner_wrapper.enc.sv",
+      "kind": "System_Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:System_Verilog"
+      ],
+      "bytes": 4310,
+      "mtime_ns": 1792506846724292500,
+      "sha256": "C26AEF5AEB40A767633EFA21BE4E5E59C25B91E79D0EA1F7C05D70A958771846"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/mipi_dphy_rx/hs_detect.enc.v",
+      "kind": "System_Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:System_Verilog"
+      ],
+      "bytes": 6389,
+      "mtime_ns": 1792506846725292300,
+      "sha256": "BBF7A362273291A874793ABBBD027A8D668C6281A4DD81240EAE45572D5E5C92"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/mipi_dphy_rx/mipi_dphy_rx_ph1p_mipiio_wrapper.sv",
+      "kind": "System_Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:System_Verilog"
+      ],
+      "bytes": 5148,
+      "mtime_ns": 1792506846726292500,
+      "sha256": "86B796060B0A133D1D10FC659B85C73EBFC98EBFA51904860A89AD5BDB68FE5A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/mipi_dphy_rx/ph1p_mipiio_rx_wrapper.v",
+      "kind": "System_Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:System_Verilog"
+      ],
+      "bytes": 26300,
+      "mtime_ns": 1792506846726292500,
+      "sha256": "F957019576D22A8322889AF73F8BFEE07F46006959F9EFCCA0595BC8FA3234AE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/motion_post_hist_adapter.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5200,
+      "mtime_ns": 1793026546799616500,
+      "sha256": "E6750BC1D6A46CDEE1DED0F2C85E990AED52CEE7D3A85DAA20217A2B030BC4E3"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_char_lib.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 39569,
+      "mtime_ns": 1792506846728291800,
+      "sha256": "32D8F49F8B495AE57A6957A0FB6A2D3954E1DFCE29ABFB78EB0DFC4C381A5B17"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_compact_font_rom.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 141503,
+      "mtime_ns": 1793367981213872400,
+      "sha256": "2E358E2E47B5A5AA7FF95634CCC75825988A761BAA1393E60EC20B1ECFFF0C3A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_compact_glyphs.vh",
+      "kind": "include",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_compact_panel.v"
+      ],
+      "bytes": 3780,
+      "mtime_ns": 1793367981198190700,
+      "sha256": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_compact_panel.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 12226,
+      "mtime_ns": 1793411465717780500,
+      "sha256": "3FDAF50C6FE27C2E158FEB037D63E8E37783F08938928B70D81339820C46BEC3"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_decimal_snapshot.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2465,
+      "mtime_ns": 1793366286785529600,
+      "sha256": "03A8E984F417D868BB564A84D46B8C577A1385C86BA9F5156C1CAF7FCF7930A4"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_large_font_rom.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7739,
+      "mtime_ns": 1793327368244460400,
+      "sha256": "4C5177A2389B9AFABBC8DF03F7CB040DE996620F888513E0EAB62DBFC353F9ED"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/pcb_status_large_text.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4994,
+      "mtime_ns": 1793334189209640800,
+      "sha256": "CADA2016F30D28D5B6A1FA251A708A92608D289D6C2FE95D18FCFD211285C04A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/pcb_status_text_rom.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9630,
+      "mtime_ns": 1793149169922279600,
+      "sha256": "FA158ADBB0B416DF6E08E2BAF191EAA16EC0E657F94681387A72986F496EF1F7"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/pcb_teach_key.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 812,
+      "mtime_ns": 1792506846729745000,
+      "sha256": "539B7DFEBABE0CC7ED12601F410322608467398193621F4E4DC63E14B5408C64"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 4918,
+      "mtime_ns": 1792506846731935000,
+      "sha256": "99910FCD06D61B728C4333F8EB15DD07B61DB32AF197AD3871995283461FE29E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+      "kind": "IP_FILE",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:IP_FILE"
+      ],
+      "bytes": 30731,
+      "mtime_ns": 1792506846732929300,
+      "sha256": "1C0928264DCBC2217F7C1015042FC61E02BD444B727EAC8B2E8F9BC4B89FC720"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 20130,
+      "mtime_ns": 1792506846734060700,
+      "sha256": "4CDACC144F064E68C3E7786AA6D992699E09DFD87A19463B3CB79E8A72F9EBCF"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/adc/ddr2.adc",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6482,
+      "mtime_ns": 1792506846735065700,
+      "sha256": "9B579AEF1DD260789B02B7012CA9689AF6280EC9AF530A1A946C5AC0A8C43E81"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_clk_top.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 3890,
+      "mtime_ns": 1792506846736083000,
+      "sha256": "036A13CEFC0014468CB7553AA43064A65BD2BF3008C25D2E495867FC5F43D329"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll0.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 10213,
+      "mtime_ns": 1792506846736083000,
+      "sha256": "AB08D9B46EFF0E2ACF0ABAF5B57E999629894E1BA4F28D14F859C45A6B487FA7"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/clk/ph1p_ddrphy_pll1.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 10427,
+      "mtime_ns": 1792506846737065200,
+      "sha256": "9AAFA4558B482EE93F926AD3F710A90CE1BE99DDF8712752D1E1C48404F90AE0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/include/ph1p_mis_define.vh",
+      "kind": "include",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v"
+      ],
+      "bytes": 245,
+      "mtime_ns": 1792506846738065700,
+      "sha256": "A0E0BC78EAB01CD1815A04F246420B68B4A5A616C43C2F36988C4DF94FC1B471"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/init/ph1p_ddrphy_dram_init_ddr2.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 8609,
+      "mtime_ns": 1792506846738065700,
+      "sha256": "B4B6C9E5223852750D2A0D3A013447716A08C56055511AFA517DCE612380649F"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 274212,
+      "mtime_ns": 1792506846739373800,
+      "sha256": "C27828AFC436F9545981392AC84E5B710801522CDB55F7DEE26174E9A92F0D0A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_phy2mc_fifo_ctrl.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 1935,
+      "mtime_ns": 1792506846740383700,
+      "sha256": "CF1500A2D491C637A9150FB36FBC6DE109E62CCA5D8FF3C58DADF5F7F84472C6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 2605,
+      "mtime_ns": 1792506846741378400,
+      "sha256": "21795BF78115DBD04D7EC81F4F240832D8E7267FDEBEDDCB6BE50D3CB95AB8B6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddrphy_sync_rst_gen.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 699,
+      "mtime_ns": 1792506846741378400,
+      "sha256": "8DB3D13DEEC253A2248899DE81A7D1A382EACB7683F229732A28272AB9969C55"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ddrphy_cfg_rom.txt",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v:ROM_INIT"
+      ],
+      "bytes": 720,
+      "mtime_ns": 1792506846742377900,
+      "sha256": "2F5A00C5A364A4D37891042B4D4956A29B3990B3385512D20EDE491C8CCF863B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_board_delay.vh",
+      "kind": "include",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v"
+      ],
+      "bytes": 1762,
+      "mtime_ns": 1792506846742377900,
+      "sha256": "FBB70F7D53984AC052B29DED89FEFDE7C82A003484FC7FC60E0A816372C0DE89"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_bus_matrix.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v"
+      ],
+      "bytes": 6353,
+      "mtime_ns": 1792506846743378100,
+      "sha256": "828CB1DECEAD67B69CCD6540FC7C9B15B8DAEB3B5F101F08C92D2A8A228F4ACB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_ddrio.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v"
+      ],
+      "bytes": 1591,
+      "mtime_ns": 1792506846743378100,
+      "sha256": "8E9BDE3255E6A332FC43AAE1414A29183B5E1ED650D3EF731FDDD2DBBFF21863"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/include/ph1p_ddrphy_pad_type.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v"
+      ],
+      "bytes": 768,
+      "mtime_ns": 1792506846744377700,
+      "sha256": "76439AB49AEFB1E41D91D2D4EE12094EF362B1AC69A382B8FAA5D3202842B7FB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 30556,
+      "mtime_ns": 1792506846744377700,
+      "sha256": "538EFA54B1EB8A813A385D1A135B3987BAF360DFA3F176FF89C49E0124669251"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_apb_bridge.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 8234,
+      "mtime_ns": 1792506846745378100,
+      "sha256": "CDE632F73A4E58C1CF375F62626B26E144EF553926B5539B5EAE08B655FECB12"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_bankref_cfg.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 2632,
+      "mtime_ns": 1792506846746378400,
+      "sha256": "96121F2A93A56127499518158B07B2DB9DEFF29BBAC464D3C077AB6A718A8F1C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 18435,
+      "mtime_ns": 1792506846746378400,
+      "sha256": "AD7FA1A71337F4A3989CB619D77B770510C30C5B81F126F6661EAF65F01F710C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_decode.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6759,
+      "mtime_ns": 1792506846746378400,
+      "sha256": "B3BD00DF9D41B792D6F6A18B2BE29C8AB363AEB3FB7DC88FE0BE61DFF8905ABD"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_execution.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6428,
+      "mtime_ns": 1792506846747378900,
+      "sha256": "53C5EAAD74ABFC98BB0C2A4EDE0A1863C8A34008DA1955CF7AD397E151D0A9C1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_cmd_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6874,
+      "mtime_ns": 1792506846748378700,
+      "sha256": "82CDEA3269662C94B82C675C8A7E110C1C1FC212775F4C696E876215E7EBD68E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 10532,
+      "mtime_ns": 1792506846748378700,
+      "sha256": "0F335EBF3607A7823B90A6D6278DD3906FDF0E941C019C83186B2D017E613B49"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 3214,
+      "mtime_ns": 1792506846749552200,
+      "sha256": "B130B5B93BCC9FB8FB71A0E38A1000C86CB663AC1D72AEF0A47215D8154AB32C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 6738,
+      "mtime_ns": 1792506846750392500,
+      "sha256": "C36A5925A09F8DAFE5D49144CDC72FA85656602B3D4A944F587BBD0D9FA1D5A3"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 18283,
+      "mtime_ns": 1792506846750392500,
+      "sha256": "35A6B4B4734AE475FAB13F768879EAA953EE5C4224CAFCF4FEDFDDA841B3B006"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 7120,
+      "mtime_ns": 1792506846751382800,
+      "sha256": "FAFA767B0A4D1F431DAC6EA1461DC16AFF2EA1169C8AA45A50A009117A90F5C4"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 15150,
+      "mtime_ns": 1792506846751382800,
+      "sha256": "247C8A832EFEBF5C4733E599D7E2B19ABC3687CA48B6317EA1FC882095768D95"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_mdl_cal_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 3002,
+      "mtime_ns": 1792506846752387400,
+      "sha256": "0B583C987311DEEADEEEDD19DD51A04E8E14B227873E37F1EC8DB8DD18B7C125"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_rphase_ctl.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 5771,
+      "mtime_ns": 1792506846753387900,
+      "sha256": "2E26A87B37C99613BC61C52FD2482012A2F5BD8A662636F782418DE5D9CE6928"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 31553,
+      "mtime_ns": 1792506846753387900,
+      "sha256": "FAA5ECE662BDB4DB1C5537A3229E174349FC447F192E23F19E798480276EAAA9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wphase_ctl.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 8197,
+      "mtime_ns": 1792506846754387300,
+      "sha256": "6E62E4E832B2B85859CDBD38D2D08DDE9B8066670246C6C7AB6D675E0DD13680"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 22457,
+      "mtime_ns": 1792506846755386200,
+      "sha256": "12CE7589375EB44F6E71D9D4280AE32CF2BB82EF7519A2DDAAE01F7914BA0467"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1066.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1792506846756387600,
+      "sha256": "B64F54DDCCA5FF29139F55CC2E9BFB388B3781C951EEC156353DD6794171A49C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_1333.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1792506846756387600,
+      "sha256": "50F8013FFD18E874A8917E633287E2C7803126C594E0F95BC582931A8E1AAAB5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_400.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 423,
+      "mtime_ns": 1792506846757387100,
+      "sha256": "9CA837EF541E787058F3BBBDACB952B6D97A8FCA315DC87DFC4DB6561AEDFD73"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_533.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1792506846757387100,
+      "sha256": "78495997F24D6A890756101CADBD39EBDCD814EBC3981F190AE43CB319815C9C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_667.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1792506846758387700,
+      "sha256": "66FDE1491AEB55F212CCCCBB174649B63029D4E63DF5105515241765538518D5"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_800.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh"
+      ],
+      "bytes": 422,
+      "mtime_ns": 1792506846758387700,
+      "sha256": "034F9FA434E52A7F6E38E3C5D8D01218BC87C60CC8463BDDE6BC5C454E1B25AE"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/timing/ddr2/ddr2_parameter.vh",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv"
+      ],
+      "bytes": 3315,
+      "mtime_ns": 1792506846759526000,
+      "sha256": "DCBC3E2315CF9C7A476411F5E2ADDC6EE8DFF38CEFB7637DBAEE6236A9395EEB"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/top/ph1p_ddrmc_top.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 13919,
+      "mtime_ns": 1792506846760525500,
+      "sha256": "067AC86D88E35CB0C12E62816175542DF2E907D244E86F92411611B83123736E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/sdc/ddr2.sdc",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml"
+      ],
+      "bytes": 792,
+      "mtime_ns": 1792506846760525500,
+      "sha256": "ADB6317927DFD09095073CAD40BE8E63D39EA3D941B4C790F2F483B1AED428D6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ph1p35_324_ddr_wrapper.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 4644,
+      "mtime_ns": 1792506846761532000,
+      "sha256": "598EABF8E8599999911A5BAF2C6B4FDB9BB685AABCC8667F3748AED3CCA4985B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/reset_sync.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 496,
+      "mtime_ns": 1792506846764525900,
+      "sha256": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/result_overlay.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 19942,
+      "mtime_ns": 1793366751331680800,
+      "sha256": "503171DEE7A08FEE59CF989C4CF7F93E8ED949B157706683134C608C24677D69"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/signal_delay.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 1712,
+      "mtime_ns": 1792506846765526200,
+      "sha256": "678EC4C271DDE922BAE2A584D2278785D9C9DDC6E5BE13BFCAB17173FD041B98"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/style_controls.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 3568,
+      "mtime_ns": 1792506846765526200,
+      "sha256": "6F5BACBCE5E6ABFF327F226773D7492E8D955B17F3BEB15A3C879782B6CA6A00"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/uics500_cfg/SC500GainTbl.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 2548,
+      "mtime_ns": 1792506846768030000,
+      "sha256": "9407D7F9353B7BEB898A494ADD9846733572D43D9324D6AD7973B254769764E6"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/uics500_cfg/uicfgcs500_720p.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 6120,
+      "mtime_ns": 1792506846769035000,
+      "sha256": "5D813FF4F74165D7375B771F77B41873F3ADA7A34DC4152C75CB5CD210F7880C"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/uics500_cfg/uics500reg_720p60.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 5721,
+      "mtime_ns": 1792506846770159600,
+      "sha256": "1BD689B28944494ED0280D80BC2BB03AB5A5F81771B33F4BFAD95F7AA87B646A"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/uics500_cfg/uics500regAE.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 1561,
+      "mtime_ns": 1792506846771168000,
+      "sha256": "15AC5AA4AFC8780BCBFD45B63B8224FD2046C24CE301CD8EA8E25A15F13840F9"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/uics500_cfg/uii2c.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9965,
+      "mtime_ns": 1792506846772093600,
+      "sha256": "BC9ED0F52C323299881F1B450A1C552D8563AC833F04A0B2773D98B70C6573F1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/uiisp_beta/ae_auto.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 25628,
+      "mtime_ns": 1792506846772374900,
+      "sha256": "FD4B7FEDE24C1915542FD96C78059C8830260DFB580604916B12C59FAB165383"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/video_in.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 8695,
+      "mtime_ns": 1792506846774379300,
+      "sha256": "9504213AF6142E01AA8F1DF160D44B7EF9035BFC5D83199FFAAB07152248BE47"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/video_latency_monitor.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 21043,
+      "mtime_ns": 1792506846775379300,
+      "sha256": "1E2666722D66191FABA037F1EB042624691A76F07E79D99EE8F80F2544E30799"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/video_out.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 11168,
+      "mtime_ns": 1792506846776380800,
+      "sha256": "BF4D1EF249DC4612AC5133DFA37AEF96B1564F85C3CA1E6B228EB00EF677A2ED"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/vtc/uivtc.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 7752,
+      "mtime_ns": 1792506846776380800,
+      "sha256": "97C5146DDE11978576B89F78AA75161EE74E7EA5F4420AB399C6DC9D829CF1B1"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/PLL/PLL.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/PLL/PLL.xml"
+      ],
+      "bytes": 3911,
+      "mtime_ns": 1792506846793260300,
+      "sha256": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/PLL/PLL.xml",
+      "kind": "IP_FILE",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:IP_FILE"
+      ],
+      "bytes": 10528,
+      "mtime_ns": 1792506846793260300,
+      "sha256": "CDD3123C372C914EE1F71C7EDE955DC572EBA871EBB5752D0FF3220D16B89707"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/PLL/RTL/ph1p_phy_pll_wrapper_25a56e5ce2f9.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/PLL/PLL.xml"
+      ],
+      "bytes": 12535,
+      "mtime_ns": 1792506846795260700,
+      "sha256": "2F6F2560129B950C9F5A36136F128A9304FF858BF1BAE0F2129EA0145D941A1E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w128_d512_fifo/soft_fifo_al_4057d6b76aa6.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w128_d512_fifo/w128_d512_fifo.xml"
+      ],
+      "bytes": 33592,
+      "mtime_ns": 1792506846798260900,
+      "sha256": "75E5785AE0733B4EF7CE9A80D09F68419CEB0A6A5143BAF866C5442CA310CB5E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w128_d512_fifo/w128_d512_fifo.tcl",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w128_d512_fifo/w128_d512_fifo.xml"
+      ],
+      "bytes": 556,
+      "mtime_ns": 1792506846799463700,
+      "sha256": "D8C23F200B61011541161D6F7A3AFC73958DEFA23B46D11039C66F2E0E555235"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w128_d512_fifo/w128_d512_fifo.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w128_d512_fifo/w128_d512_fifo.xml"
+      ],
+      "bytes": 1221,
+      "mtime_ns": 1792506846800487000,
+      "sha256": "C4250308A11070E16B55F7D93717E982944BFC41D86F663C5B0DC504CDED174B"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w128_d512_fifo/w128_d512_fifo.xml",
+      "kind": "IP_FILE",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:IP_FILE"
+      ],
+      "bytes": 8210,
+      "mtime_ns": 1792506846800487000,
+      "sha256": "168018C547DD95D242196199BDFB35D426265AD0DF0A39288D23E0C4C8A4BDFC"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w155_d512_fifo/soft_fifo_al_f58e8b3e1f3d.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w155_d512_fifo/w155_d512_fifo.xml"
+      ],
+      "bytes": 28975,
+      "mtime_ns": 1792506846804267100,
+      "sha256": "CFFDAE59273CA6D7A4AB6473BAA8CF94E81AB1900C4B9E358ADCA6E4B196114D"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w155_d512_fifo/w155_d512_fifo.v",
+      "kind": "ip_fileset",
+      "origins": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w155_d512_fifo/w155_d512_fifo.xml"
+      ],
+      "bytes": 1160,
+      "mtime_ns": 1792506846804267100,
+      "sha256": "D600BCD8E876691D6CF3A512650E7E69118FC8016E9FDF892AC85E4C63851E37"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/ip_source/w155_d512_fifo/w155_d512_fifo.xml",
+      "kind": "IP_FILE",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:IP_FILE"
+      ],
+      "bytes": 7754,
+      "mtime_ns": 1792506846805279000,
+      "sha256": "C16F1A475E2C0C61E4D9F05598A753086AC4F95BB223997E2C686557B30285EA"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/shared/rtl/hxa_main_link.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 55874,
+      "mtime_ns": 1793543878160200600,
+      "sha256": "60362844CDEDF666F75C2B5019405C2844D6EEEA1A0F8C4F03F220DC7C1FB740"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/shared/rtl/hxa_packet_codec.v",
+      "kind": "Verilog",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:Verilog"
+      ],
+      "bytes": 9261,
+      "mtime_ns": 1792506846815764700,
+      "sha256": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/04_pin/camera_to_dsi_display_720p60.sdc",
+      "kind": "SDC_FILE",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:SDC_FILE"
+      ],
+      "bytes": 17238,
+      "mtime_ns": 1793148353015779300,
+      "sha256": "1A4F11C3BA7280AF5D06640481B97094705E3F22ECA5732AD608280B19EBC705"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/04_pin/pin.adc",
+      "kind": "ADC_FILE",
+      "origins": [
+        "camera_to_dsi_display_720p60_cnn_multibox.al:ADC_FILE"
+      ],
+      "bytes": 3532,
+      "mtime_ns": 1792506846818647000,
+      "sha256": "2FE2F56BFF01E35C248723AD10913A49EC6843FC805731625DD79F0235060D71"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/tools/inactive_project_files.json",
+      "kind": "explicit_dependency",
+      "origins": [
+        "--extra"
+      ],
+      "bytes": 12559,
+      "mtime_ns": 1793670835376103200,
+      "sha256": "A1B38D36E079DC465101686619686BDF9EDEB6FA5D3F2E59716DDE8A55A41407"
+    },
+    {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/tools/release_audit_config.json",
+      "kind": "audit_configuration",
+      "origins": [
+        "--config"
+      ],
+      "bytes": 2188,
+      "mtime_ns": 1792506846822020200,
+      "sha256": "1955E3C980E91A5F6E0EB0495270861F4921791B4A73C5F8E2CF652A6596FDBF"
+    }
+  ],
+  "memory_references": [
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw10_color_lsc_grid9x7.v",
+      "expression": "HROM_FILE",
+      "literal": "horizontal.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5/horizontal.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/horizontal.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/horizontal.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw10_color_lsc_grid9x7.v",
+      "expression": "VROM_FILE",
+      "literal": "vertical.mem",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5/vertical.mem",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/vertical.mem"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/vertical.mem"
+      ],
+      "status": "present"
+    },
+    {
+      "source": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v",
+      "expression": "ROM_INIT",
+      "literal": "ddrphy_cfg_rom.txt",
+      "candidates": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v5/ddrphy_cfg_rom.txt",
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ddrphy_cfg_rom.txt"
+      ],
+      "resolved": [
+        "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ddrphy_cfg_rom.txt"
+      ],
+      "status": "present"
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "Duplicate CompileOrder 18: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/awb_raw10_bggr_grayworld.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/awb_rgb10.v",
+    "Duplicate CompileOrder 18: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/awb_rgb10.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic10_edge.v",
+    "Duplicate CompileOrder 18: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/bilinear_interpolation10_edge.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/rgb10_to_rgb8.v",
+    "Duplicate CompileOrder 18: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic10_edge.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw_matrix_3x3_buffer10.v",
+    "Duplicate CompileOrder 18: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw_matrix_3x3_buffer10.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/bilinear_interpolation10_edge.v",
+    "Duplicate CompileOrder 24: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw10_unpacket_2lane.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/ccm8_4x.v",
+    "Duplicate CompileOrder 299: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/cartoon_96.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/style_controls.v",
+    "Duplicate CompileOrder 300: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/display_tone_96.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/denoise_96.v",
+    "Duplicate CompileOrder 301: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/style_video_96.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/style_input_fifo.v",
+    "Duplicate CompileOrder 51: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/hdmi_mixer.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_large_font_rom.v",
+    "Duplicate CompileOrder 51: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_large_font_rom.v and D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/pcb_status_large_text.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/crc32_check.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/crc32_gen.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/mac_cache.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiarp_layer.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiarp_rx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiarp_tx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiicmp_pkg_ctrl.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiicmp_pkg_tx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_arp_rx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_arp_tx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_header_checksum.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_layer.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_rx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiip_tx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimac_rx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimac_tx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimac_tx_frame_ctrl.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimac_tx_pause_ctrl.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiudp_layer.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiudp_rx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiudp_stack.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uiudp_tx.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/csi_unpacket_2lane.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/bilinear_interpolation.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/demosaic.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/line_buffer_demosaic.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/mipi_to_raw_converter.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/raw_matrix_3x3_buffer.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/demosaic_4x_2_0/zhenghe.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/isp_top_basic_core.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/raw10_unpacket_2lane.v",
+    "Legacy CP936 comments decoded strictly; raw SHA256 unchanged: D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/uics500_cfg/uii2c.v",
+    "Reviewed inactive include 01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v:ph1p_mis_define.vh: PH1P_MIS_SIM branch is inactive for synthesis; the else branch uses src/rtl/include/ph1p_mis_define.vh, which is separately hashed.",
+    "Reviewed inactive include 01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv:../timing/ddr3/ddr3_parameter.vh: Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis.",
+    "Reviewed inactive include 01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv:../timing/ddr4/ddr4_parameter.vh: Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis.",
+    "Reviewed inactive include 01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv:ddr3_parameter.vh: Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis.",
+    "Reviewed inactive include 01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv:ddr4_parameter.vh: Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis.",
+    "Reviewed memory override 01_rtl/imgq_gain_m/main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v:ROM_INIT: DDRPHY_ROM_INIT is defined as ddrphy_cfg_rom.txt in src/rtl/include/ph1p_mis_define.vh; ph1p_ddrphy_wrapper passes it to ph1p_ddrphy_top, then ph1p_ddrphy_init. The file is also an active IP-XACT file-set input. Verify elaboration log retains ROM_INIT=ddrphy_cfg_rom.txt."
+  ],
+  "passed": true
+}

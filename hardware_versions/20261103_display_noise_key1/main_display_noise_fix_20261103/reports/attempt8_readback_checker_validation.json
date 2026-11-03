@@ -1,0 +1,19 @@
+{
+  "scope": "Actual rerun of enhanced raw-evidence checker, no TD or product/build-input edits",
+  "command": [
+    "C:\\Users\\38401\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\verify_display_noise_build_strategy.py",
+    "--require-log",
+    "--require-snapshot"
+  ],
+  "process_exit_code": 0,
+  "passed": true,
+  "checker_sha256": "097F6CB165A9B5D9A11954C338057A524374CD9B8DE84E756FA23BDC476EA930",
+  "tests_sha256": "30045D2E6D89648CA3FC2A8977A72F45562AFACCD24D5D3000D9DDD226C548D7",
+  "strategy_result_sha256": "DE20185168828A49F2937EA847CF82B57F477B06BEBA7EC42B191D46A24FF21B",
+  "raw_validation_log_sha256": "72A8E75C4558385651276F615B74060C402455C00B621D23D0F16B0684FBD090",
+  "original_failure_manifest_sha256": "CA3D762CAEEEFCABD8EC50BBF3493372F63741A5D7F3530D19057B74C933B195",
+  "actual_readback_receipt_sha256": "1C26AEC82250F03BE7A179DB65FF274A823D99E77B6BA64CDD33222E3CFB943E",
+  "board_validation": "NOT_RUN",
+  "physical_acceptance_claimed": false
+}

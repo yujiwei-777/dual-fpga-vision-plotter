@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "check": "fifo",
+  "scope": "FIFO behavior regression and current routed Gray-pointer/held-bus topology and timing exception mapping are recorded.",
+  "limitations": [
+    "Behavior is simulation plus static mapping review; no exhaustive formal FIFO proof was run."
+  ],
+  "artifacts": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\RESULTS.json",
+      "sha256": "B1734E1AFE3B8713B57AD95CFCB4DFA619F7226ED6C56495E5449DCEE0DDE156"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\runs\\phy_1\\secondary_cdc_route_end.rpt",
+      "sha256": "7281B1E2EA1AF14D4FF0B1A2902DE4E66254EC6B34863A2A990D75CCA4B18CF6"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\PHYSICAL_CDC_DDR_FIFO_REVIEW.json",
+      "sha256": "BE9658E0DB3A2748C1A9426013669A536A776C0918BF6C1C045D30852471E98A"
+    }
+  ],
+  "source_sha256": {
+    "shared/rtl/hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+    "shared/rtl/hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "01_rtl/grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD"
+  }
+}

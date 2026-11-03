@@ -1,0 +1,16 @@
+{
+  "active_model": "user-only retrained C4/C4 GOOD/BAD binary",
+  "assets": {
+    "weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+    "biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+    "quantization.json": "B1B3934CF1032AB58D5F273EFAF18281E6D62658D917DCB1AB89E389581E91EF",
+    "MODEL_NEW_CAPTURE.json": "FB9A934370C42B062E785B29CAD71D5A1CDC2753D292387908BF41B1E6203077"
+  },
+  "pose7_statistics_or_orientation_active": false,
+  "input": "unsigned Y8; original shared CCL half-open box; exact96 point samples",
+  "crop_scale": 1,
+  "margin_min": 32,
+  "known_test_falsePASS": 7,
+  "hardware_status": "NOT_RUN",
+  "model_accuracy_is_not_a_hardware_execution_claim": true
+}

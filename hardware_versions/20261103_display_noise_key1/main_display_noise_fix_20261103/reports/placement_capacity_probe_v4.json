@@ -1,0 +1,202 @@
+{
+  "status": "READONLY_QUERY_COMPLETED_WITH_UNSUPPORTED_QUERY_ERRORS_RETAINED",
+  "all_original_and_copied_inputs_unchanged": true,
+  "no_place_route_bitgen_or_parameter_override": true,
+  "queries": [
+    {
+      "query": "commands",
+      "catch": 0
+    },
+    {
+      "query": "gate_params",
+      "catch": 0
+    },
+    {
+      "query": "place_params",
+      "catch": 0
+    },
+    {
+      "query": "area",
+      "catch": 0
+    },
+    {
+      "query": "help_arch",
+      "catch": 0
+    },
+    {
+      "query": "help_area",
+      "catch": 0
+    },
+    {
+      "query": "help_param",
+      "catch": 0
+    },
+    {
+      "query": "arch_default",
+      "catch": 0
+    },
+    {
+      "query": "arch_SLICEL",
+      "catch": 1
+    },
+    {
+      "query": "arch_SLICEM",
+      "catch": 1
+    },
+    {
+      "query": "arch_LUTL",
+      "catch": 1
+    },
+    {
+      "query": "arch_LUTM",
+      "catch": 1
+    },
+    {
+      "query": "arch_Plb",
+      "catch": 0
+    },
+    {
+      "query": "arch_Pmb",
+      "catch": 0
+    },
+    {
+      "query": "arch_PH1P_PHY_LSLICE",
+      "catch": 1
+    },
+    {
+      "query": "arch_PH1P_PHY_MSLICE",
+      "catch": 1
+    }
+  ],
+  "unsupported_queries": [
+    "arch_SLICEL",
+    "arch_SLICEM",
+    "arch_LUTL",
+    "arch_LUTM",
+    "arch_PH1P_PHY_LSLICE",
+    "arch_PH1P_PHY_MSLICE"
+  ],
+  "exact_adverse_diagnostics": [
+    "PRJ-7001 CRITICAL-WARNING: ../user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v: Can't find this file, try to add this file again.",
+    "ARC-8019 ERROR: Unable to index cell type SLICEL",
+    "ARC-8019 ERROR: Unable to index cell type SLICEM",
+    "ARC-8019 ERROR: Unable to index cell type LUTL",
+    "ARC-8019 ERROR: Unable to index cell type LUTM",
+    "ARC-8019 ERROR: Unable to index cell type PH1P_PHY_LSLICE",
+    "ARC-8019 ERROR: Unable to index cell type PH1P_PHY_MSLICE"
+  ],
+  "architecture_location_census": {
+    "Plb": {
+      "tiles": 1638,
+      "slots_per_tile": 8,
+      "slots": 13104
+    },
+    "Pmb": {
+      "tiles": 1014,
+      "slots_per_tile": 8,
+      "slots": 8112
+    }
+  },
+  "eight_slot_proof": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\physical_capacity\\report_named_tiles.log",
+  "actual_gate_parameters": {
+    "map_mode": "auto",
+    "pack_effort": "medium"
+  },
+  "original_gate_report_estimates": {
+    "lut": 27664,
+    "reg": 21306,
+    "slice*": 20888,
+    "eram": 93,
+    "dsp": 37
+  },
+  "same_gate_db_reimport_report_estimates": {
+    "lut": 26579,
+    "reg": 21306,
+    "mslice": 568,
+    "lslice": 4175,
+    "slice*": 19896,
+    "eram": 93,
+    "dsp": 37
+  },
+  "estimate_limitation": "The same gate DB produces a different recomputed Slice*/LUT estimate on reimport. Neither estimate certifies actual final physical occupancy or the exact internal GP field excess.",
+  "baseline_final_physical_capacity": {
+    "expected_slices": 19715,
+    "placed_model_by_physical_tile": {
+      "PH1P_PHY_LSLICE_in_Pmb": 7055,
+      "PH1P_PHY_LSLICE_in_Plb": 12092,
+      "PH1P_PHY_MSLICE_in_Pmb": 568
+    },
+    "capacities": {
+      "Plb": 13104,
+      "Pmb": 8112
+    },
+    "used": {
+      "Plb": 12092,
+      "Pmb": 7623
+    },
+    "free": {
+      "Plb": 1012,
+      "Pmb": 489
+    }
+  },
+  "packing_conclusion": "Successful baseline proves LSLICE in both Plb and Pmb. Pmb being memory-capable does not mean its free slots are a separate freely switchable SLICEL field budget. GP prints rounded LUTL utilization 1.00 and does not expose exact excess through the supported architecture queries used here.",
+  "documented_next_strategy": "Fresh synthesis with gate pack_effort high is public ALL-family behavior. It must run pack/optimize_gate and cannot be substituted by placing the unchanged V4 gate DB.",
+  "evidence": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\arch_Plb.txt",
+      "sha256": "5F8C840A95DA4C9D6A58FD5C7D610CC44173A4B5629700ACBDF14C14B5BC1E02",
+      "bytes": 37334
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\arch_Pmb.txt",
+      "sha256": "BCBD73010480335E23F58AB3270D19620A8459FD659D6DEBF1DB47E1999488D1",
+      "bytes": 23190
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\camera_to_dsi_display_720p60_cnn_multibox.al",
+      "sha256": "46BD34A2CA9B9A04B2F4B6DDA7E3D50147F41394D023BE07A13E3932A75EFB2A",
+      "bytes": 67452
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\camera_to_dsi_display_720p60_cnn_multibox_gate.db",
+      "sha256": "A12B820F8F7ADA3460E9930FC3864F4E0728AB6A3133C42254A163CE64E37389",
+      "bytes": 16772056
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\console.log",
+      "sha256": "A92B5005AA19190C762020A1C097B3641B98F8D281E36EC4366F98405B0E039E",
+      "bytes": 251296
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\imported_gate_verbose.area",
+      "sha256": "39B285AB6ECEF3BF37922578ED8CBD727340D4AD7298C11CC95370DAFA08DD8E",
+      "bytes": 57971
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\input_manifest.json",
+      "sha256": "5C9F926443F9C89A2C2A2C7D35C885A17312EE040EFF33CAEA5476908EEE39D6",
+      "bytes": 2199
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\osd_compact_glyphs.vh",
+      "sha256": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A",
+      "bytes": 3780
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\run.tcl",
+      "sha256": "B79B2ECC4B6B3F622D2BF19D21DED290CB21A270A4D4E4CFE6ED6EA9843CE931",
+      "bytes": 1527
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\td_20261103_105422.log",
+      "sha256": "4A72E2CC14632F69FA0FD6FC37865C17625DA5EF6B59F855D842305BF17F4BBF",
+      "bytes": 248569
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\td_20261103_105422.logw",
+      "sha256": "BE9D4FF6956AA894FCDEE13CE0C5F3DF266692B2FE1884A4058542AC0508585E",
+      "bytes": 4977
+    }
+  ],
+  "hardware_status": "NOT_RUN"
+}

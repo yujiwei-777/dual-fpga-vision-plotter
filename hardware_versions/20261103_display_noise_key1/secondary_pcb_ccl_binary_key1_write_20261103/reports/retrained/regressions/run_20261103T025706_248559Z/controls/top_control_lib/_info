@@ -1,0 +1,70 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/controls
+T_opt
+!s110 1793674746
+VG9_<l`;WC_@bMKLJ3Idze0
+04 20 4 work tb_pose7_top_control fast 0
+=1-40c2ba3dfe0d-6ae94dfa-1b0-e49c
+o-quiet -auto_acc_if_foreign -work top_control_lib
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vpose7_top_control_probe
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1793674745
+!i10b 1
+!s100 V<g=Z;Yj1iaX8k`eEPEi:2
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+If`EiR7mMD2;5<^b?lkJ941
+S1
+R0
+Z5 w1793674745
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\current_top_control_probe.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\current_top_control_probe.sv
+!i122 0
+L0 1 48
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1793674745.000000
+Z9 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\tb_pose7_top_control.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\current_top_control_probe.sv|
+Z10 !s90 -sv|-lint|-work|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\top_control_lib|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\current_top_control_probe.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\tb_pose7_top_control.v|
+!i113 0
+Z11 o-sv -lint -work {D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\top_control_lib} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtb_pose7_top_control
+R2
+R3
+!i10b 1
+!s100 7iH66GVKICEcDO^@=zgd43
+R4
+I@7[A`6Xhag7<K_?WdfJM41
+S1
+R0
+R5
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\tb_pose7_top_control.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\tb_pose7_top_control.v
+!i122 0
+L0 2 69
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

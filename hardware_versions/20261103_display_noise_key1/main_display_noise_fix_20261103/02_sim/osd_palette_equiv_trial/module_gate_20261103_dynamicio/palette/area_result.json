@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "manifest": {
+    "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\osd_palette_equiv_trial\\module_gate_20261103_dynamicio\\normalized_sources\\palette.v",
+    "source_sha256": "AF7B1BCA6E6D5833E17D86EF9BBE815F7A7B5675DF1AFA027EBBC82CA3BC97F0",
+    "copied_source_sha256": "AF7B1BCA6E6D5833E17D86EF9BBE815F7A7B5675DF1AFA027EBBC82CA3BC97F0",
+    "parameters": {},
+    "device": "PH1P35MDG324",
+    "speed": 3,
+    "mapping": "default auto",
+    "pack_effort": "high",
+    "inputs": {
+      "module_source.v": "AF7B1BCA6E6D5833E17D86EF9BBE815F7A7B5675DF1AFA027EBBC82CA3BC97F0",
+      "module_area_top.v": "C40C47609D5193E76B88DE633F2EB072360BCF2E5C0411B43A9234F1CA2E4DC0",
+      "module_area.al": "EF89C15317CBDECE80C8FA8D4BF4413976A33F4A4EFB171FC2674298767F1D9B",
+      "run.tcl": "FE1D5A4604D12139D3A29D4C269D49EF593D2D9345B795182690108A0F1A160E",
+      "osd_compact_glyphs.vh": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A"
+    },
+    "all_dynamic_module_io_connected": true,
+    "product_constraints_used_or_changed": false,
+    "place_route_bitgen": false,
+    "resource_kind": "PRELIMINARY_SINGLE_MODULE_GATE_ESTIMATE",
+    "complete_verilog_filelist": [
+      "module_source.v",
+      "module_area_top.v"
+    ],
+    "include_files": {
+      "osd_compact_glyphs.vh": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A"
+    },
+    "upstream_source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\osd_palette_equiv_trial\\osd_compact_panel_palette.v",
+    "upstream_sha256": "9F918FEA3BC433F8A1AC646780049585B99CCDA52467DC83B8E1CF1D67CB260E",
+    "only_preparation_source_change": "module declaration renamed to common area DUT",
+    "all_eight_pcb_statuses_and_normal_panel_runtime_dynamic": true,
+    "wrapper_metadata_loading": "112 FF shifted by 32 arbitrary external bits; all input values reachable in four clocks"
+  },
+  "reports": {
+    "module_area_gate.area": {
+      "dut": {
+        "logic_lut": 245,
+        "ripple": 0,
+        "seq": 34,
+        "eram": 0,
+        "dsp": 0
+      },
+      "top_preliminary": {
+        "lut": 360,
+        "reg": 146,
+        "slice*": 260,
+        "eram": 0,
+        "dsp": 0
+      },
+      "sha256": "8E7CE1A9F6B44F31DEE56FC61A2B7EA5C3B401E5B652999F557C29A866BE52F9"
+    },
+    "module_area_after_legalize.area": {
+      "dut": {
+        "logic_lut": 245,
+        "ripple": 0,
+        "seq": 34,
+        "eram": 0,
+        "dsp": 0
+      },
+      "top_preliminary": {
+        "lut": 360,
+        "reg": 146,
+        "mslice": 0,
+        "lslice": 4,
+        "slice*": 260,
+        "eram": 0,
+        "dsp": 0
+      },
+      "sha256": "D3157E7B7D20B2F92E22CA4C2C234A4DB4A15A7BA524FD8E8D59E8757B9049FD"
+    }
+  },
+  "log_sha256": "9925DA09B4C2D9F59D6A0C293D9AE24BC4B4EDE432FC595414ED12331C43FB06",
+  "source_current_matches_copied": true,
+  "hardware_status": "NOT_RUN",
+  "scope": "Isolated gate area only. No full-system timing, placement, capacity or image-quality acceptance."
+}

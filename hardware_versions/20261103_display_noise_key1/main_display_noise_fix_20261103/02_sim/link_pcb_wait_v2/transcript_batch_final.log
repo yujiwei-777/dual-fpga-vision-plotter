@@ -1,0 +1,37 @@
+# vsim -batch -lib sim_work tb_link_pcb_wait -l transcript_batch_final.log -do "onerror {quit -code 2 -f}; run -all; quit -code 0 -f" 
+# Start time: 09:39:56 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_link_pcb_wait(fast)
+# 
+# onerror {quit -code 2 -f}
+# run -all
+# PASS long PCB wait 11s, identity, 250ms heartbeat, wrong session/frame/job, result commit, duplicate Type8 ACK; max_gap_ms=250
+# PASS cached previous-task Type8 ACK during active PCB wait, timer preserved from 25000 to 25000
+# CANCEL ms=43264 reason=12 timer=0
+# PASS PCB 30 second timeout, no premature cancel, frame-only failure elapsed_ms=30000
+# CANCEL ms=44416 reason=5 timer=0
+# PASS mode change cancels active PCB task
+# CANCEL ms=47548 reason=12 timer=0
+# PASS ordinary CNN original 2 second timeout elapsed_ms=2000
+# CANCEL ms=47548 reason=5 timer=0
+# CANCEL ms=51680 reason=4 timer=0
+# PASS real 3 second peer loss cancels/reconnects
+# PASS ALL packet-level PCB compatibility; captures=5 begins=5 full_frames=5 DATA=6400 heartbeats=188 ACK=3 cancels=5
+# ** Note: $finish    : tb_link_pcb_wait.sv(154)
+#    Time: 2584001955 ns  Iteration: 2  Instance: /tb_link_pcb_wait
+# End time: 09:41:53 on Nov 03,2026, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0

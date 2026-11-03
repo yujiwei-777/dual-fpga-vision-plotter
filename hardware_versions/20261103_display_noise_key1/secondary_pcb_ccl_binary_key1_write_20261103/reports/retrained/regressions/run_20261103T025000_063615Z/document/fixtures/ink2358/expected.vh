@@ -1,0 +1,12 @@
+localparam EDGE_COUNT=603;
+localparam PATH_COUNT=30;
+localparam POINT_COUNT=351;
+localparam BASELINE_DISTANCE=104927;
+localparam PLANNED_DISTANCE=27870;
+localparam OPT_PASSES=0;
+localparam LIMIT_EDGES=32768;
+localparam LIMIT_PATHS=2048;
+localparam LIMIT_POINTS=8192;
+localparam EXPECT_ERROR=0;
+localparam GCODE_LINES=417;
+localparam SOURCE_REQUESTS=956416;

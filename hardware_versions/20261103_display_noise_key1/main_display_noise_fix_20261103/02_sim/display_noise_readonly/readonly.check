@@ -1,0 +1,308 @@
+Table of Contents
+-----------------
+1. checking no clock(0) (HIGH)
+2. checking clock definition(0) (HIGH)
+3. checking dummy node(3) (HIGH)
+4. checking invalid constraint(0) (HIGH)
+5. checking pll/clock buffer clock constraints(0) (HIGH)
+6. checking combinational loops(0) (HIGH)
+7. checking soft fifo timing exception constraints(6) (HIGH)
+8. checking no path constraints(4) (MEDIUM)
+9. checking shadowed/ignored timing exception constraints(1) (MEDIUM)
+10. checking no input delay(40) (MEDIUM)
+11. checking no output delay(63) (MEDIUM)
+12. checking partial input delay(1) (MEDIUM)
+13. checking partial output delay(0) (MEDIUM)
+14. checking abnormal input delay(0) (MEDIUM)
+
+
+1. checking nets with no clock driven. (HIGH)
+---------------------------------------------
+2. checking clock definition problems. (HIGH)
+---------------------------------------------
+2.1 There are 0 leaf clock pins driven by multiple clocks. (HIGH)
+
+
+2.2 There are 0 clocks created on internal clock network. (HIGH)
+
+
+2.3 There are 0 unexpandable clock sets. (HIGH)
+
+
+2.4 There are 0 local clocks. (HIGH)
+
+
+2.5 There are 0 generated clocks that are not connected to their master clocks. (HIGH)
+
+
+3. checking dummy nodes. (HIGH)
+---------------------------------------------
+There are 3 nodes are dangling. (HIGH)
+
+DummyNode in Model: NO_MODEL_NAME
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+	pad
+
+DummyNode in Model: PH1P_PHY_HD_PAD
+	IO_cam_sda_syn_2.ts
+
+DummyNode in Model: PH1P_PHY_LSLICE
+	S_board_ddr_px_s1_reg_syn_3.oqb
+	u_main_link/tx/hdr_at_reg[3]_syn_5.ofa
+
+4. checking invalid constraints. (HIGH)
+---------------------------------------------
+There are 0 invalid constraints. (HIGH)
+
+
+5. checking PLL/buffer clocks. (HIGH)
+---------------------------------------------
+PLL/buffer inst: u_PLL/ph1p_phy_pll_wrapper_25a56e5ce2f9_Inst/u_PH1P_PHY_PLL
+{
+	There are 0 clock pins that have no clock constraints. (HIGH)
+
+
+	There are 0 clocks whose clock frequency do not match the PLL setting. (HIGH)
+
+
+}
+
+PLL/buffer inst: u_eth_pll/ph1p_phy_pll_wrapper_d2616deaaa79_Inst/u_PH1P_PHY_PLL
+{
+	There are 0 clock pins that have no clock constraints. (HIGH)
+
+
+	There are 0 clocks whose clock frequency do not match the PLL setting. (HIGH)
+
+
+}
+
+PLL/buffer inst: u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll0/u_pll_inst
+{
+	There are 0 clock pins that have no clock constraints. (HIGH)
+
+
+	There are 0 clocks whose clock frequency do not match the PLL setting. (HIGH)
+
+
+}
+
+PLL/buffer inst: u_ph1p35_324_ddr_wrapper/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_clk/u_pll1/u_pll_inst
+{
+	There are 0 clock pins that have no clock constraints. (HIGH)
+
+
+	There are 0 clocks whose clock frequency do not match the PLL setting. (HIGH)
+
+
+}
+
+6. checking combinational loops. (HIGH)
+---------------------------------------------
+There are 0 combinational loops. (HIGH)
+
+
+7. checking soft fifo set_max_delay constraints. (HIGH)
+---------------------------------------------
+There are 6 max-delay datapath-only paths that are part of the provided async clock paths, whereas the timing between other registers is not relaxed or ignored. (HIGH)
+
+	From Clock: u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout, To Clock: eth_pll_clk_125m, Constraint:  set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700
+	From Clock: eth_pll_clk_125m, To Clock: u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout, Constraint:  set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700
+	From Clock: u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout, To Clock: eth_pll_clk_125m, Constraint:  set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700
+	From Clock: eth_pll_clk_125m, To Clock: u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout, Constraint:  set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700
+	From Clock: u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout, To Clock: eth_pll_clk_125m, Constraint:  set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700
+	From Clock: eth_pll_clk_125m, To Clock: u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout, Constraint:  set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700
+
+8. checking no path constraints. (MEDIUM)
+---------------------------------------------
+There are 4 constraints that have no timing paths. (MEDIUM)
+
+ set_false_path -rise_from [get_clocks {eth_pll_clk_125m_90}] -rise_to [get_clocks {eth_pll_txc_pad}] -setup
+ set_false_path -fall_from [get_clocks {eth_pll_clk_125m_90}] -fall_to [get_clocks {eth_pll_txc_pad}] -setup
+ set_false_path -rise_from [get_clocks {eth_pll_clk_125m_90}] -fall_to [get_clocks {eth_pll_txc_pad}] -hold
+ set_false_path -fall_from [get_clocks {eth_pll_clk_125m_90}] -rise_to [get_clocks {eth_pll_txc_pad}] -hold
+
+9. checking path exception constraints shadowed/ignored by other constraints. (MEDIUM)
+---------------------------------------------
+
+MCP/SMD Summary
+--------------------
+
+		Max Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+		        12           12            0            0   set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700
+		        12           12            0            0   set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700
+		         7            7            0            0   set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700
+		         7            7            0            0   set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700
+		         7            7            0            0   set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700
+		         7            7            0            0   set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700
+		       241          212           29            0   set_max_delay -from [get_regs {u_multibox_cdc/held[*]}] -to [get_regs {u_multibox_cdc/staged[*]}] -datapath_only 13.000
+		         1            1            0            0   set_max_delay -from [get_regs {u_multibox_cdc/req}] -to [get_regs {u_multibox_cdc/req_s1}] -datapath_only 13.000
+		         1            1            0            0   set_max_delay -from [get_regs {u_multibox_cdc/ack}] -to [get_regs {u_multibox_cdc/ack_s1}] -datapath_only 7.700
+		         3            3            0            0   set_max_delay -from [get_regs {u_copy_status_cdc/held[*]}] -to [get_regs {u_copy_status_cdc/staged[*]}] -datapath_only 13.000
+		         1            1            0            0   set_max_delay -from [get_regs {u_copy_status_cdc/req}] -to [get_regs {u_copy_status_cdc/req_s1}] -datapath_only 13.000
+		         1            1            0            0   set_max_delay -from [get_regs {u_copy_status_cdc/ack}] -to [get_regs {u_copy_status_cdc/ack_s1}] -datapath_only 7.700
+		         3            3            0            0   set_max_delay -from [get_regs {u_main_link/online S_sw3_eth S_sw4_eth_s2}] -to [get_regs {u_multibox_cdc/online_s1}] -datapath_only 13.000
+		       150          150            0            0   set_max_delay -from [get_regs {u_result_select/box_hold[*] u_result_select/valid_hold u_result_select/pcb_hold}] -to [get_clocks {HDMI_PIXEL_CLK}] -datapath_only 13.000
+		         1            1            0            0   set_max_delay -from [get_regs {u_result_select/req}] -to [get_regs {u_result_select/req_sync[0]}] -datapath_only 13.000
+		         1            1            0            0   set_max_delay -from [get_regs {u_result_select/ack}] -to [get_regs {u_result_select/ack_sync[0]}] -datapath_only 7.700
+		         2            2            0            0   set_max_delay -from [get_regs {u_main_link/online}] -to [get_regs {S_aux_online_px_s1 u_result_select/online_sync[0]}] -datapath_only 13.000
+		         3            3            0            0   set_max_delay -from [get_regs {u_pcb_status_cdc/held[*]}] -to [get_regs {u_pcb_status_cdc/staged[*]}] -datapath_only 13.000
+		         1            1            0            0   set_max_delay -from [get_regs {u_pcb_status_cdc/req}] -to [get_regs {u_pcb_status_cdc/req_s1}] -datapath_only 13.000
+		         1            1            0            0   set_max_delay -from [get_regs {u_pcb_status_cdc/ack}] -to [get_regs {u_pcb_status_cdc/ack_s1}] -datapath_only 7.700
+
+		Min Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+
+10. checking no input delay (MEDIUM)
+--------------------------
+There are 40 input ports that with no input delay specified. (MEDIUM)
+
+	IO_cam_sda
+	IO_rx_clk_pad_n
+	IO_rx_data_pad_n[3]
+	IO_rx_data_pad_n[2]
+	IO_rx_data_pad_n[1]
+	IO_rx_data_pad_n[0]
+	IO_rx_data_pad_p[3]
+	IO_rx_data_pad_p[2]
+	IO_rx_data_pad_p[1]
+	IO_rx_data_pad_p[0]
+	I_button[3]
+	I_button[2]
+	I_button[1]
+	I_button[0]
+	I_sw1
+	I_sw2
+	I_sw3
+	I_sw4
+	ddr_dm[1]
+	ddr_dm[0]
+	ddr_dq[15]
+	ddr_dq[14]
+	ddr_dq[13]
+	ddr_dq[12]
+	ddr_dq[11]
+	ddr_dq[10]
+	ddr_dq[9]
+	ddr_dq[8]
+	ddr_dq[7]
+	ddr_dq[6]
+	ddr_dq[5]
+	ddr_dq[4]
+	ddr_dq[3]
+	ddr_dq[2]
+	ddr_dq[1]
+	ddr_dq[0]
+	ddr_dqs_n[1]
+	ddr_dqs_n[0]
+	ddr_dqs_p[1]
+	ddr_dqs_p[0]
+
+11. checking no output delay (MEDIUM)
+--------------------------
+There are 63 output ports that with no output delay specified. (MEDIUM)
+
+	IO_cam_sda
+	IO_rx_clk_pad_n
+	IO_rx_clk_pad_p
+	IO_rx_data_pad_n[3]
+	IO_rx_data_pad_n[2]
+	IO_rx_data_pad_n[1]
+	IO_rx_data_pad_n[0]
+	IO_rx_data_pad_p[3]
+	IO_rx_data_pad_p[2]
+	IO_rx_data_pad_p[1]
+	IO_rx_data_pad_p[0]
+	O_cam_rst
+	O_cam_scl
+	O_phy_rst
+	O_tmds_ch0_p
+	O_tmds_ch1_p
+	O_tmds_ch2_p
+	O_tmds_clk_p
+	ddr_addr[12]
+	ddr_addr[11]
+	ddr_addr[10]
+	ddr_addr[9]
+	ddr_addr[8]
+	ddr_addr[7]
+	ddr_addr[6]
+	ddr_addr[5]
+	ddr_addr[4]
+	ddr_addr[3]
+	ddr_addr[2]
+	ddr_addr[1]
+	ddr_addr[0]
+	ddr_ba[1]
+	ddr_ba[0]
+	ddr_cas_n
+	ddr_ck_n[0]
+	ddr_ck_p[0]
+	ddr_cke[0]
+	ddr_cs_n[0]
+	ddr_dm[1]
+	ddr_dm[0]
+	ddr_dq[15]
+	ddr_dq[14]
+	ddr_dq[13]
+	ddr_dq[12]
+	ddr_dq[11]
+	ddr_dq[10]
+	ddr_dq[9]
+	ddr_dq[8]
+	ddr_dq[7]
+	ddr_dq[6]
+	ddr_dq[5]
+	ddr_dq[4]
+	ddr_dq[3]
+	ddr_dq[2]
+	ddr_dq[1]
+	ddr_dq[0]
+	ddr_dqs_n[1]
+	ddr_dqs_n[0]
+	ddr_dqs_p[1]
+	ddr_dqs_p[0]
+	ddr_odt[0]
+	ddr_ras_n
+	ddr_we_n
+
+12. checking partial input delay (MEDIUM)
+--------------------------
+There is 1 input port with partial input delay specified. (MEDIUM)
+
+	IO_rx_clk_pad_p
+
+13. checking partial output delay (MEDIUM)
+--------------------------
+There are 0 output ports with partial output delay specified. (MEDIUM)
+
+
+14. checking abnormal set_input_delay constraints. (MEDIUM)
+---------------------------------------------
+There are 0 abnormal set_input_delay constraints. (MEDIUM)
+
+

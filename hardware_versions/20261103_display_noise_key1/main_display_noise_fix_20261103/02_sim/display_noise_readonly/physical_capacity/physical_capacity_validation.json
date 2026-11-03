@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "errors": [],
+  "expected_slices": 19643,
+  "placed_compatible_unique_slices": 19643,
+  "expected_model_counts": {
+    "PH1P_PHY_LSLICE": 19075,
+    "PH1P_PHY_MSLICE": 568
+  },
+  "placed_model_by_physical_tile": {
+    "PH1P_PHY_LSLICE_in_Pmb": 7015,
+    "PH1P_PHY_LSLICE_in_Plb": 12060,
+    "PH1P_PHY_MSLICE_in_Pmb": 568
+  },
+  "capacities": {
+    "Plb": 13104,
+    "Pmb": 8112
+  },
+  "used": {
+    "Plb": 12060,
+    "Pmb": 7583
+  },
+  "free": {
+    "Plb": 1044,
+    "Pmb": 529
+  },
+  "total_utilization_percent": 92.58578431372548,
+  "named_logic_tile_counts": {
+    "Plb": 1638,
+    "Pmb": 1014
+  },
+  "representative_td_slot_evidence": [
+    {
+      "col": 31,
+      "row": 49,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    },
+    {
+      "col": 15,
+      "row": 64,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    },
+    {
+      "col": 2,
+      "row": 1,
+      "mosaic_type": 3,
+      "slot_type": 158,
+      "slots": 8
+    },
+    {
+      "col": 31,
+      "row": 1,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    },
+    {
+      "col": 9,
+      "row": 1,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    },
+    {
+      "col": 2,
+      "row": 40,
+      "mosaic_type": 3,
+      "slot_type": 158,
+      "slots": 8
+    },
+    {
+      "col": 9,
+      "row": 40,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    }
+  ],
+  "allowed_models": {
+    "Plb": [
+      "PH1P_PHY_LSLICE"
+    ],
+    "Pmb": [
+      "PH1P_PHY_LSLICE",
+      "PH1P_PHY_MSLICE"
+    ]
+  },
+  "official_resource_cross_check": {
+    "official_luts": 21216,
+    "official_dffs": 42432,
+    "official_distributed_ram_kbits": 507,
+    "slots_from_named_device_tiles": 21216,
+    "memory_slots_from_named_device_tiles": 8112
+  },
+  "scope": "Only physical Slice capacity, complete cell correspondence, placement and model/slot compatibility. TD IO/clock/routing/DRC/timing remain separate mandatory checks.",
+  "inputs": {
+    "chip": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\physical_capacity\\ph1_35p_device_dump.txt_chip",
+      "sha256": "5246B3BC13CA653CA3D4058068E10A6323A09E9EB2868F7E2D5680E7E3F6B9D7"
+    },
+    "routing": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\physical_capacity\\ph1_35p_device_dump.txt_connmngr",
+      "sha256": "7A2AABFC3943C9B2703CF1C06B0B1F141970CFA8947E1B617709F52D58FACC1E"
+    },
+    "tile_report": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\physical_capacity\\report_named_tiles.log",
+      "sha256": "46F8550A0C23CD4AF94709B326DFA2252917A3C24EC4C5816A78857600B32E01"
+    },
+    "datasheet": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\physical_capacity\\DS1300_logic_and_dram_excerpt.txt",
+      "sha256": "C3616AB581A42ECFAF5E8DF7AE3A0C149FF108B08C3C7206602C25D07BCE7A52"
+    },
+    "expected_cells": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\expected_slice_cells.tsv",
+      "sha256": "2E2C32BD95BFF2BA38738204C32B6A1422CD31F22322A1978F81631FA06FB074"
+    },
+    "expected_log": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\console_readonly.log",
+      "sha256": "6FF85FC8C6D1FE4389DC760859252830D971DFFD276A956811AD778FE84D0698"
+    },
+    "resource_report": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\physical_capacity\\physical_device_resources.txt",
+      "sha256": "F05A40A3362D448BD25B2E41BDD0F00648158F50BBFC2C435E83A9AF5C5DF395"
+    },
+    "placements": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\readonly.sites.tsv",
+      "sha256": "40C35DC1043485FEFDFC4E8B5A4770F7C28F27EDBA7222B583520BC882B6EDDE"
+    }
+  },
+  "validator_sha256": "16B7496C54FB97F2B9B0746F83A740B04ADF5D04194E6E8A7F7F7D04A9CAEBD2"
+}

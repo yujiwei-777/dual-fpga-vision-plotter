@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "byte_pairs": 65536,
+  "accepted": 8176,
+  "source_sha256": {
+    "close_byte_th16.vh": "2C0A211BC9E13F67A0D2233E95EAA46FE5B2183B811D74198D113B23A939D675",
+    "check_close_byte.py": "E8823E95E403044964C0A96258BB762CFB0FA49743E61A3D37CF24E0AF44A33B"
+  },
+  "rtl_simulation": "NOT_RUN",
+  "td": "NOT_RUN",
+  "scope": "Arithmetic formula verification; production RTL unchanged"
+}

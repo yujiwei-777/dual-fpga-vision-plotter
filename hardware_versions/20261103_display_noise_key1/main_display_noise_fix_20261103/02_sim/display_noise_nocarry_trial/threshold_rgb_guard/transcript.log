@@ -1,0 +1,26 @@
+# vsim -batch -modelsimini D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise_nocarry_trial/modelsim.ini nocarry_lib.tb_display_spatial -gWIDTH=16 -gHEIGHT=6 -gCOUNT=135 "+STIM=D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/threshold_rgb_guard/stim.mem" "+GOLD=D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/threshold_rgb_guard/expected.mem" "+SOURCE=D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/threshold_rgb_guard/source.mem" -do "run -all; quit -f" 
+# Start time: 11:10:11 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_display_spatial(fast)
+# 
+# run -all
+# PASS exhaustive RTL avg2 pairs=65536 TH16_byte_pairs=65536 TH16_rgb_channel_pairs=196608
+# PASS pixel oracle WIDTH=16 HEIGHT=6 cycles=135 valid=96 sof=1 eol=6 all_markers_and_ENABLE0_checked frozen_all_cycles_including_invalid_data_equal
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/tb_display_spatial.sv(75)
+#    Time: 1356 ns  Iteration: 0  Instance: /tb_display_spatial
+# End time: 11:10:13 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

@@ -1,0 +1,82 @@
+{
+  "resolved_memory_references": [
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v",
+      "expression": "ROM_INIT",
+      "literal": "ddrphy_cfg_rom.txt",
+      "reason": "DDRPHY_ROM_INIT is defined as ddrphy_cfg_rom.txt in src/rtl/include/ph1p_mis_define.vh; ph1p_ddrphy_wrapper passes it to ph1p_ddrphy_top, then ph1p_ddrphy_init. The file is also an active IP-XACT file-set input. Verify elaboration log retains ROM_INIT=ddrphy_cfg_rom.txt."
+    }
+  ],
+  "inactive_include_references": [
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "ddr3_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "ddr4_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "../timing/ddr3/ddr3_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv",
+      "include": "../timing/ddr4/ddr4_parameter.vh",
+      "reason": "Inactive vendor branch: active DDR2 IP defines DRAM_DDR2; DRAM_DDR3/DRAM_DDR4 and PH1P_DDRPHY_SIM are not set for synthesis."
+    },
+    {
+      "source": "main/user_source/hdl_source/ph1p35_ddr/ddr2/ph1p_ddrmc_wrapper_63f4ac254419.v",
+      "include": "ph1p_mis_define.vh",
+      "reason": "PH1P_MIS_SIM branch is inactive for synthesis; the else branch uses src/rtl/include/ph1p_mis_define.vh, which is separately hashed."
+    }
+  ],
+  "inactive_memory_references": [],
+  "extra_files": [
+    "04_pin/apply_cdc_exceptions.tcl",
+    "04_pin/apply_reset_exceptions.tcl",
+    "04_pin/clocktrace_sclk/prove_key3_supervisor_clocktrace.tcl",
+    "04_pin/prove_key3_supervisor.tcl",
+    "04_pin/prove_key3_supervisor_clocktrace.tcl",
+    "model/compact/pcb_tinycnn_bias_compact.mem",
+    "model/compact/pcb_tinycnn_first_compact.mem",
+    "model/compact/pcb_tinycnn_next_compact.mem",
+    "model/compact/pcb_tinycnn_taps_compact.mem",
+    "model/compact/pcb_tinycnn_weights_compact.mem",
+    "model/doc_stroke_reference.py",
+    "model/experiments/conv2_8/biases.mem",
+    "model/experiments/conv2_8/weights.mem",
+    "model/experiments/conv4_4/biases.mem",
+    "model/experiments/conv4_4/weights.mem",
+    "model/export/biases.mem",
+    "model/export/quantization.json",
+    "model/export/weights.mem",
+    "model/fullboard/biases.mem",
+    "model/fullboard/weights.mem",
+    "model/goodonly/coarse_engine_rom.mem",
+    "model/goodonly/combined_geometry_warp_outline_rom_2048.mem",
+    "model/goodonly/workspace_bank0_init.mem",
+    "model/goodonly/workspace_bank1_init.mem",
+    "model/pcb_tinycnn_bias.mem",
+    "model/pcb_tinycnn_first.mem",
+    "model/pcb_tinycnn_next.mem",
+    "model/pcb_tinycnn_taps.mem",
+    "model/pcb_tinycnn_weights.mem",
+    "model/pose7_96x96/CALIBRATION.json",
+    "model/pose7_96x96/EVALUATION_FRAMES.json",
+    "model/pose7_96x96/FROZEN_SHA256.json",
+    "model/pose7_96x96/INTEGER_GOLDEN_VECTORS.npz",
+    "model/pose7_96x96/MODEL.json",
+    "model/pose7_96x96/NORMAL_STRESS_FRAMES.json",
+    "model/pose7_96x96/biases.mem",
+    "model/pose7_96x96/encoder_integer.npz",
+    "model/pose7_96x96/feature_centre.mem",
+    "model/pose7_96x96/feature_tolerance.mem",
+    "model/pose7_96x96/good_statistics.npz",
+    "model/pose7_96x96/orientation_reference.mem",
+    "model/pose7_96x96/weights.mem"
+  ]
+}

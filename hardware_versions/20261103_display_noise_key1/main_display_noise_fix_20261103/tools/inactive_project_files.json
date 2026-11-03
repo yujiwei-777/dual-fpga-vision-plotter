@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "baseline_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101",
+  "project_autoexcluded_entries": [
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/roi_sampler_720p.v",
+      "baseline_exists": true,
+      "baseline_sha256": "36B46BB73CBEBF6CD54628ABDB9F78DF58DC625917AA37B7245EBA233FB76818",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "28"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/image_correction.v",
+      "baseline_exists": true,
+      "baseline_sha256": "6BF43322799BD1B4A727F0571EAE2224FCB4C1F8C72575CF005F0B3E56BD2DF8",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "39"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/uiisp_beta/ae_set.v",
+      "baseline_exists": true,
+      "baseline_sha256": "B4E7084ED794855892132214CFF9D063C2C0702A19147D291BD6B1D7F9F7D87B",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "45"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/edge_detect_96.v",
+      "baseline_exists": true,
+      "baseline_sha256": "36D1E1CF697CCDBB28EC4EE98BCDA446ABF7B05EF4A3C907F8143F772D58E57B",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "58"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+      "baseline_exists": true,
+      "baseline_sha256": "F22F85D0AB26C4E7C402B0DDD2D25A6F4BE852994226ADD50A2850F732EFF43F",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "85"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+      "baseline_exists": true,
+      "baseline_sha256": "38769F122B452F1ABA2CC9F69E59669B5BFD01CE27A6E1BD67082EDCE28EBDB5",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "87"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+      "baseline_exists": true,
+      "baseline_sha256": "30374E9D9D21743A484084E3F1AD48DC12230883E890E5B37E79B1CD13A2C8A2",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "88"
+      },
+      "section": "Verilog"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/blk_mem_gen_awb_delay_signal.xml",
+      "baseline_exists": true,
+      "baseline_sha256": "2A4036C207EE38A5CC415E9DF729333F00B82072C774AC911EB71A8855BCD423",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "17"
+      },
+      "section": "IP_FILE"
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/divider/divider.ipc",
+      "baseline_exists": true,
+      "baseline_sha256": "6C8D11F165ACA0D4818325452B554EF11C11FF618E2E99473B50AF32745AFA62",
+      "attributes": {
+        "AutoExcluded": "true",
+        "UsedInSyn": "true",
+        "UsedInP&R": "true",
+        "BelongTo": "design_1",
+        "CompileOrder": "18"
+      },
+      "section": "IP_FILE"
+    }
+  ],
+  "files": [
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uimdio_ctr.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\ethernet\\uimdio_ctr.v",
+      "sha256": "F22F85D0AB26C4E7C402B0DDD2D25A6F4BE852994226ADD50A2850F732EFF43F",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uirgmii_rx.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\ethernet\\uirgmii_rx.v",
+      "sha256": "38769F122B452F1ABA2CC9F69E59669B5BFD01CE27A6E1BD67082EDCE28EBDB5",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/ethernet/uirgmii_tx.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\ethernet\\uirgmii_tx.v",
+      "sha256": "30374E9D9D21743A484084E3F1AD48DC12230883E890E5B37E79B1CD13A2C8A2",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/image_correction.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\image_correction.v",
+      "sha256": "6BF43322799BD1B4A727F0571EAE2224FCB4C1F8C72575CF005F0B3E56BD2DF8",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/edge_detect_96.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\edge_detect_96.v",
+      "sha256": "36D1E1CF697CCDBB28EC4EE98BCDA446ABF7B05EF4A3C907F8143F772D58E57B",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/isp/roi_sampler_720p.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\roi_sampler_720p.v",
+      "sha256": "36B46BB73CBEBF6CD54628ABDB9F78DF58DC625917AA37B7245EBA233FB76818",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/hdl_source/uiisp_beta/ae_set.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\uiisp_beta\\ae_set.v",
+      "sha256": "B4E7084ED794855892132214CFF9D063C2C0702A19147D291BD6B1D7F9F7D87B",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/.m_params_blk_mem_gen_awb_delay_signal.txt",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\.m_params_blk_mem_gen_awb_delay_signal.txt",
+      "sha256": "C712F469BF120EA38E3D1C91D2D6AAE1DD5CA658B26A5CE5DBDB9CC7370EB8DD",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/.params_blk_mem_gen_awb_delay_signal.txt",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\.params_blk_mem_gen_awb_delay_signal.txt",
+      "sha256": "E9157F46121A253584F414D5A95B56A1BDBC958EE45C6CC053CD195AD021D7EA",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/.ports_blk_mem_gen_awb_delay_signal.txt",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\.ports_blk_mem_gen_awb_delay_signal.txt",
+      "sha256": "ED060B0A8F1216F9389653E982879185B21022C48DD226DA197A76315F1A2A46",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/blk_mem_gen_awb_delay_signal.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\blk_mem_gen_awb_delay_signal.v",
+      "sha256": "7CAB7914392384BCC93A3DAEFE1DC038FC5CD88AC8F4306532FABB71740DA93E",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/blk_mem_gen_awb_delay_signal.xml",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\blk_mem_gen_awb_delay_signal.xml",
+      "sha256": "2A4036C207EE38A5CC415E9DF729333F00B82072C774AC911EB71A8855BCD423",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/Design.xml",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\Design.xml",
+      "sha256": "E436F92F4C57A127CFF592927C58DCEC6901816CCD324D6A394DEC3CDD1EF527",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/DesignConfiguration.xml",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\DesignConfiguration.xml",
+      "sha256": "FBD224D860D857522661F5DDE1710438D95FF685832A1D61F39B8B77BD005F0B",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/blk_mem_gen_awb_delay_signal/ram_f84573da5ab5.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\blk_mem_gen_awb_delay_signal\\ram_f84573da5ab5.v",
+      "sha256": "2DCDA5EDBC2764E38137BF47B9AA0ED601DCAD32B150E5F135036AE92308A94B",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/divider/divider.ipc",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\divider\\divider.ipc",
+      "sha256": "6C8D11F165ACA0D4818325452B554EF11C11FF618E2E99473B50AF32745AFA62",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    },
+    {
+      "path": "01_rtl/imgq_gain_m/main/user_source/ip_source/divider/divider_gate.v",
+      "baseline_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\user_source\\ip_source\\divider\\divider_gate.v",
+      "sha256": "9F7DDAB1D4AA3419C81061C3F14448B1475D22AAB02492B9BB67CA6A5842EE7D",
+      "kind": "inactive_project_file_or_support",
+      "active": false
+    }
+  ],
+  "file_count": 17,
+  "scope": "Read-only baseline AutoExcluded project entries and their ordinary IP support files. Preserved AutoExcluded=true; never treated as synthesis-active HDL. Manifest is frozen as an extra, and file hashes checked independently without parsing inactive RTL.",
+  "generated_utc": "2026-11-03T01:53:55.375103+00:00"
+}

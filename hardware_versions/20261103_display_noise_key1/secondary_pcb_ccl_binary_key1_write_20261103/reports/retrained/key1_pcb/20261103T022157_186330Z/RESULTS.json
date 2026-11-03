@@ -1,0 +1,82 @@
+{
+  "status": "FAIL",
+  "generated_utc": "2026-11-03T02:21:59.064674+00:00",
+  "hardware": "NOT_RUN",
+  "physical_synthesis_route": "NOT_RUN",
+  "scope": [
+    "Actual secondary_top report/cache/admission always block with the production KEY1 debounce and key1 job guard.",
+    "CNN, PCB, reporter, DDR, HXA, Ethernet and transport datapath leaves are controlled interfaces.",
+    "Checks delayed PCB report, PCB snapshot replacement, KEY1 single admission, CNN purpose behavior, no-target, cancel/KEY4 invalidation and explicit Type20 independence."
+  ],
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\key1_pcb\\20261103T022157_186330Z\\current_top_leaf_interfaces.sv": "18AC42FDA7910546C828D7498E1B38EED61F013D220E716C4AA6E96025117042",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v": "7D5F97B2EC9ECBA85635A7673D67B74C4EF0C6DE01E9B5BB6D4F5AB6949778CD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\tb_pcb_key1_report.sv": "3303550298198F2E12093CC2A982BC1C8B61CA1AA88CEEA93233B8455E1DDCB7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\ethernet\\pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\ip_source\\PLL\\PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\ethernet\\uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_uart.v": "56182E34F94F7A596D7B315C3EAA72438ECBFD551B661515FFE57572891DDE01",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_reporter_shared_candidate.v": "CDA9B8E7F246B045E25C82C7D6E20D043D5E3C638E6229888708ADC2FC9CC8EF",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_copy_pipeline_shared_candidate.v": "7B9E41D7996CCB42377FDEBF0FC89C29A57A95C9583CF507F1F8EB6C62011A68",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\ethernet\\rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\run_pcb_key1_regression.py": "7343CC0CC6076103E0224B7A5763C6AC37CCECF8B1D5A1551B52C514DEE6582E"
+  },
+  "commands": [
+    {
+      "label": "vlib",
+      "argv": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\key1_pcb\\20261103T022157_186330Z\\key1_pcb_lib"
+      ],
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\key1_pcb\\20261103T022157_186330Z\\vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "label": "lint",
+      "argv": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\key1_pcb\\20261103T022157_186330Z\\key1_pcb_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\key1_pcb\\20261103T022157_186330Z\\current_top_leaf_interfaces.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\tb_pcb_key1_report.sv"
+      ],
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\key1_pcb\\20261103T022157_186330Z\\lint.log",
+      "log_sha256": "A90FA513D43B32569F33FA644A51389EBB6768BFE63C506F9926D225F15DF21A"
+    },
+    {
+      "label": "simulation",
+      "argv": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "key1_pcb_lib",
+        "tb_pcb_key1_report",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "returncode": 0,
+      "status": "FAIL",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\key1_pcb\\20261103T022157_186330Z\\simulation.log",
+      "log_sha256": "673118C8F5420F840E51A562B804F53BC5D35D5C232BCB91C815997798198746"
+    }
+  ],
+  "simulation_records": [],
+  "error": "simulation failed; see D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\key1_pcb\\20261103T022157_186330Z\\simulation.log\nor port 'O_phy_rst'.\n# ** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'O_rgmii_txc'.\n# ** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.\n# ** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'O_rgmii_txd'.\n# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=21.\n# //  ModelSim SE-64 2020.4 Oct 13 2020\n# //\n# //  Copyright 1991-2020 Mentor Graphics Corporation\n# //  All Rights Reserved.\n# //\n# //  ModelSim SE-64 and its associated documentation contain trade\n# //  secrets and commercial or financial information that are the property of\n# //  Mentor Graphics Corporation and are privileged, confidential,\n# //  and exempt from disclosure under the Freedom of Information Act,\n# //  5 U.S.C. Section 552. Furthermore, this information\n# //  is prohibited from disclosure under the Trade Secrets Act,\n# //  18 U.S.C. Section 1905.\n# //\n# \n# onerror {quit -code 1}\n# onbreak {quit -code 2}\n# run -all\n# PASS KEY1 without a fresh PCB result does not start writing\n# PASS same-cycle KEY1 waits for the just-completed PCB snapshot\n# PASS PCB PASS is cached after completed inference\n# PASS PCB completion does not start writing before local KEY1\n# PASS new PCB result atomically replaces older pending snapshot\n# FAIL KEY1 admits the exact latched PCB FAIL snapshot\n# FAIL accepted local PCB report enters protected report path\n# FAIL additional KEY1 press cannot duplicate active PCB report\n# PASS explicit Type20 report trigger remains independent of local KEY1 mode gate\n# PASS starting a non-PCB task clears stale PCB snapshot\n# PASS returning to PCB purpose cannot write a prior-mode result\n# PASS no-target result invalidates prior PCB snapshot\n# PASS KEY1 after no target does not write stale PCB data\n# PASS PCB REVIEW result remains a reportable snapshot\n# PASS explicit task cancel clears pending PCB result\n# PASS KEY4 clears pending PCB result\n# PASS ordinary CNN cache still captures class and confidence\n# PASS CNN purpose KEY1 still writes the cached CNN report\n# ** Fatal: PCB_KEY1_REPORT_FAIL checks=18 errors=3\n#    Time: 1045 ns  Scope: tb_pcb_key1_report File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/tb_pcb_key1_report.sv Line: 162\n# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/tb_pcb_key1_report.sv(162)\n#    Time: 1045 ns  Iteration: 0  Instance: /tb_pcb_key1_report\n# End time: 10:21:58 on Nov 03,2026, Elapsed time: 0:00:01\n# Errors: 1, Warnings: 21\n"
+}

@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 09:39:56 on Nov 03,2026
+vlog -sv -work D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\link_legacy_regression_v2\msim_link_legacy -l link_legacy_compile.log D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\01_rtl\imgq_gain_m\shared\rtl\hxa_packet_codec.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\01_rtl\imgq_gain_m\shared\rtl\hxa_main_link.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\link_legacy_regression_v2\tb_hxa_main_stability.sv D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\link_legacy_regression_v2\tb_hxa_main_startup_regression.sv D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\link_legacy_regression_v2\tb_hxa_main_document_type15.sv 
+-- Compiling module hxa_packet_tx
+-- Compiling module hxa_packet_rx
+-- Compiling module hxa_main_link
+-- Compiling module tb_hxa_main_stability
+-- Compiling module tb_hxa_main_startup_regression
+-- Compiling module tb_hxa_main_document_type15
+
+Top level modules:
+	tb_hxa_main_stability
+	tb_hxa_main_startup_regression
+	tb_hxa_main_document_type15
+End time: 09:39:56 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

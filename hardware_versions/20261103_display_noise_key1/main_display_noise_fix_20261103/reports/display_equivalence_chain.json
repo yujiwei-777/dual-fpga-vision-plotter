@@ -1,0 +1,673 @@
+{
+  "passed": true,
+  "errors": [],
+  "stages": {
+    "combined": {
+      "status": "PASS",
+      "candidate_sha256": "B680381A4307D79BC6B259A8B33C177E5F2CD59120FF38EE902BC691438C20A0",
+      "frozen_product_sha256": "9FE7A1A5323340F854B312C1BBC33D72351D8065551878FA3A93A19469CF80EE",
+      "frozen_only_change": "module name",
+      "reference_sha256": "8C5BB22686DB26CFDB2F1C256038AEBC42C01E4FD01F652194700307FEAA5609",
+      "source_sha256": {
+        "a4_display_spatial_combined.v": "B680381A4307D79BC6B259A8B33C177E5F2CD59120FF38EE902BC691438C20A0",
+        "a4_display_spatial_frozen.v": "2E779470A2907424A3F77BDB9F7C4571DD4E6409D4EAEBBF4C1F789AE0C16A7F",
+        "tb_display_spatial.sv": "C16932D3FBA8B56A3B61468DA821E42C9DD4484CA95D69CA8578CBB434AAD13B",
+        "run_combined.ps1": "4592D091714B2EFAA7FEE5FCE095A61C522377113BABA66F1957B0A93787FD35",
+        "summarize_combined.py": "205DAE5946FDF39F3D0989FB83BC068D56D3CC101CF6CDDDAC6B324BDEA960BC",
+        "vectors_manifest.json": "A39547599A1B5D798DF95F7B3D15CEE508B55B53CE77A1EBF7824C5020A2258D",
+        "prove_control.py": "9826E8DC9B989DD3E11A3775B5A09C0099ED02F15695AD115552ACABB471EDD5",
+        "control_invariant.json": "F7B70C02321DAFA36CD3A527E24A5053B1AEA78D5C538C285A43B1D487064DD3"
+      },
+      "compile_sha256": "C2BDEDC12B1F7EF5728F105BF1651E17928D016C38677592392FD4CFC3533B45",
+      "cases": [
+        {
+          "name": "flat_noise",
+          "width": 128,
+          "height": 64,
+          "cycles": 9623,
+          "valid_pixels": 8192,
+          "sof": 1,
+          "eol": 64,
+          "transcript_sha256": "ECDF7726714554BD89B61EB56F9FAD30A257EB22F283168E23C8C88E648EF27F",
+          "status": "PASS",
+          "tags": [
+            "independent_rgb_noise",
+            "de_gaps",
+            "nonrecursive"
+          ]
+        },
+        {
+          "name": "strong_edges",
+          "width": 32,
+          "height": 12,
+          "cycles": 2230,
+          "valid_pixels": 1920,
+          "sof": 5,
+          "eol": 60,
+          "transcript_sha256": "75DC3C4348A1EC378F084418B44A818A2A2F268AAF9B0D5C5C9A93D02BF8D556",
+          "status": "PASS",
+          "tags": [
+            "horizontal",
+            "vertical",
+            "diagonal",
+            "one_pixel_line",
+            "checkerboard",
+            "back_to_back_frames"
+          ]
+        },
+        {
+          "name": "rgb8_range",
+          "width": 5,
+          "height": 3,
+          "cycles": 3846,
+          "valid_pixels": 3840,
+          "sof": 256,
+          "eol": 768,
+          "transcript_sha256": "7BA3523B035AE12341E23FCD8431C01F0DDF3517DFDDAA44E32A809F389B600F",
+          "status": "PASS",
+          "tags": [
+            "all_256_values",
+            "no_bit_clear",
+            "no_quantization",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "threshold_rgb_guard",
+          "width": 16,
+          "height": 6,
+          "cycles": 135,
+          "valid_pixels": 96,
+          "sof": 1,
+          "eol": 6,
+          "transcript_sha256": "9D91F16F6EAF8832761FF6107BB05741BDBEE90C83E961207C2A7D7CC5FA6CAF",
+          "status": "PASS",
+          "tags": [
+            "threshold_16_inclusive",
+            "threshold_17_reject",
+            "three_channel_guard"
+          ]
+        },
+        {
+          "name": "geometry_1x1",
+          "width": 1,
+          "height": 1,
+          "cycles": 20,
+          "valid_pixels": 4,
+          "sof": 4,
+          "eol": 4,
+          "transcript_sha256": "1D6CAB27B5A06A228FD18C167D6E5617609AB89346AEF923BD40B5BE451A52EE",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "geometry_1x7",
+          "width": 1,
+          "height": 7,
+          "cycles": 64,
+          "valid_pixels": 22,
+          "sof": 4,
+          "eol": 22,
+          "transcript_sha256": "1BAEF6C2165904B7A662D7AA0EE0BCB7169C74278EA1DF7B97169F4DECBF774E",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "geometry_2x5",
+          "width": 2,
+          "height": 5,
+          "cycles": 67,
+          "valid_pixels": 32,
+          "sof": 4,
+          "eol": 16,
+          "transcript_sha256": "9DEDD3EA773FE06BB381A586E9E276A62732828E8D0A81744217F2D2C750451F",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "geometry_7x1",
+          "width": 7,
+          "height": 1,
+          "cycles": 45,
+          "valid_pixels": 28,
+          "sof": 4,
+          "eol": 4,
+          "transcript_sha256": "CF2AA1768628190EBCC2F28AEAD99ED78CD17D820D635583494B1E4F3B0A5798",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "geometry_7x5",
+          "width": 7,
+          "height": 5,
+          "cycles": 156,
+          "valid_pixels": 112,
+          "sof": 4,
+          "eol": 16,
+          "transcript_sha256": "098AEB0ADFDF79838A2025DAC87F89A07EC929FEEFF3A6A4C787A730777CCF97",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "malformed_reentry",
+          "width": 8,
+          "height": 4,
+          "cycles": 131,
+          "valid_pixels": 93,
+          "sof": 4,
+          "eol": 11,
+          "transcript_sha256": "BDD7897EAC08963A9C21EE27A255FB7995754181D59CAC1EB064AC0EB75E7571",
+          "status": "PASS",
+          "tags": [
+            "early_eol",
+            "missing_eol",
+            "abrupt_sof",
+            "held_sof",
+            "no_sof_after_eof",
+            "no_stale_ram"
+          ]
+        },
+        {
+          "name": "full_720p",
+          "width": 1280,
+          "height": 720,
+          "cycles": 1843206,
+          "valid_pixels": 1843200,
+          "sof": 2,
+          "eol": 1440,
+          "transcript_sha256": "80BC65826A89A0090433BC28504E28434798A554E7D78921AA045CEE8E3CB869",
+          "status": "PASS",
+          "tags": [
+            "1280x720",
+            "1843200_pixels",
+            "source_row_not_filtered",
+            "back_to_back_frames",
+            "final_row_no_drain"
+          ]
+        }
+      ],
+      "total_cycles": 1859523,
+      "total_valid_pixels": 1857539,
+      "rtl_avg2_exhaustive_pairs_per_case": 65536,
+      "control_invariant": {
+        "status": "PASS",
+        "check": "Exhaust all reachable x/y/frame/row/pipeline control states and arbitrary de/user/last combinations; reset returns to the included initial state.",
+        "cases": [
+          {
+            "width": 1,
+            "height": 2,
+            "reachable_states": 9,
+            "transitions": 72,
+            "unmasked_collisions": 2,
+            "explicit_forwarding_required": true
+          },
+          {
+            "width": 1,
+            "height": 7,
+            "reachable_states": 39,
+            "transitions": 312,
+            "unmasked_collisions": 12,
+            "explicit_forwarding_required": true
+          },
+          {
+            "width": 2,
+            "height": 1,
+            "reachable_states": 8,
+            "transitions": 64,
+            "unmasked_collisions": 0,
+            "explicit_forwarding_required": false
+          },
+          {
+            "width": 2,
+            "height": 2,
+            "reachable_states": 22,
+            "transitions": 176,
+            "unmasked_collisions": 0,
+            "explicit_forwarding_required": false
+          },
+          {
+            "width": 2,
+            "height": 5,
+            "reachable_states": 64,
+            "transitions": 512,
+            "unmasked_collisions": 0,
+            "explicit_forwarding_required": false
+          },
+          {
+            "width": 3,
+            "height": 3,
+            "reachable_states": 57,
+            "transitions": 456,
+            "unmasked_collisions": 0,
+            "explicit_forwarding_required": false
+          },
+          {
+            "width": 7,
+            "height": 1,
+            "reachable_states": 33,
+            "transitions": 264,
+            "unmasked_collisions": 0,
+            "explicit_forwarding_required": false
+          },
+          {
+            "width": 7,
+            "height": 5,
+            "reachable_states": 249,
+            "transitions": 1992,
+            "unmasked_collisions": 0,
+            "explicit_forwarding_required": false
+          },
+          {
+            "width": 16,
+            "height": 6,
+            "reachable_states": 708,
+            "transitions": 5664,
+            "unmasked_collisions": 0,
+            "explicit_forwarding_required": false
+          }
+        ]
+      },
+      "comparison": "Every cycle: RGB and all five markers, including invalid RGB; reject X. Independent integer oracle on active pixels; ENABLE=0 identity.",
+      "production_changed": false,
+      "td_run": false,
+      "board_validation": "NOT_RUN"
+    },
+    "nocarry": {
+      "status": "PASS",
+      "candidate_sha256": "CD72245FA5CF73F16F35C2F655E5F13DD5F4949D14D258A7B99F9179AA219696",
+      "frozen_product_sha256": "B680381A4307D79BC6B259A8B33C177E5F2CD59120FF38EE902BC691438C20A0",
+      "frozen_only_change": "module name",
+      "reference_sha256": "8C5BB22686DB26CFDB2F1C256038AEBC42C01E4FD01F652194700307FEAA5609",
+      "source_sha256": {
+        "a4_display_spatial_nocarry.v": "CD72245FA5CF73F16F35C2F655E5F13DD5F4949D14D258A7B99F9179AA219696",
+        "a4_display_spatial_frozen.v": "EC677A41C33D14E45B77377F810C4618CEF39A296450B2F0054FDCAED8058D04",
+        "close_byte_th16.vh": "2C0A211BC9E13F67A0D2233E95EAA46FE5B2183B811D74198D113B23A939D675",
+        "check_close_byte.py": "E8823E95E403044964C0A96258BB762CFB0FA49743E61A3D37CF24E0AF44A33B",
+        "close_byte_check.json": "DE23A4C38425CC50DD2D6AF4A6E677629B5CF867BAB7FF6269B2FEB4093F7301",
+        "ARITHMETIC_REVIEW.md": "AE8139E4A7B24C454E5FA9C1926BA2C22A1F0EEEFC22CD85F9C150EED141ADC5",
+        "prepare_trial.py": "1DF499B99E1924029AC02F59A8B63249C505AC7B77FEF39C482F7611F76F771C",
+        "tb_display_spatial.sv": "A81FB1AA83A87BDEB4F7FEE13A8927B8B6671B0F378BCD46215F37D54277993B",
+        "run_nocarry.ps1": "89A60A729715133FCBD32C409E19E6A05AE6FB2AB664A68424A20FDF73FA6ED6",
+        "vectors_manifest.json": "EEAF74B6D5A4F7DF38E4721EAD02F4D8796633CCAB82528D5D69B9245DF4629B",
+        "summarize_nocarry.py": "5F7676797D118BE476E05B8E2882D391CE6D15E7307A1A2B8120BD8EC1E8145B"
+      },
+      "compile_sha256": "324C81BD0FE02BFB668B28FD5FB662B10BB35139885ECBFED7EDAB7AD8CFF3FC",
+      "cases": [
+        {
+          "name": "flat_noise",
+          "width": 128,
+          "height": 64,
+          "cycles": 9623,
+          "valid_pixels": 8192,
+          "sof": 1,
+          "eol": 64,
+          "transcript_sha256": "17F78A23898869BF6BCDDE807CCD0DB3674BCF4EE3334063739D1ABF6C6ACBCE",
+          "status": "PASS",
+          "tags": [
+            "independent_rgb_noise",
+            "de_gaps",
+            "nonrecursive"
+          ]
+        },
+        {
+          "name": "strong_edges",
+          "width": 32,
+          "height": 12,
+          "cycles": 2230,
+          "valid_pixels": 1920,
+          "sof": 5,
+          "eol": 60,
+          "transcript_sha256": "E4872F4BD576149F62A2F0CCF6D30407FDB06E1943234F042AEA97F9D0E24C2D",
+          "status": "PASS",
+          "tags": [
+            "horizontal",
+            "vertical",
+            "diagonal",
+            "one_pixel_line",
+            "checkerboard",
+            "back_to_back_frames"
+          ]
+        },
+        {
+          "name": "rgb8_range",
+          "width": 5,
+          "height": 3,
+          "cycles": 3846,
+          "valid_pixels": 3840,
+          "sof": 256,
+          "eol": 768,
+          "transcript_sha256": "E458D0435C8C6A11E8C00EA92B067E5F97775B0FE15EAFB82EE456737FD92D29",
+          "status": "PASS",
+          "tags": [
+            "all_256_values",
+            "no_bit_clear",
+            "no_quantization",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "threshold_rgb_guard",
+          "width": 16,
+          "height": 6,
+          "cycles": 135,
+          "valid_pixels": 96,
+          "sof": 1,
+          "eol": 6,
+          "transcript_sha256": "F32586B16E654AF946CFA4D113DD7ECA02993DD94FF15E56E32DE8A3675F610E",
+          "status": "PASS",
+          "tags": [
+            "threshold_16_inclusive",
+            "threshold_17_reject",
+            "three_channel_guard"
+          ]
+        },
+        {
+          "name": "geometry_1x1",
+          "width": 1,
+          "height": 1,
+          "cycles": 20,
+          "valid_pixels": 4,
+          "sof": 4,
+          "eol": 4,
+          "transcript_sha256": "759325759F605BA6222046552EBBFD73CE309F571135ABA3B19585686B8672AB",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "geometry_1x7",
+          "width": 1,
+          "height": 7,
+          "cycles": 64,
+          "valid_pixels": 22,
+          "sof": 4,
+          "eol": 22,
+          "transcript_sha256": "7CE74649DC09FB657F455E3EC1C444D0FE25C5B5B138A2D3216BBDE1E2197083",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "geometry_2x5",
+          "width": 2,
+          "height": 5,
+          "cycles": 67,
+          "valid_pixels": 32,
+          "sof": 4,
+          "eol": 16,
+          "transcript_sha256": "F5AA7E2755525B79C8AC26847587DF4D20F77258A2F74759D14C6B109102E82F",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "geometry_7x1",
+          "width": 7,
+          "height": 1,
+          "cycles": 45,
+          "valid_pixels": 28,
+          "sof": 4,
+          "eol": 4,
+          "transcript_sha256": "54C88C021DA3FDD5E5AC17411D89258A1F55F7AF8477BA197046EEB46199EB9A",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "geometry_7x5",
+          "width": 7,
+          "height": 5,
+          "cycles": 156,
+          "valid_pixels": 112,
+          "sof": 4,
+          "eol": 16,
+          "transcript_sha256": "E1A4EA3DF920AA50028D79013FA282CAE282B689459DA5E36FFD981157ED762F",
+          "status": "PASS",
+          "tags": [
+            "ram_collision",
+            "reset",
+            "isolated_sof",
+            "first_last_row_column"
+          ]
+        },
+        {
+          "name": "malformed_reentry",
+          "width": 8,
+          "height": 4,
+          "cycles": 131,
+          "valid_pixels": 93,
+          "sof": 4,
+          "eol": 11,
+          "transcript_sha256": "87CE4808C7F9B13B2CB99E1FA54BA8ADE2285AB90D6AF34349440CB37663E8D7",
+          "status": "PASS",
+          "tags": [
+            "early_eol",
+            "missing_eol",
+            "abrupt_sof",
+            "held_sof",
+            "no_sof_after_eof",
+            "no_stale_ram"
+          ]
+        },
+        {
+          "name": "full_720p",
+          "width": 1280,
+          "height": 720,
+          "cycles": 1843206,
+          "valid_pixels": 1843200,
+          "sof": 2,
+          "eol": 1440,
+          "transcript_sha256": "2BEB94012BC42638D93CEEE249F9F092A042E611E28E0E1D76AF94ED2670EB17",
+          "status": "PASS",
+          "tags": [
+            "1280x720",
+            "1843200_pixels",
+            "source_row_not_filtered",
+            "back_to_back_frames",
+            "final_row_no_drain"
+          ]
+        }
+      ],
+      "total_cycles": 1859523,
+      "total_valid_pixels": 1857539,
+      "per_case_exhaustive_rtl": {
+        "avg2_byte_pairs": 65536,
+        "th16_byte_pairs": 65536,
+        "th16_rgb_channel_pairs": 196608
+      },
+      "independent_python_byte_pairs": 65536,
+      "accepted_byte_pairs": 8176,
+      "implementation": "Boolean high-nibble equal/nonwrapping adjacent relations and explicit Boolean low-nibble ordering; threshold16 only. Same avg2, state, RAM and pipeline as frozen V5.",
+      "comparison": "Every cycle: RGB and all five markers including invalid RGB; no unknown output. Active output checked against unchanged integer oracle; ENABLE=0 identity.",
+      "production_changed_during_trial": false,
+      "board_validation": "NOT_RUN",
+      "physical_resources": "Measure separately; no resource claim follows from Boolean source alone."
+    }
+  },
+  "evidence": {
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/a4_display_spatial_h1.v": "CD72245FA5CF73F16F35C2F655E5F13DD5F4949D14D258A7B99F9179AA219696",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/reports/attempt4_rtl/a4_display_spatial_h1.v": "9FE7A1A5323340F854B312C1BBC33D72351D8065551878FA3A93A19469CF80EE",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/reports/attempt5_rtl/a4_display_spatial_h1.v": "B680381A4307D79BC6B259A8B33C177E5F2CD59120FF38EE902BC691438C20A0",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/model/display_spatial_reference.py": "8C5BB22686DB26CFDB2F1C256038AEBC42C01E4FD01F652194700307FEAA5609",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/verification.json": "D9BE9654EDA2154ED64C8B966BDBBBF30770729818D4E462D5E7DCC3994977DE",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/a4_display_spatial_combined.v": "B680381A4307D79BC6B259A8B33C177E5F2CD59120FF38EE902BC691438C20A0",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/a4_display_spatial_frozen.v": "2E779470A2907424A3F77BDB9F7C4571DD4E6409D4EAEBBF4C1F789AE0C16A7F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/tb_display_spatial.sv": "C16932D3FBA8B56A3B61468DA821E42C9DD4484CA95D69CA8578CBB434AAD13B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/run_combined.ps1": "4592D091714B2EFAA7FEE5FCE095A61C522377113BABA66F1957B0A93787FD35",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/summarize_combined.py": "205DAE5946FDF39F3D0989FB83BC068D56D3CC101CF6CDDDAC6B324BDEA960BC",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/vectors_manifest.json": "A39547599A1B5D798DF95F7B3D15CEE508B55B53CE77A1EBF7824C5020A2258D",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/prove_control.py": "9826E8DC9B989DD3E11A3775B5A09C0099ED02F15695AD115552ACABB471EDD5",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/control_invariant.json": "F7B70C02321DAFA36CD3A527E24A5053B1AEA78D5C538C285A43B1D487064DD3",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/compile.log": "C2BDEDC12B1F7EF5728F105BF1651E17928D016C38677592392FD4CFC3533B45",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/flat_noise/stim.mem": "8A44171D65F3808E56D2FAA49531184D94F5FC2045B04ECB7CEB376F8B6A2B35",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/flat_noise/expected.mem": "47D2B2D7FD5446CE974690DAD00DAB68D6AABB2E394952B807AB250024A8F167",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/flat_noise/source.mem": "314A31E99F80F57B2C8A8EAEF752F2612721FF207649B1069C19744BA3D6BA78",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/flat_noise/transcript.log": "ECDF7726714554BD89B61EB56F9FAD30A257EB22F283168E23C8C88E648EF27F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/strong_edges/stim.mem": "9DBBD41D3AC27C6333C476C230050B6EBB655BF9F1A1F3FEBE60F585F34D074F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/strong_edges/expected.mem": "15D59A395590A2691A8AFB5399D160B6DE3C80FF22B25D7F98B3C3F7F22D322B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/strong_edges/source.mem": "15D59A395590A2691A8AFB5399D160B6DE3C80FF22B25D7F98B3C3F7F22D322B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/strong_edges/transcript.log": "75DC3C4348A1EC378F084418B44A818A2A2F268AAF9B0D5C5C9A93D02BF8D556",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/rgb8_range/stim.mem": "2E18FA8E693FE10E98BD29FD490DE9F895D213F821721A414095D1EB24EC38D1",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/rgb8_range/expected.mem": "A05EDD6740B36B07D53C23B80DCC2B2A73009C3903CBD389238C5BE51804C80B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/rgb8_range/source.mem": "A05EDD6740B36B07D53C23B80DCC2B2A73009C3903CBD389238C5BE51804C80B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/rgb8_range/transcript.log": "7BA3523B035AE12341E23FCD8431C01F0DDF3517DFDDAA44E32A809F389B600F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/threshold_rgb_guard/stim.mem": "8602FFB39AC46A51924DB9D2299700F23C10AC1C16B522C75AF123BBD8BF5B18",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/threshold_rgb_guard/expected.mem": "E8B1D058E2A81E70CCEC20E5DB15E239F10F5A2D3D6D3ABB35E21D9AA6F1CCBF",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/threshold_rgb_guard/source.mem": "1D6F44DDE78BDE754D3775EE1BD63C29BB7898B883BE600DC6ED5F6AED840416",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/threshold_rgb_guard/transcript.log": "9D91F16F6EAF8832761FF6107BB05741BDBEE90C83E961207C2A7D7CC5FA6CAF",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x1/stim.mem": "C1AC7AD10C957706EE7EDDCF6397DDD07FB21CD5842CE4148FD2493409D81FCD",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x1/expected.mem": "58CAFB846E01CEBA5559212163BC8B9B8C16218D5C357CAF027BBE25F83EE629",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x1/source.mem": "58CAFB846E01CEBA5559212163BC8B9B8C16218D5C357CAF027BBE25F83EE629",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x1/transcript.log": "1D6CAB27B5A06A228FD18C167D6E5617609AB89346AEF923BD40B5BE451A52EE",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x7/stim.mem": "485410A06939C1A672BF86FDDB49BD9539A903A26447D0171168F698371B3A9F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x7/expected.mem": "20FECAB3FE09283F406F29639951E17326008F2A5BCCE8C4265E1C68A33D52CD",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x7/source.mem": "A39502CBF4B724E397F776ADA6FD101769C89DBE5E17FD1DC33A2D39949FBAF2",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x7/transcript.log": "1BAEF6C2165904B7A662D7AA0EE0BCB7169C74278EA1DF7B97169F4DECBF774E",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_2x5/stim.mem": "BF701A02BA1782F3EF9785A788CA311CCF4C546C00306543C06E7F9D5B54C923",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_2x5/expected.mem": "E247847A4F718435068178E44F2FD959282CF1B2C66AA48BCF0E73FA6D4FFFED",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_2x5/source.mem": "88093BEAA92C43AC5E57C0F1307E1A0EF6BBBE65F22B13F551551DD2B8AD921F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_2x5/transcript.log": "9DEDD3EA773FE06BB381A586E9E276A62732828E8D0A81744217F2D2C750451F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x1/stim.mem": "1B55B4C9C949828CC812F4101DA61E459657E8FAF6E92772C125C6D8CC2454E7",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x1/expected.mem": "22C32A5FFD2B35595BFE0F9ED584E4D84F04A3E52FC47387562F603F7F7132C7",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x1/source.mem": "22C32A5FFD2B35595BFE0F9ED584E4D84F04A3E52FC47387562F603F7F7132C7",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x1/transcript.log": "CF2AA1768628190EBCC2F28AEAD99ED78CD17D820D635583494B1E4F3B0A5798",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x5/stim.mem": "5117CD71F2635F12BB4B411F7C57CC95462C1425DF95A5C97B14BB15BA21D688",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x5/expected.mem": "A5454406523179E202598C2CDE64952B7FA57F946160063379938FBBD275A19B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x5/source.mem": "6A4565C812F01C2473A68A6F208B444112EA3967251D3FC20E94418FB48E8ECD",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x5/transcript.log": "098AEB0ADFDF79838A2025DAC87F89A07EC929FEEFF3A6A4C787A730777CCF97",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/malformed_reentry/stim.mem": "4F0B187C828BCD023E6A4F493A598BB42203DD405999666BE7C155FACB91489F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/malformed_reentry/expected.mem": "964E45EDA18FDF99802F78F8B5473596342CBDFEF0C818C95F0DE039A9CC56B5",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/malformed_reentry/source.mem": "2B21A2E1EBDF608CCF2872D763BCA3AD36E7B079444E9B4A7216CE66264356D4",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/malformed_reentry/transcript.log": "BDD7897EAC08963A9C21EE27A255FB7995754181D59CAC1EB064AC0EB75E7571",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/full_720p/stim.mem": "5F89582A7F71C0EBD9AB804455ABDE546BADA23320ACB601C7B0224943FC6873",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/full_720p/expected.mem": "C8B0D6B0DBD9DDBB1B6438FEDBD6AEAE1C445271D9B72DE1EF6F47A51FBBECA6",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/full_720p/source.mem": "8E0ECEC4435C80FB9AEE9A7B94022060D2D18C72DFAEC7D3ED343B96D5850618",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/full_720p/transcript.log": "80BC65826A89A0090433BC28504E28434798A554E7D78921AA045CEE8E3CB869",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/verification.json": "EFA0DCF37C1CFBB04B9C678A83B9E096FF8E19AC47E5588050D83D0285D073E9",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/a4_display_spatial_nocarry.v": "CD72245FA5CF73F16F35C2F655E5F13DD5F4949D14D258A7B99F9179AA219696",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/a4_display_spatial_frozen.v": "EC677A41C33D14E45B77377F810C4618CEF39A296450B2F0054FDCAED8058D04",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/close_byte_th16.vh": "2C0A211BC9E13F67A0D2233E95EAA46FE5B2183B811D74198D113B23A939D675",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/check_close_byte.py": "E8823E95E403044964C0A96258BB762CFB0FA49743E61A3D37CF24E0AF44A33B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/close_byte_check.json": "DE23A4C38425CC50DD2D6AF4A6E677629B5CF867BAB7FF6269B2FEB4093F7301",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/ARITHMETIC_REVIEW.md": "AE8139E4A7B24C454E5FA9C1926BA2C22A1F0EEEFC22CD85F9C150EED141ADC5",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/prepare_trial.py": "1DF499B99E1924029AC02F59A8B63249C505AC7B77FEF39C482F7611F76F771C",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/tb_display_spatial.sv": "A81FB1AA83A87BDEB4F7FEE13A8927B8B6671B0F378BCD46215F37D54277993B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/run_nocarry.ps1": "89A60A729715133FCBD32C409E19E6A05AE6FB2AB664A68424A20FDF73FA6ED6",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/vectors_manifest.json": "EEAF74B6D5A4F7DF38E4721EAD02F4D8796633CCAB82528D5D69B9245DF4629B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/summarize_nocarry.py": "5F7676797D118BE476E05B8E2882D391CE6D15E7307A1A2B8120BD8EC1E8145B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/compile.log": "324C81BD0FE02BFB668B28FD5FB662B10BB35139885ECBFED7EDAB7AD8CFF3FC",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/flat_noise/stim.mem": "8A44171D65F3808E56D2FAA49531184D94F5FC2045B04ECB7CEB376F8B6A2B35",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/flat_noise/expected.mem": "47D2B2D7FD5446CE974690DAD00DAB68D6AABB2E394952B807AB250024A8F167",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/flat_noise/source.mem": "314A31E99F80F57B2C8A8EAEF752F2612721FF207649B1069C19744BA3D6BA78",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/flat_noise/transcript.log": "17F78A23898869BF6BCDDE807CCD0DB3674BCF4EE3334063739D1ABF6C6ACBCE",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/strong_edges/stim.mem": "9DBBD41D3AC27C6333C476C230050B6EBB655BF9F1A1F3FEBE60F585F34D074F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/strong_edges/expected.mem": "15D59A395590A2691A8AFB5399D160B6DE3C80FF22B25D7F98B3C3F7F22D322B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/strong_edges/source.mem": "15D59A395590A2691A8AFB5399D160B6DE3C80FF22B25D7F98B3C3F7F22D322B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/strong_edges/transcript.log": "E4872F4BD576149F62A2F0CCF6D30407FDB06E1943234F042AEA97F9D0E24C2D",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/rgb8_range/stim.mem": "2E18FA8E693FE10E98BD29FD490DE9F895D213F821721A414095D1EB24EC38D1",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/rgb8_range/expected.mem": "A05EDD6740B36B07D53C23B80DCC2B2A73009C3903CBD389238C5BE51804C80B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/rgb8_range/source.mem": "A05EDD6740B36B07D53C23B80DCC2B2A73009C3903CBD389238C5BE51804C80B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/rgb8_range/transcript.log": "E458D0435C8C6A11E8C00EA92B067E5F97775B0FE15EAFB82EE456737FD92D29",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/threshold_rgb_guard/stim.mem": "8602FFB39AC46A51924DB9D2299700F23C10AC1C16B522C75AF123BBD8BF5B18",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/threshold_rgb_guard/expected.mem": "E8B1D058E2A81E70CCEC20E5DB15E239F10F5A2D3D6D3ABB35E21D9AA6F1CCBF",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/threshold_rgb_guard/source.mem": "1D6F44DDE78BDE754D3775EE1BD63C29BB7898B883BE600DC6ED5F6AED840416",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/threshold_rgb_guard/transcript.log": "F32586B16E654AF946CFA4D113DD7ECA02993DD94FF15E56E32DE8A3675F610E",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x1/stim.mem": "C1AC7AD10C957706EE7EDDCF6397DDD07FB21CD5842CE4148FD2493409D81FCD",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x1/expected.mem": "58CAFB846E01CEBA5559212163BC8B9B8C16218D5C357CAF027BBE25F83EE629",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x1/source.mem": "58CAFB846E01CEBA5559212163BC8B9B8C16218D5C357CAF027BBE25F83EE629",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x1/transcript.log": "759325759F605BA6222046552EBBFD73CE309F571135ABA3B19585686B8672AB",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x7/stim.mem": "485410A06939C1A672BF86FDDB49BD9539A903A26447D0171168F698371B3A9F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x7/expected.mem": "20FECAB3FE09283F406F29639951E17326008F2A5BCCE8C4265E1C68A33D52CD",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x7/source.mem": "A39502CBF4B724E397F776ADA6FD101769C89DBE5E17FD1DC33A2D39949FBAF2",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x7/transcript.log": "7CE74649DC09FB657F455E3EC1C444D0FE25C5B5B138A2D3216BBDE1E2197083",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_2x5/stim.mem": "BF701A02BA1782F3EF9785A788CA311CCF4C546C00306543C06E7F9D5B54C923",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_2x5/expected.mem": "E247847A4F718435068178E44F2FD959282CF1B2C66AA48BCF0E73FA6D4FFFED",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_2x5/source.mem": "88093BEAA92C43AC5E57C0F1307E1A0EF6BBBE65F22B13F551551DD2B8AD921F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_2x5/transcript.log": "F5AA7E2755525B79C8AC26847587DF4D20F77258A2F74759D14C6B109102E82F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x1/stim.mem": "1B55B4C9C949828CC812F4101DA61E459657E8FAF6E92772C125C6D8CC2454E7",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x1/expected.mem": "22C32A5FFD2B35595BFE0F9ED584E4D84F04A3E52FC47387562F603F7F7132C7",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x1/source.mem": "22C32A5FFD2B35595BFE0F9ED584E4D84F04A3E52FC47387562F603F7F7132C7",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x1/transcript.log": "54C88C021DA3FDD5E5AC17411D89258A1F55F7AF8477BA197046EEB46199EB9A",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x5/stim.mem": "5117CD71F2635F12BB4B411F7C57CC95462C1425DF95A5C97B14BB15BA21D688",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x5/expected.mem": "A5454406523179E202598C2CDE64952B7FA57F946160063379938FBBD275A19B",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x5/source.mem": "6A4565C812F01C2473A68A6F208B444112EA3967251D3FC20E94418FB48E8ECD",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x5/transcript.log": "E1A4EA3DF920AA50028D79013FA282CAE282B689459DA5E36FFD981157ED762F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/malformed_reentry/stim.mem": "4F0B187C828BCD023E6A4F493A598BB42203DD405999666BE7C155FACB91489F",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/malformed_reentry/expected.mem": "964E45EDA18FDF99802F78F8B5473596342CBDFEF0C818C95F0DE039A9CC56B5",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/malformed_reentry/source.mem": "2B21A2E1EBDF608CCF2872D763BCA3AD36E7B079444E9B4A7216CE66264356D4",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/malformed_reentry/transcript.log": "87CE4808C7F9B13B2CB99E1FA54BA8ADE2285AB90D6AF34349440CB37663E8D7",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/full_720p/stim.mem": "5F89582A7F71C0EBD9AB804455ABDE546BADA23320ACB601C7B0224943FC6873",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/full_720p/expected.mem": "C8B0D6B0DBD9DDBB1B6438FEDBD6AEAE1C445271D9B72DE1EF6F47A51FBBECA6",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/full_720p/source.mem": "8E0ECEC4435C80FB9AEE9A7B94022060D2D18C72DFAEC7D3ED343B96D5850618",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/full_720p/transcript.log": "2BEB94012BC42638D93CEEE249F9F092A042E611E28E0E1D76AF94ED2670EB17"
+  },
+  "logs": [
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/compile.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/flat_noise/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/strong_edges/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/rgb8_range/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/threshold_rgb_guard/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x1/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_1x7/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_2x5/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x1/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/geometry_7x5/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/malformed_reentry/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_combined_trial/full_720p/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/compile.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/flat_noise/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/strong_edges/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/rgb8_range/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/threshold_rgb_guard/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x1/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_1x7/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_2x5/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x1/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/geometry_7x5/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/malformed_reentry/transcript.log",
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise_nocarry_trial/full_720p/transcript.log"
+  ],
+  "hardware_status": "NOT_RUN",
+  "scope": "Implementation-equivalence evidence supplements fresh canonical tests; no physical or camera acceptance."
+}

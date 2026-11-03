@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "check": "document",
+  "scope": "Blank/noisy/ink frontend, skeleton/path/coordinate mapping, and acknowledged G-code regressions.",
+  "limitations": [
+    "Archived fixtures and RTL simulations; no new handwriting field-quality claim."
+  ],
+  "artifacts": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\document\\RESULTS.json",
+      "sha256": "F2DC1D6EB7900D2524AE189D4E87F72D8E475BB4AE75479FA5197738EC0563C8"
+    }
+  ],
+  "source_sha256": {
+    "01_rtl/doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+    "01_rtl/doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+    "01_rtl/doc_machine_map.v": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+    "01_rtl/doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+    "01_rtl/doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+    "01_rtl/doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4"
+  }
+}

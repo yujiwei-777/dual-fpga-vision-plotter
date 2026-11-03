@@ -1,0 +1,25 @@
+# vsim -batch -modelsimini D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise/modelsim.ini sim_work.tb_display_spatial -gWIDTH=7 -gHEIGHT=5 -gCOUNT=156 -do "run -all; quit -f" 
+# Start time: 11:16:37 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_display_spatial(fast)
+# 
+# run -all
+# PASS pixel oracle WIDTH=7 HEIGHT=5 cycles=156 valid=112 sof=4 eol=16 all_markers_and_ENABLE0_checked
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise/tb_display_spatial.sv(44)
+#    Time: 1566 ns  Iteration: 0  Instance: /tb_display_spatial
+# End time: 11:16:39 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

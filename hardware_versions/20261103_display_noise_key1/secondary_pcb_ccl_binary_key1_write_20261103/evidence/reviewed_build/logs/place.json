@@ -1,0 +1,17 @@
+{
+  "phase": "place",
+  "status": "PASS_TOOL_INVOCATION",
+  "started_ns": 1793675045757569800,
+  "cwd": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\runs\\phy_1",
+  "script": "run_place.tcl",
+  "script_sha256": "EC18F7507C310D0CAE98E4E797200B4BC083D134CFF52ED1D408D69EE1470FAF",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_place.tcl"
+  ],
+  "exit_code": 0,
+  "finished_ns": 1793675336180232300,
+  "log_sha256": "9DFF46BDA57064C5FAF35E0DAEC71E6D185C1901B8848E06DA6F5F1E1EF67E11",
+  "errors": [],
+  "error_markers": []
+}

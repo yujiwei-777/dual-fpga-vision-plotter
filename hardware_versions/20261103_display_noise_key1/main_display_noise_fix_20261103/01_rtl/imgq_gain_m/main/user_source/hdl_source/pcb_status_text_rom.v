@@ -1,0 +1,269 @@
+// Compact PCB-only synchronous glyph ROM. Two clocks match S_x_2d/S_y_2d.
+// Bitmap values are frozen copies of osd_char_lib; text/ROI/protocol do not change.
+module pcb_status_text_rom(
+    input wire clk,rst_n,input wire [11:0] x,y,input wire [2:0] status,
+    output wire text_on
+);
+    wire [11:0] local_x=x-12'd24,local_y=y-12'd560;
+    wire [4:0] cell_x=local_x[8:4];
+    reg [3:0] line_id,row;
+    reg [4:0] glyph;
+    reg valid;
+    reg [4:0] glyph_s1;
+    reg [3:0] row_s1,col_s1,col_s2;
+    reg valid_s1,valid_s2;
+    (* ram_style="bram" *) reg [15:0] font[0:511];
+    reg [15:0] row_bits_s2;
+    integer init_index;
+    initial begin
+        for(init_index=0;init_index<512;init_index=init_index+1)font[init_index]=16'h0000;
+        font[28]=16'h0380;
+        font[29]=16'h0380;
+        font[30]=16'h0380;
+        font[33]=16'h300c;
+        font[34]=16'h300c;
+        font[35]=16'h300c;
+        font[36]=16'h300c;
+        font[37]=16'h300c;
+        font[38]=16'h1ff8;
+        font[39]=16'h1ff8;
+        font[40]=16'h000c;
+        font[41]=16'h000c;
+        font[42]=16'h000c;
+        font[43]=16'h000c;
+        font[44]=16'h000c;
+        font[50]=16'h1c00;
+        font[51]=16'h1400;
+        font[52]=16'h1400;
+        font[53]=16'h1400;
+        font[54]=16'h3600;
+        font[55]=16'h3e00;
+        font[56]=16'h2200;
+        font[57]=16'h2200;
+        font[66]=16'h3e00;
+        font[67]=16'h3300;
+        font[68]=16'h3300;
+        font[69]=16'h3e00;
+        font[70]=16'h3300;
+        font[71]=16'h3300;
+        font[72]=16'h3300;
+        font[73]=16'h3e00;
+        font[82]=16'h03f0;
+        font[83]=16'h0c0c;
+        font[84]=16'h1800;
+        font[85]=16'h3000;
+        font[86]=16'h3000;
+        font[87]=16'h3000;
+        font[88]=16'h3000;
+        font[89]=16'h3000;
+        font[90]=16'h1800;
+        font[91]=16'h0c0c;
+        font[92]=16'h03f0;
+        font[98]=16'h3e00;
+        font[99]=16'h3300;
+        font[100]=16'h3300;
+        font[101]=16'h3300;
+        font[102]=16'h3300;
+        font[103]=16'h3300;
+        font[104]=16'h3600;
+        font[105]=16'h3c00;
+        font[114]=16'h3e00;
+        font[115]=16'h3000;
+        font[116]=16'h3000;
+        font[117]=16'h3e00;
+        font[118]=16'h3000;
+        font[119]=16'h3000;
+        font[120]=16'h3000;
+        font[121]=16'h3e00;
+        font[130]=16'h3e00;
+        font[131]=16'h3000;
+        font[132]=16'h3000;
+        font[133]=16'h3000;
+        font[134]=16'h3e00;
+        font[135]=16'h3000;
+        font[136]=16'h3000;
+        font[137]=16'h3000;
+        font[146]=16'h1c00;
+        font[147]=16'h3200;
+        font[148]=16'h6000;
+        font[149]=16'h6000;
+        font[150]=16'h6e00;
+        font[151]=16'h6600;
+        font[152]=16'h3600;
+        font[153]=16'h1e00;
+        font[162]=16'h3300;
+        font[163]=16'h3300;
+        font[164]=16'h3300;
+        font[165]=16'h3f00;
+        font[166]=16'h3300;
+        font[167]=16'h3300;
+        font[168]=16'h3300;
+        font[169]=16'h3300;
+        font[178]=16'h1e00;
+        font[179]=16'h0c00;
+        font[180]=16'h0c00;
+        font[181]=16'h0c00;
+        font[182]=16'h0c00;
+        font[183]=16'h0c00;
+        font[184]=16'h0c00;
+        font[185]=16'h1e00;
+        font[194]=16'h3300;
+        font[195]=16'h3600;
+        font[196]=16'h3400;
+        font[197]=16'h3c00;
+        font[198]=16'h3c00;
+        font[199]=16'h3400;
+        font[200]=16'h3600;
+        font[201]=16'h3300;
+        font[210]=16'h3000;
+        font[211]=16'h3000;
+        font[212]=16'h3000;
+        font[213]=16'h3000;
+        font[214]=16'h3000;
+        font[215]=16'h3000;
+        font[216]=16'h3000;
+        font[217]=16'h3e00;
+        font[226]=16'h3600;
+        font[227]=16'h3600;
+        font[228]=16'h3600;
+        font[229]=16'h3600;
+        font[230]=16'h2a00;
+        font[231]=16'h2a00;
+        font[232]=16'h2200;
+        font[233]=16'h2200;
+        font[242]=16'h300c;
+        font[243]=16'h380c;
+        font[244]=16'h3c0c;
+        font[245]=16'h360c;
+        font[246]=16'h330c;
+        font[247]=16'h318c;
+        font[248]=16'h30cc;
+        font[249]=16'h306c;
+        font[250]=16'h303c;
+        font[251]=16'h301c;
+        font[252]=16'h300c;
+        font[258]=16'h1e00;
+        font[259]=16'h3200;
+        font[260]=16'h6300;
+        font[261]=16'h6300;
+        font[262]=16'h6300;
+        font[263]=16'h6300;
+        font[264]=16'h3600;
+        font[265]=16'h3c00;
+        font[274]=16'h3e00;
+        font[275]=16'h3300;
+        font[276]=16'h3300;
+        font[277]=16'h3300;
+        font[278]=16'h3e00;
+        font[279]=16'h3000;
+        font[280]=16'h3000;
+        font[281]=16'h3000;
+        font[290]=16'h3e00;
+        font[291]=16'h3300;
+        font[292]=16'h3300;
+        font[293]=16'h3300;
+        font[294]=16'h3c00;
+        font[295]=16'h3600;
+        font[296]=16'h3600;
+        font[297]=16'h3200;
+        font[306]=16'h1e00;
+        font[307]=16'h3000;
+        font[308]=16'h3000;
+        font[309]=16'h3c00;
+        font[310]=16'h0f00;
+        font[311]=16'h0300;
+        font[312]=16'h0300;
+        font[313]=16'h3e00;
+        font[322]=16'h3ffc;
+        font[323]=16'h03c0;
+        font[324]=16'h03c0;
+        font[325]=16'h03c0;
+        font[326]=16'h03c0;
+        font[327]=16'h03c0;
+        font[328]=16'h03c0;
+        font[329]=16'h03c0;
+        font[330]=16'h03c0;
+        font[331]=16'h03c0;
+        font[332]=16'h03c0;
+        font[338]=16'h2200;
+        font[339]=16'h2200;
+        font[340]=16'h3600;
+        font[341]=16'h3600;
+        font[342]=16'h1400;
+        font[343]=16'h1400;
+        font[344]=16'h1c00;
+        font[345]=16'h1c00;
+        font[354]=16'h2200;
+        font[355]=16'h2200;
+        font[356]=16'h2a00;
+        font[357]=16'h2a00;
+        font[358]=16'h3600;
+        font[359]=16'h3600;
+        font[360]=16'h3600;
+        font[361]=16'h3600;
+        font[370]=16'h3180;
+        font[371]=16'h1300;
+        font[372]=16'h1b00;
+        font[373]=16'h1e00;
+        font[374]=16'h0c00;
+        font[375]=16'h0c00;
+        font[376]=16'h0c00;
+        font[377]=16'h0c00;
+    end
+    always @(*)begin
+        line_id=4'd0;row=4'd0;valid=1'b0;
+        if(x>=12'd24&&x<12'd344)begin
+            if(local_y>=12'd4&&local_y<12'd20)begin
+                line_id=4'd0;row=local_y-12'd4;valid=1;
+            end else if(local_y>=12'd28&&local_y<12'd44)begin
+                line_id=4'd1;row=local_y-12'd28;valid=1;
+            end else if(local_y>=12'd52&&local_y<12'd68)begin
+                line_id={1'b0,status}+4'd2;row=local_y-12'd52;valid=1;
+            end
+        end
+        glyph=5'd0;
+        case(line_id)
+4'd0:case(cell_x)
+            5'd0:glyph=5'd17;5'd1:glyph=5'd5;5'd2:glyph=5'd4;5'd4:glyph=5'd14;5'd5:glyph=5'd16;5'd6:glyph=5'd6;5'd7:glyph=5'd7;
+            default:glyph=5'd0;endcase
+4'd1:case(cell_x)
+            5'd0:glyph=5'd10;5'd1:glyph=5'd16;5'd2:glyph=5'd13;5'd3:glyph=5'd6;5'd5:glyph=5'd12;5'd6:glyph=5'd7;5'd7:glyph=5'd23;5'd8:glyph=5'd2;5'd10:glyph=5'd20;5'd11:glyph=5'd16;5'd13:glyph=5'd20;5'd14:glyph=5'd7;5'd15:glyph=5'd19;5'd16:glyph=5'd20;
+            default:glyph=5'd0;endcase
+4'd2:case(cell_x)
+            5'd0:glyph=5'd18;5'd1:glyph=5'd7;5'd2:glyph=5'd3;5'd3:glyph=5'd6;5'd4:glyph=5'd23;
+            default:glyph=5'd0;endcase
+4'd3:case(cell_x)
+            5'd0:glyph=5'd17;5'd1:glyph=5'd5;5'd2:glyph=5'd4;5'd4:glyph=5'd19;5'd5:glyph=5'd5;5'd6:glyph=5'd3;5'd7:glyph=5'd15;5'd8:glyph=5'd15;5'd9:glyph=5'd11;5'd10:glyph=5'd15;5'd11:glyph=5'd9;5'd12:glyph=5'd1;5'd13:glyph=5'd1;5'd14:glyph=5'd1;
+            default:glyph=5'd0;endcase
+4'd4:case(cell_x)
+            5'd0:glyph=5'd17;5'd1:glyph=5'd5;5'd2:glyph=5'd4;5'd4:glyph=5'd17;5'd5:glyph=5'd3;5'd6:glyph=5'd19;5'd7:glyph=5'd19;
+            default:glyph=5'd0;endcase
+4'd5:case(cell_x)
+            5'd0:glyph=5'd17;5'd1:glyph=5'd5;5'd2:glyph=5'd4;5'd4:glyph=5'd8;5'd5:glyph=5'd3;5'd6:glyph=5'd11;5'd7:glyph=5'd13;
+            default:glyph=5'd0;endcase
+4'd6:case(cell_x)
+            5'd0:glyph=5'd17;5'd1:glyph=5'd5;5'd2:glyph=5'd4;5'd4:glyph=5'd18;5'd5:glyph=5'd7;5'd6:glyph=5'd21;5'd7:glyph=5'd11;5'd8:glyph=5'd7;5'd9:glyph=5'd22;
+            default:glyph=5'd0;endcase
+4'd7:case(cell_x)
+            5'd0:glyph=5'd15;5'd1:glyph=5'd16;5'd3:glyph=5'd20;5'd4:glyph=5'd3;5'd5:glyph=5'd18;5'd6:glyph=5'd9;5'd7:glyph=5'd7;5'd8:glyph=5'd20;
+            default:glyph=5'd0;endcase
+4'd8:case(cell_x)
+            5'd0:glyph=5'd22;5'd1:glyph=5'd3;5'd2:glyph=5'd11;5'd3:glyph=5'd20;5'd5:glyph=5'd18;5'd6:glyph=5'd7;5'd7:glyph=5'd3;5'd8:glyph=5'd6;5'd9:glyph=5'd23;
+            default:glyph=5'd0;endcase
+4'd9:case(cell_x)
+            5'd0:glyph=5'd13;5'd1:glyph=5'd11;5'd2:glyph=5'd15;5'd3:glyph=5'd12;5'd5:glyph=5'd7;5'd6:glyph=5'd18;5'd7:glyph=5'd18;5'd8:glyph=5'd16;5'd9:glyph=5'd18;
+            default:glyph=5'd0;endcase
+            default:glyph=5'd0;
+        endcase
+    end
+    always @(posedge clk or negedge rst_n)begin
+        if(!rst_n)begin glyph_s1<=0;row_s1<=0;col_s1<=0;col_s2<=0;valid_s1<=0;valid_s2<=0;end
+        else begin
+            glyph_s1<=glyph;row_s1<=row;col_s1<=local_x[3:0];valid_s1<=valid;
+            col_s2<=col_s1;valid_s2<=valid_s1;
+        end
+    end
+    // A synchronous read with no reset is required to infer the block ROM.
+    always @(posedge clk)row_bits_s2<=font[{glyph_s1,row_s1}];
+    assign text_on=valid_s2&&row_bits_s2[4'd15-col_s2];
+endmodule

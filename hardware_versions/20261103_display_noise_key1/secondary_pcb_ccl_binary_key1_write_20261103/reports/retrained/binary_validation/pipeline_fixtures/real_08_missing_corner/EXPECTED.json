@@ -1,0 +1,45 @@
+{
+  "name": "real_08_missing_corner",
+  "ccl": {
+    "provisional_labels": 154,
+    "overflow": false,
+    "truncated": false,
+    "count": 1,
+    "eligible_components": [
+      {
+        "area": 6296,
+        "first": 1538,
+        "grid_box": [
+          20,
+          9,
+          159,
+          67
+        ]
+      }
+    ],
+    "top4": [
+      {
+        "area": 6296,
+        "first": 1538,
+        "grid_box": [
+          20,
+          9,
+          159,
+          67
+        ]
+      }
+    ]
+  },
+  "valid": true,
+  "bbox": [
+    160,
+    72,
+    1272,
+    536
+  ],
+  "status": 1,
+  "score": 255,
+  "margin": 977,
+  "class_id": 1,
+  "core_case": 8
+}

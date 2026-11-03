@@ -1,0 +1,17 @@
+Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+vmap -c 
+Copying E:/model/win64/../modelsim.ini to modelsim.ini
+Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+vmap -modelsimini D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise_combined_trial/modelsim.ini combined_lib D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise_combined_trial/combined_lib 
+Modifying D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise_combined_trial/modelsim.ini
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 10:50:48 on Nov 03,2026
+vlog -modelsimini D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise_combined_trial/modelsim.ini -work combined_lib -sv D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise_combined_trial/a4_display_spatial_combined.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise_combined_trial/a4_display_spatial_frozen.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise_combined_trial/tb_display_spatial.sv 
+-- Compiling module a4_display_spatial_h1
+-- Compiling module a4_display_spatial_frozen
+-- Compiling module tb_display_spatial
+
+Top level modules:
+	tb_display_spatial
+End time: 10:50:48 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

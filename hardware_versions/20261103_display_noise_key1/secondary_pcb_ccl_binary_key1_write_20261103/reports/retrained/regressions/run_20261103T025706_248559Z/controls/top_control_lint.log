@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 10:59:05 on Nov 03,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\top_control_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\current_top_control_probe.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\controls\tb_pose7_top_control.v 
+-- Compiling module pose7_top_control_probe
+-- Compiling module tb_pose7_top_control
+
+Top level modules:
+	tb_pose7_top_control
+End time: 10:59:05 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

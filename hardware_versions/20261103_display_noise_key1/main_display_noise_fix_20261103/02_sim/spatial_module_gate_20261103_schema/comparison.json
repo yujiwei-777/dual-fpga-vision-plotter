@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "v5": {
+    "logic_lut": 100,
+    "ripple": 102,
+    "seq": 119,
+    "eram": 3,
+    "dsp": 0
+  },
+  "nocarry": {
+    "logic_lut": 115,
+    "ripple": 48,
+    "seq": 119,
+    "eram": 3,
+    "dsp": 0
+  },
+  "nocarry_minus_v5": {
+    "logic_lut": 15,
+    "ripple": -54,
+    "seq": 0,
+    "eram": 0,
+    "dsp": 0
+  },
+  "results": {
+    "v5_high": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\spatial_module_gate_20261103_schema\\v5_high\\area_result.json",
+    "nocarry_high": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\spatial_module_gate_20261103_schema\\nocarry_high\\area_result.json"
+  },
+  "not_final_physical_resource_or_timing_gate": true
+}

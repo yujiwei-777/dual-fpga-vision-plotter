@@ -1,0 +1,174 @@
+{
+  "mode_count": 19,
+  "baseline_style_rtl_sha256": "9E8D7DC30411E5C38CAD9C52CA1F446E37D353EE6A66B16728544E58BA12EAF9",
+  "current_style_rtl_sha256": "9E8D7DC30411E5C38CAD9C52CA1F446E37D353EE6A66B16728544E58BA12EAF9",
+  "style_rtl_unchanged": true,
+  "method": "Read-only source audit plus independent integer arithmetic; no RTL simulator or TD run",
+  "satu_examples": [
+    {
+      "input_rgb": [
+        0,
+        200,
+        0
+      ],
+      "gray": 112,
+      "satu_active": [
+        255,
+        244,
+        255
+      ],
+      "satu_signed_expected": [
+        0,
+        244,
+        0
+      ]
+    },
+    {
+      "input_rgb": [
+        100,
+        100,
+        100
+      ],
+      "gray": 93,
+      "satu_active": [
+        103,
+        103,
+        103
+      ],
+      "satu_signed_expected": [
+        103,
+        103,
+        103
+      ]
+    },
+    {
+      "input_rgb": [
+        100,
+        200,
+        100
+      ],
+      "gray": 149,
+      "satu_active": [
+        0,
+        225,
+        0
+      ],
+      "satu_signed_expected": [
+        75,
+        225,
+        75
+      ]
+    },
+    {
+      "input_rgb": [
+        200,
+        0,
+        0
+      ],
+      "gray": 50,
+      "satu_active": [
+        255,
+        255,
+        255
+      ],
+      "satu_signed_expected": [
+        255,
+        0,
+        0
+      ]
+    },
+    {
+      "input_rgb": [
+        10,
+        10,
+        50
+      ],
+      "gray": 13,
+      "satu_active": [
+        0,
+        0,
+        68
+      ],
+      "satu_signed_expected": [
+        8,
+        8,
+        68
+      ]
+    },
+    {
+      "input_rgb": [
+        255,
+        255,
+        255
+      ],
+      "gray": 236,
+      "satu_active": [
+        255,
+        255,
+        255
+      ],
+      "satu_signed_expected": [
+        255,
+        255,
+        255
+      ]
+    }
+  ],
+  "gamma_boundaries": [
+    {
+      "input": 0,
+      "active": 0,
+      "monotonic_reference": 0
+    },
+    {
+      "input": 63,
+      "active": 126,
+      "monotonic_reference": 126
+    },
+    {
+      "input": 64,
+      "active": 80,
+      "monotonic_reference": 128
+    },
+    {
+      "input": 65,
+      "active": 81,
+      "monotonic_reference": 128
+    },
+    {
+      "input": 127,
+      "active": 158,
+      "monotonic_reference": 159
+    },
+    {
+      "input": 128,
+      "active": 144,
+      "monotonic_reference": 160
+    },
+    {
+      "input": 129,
+      "active": 145,
+      "monotonic_reference": 160
+    },
+    {
+      "input": 255,
+      "active": 255,
+      "monotonic_reference": 254
+    }
+  ],
+  "gamma_active_drops": [
+    {
+      "left": 63,
+      "right": 64,
+      "previous": 126,
+      "current": 80
+    },
+    {
+      "left": 127,
+      "right": 128,
+      "previous": 158,
+      "current": 144
+    }
+  ],
+  "board_validation": "NOT_RUN"
+}

@@ -1,0 +1,261 @@
+{
+  "generated_utc": "2026-11-03T02:28:04.256109+00:00",
+  "failed_attempt": 3,
+  "status": "FAILED_PLACEMENT_NO_ROUTE_NO_BITGEN",
+  "failure_messages": [
+    "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+    "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+    "PHY-9002 ERROR: Placer initialization failed. There are conflicts with the user bound. Please refer to more specific error messages PHY-9146, PHY-9147, PHY-9179."
+  ],
+  "preliminary_gate_counts": {
+    "lut": 27737,
+    "reg": 21355,
+    "slice*": 21099,
+    "eram": 93,
+    "dsp": 37
+  },
+  "preliminary_caveat": "Gate Slice* and intermediate physical model counts are not final placed resources. Exact SLICEL field excess is not printed. No resource/timing threshold changed.",
+  "placement_model_reports": [
+    {
+      "luts": 21844,
+      "seqs": 21307,
+      "mslices": 568,
+      "lslices": 4211,
+      "pads": 53,
+      "brams": 93,
+      "dsps": 37
+    },
+    {
+      "luts": 21576,
+      "seqs": 20993,
+      "mslices": 568,
+      "lslices": 4211,
+      "pads": 53,
+      "brams": 93,
+      "dsps": 37
+    },
+    {
+      "luts": 21505,
+      "seqs": 20982,
+      "mslices": 568,
+      "lslices": 4211,
+      "pads": 53,
+      "brams": 93,
+      "dsps": 37
+    }
+  ],
+  "original_rtl_backups": [
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\design_top_wrapper.v",
+      "backup": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_rtl\\design_top_wrapper.v",
+      "sha256": "A5073977A06A789163F8759B2475A21FA314672EBAA30A929A2711CEFB0D8DA7",
+      "snapshot_sha256": "A5073977A06A789163F8759B2475A21FA314672EBAA30A929A2711CEFB0D8DA7"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\a4_display_spatial_h1.v",
+      "backup": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_rtl\\a4_display_spatial_h1.v",
+      "sha256": "EEEE0C7AB7F48EF1DC8A8F4A5A41C16F2F294C251E8AF74BF20B565C7B32A73D",
+      "snapshot_sha256": "EEEE0C7AB7F48EF1DC8A8F4A5A41C16F2F294C251E8AF74BF20B565C7B32A73D"
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\display_tone_96.v",
+      "backup": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_rtl\\display_tone_96.v",
+      "sha256": "FC4A0929BAF40AFF73008B3F29207A24D00F6F0C5DCFA0D9A9C2820B4420193C",
+      "snapshot_sha256": "FC4A0929BAF40AFF73008B3F29207A24D00F6F0C5DCFA0D9A9C2820B4420193C"
+    }
+  ],
+  "failed_run_inputs": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\.opt_gate.begin.f",
+      "sha256": "97A11A98FEE781D92C22467F9E869A3D6BA5EEDB5716DC1BB38EF5C356E22DB1",
+      "bytes": 153,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\.opt_gate.begin.f"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\.opt_gate.end.f",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\.opt_gate.end.f"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\.opt_place.begin.f",
+      "sha256": "85FD2453C6824AE833B1A93D9F403C6D757CE11AA392F5287CF6CC0B5C47E4D7",
+      "bytes": 153,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\.opt_place.begin.f"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\.opt_place.error.f",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\.opt_place.error.f"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\.opt_rtl.begin.f",
+      "sha256": "97A11A98FEE781D92C22467F9E869A3D6BA5EEDB5716DC1BB38EF5C356E22DB1",
+      "bytes": 153,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\.opt_rtl.begin.f"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\.opt_rtl.end.f",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\.opt_rtl.end.f"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\.read_design.begin.f",
+      "sha256": "97A11A98FEE781D92C22467F9E869A3D6BA5EEDB5716DC1BB38EF5C356E22DB1",
+      "bytes": 153,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\.read_design.begin.f"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\.read_design.end.f",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "bytes": 0,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\.read_design.end.f"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\camera_to_dsi_display_720p60_cnn_multibox.al",
+      "sha256": "F73A57E5545C448142D07751E5768AB13299A17AFE30C1A34ACCA9A5CF8F58E3",
+      "bytes": 67469
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\camera_to_dsi_display_720p60_cnn_multibox_elaborate.db",
+      "sha256": "FC1A08EF72C34CCAAA1D55439F6C259CFCD54A77501051814CABF6D61B40A2AB",
+      "bytes": 20550416
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\camera_to_dsi_display_720p60_cnn_multibox_gate.area",
+      "sha256": "8FD644D3FF5516CA452EAB23FCE81ED7656745F090857C0FA6C4F1956B3601FB",
+      "bytes": 57679,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\camera_to_dsi_display_720p60_cnn_multibox_gate.area"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\camera_to_dsi_display_720p60_cnn_multibox_gate.db",
+      "sha256": "055D7E807FF59BB32DE254124E6D489BACACF1237876E2A4EAAF7DC6DAD2008F",
+      "bytes": 16817838
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\camera_to_dsi_display_720p60_cnn_multibox_gate.timing",
+      "sha256": "80B5185FC96770F8BDFE7461B8868E703EDE0714B1298C6B63E7F3382744AF44",
+      "bytes": 2934558,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\camera_to_dsi_display_720p60_cnn_multibox_gate.timing"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\camera_to_dsi_display_720p60_cnn_multibox_gate.ts",
+      "sha256": "C43529B4C319966CC5F5B589B1C42DC2ADA9FFAD7DCF372AFDA9D170E904E15D",
+      "bytes": 65
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\camera_to_dsi_display_720p60_cnn_multibox_rtl.area",
+      "sha256": "C35C9F91FA2BD34E02A06F3E0BC5C5922E9E7F44152088957EF54BFCE83F8379",
+      "bytes": 37224,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\camera_to_dsi_display_720p60_cnn_multibox_rtl.area"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\camera_to_dsi_display_720p60_cnn_multibox_rtl.db",
+      "sha256": "F69EF55C650D87B403F20E39D5C8D5B8E0B6E6847F92A74CD3A2DC952FCF22A3",
+      "bytes": 15044452
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\flow.status",
+      "sha256": "1E782AA46B6FF60401A04DCB77565289C36E30A590B817D27DAB9351ADCD50E0",
+      "bytes": 1640,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\flow.status"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\gate.qor",
+      "sha256": "B0C0CBF5442E4DFEAB00DE67CEB0254CF1F8F8D4AB992B3C924245DC9DE66A9C",
+      "bytes": 11730,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\gate.qor"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\osd_compact_glyphs.vh",
+      "sha256": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A",
+      "bytes": 3780
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\place.log",
+      "sha256": "AD5783C56B322E60D9EC67B2B456B73B2185711A0C4F441A523DA71D29D584A9",
+      "bytes": 77520,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\place.log"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\run_display_noise_place.tcl",
+      "sha256": "7F37E60BC89F993AD45FFEF350A60F0956B629B94789F83BA56906F8CC97EF74",
+      "bytes": 9414
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\run_display_noise_route.tcl",
+      "sha256": "2B7EDE0874A3CD6E1599CB3FAA04DFCABFC73D06FB706B48556DFE78F042BF2A",
+      "bytes": 9414
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\run_display_noise_synth.tcl",
+      "sha256": "1CCECC28EA691C20D53397F8E51080D7B0DB983940450C65CEF537C6E9F9D49C",
+      "bytes": 9415
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\source_snapshot.json",
+      "sha256": "72540EF0960F11DC23964BF80502C98C98FE66C5305DF3DEB2C37D533489D6CA",
+      "bytes": 111759,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\source_snapshot.json"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\synth.log",
+      "sha256": "07735988CF9C723A025EEF6F14FA66F5B639825FBC809BC4A0D6B8F6A009D18D",
+      "bytes": 173398,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\synth.log"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\td_20261103_102037.log",
+      "sha256": "40651C0BE862D27490D976079086391AAEC2637EEBB196FA1F10F1112030C1CD",
+      "bytes": 173388,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\td_20261103_102037.log"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\td_20261103_102037.logw",
+      "sha256": "B680E56841B737B44469DF5FB91638FD8BD88DF0B270C4B4B9C6F75FC00CFFC4",
+      "bytes": 287848,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\td_20261103_102037.logw"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\td_20261103_102456.log",
+      "sha256": "69CB0A6D81EFFD05D8C5B78E0D06D6F39C15DBB4FD11876BFAA927EB6C65C241",
+      "bytes": 77510,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\td_20261103_102456.log"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v3\\td_20261103_102456.logw",
+      "sha256": "184AAA04327DDE5C31C76BDDF7A26755BBB0949E968F17A3F6C7B8F7C5D20982",
+      "bytes": 4801,
+      "preserved_copy": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt3_evidence\\td_20261103_102456.logw"
+    }
+  ],
+  "next_run": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4",
+  "next_run_status": "PREPARED_UNFROZEN_NOT_RUN",
+  "next_run_files": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4\\camera_to_dsi_display_720p60_cnn_multibox.al",
+      "sha256": "A229462C283ED76D3C00A683B39F290997F5055CD3510D0EE0F5403279ADC427"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4\\osd_compact_glyphs.vh",
+      "sha256": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4\\run_display_noise_synth.tcl",
+      "sha256": "1CCECC28EA691C20D53397F8E51080D7B0DB983940450C65CEF537C6E9F9D49C"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4\\run_display_noise_place.tcl",
+      "sha256": "7F37E60BC89F993AD45FFEF350A60F0956B629B94789F83BA56906F8CC97EF74"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4\\run_display_noise_route.tcl",
+      "sha256": "2B7EDE0874A3CD6E1599CB3FAA04DFCABFC73D06FB706B48556DFE78F042BF2A"
+    }
+  ],
+  "constraints_changed": false,
+  "product_rtl_modified_by_this_tool": false,
+  "hardware_status": "NOT_RUN"
+}

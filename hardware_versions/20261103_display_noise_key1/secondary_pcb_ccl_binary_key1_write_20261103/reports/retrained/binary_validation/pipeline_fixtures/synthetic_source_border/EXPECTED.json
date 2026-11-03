@@ -1,0 +1,45 @@
+{
+  "name": "synthetic_source_border",
+  "ccl": {
+    "provisional_labels": 1,
+    "overflow": false,
+    "truncated": false,
+    "count": 1,
+    "eligible_components": [
+      {
+        "area": 1600,
+        "first": 1600,
+        "grid_box": [
+          0,
+          10,
+          40,
+          50
+        ]
+      }
+    ],
+    "top4": [
+      {
+        "area": 1600,
+        "first": 1600,
+        "grid_box": [
+          0,
+          10,
+          40,
+          50
+        ]
+      }
+    ]
+  },
+  "valid": false,
+  "bbox": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "status": 2,
+  "score": 0,
+  "margin": 0,
+  "class_id": 0,
+  "core_case": null
+}

@@ -1,0 +1,14 @@
+{
+  "db": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8\\camera_to_dsi_display_720p60_cnn_multibox_gate.db",
+  "db_sha256_before": "AD1F531DC01F7D2404DF4C7233CA980937683F8CCA4D1D1307500F78A35B24DB",
+  "db_sha256_after": "AD1F531DC01F7D2404DF4C7233CA980937683F8CCA4D1D1307500F78A35B24DB",
+  "db_unchanged": true,
+  "script": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\parameter_readback_trial\\read_v8_parameters.tcl",
+  "script_sha256": "8D0F47DE9AEBC97801CD6F4FE77DAE006896321D0CD86AE219F137AB6792F7A2",
+  "script_unchanged": true,
+  "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\parameter_readback_trial\\console_readback_v2.log",
+  "log_sha256": "B5CC619271ECF2A7FC7C53A5EEF794E25EB086C203EDA1EBCA4D023C38240163",
+  "process_exit_code": 0,
+  "readback_query_pass_marker": true,
+  "scope": "Independent DB parameter query, not physical acceptance"
+}

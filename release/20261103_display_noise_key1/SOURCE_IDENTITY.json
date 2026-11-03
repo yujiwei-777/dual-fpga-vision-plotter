@@ -1,0 +1,15 @@
+{
+  "schema": "competition_publication_identity_v5",
+  "date": "2026-11-03",
+  "hardware_manifest_sha256": "5656DDC40C440217B6BC5787DF2E78378FB4500AF069575C6C566B5F6339DAC0",
+  "hardware_file_count": 2442,
+  "hardware_bytes": 1233134753,
+  "hardware_acceptance": "NOT_RUN",
+  "rtl_model_constraint_changes": false,
+  "new_bit_generation": false,
+  "main_delivery_manifest_sha256": "446DFD61C08FF6D3659E2AE47C062F5C37C851B3CB636DAAC77B0516D6630D6B",
+  "main_prebuild_snapshot_sha256": "F7BEF258211F09D48F9384E1003E284B2E40BB0D1A427F477B301F6802CA30C6",
+  "main_release_sha256": "EC35E5E94C15C2D6E38600410A68290975BE0D945C0C2AB8896BE6CB7C105A41",
+  "secondary_frozen_manifest_sha256": "B8285CD02FFACDBB6B9913EDC94D14B9D34FA4F5C21E9A484C8A542636347914",
+  "secondary_top_sha256": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02"
+}

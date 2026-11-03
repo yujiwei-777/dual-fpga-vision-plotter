@@ -1,0 +1,40 @@
+{
+  "scope": "Genuine old checker/table-evidence failure and original wrapper/first readback failure; history preserved before checker enhancement",
+  "files": [
+    {
+      "original": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\verify_display_noise_build_strategy.py",
+      "archive": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt8_hidden_table_failure\\verify_display_noise_build_strategy.py",
+      "sha256": "36D5FF8257D6A341A8E3B90266ECC30E92E500BAA7DC285042773576199ED788"
+    },
+    {
+      "original": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\tools\\test_display_noise_build_strategy.py",
+      "archive": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt8_hidden_table_failure\\test_display_noise_build_strategy.py",
+      "sha256": "4160FC8A071DC64A44A3F7E7CE8BD5824ACBAE3EAA11F6CB7A272B45A6E2C612"
+    },
+    {
+      "original": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\display_noise_build_strategy.json",
+      "archive": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt8_hidden_table_failure\\display_noise_build_strategy.json",
+      "sha256": "68569EAA796FF5D19896EDF1D3963153FF77C8C488E955F502C0ADE97E85558F"
+    },
+    {
+      "original": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\v8_synth_wrapper.log",
+      "archive": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt8_hidden_table_failure\\v8_synth_wrapper.log",
+      "sha256": "16DAC2DF719D8814FF94541665BCC51FBD09975C1B8EC8DA8C0B7484E29C1C19"
+    },
+    {
+      "original": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\parameter_readback_trial\\console_readback.log",
+      "archive": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt8_hidden_table_failure\\console_readback.log",
+      "sha256": "BF94CDDFD081CB58AE1CD03C3C57928A7EF31F91AF718D6913E9477696DF85D8"
+    },
+    {
+      "original": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\parameter_readback_trial\\actual_readback_run.json",
+      "archive": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt8_hidden_table_failure\\actual_readback_run.json",
+      "sha256": "7658770859BEED2B90F1E3FBA98CC332DB9D2A5493084DF40FC2C81347C45807"
+    },
+    {
+      "original": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\parameter_readback_trial\\checker_result_at_review.json",
+      "archive": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\attempt8_hidden_table_failure\\checker_result_at_review.json",
+      "sha256": "2F35414869779E8DF62D59692E321E3430C454771A636B47726C1A234D66C62B"
+    }
+  ]
+}

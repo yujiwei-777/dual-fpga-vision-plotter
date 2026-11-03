@@ -1,0 +1,752 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project Version="3" Minor="2" Path=".">
+  <Project_Created_Time />
+  <TD_Encoding>UTF-8</TD_Encoding>
+  <TD_Version>6.2.200067</TD_Version>
+  <Name>secondary_cnn_multibox</Name>
+  <HardWare>
+    <Family>PH1</Family>
+    <Device>PH1P35MDG324</Device>
+    <Speed>-3</Speed>
+  </HardWare>
+  <Source_Files>
+    <Verilog>
+      <File Path="01_rtl/pcb_ccl_binary_core.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="1" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/pcb_fullboard_spatial96.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="1" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/cnn_result_stabilizer.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="2" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/vision_shared_mac.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="3" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/cnn_core.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="4" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/vision_pipeline.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="5" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/vision_ccl.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="6" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/edge_roi_ccl.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="7" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/vision_pixel_reader.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="8" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/secondary_top.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="9" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/secondary_ddr_wrapper.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="10" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/hxa_ddr_store.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="11" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/grbl_line_formatter.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="12" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/grbl_reporter.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="13" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/grbl_response_parser.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="14" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/grbl_streamer.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="15" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/grbl_vector_font_rom.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="16" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/grbl_uart.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="17" />
+        </FileInfo>
+      </File>
+      <File Path="shared/rtl/hxa_packet_codec.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="18" />
+        </FileInfo>
+      </File>
+      <File Path="shared/rtl/hxa_packet_rx_fifo4.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="19" />
+        </FileInfo>
+      </File>
+      <File Path="shared/rtl/hxa_secondary_link.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="20" />
+        </FileInfo>
+      </File>
+      <File Path="shared/rtl/hxa_config_store.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="21" />
+        </FileInfo>
+      </File>
+      <File Path="shared/rtl/hxa_yolo_result_codec.v">
+        <FileInfo>
+          <Attr Name="AutoExcluded" Val="true" />
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="22" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/reset_sync.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="23" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/ip_source/PLL/PLL.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="24" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/ip_source/PLL/RTL/ph1p_phy_pll_wrapper_25a56e5ce2f9.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="25" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/crc32_check.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="26" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/crc32_gen.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="27" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/mac_cache.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="28" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/ph1p_phy_pll_wrapper_d2616deaaa79.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="29" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/pll.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="30" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/rgmii_interface.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="31" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/udp_pkg_buf.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="32" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiarp_layer.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="33" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiarp_rx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="34" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiarp_tx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="35" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiicmp_pkg_ctrl.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="36" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiicmp_pkg_tx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="37" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiip_arp_rx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="38" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiip_arp_tx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="39" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiip_header_checksum.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="40" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiip_layer.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="41" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiip_rx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="42" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiip_tx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="43" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uimac_layer.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="44" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/uimac_rx_secondary.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="45" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uimac_tx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="46" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uimac_tx_frame_ctrl.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="47" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uimac_tx_pause_ctrl.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="48" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uimdio_ctr.v">
+        <FileInfo>
+          <Attr Name="AutoExcluded" Val="true" />
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="49" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiphyrst.v">
+        <FileInfo>
+          <Attr Name="AutoExcluded" Val="true" />
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="50" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uirgmii_rx.v">
+        <FileInfo>
+          <Attr Name="AutoExcluded" Val="true" />
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="51" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uirgmii_tx.v">
+        <FileInfo>
+          <Attr Name="AutoExcluded" Val="true" />
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="52" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiudp_layer.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="53" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiudp_rx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="54" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiudp_stack.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="55" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/ethernet/uiudp_tx.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="56" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/vision_color_stats.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="57" />
+        </FileInfo>
+      </File>
+      <File Path="main/user_source/hdl_source/text_trace_engine.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="58" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_arithmetic.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="59" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_copy_pipeline.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="60" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_grbl_map.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="61" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_grbl_plotter.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="62" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_grbl_response_parser.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="63" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_grbl_streamer.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="64" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_homography.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="65" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_image_frontend.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="66" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_image_otsu.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="67" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_image_paper.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="68" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_image_refine.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="69" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_path_distance.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="70" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_stroke_bram.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="71" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_stroke_planner.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="72" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_machine_map.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="73" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/vision_workspace_goodonly.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="74" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/edge_roi_ccl_shared_pcb_candidate.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="75" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/vision_ccl_pcb_candidate.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="76" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/grbl_shared_transport_candidate.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="77" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/grbl_reporter_shared_candidate.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="78" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_grbl_plotter_shared_candidate.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="79" />
+        </FileInfo>
+      </File>
+      <File Path="01_rtl/doc_copy_pipeline_shared_candidate.v">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="80" />
+        </FileInfo>
+      </File>
+    </Verilog>
+    <ADC_FILE>
+      <File Path="04_pin/pin.adc">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="constrain_1" />
+          <Attr Name="CompileOrder" Val="77" />
+        </FileInfo>
+      </File>
+    </ADC_FILE>
+    <SDC_FILE>
+      <File Path="04_pin/timing.sdc">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="constrain_1" />
+          <Attr Name="CompileOrder" Val="78" />
+        </FileInfo>
+      </File>
+    </SDC_FILE>
+    <IP_FILE>
+      <File Path="main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml">
+        <FileInfo>
+          <Attr Name="UsedInSyn" Val="true" />
+          <Attr Name="UsedInP&amp;R" Val="true" />
+          <Attr Name="BelongTo" Val="design_1" />
+          <Attr Name="CompileOrder" Val="79" />
+        </FileInfo>
+      </File>
+    </IP_FILE>
+  </Source_Files>
+  <FileSets>
+    <FileSet Name="design_1" Type="DesignFiles">
+        </FileSet>
+    <FileSet Name="constrain_1" Type="ConstrainFiles">
+        </FileSet>
+  </FileSets>
+  <TOP_MODULE>
+    <LABEL>secondary_top</LABEL>
+    <MODULE>secondary_top</MODULE>
+    <CREATEINDEX>user</CREATEINDEX>
+  </TOP_MODULE>
+  <Property>
+    </Property>
+  <Device_Settings>
+    </Device_Settings>
+  <Configurations>
+    <Control0>
+      <mclk_freq>33MHz</mclk_freq>
+    </Control0>
+    <FeatureRow>
+      <boot_mode>mspix4</boot_mode>
+    </FeatureRow>
+  </Configurations>
+  <Runs>
+    <Run Name="syn_1" Type="Synthesis" ConstraintSet="constrain_1" Description="" Active="true" useDefaultScript="false">
+      <Strategy Name="Default_Synthesis_Strategy">
+            </Strategy>
+      <UserParams>
+            </UserParams>
+    </Run>
+    <Run Name="phy_1" Type="PhysicalDesign" ConstraintSet="constrain_1" Description="" SynRun="syn_1" Active="true">
+      <Strategy Name="Default_PhysicalDesign_Strategy">
+        <BitgenProperty::GeneralOption>
+          <compress>on</compress>
+        </BitgenProperty::GeneralOption>
+      </Strategy>
+      <UserParams>
+            </UserParams>
+    </Run>
+  </Runs>
+  <MultiSeed>
+    <Property Enable="true" GenBit="true" EndStep="route" Random="false" Num="3" Init="1" Jobs="1" Save="1" Step="1">
+      <Filter enabled="false">
+        <congestion>100</congestion>
+        <place_swns>0</place_swns>
+        <route_swns>0</route_swns>
+      </Filter>
+    </Property>
+    <Seeds>1 2 3 </Seeds>
+  </MultiSeed>
+  <Project_Settings>
+    </Project_Settings>
+  <UCode>00000000</UCode>
+</Project>

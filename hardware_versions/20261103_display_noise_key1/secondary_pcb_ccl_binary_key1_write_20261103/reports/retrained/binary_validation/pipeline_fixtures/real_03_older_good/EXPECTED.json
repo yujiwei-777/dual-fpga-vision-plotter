@@ -1,0 +1,45 @@
+{
+  "name": "real_03_older_good",
+  "ccl": {
+    "provisional_labels": 259,
+    "overflow": false,
+    "truncated": false,
+    "count": 1,
+    "eligible_components": [
+      {
+        "area": 6098,
+        "first": 1451,
+        "grid_box": [
+          7,
+          9,
+          144,
+          68
+        ]
+      }
+    ],
+    "top4": [
+      {
+        "area": 6098,
+        "first": 1451,
+        "grid_box": [
+          7,
+          9,
+          144,
+          68
+        ]
+      }
+    ]
+  },
+  "valid": true,
+  "bbox": [
+    56,
+    72,
+    1152,
+    544
+  ],
+  "status": 0,
+  "score": 255,
+  "margin": 950,
+  "class_id": 0,
+  "core_case": 3
+}

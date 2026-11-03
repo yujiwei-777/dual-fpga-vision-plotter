@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-03T02:59:00.435773+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary\\RUNNER_AT_EXECUTION.py": "6AD885208BF6270A768929671F14E70AF282F4E0806ABEE0F9D59067EE00A1AB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\tools\\run_ordinary_pose7_regression.py": "9907CEEE75B039B3E0DF16E0E1A1DEF5E7A1D0279568D37EDE3BD1D1829091CC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\export\\quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\export\\weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\export\\biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\cnn_dualhead_scratch_20261015_r6\\tools\\network.py": "06E3C5C0D1200F3A154590DDDA04EC79525ABC240F307EA1293B0FFC3A5F08AF",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_link_stability_20261020\\model\\fast_strict160_dataset\\images_strict160.npz": "29F19DA408A1BEDCE69577C181405F13C1976571502E6030DDE9C8E7FA2343DE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_link_stability_20261020\\model\\fast_strict160_dataset\\records.json": "47764012A52EF1627312307F1B54A9A81CD4573577256168A7624958888E3D56",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_cnn_retrain_20261027\\train_remote_detail.py": "AE3C8617CAC16448BBEE678B2FF7D38D8850641FFEA1E829453942DACED2363E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary\\integer27\\tb_remote_detail.sv": "CD8257E7005647B15B9841237849CA1E6F05A51B8398C71000E7799272EB049D"
+  },
+  "commands": [
+    {
+      "label": "ordinary_integer27",
+      "command": [
+        "C:\\Users\\38401\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\tools\\run_ordinary_pose7_regression.py",
+        "--rtl-root",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+        "--model",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\export",
+        "--output",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary\\integer27"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary\\ordinary_integer27.log",
+      "log_sha256": "6A770B8D8819B44CE3F8204447FF085EB2BF4D7D03DE09F72DD8C894E0762DBD",
+      "warnings": []
+    }
+  ],
+  "scope": [
+    {
+      "test": "ordinary CNN input/conv1/conv2/logits/class/confidence",
+      "cases": 27,
+      "results": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\ordinary\\integer27\\RESULTS.json"
+    }
+  ],
+  "limitations": [
+    "1170 source frames overlap training/development; not independent test accuracy.",
+    "Mild/strong remote cases are synthetic detail loss; no independently captured distant frames supplied.",
+    "These tests do not prove candidate localization or board accuracy."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

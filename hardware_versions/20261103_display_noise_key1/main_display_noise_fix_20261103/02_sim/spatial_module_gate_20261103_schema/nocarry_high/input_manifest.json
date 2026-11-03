@@ -1,0 +1,25 @@
+{
+  "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_nocarry_trial\\a4_display_spatial_nocarry.v",
+  "source_sha256": "CD72245FA5CF73F16F35C2F655E5F13DD5F4949D14D258A7B99F9179AA219696",
+  "copied_source_sha256": "CD72245FA5CF73F16F35C2F655E5F13DD5F4949D14D258A7B99F9179AA219696",
+  "parameters": {
+    "ENABLE": 1,
+    "EDGE_TH": 16,
+    "IMG_WIDTH": 1280,
+    "IMG_HEIGHT": 720
+  },
+  "device": "PH1P35MDG324",
+  "speed": 3,
+  "mapping": "default auto",
+  "pack_effort": "high",
+  "inputs": {
+    "module_source.v": "CD72245FA5CF73F16F35C2F655E5F13DD5F4949D14D258A7B99F9179AA219696",
+    "module_area_top.v": "085112D2AFF89C7EA58D1E1B70EA22A21C60664FD6BD6212A947FD50D70D3C49",
+    "module_area.al": "C99E18DD8F90C6C749923DFD4DCA8DB8EB889A9E50E4254746E45872BCAC337B",
+    "run.tcl": "FE1D5A4604D12139D3A29D4C269D49EF593D2D9345B795182690108A0F1A160E"
+  },
+  "all_dynamic_module_io_connected": true,
+  "product_constraints_used_or_changed": false,
+  "place_route_bitgen": false,
+  "resource_kind": "PRELIMINARY_SINGLE_MODULE_GATE_ESTIMATE"
+}

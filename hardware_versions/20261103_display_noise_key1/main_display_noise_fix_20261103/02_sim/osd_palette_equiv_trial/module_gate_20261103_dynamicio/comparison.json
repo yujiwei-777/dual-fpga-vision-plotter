@@ -1,0 +1,64 @@
+{
+  "status": "PASS_AREA_COMPARISON_ONLY",
+  "baseline": {
+    "logic_lut": 254,
+    "ripple": 0,
+    "seq": 62,
+    "eram": 0,
+    "dsp": 0
+  },
+  "palette": {
+    "logic_lut": 245,
+    "ripple": 0,
+    "seq": 34,
+    "eram": 0,
+    "dsp": 0
+  },
+  "palette_minus_baseline": {
+    "logic_lut": -9,
+    "ripple": 0,
+    "seq": -28,
+    "eram": 0,
+    "dsp": 0
+  },
+  "after_legalize_dut": {
+    "baseline": {
+      "logic_lut": 254,
+      "ripple": 0,
+      "seq": 62,
+      "eram": 0,
+      "dsp": 0
+    },
+    "palette": {
+      "logic_lut": 245,
+      "ripple": 0,
+      "seq": 34,
+      "eram": 0,
+      "dsp": 0
+    }
+  },
+  "results": {
+    "baseline": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\osd_palette_equiv_trial\\module_gate_20261103_dynamicio\\baseline\\area_result.json",
+    "palette": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\osd_palette_equiv_trial\\module_gate_20261103_dynamicio\\palette\\area_result.json"
+  },
+  "comparison_context_sha256": "E5C093B84FA065F44443850703E0025048C31C37B260795CD14989C74075C6E3",
+  "raw_warning_lines_retained": {
+    "baseline": [
+      "SYN-5025 WARNING: Using 0 for all undriven pins and nets",
+      "SYN-6021 CRITICAL-WARNING: 132 out of 132 logical ports has no user assigned specific location constraint."
+    ],
+    "palette": [
+      "SYN-5025 WARNING: Using 0 for all undriven pins and nets",
+      "SYN-6021 CRITICAL-WARNING: 132 out of 132 logical ports has no user assigned specific location constraint."
+    ]
+  },
+  "hardware_status": "NOT_RUN",
+  "all_DUT_inputs_dynamic": true,
+  "all_DUT_outputs_external": true,
+  "same_133IO_wrapper": true,
+  "all_eight_pcb_statuses_and_normal_panel_retained": true,
+  "product_modified": false,
+  "V8_modified": false,
+  "place_route_bitgen": false,
+  "limitation": "Preliminary module gate comparison only; no full-board capacity, Slice, routed timing, image quality or release acceptance."
+}

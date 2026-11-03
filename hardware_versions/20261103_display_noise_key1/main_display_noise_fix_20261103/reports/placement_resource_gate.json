@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "resources": {
+    "slice": {
+      "used": 19643,
+      "total": 21216,
+      "percent": 92.58578431372548,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 93,
+      "total": 108,
+      "percent": 86.11111111111111,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  },
+  "errors": [],
+  "hardware_status": "NOT_RUN"
+}

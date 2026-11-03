@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "board_validation": "NOT_RUN",
+  "scope": "Independent simulation experiment only; production source unchanged; not promoted; no TD run.",
+  "baseline_sha256": "3FDAF50C6FE27C2E158FEB037D63E8E37783F08938928B70D81339820C46BEC3",
+  "candidate_sha256": "9F918FEA3BC433F8A1AC646780049585B99CCDA52467DC83B8E1CF1D67CB260E",
+  "cycles": 2984788,
+  "asynchronous_reset_checks": 53,
+  "invalid_output_checks": 1877789,
+  "panel_output_checks": 1107052,
+  "all_outputs_including_invalid_compared": true,
+  "coverage": {
+    "full_720p_scans": 2,
+    "pcb_statuses": 8,
+    "algorithm_codes": 32,
+    "normal_rows": 5,
+    "cells_per_normal_row": 20,
+    "font_pixels_per_cell": 256,
+    "dynamic_enable_bcd_random_cycles": 50000,
+    "reachable_palette_states": 10
+  },
+  "resource_status": "NOT_MEASURED",
+  "theoretical_ff_reduction": 28,
+  "area_risk": "Four-bit palette decoding adds combinational LUTs. Actual mapping/packing may offset FF savings. Do not promote without measured LUT/FF/Slice/timing benefit.",
+  "no_ram_or_dsp_added_in_rtl": true,
+  "evidence_sha256": {
+    "osd_compact_glyphs.vh": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A",
+    "osd_compact_panel_frozen.v": "8E16AB5DC68A69603AE4C8A7F480C350BE9461A46E63BC8E9840459EB1526C9B",
+    "osd_compact_panel_palette.v": "9F918FEA3BC433F8A1AC646780049585B99CCDA52467DC83B8E1CF1D67CB260E",
+    "prepare_trial.py": "B9A6939CC776A2E91276BD923FD0D5EE0ED9D4E93C03B806C537986F83AF56B4",
+    "run_trial.ps1": "E975845A707F20698EE2CA1353988FF6D86EEEB242DAA4F2A72F4FBDA87EC7DA",
+    "tb_osd_palette.sv": "62036A403F8735AF428EB0A77A538348244406293DE30FFB978F51B68585F238",
+    "input_manifest.json": "D8EC02A161FBAB608C740CD0D44FCAC181BD6924B57A1E0499A1AD7C92D94331",
+    "compile.log": "EED5FC031321D0E64B0ACE67491CC5B0F02AE099C9333BB9B909244064322A3D",
+    "transcript.log": "7E9ABA5A60D093AC0F240E85947695BBA2CFA8C9B89C90867C955EB935513771",
+    "candidate.diff": "B37AF4BC410494F17C0495D7C59AA7FB64F70A4703948C250B562840CED64F0C",
+    "summarize_trial.py": "53C9C8C5E5D171857A0B3917CCB06EDD4DC13D73D0FB250446AEFB5FFAE16210"
+  }
+}

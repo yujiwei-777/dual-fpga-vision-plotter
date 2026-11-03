@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "baseline_fixed_tap_cycle_equivalence": true,
+  "integer_reference_data_and_markers": true,
+  "regression": "all256 channel values, 12 lanes, raw/tone modes, isolated SOF, mode latching, stalls, reset",
+  "pass_line": "# PASS display_tone frozen_tap_cycle_compare cycles=24520 accepted=14772 stalled=4864 tone=7780 raw=6992 isolated_sof=152 simultaneous=11188 midframe_enable_ignored=6939 reset_cycles=5",
+  "rtl_sha256": "FC4A0929BAF40AFF73008B3F29207A24D00F6F0C5DCFA0D9A9C2820B4420193C",
+  "tb_sha256": "2213E51CEF098E6C4686DE7924F0BC040DB1CA2F51E0DE214E4387B531139B3B",
+  "license_mode": "existing file license, both process variables explicitly set"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "check": "cancel_reentry",
+  "scope": "Ten preserved suites covering task ownership, HXA/CRC/lease changes, KEY1, KEY3 reset, cancellation, and reader reentry.",
+  "limitations": [
+    "Behavioral tests do not establish physical CDC metastability margins or external machine behavior."
+  ],
+  "artifacts": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\RESULTS.json",
+      "sha256": "E6A5F1B65CA8E9339E67E6B89C8CF6A6CA96DD024FEB7032FBC2C3255614054C"
+    }
+  ],
+  "source_sha256": {
+    "01_rtl/secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+    "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+    "01_rtl/vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+    "01_rtl/grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+    "shared/rtl/hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "shared/rtl/hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+    "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0"
+  }
+}

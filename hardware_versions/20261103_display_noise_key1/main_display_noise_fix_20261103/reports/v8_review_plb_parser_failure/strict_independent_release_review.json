@@ -1,0 +1,148 @@
+{
+  "passed": false,
+  "generated_utc": "2026-11-03T04:32:08.586595+00:00",
+  "checks": {
+    "area": {
+      "passed": true,
+      "errors": [],
+      "resources": {
+        "slice": {
+          "used": 19643,
+          "total": 21216,
+          "percent": 92.58578431372548
+        },
+        "eram": {
+          "used": 93,
+          "total": 108,
+          "percent": 86.11111111111111
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5
+        }
+      }
+    },
+    "placed_sites": {
+      "passed": true,
+      "errors": [],
+      "expected_slices": 19643,
+      "placed_slices": 19643,
+      "unique_sites": 19643
+    },
+    "check_design": {
+      "passed": true,
+      "errors": [],
+      "raw_status": 1,
+      "known_logical_capacity_discrepancy": true,
+      "window": [
+        "RUN-1001 : lslices exceed capacity",
+        "RUN-8007 ERROR: Design failed the check. The resources used in your design exceed the device limitations. Please try modifying the design or switch to a device with a larger resource capacity.",
+        "RAW_CHECK_DESIGN_STATUS=1 REASON="
+      ]
+    },
+    "check_io": {
+      "passed": false,
+      "errors": [
+        "check_io adverse diagnostic: USR-8450 CRITICAL-WARNING: Please be cautious that there are unconstraint IOs(10 out of 39) in design and tool will auto configure them.",
+        "check_io adverse diagnostic: This is HIGH RISK and might have undefined behavior on board and damages following. Bitgen will abort."
+      ],
+      "window": [
+        "USR-8450 CRITICAL-WARNING: Please be cautious that there are unconstraint IOs(10 out of 39) in design and tool will auto configure them. ",
+        "                           This is HIGH RISK and might have undefined behavior on board and damages following. Bitgen will abort. ",
+        "                           Please constraint all IOs and rerun. If insist on bitgen with risk, please 'set_param bitgen unconstr_io on'.",
+        "CHECK_IO_STATUS=0 REASON="
+      ]
+    },
+    "check_plb": {
+      "passed": false,
+      "errors": [
+        "Missing/duplicate check_plb invocation"
+      ]
+    },
+    "drc": {
+      "passed": true,
+      "errors": [],
+      "total": 104,
+      "summary": [
+        [
+          "SLATR-1036",
+          "NOTE",
+          24
+        ],
+        [
+          "SLATR-1038",
+          "NOTE",
+          80
+        ]
+      ],
+      "detail_count": 104
+    },
+    "timing": {
+      "passed": true,
+      "errors": [],
+      "metrics_ns": {
+        "SWNS": 0.174,
+        "STNS": 0.0,
+        "HWNS": 0.02,
+        "HTNS": 0.0
+      }
+    },
+    "tracked_clock_warnings": {
+      "passed": true,
+      "errors": []
+    },
+    "readonly_unchanged": {
+      "passed": true,
+      "errors": []
+    },
+    "readonly_completion": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  "evidence": {
+    "console_readonly.log": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\console_readonly.log",
+      "sha256": "6FF85FC8C6D1FE4389DC760859252830D971DFFD276A956811AD778FE84D0698"
+    },
+    "readonly.drc": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\readonly.drc",
+      "sha256": "612FAE7E470FA2A4E2C9F3AA09DAF161C5433532B5F4A9DCE630357C03102A7E"
+    },
+    "readonly.timing": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\readonly.timing",
+      "sha256": "60DBB3DE722D6E5A64E40A712B0030001864E30F4F9E9E13804F908EAB744576"
+    },
+    "readonly.area": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\readonly.area",
+      "sha256": "F4E24B40B91283907242E7F5E65460256B8951B161FE8318111F3FCAE51EB82A"
+    },
+    "readonly.sites.tsv": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\readonly.sites.tsv",
+      "sha256": "40C35DC1043485FEFDFC4E8B5A4770F7C28F27EDBA7222B583520BC882B6EDDE"
+    },
+    "expected_slice_cells.tsv": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\expected_slice_cells.tsv",
+      "sha256": "2E2C32BD95BFF2BA38738204C32B6A1422CD31F22322A1978F81631FA06FB074"
+    },
+    "readonly_input_hashes.json": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\readonly_input_hashes.json",
+      "sha256": "AC78D237807556A443285ADB3AB384A2EC7F99A83CE8950FDBA3AFB81C4D87B8"
+    },
+    "readonly_verification.json": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\readonly_verification.json",
+      "sha256": "7768D69993EF181C92FF6D167EBB48D6EC04B37D25B80D986B33E0028CD9C17B"
+    },
+    "physical_capacity/physical_capacity_validation.json": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\physical_capacity\\physical_capacity_validation.json",
+      "sha256": "0A0DB21598EC418BB9F0BB9D45AC13DA62B085E32DA6F1B9A40CE25F8AA9D82F"
+    },
+    "physical_capacity/named_logic_tiles.tsv": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\display_noise_readonly\\physical_capacity\\named_logic_tiles.tsv",
+      "sha256": "F9B66E748E10C33ADADF8AEC2B6F5B9592820F3ED49F0651919FFF67ADB802F7"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Strict read-only command/DRC/timing/placed-site audit. Raw adverse IO diagnostics are never hidden by catch=0."
+}

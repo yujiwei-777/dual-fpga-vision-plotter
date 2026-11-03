@@ -30,7 +30,7 @@
 | --- | --- |
 | 图像处理与风格化 | 支持原图及 18 种处理模式，包括灰度、二值化、Sobel 边缘、形态学、伪彩、海报化、卡通化和亮度增强；按键切换并显示当前模式 |
 | 运动区域检测 | 硬件帧差结合亮度自适应阈值、区域筛选和连续确认，叠加运动框及区域内变化采样点数；SW1 控制运动显示 |
-| 成像质量自动调节 | 根据亮度与颜色统计自动调整曝光、模拟 / 数字增益和白平衡；显示支路配合空间滤波改善颗粒噪声 |
+| 成像质量自动调节 | 根据亮度与颜色统计自动调整曝光、模拟 / 数字增益和白平衡；显示支路采用保留 RGB8 的二维保边空间滤波（非 TNR） |
 | 普通目标识别 | 9 类 CNN；输出名称、图像中心坐标和置信分数；连续确认与短暂不确定保持，允许输出真实低分结果 |
 | PCB 检测 | 共享 CCL 自动定位最大候选，以原框采样 96×96 Y8，执行 GOOD / BAD 二分类；输出 PASS / FAIL / REVIEW；主板 KEY4 每次按下触发一次 |
 | 文档复制 | 整帧按比例映射，320×180 网格，每格读取 4×4 源像素；骨架、路径规划、机器坐标和 G-code；不做 OCR，不要求纸张四角或距离标定 |
@@ -55,47 +55,47 @@ CNN 分数是模型输出经缩放得到的 margin，**不是校准后的正确�
 | 10 | 文档复制 | 按整帧比例提取笔迹并生成中心线路径，不依赖纸张四角定位 |
 | 11 | 保留 | 暂无功能 |
 
-PCB 框来自副板返回的原图候选坐标，表示检测对象范围，不表示缺陷位置。当前模型不做方向校正，摆放角度变化仍需实测。文档使用 A4 纸面坐标和安全边界，与相机测距是两项不同功能。运动数值表示所选运动区域内的变化采样点数，不是累计物体数量。与旧版介绍的具体差异及 RTL 依据见 [当前版本功能范围](docs/CCL_BINARY_KEY1_WRITE_20261103.md)。
+PCB 框来自副板返回的原图候选坐标，表示检测对象范围，不表示缺陷位置。当前模型不做方向校正，摆放角度变化仍需实测。文档使用 A4 纸面坐标和安全边界，与相机测距是两项不同功能。运动数值表示所选运动区域内的变化采样点数，不是累计物体数量。与旧版介绍的具体差异及 RTL 依据见 [当前版本功能范围](docs/DISPLAY_NOISE_KEY1_20261103.md)。
 
-## 当前版本：2026-11-03 KEY1 报告版
+## 当前版本：2026-11-03 显示空间滤波 + KEY1 报告版
 
-配套主板为 auto_compat，副板为 pcb_ccl_binary_key1_write。CNN/PCB 结果先缓存，按副板 KEY1 才提交当前模式的报告；PCB 结果只消费一次，失效结果不重放。文档复制入口保持独立。该组合实板状态 **NOT_RUN**。
+配套主板为 display_noise_fix，副板为 pcb_ccl_binary_key1_write。主板更新二维保边空间滤波和亮度表局部修正，保留 RGB8；副板与上一 KEY1 写字版相同。CNN/PCB 结果先缓存，按副板 KEY1 才提交当前模式的报告；PCB 结果只消费一次，失效结果不重放。文档复制入口保持独立。该组合实板状态 **NOT_RUN**。
 
-[下载可直接转发的源码交付包（约 7.9 MiB）](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.03-ccl-binary-key1-write/vision_inspection_plotter_key1_write_source_20261103.zip)。解压后打开“00_开始使用.html”，包含配套 bit、两板工程、接线和使用说明。[完整构建归档](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/tag/v2026.11.03-ccl-binary-key1-write) 单独提供日志、验证记录与检查点。
+[下载可直接转发的源码交付包（约 10 MB）](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.03-display-noise-key1/vision_inspection_plotter_display_noise_key1_source_20261103.zip)。解压后打开“00_开始使用.html”，包含配套 bit、两板工程、接线和使用说明。[完整构建归档](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/tag/v2026.11.03-display-noise-key1) 单独提供日志、验证记录与检查点。
 
-历史版本：[CCL 二分类原版](docs/CCL_BINARY_RETRAINED_20261103.md)、[pose7 版](docs/POSE7_AUTO_20261102.md)、[2026-11-01 固定窗口版](hardware/)。
+历史版本：[KEY1 报告原版](docs/CCL_BINARY_KEY1_WRITE_20261103.md)、[CCL 二分类原版](docs/CCL_BINARY_RETRAINED_20261103.md)、[pose7 版](docs/POSE7_AUTO_20261102.md)、[2026-11-01 固定窗口版](hardware/)。
 
 ## 工程入口
 
 | 板卡 | 工程入口 |
 | --- | --- |
-| 主板 | [camera_to_dsi_display_720p60_cnn_multibox.al](hardware_versions/20261103_ccl_binary_key1_write/main_pcb_auto_compat_20261101/camera_to_dsi_display_720p60_cnn_multibox.al) |
-| 副板 | [secondary_cnn_multibox.al](hardware_versions/20261103_ccl_binary_key1_write/secondary_pcb_ccl_binary_key1_write_20261103/secondary_cnn_multibox.al) |
+| 主板 | [camera_to_dsi_display_720p60_cnn_multibox.al](hardware_versions/20261103_display_noise_key1/main_display_noise_fix_20261103/camera_to_dsi_display_720p60_cnn_multibox.al) |
+| 副板 | [secondary_cnn_multibox.al](hardware_versions/20261103_display_noise_key1/secondary_pcb_ccl_binary_key1_write_20261103/secondary_cnn_multibox.al) |
 
 两板器件均为 PH1P35MDG324、speed -3；工具记录为 Tang Dynasty **Release 2026.1 SP2 / 6.2.200067**。
 
 ~~~text
-hardware_versions/20261103_ccl_binary_key1_write/
-  main_pcb_auto_compat_20261101/             主板源码、约束、bit 与构建证据
+hardware_versions/20261103_display_noise_key1/
+  main_display_noise_fix_20261103/             主板源码、约束、bit 与构建证据
   secondary_pcb_ccl_binary_key1_write_20261103/ 副板冻结源码、模型、bit 与回归证据
   PACKAGE_MANIFEST.json                     文件与 bit 身份
   SOURCE_AND_EVIDENCE_MAPPING.json          冻结输入和证据哈希映射
 hardware/                                  2026-11-01 原版完整归档
 docs/                                      功能、操作与验证说明
-release/20261103_ccl_binary_key1_write/                 新版身份与验收记录
-verify_release.py                          分别校验四组归档
+release/20261103_display_noise_key1/                 新版身份与验收记录
+verify_release.py                          分别校验五组归档
 ~~~
 
 ## 下载与校验
 
 | 板卡 | 文件 |
 | --- | --- |
-| 主板 | [dual_fpga_main_20261101_pcb_auto_compat_diagnostic.bit](hardware_versions/20261103_ccl_binary_key1_write/main_pcb_auto_compat_20261101/artifacts/dual_fpga_main_20261101_pcb_auto_compat_diagnostic.bit) |
-| 副板 | [dual_fpga_secondary_20261103_pcb_ccl_binary_key1_write_diagnostic.bit](hardware_versions/20261103_ccl_binary_key1_write/secondary_pcb_ccl_binary_key1_write_20261103/artifacts/dual_fpga_secondary_20261103_pcb_ccl_binary_key1_write_diagnostic.bit) |
+| 主板 | [dual_fpga_main_20261103_display_noise_fix_diagnostic.bit](hardware_versions/20261103_display_noise_key1/main_display_noise_fix_20261103/artifacts/dual_fpga_main_20261103_display_noise_fix_diagnostic.bit) |
+| 副板 | [dual_fpga_secondary_20261103_pcb_ccl_binary_key1_write_diagnostic.bit](hardware_versions/20261103_display_noise_key1/secondary_pcb_ccl_binary_key1_write_20261103/artifacts/dual_fpga_secondary_20261103_pcb_ccl_binary_key1_write_diagnostic.bit) |
 
 ~~~text
 主板 SHA256
-B048D5BD30915F7C08791A9947D90982B741929E00CC0BE3036F7018C76209BC
+B7F39A1E4E4906074BA59BB8C124BA1B24690C6D33D20BFA47C7AF817C60D485
 
 副板 SHA256
 D8AEABE97D2249C13D0CFB31E80196D5F05701B3C214BBA6FDDCEA8D611AAF15
@@ -113,14 +113,14 @@ python -B verify_release.py
 
 | 板卡 | Setup WNS | Hold WNS | TNS | Slice | ERAM | DSP |
 | --- | --- | --- | --- | --- | --- | --- |
-| auto_compat 主板 | +0.384 ns | +0.020 ns | 0 | 92.93% | 83.33% | 92.50% |
+| display_noise_fix 主板 | +0.174 ns | +0.020 ns | 0 | 92.59% | 86.11% | 92.50% |
 | KEY1 报告版副板 | +0.021 ns | +0.020 ns | 0 | 90.77% | 75.93% | 45.00% |
 
-主板 189 项、副板 324 项冻结输入已校验。副板保留独立综合、布局布线、双角时序和只读核验记录；KEY1 控制 23 项、普通 CNN 27 向量、PCB 核心 18 向量及集成流水线回归已记录。主板原始诊断 RUN-8007 / USR-8450 与独立容量、IO 对照记录同时保留。
+主板 193 项、副板 324 项构建输入已校验。主板最终 V8 通过源码哈希一致的 V6/V7 仿真与逐周期等价链验证，未重跑全部 V8 仿真。副板保留独立综合、布局布线、双角时序和只读核验记录；KEY1 控制 23 项、普通 CNN 27 向量、PCB 核心 18 向量及集成流水线回归已记录。主板原始诊断 RUN-8007 / USR-8450 与独立容量、IO 对照记录同时保留。
 
-PCB 的 231 个有效留出帧中，分类正确 222 个（96.10%）；仍有 **7 张缺焊盘被接受为 PASS**。这些是同批采集分块测试，不能作为新板、新工位的准确率。验证范围见 [新版说明](docs/CCL_BINARY_KEY1_WRITE_20261103.md#验证与限制)。
+PCB 的 231 个有效留出帧中，分类正确 222 个（96.10%）；仍有 **7 张缺焊盘被接受为 PASS**。这些是同批采集分块测试，不能作为新板、新工位的准确率。验证范围见 [新版说明](docs/DISPLAY_NOISE_KEY1_20261103.md)。
 
-主板亮度曲线同时作用于传给副板的图像，调整亮度时需同步检查识别效果。
+本版显示亮度表仅修正输入 96..99，CNN 固定亮度支路不变；显示变化进入 DDR，运动输入可能受影响。低对比纹理可能变柔，严重噪声现象尚缺少对应故障原始帧验证。
 
 ## 版权与使用
 

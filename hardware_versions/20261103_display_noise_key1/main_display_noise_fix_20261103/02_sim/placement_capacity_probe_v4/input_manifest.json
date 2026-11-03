@@ -1,0 +1,30 @@
+{
+  "source_run": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4",
+  "probe": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4",
+  "copies": [
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4\\camera_to_dsi_display_720p60_cnn_multibox.al",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\camera_to_dsi_display_720p60_cnn_multibox.al",
+      "source_sha256": "A229462C283ED76D3C00A683B39F290997F5055CD3510D0EE0F5403279ADC427",
+      "target_sha256": "46BD34A2CA9B9A04B2F4B6DDA7E3D50147F41394D023BE07A13E3932A75EFB2A",
+      "bytes": 67452
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4\\camera_to_dsi_display_720p60_cnn_multibox_gate.db",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\camera_to_dsi_display_720p60_cnn_multibox_gate.db",
+      "source_sha256": "A12B820F8F7ADA3460E9930FC3864F4E0728AB6A3133C42254A163CE64E37389",
+      "target_sha256": "A12B820F8F7ADA3460E9930FC3864F4E0728AB6A3133C42254A163CE64E37389",
+      "bytes": 16772056
+    },
+    {
+      "source": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v4\\osd_compact_glyphs.vh",
+      "target": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\placement_capacity_probe_v4\\osd_compact_glyphs.vh",
+      "source_sha256": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A",
+      "target_sha256": "0E9E71837CDB42AC88B51C946BB1394A732326328FA33C7CE0840D154DD5522A",
+      "bytes": 3780
+    }
+  ],
+  "read_only": true,
+  "place_route_bitgen": false,
+  "script_sha256": "B79B2ECC4B6B3F622D2BF19D21DED290CB21A270A4D4E4CFE6ED6EA9843CE931"
+}

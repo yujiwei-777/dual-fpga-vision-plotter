@@ -1,0 +1,8 @@
+{
+  "schema": "dual_fpga_hardware_acceptance_v5",
+  "date": "2026-11-03",
+  "status": "NOT_RUN",
+  "scope": "display-noise V8 main paired with unchanged KEY1 CNN/PCB report secondary",
+  "main_bit_sha256": "B7F39A1E4E4906074BA59BB8C124BA1B24690C6D33D20BFA47C7AF817C60D485",
+  "secondary_bit_sha256": "D8AEABE97D2249C13D0CFB31E80196D5F05701B3C214BBA6FDDCEA8D611AAF15"
+}

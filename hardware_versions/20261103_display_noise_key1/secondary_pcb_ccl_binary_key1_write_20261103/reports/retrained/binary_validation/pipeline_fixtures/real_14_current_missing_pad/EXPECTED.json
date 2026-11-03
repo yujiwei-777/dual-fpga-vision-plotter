@@ -1,0 +1,45 @@
+{
+  "name": "real_14_current_missing_pad",
+  "ccl": {
+    "provisional_labels": 63,
+    "overflow": false,
+    "truncated": false,
+    "count": 1,
+    "eligible_components": [
+      {
+        "area": 4124,
+        "first": 2736,
+        "grid_box": [
+          7,
+          17,
+          120,
+          66
+        ]
+      }
+    ],
+    "top4": [
+      {
+        "area": 4124,
+        "first": 2736,
+        "grid_box": [
+          7,
+          17,
+          120,
+          66
+        ]
+      }
+    ]
+  },
+  "valid": true,
+  "bbox": [
+    56,
+    136,
+    960,
+    528
+  ],
+  "status": 1,
+  "score": 221,
+  "margin": 640,
+  "class_id": 1,
+  "core_case": 14
+}

@@ -1,0 +1,17 @@
+Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+vmap -c 
+Copying E:/model/win64/../modelsim.ini to modelsim.ini
+Model Technology ModelSim SE-64 vmap 2020.4 Lib Mapping Utility 2020.10 Oct 13 2020
+vmap -modelsimini D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\osd_palette_equiv_trial/modelsim.ini palette_lib D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\osd_palette_equiv_trial/palette_lib 
+Modifying D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\osd_palette_equiv_trial/modelsim.ini
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 12:02:40 on Nov 03,2026
+vlog -modelsimini D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\osd_palette_equiv_trial/modelsim.ini -work palette_lib -sv "+incdir+." osd_compact_panel_frozen.v osd_compact_panel_palette.v tb_osd_palette.sv 
+-- Compiling module osd_compact_panel_frozen
+-- Compiling module osd_compact_panel_palette
+-- Compiling module tb_osd_palette
+
+Top level modules:
+	tb_osd_palette
+End time: 12:02:41 on Nov 03,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

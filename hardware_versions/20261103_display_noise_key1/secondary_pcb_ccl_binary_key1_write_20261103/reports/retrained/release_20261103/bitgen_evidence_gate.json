@@ -1,0 +1,146 @@
+{
+  "source_manifest_sha256": "B8285CD02FFACDBB6B9913EDC94D14B9D34FA4F5C21E9A484C8A542636347914",
+  "routed_database_sha256": "E860BA850D48DB69DD7E31355F2810C5E2A25DAEA30AC3910E41418AE901D2A8",
+  "checks": {
+    "binary_integer": true,
+    "cancel_reentry": true,
+    "cdc": true,
+    "ddr": true,
+    "document": true,
+    "drc": true,
+    "fifo": true,
+    "ordinary_cnn": true,
+    "readonly": true,
+    "writing": true
+  },
+  "evidence": {
+    "binary_integer": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\binary_integer.json",
+      "sha256": "C18EA72BFFC419A28BF3D05DA57A66C28EBDCEC77287441C828FFBCCA56C4039",
+      "status": "PASS",
+      "source_sha256": {
+        "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+        "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+        "01_rtl/vision_ccl_pcb_candidate.v": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+        "01_rtl/pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+        "01_rtl/pcb_fullboard_spatial96.v": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948",
+        "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+        "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+        "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+        "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0"
+      }
+    },
+    "ordinary_cnn": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\ordinary_cnn.json",
+      "sha256": "5AD5CF34493822B38CBE71DCDB2FD1B56A762A399FE4493438DB4903D0BFAB85",
+      "status": "PASS",
+      "source_sha256": {
+        "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+        "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+        "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+        "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+        "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+        "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+        "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98"
+      }
+    },
+    "document": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\document.json",
+      "sha256": "DEED74F540C5F0C5976CAF419366CFCDB6D9E8F54CF32D84DFB8A069A90A9FFA",
+      "status": "PASS",
+      "source_sha256": {
+        "01_rtl/doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+        "01_rtl/doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+        "01_rtl/doc_machine_map.v": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+        "01_rtl/doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+        "01_rtl/doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+        "01_rtl/doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4"
+      }
+    },
+    "writing": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\writing.json",
+      "sha256": "5DD060EA3FD286409AB120F0CB89A9AD7882F4555B096B8B42C5BC59879C85D9",
+      "status": "PASS",
+      "source_sha256": {
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89",
+        "01_rtl/grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+        "01_rtl/grbl_reporter_shared_candidate.v": "CDA9B8E7F246B045E25C82C7D6E20D043D5E3C638E6229888708ADC2FC9CC8EF",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "7B9E41D7996CCB42377FDEBF0FC89C29A57A95C9583CF507F1F8EB6C62011A68"
+      }
+    },
+    "cancel_reentry": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\cancel_reentry.json",
+      "sha256": "20D171FEC1D3CBE7473B7BB718252EE046E264E3B57BE4DAE3AE80F09AC75517",
+      "status": "PASS",
+      "source_sha256": {
+        "01_rtl/secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+        "01_rtl/grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+        "shared/rtl/hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+        "shared/rtl/hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+        "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0"
+      }
+    },
+    "cdc": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\cdc.json",
+      "sha256": "0B3B7D31072A727C1A4D474FB5976869CE2C75344EC4B1FB968C6F1F309E2F25",
+      "status": "PASS",
+      "source_sha256": {
+        "04_pin/apply_cdc_exceptions.tcl": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0",
+        "04_pin/timing.sdc": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359"
+      }
+    },
+    "fifo": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\fifo.json",
+      "sha256": "F323D1D6118D25B381652E4FF73284D39A80D6C49AB3CEEF0BF6AD1D541F8E01",
+      "status": "PASS",
+      "source_sha256": {
+        "shared/rtl/hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+        "shared/rtl/hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+        "01_rtl/grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD"
+      }
+    },
+    "ddr": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\ddr.json",
+      "sha256": "B5F0B095E79F970C1FBB54B5B7B5CC776D697431B7D571904719F172D6D55FD5",
+      "status": "PASS",
+      "source_sha256": {
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+        "main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.v": "99910FCD06D61B728C4333F8EB15DD07B61DB32AF197AD3871995283461FE29E"
+      }
+    },
+    "drc": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\drc.json",
+      "sha256": "083000D3B1C3242460A277518ECBACFD90CBAE575C448D1191D6F2305C6100A6",
+      "status": "PASS",
+      "source_sha256": {
+        "04_pin/timing.sdc": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF",
+        "04_pin/apply_cdc_exceptions.tcl": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0",
+        "01_rtl/secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02"
+      }
+    },
+    "readonly": {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\evidence\\readonly.json",
+      "sha256": "D5C74C6495DFCA94661BA2EB57582A751CDA791C1078C998639134B21A3979B1",
+      "status": "PASS",
+      "source_sha256": {
+        "04_pin/timing.sdc": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF",
+        "01_rtl/secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359"
+      }
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "summary_limitations": [
+    "CDC report covers mapped constraints, not independent CDC signoff.",
+    "DDR PHY calibration and board memory operation remain NOT_RUN.",
+    "DRC contains 72 NOTE-level findings and no ERROR/FATAL findings.",
+    "All behavioral verification is simulation; the diagnostic bit requires board validation."
+  ]
+}

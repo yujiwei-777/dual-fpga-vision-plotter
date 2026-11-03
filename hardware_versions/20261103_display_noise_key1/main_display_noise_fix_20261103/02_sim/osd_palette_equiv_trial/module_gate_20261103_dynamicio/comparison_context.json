@@ -1,0 +1,190 @@
+{
+  "status": "PREPARED_NOT_RUN",
+  "hardware_status": "NOT_RUN",
+  "runner_sha256": "859AEEEA83BAA5C07D802F4962A4CFCABA0E78C8C02E89DE993905ADB939AAAB",
+  "framework_sha256": "93D3BEBB2914A5BB89320F5B14405601FC7B2446855E8D790B121983CA512C07",
+  "equivalence_receipt": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\02_sim\\osd_palette_equiv_trial\\verification.json",
+  "equivalence_receipt_sha256": "4A80F40FCE59BBF82034A0EA2F277E905E2365CCD64B8BE9EEFFCCFDF7B265EA",
+  "equivalence_cycles": 2984788,
+  "equivalence_reset_checks": 53,
+  "production_sha256": "3FDAF50C6FE27C2E158FEB037D63E8E37783F08938928B70D81339820C46BEC3",
+  "candidate_sha256": "9F918FEA3BC433F8A1AC646780049585B99CCDA52467DC83B8E1CF1D67CB260E",
+  "input_manifests": {
+    "baseline": "148DC955C3FC03CFBE527F9607634E4E7454F29088FAC8C23A88CAD38EB8A069",
+    "palette": "2BC777E09F0BA773B9F0FC4D567220893E93FCC8A5D5855DB33C569F0EE1CF06"
+  },
+  "wrapper_sha256": "C40C47609D5193E76B88DE633F2EB072360BCF2E5C0411B43A9234F1CA2E4DC0",
+  "port_validation": {
+    "input_bits": 94,
+    "output_bits": 39,
+    "total_io": 133,
+    "dut_ports": {
+      "clk": {
+        "direction": "input",
+        "width": 1
+      },
+      "rst_n": {
+        "direction": "input",
+        "width": 1
+      },
+      "x": {
+        "direction": "input",
+        "width": 12
+      },
+      "y": {
+        "direction": "input",
+        "width": 12
+      },
+      "pcb_mode": {
+        "direction": "input",
+        "width": 1
+      },
+      "pcb_status": {
+        "direction": "input",
+        "width": 3
+      },
+      "algo_mode": {
+        "direction": "input",
+        "width": 5
+      },
+      "he_on": {
+        "direction": "input",
+        "width": 1
+      },
+      "lat_valid": {
+        "direction": "input",
+        "width": 1
+      },
+      "lat_overflow": {
+        "direction": "input",
+        "width": 1
+      },
+      "frame_bcd": {
+        "direction": "input",
+        "width": 20
+      },
+      "lat_bcd": {
+        "direction": "input",
+        "width": 16
+      },
+      "target_x_bcd": {
+        "direction": "input",
+        "width": 16
+      },
+      "target_y_bcd": {
+        "direction": "input",
+        "width": 16
+      },
+      "area_bcd": {
+        "direction": "input",
+        "width": 24
+      },
+      "remote": {
+        "direction": "input",
+        "width": 1
+      },
+      "ovl_valid": {
+        "direction": "input",
+        "width": 1
+      },
+      "target_color": {
+        "direction": "input",
+        "width": 2
+      },
+      "shape3": {
+        "direction": "input",
+        "width": 2
+      },
+      "target_shape": {
+        "direction": "input",
+        "width": 1
+      },
+      "motion_enable": {
+        "direction": "input",
+        "width": 1
+      },
+      "motion_bcd": {
+        "direction": "input",
+        "width": 20
+      },
+      "panel_on": {
+        "direction": "output",
+        "width": 1
+      },
+      "panel_border": {
+        "direction": "output",
+        "width": 1
+      },
+      "text_on": {
+        "direction": "output",
+        "width": 1
+      },
+      "text_color": {
+        "direction": "output",
+        "width": 24
+      },
+      "font_glyph": {
+        "direction": "output",
+        "width": 8
+      },
+      "font_row": {
+        "direction": "output",
+        "width": 4
+      },
+      "font_row_bits": {
+        "direction": "input",
+        "width": 16
+      }
+    },
+    "connections": {
+      "clk": "clk",
+      "rst_n": "rst_n",
+      "x": "x",
+      "y": "y",
+      "pcb_mode": "pcb_mode",
+      "pcb_status": "pcb_status",
+      "algo_mode": "algo_mode",
+      "he_on": "he_on",
+      "lat_valid": "lat_valid",
+      "lat_overflow": "lat_overflow",
+      "frame_bcd": "dynamic_bcd_metadata[111:92]",
+      "lat_bcd": "dynamic_bcd_metadata[91:76]",
+      "target_x_bcd": "dynamic_bcd_metadata[75:60]",
+      "target_y_bcd": "dynamic_bcd_metadata[59:44]",
+      "area_bcd": "dynamic_bcd_metadata[43:20]",
+      "remote": "remote",
+      "ovl_valid": "ovl_valid",
+      "target_color": "target_color",
+      "shape3": "shape3",
+      "target_shape": "target_shape",
+      "motion_enable": "motion_enable",
+      "motion_bcd": "dynamic_bcd_metadata[19:0]",
+      "panel_on": "panel_on",
+      "panel_border": "panel_border",
+      "text_on": "text_on",
+      "text_color": "text_color",
+      "font_glyph": "font_glyph",
+      "font_row": "font_row",
+      "font_row_bits": "font_row_bits"
+    },
+    "metadata_bits": 112,
+    "arbitrary_metadata_loading_cycles": 4,
+    "metadata_basis_vectors_checked": 113
+  },
+  "device": "PH1P35MDG324",
+  "speed": 3,
+  "mapping": "default auto",
+  "pack_effort": "high",
+  "uses_complete_V8_strategy": false,
+  "same_wrapper_device_strategy": true,
+  "all_DUT_outputs_external": true,
+  "all_DUT_inputs_dynamic": true,
+  "all_eight_pcb_statuses_retained": true,
+  "normal_panel_all_five_rows_retained": true,
+  "wrapper_FF_added_to_both_cases": 112,
+  "resource_status": "NOT_MEASURED",
+  "product_modified": false,
+  "V8_modified": false,
+  "place_route_bitgen": false,
+  "limitation": "Preliminary module gate comparison only; no full-board capacity, Slice, routed timing, image quality or release acceptance."
+}

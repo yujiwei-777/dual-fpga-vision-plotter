@@ -1,0 +1,39 @@
+{
+  "passed": false,
+  "checks": {
+    "exact_documented_synthesis_pack_strategy": true,
+    "frozen_prebuild_inputs_match": true,
+    "fresh_route_gate": true,
+    "implementation_no_missing_project_inputs": true,
+    "readonly_input_timing_unchanged": true,
+    "baseline_bit_unchanged": true,
+    "inactive_project_inputs_match_baseline": true,
+    "three_display_source_scope": true,
+    "complete_compatible_unique_placed_capacity": true,
+    "strict_area_sites_design_plb_drc_timing": false,
+    "standard_context_inputs_unchanged": true,
+    "standard_context_only_known_raw_io_diagnostic": true,
+    "raw_io_only_known_or_clean": true,
+    "all_79_physical_io_locations_match_baseline_context": true,
+    "ordinary_adc_locations_match": true,
+    "all_79_pad_sites_placed_unique": true,
+    "hard_dphy0_source_binding_and_placement": true,
+    "no_new_timing_check_category_or_increased_warning_count": true,
+    "fifo_mailbox_skew_constraints_retained_all_pass": true,
+    "ddr_hdmi_clocks_retained": true,
+    "tracked_clock_diagnostics_absent": true,
+    "exact_spatial_implementation_equivalence_chain": true,
+    "required_rtl_regression": true,
+    "tone_and_spatial_reference_rtl_evidence": true,
+    "fresh_functional_source_contract": true
+  }
+}
+Audit rejected: D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\tools\review_display_noise_relea
+se.py
+At D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\tools\run_display_noise_build.ps1:12 char:85
++ ... f($LASTEXITCODE){throw ('Audit rejected: '+($Arguments -join ' '))} }
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Audit rejected:...oise_release.py:String) [], RuntimeException
+    + FullyQualifiedErrorId : Audit rejected: D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\t 
+   ools\review_display_noise_release.py
+ 

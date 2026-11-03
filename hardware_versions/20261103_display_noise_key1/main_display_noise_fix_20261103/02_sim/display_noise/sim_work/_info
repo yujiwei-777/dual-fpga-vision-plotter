@@ -1,0 +1,90 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/02_sim/display_noise
+T_opt
+!s110 1793675800
+Vd<Q2QoPDHiCNYVLiX[]Nc2
+Z1 04 18 4 work tb_display_spatial fast 0
+=1-40c2ba3dfe0d-6ae95218-e1-5250
+o-quiet -auto_acc_if_foreign -work sim_work -g WIDTH=8 -g HEIGHT=4 -g COUNT=131
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1793675802
+VoSLMk?9Q0he3;eG_60A]M0
+R1
+=1-40c2ba3dfe0d-6ae95219-34d-12ed4
+o-quiet -auto_acc_if_foreign -work sim_work -g WIDTH=1280 -g HEIGHT=720 -g COUNT=1843206
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1793675798
+VHb7D:6G2AN@c4GzT<86:E2
+R1
+=1-40c2ba3dfe0d-6ae95216-284-132c0
+o-quiet -auto_acc_if_foreign -work sim_work -g WIDTH=7 -g HEIGHT=5 -g COUNT=156
+R2
+n@_opt2
+R3
+R0
+va4_display_spatial_h1
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1793675784
+!i10b 1
+!s100 =CjZkg]EhNV2XDafbfd_d1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOZ3[8^JjkkmXhQGCb?cPc0
+S1
+R0
+w1793675364
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/a4_display_spatial_h1.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/a4_display_spatial_h1.v
+!i122 0
+L0 8 184
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1793675784.000000
+Z10 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise/tb_display_spatial.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/a4_display_spatial_h1.v|
+Z11 !s90 -work|sim_work|-sv|D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/user_source/hdl_source/a4_display_spatial_h1.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise/tb_display_spatial.sv|
+!i113 0
+Z12 o-work sim_work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_display_spatial
+R4
+R5
+!i10b 1
+!s100 f1GPXK[;hiUD5UGdEZ3Bi3
+R6
+Ii?Jc]CbQ@SzWz754^TY9`0
+S1
+R0
+w1793673522
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise/tb_display_spatial.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_display_noise_fix_20261103\02_sim\display_noise/tb_display_spatial.sv
+!i122 0
+L0 2 45
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2

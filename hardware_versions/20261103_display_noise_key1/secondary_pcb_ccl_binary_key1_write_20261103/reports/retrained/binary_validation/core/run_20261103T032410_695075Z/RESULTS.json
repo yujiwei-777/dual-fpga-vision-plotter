@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "cases": 18,
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+  "run_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\binary_validation\\core\\run_20261103T032410_695075Z",
+  "RTL": "PASS",
+  "hardware": "NOT_RUN",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\pcb_fullboard_spatial96.v": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\binary_validation\\core\\run_20261103T032410_695075Z\\tb_real_pcb_core.sv": "BCAF56B5E4313F9A8A9879068DCF43D3DC952983C5579C3FE64059A4371CF7F1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\tools\\binary_validation_core.py": "FF8FDB12D578806B3B63C2F9078580E0E60D8F0307380F2A5D8C228F2EE014AF",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_centered_new_capture_mix_20261029_hw\\02_sim\\new_capture_mix_regression_r5_20261029\\tb_real_pcb_core.sv": "1B604D75A606EC5CF8B73E214E7E575F25ACD1EC495820ECCF7683767C684982",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\binary_validation\\fixtures\\SHA256.json": "380B5AA403AC129B4F7731C062487CDDBB62CA192D9DDE3A9B59AB8A5D58C245",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\experiments\\conv4_4\\biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\experiments\\conv4_4\\weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B"
+  },
+  "returncode": 0,
+  "source_unchanged": true,
+  "samples_passed": 18,
+  "marker": "BINARY_C4_4_GOLDEN_PASS samples=18 sat=0",
+  "log_sha256": "CC0AA2FCEE6023068F0CF36640B0DCDCFDFC004258215C56C3ADC3A8A00F7CE2"
+}

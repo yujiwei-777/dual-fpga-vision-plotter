@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "kind": "exhaustive_integer_reference",
+  "input_values": 256,
+  "baseline_rtl_sha256": "063737B3786DFCEECB8CCCD5314BDB150256BEF77CA02898D02F65D5CE56EDDC",
+  "variant_rtl_sha256": "FC4A0929BAF40AFF73008B3F29207A24D00F6F0C5DCFA0D9A9C2820B4420193C",
+  "fixed_tap": "frozen function unchanged; RTL cycle comparison is separate",
+  "changed_source_values": [
+    96,
+    97,
+    98,
+    99
+  ],
+  "old_values_95_through_100": [
+    118,
+    124,
+    125,
+    126,
+    127,
+    127
+  ],
+  "display_values_95_through_100": [
+    118,
+    120,
+    122,
+    124,
+    126,
+    127
+  ],
+  "baseline_max_adjacent_step": 6,
+  "display_max_adjacent_step": 2,
+  "maximum_display_decrease_dn": 4,
+  "output_range": [
+    0,
+    243
+  ],
+  "changes_ae_gain_awb": false,
+  "adds_dsp_operations": false,
+  "physical_resource_result": "pending synthesis",
+  "limitations": "Display curve continuity only; not temporal denoising or a sensor noise fix."
+}

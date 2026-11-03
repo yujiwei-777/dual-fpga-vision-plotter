@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-03T02:52:03.597028+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\tb_cnn_publication_integration.sv": "60A9CEA325A8BC671D9AE8F58523DC68F1DDFA477D439781258E17FFD0FC9928",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\controlled_leaf_interfaces.sv": "5DFBC9AB5BB7B9B216D20C07E48B0B1126CD3350EB5315206155BE8757E89A0E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\tb_cnn_publication_integration.sv": "60A9CEA325A8BC671D9AE8F58523DC68F1DDFA477D439781258E17FFD0FC9928"
+  },
+  "commands": [
+    {
+      "label": "publication_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "publication_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pipeline.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\cnn_result_stabilizer.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\controlled_leaf_interfaces.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\tb_cnn_publication_integration.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_lint.log",
+      "log_sha256": "52C2699F85D0D029656C3AC6713647813D07FD6201839E83CA913DB46441A3B2",
+      "warnings": []
+    },
+    {
+      "label": "publication_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-novopt",
+        "-suppress",
+        "12110",
+        "-lib",
+        "publication_lib",
+        "tb_cnn_publication_integration",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_simulation.log",
+      "log_sha256": "979C636AE7308C2483AAAC03EB7C2D897D44939DFE61BCE0C04C3667919244A0",
+      "warnings": [
+        "** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+        "** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 57, found 34.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'word_req'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'byte_addr'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'config_version'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'area'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'pcb_checked'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'pcb_good'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'pcb_status'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'defect_count'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'defect_boxes'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'defect_kinds'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'teach_success'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'teach_failed'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'teach_code'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'teach_commit'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'taught_station_header'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'ext_reader_invalidate'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'ext_pixel_x'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'ext_pixel_y'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'yolo_pixel_valid'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'yolo_pixel_rgb'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'yolo_pixel_last'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'color_word_active'.",
+        "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'pcb_frame_lock'."
+      ]
+    }
+  ],
+  "scope": [
+    {
+      "test": "current pipeline+packed stabilizer controlled-leaf publication",
+      "records": [
+        "PASS CNN_PUBLICATION_INTEGRATION checks=170 jobs=30 starts=32"
+      ]
+    }
+  ],
+  "limitations": [
+    "CCL/CNN/PCB leaves are controlled; tests publication/state/bank lifetime, not real localization, arithmetic or physical DDR."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

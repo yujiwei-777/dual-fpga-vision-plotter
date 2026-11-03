@@ -1,0 +1,17 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 10:59:00 on Nov 03,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\publication\publication_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\vision_pipeline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\cnn_result_stabilizer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\publication\controlled_leaf_interfaces.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\publication\tb_cnn_publication_integration.sv 
+-- Compiling module vision_pipeline
+-- Compiling module cnn_result_stabilizer
+-- Compiling module vision_color_stats
+-- Compiling module edge_roi_ccl_shared_pcb_candidate
+-- Compiling module cnn_core
+-- Compiling module pcb_ccl_binary_core
+-- Compiling module vision_shared_mac
+-- Compiling module vision_workspace_goodonly
+-- Compiling module tb_cnn_publication_integration
+
+Top level modules:
+	tb_cnn_publication_integration
+End time: 10:59:00 on Nov 03,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "bitgen_allowed": true,
+  "run": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8",
+  "name": "camera_to_dsi_display_720p60_cnn_multibox",
+  "generated_utc": "2026-11-03T04:25:30.185945+00:00",
+  "timing_ns": {
+    "SWNS": 0.174,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19643,
+      "total": 21216,
+      "percent": 92.58578431372548,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 93,
+      "total": 108,
+      "percent": 86.11111111111111,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  },
+  "source_manifest_sha256": "1099EE826D585AEA521FD243AA60E03C5EDE1EDBF536E168B3C98BC2CB569DA8",
+  "snapshot": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/source_snapshot.json",
+  "failures": [],
+  "tracked_warnings": [
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1274,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1275,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1276,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1277,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1278,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1279,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_7 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1280,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_8 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1281,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_9 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1282,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1283,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1284,
+      "text": "SLATR-1036 Similar messages will be suppressed."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1285,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_10 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1286,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_10 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1287,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_11 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1288,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_11 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1289,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_12 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1290,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_12 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1291,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_13 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1292,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_13 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1293,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_14 getting reg attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1294,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_14 getting ce attributes."
+    },
+    {
+      "file": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log",
+      "line": 1295,
+      "text": "SLATR-1038 Similar messages will be suppressed."
+    }
+  ],
+  "evidence": {
+    "camera_to_dsi_display_720p60_cnn_multibox_pr.timing": {
+      "sha256": "9313E673905DC2213DEA930BCC081D74DDAAB61641697746596F964B320E0C92",
+      "mtime_ns": 1793679898459214600
+    },
+    "camera_to_dsi_display_720p60_cnn_multibox_phy.area": {
+      "sha256": "F4E24B40B91283907242E7F5E65460256B8951B161FE8318111F3FCAE51EB82A",
+      "mtime_ns": 1793679880226968400
+    },
+    "route_flow.status": {
+      "sha256": "16886FDC09D3F228013F9D089E6962F217ED264425168512A6095FB9694B0D02",
+      "mtime_ns": 1793679898518216100
+    },
+    ".opt_route.end.f": {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "mtime_ns": 1793679900885997800
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/.read_design.begin.f": {
+      "sha256": "698BEFEAB35E84C3FE0EF6206EF990A4973DE8F999B9257601E581DB5A23472F",
+      "mtime_ns": 1793677230091099900
+    },
+    "camera_to_dsi_display_720p60_cnn_multibox_pr.db": {
+      "sha256": "166B667EBD50FC88A81401CE1DBB06C7301DB1E18645AE6F0EF952AA9AE13EDC",
+      "mtime_ns": 1793679900712645700
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/synth.log": {
+      "sha256": "5E17C987F7669DC88A0FE0D4593DD102C6653903AD3B10169EE68309BF14DCBF"
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/place.log": {
+      "sha256": "027BE9E8CB46CD5921EBCDA9EAF9D577059F09042CC9BF89E11075CB0E15A50A"
+    },
+    "D:/program/fpga/lab_ex3_osd_SC500_720P/main_display_noise_fix_20261103/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/route.log": {
+      "sha256": "28BC7B3B9830D8B45922E8E5E60D4118562468243DE7FC26793E2114F8D8E09A"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Build gates only; CDC/DDR/DRC and hardware review remain required"
+}

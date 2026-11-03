@@ -1,0 +1,48 @@
+ 
+ 
+TangDynasty® TCL Command User Guide 
+ 
+SWUG105 
+www.anlogic.com 
+22 
+2026.01 
+ 
+ 
+ 
+ 
+param
+1：（必选）指定参数名 
+ 
+value
+1：（必选）设置参数值 
+4.1.18.3 命令示例  
+set_param gate map_strategy 2 
+set_param -run phy_1 route fix_hold on 
+注： 
+1. step, param 和value 的详细信息和关系，请见“SYN Properties 设置”和“PHY properties 设
+置”章节。 
+4.1.19 report_param 
+打印db 中的参数。在不加任何options 时，在console/terminal/log 中打印db 中非默认值的pu
+blic 参数和参数值。 
+4.1.19.1 命令参数  
+report_param [-stage <flow/design/rtl/gate/place/route/timing/sim/bitgen>] [-file <fi
+le_path_name>] [-detail] 
+4.1.19.2 参数释义  
+ 
+-file <file_path_name>：（可选）将每条参数的set_param 完整命令行写入指定的tcl 文件中。
+File_path_name 为输出文件的绝对路径或相对路径及文件名，后缀为.tcl。 
+ 
+-detail:（可选）非默认值和默认值的参数均打印。当不使用此选项时，只打印非默认值的参
+数。此选项不影响-file 选项，即同时使用-detail 和-file 时也仅输出非默认值的参数到指定文
+件中。 
+ 
+-stage <stage_name>：（可选）仅打印指定stage 的参数，stage_name 可取值为flow，design，
+rtl，gate，place，route，timing，sim，bitgen。当不使用此选项时，打印全部stage 的参
+数。 
+4.1.19.3 命令示例  
+report_param -stage place 
+report_param -file ./param_setting.tcl 
+4.1.20 clear_param 
+重置db 中所有的参数为默认值，清除未注册的参数。 
+ 
+ 

@@ -1,0 +1,1496 @@
+{
+  "status": "FAIL",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+  "suite_results": [
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-03T02:50:01.815192+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\tb_pose7_plotter.sv": "4B2E12A9B83BDD6C030D8E1B8863D3E1EEBFCFFB5CE128814F9D532058228A66",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_response_parser.v": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter\\tb_pose7_plotter.sv": "4B2E12A9B83BDD6C030D8E1B8863D3E1EEBFCFFB5CE128814F9D532058228A66"
+      },
+      "commands": [
+        {
+          "label": "transport_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter\\transport_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter\\transport_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "transport_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter\\transport_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_line_formatter.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_response_parser.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_shared_transport_candidate.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter\\tb_pose7_plotter.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter\\transport_lint.log",
+          "log_sha256": "2CA809E61C54D9F3AE798337AF1F079CA5324B097A5E343E7E03B8795483EB9B",
+          "warnings": []
+        },
+        {
+          "label": "transport_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "transport_lib",
+            "tb_pose7_plotter",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\plotter\\transport_simulation.log",
+          "log_sha256": "13FA0AA0ABEBC48F3B09890F78E11B718D214C4F7B158C2A350B5620C1094111",
+          "warnings": []
+        }
+      ],
+      "scope": [
+        {
+          "test": "actual shared report/document transport",
+          "cases": [
+            "PLOTTER_CASE_PASS name=KEY2_first_final_ok_no_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_second_no_KEY3_uart_unaccepted_retry",
+            "PLOTTER_CASE_PASS name=CNN_PCB_multiline_ack_serialization",
+            "PLOTTER_CASE_PASS name=DOC_final_ok_owner_withdrawal_no_final_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_after_DOC_owner_switch",
+            "PLOTTER_CASE_PASS name=DOC_lost_ok_no_motion_replay_safe_stop",
+            "PLOTTER_CASE_PASS name=REPORT_lost_ok_no_motion_replay",
+            "PLOTTER_CASE_PASS name=REPORT_KEY4_stop_Hold_reset_fresh_Idle",
+            "PLOTTER_CASE_PASS name=REPORT_Alarm_rearm_required",
+            "PLOTTER_CASE_PASS name=REPORT_Reset_invalidates_coordinates",
+            "PLOTTER_CASE_PASS name=REPORT_UART_ready_loss_is_fault",
+            "PLOTTER_CASE_PASS name=DOC_KEY4_reset_Hold_fresh_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_after_DOC_stop_recovery"
+          ]
+        }
+      ],
+      "limitations": [
+        "Producer claims are controlled; HXA and physical external machine require separate tests.",
+        "GRBL ok acknowledges command acceptance, not mechanical standstill."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    },
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-03T02:50:06.589862+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\tb_pose7_fifo4.sv": "BA2997D48D9E31802D6097A647425B4FE020A87374E39A02BB72E41E856F551B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\tb_pose7_hxa_crc_network.sv": "7018E1F36A872A0CB92B6517CBCFD1DF35190D9F3F518A0E2A7B90CB7C58ED2E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_codec.v": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\tb_pose7_fifo4.sv": "BA2997D48D9E31802D6097A647425B4FE020A87374E39A02BB72E41E856F551B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\tb_pose7_hxa_crc_network.sv": "7018E1F36A872A0CB92B6517CBCFD1DF35190D9F3F518A0E2A7B90CB7C58ED2E"
+      },
+      "commands": [
+        {
+          "label": "vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\hxa_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\hxa_lib",
+            "+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/hxa",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_codec.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\ph1p_logic_eram_stub.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\tb_pose7_fifo4.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\tb_pose7_hxa_crc_network.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\lint.log",
+          "log_sha256": "F270DC21A89F4186529DB9A61F8946B2CF247BEC268C65C9222B65DA3AD0C8D7",
+          "warnings": []
+        },
+        {
+          "label": "tb_pose7_fifo4",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "hxa_lib",
+            "tb_pose7_fifo4",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\tb_pose7_fifo4.log",
+          "log_sha256": "8DCF43525C262A610D433166EC4D84DD07D5B23A622200DC5A0F7CE5F25EF61F",
+          "warnings": []
+        },
+        {
+          "label": "tb_pose7_hxa_crc_network",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "hxa_lib",
+            "tb_pose7_hxa_crc_network",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\hxa\\tb_pose7_hxa_crc_network.log",
+          "log_sha256": "8F980D6B5EC021727B37461075AA3D0C23E4B6736279E4B22BE17B00D4741875",
+          "warnings": []
+        }
+      ],
+      "scope": [
+        {
+          "test": "tb_pose7_fifo4",
+          "records": [
+            "POSE7_FIFO4_PASS: 41 payload/header/control checks, 11 expected rejected packets, 6 control events, 40us cadence"
+          ]
+        },
+        {
+          "test": "tb_pose7_hxa_crc_network",
+          "records": [
+            "POSE7_HXA_CASE_PASS name=bad_FRAME_BEGIN_packet_CRC",
+            "POSE7_HXA_CASE_PASS name=bad_FRAME_END_packet_CRC",
+            "POSE7_HXA_CASE_PASS name=complete_DDR_frame_bad_CRC",
+            "POSE7_HXA_CASE_PASS name=complete_DDR_frame_correct_CRC",
+            "POSE7_HXA_CASE_PASS name=ordinary_empty_Type11_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=ordinary_HXD1_Type11_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=PHY_drop_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=lease_expiry_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=HELLO_session_change_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=wrong_session_Type11_rejected",
+            "POSE7_HXA_CASE_PASS name=explicit_reason80_Type11_cancels",
+            "POSE7_HXA_BASELINE_LIMITATION explicit_reason80_authenticated_session_accepts_nonmatching_frame_ID=1",
+            "POSE7_HXA_CRC_NETWORK_PASS cases=11"
+          ]
+        }
+      ],
+      "limitations": [
+        "Frame DATA staging count is deposited; this does not validate all1280 fragment DMA writes. Actual CRC scans115200 DDR words.",
+        "Explicit Type11 reason80 checks session but baseline does not compare task/frame ID.",
+        "Behavioral DDR read model is not vendor PHY or physical CDC signoff."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    },
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-03T02:51:16.921944+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank\\expected_binary.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank\\source_y.mem": "F7E50EA9790D238FF696C425E3CD2EFD2DC6958FA80B3338E5CF246902473D50",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected.mem": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected.vh": "94F636E09B59E8CB5EE02CD62CC007ABE9780F42D33D403D505AD99F01165D25",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected_binary.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected_coordinates.json": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected_gcode.txt": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected_strokes.json": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\input.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\skeleton.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\source_y.mem": "49EC9AE502DC60597221732A4DA69D49A06D83DDB182F3B88AD3DECE8C830351",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\gray_gradient_grain\\expected_binary.mem": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\gray_gradient_grain\\source_y.mem": "30E96EF745973D01127C1DB583DA2326553F7DC1D828EE1D60FABC880B8EE72F",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected.mem": "DD920D357DCC2B5017B41D2A26C555FD7885597665019915F3CE68E612A70CA1",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected.vh": "B7422CFE048F5E7D35A0A5BBA5E91AB511B5435BB5D11B0ACB8B9FAC9F23CAB9",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected_binary.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected_coordinates.json": "86A81D4129718E3EF326624DB335C8222732965CA19BF37B6B8B764B1C816EC3",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected_gcode.txt": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected_strokes.json": "C665DA52520F298402AE0CF993641FEA347E2386EE35D08187373AACEB6AB757",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\input.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\skeleton.mem": "29060DFFBA0385B1C28A6CCC12BCD45AB480EA02523EB277493DF598DF1AFC50",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\source_y.mem": "B30D8E3EA87D460F37A964E52A86E3A090F1E7A23DBBCDB11E203009CA21F72B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\sample15_roi_border_contract\\expected_binary.mem": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\sample15_roi_border_contract\\source_y.mem": "972D4CCD003993D4CEB6845E2AD118AA2F03BD8E771F44B7E448068A48146E37",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\strokes_on_fixed_dirt\\expected_binary.mem": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\strokes_on_fixed_dirt\\source_y.mem": "400A1F44497121AA11C88648B725A83C9F826505B55B81A4AD80E00EBC29A32E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\source\\tb_frontend.sv": "5D4FD8D354B77636D77E03916007013B4B50754D57D2560730B45E775D91697C",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\source\\tb_capture_integrated.sv": "C4C71F186A744CD5863B3029AA1AEC02E3AC2F3661F62E358CBA9C426AD5ABF5",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_machine_map.v": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_map.v": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+      },
+      "commands": [
+        {
+          "label": "frontend_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\front_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\frontend_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "frontend_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\front_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_image_frontend.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\tb_frontend.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\frontend_lint.log",
+          "log_sha256": "FDF1725AA02458A2429977BA4416557EFC4F14831A8FC6751A3F381944410D57",
+          "warnings": []
+        },
+        {
+          "label": "frontend_blank",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "front_lib",
+            "tb_frontend",
+            "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/blank/source_y.mem",
+            "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/blank/expected_binary.mem",
+            "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/blank_binary.mem",
+            "+CASE=blank",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\frontend_blank.log",
+          "log_sha256": "C822B158BD58FA65BF38A40C9FF6AD26EB51EFD5A8F4C997A5213DFC561058B3",
+          "warnings": []
+        },
+        {
+          "label": "frontend_blank2418",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "front_lib",
+            "tb_frontend",
+            "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/blank2418/source_y.mem",
+            "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/blank2418/expected_binary.mem",
+            "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/blank2418_binary.mem",
+            "+CASE=blank2418",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\frontend_blank2418.log",
+          "log_sha256": "AA1AF7DA7DF38B3DBE579E51096E9ADB3ECC747B2186E0BBE300C117D009F783",
+          "warnings": []
+        },
+        {
+          "label": "frontend_gray_gradient_grain",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "front_lib",
+            "tb_frontend",
+            "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/gray_gradient_grain/source_y.mem",
+            "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/gray_gradient_grain/expected_binary.mem",
+            "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/gray_gradient_grain_binary.mem",
+            "+CASE=gray_gradient_grain",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\frontend_gray_gradient_grain.log",
+          "log_sha256": "4B84D99C6F67FE730734EC2AE44D481A5280E5A3B9149DE99D7395C79BE7A4B5",
+          "warnings": []
+        },
+        {
+          "label": "frontend_ink2358",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "front_lib",
+            "tb_frontend",
+            "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/ink2358/source_y.mem",
+            "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/ink2358/expected_binary.mem",
+            "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/ink2358_binary.mem",
+            "+CASE=ink2358",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\frontend_ink2358.log",
+          "log_sha256": "A767DA5850F50840D2031893781DBB3F1F6A35579A94EE42CC1B2338140790BB",
+          "warnings": []
+        },
+        {
+          "label": "frontend_sample15_roi_border_contract",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "front_lib",
+            "tb_frontend",
+            "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/sample15_roi_border_contract/source_y.mem",
+            "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/sample15_roi_border_contract/expected_binary.mem",
+            "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/sample15_roi_border_contract_binary.mem",
+            "+CASE=sample15_roi_border_contract",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\frontend_sample15_roi_border_contract.log",
+          "log_sha256": "F887DA75B7A844C1F3C63AAB179702257C0B7ADBAC860308AE90C26F24E0D17E",
+          "warnings": []
+        },
+        {
+          "label": "frontend_strokes_on_fixed_dirt",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "front_lib",
+            "tb_frontend",
+            "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/strokes_on_fixed_dirt/source_y.mem",
+            "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/strokes_on_fixed_dirt/expected_binary.mem",
+            "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/strokes_on_fixed_dirt_binary.mem",
+            "+CASE=strokes_on_fixed_dirt",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\frontend_strokes_on_fixed_dirt.log",
+          "log_sha256": "826418483F620F8C48055131940D80138C08DB7514F8886A1B2D3388EF0223CE",
+          "warnings": []
+        },
+        {
+          "label": "blank2418_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\blank2418_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\blank2418_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "blank2418_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\blank2418_lib",
+            "+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/blank2418",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_image_frontend.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_stroke_planner.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_stroke_bram.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_machine_map.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_plotter.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_map.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_streamer.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_response_parser.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_line_formatter.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\ph1p_logic_eram_stub.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\tb_capture_integrated.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\blank2418_lint.log",
+          "log_sha256": "D55D3F11F6DEFE2E5C5C0A8137941AE7A71C97D3AC1A56DF960EBDE839D4EAE4",
+          "warnings": []
+        },
+        {
+          "label": "blank2418_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "blank2418_lib",
+            "tb_stroke_split",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; cd {D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/blank2418}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\blank2418_simulation.log",
+          "log_sha256": "34A2875FDCD611C6CB3D831116E43F41FF62EE847993F4261F5591B9F19F0B4E",
+          "warnings": []
+        },
+        {
+          "label": "ink2358_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\ink2358_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\ink2358_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "ink2358_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\ink2358_lib",
+            "+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/ink2358",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_image_frontend.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_stroke_planner.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_stroke_bram.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_machine_map.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_plotter.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_map.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_streamer.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_grbl_response_parser.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_line_formatter.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\ph1p_logic_eram_stub.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\tb_capture_integrated.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\ink2358_lint.log",
+          "log_sha256": "C1168187DCA5CB3849BF15B6C529032D9029C4365D55BB3BCD9079D09CD90AD7",
+          "warnings": []
+        },
+        {
+          "label": "ink2358_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "ink2358_lib",
+            "tb_stroke_split",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; cd {D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/document/fixtures/ink2358}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\document\\ink2358_simulation.log",
+          "log_sha256": "A785C066DAF13F5AEEA7179DB81421E018BE059DE9B7F5F52980505C839F779E",
+          "warnings": []
+        }
+      ],
+      "scope": [
+        {
+          "test": "frontend blank",
+          "records": [
+            "PASS FRONTEND blank cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend blank2418",
+          "records": [
+            "PASS FRONTEND blank2418 cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend gray_gradient_grain",
+          "records": [
+            "PASS FRONTEND gray_gradient_grain cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend ink2358",
+          "records": [
+            "PASS FRONTEND ink2358 cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend sample15_roi_border_contract",
+          "records": [
+            "PASS FRONTEND sample15_roi_border_contract cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend strokes_on_fixed_dirt",
+          "records": [
+            "PASS FRONTEND strokes_on_fixed_dirt cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "blank2418 frontend/skeleton/paths/coordinates/G-code",
+          "gcode_lines": 4,
+          "actual_gcode_sha256": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+          "records": [
+            "PASS CAPTURE_INTEGRATED frontend thin graph paths mapper Gcode cycles=19324205 edges=0 paths=0 points=0 acked=4"
+          ]
+        },
+        {
+          "test": "ink2358 frontend/skeleton/paths/coordinates/G-code",
+          "gcode_lines": 417,
+          "actual_gcode_sha256": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+          "records": [
+            "PASS CAPTURE_INTEGRATED frontend thin graph paths mapper Gcode cycles=39143321 edges=603 paths=30 points=351 acked=417"
+          ]
+        }
+      ],
+      "limitations": [
+        "Archived real-frame fixtures check this current RTL; no new independent handwriting quality or hardware claim.",
+        "Integrated fixtures use document-local transport; current shared transport is separately tested."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    },
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-03T02:51:58.708591+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\ordinary",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\ordinary\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\tools\\run_ordinary_pose7_regression.py": "9907CEEE75B039B3E0DF16E0E1A1DEF5E7A1D0279568D37EDE3BD1D1829091CC",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\export\\quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\export\\weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\export\\biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\cnn_dualhead_scratch_20261015_r6\\tools\\network.py": "06E3C5C0D1200F3A154590DDDA04EC79525ABC240F307EA1293B0FFC3A5F08AF",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_link_stability_20261020\\model\\fast_strict160_dataset\\images_strict160.npz": "29F19DA408A1BEDCE69577C181405F13C1976571502E6030DDE9C8E7FA2343DE",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_link_stability_20261020\\model\\fast_strict160_dataset\\records.json": "47764012A52EF1627312307F1B54A9A81CD4573577256168A7624958888E3D56",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_cnn_retrain_20261027\\train_remote_detail.py": "AE3C8617CAC16448BBEE678B2FF7D38D8850641FFEA1E829453942DACED2363E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\ordinary\\integer27\\tb_remote_detail.sv": "CD8257E7005647B15B9841237849CA1E6F05A51B8398C71000E7799272EB049D"
+      },
+      "commands": [
+        {
+          "label": "ordinary_integer27",
+          "command": [
+            "C:\\Users\\38401\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+            "-B",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\tools\\run_ordinary_pose7_regression.py",
+            "--rtl-root",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+            "--model",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\model\\export",
+            "--output",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\ordinary\\integer27"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\ordinary",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\ordinary\\ordinary_integer27.log",
+          "log_sha256": "6A770B8D8819B44CE3F8204447FF085EB2BF4D7D03DE09F72DD8C894E0762DBD",
+          "warnings": []
+        }
+      ],
+      "scope": [
+        {
+          "test": "ordinary CNN input/conv1/conv2/logits/class/confidence",
+          "cases": 27,
+          "results": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\ordinary\\integer27\\RESULTS.json"
+        }
+      ],
+      "limitations": [
+        "1170 source frames overlap training/development; not independent test accuracy.",
+        "Mild/strong remote cases are synthetic detail loss; no independently captured distant frames supplied.",
+        "These tests do not prove candidate localization or board accuracy."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    },
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-03T02:52:03.597028+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\tb_cnn_publication_integration.sv": "60A9CEA325A8BC671D9AE8F58523DC68F1DDFA477D439781258E17FFD0FC9928",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\controlled_leaf_interfaces.sv": "5DFBC9AB5BB7B9B216D20C07E48B0B1126CD3350EB5315206155BE8757E89A0E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\tb_cnn_publication_integration.sv": "60A9CEA325A8BC671D9AE8F58523DC68F1DDFA477D439781258E17FFD0FC9928"
+      },
+      "commands": [
+        {
+          "label": "publication_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "publication_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pipeline.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\cnn_result_stabilizer.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\controlled_leaf_interfaces.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\tb_cnn_publication_integration.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_lint.log",
+          "log_sha256": "52C2699F85D0D029656C3AC6713647813D07FD6201839E83CA913DB46441A3B2",
+          "warnings": []
+        },
+        {
+          "label": "publication_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-novopt",
+            "-suppress",
+            "12110",
+            "-lib",
+            "publication_lib",
+            "tb_cnn_publication_integration",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\publication\\publication_simulation.log",
+          "log_sha256": "979C636AE7308C2483AAAC03EB7C2D897D44939DFE61BCE0C04C3667919244A0",
+          "warnings": [
+            "** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 57, found 34.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'word_req'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'byte_addr'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'config_version'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'area'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'pcb_checked'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'pcb_good'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'pcb_status'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'defect_count'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'defect_boxes'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'defect_kinds'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'teach_success'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'teach_failed'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'teach_code'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'teach_commit'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'taught_station_header'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'ext_reader_invalidate'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'ext_pixel_x'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'ext_pixel_y'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'yolo_pixel_valid'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'yolo_pixel_rgb'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'yolo_pixel_last'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'color_word_active'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/publication/tb_cnn_publication_integration.sv(28): [TFMPC] - Missing connection for port 'pcb_frame_lock'."
+          ]
+        }
+      ],
+      "scope": [
+        {
+          "test": "current pipeline+packed stabilizer controlled-leaf publication",
+          "records": [
+            "PASS CNN_PUBLICATION_INTEGRATION checks=170 jobs=30 starts=32"
+          ]
+        }
+      ],
+      "limitations": [
+        "CCL/CNN/PCB leaves are controlled; tests publication/state/bank lifetime, not real localization, arithmetic or physical DDR."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    },
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-03T02:52:07.050019+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\pose7_top_control_probe.v": "5BC43D74708C024E45B0877C64F142267986C641493986BD9A767903681BFDD5",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_top_control.v": "51549860FEBC8C10AB9D3167EE3FED8AEF82F45A19BCFA3B00222EE101DB570F",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\current_top_control_probe.sv": "06A5F204A66024378F5CCA232690DC544D7A2CBA1F529A10386F5AC752B4360F",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\tb_pose7_top_control.v": "51549860FEBC8C10AB9D3167EE3FED8AEF82F45A19BCFA3B00222EE101DB570F",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_stability_20261026\\shared\\tests\\tb_grbl_key1_job_guard.sv": "9BAD8FCEAC6083AC25CEDA0C3B71E0F384FAE68F948E16D84EE11D5D0653BB23",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\tb_grbl_key1_job_guard.sv": "9BAD8FCEAC6083AC25CEDA0C3B71E0F384FAE68F948E16D84EE11D5D0653BB23"
+      },
+      "commands": [
+        {
+          "label": "top_control_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\top_control_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\top_control_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "top_control_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\top_control_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\current_top_control_probe.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\tb_pose7_top_control.v"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\top_control_lint.log",
+          "log_sha256": "D3D9BCB2356D87611B5EE742732ACF6DB569E8793471D1F296C2EBA1E1AFA496",
+          "warnings": []
+        },
+        {
+          "label": "top_control_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "top_control_lib",
+            "tb_pose7_top_control",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\top_control_simulation.log",
+          "log_sha256": "DE8CD16370B89D1B343DDB16E02D2DE011BDCADEF45618F94FA9787FE8DBA0A3",
+          "warnings": []
+        },
+        {
+          "label": "key1_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\key1_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\key1_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "key1_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\key1_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\tb_grbl_key1_job_guard.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\key1_lint.log",
+          "log_sha256": "2CD1B6129EF7813ADFD6B9CB86A4FF14F57B691A14A9D4251671A785F03F2F43",
+          "warnings": []
+        },
+        {
+          "label": "key1_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "key1_lib",
+            "tb_grbl_key1_job_guard",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\controls\\key1_simulation.log",
+          "log_sha256": "4208D11169055EE3D13D39BE6E2394718E013E68BA2A825D0A607D8C8946C4CC",
+          "warnings": []
+        }
+      ],
+      "scope": [
+        {
+          "test": "source-extracted current top ownership/cancel/accepted task protection",
+          "records": [
+            "POSE7_TOP_CONTROL_PASS checks=50"
+          ]
+        },
+        {
+          "test": "current real local KEY1 guard",
+          "records": [
+            "PASS KEY1 job guard: accept protection, network-independent hold, done/error/cancel release"
+          ]
+        }
+      ],
+      "limitations": [
+        "Source-extracted top predicates are not full top elaboration; packet cancellation and shared transport use separate suites."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    },
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-03T02:52:08.946411+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\run_reader.py": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\tb_reader.sv": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\top_read_route_probe.sv": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\hxa_read_route_probe.sv": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\tb_reader.sv": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531"
+      },
+      "commands": [
+        {
+          "label": "reader_mailbox_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "reader_mailbox_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pixel_reader.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\hxa_ddr_store.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\top_read_route_probe.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\hxa_read_route_probe.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\tb_reader.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_lint.log",
+          "log_sha256": "724368FE5322768AAD870AA7E1C6155EBDD3AD01B73C816649282BB53208A7CF",
+          "warnings": []
+        },
+        {
+          "label": "reader_mailbox_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "reader_mailbox_lib",
+            "tb_pose7_real_reader",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_simulation.log",
+          "log_sha256": "043E93A718402B70A695626B4641B8838BCD976A7FFC3E483E886D6A27C6F5A7",
+          "warnings": []
+        }
+      ],
+      "scope": [
+        {
+          "test": "actual current pixel reader+dual-clock mailbox+source-extracted top/HXA routes",
+          "records": [
+            "POSE7_REAL_READER_CASE_PASS name=calibration_fences_requests",
+            "POSE7_REAL_READER_CASE_PASS name=all_eight_Y_lanes_odd_even_cache",
+            "POSE7_REAL_READER_CASE_PASS name=miss_boundaries_last_address_and_variable_latency",
+            "POSE7_REAL_READER_CASE_PASS name=frame_invalidate_changes_same_word",
+            "POSE7_REAL_READER_CASE_PASS name=app_command_backpressure_and_samecycle_app_response",
+            "POSE7_REAL_READER_CASE_PASS name=ordinary_color_word_port_masks_pixel_reply",
+            "POSE7_REAL_READER_CASE_PASS name=document_owns_reader_ignores_live_purpose_and_color",
+            "POSE7_REAL_READER_CASE_PASS name=PCB_network_cancel_retains_inflight_response",
+            "POSE7_REAL_READER_CASE_PASS name=explicit_doc_cancel_drain_and_reentry",
+            "POSE7_REAL_READER_CASE_PASS name=KEY4_doc_drain_and_reentry",
+            "POSE7_REAL_READER_CASE_PASS name=CRC_read_owner_never_publishes_pixel",
+            "POSE7_REAL_READER_CASE_PASS name=unreturned_doc_response_locks_until_raw_reset",
+            "POSE7_REAL_READER_PASS cases=12 checks=506 pixels=44 client_words=37 app_words=37 clocks=8ns_14ns"
+          ]
+        }
+      ],
+      "limitations": [
+        "Independent125/DDR clocks plus behavioral app interface verify logical mailbox ordering, not metastability, vendor PHY calibration, physical latency or static CDC signoff."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    },
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-03T02:52:18.340068+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\tools\\run_key3_reset_unit.py": "EE9E3E1F757CCEC1DDEC791248A05EDC7E8D65247EE0554552565B38560BF80D",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3\\tb_key3_reset_unit.sv": "937112D691AF1C732C14CFAF6B59F58474965E32FFF651DE26D4B4DBA540F21A"
+      },
+      "commands": [
+        {
+          "label": "key3_supervisor_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3\\key3_supervisor_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3\\key3_supervisor_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "key3_supervisor_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3\\key3_supervisor_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\reset_sync.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3\\tb_key3_reset_unit.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3\\key3_supervisor_lint.log",
+          "log_sha256": "113AE800AB1E61BBB2E56A1CC1BCBC8DE4492A992DF1DA42CCFC475C5F12AF37",
+          "warnings": []
+        },
+        {
+          "label": "key3_supervisor_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "key3_supervisor_lib",
+            "tb_key3_reset_unit",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\key3\\key3_supervisor_simulation.log",
+          "log_sha256": "1C432722E43FA1E26CB79DFF3773558C7C417BFA97005714782024815F0D8E49",
+          "warnings": []
+        }
+      ],
+      "scope": [
+        {
+          "test": "actual KEY3 whole-board supervisor and dual-clock reset_sync",
+          "records": [
+            "RESET_SYNC_CASE_RESULT checks=21 errors=0",
+            "KEY3_CASE_RESULT N=1 checks=103 errors=0",
+            "KEY3_CASE_RESULT N=4 checks=146 errors=0",
+            "KEY3_CASE_RESULT N=17 checks=341 errors=0",
+            "KEY3_CASE_RESULT N=1000000 checks=15000086 errors=0",
+            "KEY3_PRODUCTION_THRESHOLD cycles=1000000 clk_ns=20 debounce_ns=20000000 transition_edges=1000003",
+            "KEY3_RESET_UNIT_PASS cases=5"
+          ]
+        }
+      ],
+      "limitations": [
+        "Does not claim external GRBL/ESP32 is reset or mechanically stopped."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    },
+    {
+      "status": "FAIL",
+      "generated_utc": "2026-11-03T02:52:21.507434+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\cnn_lowconf_qualification\\tb_lowconf_top.sv": "13B5DF48E90394F4F830205238810D7F623419365CEECE16C7AFA08FA9F8179C",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_copy_pipeline_shared_candidate.v": "7B9E41D7996CCB42377FDEBF0FC89C29A57A95C9583CF507F1F8EB6C62011A68",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_uart.v": "56182E34F94F7A596D7B315C3EAA72438ECBFD551B661515FFE57572891DDE01",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_reporter_shared_candidate.v": "CDA9B8E7F246B045E25C82C7D6E20D043D5E3C638E6229888708ADC2FC9CC8EF",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\ethernet\\pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\ip_source\\PLL\\PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\ethernet\\uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\ethernet\\rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\current_top_metadata_leaves.sv": "B32CEF2A3E84B553DE8E0F9FFAFB2DDE131BAF81FB3D189E39A3F242D194B9CC",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\tb_lowconf_top.sv": "13B5DF48E90394F4F830205238810D7F623419365CEECE16C7AFA08FA9F8179C"
+      },
+      "commands": [
+        {
+          "label": "top_metadata_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\top_metadata_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\top_metadata_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "top_metadata_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\top_metadata_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\current_top_metadata_leaves.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\tb_lowconf_top.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\top_metadata_lint.log",
+          "log_sha256": "8A2BDDCA718FD2C94C25277FD833BF10E752FC8A47B2EA48A2562E02810293F9",
+          "warnings": []
+        },
+        {
+          "label": "top_metadata_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-novopt",
+            "-suppress",
+            "12110",
+            "-lib",
+            "top_metadata_lib",
+            "tb_cnn_named_top",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata",
+          "returncode": 0,
+          "status": "FAIL",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\top_metadata_simulation.log",
+          "log_sha256": "192B210D0E5B78E81A122F7100209809041D59477C3029E97603DE56E8BF5A97",
+          "warnings": [
+            "** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_rgmii_txd'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_rgmii_txc'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_phy_rst'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_uart_tx'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_addr'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_ba'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_cke'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_odt'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_cs_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_ck_p'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_ck_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_ras_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_cas_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_we_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_dm'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_dqs_p'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_dqs_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_dq'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_led'."
+          ]
+        }
+      ],
+      "scope": [],
+      "limitations": [],
+      "source_drift": [],
+      "error": "top_metadata_simulation failed: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_metadata\\top_metadata_simulation.log\ninary cache before PCB completion\n# PASS PCB completion cannot repopulate ordinary CNN cache\n# FAIL PCB completion remains non-CNN report with original judgement\n# PASS history clear deasserts with stable ordinary session\n# PASS HELLO session change clears complete cached metadata\n# PASS history clear deasserts with stable ordinary session\n# PASS configuration apply clears complete cached metadata\n# PASS history clear deasserts with stable ordinary session\n# PASS KEY4 task reset clears complete cached metadata\n# PASS history clear deasserts with stable ordinary session\n# PASS FPGA reset clears complete cached metadata\n# PASS history clear deasserts with stable ordinary session\n# PASS offline first-edge stale-cache hazard precedes registered history clear\n# PASS offline first edge and remote request cannot snapshot stale target\n# PASS same-edge clear also invalidates original cache\n# PASS history clear deasserts with stable ordinary session\n# PASS session first-edge stale-cache hazard precedes registered history clear\n# PASS session first edge and remote request cannot snapshot stale target\n# PASS session first edge clears original cache metadata\n# PASS history clear deasserts with stable ordinary session\n# PASS configuration first edge gates actual physical KEY1 pulse before registered clear\n# PASS configuration first edge cannot admit physical KEY1 using old target\n# PASS configuration first edge clears original cache metadata\n# PASS history clear deasserts with stable ordinary session\n# FAIL all production-top metadata assertions\n# ** Fatal: original 44 assertions failed count=44 errors=3\n#    Time: 1437 ns  Scope: tb_cnn_named_top File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv Line: 213\n# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_metadata/tb_lowconf_top.sv(213)\n#    Time: 1437 ns  Iteration: 0  Instance: /tb_cnn_named_top\n# End time: 10:52:21 on Nov 03,2026, Elapsed time: 0:00:03\n# Errors: 1, Warnings: 22\n",
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    },
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-03T02:52:35.433804+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\tools\\run_key3_top_reset.py": "0345C30600CEE927A5358AE1061593F4F32BF5ABA29EE5714408A019EC3B7AEE",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\doc_copy_pipeline_shared_candidate.v": "7B9E41D7996CCB42377FDEBF0FC89C29A57A95C9583CF507F1F8EB6C62011A68",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_uart.v": "56182E34F94F7A596D7B315C3EAA72438ECBFD551B661515FFE57572891DDE01",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_reporter_shared_candidate.v": "CDA9B8E7F246B045E25C82C7D6E20D043D5E3C638E6229888708ADC2FC9CC8EF",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\ethernet\\pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\ip_source\\PLL\\PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\ethernet\\uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\ethernet\\rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_response_parser.v": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_codec.v": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\current_top_reset_leaves.sv": "882B3A46EEE29F6E7F51E4397BC77EEA7B6674108469A68B4F495B2A8E7E6CD8",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\tb_key3_top_reset.sv": "4DF17BA09C10995E3971D3ED046CAFDFFDF64BDCB08747B4C2D9C725EF747353"
+      },
+      "commands": [
+        {
+          "label": "top_reset_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\top_reset_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\top_reset_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "top_reset_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\top_reset_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_uart.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_response_parser.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_shared_transport_candidate.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_reporter_shared_candidate.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_line_formatter.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_vector_font_rom.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_codec.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\main\\user_source\\hdl_source\\reset_sync.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\ph1p_logic_eram_stub.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\current_top_reset_leaves.sv",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\tb_key3_top_reset.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\top_reset_lint.log",
+          "log_sha256": "AA0F37E81BEDC8CC14230046E496440B71A2A7495B4A98C70D5B52D892371201",
+          "warnings": []
+        },
+        {
+          "label": "top_reset_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-novopt",
+            "-suppress",
+            "12110",
+            "-lib",
+            "top_reset_lib",
+            "tb_key3_top_reset",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\top_reset\\top_reset_simulation.log",
+          "log_sha256": "C3B9E87137249AA46A6972E6A33ECA935910705F76E7BC74492E1D165CBF342F",
+          "warnings": [
+            "** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+            "** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_rgmii_txd'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_rgmii_txc'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_phy_rst'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_uart_tx'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_addr'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_ba'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_cke'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_odt'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_cs_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_ck_p'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_ck_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_ras_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_cas_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_we_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_dm'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_dqs_p'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_dqs_n'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'ddr_dq'.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/top_reset/tb_key3_top_reset.sv(6): [TFMPC] - Missing connection for port 'O_led'.",
+            "** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 13, found 12.",
+            "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/01_rtl/grbl_uart.v(104): [TFMPC] - Missing connection for port 'O_hold0'."
+          ]
+        }
+      ],
+      "scope": [
+        {
+          "test": "actual top/shared reporter+transport/HXA/UART/reset_sync reset fanout",
+          "records": [
+            "PASS release restarts both modeled PLLs and synchronizes application domains",
+            "PASS boot does not treat KEY3 as GRBL rearm or assume UART ready",
+            "PASS KEY3 asynchronously asserts both application reset domains",
+            "PASS KEY3 asserts Ethernet PLL, DDR reference PLL and DDR IP reset",
+            "PASS PHY, receive synchronizer and MAC reset follow whole-board reset",
+            "PASS CNN/PCB, document, configuration, HXA and both DDR mailbox ends receive reset",
+            "PASS reset invalidates classification cache and center coordinates",
+            "PASS reset clears pending jobs and accepted local job ownership",
+            "PASS real HXA reset invalidates session, partial frame and completed-frame validity",
+            "PASS real reporter cursor resets and UART restarts closed and idle high",
+            "PASS long KEY3 hold keeps all application logic reset without restart loops",
+            "PASS release restarts both modeled PLLs and synchronizes application domains",
+            "PASS release does not restore cached report, old G-code or completed image transaction",
+            "PASS KEY3 asynchronously asserts both application reset domains",
+            "PASS KEY3 asserts Ethernet PLL, DDR reference PLL and DDR IP reset",
+            "PASS PHY, receive synchronizer and MAC reset follow whole-board reset",
+            "PASS CNN/PCB, document, configuration, HXA and both DDR mailbox ends receive reset",
+            "PASS reset invalidates classification cache and center coordinates",
+            "PASS reset clears pending jobs and accepted local job ownership",
+            "PASS real HXA reset invalidates session, partial frame and completed-frame validity",
+            "PASS real reporter cursor resets and UART restarts closed and idle high",
+            "PASS release restarts both modeled PLLs and synchronizes application domains",
+            "PASS KEY1/KEY2 held through reset do not start jobs after boot lock expires",
+            "PASS debounced release rearms KEY2 after whole-board reset",
+            "PASS KEY4 still affects task reset rather than whole-board reset",
+            "PASS two physical KEY3 presses each produce one board reset",
+            "PASS KEY3_TOP_RESET_ALL checks=26"
+          ]
+        }
+      ],
+      "limitations": [
+        "Physical PLL/RGMII/DDR/image/configuration leaves controlled; external mechanical stopping untested.",
+        "Old bench recovery deposit explicitly adapted to current shared transport R_recovery_required; no DUT behavior bypassed."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    }
+  ],
+  "hardware": "NOT_RUN"
+}

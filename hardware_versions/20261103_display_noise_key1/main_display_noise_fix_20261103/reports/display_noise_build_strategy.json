@@ -1,0 +1,243 @@
+{
+  "passed": true,
+  "errors": [],
+  "scripts": [
+    {
+      "stage": "synth",
+      "baseline": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\td_project_pcb_auto_v2\\run_compact_synth.tcl",
+      "current": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8\\run_display_noise_synth.tcl",
+      "baseline_sha256": "1CCECC28EA691C20D53397F8E51080D7B0DB983940450C65CEF537C6E9F9D49C",
+      "sha256": "420F7A9FE308D1B2264FBDCBA793E01BC604B1DCDDF2B7C10905C8936CFFA5C1",
+      "stripped_sha256": "1CCECC28EA691C20D53397F8E51080D7B0DB983940450C65CEF537C6E9F9D49C",
+      "otherwise_byte_identical": true
+    },
+    {
+      "stage": "place",
+      "baseline": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\td_project_pcb_auto_v2\\run_compact_place.tcl",
+      "current": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8\\run_display_noise_place.tcl",
+      "baseline_sha256": "7F37E60BC89F993AD45FFEF350A60F0956B629B94789F83BA56906F8CC97EF74",
+      "sha256": "7F37E60BC89F993AD45FFEF350A60F0956B629B94789F83BA56906F8CC97EF74",
+      "stripped_sha256": "7F37E60BC89F993AD45FFEF350A60F0956B629B94789F83BA56906F8CC97EF74",
+      "otherwise_byte_identical": true
+    },
+    {
+      "stage": "route",
+      "baseline": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\main\\td_project_pcb_auto_v2\\run_compact_route.tcl",
+      "current": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8\\run_display_noise_route.tcl",
+      "baseline_sha256": "2B7EDE0874A3CD6E1599CB3FAA04DFCABFC73D06FB706B48556DFE78F042BF2A",
+      "sha256": "2B7EDE0874A3CD6E1599CB3FAA04DFCABFC73D06FB706B48556DFE78F042BF2A",
+      "stripped_sha256": "2B7EDE0874A3CD6E1599CB3FAA04DFCABFC73D06FB706B48556DFE78F042BF2A",
+      "otherwise_byte_identical": true
+    }
+  ],
+  "authorized_change": "set synWildParams {gate add_map_lut_struct high gate map_mode area_prior gate multi_thread_mapping partition rtl resource_sharing auto rtl shifter_style shifter_reg gate pack_effort high}",
+  "parameters": [
+    {
+      "step": "gate",
+      "name": "add_map_lut_struct",
+      "value": "high"
+    },
+    {
+      "step": "gate",
+      "name": "map_mode",
+      "value": "area_prior"
+    },
+    {
+      "step": "gate",
+      "name": "multi_thread_mapping",
+      "value": "partition"
+    },
+    {
+      "step": "rtl",
+      "name": "resource_sharing",
+      "value": "auto"
+    },
+    {
+      "step": "rtl",
+      "name": "shifter_style",
+      "value": "shifter_reg"
+    },
+    {
+      "step": "gate",
+      "name": "pack_effort",
+      "value": "high"
+    }
+  ],
+  "official_strategy": {
+    "path": "E:/td/doc/strategies/official_strategy_ph1.json",
+    "sha256": "6AAF4F51B9494C5F56AEBDB29C277FB350D05A1D122797B8553F9E24CD97792A",
+    "passed": true
+  },
+  "documentation": [
+    {
+      "path": "E:/td/doc/TD_User_Guide_V6.2.pdf",
+      "pdf_page": 231,
+      "printed_page": 230,
+      "section": "Optimize Gate parameter table",
+      "finding": "pack_effort ALL; default medium; high may reduce Slice and increase local congestion."
+    },
+    {
+      "path": "E:/td/doc/TD_User_Guide_V6.2.pdf",
+      "pdf_pages": [
+        78,
+        231,
+        246
+      ],
+      "printed_pages": [
+        77,
+        230,
+        245
+      ],
+      "section": "Optimize Gate and AreaOptimizeHigh",
+      "finding": "map_mode ALL; auto/area_prior/logic_level_prior/balance_explore. AreaOptimizeHigh supports PH1P."
+    },
+    {
+      "path": "E:\\td\\doc\\strategies\\official_strategy_ph1.json",
+      "lines": [
+        23,
+        53
+      ],
+      "sha256": "6AAF4F51B9494C5F56AEBDB29C277FB350D05A1D122797B8553F9E24CD97792A",
+      "finding": "Exact official five AreaOptimizeHigh tuples; additional pack_effort high is separate."
+    },
+    {
+      "path": "E:/td/doc/SWUG/SWUG105_TCL_Command_User_Guide.pdf",
+      "pdf_pages": [
+        28,
+        29
+      ],
+      "printed_pages": [
+        21,
+        22
+      ],
+      "section": "4.1.18 set_param",
+      "finding": "set_param [-run <run_name>] <step_name> <param> <value>"
+    },
+    {
+      "path": "E:/td/scripts/DefaultFlow.tcl",
+      "lines": [
+        65,
+        72,
+        77,
+        142,
+        145
+      ],
+      "finding": "load_run_param/import_db, positional wildParams set_param, commit_param gate, optimize_gate."
+    }
+  ],
+  "actual_synthesis_log_required": true,
+  "actual_synthesis_log_review": {
+    "passed": true,
+    "errors": [],
+    "setting_commands": [
+      "set_param gate add_map_lut_struct high",
+      "set_param gate map_mode area_prior",
+      "set_param gate multi_thread_mapping partition",
+      "set_param rtl resource_sharing auto",
+      "set_param rtl shifter_style shifter_reg",
+      "set_param gate pack_effort high"
+    ],
+    "committed_rows": {
+      "add_map_lut_struct": [],
+      "map_mode": [
+        [
+          "area_prior",
+          "auto",
+          "*"
+        ]
+      ],
+      "multi_thread_mapping": [],
+      "resource_sharing": [],
+      "shifter_style": [],
+      "pack_effort": [
+        [
+          "high",
+          "medium",
+          "*"
+        ]
+      ]
+    },
+    "set_param_finish_record_required": false,
+    "missing_advanced_rows": [
+      "add_map_lut_struct",
+      "multi_thread_mapping",
+      "resource_sharing",
+      "shifter_style"
+    ],
+    "advanced_rows_proved_by_readback": [
+      "add_map_lut_struct",
+      "multi_thread_mapping",
+      "resource_sharing",
+      "shifter_style"
+    ],
+    "proof": "Six unique exact settings before corresponding commits; mandatory public commit rows; hidden rows or DB-bound real get_param; no reset/override; both optimization completions.",
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8\\synth.log",
+    "sha256": "5E17C987F7669DC88A0FE0D4593DD102C6653903AD3B10169EE68309BF14DCBF"
+  },
+  "independent_parameter_readback": {
+    "passed": true,
+    "errors": [],
+    "receipt": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\parameter_readback_trial\\actual_readback_run_v2.json",
+    "values": {
+      "add_map_lut_struct": "high",
+      "map_mode": "area_prior",
+      "multi_thread_mapping": "partition",
+      "resource_sharing": "auto",
+      "shifter_style": "shifter_reg",
+      "pack_effort": "high"
+    },
+    "scope": "Read-only completed gate DB parameter query; not physical acceptance.",
+    "receipt_sha256": "1C26AEC82250F03BE7A179DB65FF274A823D99E77B6BA64CDD33222E3CFB943E",
+    "db": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8\\camera_to_dsi_display_720p60_cnn_multibox_gate.db",
+    "db_sha256": "AD1F531DC01F7D2404DF4C7233CA980937683F8CCA4D1D1307500F78A35B24DB",
+    "script": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\parameter_readback_trial\\read_v8_parameters.tcl",
+    "script_sha256": "8D0F47DE9AEBC97801CD6F4FE77DAE006896321D0CD86AE219F137AB6792F7A2",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\reports\\parameter_readback_trial\\console_readback_v2.log",
+    "log_sha256": "B5CC619271ECF2A7FC7C53A5EEF794E25EB086C203EDA1EBCA4D023C38240163",
+    "query_commands": [
+      "get_param gate add_map_lut_struct",
+      "get_param gate map_mode",
+      "get_param gate multi_thread_mapping",
+      "get_param rtl resource_sharing",
+      "get_param rtl shifter_style",
+      "get_param gate pack_effort"
+    ],
+    "actual_value_rows": [
+      [
+        "gate",
+        "add_map_lut_struct",
+        "high"
+      ],
+      [
+        "gate",
+        "map_mode",
+        "area_prior"
+      ],
+      [
+        "gate",
+        "multi_thread_mapping",
+        "partition"
+      ],
+      [
+        "rtl",
+        "resource_sharing",
+        "auto"
+      ],
+      [
+        "rtl",
+        "shifter_style",
+        "shifter_reg"
+      ],
+      [
+        "gate",
+        "pack_effort",
+        "high"
+      ]
+    ],
+    "import_internal_commands": [
+      "set_param gate opt_area high"
+    ]
+  },
+  "snapshot_binding_required": true,
+  "constraints_and_resource_timing_thresholds_changed": false
+}

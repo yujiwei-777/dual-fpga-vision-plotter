@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "check": "Exhaust all reachable x/y/frame/row/pipeline control states and arbitrary de/user/last combinations; reset returns to the included initial state.",
+  "cases": [
+    {
+      "width": 1,
+      "height": 2,
+      "reachable_states": 9,
+      "transitions": 72,
+      "unmasked_collisions": 2,
+      "explicit_forwarding_required": true
+    },
+    {
+      "width": 1,
+      "height": 7,
+      "reachable_states": 39,
+      "transitions": 312,
+      "unmasked_collisions": 12,
+      "explicit_forwarding_required": true
+    },
+    {
+      "width": 2,
+      "height": 1,
+      "reachable_states": 8,
+      "transitions": 64,
+      "unmasked_collisions": 0,
+      "explicit_forwarding_required": false
+    },
+    {
+      "width": 2,
+      "height": 2,
+      "reachable_states": 22,
+      "transitions": 176,
+      "unmasked_collisions": 0,
+      "explicit_forwarding_required": false
+    },
+    {
+      "width": 2,
+      "height": 5,
+      "reachable_states": 64,
+      "transitions": 512,
+      "unmasked_collisions": 0,
+      "explicit_forwarding_required": false
+    },
+    {
+      "width": 3,
+      "height": 3,
+      "reachable_states": 57,
+      "transitions": 456,
+      "unmasked_collisions": 0,
+      "explicit_forwarding_required": false
+    },
+    {
+      "width": 7,
+      "height": 1,
+      "reachable_states": 33,
+      "transitions": 264,
+      "unmasked_collisions": 0,
+      "explicit_forwarding_required": false
+    },
+    {
+      "width": 7,
+      "height": 5,
+      "reachable_states": 249,
+      "transitions": 1992,
+      "unmasked_collisions": 0,
+      "explicit_forwarding_required": false
+    },
+    {
+      "width": 16,
+      "height": 6,
+      "reachable_states": 708,
+      "transitions": 5664,
+      "unmasked_collisions": 0,
+      "explicit_forwarding_required": false
+    }
+  ]
+}

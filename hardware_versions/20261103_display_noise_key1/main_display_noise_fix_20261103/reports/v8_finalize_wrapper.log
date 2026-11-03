@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_display_noise_fix_20261103\\artifacts\\dual_fpga_main_20261103_display_noise_fix_diagnostic.bit",
+    "sha256": "B7F39A1E4E4906074BA59BB8C124BA1B24690C6D33D20BFA47C7AF817C60D485",
+    "bytes": 1789547
+  },
+  "hardware_status": "NOT_RUN",
+  "timing_ns": {
+    "SWNS": 0.174,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19643,
+      "total": 21216,
+      "percent": 92.58578431372548,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 93,
+      "total": 108,
+      "percent": 86.11111111111111,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  }
+}

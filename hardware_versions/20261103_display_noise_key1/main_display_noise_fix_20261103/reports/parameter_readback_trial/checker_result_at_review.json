@@ -1,0 +1,40 @@
+{
+  "passed": false,
+  "errors": [
+    "Actual optimize_gate lacks exactly one successful completion",
+    "Actual committed gate table lacks exact value/default/note evidence for add_map_lut_struct=high",
+    "Actual committed gate table lacks exact value/default/note evidence for multi_thread_mapping=partition",
+    "Actual committed rtl table lacks exact value/default/note evidence for resource_sharing=auto",
+    "Actual committed rtl table lacks exact value/default/note evidence for shifter_style=shifter_reg"
+  ],
+  "setting_commands": [
+    "set_param gate add_map_lut_struct high",
+    "set_param gate map_mode area_prior",
+    "set_param gate multi_thread_mapping partition",
+    "set_param rtl resource_sharing auto",
+    "set_param rtl shifter_style shifter_reg",
+    "set_param gate pack_effort high"
+  ],
+  "committed_rows": {
+    "add_map_lut_struct": [],
+    "map_mode": [
+      [
+        "area_prior",
+        "auto",
+        "*"
+      ]
+    ],
+    "multi_thread_mapping": [],
+    "resource_sharing": [],
+    "shifter_style": [],
+    "pack_effort": [
+      [
+        "high",
+        "medium",
+        "*"
+      ]
+    ]
+  },
+  "set_param_finish_record_required": false,
+  "proof": "All six exact settings; corresponding RTL/gate commit tables; no reset/override; both optimization completions."
+}
