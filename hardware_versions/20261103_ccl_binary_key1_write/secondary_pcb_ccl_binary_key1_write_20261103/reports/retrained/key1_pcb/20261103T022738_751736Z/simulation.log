@@ -1,0 +1,71 @@
+# vsim -batch -syncio -quiet -lib key1_pcb_lib tb_pcb_key1_report -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 10:27:38 on Nov 03,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'O_led'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_dq'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_dqs_n'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_dqs_p'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_dm'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_we_n'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_cas_n'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_ras_n'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_ck_n'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_ck_p'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_cs_n'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_odt'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_cke'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_ba'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'ddr_addr'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'O_uart_tx'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'O_phy_rst'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'O_rgmii_txc'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv(16): (vopt-2718) [TFMPC] - Missing connection for port 'O_rgmii_txd'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=21.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# PASS KEY1 without a fresh PCB result does not start writing
+# PASS same-cycle KEY1 waits for the just-completed PCB snapshot
+# PASS PCB PASS is cached after completed inference
+# PASS PCB completion does not start writing before local KEY1
+# PASS new PCB result atomically replaces older pending snapshot
+# PASS KEY1 admits the exact latched PCB FAIL snapshot
+# PASS KEY1 consumes the admitted PCB snapshot
+# PASS accepted local PCB report enters protected report path
+# PASS additional KEY1 press cannot duplicate active PCB report
+# PASS explicit Type20 report trigger remains independent of local KEY1 mode gate
+# PASS starting a non-PCB task clears stale PCB snapshot
+# PASS returning to PCB purpose cannot write a prior-mode result
+# PASS no-target result invalidates prior PCB snapshot
+# PASS KEY1 after no target does not write stale PCB data
+# PASS PCB REVIEW result remains a reportable snapshot
+# PASS explicit task cancel clears pending PCB result
+# PASS KEY4 clears pending PCB result
+# PASS CNN KEY1 before any valid result does not start writing
+# PASS ordinary CNN cache still captures class and confidence
+# PASS CNN purpose KEY1 still writes the cached CNN report
+# DBG no-target result_valid=1 target_valid=0 cache_invalid=0 cache_valid=0 purpose=0
+# DBG no-target report pulse=0 admit=0 pending=0 active=1 mode=1 judgement=0 defects=0 boxes=00000000000000000000000000000000000000000000000000000000001e0015 result_valid=1
+# FAIL CNN no-target result can still be explicitly reported on KEY1
+# ** Fatal: PCB_KEY1_REPORT_FAIL checks=21 errors=1
+#    Time: 821 ns  Scope: tb_pcb_key1_report File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/tb_pcb_key1_report.sv Line: 173
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/tb_pcb_key1_report.sv(173)
+#    Time: 821 ns  Iteration: 0  Instance: /tb_pcb_key1_report
+# End time: 10:27:40 on Nov 03,2026, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 21

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "check": "ddr",
+  "scope": "DDR source/IP identity, routed clock/timing binding, and dual-clock mailbox/reader behavior are recorded.",
+  "limitations": [
+    "No physical DDR calibration, board memory test, or vendor PHY transaction simulation was performed."
+  ],
+  "artifacts": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\reader\\RESULTS.json",
+      "sha256": "9614717C6F4C5C70BF13E5041A74B8C32EF6FE1D4FD84B51715AA6F3CB29ADFA"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\readonly.timing",
+      "sha256": "87BA4F1BF9269BCB5F86B3BE6AB80F156F46F4E9D55399BEF432BA71D1060961"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\readonly.area",
+      "sha256": "1C9E64746601FD4566199F130947B2408CC9F9ADCD61D5CE56D1E2B05F4B0F5A"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\readonly.clocks",
+      "sha256": "4B7A8C4BB200DBC7D64CBCA260145D96B8F3817A7B2F9F0BA6C0CA3BF7FAEED1"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\PHYSICAL_CDC_DDR_FIFO_REVIEW.json",
+      "sha256": "BE9658E0DB3A2748C1A9426013669A536A776C0918BF6C1C045D30852471E98A"
+    }
+  ],
+  "source_sha256": {
+    "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+    "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+    "01_rtl/vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+    "main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.v": "99910FCD06D61B728C4333F8EB15DD07B61DB32AF197AD3871995283461FE29E"
+  }
+}

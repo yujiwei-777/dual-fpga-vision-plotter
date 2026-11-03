@@ -1,0 +1,8 @@
+{
+  "schema": "dual_fpga_hardware_acceptance_v4",
+  "date": "2026-11-03",
+  "status": "NOT_RUN",
+  "scope": "local KEY1 CNN/PCB report secondary paired with auto-compatible main",
+  "main_bit_sha256": "B048D5BD30915F7C08791A9947D90982B741929E00CC0BE3036F7018C76209BC",
+  "secondary_bit_sha256": "D8AEABE97D2249C13D0CFB31E80196D5F05701B3C214BBA6FDDCEA8D611AAF15"
+}

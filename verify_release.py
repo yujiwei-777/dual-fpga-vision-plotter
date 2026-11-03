@@ -61,7 +61,34 @@ def main():
     for name, digest in freeze["model_freeze"]["assets"].items():
         if sha256(secondary / "model/experiments/conv4_4" / name) != digest:
             raise ValueError("Active binary model mismatch: " + name)
-    print("RELEASE_VERIFY_PASS: original=PASS_USER_REPORTED; pose7=NOT_RUN; CCL binary=NOT_RUN")
+    key1_bundle = ROOT / "hardware_versions/20261103_ccl_binary_key1_write"
+    subprocess.run([sys.executable, "-B", str(key1_bundle / "verify_package.py")], check=True)
+    key1_release = ROOT / "release/20261103_ccl_binary_key1_write"
+    key1_manifest = json.loads((key1_bundle / "PACKAGE_MANIFEST.json").read_text(encoding="utf-8"))
+    key1_identity = json.loads((key1_release / "SOURCE_IDENTITY.json").read_text(encoding="utf-8"))
+    key1_acceptance = json.loads((key1_release / "HARDWARE_ACCEPTANCE.json").read_text(encoding="utf-8"))
+    if key1_identity["hardware_acceptance"] != "NOT_RUN" or key1_acceptance["status"] != "NOT_RUN":
+        raise ValueError("Unexpected KEY1 pair hardware status")
+    if sha256(key1_bundle / "PACKAGE_MANIFEST.json") != key1_identity["hardware_manifest_sha256"]:
+        raise ValueError("KEY1 package source identity mismatch")
+    for project in key1_manifest["projects"]:
+        digest = project["bit_sha256"]
+        if digest != key1_acceptance[project["board"] + "_bit_sha256"]:
+            raise ValueError("KEY1 bit/acceptance mismatch")
+        if sha256(key1_bundle / project["directory"] / project["bit"]) != digest:
+            raise ValueError("KEY1 artifact mismatch")
+    key1_secondary = key1_bundle / "secondary_pcb_ccl_binary_key1_write_20261103"
+    if sha256(key1_secondary / "evidence/SOURCE_MANIFEST.json") != key1_identity["secondary_frozen_manifest_sha256"]:
+        raise ValueError("KEY1 frozen manifest mismatch")
+    if sha256(key1_secondary / "01_rtl/secondary_top.v") != key1_identity["secondary_top_sha256"]:
+        raise ValueError("KEY1 top RTL mismatch")
+    for name in ["weights.mem", "biases.mem"]:
+        if sha256(key1_secondary / "model/experiments/conv4_4" / name) != sha256(secondary / "model/experiments/conv4_4" / name):
+            raise ValueError("KEY1 PCB model changed")
+    gate = json.loads((key1_secondary / "reports/retrained/release_20261103/bitgen_evidence_gate.json").read_text(encoding="utf-8"))
+    if not all(gate["checks"].values()) or gate["source_manifest_sha256"] != key1_identity["secondary_frozen_manifest_sha256"]:
+        raise ValueError("KEY1 evidence gate mismatch")
+    print("RELEASE_VERIFY_PASS: original=PASS_USER_REPORTED; pose7/CCL binary/KEY1=NOT_RUN")
 
 if __name__ == "__main__":
     main()

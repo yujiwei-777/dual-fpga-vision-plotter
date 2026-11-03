@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "check": "binary_integer",
+  "scope": "18 integer core vectors and 18 full pipeline fixtures, including 22 completed frames, 3 cancellation points, and ordinary-empty reentry.",
+  "limitations": [
+    "Abstract source-Y pixel response latency 2..4 clocks, not actual DDR functional/timing verification.",
+    "Ordinary empty reentry is separate from full ordinary CNN numerical regression."
+  ],
+  "artifacts": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\binary_validation\\pipeline\\run_20261103T033308_256929Z\\RESULTS.json",
+      "sha256": "1948C8AD90474E8F2670A44B9C500D2A3F57BDB70C2CADD8ACDB1151C174E466"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\binary_validation\\core\\run_20261103T032410_695075Z\\RESULTS.json",
+      "sha256": "DFBC31BD9FE0AACF78262ABD3F262C5934739C7C2CA708F4823790E4AEF11083"
+    }
+  ],
+  "source_sha256": {
+    "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+    "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+    "01_rtl/vision_ccl_pcb_candidate.v": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+    "01_rtl/pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+    "01_rtl/pcb_fullboard_spatial96.v": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948",
+    "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+    "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+    "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+    "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0"
+  }
+}

@@ -1,0 +1,547 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/key1_pcb/20261103T022822_502210Z
+T_opt
+!s110 1793672903
+VDlnSWXBW;d9jTAMBYIkga1
+04 18 4 work tb_pcb_key1_report fast 0
+=1-40c2ba3dfe0d-6ae946c7-1f5-afd0
+o-quiet -auto_acc_if_foreign -work key1_pcb_lib
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vdoc_copy_pipeline_shared_candidate
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1793672902
+!i10b 1
+!s100 0VGn]<JViMFeH<L_fORmS0
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQJ8LGGeTjQ[ml0f:XVQjb0
+S1
+R0
+Z5 w1793672902
+Z6 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\key1_pcb\20261103T022822_502210Z\current_top_leaf_interfaces.sv
+Z7 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\key1_pcb\20261103T022822_502210Z\current_top_leaf_interfaces.sv
+!i122 0
+L0 528 77
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1793672902.000000
+Z11 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\secondary_top.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\key1_pcb\20261103T022822_502210Z\current_top_leaf_interfaces.sv|
+Z12 !s90 -sv|-lint|-work|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\key1_pcb\20261103T022822_502210Z\key1_pcb_lib|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\key1_pcb\20261103T022822_502210Z\current_top_leaf_interfaces.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\secondary_top.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv|
+!i113 0
+Z13 o-sv -lint -work {D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\key1_pcb\20261103T022822_502210Z\key1_pcb_lib} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vgrbl_key1_job_guard
+R2
+R3
+!i10b 1
+!s100 Wm>jRSo_:WGj42kjW^cOc1
+R4
+IFigm[G3YTJkE3B6ffGdRj1
+S1
+R0
+Z14 w1793672896
+Z15 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\secondary_top.v
+Z16 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\secondary_top.v
+!i122 0
+L0 1145 13
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vgrbl_key2_test_ctrl
+R2
+R3
+!i10b 1
+!s100 e_66;JU8i1Nm7Z9O_;a712
+R4
+IP3E:HaljUI]d]gHljboFQ0
+S1
+R0
+R14
+R15
+R16
+!i122 0
+L0 1059 83
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vgrbl_reporter_shared_candidate
+R2
+R3
+!i10b 1
+!s100 HPcAnYG=S@[>;I4bN2:Td3
+R4
+Ib0fE3`njn:0c3;882?YL50
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 348 80
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vgrbl_shared_transport_candidate
+R2
+R3
+!i10b 1
+!s100 :SD2J30RcH;LXijnWVl=E1
+R4
+IaLFXa:i=_PoI_RG<<I[oR3
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 428 100
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vgrbl_uart_port
+R2
+R3
+!i10b 1
+!s100 i_3^8Y7SShOEdbnZ<R^iK0
+R4
+INzW8g^2mjUdl^z5loTCMd0
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 329 19
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vhxa_config_store
+R2
+R3
+!i10b 1
+!s100 ?AejQUXaIXeNba6>_?FiY0
+R4
+I_;bn6M_RA3]CCf:z@9B7n0
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 260 21
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vhxa_ddr_store
+R2
+R3
+!i10b 1
+!s100 MGXQc_[doa<<XzZ;92H5k0
+R4
+I0EPLl[4F[UD5GFeLGmBiX3
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 65 12
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vhxa_secondary_link
+R2
+R3
+!i10b 1
+!s100 Y9`UWLlC9W0MNMHhhJ2iV1
+R4
+IP8gUY4L3aXkogf[n3dX?]2
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 281 48
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vPH1P_LOGIC_BUFG
+R2
+R3
+!i10b 1
+!s100 lEDIWRoG[zafZWBYL@0Wl3
+R4
+IPke>bOdhY;1_NfkiC74gl0
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 650 1
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@p@h1@p_@l@o@g@i@c_@b@u@f@g
+vpll
+R2
+R3
+!i10b 1
+!s100 LeEIW@LMhBP5O:c3@?Eb81
+R4
+I[n3bMIA[DB:F1BiZzSz]@1
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 1 10
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vPLL
+R2
+R3
+!i10b 1
+!s100 7URBDQ:]8k_44>4iLnboX3
+R4
+IQ:dBngbWB_4J]4YkVNTo90
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 11 11
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+n@p@l@l
+vreset_sync
+R2
+R3
+!i10b 1
+!s100 G=NMWX2h34ee5OKZP4[b01
+R4
+IL44[6Aa>B_X3>Xa5AI8J51
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 59 6
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vrgmii_interface
+R2
+R3
+!i10b 1
+!s100 kQ2bCNP8k0PKai@FhiGhV1
+R4
+I>fMMLZ`^mhgD0^bYC[DGL1
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 605 45
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vsecondary_ddr_wrapper
+R2
+R3
+!i10b 1
+!s100 HQ=[VZImLDQl3e0z?GPH90
+R4
+I^Z^biO:WGJa06=:[S^dnW1
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 22 37
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vsecondary_key3_board_reset
+R2
+R3
+!i10b 1
+!s100 K1ZLGHFi?G4=_PoQj5hP13
+R4
+I2YN1Ic0b^8b4`ZM@<3e=P3
+S1
+R0
+R14
+R15
+R16
+!i122 0
+L0 1020 38
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vsecondary_top
+R2
+R3
+!i10b 1
+!s100 19lalS:02:lX]YO_0[<Kl2
+R4
+Ij1;DJ6>il9>35Qm1<BdRo0
+S1
+R0
+R14
+R15
+R16
+!i122 0
+L0 6 1011
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vtb_pcb_key1_report
+R2
+R3
+!i10b 1
+!s100 H@lMCCSKTNf_UQ0jD1c_I3
+R4
+IMM[j5V[;HHhm=fTKzV?5h2
+S1
+R0
+w1793672868
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\tb_pcb_key1_report.sv
+!i122 0
+L0 2 173
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vuiudp_stack
+R2
+R3
+!i10b 1
+!s100 Y^cX@7V>_JC?P>K:hHJ<H0
+R4
+IB=S5a0Hn9<KhWSFJ@@fhm3
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 77 38
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vvision_pipeline
+R2
+R3
+!i10b 1
+!s100 J6mR8lBNKBe>eR<01Q5[Z0
+R4
+I6V1JkjPD]5JWlhBoHaTSN1
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 130 130
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vvision_pixel_reader
+R2
+R3
+!i10b 1
+!s100 mfbnkd:@2[b?b6lEK:BS50
+R4
+I5>M83[IWB@>99Rh<`o65g0
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 115 15
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1

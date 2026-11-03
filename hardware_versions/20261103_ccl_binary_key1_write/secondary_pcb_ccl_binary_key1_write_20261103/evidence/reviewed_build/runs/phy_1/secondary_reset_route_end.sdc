@@ -1,0 +1,11 @@
+# Generated only after complete reset mapping proof.
+set_false_path -to [get_pins -nowarn {u_reset125/sync_ff_reg[0]_syn_2.asr}]
+set_false_path -to [get_pins -nowarn {u_reset125/sync_ff_reg[1]_syn_2.asr}]
+set_false_path -to [get_pins -nowarn {u_reset125/sync_ff_reg[1]_syn_3.asr}]
+set_false_path -to [get_pins -nowarn {u_reset125/sync_ff_reg[1]_syn_4.asr}]
+set_false_path -to [get_pins -nowarn {u_reset125/sync_ff_reg[1]_syn_5.asr}]
+set_false_path -to [get_pins -nowarn {u_rgmii_rx_reset/sync_ff_reg[0]_syn_2.asr}]
+set_false_path -to [get_pins -nowarn {u_store_resetddr/sync_ff_reg[0]_syn_2.asr}]
+set_false_path -to [get_pins -nowarn {u_udp_stack/mac_layer_inst/mac_rx_inst/u_mac_read_reset/sync_ff_reg[0]_syn_2.asr}]
+set_false_path -to [get_pins -nowarn {u_udp_stack/mac_layer_inst/mac_rx_inst/u_mac_read_reset/sync_ff_reg[1]_syn_2.asr}]
+set_false_path -to [get_pins -nowarn {u_udp_stack/mac_layer_inst/mac_rx_inst/u_rx_input_reset/sync_ff_reg[0]_syn_2.asr}]

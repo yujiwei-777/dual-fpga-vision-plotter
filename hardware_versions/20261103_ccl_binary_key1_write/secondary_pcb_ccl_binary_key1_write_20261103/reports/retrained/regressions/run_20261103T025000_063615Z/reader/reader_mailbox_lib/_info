@@ -1,0 +1,145 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025000_063615Z/reader
+T_opt
+!s110 1793674328
+VETgRza1INEiMD2YU68Zn>3
+04 20 4 work tb_pose7_real_reader fast 0
+=1-40c2ba3dfe0d-6ae94c58-7a-53ec
+o-quiet -auto_acc_if_foreign -work reader_mailbox_lib
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vhxa_ddr_store
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1793674327
+!i10b 1
+!s100 1HB>PU_;;6fLOZVD7]8140
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IieLN4R^3]KRakbXL9JazN0
+S1
+R0
+Z5 w1793587056
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\hxa_ddr_store.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\hxa_ddr_store.v
+!i122 0
+L0 4 68
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1793674327.000000
+Z9 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\tb_reader.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\hxa_read_route_probe.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\top_read_route_probe.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\hxa_ddr_store.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\vision_pixel_reader.v|
+Z10 !s90 -sv|-lint|-work|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\reader_mailbox_lib|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\vision_pixel_reader.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\hxa_ddr_store.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\top_read_route_probe.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\hxa_read_route_probe.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\tb_reader.sv|
+!i113 0
+Z11 o-sv -lint -work {D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\reader_mailbox_lib} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpose7_hxa_read_route_probe
+R2
+R3
+!i10b 1
+!s100 R4ce1n?f8o?n3jNS0o<aK3
+R4
+IZgLB9C5P@z:[n@l89ocQh1
+S1
+R0
+Z12 w1793674327
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\hxa_read_route_probe.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\hxa_read_route_probe.sv
+!i122 0
+L0 1 30
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vpose7_read_route_probe
+R2
+R3
+!i10b 1
+!s100 V@@jMBoU0e58KQjo_kXi63
+R4
+IM?`1EOS5I>AHlVA_>1jm^2
+S1
+R0
+R12
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\top_read_route_probe.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\top_read_route_probe.sv
+!i122 0
+L0 1 76
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtb_pose7_real_reader
+R2
+R3
+!i10b 1
+!s100 2<S4K`Uo9;aSkRgR_63Ui0
+R4
+IR;zIV5]3]zl3FcgJF[[gQ3
+S1
+R0
+R12
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\tb_reader.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025000_063615Z\reader\tb_reader.sv
+!i122 0
+L0 2 246
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vvision_pixel_reader
+R2
+R3
+!i10b 1
+!s100 YQ61J4<PC:[CiT[5LlNMO1
+R4
+IgRo?9LddgPKKXT<Di6lI11
+S1
+R0
+R5
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\vision_pixel_reader.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\01_rtl\vision_pixel_reader.v
+!i122 0
+L0 4 78
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

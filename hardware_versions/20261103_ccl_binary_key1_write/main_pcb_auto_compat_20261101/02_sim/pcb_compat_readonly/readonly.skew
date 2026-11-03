@@ -1,0 +1,97 @@
+Created by          : Tang Dynasty Release_2026.1_SP2
+                    : Copyright (c) 2012-2026 Anlogic Inc.
+Generated           : Sun Nov  1 22:53:32 2026
+
+Top Model           : design_top_wrapper
+Device              : PH1P35MDG324
+Speed               : 3
+Constraint File     : D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_auto_compat_20261101/04_pin/camera_to_dsi_display_720p60.sdc;
+Confidence          : Routed
+Check Corner        : Both (Slow and Fast)
+Report Scheme       : total 10 path per constraint, 1 path(s) per end point
+
+
+Check Status
+-------------
+
+Corner   | Max      Min     
+------------------------------------
+Slow     | yes      yes     
+Fast     | yes      yes     
+
+
+Path Skew Report Summary
+-------------
+
+Id  From                          To                            Corner         Requirement(ns)  Actual(ns)  Slack(ns)
+-------------------------------------------------------------------------------------
+1   get_regs {u_snapshot_service/u_capture_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_snapshot_service/u_capture_fifo/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.200            0.575       6.625
+2   get_regs {u_snapshot_service/u_capture_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_snapshot_service/u_capture_fifo/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.200            0.790       6.410
+3   get_regs {u_snapshot_service/u_packet_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_snapshot_service/u_packet_fifo/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.200            0.908       6.292
+4   get_regs {u_snapshot_service/u_packet_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_snapshot_service/u_packet_fifo/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.200            0.698       6.502
+5   get_regs {u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.200            0.751       6.449
+6   get_regs {u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_video_in/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.200            0.715       6.485
+7   get_regs {u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.200            0.769       6.431
+8   get_regs {u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_video_out/U_w128_d512_fifo/soft_fifo_al_4057d6b76aa6_Inst/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.200            0.500       6.700
+9   get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.567       7.133
+10  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.938       6.762
+11  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.638       7.062
+12  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.513       7.187
+13  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.639       7.061
+14  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.738       6.962
+15  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/max_send_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/max_send_fifo/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.804       6.896
+16  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/max_send_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/max_send_fifo/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.537       7.163
+17  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/mac_tx_frame_info_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/mac_tx_frame_info_fifo/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.739       6.961
+18  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/mac_tx_frame_info_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/mac_tx_frame_info_fifo/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.619       7.081
+19  get_regs {u_udp_cfg/u_udp_stack/ip_layer_inst/icmp_echo_data_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/ip_layer_inst/icmp_echo_data_fifo/wr_to_rd_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.828       6.872
+20  get_regs {u_udp_cfg/u_udp_stack/ip_layer_inst/icmp_echo_data_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}
+                                  get_regs {u_udp_cfg/u_udp_stack/ip_layer_inst/icmp_echo_data_fifo/rd_to_wr_cross_inst/sync_r1[*]}
+                                                                slow_m40c      7.700            0.894       6.806
+21  get_regs {u_multibox_cdc/held[*]}
+                                  get_regs {u_multibox_cdc/staged[*]}
+                                                                slow_m40c      7.700            1.516       6.184
+22  get_regs {u_copy_status_cdc/held[*]}
+                                  get_regs {u_copy_status_cdc/staged[*]}
+                                                                slow_m40c      7.700            0.678       7.022
+23  get_regs {u_pcb_status_cdc/held[*]}
+                                  get_regs {u_pcb_status_cdc/staged[*]}
+                                                                slow_m40c      7.700            0.353       7.347
+

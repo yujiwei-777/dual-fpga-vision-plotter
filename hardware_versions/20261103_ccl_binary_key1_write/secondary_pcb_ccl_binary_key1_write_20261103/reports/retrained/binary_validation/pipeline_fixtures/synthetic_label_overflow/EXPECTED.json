@@ -1,0 +1,23 @@
+{
+  "name": "synthetic_label_overflow",
+  "ccl": {
+    "provisional_labels": 3600,
+    "overflow": true,
+    "truncated": false,
+    "count": 0,
+    "eligible_components": [],
+    "top4": []
+  },
+  "valid": false,
+  "bbox": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "status": 2,
+  "score": 0,
+  "margin": 0,
+  "class_id": 0,
+  "core_case": null
+}

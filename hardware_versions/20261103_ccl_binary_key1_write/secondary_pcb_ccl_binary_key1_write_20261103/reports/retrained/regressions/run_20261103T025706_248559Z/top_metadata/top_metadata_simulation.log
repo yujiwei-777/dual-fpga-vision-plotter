@@ -1,0 +1,149 @@
+# vsim -batch -syncio -quiet -novopt -suppress 12110 -lib top_metadata_lib tb_cnn_named_top -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 10:59:20 on Nov 03,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.tb_cnn_named_top
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.secondary_top
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.secondary_key3_board_reset
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.pll
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.PH1P_LOGIC_BUFG
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.reset_sync
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.PLL
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.secondary_ddr_wrapper
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.hxa_ddr_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.uiudp_stack
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.rgmii_interface
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.vision_pixel_reader
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.hxa_secondary_link
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.vision_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.hxa_config_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.doc_copy_pipeline_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.grbl_key1_job_guard
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.grbl_key2_test_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.grbl_uart_port
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.grbl_reporter_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/top_metadata_lib.grbl_shared_transport_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cnn_named_top/dut File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv Line: 17
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_rgmii_txd'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_rgmii_txc'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_phy_rst'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_uart_tx'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_addr'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_ba'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_cke'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_odt'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_cs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_ck_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_ck_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_ras_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_cas_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_we_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_dm'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_dqs_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_dqs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'ddr_dq'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(17): [TFMPC] - Missing connection for port 'O_led'.
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# PASS history clear deasserts with stable ordinary session
+# PASS reset invalidates cache
+# PASS ordinary result caches class and confidence
+# PASS ordinary result caches exact image centre
+# PASS next incomplete frame cannot change accepted cache
+# PASS physical KEY1 admits cached named report with confidence
+# PASS report leaf receives confidence and image center only (210,110)
+# PASS latest completed ordinary result refreshes cache
+# PASS active report snapshot is stable while cache advances
+# PASS offline event clears ordinary cache metadata
+# PASS accepted KEY1 report survives Ethernet loss and ordinary frame cancel
+# PASS history clear deasserts with stable ordinary session
+# PASS Type20 current request snapshots same latest metadata contract
+# PASS odd full-frame center sums floor to (639,359) without overflow
+# PASS center sums exceed source coordinate widths without overflow
+# PASS completed no-target result invalidates stale target
+# PASS KEY1 after no target does not start writing
+# PASS held identity snapshot preserves class and explicit confidence zero
+# PASS PCB mode requests ordinary identity history clear
+# PASS mode switch clears ordinary cache before PCB completion
+# PASS PCB completion cannot repopulate ordinary CNN cache
+# PASS PCB completion caches result without starting a report
+# PASS PCB-mode KEY1 writes the cached PCB result
+# PASS history clear deasserts with stable ordinary session
+# PASS HELLO session change clears complete cached metadata
+# PASS history clear deasserts with stable ordinary session
+# PASS configuration apply clears complete cached metadata
+# PASS history clear deasserts with stable ordinary session
+# PASS KEY4 task reset clears complete cached metadata
+# PASS history clear deasserts with stable ordinary session
+# PASS FPGA reset clears complete cached metadata
+# PASS history clear deasserts with stable ordinary session
+# PASS offline first-edge stale-cache hazard precedes registered history clear
+# PASS offline first edge and remote request cannot snapshot stale target
+# PASS same-edge clear also invalidates original cache
+# PASS history clear deasserts with stable ordinary session
+# PASS session first-edge stale-cache hazard precedes registered history clear
+# PASS session first edge and remote request cannot snapshot stale target
+# PASS session first edge clears original cache metadata
+# PASS history clear deasserts with stable ordinary session
+# PASS configuration first edge gates actual physical KEY1 pulse before registered clear
+# PASS configuration first edge cannot admit physical KEY1 using old target
+# PASS configuration first edge clears original cache metadata
+# PASS history clear deasserts with stable ordinary session
+# PASS all production-top metadata assertions
+# PASS same-edge inference and remote admission snapshot old complete metadata
+# PASS same-edge inference atomically publishes new centre and metadata to cache
+# PASS ready stall retains a complete pending report before cache clear
+# PASS session clear during pending ready stall invalidates the live cache
+# PASS pending snapshot survives live-cache clear without taking zero metadata
+# PASS pending data remains unchanged throughout the bounded ready stall
+# PASS ready acceptance clears pending while retaining the accepted report snapshot
+# PASS LOWCONF_TOP_CACHE_RETAINS_REAL_SCORE7
+# PASS LOWCONF_KEY1_CLASS_CENTER_CONF7_SNAPSHOT
+# PASS LOWCONF_ACTIVE_REPORT_CANNOT_CHANGE_TO_NEW_RESULT
+# PASS LOWCONF_KEY1_CLASS_CENTER_CONF1_SNAPSHOT
+# PASS LOWCONF_HELD_IDENTITY_CONF0_IS_NOT_UPGRADED
+# PASS LOWCONF_KEY1_NO_TARGET_DOES_NOT_START_WRITING
+# PASS LOWCONF_TOP_METADATA_DIRECTED
+# CENTER_CACHE_FULL_TOP_COUNTS baseline=45 added=13 total=58
+# PASS CNN_NAMED_TOP_ALL checks=58
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/top_metadata/tb_lowconf_top.sv(298)
+#    Time: 2061 ns  Iteration: 0  Instance: /tb_cnn_named_top
+# End time: 10:59:23 on Nov 03,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 22

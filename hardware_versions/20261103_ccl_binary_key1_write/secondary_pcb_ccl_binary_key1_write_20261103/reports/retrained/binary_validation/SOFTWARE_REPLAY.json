@@ -1,0 +1,22 @@
+{
+  "status": "PASS_INTEGER_CHECKS",
+  "selected_frames": 15,
+  "real_core_cases": 15,
+  "synthetic_core_cases": 3,
+  "selected_result_counts": {
+    "GOOD": {
+      "FAIL": 1,
+      "PASS": 5
+    },
+    "MISSING_CORNER": {
+      "FAIL": 3
+    },
+    "MISSING_PAD": {
+      "FAIL": 5,
+      "REVIEW": 1
+    }
+  },
+  "hardware": "NOT_RUN",
+  "RTL": "NOT_RUN",
+  "fixture_index": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\binary_validation\\fixtures\\INDEX.json"
+}

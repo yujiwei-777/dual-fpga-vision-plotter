@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-03T02:57:12.938420+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\RUNNER_AT_EXECUTION.py": "6AD885208BF6270A768929671F14E70AF282F4E0806ABEE0F9D59067EE00A1AB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\tb_pose7_fifo4.sv": "BA2997D48D9E31802D6097A647425B4FE020A87374E39A02BB72E41E856F551B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\tb_pose7_hxa_crc_network.sv": "7018E1F36A872A0CB92B6517CBCFD1DF35190D9F3F518A0E2A7B90CB7C58ED2E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_codec.v": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\tb_pose7_fifo4.sv": "BA2997D48D9E31802D6097A647425B4FE020A87374E39A02BB72E41E856F551B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\tb_pose7_hxa_crc_network.sv": "7018E1F36A872A0CB92B6517CBCFD1DF35190D9F3F518A0E2A7B90CB7C58ED2E"
+  },
+  "commands": [
+    {
+      "label": "vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\hxa_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\hxa_lib",
+        "+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/hxa",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_codec.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_packet_rx_fifo4.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\ph1p_logic_eram_stub.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\tb_pose7_fifo4.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\tb_pose7_hxa_crc_network.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\lint.log",
+      "log_sha256": "96C88D8C4CF734BDC816EF8A6BD04F029BFC28CAAF3F83D02D671A7FF4677C9B",
+      "warnings": []
+    },
+    {
+      "label": "tb_pose7_fifo4",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "hxa_lib",
+        "tb_pose7_fifo4",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\tb_pose7_fifo4.log",
+      "log_sha256": "34E5BFA446E4D93742EB6B445F856B72BF38DDF084A3B11F15C7424E69852E72",
+      "warnings": []
+    },
+    {
+      "label": "tb_pose7_hxa_crc_network",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "hxa_lib",
+        "tb_pose7_hxa_crc_network",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\hxa\\tb_pose7_hxa_crc_network.log",
+      "log_sha256": "047BADAF3F7B4CA17CCFF6258C83FE5784716BD4DAC3649198897562A32D761F",
+      "warnings": []
+    }
+  ],
+  "scope": [
+    {
+      "test": "tb_pose7_fifo4",
+      "records": [
+        "POSE7_FIFO4_PASS: 41 payload/header/control checks, 11 expected rejected packets, 6 control events, 40us cadence"
+      ]
+    },
+    {
+      "test": "tb_pose7_hxa_crc_network",
+      "records": [
+        "POSE7_HXA_CASE_PASS name=bad_FRAME_BEGIN_packet_CRC",
+        "POSE7_HXA_CASE_PASS name=bad_FRAME_END_packet_CRC",
+        "POSE7_HXA_CASE_PASS name=complete_DDR_frame_bad_CRC",
+        "POSE7_HXA_CASE_PASS name=complete_DDR_frame_correct_CRC",
+        "POSE7_HXA_CASE_PASS name=ordinary_empty_Type11_busy_job_preserved",
+        "POSE7_HXA_CASE_PASS name=ordinary_HXD1_Type11_busy_job_preserved",
+        "POSE7_HXA_CASE_PASS name=PHY_drop_busy_job_preserved",
+        "POSE7_HXA_CASE_PASS name=lease_expiry_busy_job_preserved",
+        "POSE7_HXA_CASE_PASS name=HELLO_session_change_busy_job_preserved",
+        "POSE7_HXA_CASE_PASS name=wrong_session_Type11_rejected",
+        "POSE7_HXA_CASE_PASS name=explicit_reason80_Type11_cancels",
+        "POSE7_HXA_BASELINE_LIMITATION explicit_reason80_authenticated_session_accepts_nonmatching_frame_ID=1",
+        "POSE7_HXA_CRC_NETWORK_PASS cases=11"
+      ]
+    }
+  ],
+  "limitations": [
+    "Frame DATA staging count is deposited; this does not validate all1280 fragment DMA writes. Actual CRC scans115200 DDR words.",
+    "Explicit Type11 reason80 checks session but baseline does not compare task/frame ID.",
+    "Behavioral DDR read model is not vendor PHY or physical CDC signoff."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

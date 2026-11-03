@@ -1,0 +1,214 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/hxa
+T_opt
+!s110 1793674629
+V0a]OfXMGUY5difCij6N;V3
+04 14 4 work tb_pose7_fifo4 fast 0
+=1-40c2ba3dfe0d-6ae94d85-110-f4c8
+Z1 o-quiet -auto_acc_if_foreign -work hxa_lib
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1793674631
+V1hHe1FH06RAA9fDT6QEHN2
+04 24 4 work tb_pose7_hxa_crc_network fast 0
+=1-40c2ba3dfe0d-6ae94d86-38a-12b50
+R1
+R2
+n@_opt1
+R3
+vhxa_packet_rx
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z5 !s110 1793674628
+!i10b 1
+!s100 eWbLzFECQZi;d`9KK@M5H3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7GR`j[go`aOdJ=j>Pje>M0
+S1
+R0
+Z7 w1793587056
+Z8 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_packet_codec.v
+Z9 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_packet_codec.v
+!i122 0
+L0 113 88
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z12 !s108 1793674628.000000
+Z13 !s107 pose7_hxa_constants.svh|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\tb_pose7_hxa_crc_network.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\tb_pose7_fifo4.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\ph1p_logic_eram_stub.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_secondary_link.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_packet_rx_fifo4.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_packet_codec.v|
+Z14 !s90 -sv|-lint|-work|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\hxa_lib|+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/hxa|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_packet_codec.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_packet_rx_fifo4.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_secondary_link.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\ph1p_logic_eram_stub.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\tb_pose7_fifo4.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\tb_pose7_hxa_crc_network.sv|
+!i113 0
+Z15 o-sv -lint -work {D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\hxa_lib} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z16 !s92 -sv -lint -work {D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\hxa_lib} +incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_key1_write_20261103/reports/retrained/regressions/run_20261103T025706_248559Z/hxa -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vhxa_packet_rx_fifo4
+R4
+R5
+!i10b 1
+!s100 O0n<oiiQ<BVZWg^IzzXE^1
+R6
+IOen8:HS_6MXFl9^DY<VgF3
+S1
+R0
+w1793594008
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_packet_rx_fifo4.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_packet_rx_fifo4.v
+!i122 0
+L0 10 383
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R2
+vhxa_packet_tx
+R4
+R5
+!i10b 1
+!s100 PT^B>bV^IjhE9>Ye7HRGb2
+R6
+I=;z2N;4KiVNo2:ccHAQdc1
+S1
+R0
+R7
+R8
+R9
+!i122 0
+L0 4 108
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R2
+vhxa_secondary_link
+R4
+R5
+!i10b 1
+!s100 KUd4>0>1j2S:LW3l?gJR12
+R6
+Ign77i96@TNJ_kGO1ffNl12
+S1
+R0
+w1793598894
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_secondary_link.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\shared\rtl\hxa_secondary_link.v
+!i122 0
+L0 3 711
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R2
+vPH1P_LOGIC_ERAM
+R4
+R5
+!i10b 1
+!s100 G[RWMmC=fE@gBe5:?T_Yj3
+R6
+Ij31[1ODID46dYCS>[<1;E0
+S1
+R0
+Z17 w1793674628
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\ph1p_logic_eram_stub.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\ph1p_logic_eram_stub.sv
+!i122 0
+L0 1 57
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R2
+n@p@h1@p_@l@o@g@i@c_@e@r@a@m
+vtb_pose7_fifo4
+R4
+R5
+!i10b 1
+!s100 TWn]_:eF<7@R6IBem`<]m2
+R6
+IPCO0PPPNW07FXVUSLiG2A3
+S1
+R0
+R17
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\tb_pose7_fifo4.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\tb_pose7_fifo4.sv
+!i122 0
+L0 3 297
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R2
+vtb_pose7_hxa_crc_network
+R4
+R5
+!i10b 1
+!s100 _g]<l>D30mL5S7K=l5QH50
+R6
+IDXEZ]R;fbT24Lbd7diPBd0
+S1
+R0
+R17
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\tb_pose7_hxa_crc_network.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_key1_write_20261103\reports\retrained\regressions\run_20261103T025706_248559Z\hxa\tb_pose7_hxa_crc_network.sv
+Fpose7_hxa_constants.svh
+!i122 0
+L0 6 161
+R10
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R2

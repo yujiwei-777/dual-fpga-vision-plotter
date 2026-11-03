@@ -1,0 +1,65 @@
+{
+  "name": "real_11_older_missing_pad",
+  "ccl": {
+    "provisional_labels": 410,
+    "overflow": false,
+    "truncated": false,
+    "count": 2,
+    "eligible_components": [
+      {
+        "area": 5676,
+        "first": 2102,
+        "grid_box": [
+          16,
+          13,
+          156,
+          78
+        ]
+      },
+      {
+        "area": 191,
+        "first": 6012,
+        "grid_box": [
+          83,
+          37,
+          101,
+          57
+        ]
+      }
+    ],
+    "top4": [
+      {
+        "area": 5676,
+        "first": 2102,
+        "grid_box": [
+          16,
+          13,
+          156,
+          78
+        ]
+      },
+      {
+        "area": 191,
+        "first": 6012,
+        "grid_box": [
+          83,
+          37,
+          101,
+          57
+        ]
+      }
+    ]
+  },
+  "valid": true,
+  "bbox": [
+    128,
+    104,
+    1248,
+    624
+  ],
+  "status": 1,
+  "score": 255,
+  "margin": 840,
+  "class_id": 1,
+  "core_case": 11
+}

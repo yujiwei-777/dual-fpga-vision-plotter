@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-03T02:57:08.236339+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter\\RUNNER_AT_EXECUTION.py": "6AD885208BF6270A768929671F14E70AF282F4E0806ABEE0F9D59067EE00A1AB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\tb_pose7_plotter.sv": "4B2E12A9B83BDD6C030D8E1B8863D3E1EEBFCFFB5CE128814F9D532058228A66",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_response_parser.v": "BA9B33542EDF70A37BC9BC8A0B99EBBFA5CFEE6DF19E6F6E921A818FC7787D89",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter\\tb_pose7_plotter.sv": "4B2E12A9B83BDD6C030D8E1B8863D3E1EEBFCFFB5CE128814F9D532058228A66"
+  },
+  "commands": [
+    {
+      "label": "transport_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter\\transport_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter\\transport_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "transport_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter\\transport_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_line_formatter.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_response_parser.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\grbl_shared_transport_candidate.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter\\tb_pose7_plotter.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter\\transport_lint.log",
+      "log_sha256": "43AE733C829CE4CB60A3B6638005FFEAF7B9B4E4DFDDCA2261B113B5A8D57F40",
+      "warnings": []
+    },
+    {
+      "label": "transport_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "transport_lib",
+        "tb_pose7_plotter",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025706_248559Z\\plotter\\transport_simulation.log",
+      "log_sha256": "9F9A43566983BFFAF139B1B48159132D788BDC236CE42D3D93CE8439633693A6",
+      "warnings": []
+    }
+  ],
+  "scope": [
+    {
+      "test": "actual shared report/document transport",
+      "cases": [
+        "PLOTTER_CASE_PASS name=KEY2_first_final_ok_no_Idle",
+        "PLOTTER_CASE_PASS name=KEY2_second_no_KEY3_uart_unaccepted_retry",
+        "PLOTTER_CASE_PASS name=CNN_PCB_multiline_ack_serialization",
+        "PLOTTER_CASE_PASS name=DOC_final_ok_owner_withdrawal_no_final_Idle",
+        "PLOTTER_CASE_PASS name=KEY2_after_DOC_owner_switch",
+        "PLOTTER_CASE_PASS name=DOC_lost_ok_no_motion_replay_safe_stop",
+        "PLOTTER_CASE_PASS name=REPORT_lost_ok_no_motion_replay",
+        "PLOTTER_CASE_PASS name=REPORT_KEY4_stop_Hold_reset_fresh_Idle",
+        "PLOTTER_CASE_PASS name=REPORT_Alarm_rearm_required",
+        "PLOTTER_CASE_PASS name=REPORT_Reset_invalidates_coordinates",
+        "PLOTTER_CASE_PASS name=REPORT_UART_ready_loss_is_fault",
+        "PLOTTER_CASE_PASS name=DOC_KEY4_reset_Hold_fresh_Idle",
+        "PLOTTER_CASE_PASS name=KEY2_after_DOC_stop_recovery"
+      ]
+    }
+  ],
+  "limitations": [
+    "Producer claims are controlled; HXA and physical external machine require separate tests.",
+    "GRBL ok acknowledges command acceptance, not mechanical standstill."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

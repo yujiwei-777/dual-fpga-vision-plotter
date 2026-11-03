@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "check": "readonly",
+  "scope": "Read-only reimport of the current routed database passed; setup/hold timing, area, clocks, and constraints were re-reported.",
+  "limitations": [
+    "The read-only import does not execute bitgen or test external hardware."
+  ],
+  "artifacts": [
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\READONLY_VERIFICATION.json",
+      "sha256": "1355A458C0C7AA7DD896290985C710DB9DFFCFDF592A0AEED1752B7BEF8CA61E"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\readonly.timing",
+      "sha256": "87BA4F1BF9269BCB5F86B3BE6AB80F156F46F4E9D55399BEF432BA71D1060961"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\readonly.area",
+      "sha256": "1C9E64746601FD4566199F130947B2408CC9F9ADCD61D5CE56D1E2B05F4B0F5A"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\readonly.check",
+      "sha256": "ED0D8DEC6A6F1E060535691B2A35A20387A9CB4FB26B46B25F3EC4C94360DE5B"
+    }
+  ],
+  "source_sha256": {
+    "04_pin/timing.sdc": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF",
+    "01_rtl/secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+    "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359"
+  }
+}

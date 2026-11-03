@@ -1,0 +1,17 @@
+{
+  "phase": "bitgen",
+  "status": "PASS_TOOL_INVOCATION",
+  "started_ns": 1793679140673578500,
+  "cwd": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1_reviewed_bitgen\\runs\\phy_1",
+  "script": "run_bitgen.tcl",
+  "script_sha256": "E359B382D7ACB80C2399DCF644AEA68F1C9F36919329D1020B86BA5E6CBD26C1",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_bitgen.tcl"
+  ],
+  "exit_code": 0,
+  "finished_ns": 1793679155995987600,
+  "log_sha256": "B899900D17F439D4431B4785026B34AC5BF0C91930CB4BB433AF2A08F59A9034",
+  "errors": [],
+  "error_markers": []
+}

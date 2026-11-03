@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-03T02:52:08.946411+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\run_reader.py": "5F952C1FE00DA814F7B789A0A8ECFFB915A571C41F87FF9E98577DD1534E8721",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\secondary_top.v": "4D28967DBF6323869793D8094387462E9E818843C7A358D8FBAAD4F8BB47FB02",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\shared\\rtl\\hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\reader_regression_r4\\tb_reader.sv": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\top_read_route_probe.sv": "ED4103BEB472688109B55BF9693226D665BAAE243D560DE34712834FA2218BA5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\hxa_read_route_probe.sv": "BFAEB535C71F02F5F5D27A8058EE3FDFEC831AE23E6FDA95B58ACA0B6781E2D7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\tb_reader.sv": "A521952714029B9DD476B466F6CB8E64EA38D1281A79AA05BB4C7F9DFCE88531"
+  },
+  "commands": [
+    {
+      "label": "reader_mailbox_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "reader_mailbox_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\vision_pixel_reader.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\01_rtl\\hxa_ddr_store.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\top_read_route_probe.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\hxa_read_route_probe.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\tb_reader.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_lint.log",
+      "log_sha256": "724368FE5322768AAD870AA7E1C6155EBDD3AD01B73C816649282BB53208A7CF",
+      "warnings": []
+    },
+    {
+      "label": "reader_mailbox_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "reader_mailbox_lib",
+        "tb_pose7_real_reader",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_key1_write_20261103\\reports\\retrained\\regressions\\run_20261103T025000_063615Z\\reader\\reader_mailbox_simulation.log",
+      "log_sha256": "043E93A718402B70A695626B4641B8838BCD976A7FFC3E483E886D6A27C6F5A7",
+      "warnings": []
+    }
+  ],
+  "scope": [
+    {
+      "test": "actual current pixel reader+dual-clock mailbox+source-extracted top/HXA routes",
+      "records": [
+        "POSE7_REAL_READER_CASE_PASS name=calibration_fences_requests",
+        "POSE7_REAL_READER_CASE_PASS name=all_eight_Y_lanes_odd_even_cache",
+        "POSE7_REAL_READER_CASE_PASS name=miss_boundaries_last_address_and_variable_latency",
+        "POSE7_REAL_READER_CASE_PASS name=frame_invalidate_changes_same_word",
+        "POSE7_REAL_READER_CASE_PASS name=app_command_backpressure_and_samecycle_app_response",
+        "POSE7_REAL_READER_CASE_PASS name=ordinary_color_word_port_masks_pixel_reply",
+        "POSE7_REAL_READER_CASE_PASS name=document_owns_reader_ignores_live_purpose_and_color",
+        "POSE7_REAL_READER_CASE_PASS name=PCB_network_cancel_retains_inflight_response",
+        "POSE7_REAL_READER_CASE_PASS name=explicit_doc_cancel_drain_and_reentry",
+        "POSE7_REAL_READER_CASE_PASS name=KEY4_doc_drain_and_reentry",
+        "POSE7_REAL_READER_CASE_PASS name=CRC_read_owner_never_publishes_pixel",
+        "POSE7_REAL_READER_CASE_PASS name=unreturned_doc_response_locks_until_raw_reset",
+        "POSE7_REAL_READER_PASS cases=12 checks=506 pixels=44 client_words=37 app_words=37 clocks=8ns_14ns"
+      ]
+    }
+  ],
+  "limitations": [
+    "Independent125/DDR clocks plus behavioral app interface verify logical mailbox ordering, not metastability, vendor PHY calibration, physical latency or static CDC signoff."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

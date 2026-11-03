@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "check": "cdc",
+  "scope": "Current routed database CDC mapping, source-snapshot binding, and max-delay constraint paths are checked in the attached physical review.",
+  "limitations": [
+    "Static mapped connectivity and timing review only; not an independent metastability signoff."
+  ],
+  "artifacts": [
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\runs\\phy_1\\secondary_cdc_route_end.rpt",
+      "sha256": "7281B1E2EA1AF14D4FF0B1A2902DE4E66254EC6B34863A2A990D75CCA4B18CF6"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\runs\\phy_1\\secondary_cdc_route_end.sdc",
+      "sha256": "F2CE411CC372C74BF5004F8189F28A60AF67B569B34A37640FB999F2EB20B600"
+    },
+    {
+      "path": "E:\\codex_pcb_binary_ccl_retrained_20261103_key1\\readonly\\PHYSICAL_CDC_DDR_FIFO_REVIEW.json",
+      "sha256": "BE9658E0DB3A2748C1A9426013669A536A776C0918BF6C1C045D30852471E98A"
+    }
+  ],
+  "source_sha256": {
+    "04_pin/apply_cdc_exceptions.tcl": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0",
+    "04_pin/timing.sdc": "BB8787E049A8DCC445DA077D8C450C77892B14544068C3F94BF5ADEB694700CF",
+    "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+    "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359"
+  }
+}

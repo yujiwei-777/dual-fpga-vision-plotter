@@ -1,0 +1,66 @@
+{
+  "inputs": [
+    {
+      "Path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_packet_codec.v",
+      "Hash": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E"
+    },
+    {
+      "Path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_main_link.v",
+      "Hash": "60362844CDEDF666F75C2B5019405C2844D6EEEA1A0F8C4F03F220DC7C1FB740"
+    },
+    {
+      "Path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\02_sim\\link_legacy_regression_v2\\tb_hxa_main_stability.sv",
+      "Hash": "09787D9210E6AA480E464CEF1A1504C3ED19B8B27353951F7B15147B5EB2007C"
+    },
+    {
+      "Path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\02_sim\\link_legacy_regression_v2\\tb_hxa_main_startup_regression.sv",
+      "Hash": "9DEC80B0271A9E23CACDFBD7A591CBC9E6A1D2B49A553209EF5BC8337B255E14"
+    },
+    {
+      "Path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\02_sim\\link_legacy_regression_v2\\tb_hxa_main_document_type15.sv",
+      "Hash": "D54626ACA238CAF667947E2193A08B4DA4691B720441479D67837EB7A28878A9"
+    },
+    {
+      "Path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_link_stability_20261020\\02_sim\\tb_hxa_main_stability.sv",
+      "Hash": "BB48AA506502F2C8F603DC68B42BBADC77432CBF40CA7FB3EFCDFBAA1376F45A"
+    },
+    {
+      "Path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_link_stability_20261020\\02_sim\\startup_regression\\tb_hxa_main_startup_regression.sv",
+      "Hash": "94C0B114FCFEA6B6377770491F6A1FE6BDC2BA850DC10DD8154DB802E68AA65D"
+    }
+  ],
+  "scope": "Real active hxa_main_link and hxa_packet_codec; deterministic snapshot/MAC/peer models at external module boundary; default PCB_CONTINUOUS=0 and PCB_KEY_ONESHOT=0.",
+  "production_source_unchanged": true,
+  "tests": [
+    {
+      "case": "ordinary_stability",
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\02_sim\\link_legacy_regression_v2\\ordinary_stability.log"
+    },
+    {
+      "case": "startup_fault_0",
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\02_sim\\link_legacy_regression_v2\\startup_fault_0.log"
+    },
+    {
+      "case": "startup_fault_1",
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\02_sim\\link_legacy_regression_v2\\startup_fault_1.log"
+    },
+    {
+      "case": "startup_fault_2",
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\02_sim\\link_legacy_regression_v2\\startup_fault_2.log"
+    },
+    {
+      "case": "document_type15",
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_auto_compat_20261101\\02_sim\\link_legacy_regression_v2\\document_type15.log"
+    }
+  ]
+}

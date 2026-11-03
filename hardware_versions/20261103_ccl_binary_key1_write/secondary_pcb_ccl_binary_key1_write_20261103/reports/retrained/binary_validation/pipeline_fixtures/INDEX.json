@@ -1,0 +1,828 @@
+[
+  {
+    "name": "real_00_current_good",
+    "ccl": {
+      "provisional_labels": 39,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 4456,
+          "first": 3873,
+          "grid_box": [
+            13,
+            24,
+            133,
+            67
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 4456,
+          "first": 3873,
+          "grid_box": [
+            13,
+            24,
+            133,
+            67
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      104,
+      192,
+      1064,
+      536
+    ],
+    "status": 1,
+    "score": 0,
+    "margin": 60,
+    "class_id": 1,
+    "core_case": 0
+  },
+  {
+    "name": "real_01_current_good",
+    "ccl": {
+      "provisional_labels": 33,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 4137,
+          "first": 3099,
+          "grid_box": [
+            26,
+            19,
+            137,
+            61
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 4137,
+          "first": 3099,
+          "grid_box": [
+            26,
+            19,
+            137,
+            61
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      208,
+      152,
+      1096,
+      488
+    ],
+    "status": 0,
+    "score": 190,
+    "margin": 599,
+    "class_id": 0,
+    "core_case": 1
+  },
+  {
+    "name": "real_02_current_good",
+    "ccl": {
+      "provisional_labels": 39,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 2977,
+          "first": 6277,
+          "grid_box": [
+            33,
+            39,
+            130,
+            77
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 2977,
+          "first": 6277,
+          "grid_box": [
+            33,
+            39,
+            130,
+            77
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      264,
+      312,
+      1040,
+      616
+    ],
+    "status": 0,
+    "score": 120,
+    "margin": 487,
+    "class_id": 0,
+    "core_case": 2
+  },
+  {
+    "name": "real_03_older_good",
+    "ccl": {
+      "provisional_labels": 259,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 6098,
+          "first": 1451,
+          "grid_box": [
+            7,
+            9,
+            144,
+            68
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 6098,
+          "first": 1451,
+          "grid_box": [
+            7,
+            9,
+            144,
+            68
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      56,
+      72,
+      1152,
+      544
+    ],
+    "status": 0,
+    "score": 255,
+    "margin": 950,
+    "class_id": 0,
+    "core_case": 3
+  },
+  {
+    "name": "real_04_older_good",
+    "ccl": {
+      "provisional_labels": 288,
+      "overflow": false,
+      "truncated": false,
+      "count": 2,
+      "eligible_components": [
+        {
+          "area": 6895,
+          "first": 2250,
+          "grid_box": [
+            5,
+            14,
+            150,
+            78
+          ]
+        },
+        {
+          "area": 77,
+          "first": 7784,
+          "grid_box": [
+            104,
+            48,
+            124,
+            54
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 6895,
+          "first": 2250,
+          "grid_box": [
+            5,
+            14,
+            150,
+            78
+          ]
+        },
+        {
+          "area": 77,
+          "first": 7784,
+          "grid_box": [
+            104,
+            48,
+            124,
+            54
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      40,
+      112,
+      1200,
+      624
+    ],
+    "status": 0,
+    "score": 162,
+    "margin": 490,
+    "class_id": 0,
+    "core_case": 4
+  },
+  {
+    "name": "real_05_older_good",
+    "ccl": {
+      "provisional_labels": 317,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 7081,
+          "first": 2088,
+          "grid_box": [
+            4,
+            13,
+            150,
+            78
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 7081,
+          "first": 2088,
+          "grid_box": [
+            4,
+            13,
+            150,
+            78
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      32,
+      104,
+      1200,
+      624
+    ],
+    "status": 0,
+    "score": 255,
+    "margin": 832,
+    "class_id": 0,
+    "core_case": 5
+  },
+  {
+    "name": "real_06_missing_corner",
+    "ccl": {
+      "provisional_labels": 95,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 4237,
+          "first": 3560,
+          "grid_box": [
+            20,
+            22,
+            130,
+            71
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 4237,
+          "first": 3560,
+          "grid_box": [
+            20,
+            22,
+            130,
+            71
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      160,
+      176,
+      1040,
+      568
+    ],
+    "status": 1,
+    "score": 255,
+    "margin": 797,
+    "class_id": 1,
+    "core_case": 6
+  },
+  {
+    "name": "real_07_missing_corner",
+    "ccl": {
+      "provisional_labels": 80,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 4043,
+          "first": 2930,
+          "grid_box": [
+            30,
+            18,
+            140,
+            65
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 4043,
+          "first": 2930,
+          "grid_box": [
+            30,
+            18,
+            140,
+            65
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      240,
+      144,
+      1120,
+      520
+    ],
+    "status": 1,
+    "score": 209,
+    "margin": 618,
+    "class_id": 1,
+    "core_case": 7
+  },
+  {
+    "name": "real_08_missing_corner",
+    "ccl": {
+      "provisional_labels": 154,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 6296,
+          "first": 1538,
+          "grid_box": [
+            20,
+            9,
+            159,
+            67
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 6296,
+          "first": 1538,
+          "grid_box": [
+            20,
+            9,
+            159,
+            67
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      160,
+      72,
+      1272,
+      536
+    ],
+    "status": 1,
+    "score": 255,
+    "margin": 977,
+    "class_id": 1,
+    "core_case": 8
+  },
+  {
+    "name": "real_09_older_missing_pad",
+    "ccl": {
+      "provisional_labels": 137,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 6358,
+          "first": 2106,
+          "grid_box": [
+            22,
+            13,
+            150,
+            72
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 6358,
+          "first": 2106,
+          "grid_box": [
+            22,
+            13,
+            150,
+            72
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      176,
+      104,
+      1200,
+      576
+    ],
+    "status": 1,
+    "score": 134,
+    "margin": 433,
+    "class_id": 1,
+    "core_case": 9
+  },
+  {
+    "name": "real_10_older_missing_pad",
+    "ccl": {
+      "provisional_labels": 367,
+      "overflow": false,
+      "truncated": false,
+      "count": 2,
+      "eligible_components": [
+        {
+          "area": 6008,
+          "first": 2105,
+          "grid_box": [
+            14,
+            13,
+            153,
+            78
+          ]
+        },
+        {
+          "area": 195,
+          "first": 6009,
+          "grid_box": [
+            80,
+            37,
+            100,
+            56
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 6008,
+          "first": 2105,
+          "grid_box": [
+            14,
+            13,
+            153,
+            78
+          ]
+        },
+        {
+          "area": 195,
+          "first": 6009,
+          "grid_box": [
+            80,
+            37,
+            100,
+            56
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      112,
+      104,
+      1224,
+      624
+    ],
+    "status": 1,
+    "score": 255,
+    "margin": 974,
+    "class_id": 1,
+    "core_case": 10
+  },
+  {
+    "name": "real_11_older_missing_pad",
+    "ccl": {
+      "provisional_labels": 410,
+      "overflow": false,
+      "truncated": false,
+      "count": 2,
+      "eligible_components": [
+        {
+          "area": 5676,
+          "first": 2102,
+          "grid_box": [
+            16,
+            13,
+            156,
+            78
+          ]
+        },
+        {
+          "area": 191,
+          "first": 6012,
+          "grid_box": [
+            83,
+            37,
+            101,
+            57
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 5676,
+          "first": 2102,
+          "grid_box": [
+            16,
+            13,
+            156,
+            78
+          ]
+        },
+        {
+          "area": 191,
+          "first": 6012,
+          "grid_box": [
+            83,
+            37,
+            101,
+            57
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      128,
+      104,
+      1248,
+      624
+    ],
+    "status": 1,
+    "score": 255,
+    "margin": 840,
+    "class_id": 1,
+    "core_case": 11
+  },
+  {
+    "name": "real_12_current_missing_pad",
+    "ccl": {
+      "provisional_labels": 75,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 3926,
+          "first": 3060,
+          "grid_box": [
+            13,
+            19,
+            124,
+            64
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 3926,
+          "first": 3060,
+          "grid_box": [
+            13,
+            19,
+            124,
+            64
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      104,
+      152,
+      992,
+      512
+    ],
+    "status": 2,
+    "score": 0,
+    "margin": 29,
+    "class_id": 0,
+    "core_case": 12
+  },
+  {
+    "name": "real_13_current_missing_pad",
+    "ccl": {
+      "provisional_labels": 97,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 4535,
+          "first": 3863,
+          "grid_box": [
+            17,
+            24,
+            139,
+            71
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 4535,
+          "first": 3863,
+          "grid_box": [
+            17,
+            24,
+            139,
+            71
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      136,
+      192,
+      1112,
+      568
+    ],
+    "status": 1,
+    "score": 33,
+    "margin": 252,
+    "class_id": 1,
+    "core_case": 13
+  },
+  {
+    "name": "real_14_current_missing_pad",
+    "ccl": {
+      "provisional_labels": 63,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 4124,
+          "first": 2736,
+          "grid_box": [
+            7,
+            17,
+            120,
+            66
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 4124,
+          "first": 2736,
+          "grid_box": [
+            7,
+            17,
+            120,
+            66
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      56,
+      136,
+      960,
+      528
+    ],
+    "status": 1,
+    "score": 221,
+    "margin": 640,
+    "class_id": 1,
+    "core_case": 14
+  },
+  {
+    "name": "synthetic_blank",
+    "ccl": {
+      "provisional_labels": 0,
+      "overflow": false,
+      "truncated": false,
+      "count": 0,
+      "eligible_components": [],
+      "top4": []
+    },
+    "valid": false,
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": 2,
+    "score": 0,
+    "margin": 0,
+    "class_id": 0,
+    "core_case": null
+  },
+  {
+    "name": "synthetic_source_border",
+    "ccl": {
+      "provisional_labels": 1,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 1600,
+          "first": 1600,
+          "grid_box": [
+            0,
+            10,
+            40,
+            50
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 1600,
+          "first": 1600,
+          "grid_box": [
+            0,
+            10,
+            40,
+            50
+          ]
+        }
+      ]
+    },
+    "valid": false,
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": 2,
+    "score": 0,
+    "margin": 0,
+    "class_id": 0,
+    "core_case": null
+  },
+  {
+    "name": "synthetic_label_overflow",
+    "ccl": {
+      "provisional_labels": 3600,
+      "overflow": true,
+      "truncated": false,
+      "count": 0,
+      "eligible_components": [],
+      "top4": []
+    },
+    "valid": false,
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": 2,
+    "score": 0,
+    "margin": 0,
+    "class_id": 0,
+    "core_case": null
+  }
+]
