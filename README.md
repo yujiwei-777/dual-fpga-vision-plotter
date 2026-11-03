@@ -61,7 +61,7 @@ PCB 框来自副板返回的原图候选坐标，表示检测对象范围，不�
 
 配套版本为 auto_compat 主板与 user_retrained 副板。副板使用限定实拍样本重训的 C4/C4 二分类模型，不启用 pose7 判向与良品空间异常评分。该组合实板状态为 **NOT_RUN**。算法、模型和构建证据见 [版本说明](docs/CCL_BINARY_RETRAINED_20261103.md)。
 
-[下载完整工程与 bit](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/tag/v2026.11.03-ccl-binary-retrained)。此前 [2026-11-02 pose7 版本](docs/POSE7_AUTO_20261102.md) 与 [2026-11-01 固定窗口版本](hardware/) 独立保留。
+[下载源码交付包（约 5.8 MiB，可直接转发）](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.03-ccl-binary-retrained/vision_inspection_plotter_source_20261103.zip)。解压后打开“00_开始使用.html”，包含配套 bit、两板工程、接线和使用说明。完整日志、训练和检查点另见 [完整归档](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/tag/v2026.11.03-ccl-binary-retrained)。此前 [2026-11-02 pose7 版本](docs/POSE7_AUTO_20261102.md) 与 [2026-11-01 固定窗口版本](hardware/) 独立保留。
 
 ## 工程入口
 

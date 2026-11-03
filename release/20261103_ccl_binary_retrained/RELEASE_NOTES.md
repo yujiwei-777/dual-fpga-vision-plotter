@@ -1,5 +1,9 @@
 # CCL 自动定位 PCB 二分类配套工程
 
+推荐下载：[源码交付包（约 5.8 MiB）](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.03-ccl-binary-retrained/vision_inspection_plotter_source_20261103.zip)。解压后打开“00_开始使用.html”，可查看两板工程入口、烧录文件、接线和操作说明。
+
+需要完整训练、构建日志及检查点时，下载下方 dual_fpga_pair_ccl_binary_retrained_20261103.zip。
+
 - 主板：main_pcb_auto_compat_20261101。
 - 副板：secondary_pcb_ccl_binary_user_retrained_20261102，原框 ×1.0、96×96 Y8、C4/C4 GOOD/BAD 模型；不启用 pose7 方向校正与异常评分。
 - 完整源码、模型、约束、重训、仿真和构建证据随工程包提供；两板 bit 与原文件一致。
