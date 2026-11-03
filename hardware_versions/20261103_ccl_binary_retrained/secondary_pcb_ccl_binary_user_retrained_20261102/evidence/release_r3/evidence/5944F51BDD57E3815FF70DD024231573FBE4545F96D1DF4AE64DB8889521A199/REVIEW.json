@@ -1,0 +1,77 @@
+{
+  "status": "PASS_NARROW_HELPER_REVIEW_AND_FAULT_INJECTION",
+  "created_utc": "2026-11-03T00:18:43.200997+00:00",
+  "source_sha256": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\04_pin\\apply_reset_exceptions.tcl": "BE1FA0BE99A0097DECEAA38AC7E5FBEEFAC2D54662077D66558292AF6CB30D94",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\04_pin\\apply_cdc_exceptions.tcl": "9E5375F16D36A906DC480843BAE9F1BEA1D24770A852EED988627E6C3716D1E0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\cdc_mapping_review\\calibrated_lut5a_override.tcl": "31794B9B5E5E90BD33AA5A07E85B9BF6396342CD7B70D531500BFD3CC0FFFDF4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\cdc_mapping_review\\test_override.tcl": "7C83ABBD731B7B4DFC243984808E52D0D23C093B250D7303860C627E7D8B85B7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\cdc_mapping_review\\run_review.py": "E5ABE24E426AEFBECE9A2F9C13F749E793BFA21EE9517A7FB6B19711157C485D"
+  },
+  "overlay_sha256": "31794B9B5E5E90BD33AA5A07E85B9BF6396342CD7B70D531500BFD3CC0FFFDF4",
+  "tests": {
+    "passed": 21,
+    "failed": 0,
+    "positive_cases": [
+      "packed_cal_first",
+      "packed_cal_pair",
+      "direct_cal_pair"
+    ],
+    "negative_cases": [
+      "wrong_truth",
+      "unsupported_mux",
+      "wrong_connected_input",
+      "connected_memory",
+      "wrong_lutmode",
+      "wrong_ofa_select",
+      "ambiguous_output",
+      "unsupported_reg_select",
+      "enable_not_constant",
+      "unsupported_reset",
+      "wrong_state_clock",
+      "duplicate_state",
+      "wrong_logical",
+      "second_stage_lut_forbidden",
+      "second_stage_disconnected",
+      "mismatched_resets",
+      "wrong_destination_clock",
+      "not_always_enabled"
+    ],
+    "log_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\cdc_mapping_review\\FAULT_INJECTION.log",
+    "log_sha256": "B355EA991D27D505FC1065BF6B00F1B0B4D8A455FE5E91F291D7811685312505",
+    "execution": "Actual frozen helper procedures + overlay; mocked read-only TD object API"
+  },
+  "actual_td_proof": "NOT_RUN_BY_THIS_AGENT",
+  "rtl_or_model_modified": false,
+  "constraints_or_database_modified": false,
+  "runtime_evidence_requirements": {
+    "logical_first": "u_store/cal_sync[0]",
+    "first_data_select": "REGA_SD=LUT5A",
+    "first_data_role": "SELECTED_LUT_OUTPUT_OBSERVATION_ONLY",
+    "first_data_proof": "CALIBRATED_DECODE_PROVEN CAL_EN=0 S_DONE=01111",
+    "five_state_input_truth": "00000000000000010000000000000000 for sorted state_cnt[0..4]",
+    "physical_modes": [
+      "TYPE=AL_PHY_LSLICE",
+      "REF_NAME=PH1P_PHY_LSLICE",
+      "LATCHMODE=DFF",
+      "CLKMUX=SIG",
+      "OQAMUX=QA",
+      "SSRMUX=0",
+      "CEAMUX=1",
+      "REGA_REGSET_ASYNC=RESET",
+      "REGA_SD=LUT5A",
+      "LUTMODE=DLUT5",
+      "OFA_SD=LUT5A"
+    ],
+    "second_stage": "unchanged frozen IM-only proof, same clk/reset and Dnet == first Qnet",
+    "mailbox_timing_endpoint": "unchanged get_regs cal_sync[0], never OFA or IMA",
+    "full_phase_inventory_and_numeric_budgets": "unchanged existing CDC gate requirements"
+  },
+  "inheritance_limitations": [
+    "Only helper-Tcl change permits inherited synthesis and place checkpoint. RTL/model/active synth configuration must match r2 exactly.",
+    "Preserve original synthesis logs, source snapshots, checkpoint and error logs as inherited artifacts; do not create fresh synthesis marker or rewrite timestamps.",
+    "New physical proofs/SDC, actual route, two-corner timing, DRC, read-only reimport and final current gate are still required.",
+    "If CCL ROI x1.2 is implemented, it changes the functional input contract and cannot be certified by this unchanged RTL inherited netlist."
+  ],
+  "hardware_status": "NOT_RUN"
+}

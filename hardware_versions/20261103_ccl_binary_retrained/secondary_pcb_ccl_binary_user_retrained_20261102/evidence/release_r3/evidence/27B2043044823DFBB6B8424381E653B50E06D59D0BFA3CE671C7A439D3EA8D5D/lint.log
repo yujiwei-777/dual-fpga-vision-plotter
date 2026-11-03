@@ -1,0 +1,17 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 23:10:35 on Nov 02,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\hxa\hxa_lib "+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/hxa" D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\shared\rtl\hxa_packet_codec.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\shared\rtl\hxa_packet_rx_fifo4.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\shared\rtl\hxa_secondary_link.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\hxa\ph1p_logic_eram_stub.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\hxa\tb_pose7_fifo4.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\hxa\tb_pose7_hxa_crc_network.sv 
+-- Compiling module hxa_packet_tx
+-- Compiling module hxa_packet_rx
+-- Compiling module hxa_packet_rx_fifo4
+-- Compiling module hxa_secondary_link
+-- Compiling module PH1P_LOGIC_ERAM
+-- Compiling module tb_pose7_fifo4
+-- Compiling module tb_pose7_hxa_crc_network
+
+Top level modules:
+	hxa_packet_rx
+	tb_pose7_fifo4
+	tb_pose7_hxa_crc_network
+End time: 23:10:35 on Nov 02,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

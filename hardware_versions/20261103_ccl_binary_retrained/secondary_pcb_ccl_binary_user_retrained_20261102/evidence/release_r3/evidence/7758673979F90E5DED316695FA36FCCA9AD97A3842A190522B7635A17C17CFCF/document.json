@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "source_manifest_sha256": "31F6BE091C83865F4E2E5B1F5CA7EA82108F15654C023B7DB603EFD35D88375F",
+  "functional_ancestry_manifest_sha256": "92E737ED8B7D585AEAAC64346A130A2AA7A9F2077A70B14A8CE2D036506A57DB",
+  "execution": "REUSED_R2_ON_IDENTICAL_R3_SOURCES",
+  "source_sha256": {
+    "01_rtl/doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+    "01_rtl/doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+    "01_rtl/doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+    "01_rtl/doc_machine_map.v": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+    "01_rtl/doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+    "01_rtl/doc_grbl_map.v": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+    "01_rtl/doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+    "01_rtl/doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+    "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+  },
+  "support": [
+    {
+      "reference": {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\RESULTS.json",
+        "sha256": "B2A2349EB96A899A8EF7C95112C822FEE619656E4030F4DDF5066797FC829EDB",
+        "status": "PASS",
+        "source_sha256": {
+          "01_rtl/doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+          "01_rtl/doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+          "01_rtl/doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+          "01_rtl/doc_machine_map.v": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+          "01_rtl/doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+          "01_rtl/doc_grbl_map.v": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+          "01_rtl/doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+          "01_rtl/doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+          "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+        }
+      },
+      "scope": [
+        {
+          "test": "frontend blank",
+          "records": [
+            "PASS FRONTEND blank cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend blank2418",
+          "records": [
+            "PASS FRONTEND blank2418 cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend gray_gradient_grain",
+          "records": [
+            "PASS FRONTEND gray_gradient_grain cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend ink2358",
+          "records": [
+            "PASS FRONTEND ink2358 cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend sample15_roi_border_contract",
+          "records": [
+            "PASS FRONTEND sample15_roi_border_contract cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "frontend strokes_on_fixed_dirt",
+          "records": [
+            "PASS FRONTEND strokes_on_fixed_dirt cycles=5417980 backpressure=37908 request_stalls=348384"
+          ]
+        },
+        {
+          "test": "blank2418 frontend/skeleton/paths/coordinates/G-code",
+          "gcode_lines": 4,
+          "actual_gcode_sha256": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+          "records": [
+            "PASS CAPTURE_INTEGRATED frontend thin graph paths mapper Gcode cycles=19324205 edges=0 paths=0 points=0 acked=4"
+          ]
+        },
+        {
+          "test": "ink2358 frontend/skeleton/paths/coordinates/G-code",
+          "gcode_lines": 417,
+          "actual_gcode_sha256": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+          "records": [
+            "PASS CAPTURE_INTEGRATED frontend thin graph paths mapper Gcode cycles=39143321 edges=603 paths=30 points=351 acked=417"
+          ]
+        }
+      ],
+      "limitations": [
+        "Archived real-frame fixtures check this current RTL; no new independent handwriting quality or hardware claim.",
+        "Integrated fixtures use document-local transport; current shared transport is separately tested."
+      ]
+    }
+  ],
+  "scope": "Six frontends plus two exact skeleton/path/coordinate/G-code fixtures.",
+  "hardware": "NOT_RUN"
+}

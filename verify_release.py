@@ -38,7 +38,30 @@ def main():
     identity = json.loads((ROOT / "release/20261102_pose7_auto/SOURCE_IDENTITY.json").read_text(encoding="utf-8"))
     if sha256(new_bundle / "PACKAGE_MANIFEST.json") != identity["hardware_manifest_sha256"]:
         raise ValueError("Pose7 source identity mismatch")
-    print("RELEASE_VERIFY_PASS: original pair=PASS_USER_REPORTED; pose7 pair=NOT_RUN")
+    binary_bundle = ROOT / "hardware_versions/20261103_ccl_binary_retrained"
+    subprocess.run([sys.executable, "-B", str(binary_bundle / "verify_package.py")], check=True)
+    binary_manifest = json.loads((binary_bundle / "PACKAGE_MANIFEST.json").read_text(encoding="utf-8"))
+    binary_release = ROOT / "release/20261103_ccl_binary_retrained"
+    binary_acceptance = json.loads((binary_release / "HARDWARE_ACCEPTANCE.json").read_text(encoding="utf-8"))
+    binary_identity = json.loads((binary_release / "SOURCE_IDENTITY.json").read_text(encoding="utf-8"))
+    if binary_acceptance["status"] != "NOT_RUN" or binary_identity["hardware_acceptance"] != "NOT_RUN":
+        raise ValueError("Unexpected binary paired hardware acceptance")
+    if sha256(binary_bundle / "PACKAGE_MANIFEST.json") != binary_identity["hardware_manifest_sha256"]:
+        raise ValueError("Binary source identity mismatch")
+    for project in binary_manifest["projects"]:
+        digest = project["bit_sha256"]
+        if digest != binary_acceptance[project["board"] + "_bit_sha256"]:
+            raise ValueError("Binary bit/acceptance mismatch")
+        if sha256(binary_bundle / project["directory"] / project["bit"]) != digest:
+            raise ValueError("Binary bit identity mismatch")
+    secondary = binary_bundle / "secondary_pcb_ccl_binary_user_retrained_20261102"
+    freeze = json.loads((secondary / "evidence/release_r3/RELEASE_MANIFEST.json").read_text(encoding="utf-8"))
+    if sha256(secondary / "evidence/SOURCE_MANIFEST.json") != binary_identity["secondary_frozen_manifest_sha256"]:
+        raise ValueError("Binary frozen input manifest mismatch")
+    for name, digest in freeze["model_freeze"]["assets"].items():
+        if sha256(secondary / "model/experiments/conv4_4" / name) != digest:
+            raise ValueError("Active binary model mismatch: " + name)
+    print("RELEASE_VERIFY_PASS: original=PASS_USER_REPORTED; pose7=NOT_RUN; CCL binary=NOT_RUN")
 
 if __name__ == "__main__":
     main()

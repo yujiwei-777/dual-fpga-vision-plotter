@@ -1,0 +1,13 @@
+# Third-board B: PH1P35MDG324, J1 SPI mode-0 link to secondary A.
+set_pin_assignment { I_sys_clk } { LOCATION = C4; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_spi_sclk } { LOCATION = E16; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_spi_mosi } { LOCATION = E17; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { O_spi_miso } { LOCATION = F13; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { I_spi_cs_n } { LOCATION = F14; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_spi_frame_valid } { LOCATION = F18; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_spi_ready } { LOCATION = G17; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+# J1-29 is 3.3 V and J1-30 is common ground (external wiring).
+set_pin_assignment { O_led[0] } { LOCATION = C11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_led[1] } { LOCATION = B11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_led[2] } { LOCATION = E7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_led[3] } { LOCATION = E6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }

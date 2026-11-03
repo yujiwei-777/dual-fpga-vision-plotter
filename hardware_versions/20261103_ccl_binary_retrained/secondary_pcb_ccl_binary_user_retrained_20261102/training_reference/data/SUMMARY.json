@@ -1,0 +1,194 @@
+{
+  "status": "PASS_DATA_PREPARATION",
+  "input_contract": "CCL1.0 original box -> 96x96 unsigned Y8",
+  "sources": 1494,
+  "valid_rois": 1450,
+  "gated_sources": 44,
+  "source_labels": {
+    "MISSING_PAD": 415,
+    "GOOD": 870,
+    "MISSING_CORNER": 209
+  },
+  "splits": {
+    "train": {
+      "sources": 744,
+      "valid": 713,
+      "valid_labels": {
+        "MISSING_PAD": 208,
+        "GOOD": 401,
+        "MISSING_CORNER": 104
+      },
+      "gates": {
+        "source_border": 31
+      }
+    },
+    "validation": {
+      "sources": 286,
+      "valid": 286,
+      "valid_labels": {
+        "MISSING_PAD": 80,
+        "GOOD": 165,
+        "MISSING_CORNER": 41
+      },
+      "gates": {}
+    },
+    "test": {
+      "sources": 233,
+      "valid": 231,
+      "valid_labels": {
+        "MISSING_PAD": 64,
+        "GOOD": 135,
+        "MISSING_CORNER": 32
+      },
+      "gates": {
+        "source_border": 2
+      }
+    },
+    "guard": {
+      "sources": 231,
+      "valid": 220,
+      "valid_labels": {
+        "MISSING_PAD": 63,
+        "GOOD": 125,
+        "MISSING_CORNER": 32
+      },
+      "gates": {
+        "source_border": 11
+      }
+    }
+  },
+  "capture_groups": {
+    "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035": {
+      "sources": 214,
+      "truth": {
+        "MISSING_PAD": 214
+      },
+      "split": {
+        "validation": 46,
+        "guard": 32,
+        "train": 104,
+        "test": 32
+      },
+      "valid_split": {
+        "validation": 46,
+        "guard": 32,
+        "train": 104,
+        "test": 32
+      },
+      "gates": {}
+    },
+    "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155": {
+      "sources": 219,
+      "truth": {
+        "GOOD": 219
+      },
+      "split": {
+        "validation": 51,
+        "guard": 32,
+        "train": 104,
+        "test": 32
+      },
+      "valid_split": {
+        "validation": 51,
+        "guard": 32,
+        "train": 98,
+        "test": 32
+      },
+      "gates": {
+        "source_border": 6
+      }
+    },
+    "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982": {
+      "sources": 209,
+      "truth": {
+        "MISSING_CORNER": 209
+      },
+      "split": {
+        "validation": 41,
+        "guard": 32,
+        "train": 104,
+        "test": 32
+      },
+      "valid_split": {
+        "validation": 41,
+        "guard": 32,
+        "train": 104,
+        "test": 32
+      },
+      "gates": {}
+    },
+    "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1": {
+      "sources": 201,
+      "truth": {
+        "MISSING_PAD": 201
+      },
+      "split": {
+        "validation": 34,
+        "guard": 31,
+        "train": 104,
+        "test": 32
+      },
+      "valid_split": {
+        "validation": 34,
+        "guard": 31,
+        "train": 104,
+        "test": 32
+      },
+      "gates": {}
+    },
+    "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101": {
+      "sources": 651,
+      "truth": {
+        "GOOD": 651
+      },
+      "split": {
+        "validation": 114,
+        "guard": 104,
+        "train": 328,
+        "test": 105
+      },
+      "valid_split": {
+        "validation": 114,
+        "guard": 93,
+        "train": 303,
+        "test": 103
+      },
+      "gates": {
+        "source_border": 38
+      }
+    }
+  },
+  "split_audit": {
+    "status": "PASS",
+    "capture_groups": 5,
+    "physical_blocks": 77,
+    "role_transitions": 58,
+    "unguarded_adjacent_split_violations": [],
+    "duplicate_raw_groups": [],
+    "cross_split_raw_duplicates": [],
+    "guard_records": 231
+  },
+  "npz_keys": [
+    "images",
+    "labels",
+    "split",
+    "split_code",
+    "metadata_index",
+    "manifest_index"
+  ],
+  "split_codes": {
+    "train": 0,
+    "validation": 1,
+    "test": 2,
+    "guard": 3
+  },
+  "npz_hashes_verified": true,
+  "training": "NOT_RUN",
+  "RTL": "NOT_RUN",
+  "hardware": "NOT_RUN",
+  "limitations": [
+    "Sources have been observed in prior development; block test is not independent new-session or new-board evaluation.",
+    "No model fitting, accuracy assertion, RTL validation, synthesis, bitgen or hardware testing is performed here.",
+    "CCL boundary gates are retained as REVIEW-source records and never fabricated as training images."
+  ]
+}

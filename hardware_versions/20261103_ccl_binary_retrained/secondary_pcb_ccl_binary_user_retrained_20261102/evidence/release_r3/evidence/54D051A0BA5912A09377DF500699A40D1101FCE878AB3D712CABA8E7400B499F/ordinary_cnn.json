@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "source_manifest_sha256": "31F6BE091C83865F4E2E5B1F5CA7EA82108F15654C023B7DB603EFD35D88375F",
+  "functional_ancestry_manifest_sha256": "92E737ED8B7D585AEAAC64346A130A2AA7A9F2077A70B14A8CE2D036506A57DB",
+  "execution": "REUSED_R2_ON_IDENTICAL_R3_SOURCES",
+  "source_sha256": {
+    "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+    "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+    "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+    "model/export/quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+    "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+    "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+    "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+    "01_rtl/vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+    "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+    "01_rtl/pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+    "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+    "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+    "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+    "01_rtl/vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+    "01_rtl/doc_copy_pipeline_shared_candidate.v": "7B9E41D7996CCB42377FDEBF0FC89C29A57A95C9583CF507F1F8EB6C62011A68",
+    "01_rtl/grbl_uart.v": "56182E34F94F7A596D7B315C3EAA72438ECBFD551B661515FFE57572891DDE01",
+    "01_rtl/grbl_reporter_shared_candidate.v": "CDA9B8E7F246B045E25C82C7D6E20D043D5E3C638E6229888708ADC2FC9CC8EF",
+    "01_rtl/grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+    "shared/rtl/hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+    "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+    "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+    "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+    "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+    "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+    "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+    "01_rtl/secondary_top.v": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862"
+  },
+  "support": [
+    {
+      "reference": {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\ordinary\\RESULTS.json",
+        "sha256": "0865F83F569A56902718EAB3E3C177EBEC4B35FCF2083BA89AACCF44B77FB353",
+        "status": "PASS",
+        "source_sha256": {
+          "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+          "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+          "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+          "model/export/quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+          "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+          "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+          "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802"
+        }
+      },
+      "scope": [
+        {
+          "test": "ordinary CNN input/conv1/conv2/logits/class/confidence",
+          "cases": 27,
+          "results": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\ordinary\\integer27\\RESULTS.json"
+        }
+      ],
+      "limitations": [
+        "1170 source frames overlap training/development; not independent test accuracy.",
+        "Mild/strong remote cases are synthetic detail loss; no independently captured distant frames supplied.",
+        "These tests do not prove candidate localization or board accuracy."
+      ]
+    },
+    {
+      "reference": {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\publication\\RESULTS.json",
+        "sha256": "1C35F2312E5954C8242E19ECCA49D6DCCCA8903AB3D1753821257129EAEB2AD3",
+        "status": "PASS",
+        "source_sha256": {
+          "01_rtl/vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+          "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+          "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+          "01_rtl/pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+          "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+          "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+          "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+          "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33"
+        }
+      },
+      "scope": [
+        {
+          "test": "current pipeline+packed stabilizer controlled-leaf publication",
+          "records": [
+            "PASS CNN_PUBLICATION_INTEGRATION checks=170 jobs=30 starts=32"
+          ]
+        }
+      ],
+      "limitations": [
+        "CCL/CNN/PCB leaves are controlled; tests publication/state/bank lifetime, not real localization, arithmetic or physical DDR."
+      ]
+    },
+    {
+      "reference": {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\top_metadata\\RESULTS.json",
+        "sha256": "9D787D9ED26F28B0FBA4687F09C0C741158539C04F3429FBB7099C381B2503CE",
+        "status": "PASS",
+        "source_sha256": {
+          "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+          "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+          "01_rtl/vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+          "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+          "01_rtl/doc_copy_pipeline_shared_candidate.v": "7B9E41D7996CCB42377FDEBF0FC89C29A57A95C9583CF507F1F8EB6C62011A68",
+          "01_rtl/grbl_uart.v": "56182E34F94F7A596D7B315C3EAA72438ECBFD551B661515FFE57572891DDE01",
+          "01_rtl/grbl_reporter_shared_candidate.v": "CDA9B8E7F246B045E25C82C7D6E20D043D5E3C638E6229888708ADC2FC9CC8EF",
+          "01_rtl/grbl_shared_transport_candidate.v": "B7705FB0F20C9E5A5B616CF093EC8A5BFE2AE384118644C444F0BC9B4B4798DD",
+          "shared/rtl/hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D",
+          "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+          "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+          "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+          "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+          "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+          "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+          "01_rtl/secondary_top.v": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862"
+        }
+      },
+      "scope": [
+        {
+          "test": "actual top KEY1 class/center/actual confidence immutable snapshot, pending/active network preservation, history clear",
+          "records": [
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS reset invalidates cache",
+            "PASS ordinary result caches class and confidence",
+            "PASS ordinary result caches exact image centre",
+            "PASS next incomplete frame cannot change accepted cache",
+            "PASS physical KEY1 admits cached named report with confidence",
+            "PASS report leaf receives confidence and image center only (210,110)",
+            "PASS latest completed ordinary result refreshes cache",
+            "PASS active report snapshot is stable while cache advances",
+            "PASS offline event clears ordinary cache metadata",
+            "PASS accepted KEY1 report survives Ethernet loss and ordinary frame cancel",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS Type20 current request snapshots same latest metadata contract",
+            "PASS odd full-frame center sums floor to (639,359) without overflow",
+            "PASS center sums exceed source coordinate widths without overflow",
+            "PASS completed no-target result invalidates stale target",
+            "PASS KEY1 after no target cannot report stale valid object",
+            "PASS held identity snapshot preserves class and explicit confidence zero",
+            "PASS PCB mode requests ordinary identity history clear",
+            "PASS mode switch clears ordinary cache before PCB completion",
+            "PASS PCB completion cannot repopulate ordinary CNN cache",
+            "PASS PCB completion remains non-CNN report with original judgement",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS HELLO session change clears complete cached metadata",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS configuration apply clears complete cached metadata",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS KEY4 task reset clears complete cached metadata",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS FPGA reset clears complete cached metadata",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS offline first-edge stale-cache hazard precedes registered history clear",
+            "PASS offline first edge and remote request cannot snapshot stale target",
+            "PASS same-edge clear also invalidates original cache",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS session first-edge stale-cache hazard precedes registered history clear",
+            "PASS session first edge and remote request cannot snapshot stale target",
+            "PASS session first edge clears original cache metadata",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS configuration first edge gates actual physical KEY1 pulse before registered clear",
+            "PASS configuration first edge cannot admit physical KEY1 using old target",
+            "PASS configuration first edge clears original cache metadata",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS all production-top metadata assertions",
+            "PASS same-edge inference and remote admission snapshot old complete metadata",
+            "PASS same-edge inference atomically publishes new centre and metadata to cache",
+            "PASS ready stall retains a complete pending report before cache clear",
+            "PASS session clear during pending ready stall invalidates the live cache",
+            "PASS pending snapshot survives live-cache clear without taking zero metadata",
+            "PASS pending data remains unchanged throughout the bounded ready stall",
+            "PASS ready acceptance clears pending while retaining the accepted report snapshot",
+            "PASS LOWCONF_TOP_CACHE_RETAINS_REAL_SCORE7",
+            "PASS LOWCONF_KEY1_CLASS_CENTER_CONF7_SNAPSHOT",
+            "PASS LOWCONF_ACTIVE_REPORT_CANNOT_CHANGE_TO_NEW_RESULT",
+            "PASS LOWCONF_KEY1_CLASS_CENTER_CONF1_SNAPSHOT",
+            "PASS LOWCONF_HELD_IDENTITY_CONF0_IS_NOT_UPGRADED",
+            "PASS LOWCONF_KEY1_NO_TARGET_IS_NOT_A_CLASS",
+            "PASS LOWCONF_TOP_METADATA_DIRECTED",
+            "CENTER_CACHE_FULL_TOP_COUNTS baseline=44 added=13 total=57",
+            "PASS CNN_NAMED_TOP_ALL checks=57"
+          ]
+        }
+      ],
+      "limitations": [
+        "Physical/vision/reporter/transport leaves are controlled metadata interfaces. Actual classifier and shared transport have separate fresh regressions.",
+        "Current top and all controlled leaf interfaces are bound to new production hashes; no old top/stub implementation compiled."
+      ]
+    }
+  ],
+  "scope": "Real classifier checks and separately controlled-leaf publication/KEY1 snapshots; truthful r2 reuse.",
+  "hardware": "NOT_RUN"
+}

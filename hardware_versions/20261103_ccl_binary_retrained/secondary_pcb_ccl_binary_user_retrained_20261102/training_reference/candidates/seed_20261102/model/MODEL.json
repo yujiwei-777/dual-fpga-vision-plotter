@@ -1,0 +1,28 @@
+{
+  "architecture": "96x96 unsigned source Y8, Conv3x3 stride2 pad1 1->4->4,6x6 sum>>5,FC64->2",
+  "classes": {
+    "0": "GOOD",
+    "1": "BAD"
+  },
+  "shifts": [
+    7,
+    7,
+    8
+  ],
+  "margin_min": 32,
+  "crop_scale": 1,
+  "crop": "Original shared CCL half-open bbox; exact source point sampling origin+floor((2*u+1)*span/192)",
+  "weight_count": 308,
+  "bias_count": 10,
+  "trained_from_scratch": true,
+  "source_roots": [
+    "D:/ai/1/0/",
+    "D:/ai/1/8/1/"
+  ],
+  "hardware": "NOT_RUN",
+  "RTL": "NOT_RUN_FOR_THIS_MODEL",
+  "hashes": {
+    "weights.mem": "41495CD51940D143A1440DF9530A8AC682145BEC2DBE6C2A9BD898C1C46CEABB",
+    "biases.mem": "79D0C101A8A418965A0D9F95C6D63AFDD7109B3AD51DD607C1945C318123D144"
+  }
+}

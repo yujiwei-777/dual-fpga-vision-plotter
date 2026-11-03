@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "RTL": "PASS",
+  "hardware": "NOT_RUN",
+  "run_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\pcb_ccl_binary_user_retrain_20261102\\reports\\rtl_core\\run_20261102T142957_299427Z",
+  "real_cases": 15,
+  "synthetic_cases": 3,
+  "core_contract": "C4/C4/FC64->2, shifts7/7/8, unsigned Y8, workspace16, PCB MAC16x8",
+  "new_model_hashes": {
+    "weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+    "biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0"
+  },
+  "checks": [
+    "all Conv1 9216 values/case",
+    "all Conv2 2304 values/case",
+    "pool64 values checked for each of two heads/case",
+    "both logits",
+    "class",
+    "score",
+    "margin",
+    "saturation count zero",
+    "runtime parameters and workspace capacity",
+    "source/fixture/model hashes unchanged"
+  ],
+  "numerical_force": false,
+  "limitations": [
+    "core only; no CCL/crop/transport/fullboard regression",
+    "diagnostic first/middle/last samples, not accuracy estimate",
+    "no synthesis, place/route or hardware execution"
+  ],
+  "returncode": 0,
+  "source_model_fixture_unchanged": true,
+  "samples_passed": 18,
+  "sample_lines": [
+    "# BINARY_C4_4_SAMPLE_PASS index=0 class=1 score=0 margin=60 logits=(-130,-70) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=1 class=0 score=190 margin=599 logits=(190,-409) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=2 class=0 score=120 margin=487 logits=(120,-367) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=3 class=0 score=255 margin=950 logits=(398,-552) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=4 class=0 score=162 margin=490 logits=(162,-328) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=5 class=0 score=255 margin=832 logits=(346,-486) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=6 class=1 score=255 margin=797 logits=(-458,339) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=7 class=1 score=209 margin=618 logits=(-409,209) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=8 class=1 score=255 margin=977 logits=(-564,413) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=9 class=1 score=134 margin=433 logits=(-299,134) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=10 class=1 score=255 margin=974 logits=(-539,435) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=11 class=1 score=255 margin=840 logits=(-478,362) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=12 class=0 score=0 margin=29 logits=(-93,-122) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=13 class=1 score=33 margin=252 logits=(-219,33) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=14 class=1 score=221 margin=640 logits=(-419,221) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=15 class=0 score=150 margin=668 logits=(150,-518) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=16 class=1 score=255 margin=1560 logits=(-796,764) cycles=889996",
+    "# BINARY_C4_4_SAMPLE_PASS index=17 class=1 score=255 margin=3037 logits=(-1508,1529) cycles=889996"
+  ],
+  "final_marker": "BINARY_C4_4_GOLDEN_PASS samples=18 sat=0",
+  "log_sha256": "DE05E8B72990F6DC360BD426A6102EB2DA3F4AFB6D7BFCBBC14326C17398F9C9"
+}

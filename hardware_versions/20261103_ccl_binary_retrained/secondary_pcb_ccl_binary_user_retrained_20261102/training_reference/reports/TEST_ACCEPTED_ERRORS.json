@@ -1,0 +1,159 @@
+{
+  "status": "KNOWN_REMAINING_MODEL_ERRORS",
+  "errors": [
+    {
+      "dataset_index": 678,
+      "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001058_58499da85a6e406ca197fe9e1b3643fe.json",
+      "domain": "new_missing_pad_20261102",
+      "truth": "MISSING_PAD",
+      "prediction": "PASS",
+      "margin": 315,
+      "logits": [
+        84,
+        -231
+      ],
+      "crop": [
+        232,
+        256,
+        1000,
+        528
+      ],
+      "roi_sha256": "F537BF97A896AFA7ECD56C5D8E6F2927F7CFA4A504FC07544AC88B7041375C71"
+    },
+    {
+      "dataset_index": 679,
+      "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001064_b50f3e1c1e2d4d5bafc733a71ad68cd2.json",
+      "domain": "new_missing_pad_20261102",
+      "truth": "MISSING_PAD",
+      "prediction": "PASS",
+      "margin": 102,
+      "logits": [
+        -22,
+        -124
+      ],
+      "crop": [
+        240,
+        272,
+        1008,
+        520
+      ],
+      "roi_sha256": "4067ED328A26AB41D1E37519850EE01D1BA5B665A24A74A4D7CF71D3D632518E"
+    },
+    {
+      "dataset_index": 687,
+      "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001112_cb60cd305d014fe7a4c7fdf767676fab.json",
+      "domain": "new_missing_pad_20261102",
+      "truth": "MISSING_PAD",
+      "prediction": "PASS",
+      "margin": 79,
+      "logits": [
+        -36,
+        -115
+      ],
+      "crop": [
+        296,
+        264,
+        1128,
+        536
+      ],
+      "roi_sha256": "4799C9129B6941509A1ACFC69189EB7D398D8B82FFFED8590C6CDB579FD84BB0"
+    },
+    {
+      "dataset_index": 688,
+      "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001118_190d2f9bcd874d8cab672d5cf3493c1c.json",
+      "domain": "new_missing_pad_20261102",
+      "truth": "MISSING_PAD",
+      "prediction": "PASS",
+      "margin": 189,
+      "logits": [
+        18,
+        -171
+      ],
+      "crop": [
+        240,
+        208,
+        1104,
+        568
+      ],
+      "roi_sha256": "D48E0764104F875539AC4F1FE89FCC1A732DC6C46A8E760F18D8D8F21E126055"
+    },
+    {
+      "dataset_index": 690,
+      "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001130_eef0ae4cb9ee4d999b8acc54b503d6e1.json",
+      "domain": "new_missing_pad_20261102",
+      "truth": "MISSING_PAD",
+      "prediction": "PASS",
+      "margin": 134,
+      "logits": [
+        -44,
+        -178
+      ],
+      "crop": [
+        176,
+        128,
+        1088,
+        496
+      ],
+      "roi_sha256": "ABBFBCE65FCAE00E1E0C0E662D62ECDCBB2200D3D13F6C1497646B1BDE639A19"
+    },
+    {
+      "dataset_index": 691,
+      "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001136_f2c2cd1749c34caab1c1d0a9c83f8e22.json",
+      "domain": "new_missing_pad_20261102",
+      "truth": "MISSING_PAD",
+      "prediction": "PASS",
+      "margin": 70,
+      "logits": [
+        -76,
+        -146
+      ],
+      "crop": [
+        144,
+        80,
+        1064,
+        456
+      ],
+      "roi_sha256": "DD2286404213158B3A6389C08DFBF9235DBC7D5415A4BF7536CF057551632E6C"
+    },
+    {
+      "dataset_index": 693,
+      "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001148_2fecb2f4c1bb4b03a28ed09f63688dce.json",
+      "domain": "new_missing_pad_20261102",
+      "truth": "MISSING_PAD",
+      "prediction": "PASS",
+      "margin": 186,
+      "logits": [
+        -15,
+        -201
+      ],
+      "crop": [
+        128,
+        104,
+        1040,
+        472
+      ],
+      "roi_sha256": "7991B265670ABCC3761B84ADF1CEBE102D9C91DB6E89494CB9364ADCFDAEC157"
+    },
+    {
+      "dataset_index": 987,
+      "source_json": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00002926_aea7e8b8996549179bbbcb09d4717948.json",
+      "domain": "current20261102",
+      "truth": "GOOD",
+      "prediction": "FAIL",
+      "margin": 167,
+      "logits": [
+        -168,
+        -1
+      ],
+      "crop": [
+        552,
+        264,
+        1248,
+        568
+      ],
+      "roi_sha256": "D79190ECD916A45F9371CDE3EB197488CF17D3CB87583C6088B80045D55EAAF6"
+    }
+  ],
+  "selection": "Every wrong accepted result in the frozen grouped test; no threshold change",
+  "hardware": "NOT_RUN"
+}

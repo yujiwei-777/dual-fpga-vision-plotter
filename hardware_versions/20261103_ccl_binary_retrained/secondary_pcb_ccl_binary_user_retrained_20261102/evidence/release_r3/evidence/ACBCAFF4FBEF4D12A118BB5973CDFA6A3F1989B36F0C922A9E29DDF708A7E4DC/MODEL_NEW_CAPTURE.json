@@ -1,0 +1,26 @@
+{
+  "name": "pcb_fullboard_spatial96_4x4_fc2_binary_new_capture_fc_only",
+  "classes": {
+    "0": "GOOD",
+    "1": "BAD (missing corner or missing pad)"
+  },
+  "input_contract": "fixed 1280x720 Y8 ROI x=158..1113, y=140..551; direct 96x96 point sampling",
+  "architecture": "Conv3x3 1->4, Conv3x3 4->4, 6x6 sum >>5, FC64->2; Conv1/Conv2 frozen from centered_50plus_vector_reset",
+  "weight_count": 308,
+  "bias_count": 10,
+  "shifts": [7, 7, 8],
+  "training_source": "D:/ai/1/0/de08d7322eef4609b468c9fa93a1b39b (missing corner), D:/ai/1/0/1 (missing pad), D:/ai/1/0/2 (GOOD)",
+  "training_variant": "FC-only warm start; Conv1/Conv2 frozen; fixed ROI and 50%-99% centered placements balanced",
+  "selected_model_hashes": {
+    "weights.mem": "9B844CB0B0844F8A72E59192B4F04D3C192B6C1A501DA1F3376CE6BF5354DDE6",
+    "biases.mem": "45FAC7544E47F2CD73A5571A6136CB57A82CADD1B130057C8FCB0BC647E51232"
+  },
+  "offline_test": {
+    "fixed_roi": "105/105 correct, 104 accepted correct, 0 accepted wrong, 1 REVIEW",
+    "virtual_50_percent": "105/105 correct, 0 accepted wrong",
+    "virtual_60_percent": "100/105 correct, 2 accepted wrong, 3 REVIEW",
+    "virtual_65_to_99_percent": "105/105 correct, 0 accepted wrong"
+  },
+  "rtl_regression": "PASS; core 15/15 and raw YUYV pipeline 9/9",
+  "board_validation": "NOT_RUN"
+}

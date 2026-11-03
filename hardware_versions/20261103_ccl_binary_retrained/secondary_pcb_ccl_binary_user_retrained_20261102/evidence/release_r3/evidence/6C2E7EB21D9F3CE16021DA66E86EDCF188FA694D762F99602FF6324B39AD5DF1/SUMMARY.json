@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "contract": "CCL original box x1.00; unsigned source Y8 96x96; cfg 50434233; Type8 score maps round(raw*100/255) to0..100",
+  "frozen_manifest_sha256": "92E737ED8B7D585AEAAC64346A130A2AA7A9F2077A70B14A8CE2D036506A57DB",
+  "software": {
+    "status": "PASS_INTEGER_CHECKS",
+    "selected_frames": 15,
+    "real_core_cases": 15,
+    "synthetic_core_cases": 3,
+    "selected_result_counts": {
+      "GOOD": {
+        "FAIL": 1,
+        "PASS": 5
+      },
+      "MISSING_CORNER": {
+        "FAIL": 3
+      },
+      "MISSING_PAD": {
+        "FAIL": 5,
+        "REVIEW": 1
+      }
+    },
+    "hardware": "NOT_RUN",
+    "RTL": "NOT_RUN",
+    "fixture_index": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\binary_validation\\fixtures\\INDEX.json"
+  },
+  "pipeline": {
+    "status": "PASS",
+    "run_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\binary_validation_compat\\pipeline\\run_20261102T150930_469348Z",
+    "source_cases": 18,
+    "frozen_manifest_sha256": "92E737ED8B7D585AEAAC64346A130A2AA7A9F2077A70B14A8CE2D036506A57DB",
+    "frozen_design_inputs": {
+      "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+      "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+      "01_rtl/vision_ccl_pcb_candidate.v": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+      "01_rtl/pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+      "01_rtl/pcb_fullboard_spatial96.v": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948",
+      "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+      "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+      "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+      "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+      "01_rtl/vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+      "01_rtl/vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+      "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+      "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+      "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+      "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE"
+    },
+    "RTL": "PASS",
+    "hardware": "NOT_RUN",
+    "limitations": [
+      "Abstract source-Y pixel response latency 2..4 clocks, not actual DDR functional/timing verification.",
+      "Ordinary empty reentry is separate from full ordinary CNN numerical regression."
+    ],
+    "returncode": 0,
+    "sources_unchanged": true,
+    "frames_passed": 22,
+    "cancels_passed": 3,
+    "ordinary_empty_passed": true,
+    "log_sha256": "FE1CE7F1D39ED42EECE39CC1D85CE1E26E48772112183F1A46689FB651DED428"
+  },
+  "adapter": {
+    "status": "PASS",
+    "tests_passed": 20,
+    "returncode": 0,
+    "sources_unchanged": true,
+    "frozen_manifest_sha256": "92E737ED8B7D585AEAAC64346A130A2AA7A9F2077A70B14A8CE2D036506A57DB",
+    "frozen_design_inputs": {
+      "01_rtl/pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+      "01_rtl/pcb_fullboard_spatial96.v": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948",
+      "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+      "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+      "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+      "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B"
+    },
+    "run_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\binary_validation_compat\\adapter\\run_20261102T151132_480068Z",
+    "log_sha256": "B8804915A7B4A7922CDD78631FC2A360732B99D007D014EA2D71D6F87D1A6C8B",
+    "limitations": [
+      "Isolated actual adapter with shortened I/O timeout parameters; numerical equality is proved separately by integrated fixtures.",
+      "No physical DDR or board behavior is proved."
+    ],
+    "hardware": "NOT_RUN"
+  },
+  "branch_and_frozen_match": {
+    "01_rtl/vision_pipeline.v": "B6AFF8F2ECFF687250B5CC9291F53EF36F18ADBA0330F68D956E108E51561802",
+    "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+    "01_rtl/vision_ccl_pcb_candidate.v": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+    "01_rtl/pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+    "01_rtl/pcb_fullboard_spatial96.v": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948",
+    "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+    "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+    "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+    "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+    "01_rtl/vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+    "01_rtl/vision_pixel_reader.v": "B7CDFC196D6C7F6B234E500F6E34D07F63B8BB74CA75EEC403845E80CDF09FC2",
+    "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+    "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+    "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+    "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE"
+  },
+  "coverage": {
+    "selected_real_sources": 15,
+    "source_groups": 5,
+    "synthetic_pipeline_inputs": [
+      "blank",
+      "source_border",
+      "label_overflow"
+    ],
+    "complete_frame_checks": 22,
+    "cancel_and_reentry_stages": [
+      "CCL accepted read",
+      "ROI accepted read",
+      "Conv2"
+    ],
+    "adapter_control_tests": 20,
+    "all_CCL_addresses_per_frame": 14400,
+    "all_ROI_addresses_per_valid_frame": 9216,
+    "conv1_writes_per_valid_frame": 9216,
+    "conv2_writes_per_valid_frame": 2304,
+    "pool_checks_per_valid_frame": 128
+  },
+  "limitations": [
+    "Diagnostic sources selected first/middle/last by group before scoring, not accuracy estimation or blind independent tests.",
+    "A selected GOOD returning FAIL and a true low-margin missing-pad REVIEW remain expected values; no tuning during verification.",
+    "Abstract pixel responses use 2..4 clocks; physical DDR and board timing are not covered.",
+    "Adapter controls shorten I/O timeout parameters; no terminal class/logit force.",
+    "Ordinary empty alternation covered here; full ordinary CNN numerical and feature regressions are separate.",
+    "Lint, synthesis, place/route, timing, DRC, reimport and bitgen are not claimed by this report.",
+    "Software ROI/feature reference reused for byte-identical classifier/model/crop; this r2 pipeline reruns published score conversion. Raw logit score is not a calibrated probability."
+  ],
+  "hardware": "NOT_RUN"
+}

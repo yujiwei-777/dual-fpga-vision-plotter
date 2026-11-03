@@ -1,0 +1,22 @@
+{
+  "phase": "route",
+  "status": "PASS_TOOL_INVOCATION",
+  "started_ns": 1793664912378839000,
+  "cwd": "E:\\codex_pcb_binary_ccl_retrained_20261102_r3\\runs\\phy_1",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_route_resume.tcl"
+  ],
+  "script": "E:\\codex_pcb_binary_ccl_retrained_20261102_r3\\runs\\phy_1\\run_route_resume.tcl",
+  "script_sha256": "1211AE682DE63AEDA1700A5478286334094A5350EEA4AEE038E9F0EF97FE0E1E",
+  "input_artifact_sha256": {
+    "E:\\codex_pcb_binary_ccl_retrained_20261102_r3\\runs\\phy_1\\secondary_cnn_multibox_place.db": "8BE95476D9E931F167F94E6D03CDA83F4F2270C4570CA40BA26F748830EE29EB"
+  },
+  "exit_code": 0,
+  "finished_ns": 1793665154622940400,
+  "log_sha256": "A8E99F7AF987BA49F8C23E907BD34D147F4E8B4F413997B80BBE559FD156DE56",
+  "errors": [],
+  "output_artifact_sha256": {
+    "E:\\codex_pcb_binary_ccl_retrained_20261102_r3\\runs\\phy_1\\secondary_cnn_multibox_pr.db": "BA807117F72EE0293C6731B0ADC16A434681AEFAAE51C92BB2CF7FC7CBF8DADD"
+  }
+}

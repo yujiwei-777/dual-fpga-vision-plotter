@@ -1,0 +1,9 @@
+{
+  "status": "PHYSICAL_ONLY_CONTINUATION",
+  "source_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102",
+  "build_root": "E:\\codex_pcb_binary_ccl_retrained_20261102_r3",
+  "source_manifest_sha256": "31F6BE091C83865F4E2E5B1F5CA7EA82108F15654C023B7DB603EFD35D88375F",
+  "parent_source_manifest_sha256": "92E737ED8B7D585AEAAC64346A130A2AA7A9F2077A70B14A8CE2D036506A57DB",
+  "synthesis": "INHERITED_NOT_RERUN",
+  "hardware_status": "NOT_RUN"
+}

@@ -1,0 +1,458 @@
+[
+  {
+    "name": "current20261102_GOOD_0",
+    "dataset_index": 837,
+    "manifest_index": 843,
+    "source_json": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00001310_d9919267a505490281cde87188b3bebb.json",
+    "group": "current20261102/GOOD",
+    "split": "validation",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -130,
+      -70
+    ],
+    "score": 0,
+    "margin": 60,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      23753,
+      102922,
+      33035
+    ]
+  },
+  {
+    "name": "current20261102_GOOD_306",
+    "dataset_index": 1143,
+    "manifest_index": 1179,
+    "source_json": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00004181_328ed596e5c647358c874834fb4bab9a.json",
+    "group": "current20261102/GOOD",
+    "split": "train",
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      190,
+      -409
+    ],
+    "score": 190,
+    "margin": 599,
+    "status": "PASS",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      22014,
+      92008,
+      104482
+    ]
+  },
+  {
+    "name": "current20261102_GOOD_612",
+    "dataset_index": 1449,
+    "manifest_index": 1493,
+    "source_json": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00007327_ddc16cc5737346498f036cd150c7de5f.json",
+    "group": "current20261102/GOOD",
+    "split": "test",
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      120,
+      -367
+    ],
+    "score": 120,
+    "margin": 487,
+    "status": "PASS",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      23441,
+      103679,
+      93776
+    ]
+  },
+  {
+    "name": "new20261029_GOOD_0",
+    "dataset_index": 214,
+    "manifest_index": 214,
+    "source_json": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00031622_e58d44ad653b4bcaa1f2bcceaa74a779.json",
+    "group": "new20261029/GOOD",
+    "split": "validation",
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      398,
+      -552
+    ],
+    "score": 255,
+    "margin": 950,
+    "status": "PASS",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      24271,
+      93119,
+      141195
+    ]
+  },
+  {
+    "name": "new20261029_GOOD_106",
+    "dataset_index": 320,
+    "manifest_index": 326,
+    "source_json": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00033243_87fae8b9c7f5442faf5626fd90e72cc5.json",
+    "group": "new20261029/GOOD",
+    "split": "validation",
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      162,
+      -328
+    ],
+    "score": 162,
+    "margin": 490,
+    "status": "PASS",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      23100,
+      90814,
+      83798
+    ]
+  },
+  {
+    "name": "new20261029_GOOD_212",
+    "dataset_index": 426,
+    "manifest_index": 432,
+    "source_json": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00034570_aa272c860ce54c06a06ea9480e88cf26.json",
+    "group": "new20261029/GOOD",
+    "split": "validation",
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      346,
+      -486
+    ],
+    "score": 255,
+    "margin": 832,
+    "status": "PASS",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      24130,
+      91859,
+      124163
+    ]
+  },
+  {
+    "name": "new20261029_MISSING_CORNER_0",
+    "dataset_index": 427,
+    "manifest_index": 433,
+    "source_json": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00002496_70085896c1fa47e79d27d16e45854546.json",
+    "group": "new20261029/MISSING_CORNER",
+    "split": "validation",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -458,
+      339
+    ],
+    "score": 255,
+    "margin": 797,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      22085,
+      90718,
+      117137
+    ]
+  },
+  {
+    "name": "new20261029_MISSING_CORNER_104",
+    "dataset_index": 531,
+    "manifest_index": 537,
+    "source_json": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00017488_1508de05972d489e82c15e04b5353246.json",
+    "group": "new20261029/MISSING_CORNER",
+    "split": "validation",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -409,
+      209
+    ],
+    "score": 209,
+    "margin": 618,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      25613,
+      95161,
+      104500
+    ]
+  },
+  {
+    "name": "new20261029_MISSING_CORNER_208",
+    "dataset_index": 635,
+    "manifest_index": 641,
+    "source_json": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00019858_3b7938fc75af4f2da76c92892bb604b4.json",
+    "group": "new20261029/MISSING_CORNER",
+    "split": "validation",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -564,
+      413
+    ],
+    "score": 255,
+    "margin": 977,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      25432,
+      89797,
+      144230
+    ]
+  },
+  {
+    "name": "new20261029_MISSING_PAD_0",
+    "dataset_index": 0,
+    "manifest_index": 0,
+    "source_json": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00024928_b51681eb753d4d499490d4784dfeaba8.json",
+    "group": "new20261029/MISSING_PAD",
+    "split": "validation",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -299,
+      134
+    ],
+    "score": 134,
+    "margin": 433,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      23610,
+      78003,
+      76539
+    ]
+  },
+  {
+    "name": "new20261029_MISSING_PAD_107",
+    "dataset_index": 107,
+    "manifest_index": 107,
+    "source_json": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00026551_902ea1909a83454c8720c20bd6ace57c.json",
+    "group": "new20261029/MISSING_PAD",
+    "split": "validation",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -539,
+      435
+    ],
+    "score": 255,
+    "margin": 974,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      25728,
+      75374,
+      137877
+    ]
+  },
+  {
+    "name": "new20261029_MISSING_PAD_213",
+    "dataset_index": 213,
+    "manifest_index": 213,
+    "source_json": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00027920_211d4c52ff164a908a27e2e5c6d6f6ac.json",
+    "group": "new20261029/MISSING_PAD",
+    "split": "validation",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -478,
+      362
+    ],
+    "score": 255,
+    "margin": 840,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      24770,
+      87690,
+      122212
+    ]
+  },
+  {
+    "name": "new_missing_pad_20261102_MISSING_PAD_0",
+    "dataset_index": 636,
+    "manifest_index": 642,
+    "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00000806_63b7faa75d2d48049c102b240941c342.json",
+    "group": "new_missing_pad_20261102/MISSING_PAD",
+    "split": "validation",
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      -93,
+      -122
+    ],
+    "score": 0,
+    "margin": 29,
+    "status": "REVIEW",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      26131,
+      102264,
+      31158
+    ]
+  },
+  {
+    "name": "new_missing_pad_20261102_MISSING_PAD_100",
+    "dataset_index": 736,
+    "manifest_index": 742,
+    "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001406_b747a7200b9c43f8945b1e5c878b33e7.json",
+    "group": "new_missing_pad_20261102/MISSING_PAD",
+    "split": "guard",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -219,
+      33
+    ],
+    "score": 33,
+    "margin": 252,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      26651,
+      100140,
+      55852
+    ]
+  },
+  {
+    "name": "new_missing_pad_20261102_MISSING_PAD_200",
+    "dataset_index": 836,
+    "manifest_index": 842,
+    "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00002384_2d69a6b6707947808350867db61d2452.json",
+    "group": "new_missing_pad_20261102/MISSING_PAD",
+    "split": "guard",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -419,
+      221
+    ],
+    "score": 221,
+    "margin": 640,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      23547,
+      105316,
+      107174
+    ]
+  },
+  {
+    "name": "constant_0",
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      150,
+      -518
+    ],
+    "score": 150,
+    "margin": 668,
+    "status": "PASS",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      10501,
+      89769,
+      132589
+    ]
+  },
+  {
+    "name": "constant_128",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -796,
+      764
+    ],
+    "score": 255,
+    "margin": 1560,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      16388,
+      43586,
+      203745
+    ]
+  },
+  {
+    "name": "constant_255",
+    "class_id": 1,
+    "class": "BAD",
+    "logits": [
+      -1508,
+      1529
+    ],
+    "score": 255,
+    "margin": 3037,
+    "status": "FAIL",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      31755,
+      67192,
+      391574
+    ]
+  },
+  {
+    "name": "uniform_random_0",
+    "seed": 20261102,
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      184,
+      -318
+    ],
+    "score": 184,
+    "margin": 502,
+    "status": "PASS",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      34984,
+      117855,
+      81363
+    ]
+  },
+  {
+    "name": "uniform_random_1",
+    "seed": 20261102,
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      374,
+      -531
+    ],
+    "score": 255,
+    "margin": 905,
+    "status": "PASS",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      35207,
+      115882,
+      135890
+    ]
+  },
+  {
+    "name": "uniform_random_2",
+    "seed": 20261102,
+    "class_id": 0,
+    "class": "GOOD",
+    "logits": [
+      325,
+      -573
+    ],
+    "score": 255,
+    "margin": 898,
+    "status": "PASS",
+    "activation_saturations": 0,
+    "max_abs_accumulators": [
+      36421,
+      121508,
+      146656
+    ]
+  }
+]

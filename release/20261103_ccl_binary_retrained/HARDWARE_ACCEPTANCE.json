@@ -1,0 +1,8 @@
+{
+  "schema": "dual_fpga_hardware_acceptance_v3",
+  "date": "2026-11-03",
+  "status": "NOT_RUN",
+  "scope": "CCL binary user-retrained secondary paired with auto-compatible main",
+  "secondary_bit_sha256": "A0034350D2421B14BEBDB7CF419269EA910033AE5381BF4615F5258B5BD5A81B",
+  "main_bit_sha256": "B048D5BD30915F7C08791A9947D90982B741929E00CC0BE3036F7018C76209BC"
+}

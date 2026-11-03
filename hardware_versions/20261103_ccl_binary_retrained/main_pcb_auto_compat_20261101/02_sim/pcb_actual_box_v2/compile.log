@@ -1,0 +1,16 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 22:39:36 on Nov 01,2026
+vlog -work sim_work -sv ../../01_rtl/imgq_gain_m/main/user_source/hdl_source/reset_sync.v ../../01_rtl/imgq_gain_m/main/user_source/hdl_source/hx_result_select.v ../../01_rtl/imgq_gain_m/main/user_source/hdl_source/doc_copy_status_cdc.v ../../01_rtl/imgq_gain_m/main/user_source/hdl_source/key4_hold_debounce.v tb_pcb_actual_box.sv 
+-- Compiling module reset_sync
+-- Compiling module hx_result_select
+-- Compiling module doc_copy_status_cdc
+-- Compiling module key4_hold_debounce
+-- Compiling module key4_pcb_oneshot
+-- Compiling module key4_pcb_status
+-- Compiling module tb_pcb_actual_box
+
+Top level modules:
+	key4_hold_debounce
+	tb_pcb_actual_box
+End time: 22:39:36 on Nov 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 22:39:51 on Nov 01,2026
+vlog -work sim_work -sv tb_key4_pcb_oneshot.sv tb_coords_equiv.sv 
+-- Compiling module tb_key4_pcb_oneshot
+-- Compiling module tb_coords_equiv
+
+Top level modules:
+	tb_key4_pcb_oneshot
+	tb_coords_equiv
+End time: 22:39:52 on Nov 01,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

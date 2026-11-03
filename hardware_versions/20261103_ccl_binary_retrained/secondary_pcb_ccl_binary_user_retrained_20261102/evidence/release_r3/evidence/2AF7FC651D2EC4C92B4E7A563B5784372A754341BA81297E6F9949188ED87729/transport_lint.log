@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 23:10:32 on Nov 02,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\plotter\transport_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\01_rtl\grbl_line_formatter.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\01_rtl\grbl_response_parser.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\01_rtl\grbl_shared_transport_candidate.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\plotter\tb_pose7_plotter.sv 
+-- Compiling module grbl_decimal
+-- Compiling module grbl_line_formatter
+-- Compiling module grbl_response_parser
+-- Compiling module grbl_shared_transport_candidate
+-- Compiling module tb_pose7_plotter
+
+Top level modules:
+	tb_pose7_plotter
+End time: 23:10:33 on Nov 02,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

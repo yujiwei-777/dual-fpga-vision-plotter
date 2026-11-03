@@ -1,0 +1,127 @@
+{
+  "weights": "signed INT8, round nearest even, -127..127",
+  "biases": "signed INT32",
+  "input": "unsigned source Y8 interpreted Q7",
+  "activation": "ReLU, arithmetic right shift, saturate to 0..32767",
+  "layers": [
+    {
+      "layer": 1,
+      "weight_offset": 0,
+      "weight_count": 36,
+      "weight_shape": [
+        4,
+        1,
+        3,
+        3
+      ],
+      "bias_offset": 0,
+      "bias_count": 4,
+      "right_shift": 7
+    },
+    {
+      "layer": 2,
+      "weight_offset": 36,
+      "weight_count": 144,
+      "weight_shape": [
+        4,
+        4,
+        3,
+        3
+      ],
+      "bias_offset": 4,
+      "bias_count": 4,
+      "right_shift": 7
+    },
+    {
+      "layer": 3,
+      "weight_offset": 180,
+      "weight_count": 128,
+      "weight_shape": [
+        2,
+        64
+      ],
+      "bias_offset": 8,
+      "bias_count": 2,
+      "right_shift": 8
+    }
+  ],
+  "conv_padding": "zero",
+  "conv_stride": 2,
+  "spatial_pool": "each 6x6 sum >> 5; 24x24x4 -> 4x4x4",
+  "head_flatten": "C,Y,X (CHW)",
+  "head_output": "signed20 logits after signed27 accumulator right_shift8",
+  "class_ties": "lowest class index wins",
+  "mem_roundtrip_weight_values": 308,
+  "mem_roundtrip_bias_values": 10,
+  "rtl_comparison": "CORE_PASS18_IN_TRAINING_ARTIFACTS; integratedNOT_RUN",
+  "bounds": {
+    "status": "PROVED_FULL_UNSIGNED_Y8_INPUT_RANGE",
+    "conv": [
+      {
+        "layer": 1,
+        "acc_min": [
+          -38901,
+          -28474,
+          -45525,
+          -39479
+        ],
+        "acc_max": [
+          11844,
+          42416,
+          44490,
+          44926
+        ],
+        "activation_max": [
+          92,
+          331,
+          347,
+          350
+        ]
+      },
+      {
+        "layer": 2,
+        "acc_min": [
+          -230626,
+          -319869,
+          -31517,
+          -115559
+        ],
+        "acc_max": [
+          94339,
+          407039,
+          599466,
+          471648
+        ],
+        "activation_max": [
+          737,
+          3179,
+          4683,
+          3684
+        ]
+      }
+    ],
+    "pool_max": [
+      829,
+      3576,
+      5268,
+      4144
+    ],
+    "head_min": [
+      -8155437,
+      -9725197
+    ],
+    "head_max": [
+      9136616,
+      8039964
+    ],
+    "logits_min": [
+      -31858,
+      -37990
+    ],
+    "logits_max": [
+      35689,
+      31406
+    ]
+  },
+  "input_crop": "shared CCL original half-open source bbox x1.0; exact96 point samples"
+}

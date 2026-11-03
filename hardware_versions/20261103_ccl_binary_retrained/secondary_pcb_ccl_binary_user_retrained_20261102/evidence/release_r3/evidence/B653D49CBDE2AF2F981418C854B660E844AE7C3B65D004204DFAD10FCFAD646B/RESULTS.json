@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "tests_passed": 20,
+  "returncode": 0,
+  "sources_unchanged": true,
+  "frozen_manifest_sha256": "92E737ED8B7D585AEAAC64346A130A2AA7A9F2077A70B14A8CE2D036506A57DB",
+  "frozen_design_inputs": {
+    "01_rtl/pcb_ccl_binary_core.v": "C3494A50CA9E2D71ED5DB11F87849F11B6B373BD7E57863DB704F8C00FB382CE",
+    "01_rtl/pcb_fullboard_spatial96.v": "6FDAE6E76799BDCD8069DF79C9365F08B09164826E8C6B72CCCE4895BD01E948",
+    "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+    "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+    "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+    "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B"
+  },
+  "run_directory": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\binary_validation_compat\\adapter\\run_20261102T151132_480068Z",
+  "log_sha256": "B8804915A7B4A7922CDD78631FC2A360732B99D007D014EA2D71D6F87D1A6C8B",
+  "limitations": [
+    "Isolated actual adapter with shortened I/O timeout parameters; numerical equality is proved separately by integrated fixtures.",
+    "No physical DDR or board behavior is proved."
+  ],
+  "hardware": "NOT_RUN"
+}

@@ -1,0 +1,93 @@
+{
+  "status": "MODEL_CANDIDATE_NOT_INTEGRATED",
+  "model_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\pcb_ccl_binary_user_retrain_20261102\\model\\selected",
+  "allowed_training_roots": [
+    "D:/ai/1/0/",
+    "D:/ai/1/8/1/"
+  ],
+  "existing_weights_used_for_fit": false,
+  "model_hashes": {
+    "weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+    "biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0"
+  },
+  "CCL": {
+    "grid": [
+      160,
+      90
+    ],
+    "source_sample": "8*u+4,8*v+4",
+    "foreground": "unsigned source Y<=112",
+    "connectivity": 4,
+    "choice": "largest valid component, raster first tie"
+  },
+  "crop": {
+    "scale_numerator": 1,
+    "scale_denominator": 1,
+    "half_open": true,
+    "source_formula": "origin+floor((2*u+1)*span/192)",
+    "input": [
+      96,
+      96
+    ],
+    "dtype": "unsigned Y8",
+    "normalization": "none",
+    "orientation": "none"
+  },
+  "classifier": {
+    "channels": [
+      1,
+      4,
+      4
+    ],
+    "strides": [
+      2,
+      2
+    ],
+    "padding": [
+      1,
+      1
+    ],
+    "weight_count": 308,
+    "bias_count": 10,
+    "shifts": [
+      7,
+      7,
+      8
+    ],
+    "conv_activation": "floor(acc/128),ReLU,clip0..32767",
+    "pool": "6x6 sum>>5,CHW64,MAC signed16",
+    "head": "floor(acc/256),signed20",
+    "margin_min": 32,
+    "classes": {
+      "0": "GOOD/PASS",
+      "1": "BAD/FAIL"
+    },
+    "low_margin": "REVIEW",
+    "score": "Legacy winning-logit saturation0..255; not calibrated probability"
+  },
+  "required_integration_changes": [
+    "Use new weights and matching biases together",
+    "Change PCB crop adapter from1.20 to exact1.00",
+    "Keep source-border/no-candidate/overflow REVIEW gates",
+    "Retain original CCL result box and defect_count=0",
+    "Revalidate integrated PCB/ordinaryCNN/document/keys/GRBL/HXA/DDR before physical build"
+  ],
+  "validation": {
+    "independent_integer_replay": 1450,
+    "software_layer_parity": 21,
+    "core_RTL": "PASS",
+    "core_RTL_cases": 18,
+    "integrated": "NOT_RUN",
+    "synthesis": "NOT_RUN",
+    "place_route": "NOT_RUN",
+    "bitgen": "NOT_RUN"
+  },
+  "known_test_limits": {
+    "BAD_falsePASS": 7,
+    "BAD_test": 96,
+    "GOOD_falseFAIL": 1,
+    "GOOD_test": 135,
+    "REVIEW": 3
+  },
+  "hardware": "NOT_RUN"
+}

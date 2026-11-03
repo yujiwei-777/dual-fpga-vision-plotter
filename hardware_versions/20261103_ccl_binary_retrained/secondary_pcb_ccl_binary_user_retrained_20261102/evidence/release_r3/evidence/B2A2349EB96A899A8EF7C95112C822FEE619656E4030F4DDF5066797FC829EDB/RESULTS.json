@@ -1,0 +1,408 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-02T15:12:27.372607+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank\\expected_binary.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank\\source_y.mem": "F7E50EA9790D238FF696C425E3CD2EFD2DC6958FA80B3338E5CF246902473D50",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected.mem": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected.vh": "94F636E09B59E8CB5EE02CD62CC007ABE9780F42D33D403D505AD99F01165D25",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected_binary.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected_coordinates.json": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected_gcode.txt": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\expected_strokes.json": "4F53CDA18C2BAA0C0354BB5F9A3ECBE5ED12AB4D8E11BA873C2F11161202B945",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\input.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\skeleton.mem": "B8F3B342A3F28783436463F6EF842E4DEE781B067A1544C19136EE6BC8BE86DC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\blank2418\\source_y.mem": "49EC9AE502DC60597221732A4DA69D49A06D83DDB182F3B88AD3DECE8C830351",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\gray_gradient_grain\\expected_binary.mem": "EB123C937905C658423BAF6344668002FAFD0BF063F2FD3CE5CCBC35E48AF74A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\gray_gradient_grain\\source_y.mem": "30E96EF745973D01127C1DB583DA2326553F7DC1D828EE1D60FABC880B8EE72F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected.mem": "DD920D357DCC2B5017B41D2A26C555FD7885597665019915F3CE68E612A70CA1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected.vh": "B7422CFE048F5E7D35A0A5BBA5E91AB511B5435BB5D11B0ACB8B9FAC9F23CAB9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected_binary.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected_coordinates.json": "86A81D4129718E3EF326624DB335C8222732965CA19BF37B6B8B764B1C816EC3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected_gcode.txt": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\expected_strokes.json": "C665DA52520F298402AE0CF993641FEA347E2386EE35D08187373AACEB6AB757",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\input.mem": "9F9B32F1B9943CAB006EF9084274F9FD69F8CA838D815AF8C447200DCC881F00",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\skeleton.mem": "29060DFFBA0385B1C28A6CCC12BCD45AB480EA02523EB277493DF598DF1AFC50",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\ink2358\\source_y.mem": "B30D8E3EA87D460F37A964E52A86E3A090F1E7A23DBBCDB11E203009CA21F72B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\sample15_roi_border_contract\\expected_binary.mem": "3F6E2E14C74A3F775ADCBF83560C182D919CA30EA5DFFCE7392EC9AE588125CC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\sample15_roi_border_contract\\source_y.mem": "972D4CCD003993D4CEB6845E2AD118AA2F03BD8E771F44B7E448068A48146E37",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\strokes_on_fixed_dirt\\expected_binary.mem": "26A890DB06546800C2CB0A585B78F4B3B77D229BC8AB26A6CF463D38B180019A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\fixtures\\strokes_on_fixed_dirt\\source_y.mem": "400A1F44497121AA11C88648B725A83C9F826505B55B81A4AD80E00EBC29A32E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\source\\tb_frontend.sv": "5D4FD8D354B77636D77E03916007013B4B50754D57D2560730B45E775D91697C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_doc_dirt_lowconf_factored_20261101\\reports\\dirt_qualification\\source\\tb_capture_integrated.sv": "C4C71F186A744CD5863B3029AA1AEC02E3AC2F3661F62E358CBA9C426AD5ABF5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\hxa_tests\\ph1p_logic_eram_stub.sv": "9AEC5D8C68C3168617818CA321CBFDFB64C11B74AE64ED14EC66DB10720D4176",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_stroke_planner.v": "1C6AB2F04D6B8CDC0EDAAA6D275A3BCDA314985B5F219BD3EA0A5846518F4CB6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_machine_map.v": "BEE43BCBB4C74208E1C78F6C0D82C4517F68C09E0EF299ACFE5951CD5E9595C9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_plotter.v": "5F2F380FDB191D2DB1762F458A69396EB3C92A1BDA651CA0C7FFAD56F988631F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_map.v": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_streamer.v": "F310FBA819B050BDBA5086AD4C6CDC5AC778BDAE4EF34D1123870A1987D67846",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_response_parser.v": "D3629D14272B411E3E5A82B7D8B6E323AACBC69AD0F01FA8FE3D4E8068AE39E4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+  },
+  "commands": [
+    {
+      "label": "frontend_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\front_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\frontend_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "frontend_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\front_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_image_frontend.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\tb_frontend.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\frontend_lint.log",
+      "log_sha256": "C9B33D90841F3BF7B758A13D12158C43F75ACAB93E0E7D7D90E496E618150635",
+      "warnings": []
+    },
+    {
+      "label": "frontend_blank",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "front_lib",
+        "tb_frontend",
+        "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/blank/source_y.mem",
+        "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/blank/expected_binary.mem",
+        "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/blank_binary.mem",
+        "+CASE=blank",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\frontend_blank.log",
+      "log_sha256": "0C818013D1D39BE97A378F5EF810E2FC60A9CF8E3ABC867B72E9D2361394D443",
+      "warnings": []
+    },
+    {
+      "label": "frontend_blank2418",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "front_lib",
+        "tb_frontend",
+        "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/blank2418/source_y.mem",
+        "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/blank2418/expected_binary.mem",
+        "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/blank2418_binary.mem",
+        "+CASE=blank2418",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\frontend_blank2418.log",
+      "log_sha256": "9A4D83EBB27F3915E24D50F4ED58A914B9841EDED8EC506AC2B106AA3F3E71E2",
+      "warnings": []
+    },
+    {
+      "label": "frontend_gray_gradient_grain",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "front_lib",
+        "tb_frontend",
+        "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/gray_gradient_grain/source_y.mem",
+        "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/gray_gradient_grain/expected_binary.mem",
+        "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/gray_gradient_grain_binary.mem",
+        "+CASE=gray_gradient_grain",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\frontend_gray_gradient_grain.log",
+      "log_sha256": "E2986096C7D4BBC4DF9FB96084FFA964505A0BD9CD55A1CFBF528C6CC7F340DF",
+      "warnings": []
+    },
+    {
+      "label": "frontend_ink2358",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "front_lib",
+        "tb_frontend",
+        "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/ink2358/source_y.mem",
+        "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/ink2358/expected_binary.mem",
+        "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/ink2358_binary.mem",
+        "+CASE=ink2358",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\frontend_ink2358.log",
+      "log_sha256": "C8BEA282C8822315EB20C7C404E8809011C60DE275ECFD3FA0344BF54D692DE6",
+      "warnings": []
+    },
+    {
+      "label": "frontend_sample15_roi_border_contract",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "front_lib",
+        "tb_frontend",
+        "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/sample15_roi_border_contract/source_y.mem",
+        "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/sample15_roi_border_contract/expected_binary.mem",
+        "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/sample15_roi_border_contract_binary.mem",
+        "+CASE=sample15_roi_border_contract",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\frontend_sample15_roi_border_contract.log",
+      "log_sha256": "7945FFE2BD42C4728B99C6C5B3B2D1899D0607D90B4C98CB52554CAC03D3CD2E",
+      "warnings": []
+    },
+    {
+      "label": "frontend_strokes_on_fixed_dirt",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "front_lib",
+        "tb_frontend",
+        "+IMAGE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/strokes_on_fixed_dirt/source_y.mem",
+        "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/strokes_on_fixed_dirt/expected_binary.mem",
+        "+OUTPUT=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/strokes_on_fixed_dirt_binary.mem",
+        "+CASE=strokes_on_fixed_dirt",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\frontend_strokes_on_fixed_dirt.log",
+      "log_sha256": "904A505E8CD15B2BCAF7D46C7360B10F5C7EBCA4780D30BDBECA5103E1D48079",
+      "warnings": []
+    },
+    {
+      "label": "blank2418_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\blank2418_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\blank2418_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "blank2418_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\blank2418_lib",
+        "+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/blank2418",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_image_frontend.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_stroke_planner.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_stroke_bram.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_machine_map.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_plotter.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_map.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_streamer.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_response_parser.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\grbl_line_formatter.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\ph1p_logic_eram_stub.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\tb_capture_integrated.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\blank2418_lint.log",
+      "log_sha256": "BAAB20B0EDD597E7C9F5099D25581949FA69C0F9BD9FA6998DC509C2B17E8CB9",
+      "warnings": []
+    },
+    {
+      "label": "blank2418_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "blank2418_lib",
+        "tb_stroke_split",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; cd {D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/blank2418}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\blank2418_simulation.log",
+      "log_sha256": "B806BA7B359522BD0E81E8733C27E294A3ECEB85C6BBA827192F5F57D0745795",
+      "warnings": []
+    },
+    {
+      "label": "ink2358_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\ink2358_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\ink2358_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "ink2358_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\ink2358_lib",
+        "+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/ink2358",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_image_frontend.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_stroke_planner.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_stroke_bram.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_machine_map.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_plotter.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_map.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_streamer.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\doc_grbl_response_parser.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\grbl_line_formatter.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\ph1p_logic_eram_stub.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\tb_capture_integrated.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\ink2358_lint.log",
+      "log_sha256": "F60E03882E9085CF1D8CC7427A29FB6AF4D0A798522FB5EBE8832A5DF71722FA",
+      "warnings": []
+    },
+    {
+      "label": "ink2358_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "ink2358_lib",
+        "tb_stroke_split",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; cd {D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/regressions/preserved_compat/document/fixtures/ink2358}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\document\\ink2358_simulation.log",
+      "log_sha256": "431CD6985CA59131BC9E2BB3D83E3D6F1B7953D990694A86121212DF2F2A6E6A",
+      "warnings": []
+    }
+  ],
+  "scope": [
+    {
+      "test": "frontend blank",
+      "records": [
+        "PASS FRONTEND blank cycles=5417980 backpressure=37908 request_stalls=348384"
+      ]
+    },
+    {
+      "test": "frontend blank2418",
+      "records": [
+        "PASS FRONTEND blank2418 cycles=5417980 backpressure=37908 request_stalls=348384"
+      ]
+    },
+    {
+      "test": "frontend gray_gradient_grain",
+      "records": [
+        "PASS FRONTEND gray_gradient_grain cycles=5417980 backpressure=37908 request_stalls=348384"
+      ]
+    },
+    {
+      "test": "frontend ink2358",
+      "records": [
+        "PASS FRONTEND ink2358 cycles=5417980 backpressure=37908 request_stalls=348384"
+      ]
+    },
+    {
+      "test": "frontend sample15_roi_border_contract",
+      "records": [
+        "PASS FRONTEND sample15_roi_border_contract cycles=5417980 backpressure=37908 request_stalls=348384"
+      ]
+    },
+    {
+      "test": "frontend strokes_on_fixed_dirt",
+      "records": [
+        "PASS FRONTEND strokes_on_fixed_dirt cycles=5417980 backpressure=37908 request_stalls=348384"
+      ]
+    },
+    {
+      "test": "blank2418 frontend/skeleton/paths/coordinates/G-code",
+      "gcode_lines": 4,
+      "actual_gcode_sha256": "DB7217ED0F2710180662597A0E066B9D653B75DC48B695AD3D698D13E88804A1",
+      "records": [
+        "PASS CAPTURE_INTEGRATED frontend thin graph paths mapper Gcode cycles=19324205 edges=0 paths=0 points=0 acked=4"
+      ]
+    },
+    {
+      "test": "ink2358 frontend/skeleton/paths/coordinates/G-code",
+      "gcode_lines": 417,
+      "actual_gcode_sha256": "E51699968E672E0BFFB55AD83A55D63AE677C998FEC1797DDD2AE4B4065EE15F",
+      "records": [
+        "PASS CAPTURE_INTEGRATED frontend thin graph paths mapper Gcode cycles=39143321 edges=603 paths=30 points=351 acked=417"
+      ]
+    }
+  ],
+  "limitations": [
+    "Archived real-frame fixtures check this current RTL; no new independent handwriting quality or hardware claim.",
+    "Integrated fixtures use document-local transport; current shared transport is separately tested."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

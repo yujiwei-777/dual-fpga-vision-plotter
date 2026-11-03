@@ -1,0 +1,22 @@
+{
+  "phase": "readonly",
+  "status": "PASS_TOOL_INVOCATION",
+  "started_ns": 1793665285624180800,
+  "cwd": "E:\\codex_pcb_binary_ccl_retrained_20261102_r3\\readonly",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_readonly_r3.tcl"
+  ],
+  "script": "E:\\codex_pcb_binary_ccl_retrained_20261102_r3\\readonly\\run_readonly_r3.tcl",
+  "script_sha256": "53023CBDD2B8F7236911EFCF5BD081575C2C26A421595C29F394623F9AEA050C",
+  "input_artifact_sha256": {
+    "E:\\codex_pcb_binary_ccl_retrained_20261102_r3\\runs\\phy_1\\secondary_cnn_multibox_pr.db": "BA807117F72EE0293C6731B0ADC16A434681AEFAAE51C92BB2CF7FC7CBF8DADD"
+  },
+  "exit_code": 0,
+  "finished_ns": 1793665308671207500,
+  "log_sha256": "ABBB15E4B859D28A4CEF4259136A097232333B27AEEF6CE38A8773D230B88BF6",
+  "errors": [],
+  "output_artifact_sha256": {
+    "E:\\codex_pcb_binary_ccl_retrained_20261102_r3\\runs\\phy_1\\secondary_cnn_multibox_pr.db": "BA807117F72EE0293C6731B0ADC16A434681AEFAAE51C92BB2CF7FC7CBF8DADD"
+  }
+}

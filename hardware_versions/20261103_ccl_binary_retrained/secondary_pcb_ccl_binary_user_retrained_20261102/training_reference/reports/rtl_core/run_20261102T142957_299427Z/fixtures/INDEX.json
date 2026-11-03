@@ -1,0 +1,1239 @@
+{
+  "core_cases": 18,
+  "real_cases": 15,
+  "synthetic_cases": 3,
+  "cases": [
+    {
+      "name": "real_00",
+      "selection_group": [
+        "current20261102",
+        "GOOD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 0,
+      "selection_group_size": 613,
+      "dataset_index": 837,
+      "source": {
+        "source_json": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00001310_d9919267a505490281cde87188b3bebb.json",
+        "source_json_sha256": "85364037BC6D7552154238A1F864BE2F2DD51F058EF19AF6CDA5CBF3415A55C7",
+        "frame_id": 1310,
+        "capture_group": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101",
+        "capture_session_id": "dff8edb30db143cd9cc9df11e729234c",
+        "capture_batch_id": "3ec6043a95f54d5caa5fb0681ddcc101",
+        "user_group_root": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101",
+        "truth": "GOOD",
+        "group": "GOOD",
+        "label": 0,
+        "capture_index": 0,
+        "block_id": 0,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 843,
+        "split_code": 1,
+        "domain": "current20261102",
+        "raw_path": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00001310_d9919267a505490281cde87188b3bebb.yuyv",
+        "raw_sha256": "E5D0EA01BD5D242D4EB836B14BF356DB88EF1A4C669F7AF2C4D59A1EBDC49373",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "C848B1A552B01D1950316BC9540D3A220A667C7EC781764FC193B58E5529689F",
+        "ccl": {
+          "provisional_labels": 39,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            104,
+            192,
+            1064,
+            536
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          104,
+          192,
+          1064,
+          536
+        ],
+        "roi_box": [
+          104,
+          192,
+          1064,
+          536
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 837,
+        "roi_sha256": "9D33142CCAB396FA933CF9C5DFDF16FAD99DC9BFD3AD29C55018AF916E695CAE"
+      },
+      "core_case": 0,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -130,
+        -70
+      ],
+      "score": 0,
+      "margin": 60,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        23753,
+        102922,
+        33035
+      ]
+    },
+    {
+      "name": "real_01",
+      "selection_group": [
+        "current20261102",
+        "GOOD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 306,
+      "selection_group_size": 613,
+      "dataset_index": 1143,
+      "source": {
+        "source_json": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00004181_328ed596e5c647358c874834fb4bab9a.json",
+        "source_json_sha256": "C411E105AF4FD74F00491A4BA2BD52B97E459AEF173518F3ED1E0E7E8A8AB893",
+        "frame_id": 4181,
+        "capture_group": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101",
+        "capture_session_id": "dff8edb30db143cd9cc9df11e729234c",
+        "capture_batch_id": "3ec6043a95f54d5caa5fb0681ddcc101",
+        "user_group_root": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101",
+        "truth": "GOOD",
+        "group": "GOOD",
+        "label": 0,
+        "capture_index": 336,
+        "block_id": 16,
+        "nominal_split": "train",
+        "split": "train",
+        "manifest_index": 1179,
+        "split_code": 0,
+        "domain": "current20261102",
+        "raw_path": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00004181_328ed596e5c647358c874834fb4bab9a.yuyv",
+        "raw_sha256": "682608DD13CD6160437BF264C57CC524EC0EBE15BE192BB33519C230956936EF",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "CECEB1C31008284B7A6D4E25942EF76B82B9245A039AB42428F33271EFB4C17D",
+        "ccl": {
+          "provisional_labels": 33,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            208,
+            152,
+            1096,
+            488
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          208,
+          152,
+          1096,
+          488
+        ],
+        "roi_box": [
+          208,
+          152,
+          1096,
+          488
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 1143,
+        "roi_sha256": "F113A184E1F25E0AB0D61A7A3D510DCF86C846D126512790DE99C3AEFAFAA131"
+      },
+      "core_case": 1,
+      "class_id": 0,
+      "class": "GOOD",
+      "logits": [
+        190,
+        -409
+      ],
+      "score": 190,
+      "margin": 599,
+      "status": "PASS",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        22014,
+        92008,
+        104482
+      ]
+    },
+    {
+      "name": "real_02",
+      "selection_group": [
+        "current20261102",
+        "GOOD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 612,
+      "selection_group_size": 613,
+      "dataset_index": 1449,
+      "source": {
+        "source_json": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00007327_ddc16cc5737346498f036cd150c7de5f.json",
+        "source_json_sha256": "778797AFF60D9533823A0FF1FD66D96F315D30FAA64CDF6E005A9AAE84D9652C",
+        "frame_id": 7327,
+        "capture_group": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101",
+        "capture_session_id": "dff8edb30db143cd9cc9df11e729234c",
+        "capture_batch_id": "3ec6043a95f54d5caa5fb0681ddcc101",
+        "user_group_root": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101",
+        "truth": "GOOD",
+        "group": "GOOD",
+        "label": 0,
+        "capture_index": 650,
+        "block_id": 32,
+        "nominal_split": "test",
+        "split": "test",
+        "manifest_index": 1493,
+        "split_code": 2,
+        "domain": "current20261102",
+        "raw_path": "D:\\ai\\1\\8\\1\\dff8edb30db143cd9cc9df11e729234c\\3ec6043a95f54d5caa5fb0681ddcc101\\frame_00007327_ddc16cc5737346498f036cd150c7de5f.yuyv",
+        "raw_sha256": "6719F7DA54134AEB4385939B0AC6D0D0BB8EF655F206C2039927988CCF9BEB68",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "4FD5922B3AE0C44B09D9DAC1FAE0857EF739941DA691E70E6DD94039B0EDE259",
+        "ccl": {
+          "provisional_labels": 39,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            264,
+            312,
+            1040,
+            616
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          264,
+          312,
+          1040,
+          616
+        ],
+        "roi_box": [
+          264,
+          312,
+          1040,
+          616
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 1449,
+        "roi_sha256": "368611D38438191C263336C9533709DAE41BDD00FE4C2CB1CBC858DFBA1392F8"
+      },
+      "core_case": 2,
+      "class_id": 0,
+      "class": "GOOD",
+      "logits": [
+        120,
+        -367
+      ],
+      "score": 120,
+      "margin": 487,
+      "status": "PASS",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        23441,
+        103679,
+        93776
+      ]
+    },
+    {
+      "name": "real_03",
+      "selection_group": [
+        "new20261029",
+        "GOOD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 0,
+      "selection_group_size": 213,
+      "dataset_index": 214,
+      "source": {
+        "source_json": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00031622_e58d44ad653b4bcaa1f2bcceaa74a779.json",
+        "source_json_sha256": "0B480A12AA3A9F7FE027D46B58F77237A53B854F6CAA54150A3925FAB9FCF06C",
+        "frame_id": 31622,
+        "capture_group": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155",
+        "capture_session_id": "bfaea9fafc3840beb9ba702a08b0e1b9",
+        "capture_batch_id": "2f2759b5410a41e2adea6c7d43a0c155",
+        "user_group_root": "D:\\ai\\1\\0\\2",
+        "truth": "GOOD",
+        "group": "GOOD",
+        "label": 0,
+        "capture_index": 0,
+        "block_id": 0,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 214,
+        "split_code": 1,
+        "domain": "new20261029",
+        "raw_path": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00031622_e58d44ad653b4bcaa1f2bcceaa74a779.yuyv",
+        "raw_sha256": "38A77A50E4D9594087A50759E5BBB0B61FB60BC994BBB3AAA3364A512B340869",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "1D3CABC1A711BC593DA3077AA3CCA93EB578B7D2911783F9F22EDFD4A81B3A0B",
+        "ccl": {
+          "provisional_labels": 259,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            56,
+            72,
+            1152,
+            544
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          56,
+          72,
+          1152,
+          544
+        ],
+        "roi_box": [
+          56,
+          72,
+          1152,
+          544
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 214,
+        "roi_sha256": "BA83ACBEFE859570444EF7D67B784E55DA3FC65E10F15A5C48B09B3453A4E29D"
+      },
+      "core_case": 3,
+      "class_id": 0,
+      "class": "GOOD",
+      "logits": [
+        398,
+        -552
+      ],
+      "score": 255,
+      "margin": 950,
+      "status": "PASS",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        24271,
+        93119,
+        141195
+      ]
+    },
+    {
+      "name": "real_04",
+      "selection_group": [
+        "new20261029",
+        "GOOD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 106,
+      "selection_group_size": 213,
+      "dataset_index": 320,
+      "source": {
+        "source_json": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00033243_87fae8b9c7f5442faf5626fd90e72cc5.json",
+        "source_json_sha256": "551B34760B4285D4100453A9FC386B2B9A446F22DEF9523A313B7755EEF5F9A8",
+        "frame_id": 33243,
+        "capture_group": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155",
+        "capture_session_id": "bfaea9fafc3840beb9ba702a08b0e1b9",
+        "capture_batch_id": "2f2759b5410a41e2adea6c7d43a0c155",
+        "user_group_root": "D:\\ai\\1\\0\\2",
+        "truth": "GOOD",
+        "group": "GOOD",
+        "label": 0,
+        "capture_index": 112,
+        "block_id": 5,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 326,
+        "split_code": 1,
+        "domain": "new20261029",
+        "raw_path": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00033243_87fae8b9c7f5442faf5626fd90e72cc5.yuyv",
+        "raw_sha256": "4B312ADE5B8BDD96EF8F3DF2139986D2BA6BAAB17D42209BD6D821C83EE69B95",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "7142AA54CB477F4DC1BC07DA6967DB190FE0762136A93A69AF7454E8FB4FA577",
+        "ccl": {
+          "provisional_labels": 288,
+          "overflow": false,
+          "count": 2,
+          "bbox": [
+            40,
+            112,
+            1200,
+            624
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          40,
+          112,
+          1200,
+          624
+        ],
+        "roi_box": [
+          40,
+          112,
+          1200,
+          624
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 320,
+        "roi_sha256": "C4AEFA6C31EBF93D17A8D7EF45619B0C86AD438784E833DE86680528D8861971"
+      },
+      "core_case": 4,
+      "class_id": 0,
+      "class": "GOOD",
+      "logits": [
+        162,
+        -328
+      ],
+      "score": 162,
+      "margin": 490,
+      "status": "PASS",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        23100,
+        90814,
+        83798
+      ]
+    },
+    {
+      "name": "real_05",
+      "selection_group": [
+        "new20261029",
+        "GOOD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 212,
+      "selection_group_size": 213,
+      "dataset_index": 426,
+      "source": {
+        "source_json": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00034570_aa272c860ce54c06a06ea9480e88cf26.json",
+        "source_json_sha256": "C3CE83116A67169748D0F658DBFD6313461A7D5B7E95966875F299CAB0F5D36B",
+        "frame_id": 34570,
+        "capture_group": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155",
+        "capture_session_id": "bfaea9fafc3840beb9ba702a08b0e1b9",
+        "capture_batch_id": "2f2759b5410a41e2adea6c7d43a0c155",
+        "user_group_root": "D:\\ai\\1\\0\\2",
+        "truth": "GOOD",
+        "group": "GOOD",
+        "label": 0,
+        "capture_index": 218,
+        "block_id": 10,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 432,
+        "split_code": 1,
+        "domain": "new20261029",
+        "raw_path": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00034570_aa272c860ce54c06a06ea9480e88cf26.yuyv",
+        "raw_sha256": "213AA072D028C833D996720F73D9D9D63E8031C05D9CC15530AEE11C89D573CB",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "632055C82CF12DDB16A2F74256C62A622A9E94568A044B14C9691EE4384C84A9",
+        "ccl": {
+          "provisional_labels": 317,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            32,
+            104,
+            1200,
+            624
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          32,
+          104,
+          1200,
+          624
+        ],
+        "roi_box": [
+          32,
+          104,
+          1200,
+          624
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 426,
+        "roi_sha256": "B444301DCA845723FB27A17CFB10E9EB21FB223B6483409F74E47D949405F21A"
+      },
+      "core_case": 5,
+      "class_id": 0,
+      "class": "GOOD",
+      "logits": [
+        346,
+        -486
+      ],
+      "score": 255,
+      "margin": 832,
+      "status": "PASS",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        24130,
+        91859,
+        124163
+      ]
+    },
+    {
+      "name": "real_06",
+      "selection_group": [
+        "new20261029",
+        "MISSING_CORNER"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 0,
+      "selection_group_size": 209,
+      "dataset_index": 427,
+      "source": {
+        "source_json": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00002496_70085896c1fa47e79d27d16e45854546.json",
+        "source_json_sha256": "CA4DB7FEBE9C12D66249E34AFA60A0A41E0FFF09718939FEE508B6CBD9E0B3D3",
+        "frame_id": 2496,
+        "capture_group": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982",
+        "capture_session_id": "de08d7322eef4609b468c9fa93a1b39b",
+        "capture_batch_id": "f30180f486e14bf3822026fb76a73982",
+        "user_group_root": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b",
+        "truth": "MISSING_CORNER",
+        "group": "MISSING_CORNER",
+        "label": 1,
+        "capture_index": 0,
+        "block_id": 0,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 433,
+        "split_code": 1,
+        "domain": "new20261029",
+        "raw_path": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00002496_70085896c1fa47e79d27d16e45854546.yuyv",
+        "raw_sha256": "F799568EE8CC572060C758914E489E1D6CA6D0667AD4E25D45DB461C9F4EFD48",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "18A9217395911C5687D4C431573CB31F54B847AE28EF8A0D28E6589720D8B037",
+        "ccl": {
+          "provisional_labels": 95,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            160,
+            176,
+            1040,
+            568
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          160,
+          176,
+          1040,
+          568
+        ],
+        "roi_box": [
+          160,
+          176,
+          1040,
+          568
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 427,
+        "roi_sha256": "996BA032065960C858EBBFA1124B03ED383E43B6FF439A610C01259BB1BD861C"
+      },
+      "core_case": 6,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -458,
+        339
+      ],
+      "score": 255,
+      "margin": 797,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        22085,
+        90718,
+        117137
+      ]
+    },
+    {
+      "name": "real_07",
+      "selection_group": [
+        "new20261029",
+        "MISSING_CORNER"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 104,
+      "selection_group_size": 209,
+      "dataset_index": 531,
+      "source": {
+        "source_json": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00017488_1508de05972d489e82c15e04b5353246.json",
+        "source_json_sha256": "EB5E8504743BD7C670991BE2818439D0F90E71C3CB5635C4FF46E1B5050AB9A7",
+        "frame_id": 17488,
+        "capture_group": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982",
+        "capture_session_id": "de08d7322eef4609b468c9fa93a1b39b",
+        "capture_batch_id": "f30180f486e14bf3822026fb76a73982",
+        "user_group_root": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b",
+        "truth": "MISSING_CORNER",
+        "group": "MISSING_CORNER",
+        "label": 1,
+        "capture_index": 104,
+        "block_id": 5,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 537,
+        "split_code": 1,
+        "domain": "new20261029",
+        "raw_path": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00017488_1508de05972d489e82c15e04b5353246.yuyv",
+        "raw_sha256": "D64062995BDE147A156D1FE77A66DFBD894929EA8D94C8E77B7660E63D7CAE07",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "09A3EACD39990663087DE3321A8DA719DB8F01E97AAD0642F094937A2D6A3BFD",
+        "ccl": {
+          "provisional_labels": 80,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            240,
+            144,
+            1120,
+            520
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          240,
+          144,
+          1120,
+          520
+        ],
+        "roi_box": [
+          240,
+          144,
+          1120,
+          520
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 531,
+        "roi_sha256": "EB25A449DFC324387134135782222B1FEF53EB8600FF1A95D67E91E91AE4C06D"
+      },
+      "core_case": 7,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -409,
+        209
+      ],
+      "score": 209,
+      "margin": 618,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        25613,
+        95161,
+        104500
+      ]
+    },
+    {
+      "name": "real_08",
+      "selection_group": [
+        "new20261029",
+        "MISSING_CORNER"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 208,
+      "selection_group_size": 209,
+      "dataset_index": 635,
+      "source": {
+        "source_json": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00019858_3b7938fc75af4f2da76c92892bb604b4.json",
+        "source_json_sha256": "C98F54492E6EDA108E96138B58257F739F34121EFFEC96CE46D1A5754267BBA2",
+        "frame_id": 19858,
+        "capture_group": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982",
+        "capture_session_id": "de08d7322eef4609b468c9fa93a1b39b",
+        "capture_batch_id": "f30180f486e14bf3822026fb76a73982",
+        "user_group_root": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b",
+        "truth": "MISSING_CORNER",
+        "group": "MISSING_CORNER",
+        "label": 1,
+        "capture_index": 208,
+        "block_id": 10,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 641,
+        "split_code": 1,
+        "domain": "new20261029",
+        "raw_path": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00019858_3b7938fc75af4f2da76c92892bb604b4.yuyv",
+        "raw_sha256": "C7284D167B53685A081ACF0F69C9534681D647F64A11305B4354FB29173342CA",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "6DB116026593B06C06E39545FCCA484915F8705FCD785BAA9543BA513A31BC2E",
+        "ccl": {
+          "provisional_labels": 154,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            160,
+            72,
+            1272,
+            536
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          160,
+          72,
+          1272,
+          536
+        ],
+        "roi_box": [
+          160,
+          72,
+          1272,
+          536
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 635,
+        "roi_sha256": "72978C0E7FD4F4E04BE75CF6D662DDDAA486DCC22529D97FE54340967D295EFE"
+      },
+      "core_case": 8,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -564,
+        413
+      ],
+      "score": 255,
+      "margin": 977,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        25432,
+        89797,
+        144230
+      ]
+    },
+    {
+      "name": "real_09",
+      "selection_group": [
+        "new20261029",
+        "MISSING_PAD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 0,
+      "selection_group_size": 214,
+      "dataset_index": 0,
+      "source": {
+        "source_json": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00024928_b51681eb753d4d499490d4784dfeaba8.json",
+        "source_json_sha256": "9792AD5B0072B02E702177F6BD2B914F9C2889D83228C6B498AE5FA7007BE634",
+        "frame_id": 24928,
+        "capture_group": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035",
+        "capture_session_id": "39f73ace00e04f0f9b166d0be03421b8",
+        "capture_batch_id": "a39e8e189ac2442489d6f23cd1a08035",
+        "user_group_root": "D:\\ai\\1\\0\\1",
+        "truth": "MISSING_PAD",
+        "group": "MISSING_PAD",
+        "label": 1,
+        "capture_index": 0,
+        "block_id": 0,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 0,
+        "split_code": 1,
+        "domain": "new20261029",
+        "raw_path": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00024928_b51681eb753d4d499490d4784dfeaba8.yuyv",
+        "raw_sha256": "A33862E103A7CA94C6E60A04507CA20F2A588BF78E99F8ED3C1F69721DC3BD49",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "3A74702F28FB955CE1A5D3699BC704D1D9F8A94B2848E79BC83EAB94043115F4",
+        "ccl": {
+          "provisional_labels": 137,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            176,
+            104,
+            1200,
+            576
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          176,
+          104,
+          1200,
+          576
+        ],
+        "roi_box": [
+          176,
+          104,
+          1200,
+          576
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 0,
+        "roi_sha256": "FFDD8B4F23D4FFA1BB90C5FAACFB7068708FC38659E6EB68EF9DECCB30915F70"
+      },
+      "core_case": 9,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -299,
+        134
+      ],
+      "score": 134,
+      "margin": 433,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        23610,
+        78003,
+        76539
+      ]
+    },
+    {
+      "name": "real_10",
+      "selection_group": [
+        "new20261029",
+        "MISSING_PAD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 107,
+      "selection_group_size": 214,
+      "dataset_index": 107,
+      "source": {
+        "source_json": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00026551_902ea1909a83454c8720c20bd6ace57c.json",
+        "source_json_sha256": "D3B1DDE64AD62E7A03B66C3AD19BFF7F8AB8909542FBB97BC5E00BFF09E2FD54",
+        "frame_id": 26551,
+        "capture_group": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035",
+        "capture_session_id": "39f73ace00e04f0f9b166d0be03421b8",
+        "capture_batch_id": "a39e8e189ac2442489d6f23cd1a08035",
+        "user_group_root": "D:\\ai\\1\\0\\1",
+        "truth": "MISSING_PAD",
+        "group": "MISSING_PAD",
+        "label": 1,
+        "capture_index": 107,
+        "block_id": 5,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 107,
+        "split_code": 1,
+        "domain": "new20261029",
+        "raw_path": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00026551_902ea1909a83454c8720c20bd6ace57c.yuyv",
+        "raw_sha256": "D271077C64DE9AAE5134DE648C13C7DE45827BC520000621879CAF8AC08CEACC",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "526BDA1992CF05D4BF8A9383F8CAD0FBA2A60983C71B6EBA06B555F4D1B336F3",
+        "ccl": {
+          "provisional_labels": 367,
+          "overflow": false,
+          "count": 2,
+          "bbox": [
+            112,
+            104,
+            1224,
+            624
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          112,
+          104,
+          1224,
+          624
+        ],
+        "roi_box": [
+          112,
+          104,
+          1224,
+          624
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 107,
+        "roi_sha256": "C93F83F416150340F818BF5C0359F4E8D17935E25802E6AC4C868343590E7913"
+      },
+      "core_case": 10,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -539,
+        435
+      ],
+      "score": 255,
+      "margin": 974,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        25728,
+        75374,
+        137877
+      ]
+    },
+    {
+      "name": "real_11",
+      "selection_group": [
+        "new20261029",
+        "MISSING_PAD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 213,
+      "selection_group_size": 214,
+      "dataset_index": 213,
+      "source": {
+        "source_json": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00027920_211d4c52ff164a908a27e2e5c6d6f6ac.json",
+        "source_json_sha256": "3CDB4EAE3B597BEEFF54FDA2EDE1F0833E9D993A084F0FE930968CEFBC4BE859",
+        "frame_id": 27920,
+        "capture_group": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035",
+        "capture_session_id": "39f73ace00e04f0f9b166d0be03421b8",
+        "capture_batch_id": "a39e8e189ac2442489d6f23cd1a08035",
+        "user_group_root": "D:\\ai\\1\\0\\1",
+        "truth": "MISSING_PAD",
+        "group": "MISSING_PAD",
+        "label": 1,
+        "capture_index": 213,
+        "block_id": 10,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 213,
+        "split_code": 1,
+        "domain": "new20261029",
+        "raw_path": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00027920_211d4c52ff164a908a27e2e5c6d6f6ac.yuyv",
+        "raw_sha256": "0AF6A9E19FA6BB71F2960E1F520C0B1C060DEDB2186D084ADCC030E383A36A25",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "C863805FF5A8EC20FF932D10DEF4A2C71758265EA8E838B0ACC7688AFEAD5754",
+        "ccl": {
+          "provisional_labels": 410,
+          "overflow": false,
+          "count": 2,
+          "bbox": [
+            128,
+            104,
+            1248,
+            624
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          128,
+          104,
+          1248,
+          624
+        ],
+        "roi_box": [
+          128,
+          104,
+          1248,
+          624
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 213,
+        "roi_sha256": "F67047A873334D814EEF4E45827143475968167F29E1C46E6BB4DE218F867D93"
+      },
+      "core_case": 11,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -478,
+        362
+      ],
+      "score": 255,
+      "margin": 840,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        24770,
+        87690,
+        122212
+      ]
+    },
+    {
+      "name": "real_12",
+      "selection_group": [
+        "new_missing_pad_20261102",
+        "MISSING_PAD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 0,
+      "selection_group_size": 201,
+      "dataset_index": 636,
+      "source": {
+        "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00000806_63b7faa75d2d48049c102b240941c342.json",
+        "source_json_sha256": "8AE4BF7CB0A2CD4CF4B42A8DFDDE0BC5D274DF53904BC289B99589ADA95820DB",
+        "frame_id": 806,
+        "capture_group": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1",
+        "capture_session_id": "1d0fda3c643a403b9f9b328b663c7c1d",
+        "capture_batch_id": "7c6885c555334bc38bd54dfaa34efbb1",
+        "user_group_root": "D:\\ai\\1\\8\\1\\2",
+        "truth": "MISSING_PAD",
+        "group": "MISSING_PAD",
+        "label": 1,
+        "capture_index": 0,
+        "block_id": 0,
+        "nominal_split": "validation",
+        "split": "validation",
+        "manifest_index": 642,
+        "split_code": 1,
+        "domain": "new_missing_pad_20261102",
+        "raw_path": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00000806_63b7faa75d2d48049c102b240941c342.yuyv",
+        "raw_sha256": "88B1E642631A203C589DDE8E41BF2C110FF5E0287CBFD9835254395C8A974AFF",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "DC7415DBE3724134143C8D6953C455196E111C03D2F191D2C582FCE6077FE191",
+        "ccl": {
+          "provisional_labels": 75,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            104,
+            152,
+            992,
+            512
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          104,
+          152,
+          992,
+          512
+        ],
+        "roi_box": [
+          104,
+          152,
+          992,
+          512
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 636,
+        "roi_sha256": "094078F84C75DE1F3474AE2A0AFFEC521497F961B31BDDD27EF98AF980DF158B"
+      },
+      "core_case": 12,
+      "class_id": 0,
+      "class": "GOOD",
+      "logits": [
+        -93,
+        -122
+      ],
+      "score": 0,
+      "margin": 29,
+      "status": "REVIEW",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        26131,
+        102264,
+        31158
+      ]
+    },
+    {
+      "name": "real_13",
+      "selection_group": [
+        "new_missing_pad_20261102",
+        "MISSING_PAD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 100,
+      "selection_group_size": 201,
+      "dataset_index": 736,
+      "source": {
+        "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001406_b747a7200b9c43f8945b1e5c878b33e7.json",
+        "source_json_sha256": "FB0E26CB5D4209A0C40CC70C7B5D2CC5CB12BFFB1DDE430E49FFBE26A156553D",
+        "frame_id": 1406,
+        "capture_group": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1",
+        "capture_session_id": "1d0fda3c643a403b9f9b328b663c7c1d",
+        "capture_batch_id": "7c6885c555334bc38bd54dfaa34efbb1",
+        "user_group_root": "D:\\ai\\1\\8\\1\\2",
+        "truth": "MISSING_PAD",
+        "group": "MISSING_PAD",
+        "label": 1,
+        "capture_index": 100,
+        "block_id": 5,
+        "nominal_split": "validation",
+        "split": "guard",
+        "manifest_index": 742,
+        "split_code": 3,
+        "domain": "new_missing_pad_20261102",
+        "raw_path": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00001406_b747a7200b9c43f8945b1e5c878b33e7.yuyv",
+        "raw_sha256": "4CB5B63EA0D1727F2B6740AAD36FFF476A657AE9BA04B26F4270729599BD5B05",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "9B11E2E553214F79DA76CA562E4EBAAA418DDB06E8B2349B3DBA353B19E1A15D",
+        "ccl": {
+          "provisional_labels": 97,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            136,
+            192,
+            1112,
+            568
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          136,
+          192,
+          1112,
+          568
+        ],
+        "roi_box": [
+          136,
+          192,
+          1112,
+          568
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 736,
+        "roi_sha256": "2BA16B7E6246247EB7EA966B695BAF94C7169529ED63B6AA7AACBEB0056954A1"
+      },
+      "core_case": 13,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -219,
+        33
+      ],
+      "score": 33,
+      "margin": 252,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        26651,
+        100140,
+        55852
+      ]
+    },
+    {
+      "name": "real_14",
+      "selection_group": [
+        "new_missing_pad_20261102",
+        "MISSING_PAD"
+      ],
+      "selection_rule": "valid original-box candidates first/middle/last sorted frame_id/path",
+      "selection_index": 200,
+      "selection_group_size": 201,
+      "dataset_index": 836,
+      "source": {
+        "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00002384_2d69a6b6707947808350867db61d2452.json",
+        "source_json_sha256": "02717CCBFE73AFBF70104FD2DD4C4DA61ED2CCA15947E2D46A7389DFED9EF9B8",
+        "frame_id": 2384,
+        "capture_group": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1",
+        "capture_session_id": "1d0fda3c643a403b9f9b328b663c7c1d",
+        "capture_batch_id": "7c6885c555334bc38bd54dfaa34efbb1",
+        "user_group_root": "D:\\ai\\1\\8\\1\\2",
+        "truth": "MISSING_PAD",
+        "group": "MISSING_PAD",
+        "label": 1,
+        "capture_index": 200,
+        "block_id": 10,
+        "nominal_split": "validation",
+        "split": "guard",
+        "manifest_index": 842,
+        "split_code": 3,
+        "domain": "new_missing_pad_20261102",
+        "raw_path": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00002384_2d69a6b6707947808350867db61d2452.yuyv",
+        "raw_sha256": "925A6CF38D7B57D6A707D6C26B80390A2E27AA575E5A45FEE3E12AC67B24832B",
+        "raw_bytes": 1843200,
+        "source_y_sha256": "380BF40EDFF4C606AA64330A26C24D8B251DEAB767313948C9AFD6977962F290",
+        "ccl": {
+          "provisional_labels": 63,
+          "overflow": false,
+          "count": 1,
+          "bbox": [
+            56,
+            136,
+            960,
+            528
+          ],
+          "border_touch": false
+        },
+        "ccl_box": [
+          56,
+          136,
+          960,
+          528
+        ],
+        "roi_box": [
+          56,
+          136,
+          960,
+          528
+        ],
+        "gate": "VALID",
+        "gate_reasons": [],
+        "dataset_index": 836,
+        "roi_sha256": "DD344840241823A93CE96D2BDBD359E2614B5D4DE72E9D136B222CDDD5E77DBD"
+      },
+      "core_case": 14,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -419,
+        221
+      ],
+      "score": 221,
+      "margin": 640,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        23547,
+        105316,
+        107174
+      ]
+    },
+    {
+      "name": "synthetic_black",
+      "core_case": 15,
+      "class_id": 0,
+      "class": "GOOD",
+      "logits": [
+        150,
+        -518
+      ],
+      "score": 150,
+      "margin": 668,
+      "status": "PASS",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        10501,
+        89769,
+        132589
+      ]
+    },
+    {
+      "name": "synthetic_gray128",
+      "core_case": 16,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -796,
+        764
+      ],
+      "score": 255,
+      "margin": 1560,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        16388,
+        43586,
+        203745
+      ]
+    },
+    {
+      "name": "synthetic_white",
+      "core_case": 17,
+      "class_id": 1,
+      "class": "BAD",
+      "logits": [
+        -1508,
+        1529
+      ],
+      "score": 255,
+      "margin": 3037,
+      "status": "FAIL",
+      "activation_saturations": 0,
+      "max_abs_accumulators": [
+        31755,
+        67192,
+        391574
+      ]
+    }
+  ],
+  "model_hashes": {
+    "weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+    "biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0"
+  },
+  "reference": "int64 conv/infer called with explicit new model arrays; old freeze loader not called"
+}

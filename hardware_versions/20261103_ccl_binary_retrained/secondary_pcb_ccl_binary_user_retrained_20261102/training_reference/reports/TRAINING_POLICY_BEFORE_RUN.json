@@ -1,0 +1,34 @@
+{
+  "allowed_roots": [
+    "D:/ai/1/0/",
+    "D:/ai/1/8/1/"
+  ],
+  "init": "Scratch, no old-model initialization",
+  "seeds": [
+    20261102,
+    20261103
+  ],
+  "epochs": 120,
+  "float_warmup_epochs": 25,
+  "QAT": true,
+  "shifts": [
+    7,
+    7,
+    8
+  ],
+  "architecture": "C4/C4/FC2,308+10",
+  "input": "Direct source Y8,96x96,original CCL bbox x1.00; no RGB conversion,normalization or orientation correction",
+  "balanced_sampling": "Equal aggregate class weight, equal domain/subtype within class",
+  "augmentation": "Train-only Y gain0.94..1.06,offset+-6,noise0.6;35% clean; no geometry transforms",
+  "split": "Prepared contiguous20-frame blocks with two-frame boundary guards",
+  "training_dtype": "float64; exact dyadic QAT coefficients and integer-floor forward",
+  "checkpoint_selection": "Validation mean group accepted utility:correct-2*wrong-.25*review; no test selection",
+  "seed_selection": "Same validation utility after candidates frozen; test evaluated once after selection",
+  "confidence_margin_min": 32,
+  "model_provenance": "No existing model weights used for optimization",
+  "script_sha256": "5E4F9C743C8629E963EC9F7F8489CCE851110DB29F8C17AF7DB4A4D0B0F00094",
+  "dataset_sha256": "6A4ECE2F4701BD1F801AE8EAAE8649DA0CDD8BE9EBFFBAFA3F915EC750336FF8",
+  "manifest_sha256": "DDDD5FC2FCAAD28D52EA6600906923FE72AB980D1CC424635622937CC058F545",
+  "hardware": "NOT_RUN",
+  "limitations": "Previously observed captures of limited physical boards; grouped test is not independent new captures"
+}

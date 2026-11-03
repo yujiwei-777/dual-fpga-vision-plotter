@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SELECTED_MEM_CHECKPOINT_QAT_INTEGER_EXACT",
+  "cases": 21,
+  "real_source_cases": 15,
+  "synthetic_cases": 6,
+  "selected_seed": 20261103,
+  "model_hashes": {
+    "weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+    "biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0"
+  },
+  "layers": [
+    "conv1",
+    "conv2",
+    "pool",
+    "logits"
+  ],
+  "bias_scale": [
+    16384,
+    16384,
+    32768
+  ],
+  "weight_scale": [
+    128,
+    128,
+    256
+  ],
+  "RTL": "PREPARED_NOT_RUN",
+  "hardware": "NOT_RUN",
+  "limitations": [
+    "Numerical exactness is not defect accuracy or independent capture generalization.",
+    "Existing CCL crop120 RTL adapter is not claimed equal to the newly trained crop100 input contract."
+  ]
+}

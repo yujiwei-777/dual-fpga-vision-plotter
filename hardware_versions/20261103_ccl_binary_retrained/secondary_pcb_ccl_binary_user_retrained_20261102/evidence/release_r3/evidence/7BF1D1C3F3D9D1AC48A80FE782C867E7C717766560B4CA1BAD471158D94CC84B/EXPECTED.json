@@ -1,0 +1,45 @@
+{
+  "name": "real_09_older_missing_pad",
+  "ccl": {
+    "provisional_labels": 137,
+    "overflow": false,
+    "truncated": false,
+    "count": 1,
+    "eligible_components": [
+      {
+        "area": 6358,
+        "first": 2106,
+        "grid_box": [
+          22,
+          13,
+          150,
+          72
+        ]
+      }
+    ],
+    "top4": [
+      {
+        "area": 6358,
+        "first": 2106,
+        "grid_box": [
+          22,
+          13,
+          150,
+          72
+        ]
+      }
+    ]
+  },
+  "valid": true,
+  "bbox": [
+    176,
+    104,
+    1200,
+    576
+  ],
+  "status": 1,
+  "score": 134,
+  "margin": 433,
+  "class_id": 1,
+  "core_case": 9
+}

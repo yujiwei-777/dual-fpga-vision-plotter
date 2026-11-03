@@ -1,0 +1,8362 @@
+[
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 77,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 77,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 76,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 76,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 51,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 48,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "rotation",
+    "angle": -2,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34008,
+    "group": "rotation",
+    "angle": 2,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 52,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 52,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 37,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "rotation",
+    "angle": -2,
+    "score": 48,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34014,
+    "group": "rotation",
+    "angle": 2,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "rotation",
+    "angle": -2,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34021,
+    "group": "rotation",
+    "angle": 2,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 78,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 78,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "rotation",
+    "angle": -2,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34027,
+    "group": "rotation",
+    "angle": 2,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 86,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 86,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 75,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "rotation",
+    "angle": -2,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34034,
+    "group": "rotation",
+    "angle": 2,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 4,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 4,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 4,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "rotation",
+    "angle": -2,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34040,
+    "group": "rotation",
+    "angle": 2,
+    "score": 4,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "rotation",
+    "angle": -2,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34046,
+    "group": "rotation",
+    "angle": 2,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 73,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 73,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 67,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "rotation",
+    "angle": -2,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34070,
+    "group": "rotation",
+    "angle": 2,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 35,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 35,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 69,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 69,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 70,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 78,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "rotation",
+    "angle": -2,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34077,
+    "group": "rotation",
+    "angle": 2,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 77,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 77,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 68,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 68,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 77,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 100,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "rotation",
+    "angle": -2,
+    "score": 70,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34083,
+    "group": "rotation",
+    "angle": 2,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 75,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 75,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 25,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "rotation",
+    "angle": -2,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34090,
+    "group": "rotation",
+    "angle": 2,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 53,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 53,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 94,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 94,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "rotation",
+    "angle": -2,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34237,
+    "group": "rotation",
+    "angle": 2,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 49,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 49,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 92,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 92,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "rotation",
+    "angle": -2,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34243,
+    "group": "rotation",
+    "angle": 2,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 37,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 37,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 59,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 59,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "rotation",
+    "angle": -2,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34249,
+    "group": "rotation",
+    "angle": 2,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 50,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 50,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 89,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 89,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "rotation",
+    "angle": -2,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34255,
+    "group": "rotation",
+    "angle": 2,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 85,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 85,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "rotation",
+    "angle": -2,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34261,
+    "group": "rotation",
+    "angle": 2,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 87,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 87,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "rotation",
+    "angle": -2,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34267,
+    "group": "rotation",
+    "angle": 2,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 53,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 53,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 78,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 78,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 48,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 48,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 63,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 63,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "rotation",
+    "angle": -2,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34273,
+    "group": "rotation",
+    "angle": 2,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 49,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 49,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 37,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 37,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 79,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 79,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 77,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 77,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 85,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 85,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 35,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "rotation",
+    "angle": -2,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34279,
+    "group": "rotation",
+    "angle": 2,
+    "score": 37,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 51,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 51,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 74,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 74,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 91,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 91,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 54,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "rotation",
+    "angle": -2,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34285,
+    "group": "rotation",
+    "angle": 2,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "rotation",
+    "angle": -2,
+    "score": 62,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34291,
+    "group": "rotation",
+    "angle": 2,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 73,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 73,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 4,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "rotation",
+    "angle": -2,
+    "score": 72,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34297,
+    "group": "rotation",
+    "angle": 2,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 80,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 80,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 62,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 62,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 49,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "rotation",
+    "angle": -2,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34303,
+    "group": "rotation",
+    "angle": 2,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 76,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 76,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 69,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 69,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 56,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "rotation",
+    "angle": -2,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34309,
+    "group": "rotation",
+    "angle": 2,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 48,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 48,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 75,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 75,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 72,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 72,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 83,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 52,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "rotation",
+    "angle": -2,
+    "score": 67,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34315,
+    "group": "rotation",
+    "angle": 2,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 50,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 50,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 52,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 52,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 53,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 53,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 85,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 85,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 78,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 78,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 90,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 90,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 88,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 88,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 87,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 65,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "rotation",
+    "angle": -2,
+    "score": 74,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34321,
+    "group": "rotation",
+    "angle": 2,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 52,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 52,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 51,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 51,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 83,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 83,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 65,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 65,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 102,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 70,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "rotation",
+    "angle": -2,
+    "score": 64,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34327,
+    "group": "rotation",
+    "angle": 2,
+    "score": 25,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 35,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 35,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 35,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 35,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 77,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 77,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 73,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "rotation",
+    "angle": -2,
+    "score": 49,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34333,
+    "group": "rotation",
+    "angle": 2,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 54,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 54,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 75,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "rotation",
+    "angle": -2,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34478,
+    "group": "rotation",
+    "angle": 2,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 2,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 83,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 83,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 25,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "rotation",
+    "angle": -2,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34484,
+    "group": "rotation",
+    "angle": 2,
+    "score": 3,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 79,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 79,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 65,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 65,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "rotation",
+    "angle": -2,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34491,
+    "group": "rotation",
+    "angle": 2,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 87,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 87,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 82,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "rotation",
+    "angle": -2,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34497,
+    "group": "rotation",
+    "angle": 2,
+    "score": 25,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 84,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 64,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 64,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 87,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "rotation",
+    "angle": -2,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34503,
+    "group": "rotation",
+    "angle": 2,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 90,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 90,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 66,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 66,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 72,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 70,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "rotation",
+    "angle": -2,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34509,
+    "group": "rotation",
+    "angle": 2,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 64,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 64,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 86,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 79,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "rotation",
+    "angle": -2,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34516,
+    "group": "rotation",
+    "angle": 2,
+    "score": 45,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 80,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 80,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 54,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 54,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 74,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 92,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "rotation",
+    "angle": -2,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34522,
+    "group": "rotation",
+    "angle": 2,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 35,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 35,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 50,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 50,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 83,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 83,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 66,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "rotation",
+    "angle": -2,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34528,
+    "group": "rotation",
+    "angle": 2,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 56,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 56,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 76,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 76,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 31,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 54,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 54,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 17,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 101,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 75,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 53,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "rotation",
+    "angle": -2,
+    "score": 54,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34534,
+    "group": "rotation",
+    "angle": 2,
+    "score": 76,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 18,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 58,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 58,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 81,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 14,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 11,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 78,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 67,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 50,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "rotation",
+    "angle": -2,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34540,
+    "group": "rotation",
+    "angle": 2,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 33,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 92,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 92,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 5,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "rotation",
+    "angle": -2,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34546,
+    "group": "rotation",
+    "angle": 2,
+    "score": 4,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 9,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 30,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 26,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 72,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 72,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 4,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 4,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 41,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 15,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 37,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "rotation",
+    "angle": -2,
+    "score": 27,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34552,
+    "group": "rotation",
+    "angle": 2,
+    "score": 10,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 23,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 28,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 37,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 37,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 43,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 85,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 85,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 58,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 58,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 12,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 42,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "rotation",
+    "angle": -2,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34558,
+    "group": "rotation",
+    "angle": 2,
+    "score": 7,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 19,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 24,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 25,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 25,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 44,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 39,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 83,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 83,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 34,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 51,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 51,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 32,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 47,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "rotation",
+    "angle": -2,
+    "score": 22,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34564,
+    "group": "rotation",
+    "angle": 2,
+    "score": 13,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": false,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "identity",
+    "synthetic_flip180": true,
+    "score": 21,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": false,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "brightness_minus8",
+    "synthetic_flip180": true,
+    "score": 36,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": false,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "brightness_plus8",
+    "synthetic_flip180": true,
+    "score": 16,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": false,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain90",
+    "synthetic_flip180": true,
+    "score": 40,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": false,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain110",
+    "synthetic_flip180": true,
+    "score": 29,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": false,
+    "score": 80,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain90_minus8",
+    "synthetic_flip180": true,
+    "score": 80,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": false,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain90_plus8",
+    "synthetic_flip180": true,
+    "score": 6,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": false,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain110_minus8",
+    "synthetic_flip180": true,
+    "score": 38,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": false,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "photo_and_orientation",
+    "view": "gain110_plus8",
+    "synthetic_flip180": true,
+    "score": 55,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "translation",
+    "dx": -1,
+    "dy": 0,
+    "score": 46,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "translation",
+    "dx": 1,
+    "dy": 0,
+    "score": 72,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "translation",
+    "dx": 0,
+    "dy": -1,
+    "score": 8,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "translation",
+    "dx": 0,
+    "dy": 1,
+    "score": 53,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "rotation",
+    "angle": -2,
+    "score": 20,
+    "decision": "PASS"
+  },
+  {
+    "frame_id": 34570,
+    "group": "rotation",
+    "angle": 2,
+    "score": 20,
+    "decision": "PASS"
+  }
+]

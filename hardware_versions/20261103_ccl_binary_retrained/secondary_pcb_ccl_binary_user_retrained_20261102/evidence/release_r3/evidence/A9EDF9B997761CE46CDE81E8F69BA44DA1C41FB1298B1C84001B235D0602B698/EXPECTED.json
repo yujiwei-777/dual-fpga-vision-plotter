@@ -1,0 +1,45 @@
+{
+  "name": "real_00_current_good",
+  "ccl": {
+    "provisional_labels": 39,
+    "overflow": false,
+    "truncated": false,
+    "count": 1,
+    "eligible_components": [
+      {
+        "area": 4456,
+        "first": 3873,
+        "grid_box": [
+          13,
+          24,
+          133,
+          67
+        ]
+      }
+    ],
+    "top4": [
+      {
+        "area": 4456,
+        "first": 3873,
+        "grid_box": [
+          13,
+          24,
+          133,
+          67
+        ]
+      }
+    ]
+  },
+  "valid": true,
+  "bbox": [
+    104,
+    192,
+    1064,
+    536
+  ],
+  "status": 1,
+  "score": 0,
+  "margin": 60,
+  "class_id": 1,
+  "core_case": 0
+}

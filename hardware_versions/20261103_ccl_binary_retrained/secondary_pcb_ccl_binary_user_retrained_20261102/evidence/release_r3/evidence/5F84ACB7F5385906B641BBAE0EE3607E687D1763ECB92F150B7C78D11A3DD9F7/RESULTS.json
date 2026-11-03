@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-02T15:13:35.236650+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\RUNNER_AT_EXECUTION.py": "277BEE495630E30B3AED8850CBC81AFA062CE64E198B1B733E21D4C125B9714B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\secondary_top.v": "432CE427595A2D2E9790DB4CDD7E513EE7A2C22E16C334995E7FCCFAA0B29862",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\pose7_top_control_probe.v": "5BC43D74708C024E45B0877C64F142267986C641493986BD9A767903681BFDD5",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\control_checks\\tb_pose7_top_control.v": "51549860FEBC8C10AB9D3167EE3FED8AEF82F45A19BCFA3B00222EE101DB570F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\current_top_control_probe.sv": "06A5F204A66024378F5CCA232690DC544D7A2CBA1F529A10386F5AC752B4360F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\tb_pose7_top_control.v": "51549860FEBC8C10AB9D3167EE3FED8AEF82F45A19BCFA3B00222EE101DB570F",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_stability_20261026\\shared\\tests\\tb_grbl_key1_job_guard.sv": "9BAD8FCEAC6083AC25CEDA0C3B71E0F384FAE68F948E16D84EE11D5D0653BB23",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\tb_grbl_key1_job_guard.sv": "9BAD8FCEAC6083AC25CEDA0C3B71E0F384FAE68F948E16D84EE11D5D0653BB23"
+  },
+  "commands": [
+    {
+      "label": "top_control_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\top_control_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\top_control_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "top_control_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\top_control_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\current_top_control_probe.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\tb_pose7_top_control.v"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\top_control_lint.log",
+      "log_sha256": "278AFDD5A9B64D31745815677E8825C6104F47C945D9BADE4CDA7E14EEB39C23",
+      "warnings": []
+    },
+    {
+      "label": "top_control_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "top_control_lib",
+        "tb_pose7_top_control",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\top_control_simulation.log",
+      "log_sha256": "9AF1E438ADE981FF813A3428035A4401F79BD5BBF114400579EE6C093077B719",
+      "warnings": []
+    },
+    {
+      "label": "key1_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\key1_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\key1_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "key1_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\key1_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\01_rtl\\secondary_top.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\tb_grbl_key1_job_guard.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\key1_lint.log",
+      "log_sha256": "000940235D8C514284D10E70B9678E3737B1F554FF74F16814B8BE25A5C7C769",
+      "warnings": []
+    },
+    {
+      "label": "key1_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "key1_lib",
+        "tb_grbl_key1_job_guard",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\controls\\key1_simulation.log",
+      "log_sha256": "B47965286E8D2897C8173A5E2AAEDBE0195D657A49F61B212498EB591FBF7D9D",
+      "warnings": []
+    }
+  ],
+  "scope": [
+    {
+      "test": "source-extracted current top ownership/cancel/accepted task protection",
+      "records": [
+        "POSE7_TOP_CONTROL_PASS checks=50"
+      ]
+    },
+    {
+      "test": "current real local KEY1 guard",
+      "records": [
+        "PASS KEY1 job guard: accept protection, network-independent hold, done/error/cancel release"
+      ]
+    }
+  ],
+  "limitations": [
+    "Source-extracted top predicates are not full top elaboration; packet cancellation and shared transport use separate suites."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

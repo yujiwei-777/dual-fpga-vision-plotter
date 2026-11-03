@@ -1,0 +1,89 @@
+# 
+# do run.do
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 23:09:31 on Nov 02,2026
+# vlog -modelsimini D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/binary_validation_compat/pipeline/run_20261102T150930_469348Z/modelsim.ini -sv "+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/binary_validation_compat/pipeline/run_20261102T150930_469348Z" E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/vision_pipeline.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/edge_roi_ccl_shared_pcb_candidate.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/vision_ccl_pcb_candidate.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/pcb_ccl_binary_core.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/pcb_fullboard_spatial96.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/cnn_core.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/vision_workspace_goodonly.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/vision_shared_mac.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/cnn_result_stabilizer.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/vision_color_stats.v E:/codex_pcb_binary_ccl_retrained_20261102_r2/01_rtl/vision_pixel_reader.v D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/binary_validation_compat/pipeline/run_20261102T150930_469348Z/tb_binary_fullpipeline.sv 
+# -- Compiling module vision_pipeline
+# -- Compiling module edge_roi_ccl_shared_pcb_candidate
+# -- Compiling module vision_ccl_pcb_candidate
+# -- Compiling module pcb_ccl_binary_core
+# -- Compiling module pcb_fullboard_spatial96
+# -- Compiling module cnn_core
+# -- Compiling module vision_workspace_goodonly
+# -- Compiling module vision_shared_mac
+# -- Compiling module cnn_result_stabilizer
+# -- Compiling module vision_color_stats
+# -- Compiling module vision_pixel_reader
+# -- Compiling module tb_binary_fullpipeline
+# 
+# Top level modules:
+# 	tb_binary_fullpipeline
+# End time: 23:09:31 on Nov 02,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -modelsimini D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/binary_validation_compat/pipeline/run_20261102T150930_469348Z/modelsim.ini -voptargs="+acc" work.tb_binary_fullpipeline "+FIXTURES=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/binary_validation_compat/pipeline_fixtures" 
+# Start time: 23:09:30 on Nov 02,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "vision_pipeline(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "cnn_result_stabilizer(fast)".
+# ** Note: (vopt-143) Recognized 2 FSMs in module "pcb_fullboard_spatial96(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "cnn_core(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "vision_ccl_pcb_candidate(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "vision_color_stats(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "pcb_ccl_binary_core(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "edge_roi_ccl_shared_pcb_candidate(fast)".
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_binary_fullpipeline(fast)
+# Loading work.vision_pipeline(fast)
+# Loading work.vision_color_stats(fast)
+# Loading work.edge_roi_ccl_shared_pcb_candidate(fast)
+# Loading work.vision_ccl_pcb_candidate(fast)
+# Loading work.cnn_core(fast)
+# Loading work.pcb_ccl_binary_core(fast)
+# Loading work.pcb_fullboard_spatial96(fast)
+# Loading work.vision_shared_mac(fast)
+# Loading work.vision_workspace_goodonly(fast)
+# Loading work.cnn_result_stabilizer(fast)
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=1 valid=1 ROI=9216 cycles=1277341
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_01_current_good status=0 valid=1 ROI=9216 cycles=1269833
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_02_current_good status=0 valid=1 ROI=9216 cycles=1256703
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_03_older_good status=0 valid=1 ROI=9216 cycles=1295534
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_04_older_good status=0 valid=1 ROI=9216 cycles=1303673
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_05_older_good status=0 valid=1 ROI=9216 cycles=1304894
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_06_missing_corner status=1 valid=1 ROI=9216 cycles=1269739
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_07_missing_corner status=1 valid=1 ROI=9216 cycles=1269243
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_08_missing_corner status=1 valid=1 ROI=9216 cycles=1296687
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_09_older_missing_pad status=1 valid=1 ROI=9216 cycles=1288180
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_10_older_missing_pad status=1 valid=1 ROI=9216 cycles=1297957
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_11_older_missing_pad status=1 valid=1 ROI=9216 cycles=1298671
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_12_current_missing_pad status=2 valid=1 ROI=9216 cycles=1269588
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_13_current_missing_pad status=1 valid=1 ROI=9216 cycles=1279347
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_14_current_missing_pad status=1 valid=1 ROI=9216 cycles=1271549
+# BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_blank status=2 valid=0 ROI=0 cycles=230581
+# BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_source_border status=2 valid=0 ROI=0 cycles=233779
+# BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_label_overflow status=2 valid=0 ROI=0 cycles=233126
+# BINARY_FULLPIPELINE_CANCEL_PASS mode=0
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=1 valid=1 ROI=9216 cycles=1277341
+# BINARY_FULLPIPELINE_CANCEL_PASS mode=1
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=1 valid=1 ROI=9216 cycles=1277341
+# BINARY_FULLPIPELINE_CANCEL_PASS mode=2
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=1 valid=1 ROI=9216 cycles=1277341
+# BINARY_FULLPIPELINE_ORDINARY_EMPTY_PASS
+# BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=1 valid=1 ROI=9216 cycles=1277341
+# BINARY_FULLPIPELINE_GOLDEN_PASS frames=22 cancels=3
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_ccl_binary_user_retrained_20261102/reports/retrained/binary_validation_compat/pipeline/run_20261102T150930_469348Z/tb_binary_fullpipeline.sv(130)
+#    Time: 210926416 ns  Iteration: 1  Instance: /tb_binary_fullpipeline
+# End time: 23:10:44 on Nov 02,2026, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 0

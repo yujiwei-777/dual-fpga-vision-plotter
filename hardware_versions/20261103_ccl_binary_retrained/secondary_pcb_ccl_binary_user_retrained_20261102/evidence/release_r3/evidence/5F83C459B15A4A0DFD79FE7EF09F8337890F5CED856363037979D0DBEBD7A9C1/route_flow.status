@@ -1,0 +1,23 @@
+Location         : E:\codex_pcb_binary_ccl_retrained_20261102_r3\runs\phy_1
+Running with     : Tang Dynasty Release_2026.1_SP2
+                   Copyright (c) 2012-2026 Anlogic Inc.
+Top Model        : secondary_top
+Device           : PH1P35MDG324
+Speed            : 3
+
+Timing Mode      : final
+Setup            : WNS     5ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS    20ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+---------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+---------------------------------------------------------------------------------------------------
+      route      |    1     |  2m26s(86%)  |    58(96%)    |       2765        |       3302        
+    fix_hold     |    1     |   20s(11%)   |     2(3%)     |       2880        |       3302        
+    import_db    |    1     |    2s(1%)    |     0(0%)     |        963        |       1008        
+  import_device  |    1     |    1s(0%)    |     0(0%)     |        329        |        363        
+    read_sdc     |    10    |    0s(0%)    |     0(0%)     |       2768        |       3302        
+---------------------------------------------------------------------------------------------------
+      total      |    14    |    2m49s     |      60       |       2880        |       3302        
+---------------------------------------------------------------------------------------------------

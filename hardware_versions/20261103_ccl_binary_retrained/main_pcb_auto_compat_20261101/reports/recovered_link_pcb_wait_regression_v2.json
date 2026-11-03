@@ -1,0 +1,50 @@
+{
+  "generated_utc": "2026-11-01T14:42:34.825502+00:00",
+  "passed": true,
+  "simulator": "ModelSim SE-64 2020.4",
+  "launch": "vsim -batch",
+  "process_exit_code": 0,
+  "clock_hz_parameter": 5000000,
+  "simulation_time_ns": 2584001955,
+  "emulated_elapsed_ms": 51680,
+  "full_frames": 5,
+  "data_packets": 6400,
+  "heartbeats": 188,
+  "result_acks": 3,
+  "cancels": 5,
+  "max_wait_heartbeat_gap_ms": 250,
+  "pcb_timeout_measured_ms": 30000,
+  "ordinary_timeout_measured_ms": 2000,
+  "sha256": {
+    "01_rtl/imgq_gain_m/shared/rtl/hxa_main_link.v": "60362844CDEDF666F75C2B5019405C2844D6EEEA1A0F8C4F03F220DC7C1FB740",
+    "01_rtl/imgq_gain_m/shared/rtl/hxa_packet_codec.v": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+    "02_sim/link_pcb_wait_v2/tb_link_pcb_wait.sv": "883A3EA4D70BA75F474556EA9FDC382614FF4E6EC5150D5D4DDA619D2280E96F",
+    "02_sim/link_pcb_wait_v2/run.ps1": "031DF66D9F7ACD01BA41FD922C7AE29248D101376609E92F3BEF1E800659BEC3",
+    "02_sim/link_pcb_wait_v2/compile.log": "CDE2D4EACB188194441486E184E053DA13B6246D0C620922289EF398A2F9A6E8",
+    "02_sim/link_pcb_wait_v2/transcript_batch_final.log": "3586F73DCEA62482001B554B9D5955B5AF15F9CF6CEE00550AAC1B5DE1B0F2E5"
+  },
+  "coverage": [
+    "11 second valid PCB wait without reconnect, capture or job identity change",
+    "250ms heartbeat with real packet RX/TX and immutable session/frame/job",
+    "wrong session/frame/job Type8 not committed",
+    "valid Type8 actual coordinates and one result commit",
+    "duplicate completed Type8 ACK without re-inference",
+    "old task Type8 repeated while new PCB waits: cached ACK does not reset timer",
+    "PCB 29999ms no cancellation; 30000ms wire CANCEL reason 12",
+    "ordinary CNN retains 2000ms wire CANCEL reason 12",
+    "mode change CANCEL wire reason 5",
+    "3 second no peer heartbeat CANCEL wire reason 4"
+  ],
+  "limitations": [
+    "Uses full 1280x1440B frame and packet codec, behavioral snapshot/UDP peer, real tick_ms; no hierarchical forces or reduced packet count.",
+    "5MHz CLK_HZ and 1 cycle packet gap accelerate test while preserving timers and frame format.",
+    "Physical CDC, DDR memory, sensor, Ethernet PHY, and real secondary inference latency need separate validation.",
+    "Earlier interactive -c tests passed RTL but exited with local HTTP/RPC/vish teardown error; raw logs retained, final -batch run completed exit 0."
+  ],
+  "timer_implementation": "independent 15-bit downcounter; active is reduction OR, not a flip-flop",
+  "remaining_after_11_seconds": 19000,
+  "cached_ack_remaining_before": 25000,
+  "cached_ack_remaining_after": 25000,
+  "previous_attempt": "02_sim/link_pcb_wait/attempt1",
+  "test_directory": "02_sim/link_pcb_wait_v2"
+}

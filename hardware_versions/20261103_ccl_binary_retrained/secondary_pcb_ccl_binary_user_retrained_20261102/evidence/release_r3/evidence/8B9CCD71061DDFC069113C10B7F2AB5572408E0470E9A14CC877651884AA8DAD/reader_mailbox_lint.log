@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 23:13:35 on Nov 02,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\reader\reader_mailbox_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\01_rtl\vision_pixel_reader.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\01_rtl\hxa_ddr_store.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\reader\top_read_route_probe.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\reader\hxa_read_route_probe.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_ccl_binary_user_retrained_20261102\reports\retrained\regressions\preserved_compat\reader\tb_reader.sv 
+-- Compiling module vision_pixel_reader
+-- Compiling module hxa_ddr_store
+-- Compiling module pose7_read_route_probe
+-- Compiling module pose7_hxa_read_route_probe
+-- Compiling module tb_pose7_real_reader
+
+Top level modules:
+	tb_pose7_real_reader
+End time: 23:13:35 on Nov 02,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

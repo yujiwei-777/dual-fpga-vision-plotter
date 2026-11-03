@@ -1,0 +1,131 @@
+{
+  "seed": 20261102,
+  "selection_key": [
+    0.8825851393188856,
+    -0.11764705882352941,
+    -0.016408668730650156
+  ],
+  "validation": {
+    "ALL": {
+      "n": 286,
+      "correct": 273,
+      "accuracy": 0.9545454545454546,
+      "GOOD": {
+        "n": 165,
+        "PASS": 154,
+        "REVIEW": 6,
+        "FAIL": 5
+      },
+      "BAD": {
+        "n": 121,
+        "PASS": 4,
+        "REVIEW": 1,
+        "FAIL": 116
+      },
+      "margin_min": 1,
+      "margin_median": 793.5
+    },
+    "groups": {
+      "current20261102/GOOD": {
+        "n": 114,
+        "correct": 105,
+        "accuracy": 0.9210526315789473,
+        "GOOD": {
+          "n": 114,
+          "PASS": 103,
+          "REVIEW": 6,
+          "FAIL": 5
+        },
+        "BAD": {
+          "n": 0,
+          "PASS": 0,
+          "REVIEW": 0,
+          "FAIL": 0
+        },
+        "margin_min": 1,
+        "margin_median": 703.0
+      },
+      "new20261029/GOOD": {
+        "n": 51,
+        "correct": 51,
+        "accuracy": 1.0,
+        "GOOD": {
+          "n": 51,
+          "PASS": 51,
+          "REVIEW": 0,
+          "FAIL": 0
+        },
+        "BAD": {
+          "n": 0,
+          "PASS": 0,
+          "REVIEW": 0,
+          "FAIL": 0
+        },
+        "margin_min": 468,
+        "margin_median": 805.0
+      },
+      "new20261029/MISSING_CORNER": {
+        "n": 41,
+        "correct": 41,
+        "accuracy": 1.0,
+        "GOOD": {
+          "n": 0,
+          "PASS": 0,
+          "REVIEW": 0,
+          "FAIL": 0
+        },
+        "BAD": {
+          "n": 41,
+          "PASS": 0,
+          "REVIEW": 0,
+          "FAIL": 41
+        },
+        "margin_min": 466,
+        "margin_median": 901.0
+      },
+      "new20261029/MISSING_PAD": {
+        "n": 46,
+        "correct": 46,
+        "accuracy": 1.0,
+        "GOOD": {
+          "n": 0,
+          "PASS": 0,
+          "REVIEW": 0,
+          "FAIL": 0
+        },
+        "BAD": {
+          "n": 46,
+          "PASS": 0,
+          "REVIEW": 0,
+          "FAIL": 46
+        },
+        "margin_min": 587,
+        "margin_median": 1004.0
+      },
+      "new_missing_pad_20261102/MISSING_PAD": {
+        "n": 34,
+        "correct": 30,
+        "accuracy": 0.8823529411764706,
+        "GOOD": {
+          "n": 0,
+          "PASS": 0,
+          "REVIEW": 0,
+          "FAIL": 0
+        },
+        "BAD": {
+          "n": 34,
+          "PASS": 4,
+          "REVIEW": 1,
+          "FAIL": 29
+        },
+        "margin_min": 19,
+        "margin_median": 501.0
+      }
+    }
+  },
+  "model_hashes": {
+    "biases.mem": "79D0C101A8A418965A0D9F95C6D63AFDD7109B3AD51DD607C1945C318123D144",
+    "weights.mem": "41495CD51940D143A1440DF9530A8AC682145BEC2DBE6C2A9BD898C1C46CEABB"
+  },
+  "test_used_for_selection": false
+}

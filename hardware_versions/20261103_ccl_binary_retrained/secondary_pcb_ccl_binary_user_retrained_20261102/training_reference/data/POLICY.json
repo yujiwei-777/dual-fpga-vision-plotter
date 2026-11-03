@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "purpose": "PCB supervised binary retraining dataset preparation only; no training",
+  "allowed_roots": [
+    "D:/ai/1/0/",
+    "D:/ai/1/8/1/"
+  ],
+  "labels": [
+    {
+      "root": "D:/ai/1/0/1",
+      "truth": "MISSING_PAD",
+      "label": 1
+    },
+    {
+      "root": "D:/ai/1/0/2",
+      "truth": "GOOD",
+      "label": 0
+    },
+    {
+      "root": "D:/ai/1/0/de08d7322eef4609b468c9fa93a1b39b",
+      "truth": "MISSING_CORNER",
+      "label": 1
+    },
+    {
+      "root": "D:/ai/1/8/1/2",
+      "truth": "MISSING_PAD",
+      "label": 1
+    },
+    {
+      "root": "D:/ai/1/8/1/dff8edb30db143cd9cc9df11e729234c/3ec6043a95f54d5caa5fb0681ddcc101",
+      "truth": "GOOD",
+      "label": 0
+    }
+  ],
+  "label_source": "Explicit human folder labels; ignore ordinary CNN class annotations and capture purpose",
+  "expected_source_counts": [
+    214,
+    219,
+    209,
+    201,
+    651
+  ],
+  "source": {
+    "width": 1280,
+    "height": 720,
+    "format": "YUYV",
+    "Y_byte": 0,
+    "verify": [
+      "raw byte count",
+      "metadata SHA256",
+      "CRC32",
+      "transport error counters",
+      "prior frozen source SHA256",
+      "prior frozen source-Y SHA256"
+    ]
+  },
+  "ccl": {
+    "grid": [
+      160,
+      90
+    ],
+    "source_sample": "(8*x+4,8*y+4)",
+    "foreground": "source Y <= 112",
+    "connectivity": 4,
+    "max_provisional_labels": 510,
+    "area_min": 64,
+    "width_min": 8,
+    "height_min": 4,
+    "max_reciprocal_aspect": 5,
+    "density_gate": "area*12 >= bbox_area",
+    "choice": "largest area; first raster pixel tie break"
+  },
+  "roi": {
+    "expansion_numerator": 1,
+    "expansion_denominator": 1,
+    "box": "original CCL source half-open box",
+    "shape": [
+      96,
+      96
+    ],
+    "dtype": "uint8",
+    "input": "unsigned source Y8; no rotation or Y-128",
+    "x": "x0 + floor((2*u+1)*(x1-x0)/192), u=0..95",
+    "y": "y0 + floor((2*v+1)*(y1-y0)/192), v=0..95"
+  },
+  "gates": [
+    "ccl_overflow",
+    "no_candidate",
+    "source_border"
+  ],
+  "split": {
+    "capture_group": "resolved frame JSON parent directory",
+    "order": "frame_id, then normalized absolute source JSON path",
+    "block_size": 20,
+    "block_id": "zero-based index within capture_group // 20",
+    "block_roles": {
+      "0_mod_5": "validation",
+      "2_mod_5": "test",
+      "otherwise": "train"
+    },
+    "guard": "At every adjacent nominal-role transition, 2 frames before and 2 frames after become guard",
+    "split_codes": {
+      "train": 0,
+      "validation": 1,
+      "test": 2,
+      "guard": 3
+    },
+    "random_split": false,
+    "training_exclusions": [
+      "validation",
+      "test",
+      "guard",
+      "all gated records"
+    ]
+  },
+  "manifest": "Every approved source, including gates and guard; NPZ contains valid ROIs only",
+  "reference_path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_roi120_20261102\\tools\\binary_validation_reference.py",
+  "reference_sha256": "1CD31E64212DA9F1B7B69A99B05AFFE2A3725135966601E05F4D5C2AB633D6D6",
+  "prior_source_index": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_roi120_20261102\\reports\\binary_restore\\scale_sweep_user_only\\FRAMES_ALLOWED_SCALES.json",
+  "prior_source_index_sha256": "3F61C8B9E88E9C12D2A20C4781EC0AB09280227CA32EA8D319DC60D32CD2B652",
+  "preparation_script": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\pcb_ccl_binary_user_retrain_20261102\\tools\\prepare_dataset.py",
+  "preparation_script_sha256": "C144C295E7A8F7BE3E2CB922C775A4E037B785CEE0286824102A27024C6612EF",
+  "limitations": [
+    "Sources have been observed in prior development; block test is not independent new-session or new-board evaluation.",
+    "No model fitting, accuracy assertion, RTL validation, synthesis, bitgen or hardware testing is performed here.",
+    "CCL boundary gates are retained as REVIEW-source records and never fabricated as training images."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "all_dataset_logits_exact": 1450,
+  "dataset_role_counts": {
+    "validation": 286,
+    "guard": 220,
+    "train": 713,
+    "test": 231
+  },
+  "allowed_root_validation": "PASS_ALL_ELIGIBLE_IMAGES",
+  "roi_hashes_match_manifest": "PASS_ALL_ELIGIBLE_IMAGES",
+  "training_policy_hash_matches_actual_script": true,
+  "training_policy_hash_matches_dataset_and_manifest": true,
+  "selected_model_matches_before_test_freeze": true,
+  "selected_seed_is_best_validation_key": true,
+  "test_selection_code_review": "train_seed reads only train/validation for optimization and checkpoint metrics; main selects seeds from validation keys, writes SELECTION_BEFORE_TEST before full test replay",
+  "test_results_recomputed": {
+    "n": 231,
+    "correct": 222,
+    "accuracy": 0.961038961038961,
+    "GOOD": {
+      "n": 135,
+      "PASS": 132,
+      "REVIEW": 2,
+      "FAIL": 1
+    },
+    "BAD": {
+      "n": 96,
+      "PASS": 7,
+      "REVIEW": 1,
+      "FAIL": 88
+    },
+    "margin_min": 4,
+    "margin_median": 594.0
+  },
+  "seconds": 5.085083099984331,
+  "RTL": "NOT_RUN_BY_THIS_AUDIT",
+  "hardware": "NOT_RUN",
+  "limitations": [
+    "All captures were observed in prior development; blocked same-session splits do not prove new-board/background generalization.",
+    "This numerical audit does not resolve the seven BAD falsePASS results in grouped test."
+  ]
+}

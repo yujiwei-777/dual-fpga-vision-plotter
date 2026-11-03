@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "source_manifest_sha256": "31F6BE091C83865F4E2E5B1F5CA7EA82108F15654C023B7DB603EFD35D88375F",
+  "functional_ancestry_manifest_sha256": "92E737ED8B7D585AEAAC64346A130A2AA7A9F2077A70B14A8CE2D036506A57DB",
+  "execution": "REUSED_R2_ON_IDENTICAL_R3_SOURCES",
+  "source_sha256": {
+    "shared/rtl/hxa_packet_codec.v": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+    "shared/rtl/hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+    "shared/rtl/hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D"
+  },
+  "support": [
+    {
+      "reference": {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_ccl_binary_user_retrained_20261102\\reports\\retrained\\regressions\\preserved_compat\\hxa\\RESULTS.json",
+        "sha256": "F03EDECA5EDD299368A938BB91C23F42E1DAD3EC012711362B1600C6D3638D3F",
+        "status": "PASS",
+        "source_sha256": {
+          "shared/rtl/hxa_packet_codec.v": "10679B8709180D2CD84B31084AE924C098CD504681C4FFE150EA70A225F7551E",
+          "shared/rtl/hxa_packet_rx_fifo4.v": "187990FEF9A16A1CD74407FF426D3FD02B2129444F9A5364AB94DE41BF2EA979",
+          "shared/rtl/hxa_secondary_link.v": "E3381EF0BF6422456D04C4FBD0834CA786DFD42CF8DF734C8E62EB028A201A1D"
+        }
+      },
+      "scope": [
+        {
+          "test": "tb_pose7_fifo4",
+          "records": [
+            "POSE7_FIFO4_PASS: 41 payload/header/control checks, 11 expected rejected packets, 6 control events, 40us cadence"
+          ]
+        },
+        {
+          "test": "tb_pose7_hxa_crc_network",
+          "records": [
+            "POSE7_HXA_CASE_PASS name=bad_FRAME_BEGIN_packet_CRC",
+            "POSE7_HXA_CASE_PASS name=bad_FRAME_END_packet_CRC",
+            "POSE7_HXA_CASE_PASS name=complete_DDR_frame_bad_CRC",
+            "POSE7_HXA_CASE_PASS name=complete_DDR_frame_correct_CRC",
+            "POSE7_HXA_CASE_PASS name=ordinary_empty_Type11_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=ordinary_HXD1_Type11_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=PHY_drop_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=lease_expiry_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=HELLO_session_change_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=wrong_session_Type11_rejected",
+            "POSE7_HXA_CASE_PASS name=explicit_reason80_Type11_cancels",
+            "POSE7_HXA_BASELINE_LIMITATION explicit_reason80_authenticated_session_accepts_nonmatching_frame_ID=1",
+            "POSE7_HXA_CRC_NETWORK_PASS cases=11"
+          ]
+        }
+      ],
+      "limitations": [
+        "Frame DATA staging count is deposited; this does not validate all1280 fragment DMA writes. Actual CRC scans115200 DDR words.",
+        "Explicit Type11 reason80 checks session but baseline does not compare task/frame ID.",
+        "Behavioral DDR read model is not vendor PHY or physical CDC signoff."
+      ]
+    }
+  ],
+  "scope": "Actual packed RX FIFO behavioral regression.",
+  "hardware": "NOT_RUN"
+}

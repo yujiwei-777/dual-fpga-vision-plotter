@@ -1,0 +1,1446 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.6909626549162571,
+    "qat": false,
+    "seconds": 0.5262340000190306
+  },
+  {
+    "epoch": 10,
+    "loss": 0.4300284211407122,
+    "qat": false,
+    "seconds": 4.886447900003986
+  },
+  {
+    "epoch": 20,
+    "loss": 0.16565499430355143,
+    "qat": false,
+    "seconds": 8.0604527000105
+  },
+  {
+    "epoch": 26,
+    "loss": 0.12320860019650332,
+    "qat": true,
+    "seconds": 9.280529800016666,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 258,
+        "accuracy": 0.9020979020979021,
+        "GOOD": {
+          "n": 165,
+          "PASS": 138,
+          "REVIEW": 12,
+          "FAIL": 15
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 4,
+          "REVIEW": 8,
+          "FAIL": 109
+        },
+        "margin_min": 3,
+        "margin_median": 360.0
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 91,
+          "accuracy": 0.7982456140350878,
+          "GOOD": {
+            "n": 114,
+            "PASS": 87,
+            "REVIEW": 12,
+            "FAIL": 15
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 3,
+          "margin_median": 295.5
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 280,
+          "margin_median": 549.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 38,
+          "margin_median": 374.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 165,
+          "margin_median": 379.0
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 29,
+          "accuracy": 0.8529411764705882,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 4,
+            "REVIEW": 8,
+            "FAIL": 22
+          },
+          "margin_min": 4,
+          "margin_median": 125.0
+        }
+      }
+    },
+    "selection_key": [
+      0.7653250773993808,
+      -0.13157894736842105,
+      -0.06811145510835913
+    ],
+    "best": true
+  },
+  {
+    "epoch": 30,
+    "loss": 0.10228395025906548,
+    "qat": true,
+    "seconds": 10.195057700009784,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 261,
+        "accuracy": 0.9125874125874126,
+        "GOOD": {
+          "n": 165,
+          "PASS": 142,
+          "REVIEW": 12,
+          "FAIL": 11
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 5,
+          "REVIEW": 8,
+          "FAIL": 108
+        },
+        "margin_min": 5,
+        "margin_median": 412.0
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 97,
+          "accuracy": 0.8508771929824561,
+          "GOOD": {
+            "n": 114,
+            "PASS": 91,
+            "REVIEW": 12,
+            "FAIL": 11
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 5,
+          "margin_median": 361.0
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 319,
+          "margin_median": 612.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 1,
+            "FAIL": 40
+          },
+          "margin_min": 27,
+          "margin_median": 408.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 169,
+          "margin_median": 422.5
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 26,
+          "accuracy": 0.7647058823529411,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 5,
+            "REVIEW": 7,
+            "FAIL": 22
+          },
+          "margin_min": 5,
+          "margin_median": 135.5
+        }
+      }
+    },
+    "selection_key": [
+      0.7699860303556595,
+      -0.14705882352941177,
+      -0.06710715094767046
+    ],
+    "best": true
+  },
+  {
+    "epoch": 40,
+    "loss": 0.06623226131944647,
+    "qat": true,
+    "seconds": 12.279724899999565,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 263,
+        "accuracy": 0.9195804195804196,
+        "GOOD": {
+          "n": 165,
+          "PASS": 139,
+          "REVIEW": 10,
+          "FAIL": 16
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 2,
+          "REVIEW": 2,
+          "FAIL": 117
+        },
+        "margin_min": 1,
+        "margin_median": 484.5
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 94,
+          "accuracy": 0.8245614035087719,
+          "GOOD": {
+            "n": 114,
+            "PASS": 88,
+            "REVIEW": 10,
+            "FAIL": 16
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 1,
+          "margin_median": 402.0
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 319,
+          "margin_median": 639.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 79,
+          "margin_median": 538.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 234,
+          "margin_median": 567.5
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 31,
+          "accuracy": 0.9117647058823529,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 2,
+            "REVIEW": 2,
+            "FAIL": 30
+          },
+          "margin_min": 9,
+          "margin_median": 239.0
+        }
+      }
+    },
+    "selection_key": [
+      0.843859649122807,
+      -0.14035087719298245,
+      -0.02930856553147575
+    ],
+    "best": true
+  },
+  {
+    "epoch": 50,
+    "loss": 0.05549038388067086,
+    "qat": true,
+    "seconds": 14.357211599999573,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 272,
+        "accuracy": 0.951048951048951,
+        "GOOD": {
+          "n": 165,
+          "PASS": 151,
+          "REVIEW": 6,
+          "FAIL": 8
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 4,
+          "REVIEW": 3,
+          "FAIL": 114
+        },
+        "margin_min": 1,
+        "margin_median": 555.0
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 105,
+          "accuracy": 0.9210526315789473,
+          "GOOD": {
+            "n": 114,
+            "PASS": 100,
+            "REVIEW": 6,
+            "FAIL": 8
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 1,
+          "margin_median": 530.0
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 404,
+          "margin_median": 756.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 52,
+          "margin_median": 549.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 218,
+          "margin_median": 601.5
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 29,
+          "accuracy": 0.8529411764705882,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 4,
+            "REVIEW": 3,
+            "FAIL": 27
+          },
+          "margin_min": 7,
+          "margin_median": 220.0
+        }
+      }
+    },
+    "selection_key": [
+      0.8520897832817338,
+      -0.11764705882352941,
+      -0.0281733746130031
+    ],
+    "best": true
+  },
+  {
+    "epoch": 60,
+    "loss": 0.04855451026178403,
+    "qat": true,
+    "seconds": 16.511366100021405,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 264,
+        "accuracy": 0.9230769230769231,
+        "GOOD": {
+          "n": 165,
+          "PASS": 139,
+          "REVIEW": 9,
+          "FAIL": 17
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 0,
+          "REVIEW": 2,
+          "FAIL": 119
+        },
+        "margin_min": 1,
+        "margin_median": 579.5
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 93,
+          "accuracy": 0.8157894736842105,
+          "GOOD": {
+            "n": 114,
+            "PASS": 88,
+            "REVIEW": 9,
+            "FAIL": 17
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 1,
+          "margin_median": 469.5
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 287,
+          "margin_median": 668.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 195,
+          "margin_median": 710.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 372,
+          "margin_median": 788.5
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 33,
+          "accuracy": 0.9705882352941176,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 0,
+            "REVIEW": 2,
+            "FAIL": 32
+          },
+          "margin_min": 3,
+          "margin_median": 353.0
+        }
+      }
+    },
+    "selection_key": [
+      0.8760835913312693,
+      -0.14912280701754385,
+      -0.027554179566563464
+    ],
+    "best": true
+  },
+  {
+    "epoch": 70,
+    "loss": 0.03989628708332037,
+    "qat": true,
+    "seconds": 18.758131300011883,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 265,
+        "accuracy": 0.9265734265734266,
+        "GOOD": {
+          "n": 165,
+          "PASS": 140,
+          "REVIEW": 7,
+          "FAIL": 18
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 0,
+          "REVIEW": 2,
+          "FAIL": 119
+        },
+        "margin_min": 6,
+        "margin_median": 610.0
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 93,
+          "accuracy": 0.8157894736842105,
+          "GOOD": {
+            "n": 114,
+            "PASS": 89,
+            "REVIEW": 7,
+            "FAIL": 18
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 6,
+          "margin_median": 489.0
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 266,
+          "margin_median": 674.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 224,
+          "margin_median": 759.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 403,
+          "margin_median": 861.0
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 34,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 0,
+            "REVIEW": 2,
+            "FAIL": 32
+          },
+          "margin_min": 7,
+          "margin_median": 387.0
+        }
+      }
+    },
+    "selection_key": [
+      0.8752063983488132,
+      -0.15789473684210525,
+      -0.024045407636738906
+    ]
+  },
+  {
+    "epoch": 80,
+    "loss": 0.0385969354526532,
+    "qat": true,
+    "seconds": 21.056092400016496,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 270,
+        "accuracy": 0.9440559440559441,
+        "GOOD": {
+          "n": 165,
+          "PASS": 148,
+          "REVIEW": 6,
+          "FAIL": 11
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 1,
+          "REVIEW": 3,
+          "FAIL": 117
+        },
+        "margin_min": 3,
+        "margin_median": 644.0
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 100,
+          "accuracy": 0.8771929824561403,
+          "GOOD": {
+            "n": 114,
+            "PASS": 97,
+            "REVIEW": 6,
+            "FAIL": 11
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 7,
+          "margin_median": 569.0
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 354,
+          "margin_median": 768.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 174,
+          "margin_median": 712.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 365,
+          "margin_median": 813.0
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 32,
+          "accuracy": 0.9411764705882353,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 1,
+            "REVIEW": 3,
+            "FAIL": 30
+          },
+          "margin_min": 3,
+          "margin_median": 350.0
+        }
+      }
+    },
+    "selection_key": [
+      0.8892414860681115,
+      -0.09649122807017543,
+      -0.0281733746130031
+    ],
+    "best": true
+  },
+  {
+    "epoch": 90,
+    "loss": 0.03431751955234377,
+    "qat": true,
+    "seconds": 23.93286210001679,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 267,
+        "accuracy": 0.9335664335664335,
+        "GOOD": {
+          "n": 165,
+          "PASS": 147,
+          "REVIEW": 5,
+          "FAIL": 13
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 0,
+          "REVIEW": 3,
+          "FAIL": 118
+        },
+        "margin_min": 1,
+        "margin_median": 656.5
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 97,
+          "accuracy": 0.8508771929824561,
+          "GOOD": {
+            "n": 114,
+            "PASS": 96,
+            "REVIEW": 5,
+            "FAIL": 13
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 1,
+          "margin_median": 562.0
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 350,
+          "margin_median": 765.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 196,
+          "margin_median": 748.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 389,
+          "margin_median": 849.5
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 32,
+          "accuracy": 0.9411764705882353,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 0,
+            "REVIEW": 3,
+            "FAIL": 31
+          },
+          "margin_min": 2,
+          "margin_median": 387.5
+        }
+      }
+    },
+    "selection_key": [
+      0.8985552115583075,
+      -0.11403508771929824,
+      -0.026418988648090815
+    ],
+    "best": true
+  },
+  {
+    "epoch": 100,
+    "loss": 0.03414641249147536,
+    "qat": true,
+    "seconds": 27.683216800010996,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 271,
+        "accuracy": 0.9475524475524476,
+        "GOOD": {
+          "n": 165,
+          "PASS": 151,
+          "REVIEW": 4,
+          "FAIL": 10
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 2,
+          "REVIEW": 2,
+          "FAIL": 117
+        },
+        "margin_min": 5,
+        "margin_median": 669.5
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 103,
+          "accuracy": 0.9035087719298246,
+          "GOOD": {
+            "n": 114,
+            "PASS": 100,
+            "REVIEW": 4,
+            "FAIL": 10
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 5,
+          "margin_median": 620.0
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 405,
+          "margin_median": 830.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 138,
+          "margin_median": 699.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 337,
+          "margin_median": 800.0
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 30,
+          "accuracy": 0.8823529411764706,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 2,
+            "REVIEW": 2,
+            "FAIL": 30
+          },
+          "margin_min": 6,
+          "margin_median": 352.5
+        }
+      }
+    },
+    "selection_key": [
+      0.8885964912280702,
+      -0.08771929824561403,
+      -0.018782249742002065
+    ]
+  },
+  {
+    "epoch": 110,
+    "loss": 0.03424796839115204,
+    "qat": true,
+    "seconds": 32.63064160000067,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 271,
+        "accuracy": 0.9475524475524476,
+        "GOOD": {
+          "n": 165,
+          "PASS": 151,
+          "REVIEW": 4,
+          "FAIL": 10
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 2,
+          "REVIEW": 2,
+          "FAIL": 117
+        },
+        "margin_min": 5,
+        "margin_median": 678.0
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 103,
+          "accuracy": 0.9035087719298246,
+          "GOOD": {
+            "n": 114,
+            "PASS": 100,
+            "REVIEW": 4,
+            "FAIL": 10
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 5,
+          "margin_median": 622.0
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 416,
+          "margin_median": 837.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 144,
+          "margin_median": 706.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 341,
+          "margin_median": 807.0
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 30,
+          "accuracy": 0.8823529411764706,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 2,
+            "REVIEW": 2,
+            "FAIL": 30
+          },
+          "margin_min": 6,
+          "margin_median": 353.0
+        }
+      }
+    },
+    "selection_key": [
+      0.8885964912280702,
+      -0.08771929824561403,
+      -0.018782249742002065
+    ]
+  },
+  {
+    "epoch": 120,
+    "loss": 0.027110107050827958,
+    "qat": true,
+    "seconds": 37.37493059999542,
+    "validation": {
+      "ALL": {
+        "n": 286,
+        "correct": 267,
+        "accuracy": 0.9335664335664335,
+        "GOOD": {
+          "n": 165,
+          "PASS": 146,
+          "REVIEW": 6,
+          "FAIL": 13
+        },
+        "BAD": {
+          "n": 121,
+          "PASS": 0,
+          "REVIEW": 3,
+          "FAIL": 118
+        },
+        "margin_min": 0,
+        "margin_median": 670.0
+      },
+      "groups": {
+        "current20261102/GOOD": {
+          "n": 114,
+          "correct": 97,
+          "accuracy": 0.8508771929824561,
+          "GOOD": {
+            "n": 114,
+            "PASS": 95,
+            "REVIEW": 6,
+            "FAIL": 13
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 0,
+          "margin_median": 559.5
+        },
+        "new20261029/GOOD": {
+          "n": 51,
+          "correct": 51,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 51,
+            "PASS": 51,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "margin_min": 333,
+          "margin_median": 757.0
+        },
+        "new20261029/MISSING_CORNER": {
+          "n": 41,
+          "correct": 41,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 41,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 41
+          },
+          "margin_min": 229,
+          "margin_median": 781.0
+        },
+        "new20261029/MISSING_PAD": {
+          "n": 46,
+          "correct": 46,
+          "accuracy": 1.0,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 46,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 46
+          },
+          "margin_min": 415,
+          "margin_median": 898.5
+        },
+        "new_missing_pad_20261102/MISSING_PAD": {
+          "n": 34,
+          "correct": 32,
+          "accuracy": 0.9411764705882353,
+          "GOOD": {
+            "n": 0,
+            "PASS": 0,
+            "REVIEW": 0,
+            "FAIL": 0
+          },
+          "BAD": {
+            "n": 34,
+            "PASS": 0,
+            "REVIEW": 3,
+            "FAIL": 31
+          },
+          "margin_min": 1,
+          "margin_median": 404.0
+        }
+      }
+    },
+    "selection_key": [
+      0.8963622291021671,
+      -0.11403508771929824,
+      -0.0281733746130031
+    ]
+  }
+]

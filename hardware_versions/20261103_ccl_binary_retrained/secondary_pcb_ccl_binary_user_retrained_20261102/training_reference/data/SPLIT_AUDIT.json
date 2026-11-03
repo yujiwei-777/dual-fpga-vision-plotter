@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "capture_groups": 5,
+  "physical_blocks": 77,
+  "role_transitions": 58,
+  "unguarded_adjacent_split_violations": [],
+  "duplicate_raw_groups": [],
+  "cross_split_raw_duplicates": [],
+  "guard_records": 231
+}

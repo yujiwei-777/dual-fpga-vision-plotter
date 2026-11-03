@@ -1,0 +1,48 @@
+{
+  "shape_mode": "max_rgb",
+  "activation_fraction_bits": [
+    7,
+    5,
+    5
+  ],
+  "weight_fraction_bits": [
+    8,
+    8,
+    9
+  ],
+  "conv_shifts": [
+    10,
+    8
+  ],
+  "calibration_maxima": [
+    1.6145602464675903,
+    1.8778064250946045
+  ],
+  "calibration_source": "training_partition_only",
+  "fc_conf_shift": [
+    8,
+    8
+  ],
+  "shape_fc_logit_fraction_bits": 14,
+  "color_score_format": "unsigned19 channel SUM of RGB8>>1, no division",
+  "rounding": "floor(acc/2**shift+0.5)",
+  "activation_clamp": [
+    0,
+    127
+  ],
+  "flatten": "HWC",
+  "output_order": [
+    "red",
+    "green",
+    "blue",
+    "triangular_prism",
+    "cylinder",
+    "cuboid"
+  ],
+  "deployment_override": {
+    "shape_fc_conf_shift": 8,
+    "source_model_fc_conf_shift": 9,
+    "reason": "existing deployment gate calibration; weights unchanged"
+  },
+  "fc_conf_shift_policy": "Reviewed ordinary-CNN compatibility override: both color and shape margins are reported with right shift 8. This is a confidence display scale only; FC3 logits retain shape_fc_logit_fraction_bits=14 and weights are unchanged."
+}

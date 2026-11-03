@@ -1,0 +1,32 @@
+{
+  "status": "PASS_ALL_UNSIGNED_Y8_PREFIX_BOUNDS",
+  "conv1_abs_prefix": [
+    51906,
+    71486,
+    90915,
+    94906
+  ],
+  "conv2_abs_prefix": [
+    672416,
+    1472788,
+    1288469,
+    1149204
+  ],
+  "pool_operand_abs_bound": [
+    5909,
+    12944,
+    11324,
+    10100
+  ],
+  "head_abs_prefix": [
+    51408911,
+    52670732
+  ],
+  "logits_abs_bound": [
+    200816,
+    205745
+  ],
+  "accumulator_bits": 27,
+  "pool_MAC_operand_bits": 16,
+  "logit_bits": 20
+}

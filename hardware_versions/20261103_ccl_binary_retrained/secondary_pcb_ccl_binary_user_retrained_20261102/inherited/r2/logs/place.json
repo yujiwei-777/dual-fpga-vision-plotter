@@ -1,0 +1,21 @@
+{
+  "phase": "place",
+  "status": "FAILED_TOOL_INVOCATION",
+  "started_ns": 1793663636912677500,
+  "cwd": "E:\\codex_pcb_binary_ccl_retrained_20261102_r2\\runs\\phy_1",
+  "script": "run_place.tcl",
+  "script_sha256": "EC18F7507C310D0CAE98E4E797200B4BC083D134CFF52ED1D408D69EE1470FAF",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_place.tcl"
+  ],
+  "exit_code": 0,
+  "finished_ns": 1793663927028730300,
+  "log_sha256": "F8FD9C3889A1EE50EEFF5B2C5AB74239F8163E9E0E42343C06AD0CDD11F6AE3C",
+  "errors": [
+    "SECONDARY_CDC_MAPPING_ERROR place_end u_store/cal_sync_reg[0]_syn_2 REGA_SD requires IMA"
+  ],
+  "error_markers": [
+    "E:\\codex_pcb_binary_ccl_retrained_20261102_r2\\runs\\phy_1\\.opt_place.error.f"
+  ]
+}
