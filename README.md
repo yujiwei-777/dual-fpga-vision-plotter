@@ -10,9 +10,24 @@
 
 ## 系统结构
 
-![系统架构：主板采集与显示，副板识别及路径规划，经无线桥接驱动 GRBL 写字机](docs/assets/system-architecture.png)
+![系统总体框图：主板采集与显示，副板识别及路径规划，经无线桥接驱动 DLC32 写字机](docs/assets/pdf_20261102/architecture-system.png)
 
-[查看 SVG 矢量图](docs/assets/system-architecture.svg)
+总体框图提取自技术文档第 5 页，展示模块分工与数据流。[简版架构图](docs/assets/system-architecture.png) · [简版 SVG 矢量图](docs/assets/system-architecture.svg)
+
+<details>
+<summary>展开硬件连接与模块接口图</summary>
+
+硬件连接与接口（技术文档第 6 页）：
+
+![SC500、双 FPGA、DDR、HDMI、以太网与 DLC32 的硬件连接](docs/assets/pdf_20261102/architecture-hardware.png)
+
+关键电路与模块接口（技术文档第 8 页）：
+
+![MIPI、ISP、DDR、HXA1、CNN 和 GRBL 模块接口](docs/assets/pdf_20261102/architecture-modules.png)
+
+这些图保留文档中的概念性连接，具体 RTL 支路、模式及按键操作见[当前版本说明](docs/DISPLAY_NOISE_KEY1_20261103.md)。
+
+</details>
 
 ## 实拍展示
 

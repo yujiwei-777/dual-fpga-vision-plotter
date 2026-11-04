@@ -25,3 +25,5 @@
 - 第 20 页：OSD 延迟字段。
 
 原始图像不放大，最长边最多 1280 像素，JPEG 质量 88；总览 JPEG 质量 90。来源、尺寸、处理方式与 SHA256 见 [SOURCES.json](pdf_20261102/SOURCES.json)。历史照片不替代当前配对 bit 的实板验收，图片未纳入原创代码及文档的 MIT 授权范围。
+
+另从 PDF 的文字与矢量绘图渲染提取三张 PNG 架构图：`architecture-system.png`（第 5 页，图 2.1）、`architecture-hardware.png`（第 6 页，图 2.2）和 `architecture-modules.png`（第 8 页，图 2.4）。渲染倍率为 3.2，仅裁掉正文和页眉页脚，保留框图、图题及图例；裁切范围和 SHA256 同样记录于 SOURCES.json。

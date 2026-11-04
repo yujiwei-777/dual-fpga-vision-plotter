@@ -424,6 +424,75 @@
       ],
       "sha256": "5d00f5a721dd64cf1c2b933254149b3c8f6c172064941b7ec712c0cd31557385",
       "processing": "3x3 arrangement of extracted photos with captions; photo content unchanged."
+    },
+    {
+      "file": "architecture-system.png",
+      "title": "双 FPGA 协同系统总体框图",
+      "pdf_page": 5,
+      "sha256": "9e0ba4ac9bee0125dcb50bfca31d9606824d71b01658f9b1551b5e2396d340f2",
+      "published_size": [
+        1269,
+        1033
+      ],
+      "processing": "PDF vector/text rendering at scale 3.2; cropped to diagram, caption and legend. No diagram edits.",
+      "crop_reference": {
+        "page_size": [
+          983,
+          1390
+        ],
+        "box": [
+          165,
+          752,
+          820,
+          1285
+        ]
+      }
+    },
+    {
+      "file": "architecture-hardware.png",
+      "title": "硬件连接与接口框图",
+      "pdf_page": 6,
+      "sha256": "344afba5efc439620ddf919b288d5976b6ecc04c93ead28ab31f9c06d5a289df",
+      "published_size": [
+        1367,
+        905
+      ],
+      "processing": "PDF vector/text rendering at scale 3.2; cropped to diagram, caption and legend. No diagram edits.",
+      "crop_reference": {
+        "page_size": [
+          983,
+          1390
+        ],
+        "box": [
+          140,
+          515,
+          845,
+          982
+        ]
+      }
+    },
+    {
+      "file": "architecture-modules.png",
+      "title": "关键电路与模块接口",
+      "pdf_page": 8,
+      "sha256": "6f5533b3d400db40871e4c59bd169707c212ef6967c820ac46417d79a07b0a42",
+      "published_size": [
+        1405,
+        1132
+      ],
+      "processing": "PDF vector/text rendering at scale 3.2; cropped to diagram, caption and legend. No diagram edits.",
+      "crop_reference": {
+        "page_size": [
+          983,
+          1390
+        ],
+        "box": [
+          140,
+          214,
+          865,
+          798
+        ]
+      }
     }
   ]
 }

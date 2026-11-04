@@ -8,6 +8,24 @@
 
 [SVG 矢量图](assets/system-architecture.svg)可用于报告和答辩材料。绘图脚本为 [render_architecture.py](render_architecture.py)，依赖 Pillow；字体路径可通过 DIAGRAM_FONT 和 DIAGRAM_FONT_BOLD 配置。
 
+### 技术文档总体框图
+
+![双 FPGA 协同视觉处理与控制系统总体框图](assets/pdf_20261102/architecture-system.png)
+
+技术文档第 5 页，图 2.1：展示主板采集显示、副板识别规划、HXA1 回传和 DLC32 执行链路。
+
+### 硬件连接与接口
+
+![摄像头、主副板、DDR、显示器及写字机硬件连接](assets/pdf_20261102/architecture-hardware.png)
+
+技术文档第 6 页，图 2.2：展示板间以太网、各板 DDR、HDMI、UART 与无线桥接关系。
+
+### 关键电路与模块接口
+
+![MIPI、ISP、DDR 调度、HXA1、CNN 与 GRBL 的模块接口](assets/pdf_20261102/architecture-modules.png)
+
+技术文档第 8 页，图 2.4：展示视频、缓存读写和控制模块的概念性连接。三张图均由 PDF 页面高分辨率渲染并裁切，保留原图题与图例；具体 RTL 支路、任务入口和当前功能以[版本说明](DISPLAY_NOISE_KEY1_20261103.md)为准。
+
 ## 实拍：图像采集与处理
 
 | 摄像头画面 | 边缘提取效果 |
