@@ -1,0 +1,429 @@
+{
+  "source_pdf": "视觉识别质检与控制描摹系统_技术文档_20261102 (1).pdf",
+  "source_pdf_sha256": "402713dd18f215975ee308a660235db3a6c8764fcc65f050f69c4751af857098",
+  "notes": "Document illustrations are development-stage records, not current paired-bit acceptance evidence. PCB photo shows the historical fixed placement frame.",
+  "images": [
+    {
+      "file": "style-grayscale.jpg",
+      "title": "灰度化",
+      "pdf_page": 16,
+      "pdf_image": "Im9.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "f3d15aa93ee5597ac3e163979a7b1cda18ca1b01c7860cf11288a8f76cd8d3f2",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-binary.jpg",
+      "title": "二值化",
+      "pdf_page": 16,
+      "pdf_image": "Im10.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "e937f57cca99118d7d862ebf3d89925a1c8a7136542f7b06b4e4fadad8a98bfa",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-edges.jpg",
+      "title": "边缘提取",
+      "pdf_page": 16,
+      "pdf_image": "Im11.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "9c4eb0bcd4da4e30e76daf63230ab32e2d59e61df0ecd21905e31e9afb11f3c4",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-inverse-edges.jpg",
+      "title": "反向边缘",
+      "pdf_page": 16,
+      "pdf_image": "Im12.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "1b7687652a108fd8ddfee275e1f37690dd471eb3a1f70f5c2eda04a7223bcfcf",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-emboss.jpg",
+      "title": "浮雕",
+      "pdf_page": 16,
+      "pdf_image": "Im13.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "2a29cb996090c99843544c64d4df01cffdcd5ed201d96601190423f7c5b706a8",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-erosion.jpg",
+      "title": "腐蚀",
+      "pdf_page": 16,
+      "pdf_image": "Im14.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "a9a095b6f918d03cd9ca2a5a16c8ea43e78e9f3883ce67992b336d1f2f7f01e8",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-dilation.jpg",
+      "title": "膨胀",
+      "pdf_page": 16,
+      "pdf_image": "Im15.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "f77769d55f927adb77bb5ec0d5aaf6eb15adfb1f3b20e6a38aaed595116f913d",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-morph-gradient.jpg",
+      "title": "形态梯度",
+      "pdf_page": 16,
+      "pdf_image": "Im16.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "0e9250f172222d211ce62318e1a53bbc9d08d8911d80a430721104a65ea111cb",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-negative.jpg",
+      "title": "负片",
+      "pdf_page": 16,
+      "pdf_image": "Im17.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "c5731e52f5be633dc1658102472f640dd9867c9efdfaeb8368bae7878f54780d",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-red-channel.jpg",
+      "title": "红色通道",
+      "pdf_page": 17,
+      "pdf_image": "Im18.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "1b05263bb09854b06c9adbeae8a2a0b225ee49659a49270939ec4aa74a304202",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-blue-channel.jpg",
+      "title": "蓝色通道",
+      "pdf_page": 17,
+      "pdf_image": "Im19.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "2960332c142ff2a507549c853e7fca1b412d0d9c083bb2724c977d6ec9c338ba",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-pseudocolor.jpg",
+      "title": "伪彩",
+      "pdf_page": 17,
+      "pdf_image": "Im20.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "5078f46a2c9bb30a4e5162800656862b1cf7271d24e3778737a8980d832f9695",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-cartoon.jpg",
+      "title": "卡通化",
+      "pdf_page": 17,
+      "pdf_image": "Im21.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "74bd2ae93d14a01a25216fde8339f3e31c7c0fb393f6664b43d5af263befbdbe",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-posterize.jpg",
+      "title": "海报化",
+      "pdf_page": 17,
+      "pdf_image": "Im22.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "1acef87a04353a268189e86edf575c1194f511a04dd618e718e85919e7b8830a",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-saturation.jpg",
+      "title": "饱和度增强",
+      "pdf_page": 17,
+      "pdf_image": "Im23.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "58e55e8759bf4c445f7285a2c6e3d8cae028dda2eda1fe0a3a652753d626b21e",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-shadow-lift.jpg",
+      "title": "暗部提亮",
+      "pdf_page": 17,
+      "pdf_image": "Im24.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "d6413749cd6aba2c643a5d4debda1b1ec53dd53d6c28355c76e483aae88bb057",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-gamma.jpg",
+      "title": "伽马提亮",
+      "pdf_page": 17,
+      "pdf_image": "Im25.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "062bf6a3b1174bbc09ccd802b0588381d335474f425b24fedbb48dd70d259d9f",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-contrast.jpg",
+      "title": "对比度拉伸",
+      "pdf_page": 17,
+      "pdf_image": "Im26.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "bf12a79fdca4dc079eaee6ceb0b3ee844645b44d735a31051bb1dc4ef644a013",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "cnn-training-examples.jpg",
+      "title": "九类物块样本示例",
+      "pdf_page": 11,
+      "pdf_image": "Im3.png",
+      "original_size": [
+        1220,
+        842
+      ],
+      "published_size": [
+        1220,
+        842
+      ],
+      "sha256": "1e1cc672f233ef7da0654dc035f6ea402fa0835ee0af69c296359975cfb1d71e",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "osd-logo.jpg",
+      "title": "Logo 信息叠加",
+      "pdf_page": 15,
+      "pdf_image": "Im7.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "3cfde49f8dc2009816cc6abf167018bab1deacd643236830b8a9fa9a83a6cda3",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "motion-detection.jpg",
+      "title": "局部运动检测",
+      "pdf_page": 18,
+      "pdf_image": "Im29.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "7bc1b38a2d99e1145e9cecb9596fcc991f2e07c8b09f262e619f58f95e50f4a3",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "document-input.jpg",
+      "title": "手写笔迹采集画面",
+      "pdf_page": 18,
+      "pdf_image": "Im30.png",
+      "original_size": [
+        705,
+        418
+      ],
+      "published_size": [
+        705,
+        418
+      ],
+      "sha256": "3e3e1d36f2ca3192b19fc56e03f79154ef7b49004cef024661d44270958ecbb2",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "pcb-view.jpg",
+      "title": "PCB 取景与参考框",
+      "pdf_page": 19,
+      "pdf_image": "Im31.png",
+      "original_size": [
+        438,
+        231
+      ],
+      "published_size": [
+        438,
+        231
+      ],
+      "sha256": "45b8dc90aafbe187e669941caf22f402e49316ea872bfd816d8f878f8796dbea",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "osd-latency.jpg",
+      "title": "OSD 延迟字段",
+      "pdf_page": 20,
+      "pdf_image": "Im32.jpg",
+      "original_size": [
+        1800,
+        1350
+      ],
+      "published_size": [
+        1280,
+        960
+      ],
+      "sha256": "a646e5545374785d73e2f33525ed308ed891325afe1795d061579e9030e726d9",
+      "processing": "Proportional resize only; JPEG quality 88; no EXIF or altered result labels."
+    },
+    {
+      "file": "style-overview-1.jpg",
+      "pdf_pages": [
+        16
+      ],
+      "source_files": [
+        "style-grayscale.jpg",
+        "style-binary.jpg",
+        "style-edges.jpg",
+        "style-inverse-edges.jpg",
+        "style-emboss.jpg",
+        "style-erosion.jpg",
+        "style-dilation.jpg",
+        "style-morph-gradient.jpg",
+        "style-negative.jpg"
+      ],
+      "sha256": "fb16c93dda1c7f3ae2066e7235b6c9a5ed36219653455356f43fb3c1e12b9f97",
+      "processing": "3x3 arrangement of extracted photos with captions; photo content unchanged."
+    },
+    {
+      "file": "style-overview-2.jpg",
+      "pdf_pages": [
+        17
+      ],
+      "source_files": [
+        "style-red-channel.jpg",
+        "style-blue-channel.jpg",
+        "style-pseudocolor.jpg",
+        "style-cartoon.jpg",
+        "style-posterize.jpg",
+        "style-saturation.jpg",
+        "style-shadow-lift.jpg",
+        "style-gamma.jpg",
+        "style-contrast.jpg"
+      ],
+      "sha256": "5d00f5a721dd64cf1c2b933254149b3c8f6c172064941b7ec712c0cd31557385",
+      "processing": "3x3 arrangement of extracted photos with captions; photo content unchanged."
+    }
+  ]
+}
