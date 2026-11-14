@@ -1,0 +1,156 @@
+[
+  {
+    "label": "key1_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "key1_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\secondary_top.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tests\\tb_key1_actions.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_lint.log",
+    "log_sha256": "73B6E630E6FA83CA31B51C21C7D92A35E541EE9752FF85248058876796B8A1FC",
+    "warnings": []
+  },
+  {
+    "label": "key1_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "key1_lib",
+      "tb_key1_actions",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_simulation.log",
+    "log_sha256": "2891641924118A5FDBC13D3F8307C14526C288587799F7B6068E5FD18704080A",
+    "warnings": []
+  },
+  {
+    "label": "key1_min_timing_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_timing_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_timing_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "key1_min_timing_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_timing_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\secondary_top.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tests\\key1_reference.sv",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tests\\tb_key1_min_compare.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_timing_lint.log",
+    "log_sha256": "32E88AAEBE8C3267A74E3873F4E0D77862D33B14D7A21DDB4CB0BBDA72A6A66A",
+    "warnings": []
+  },
+  {
+    "label": "key1_min_timing_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "key1_min_timing_lib",
+      "tb_key1_min_compare",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_timing_simulation.log",
+    "log_sha256": "D33356E25C05D0E3F6513A1C89A965942D6C355489366571F50F0980E9F31ACA",
+    "warnings": []
+  },
+  {
+    "label": "key1_min_safety_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_safety_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_safety_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "key1_min_safety_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_safety_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\secondary_top.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tests\\tb_key1_min_safety.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_safety_lint.log",
+    "log_sha256": "E780341C06C72839D0A3B82D2014AED04F081779C7ED72851B62ED8A9133B8B9",
+    "warnings": []
+  },
+  {
+    "label": "key1_min_safety_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "key1_min_safety_lib",
+      "tb_key1_min_safety",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_safety_simulation.log",
+    "log_sha256": "EC23EAFA889231BD512AD20FC2C59673366D8A4237BC595418188F5B73836BD8",
+    "warnings": []
+  }
+]

@@ -135,7 +135,19 @@ def main():
         if name.startswith("secondary_pcb_ccl_binary_key1_write_20261103/"):
             if sha256(display_bundle / name) != item["sha256"]:
                 raise ValueError("Unchanged KEY1 secondary differs: " + name)
-    print("RELEASE_VERIFY_PASS: original=PASS_USER_REPORTED; four later pairs=NOT_RUN")
+    suspect_bundle = ROOT / "hardware_versions/20261113_suspect_paper"
+    subprocess.run([sys.executable, "-B", str(suspect_bundle / "verify_package.py")], check=True)
+    suspect_release = ROOT / "release/20261113_suspect_paper"
+    suspect_identity = json.loads((suspect_release / "SOURCE_IDENTITY.json").read_text(encoding="utf-8"))
+    suspect_acceptance = json.loads((suspect_release / "HARDWARE_ACCEPTANCE.json").read_text(encoding="utf-8"))
+    if suspect_acceptance["status"] != "NOT_RUN" or suspect_identity["hardware_acceptance"] != "NOT_RUN":
+        raise ValueError("Unexpected suspect/paper pair hardware status")
+    if sha256(suspect_bundle / "PACKAGE_MANIFEST.json") != suspect_identity["hardware_manifest_sha256"]:
+        raise ValueError("Suspect/paper package identity mismatch")
+    for project in suspect_identity["projects"]:
+        if project["bit_sha256"] != suspect_acceptance[project["board"] + "_bit_sha256"]:
+            raise ValueError("Suspect/paper bit/acceptance mismatch")
+    print("RELEASE_VERIFY_PASS: original=PASS_USER_REPORTED; five later pairs=NOT_RUN")
 
 if __name__ == "__main__":
     main()

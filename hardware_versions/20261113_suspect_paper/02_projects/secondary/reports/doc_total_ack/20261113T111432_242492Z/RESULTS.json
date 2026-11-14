@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-13T11:14:33.983397+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tests\\run_doc_total_ack.py": "30120CD1EDE0FB8B2E94054EAF59AA0814C20DEA47BA929A9926D388D891A766",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\run_retrained_preserved_regressions.py": "8345B2D3EBBCEBD12DABACC074CD430F6AEFCFB7A482C8D15B87DDA2C65E59E9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\doc_grbl_plotter_shared_candidate.v": "82715A03828D55DA5B1813337FBBBA42184C9F2422512DC8A4F871C96F74FA9D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\tb_doc_total_ack.sv": "53D6399E6BA236E73F2ACA80FA0DF9AABFBCD0A04D15831B5AAA55F98BB834F4"
+  },
+  "commands": [
+    {
+      "label": "doc_total_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\doc_total_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\doc_total_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "doc_total_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\doc_total_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\doc_grbl_plotter_shared_candidate.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_shared_transport_candidate.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_response_parser.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_line_formatter.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\tb_doc_total_ack.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\doc_total_lint.log",
+      "log_sha256": "3EE4B68DAA19311A8F863EBFCE914E12890E78CF774E294DF7C14C1D75FD01F1",
+      "warnings": []
+    },
+    {
+      "label": "doc_total_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "doc_total_lib",
+        "tb_doc_total_ack",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\doc_total_simulation.log",
+      "log_sha256": "2ED81A07B2C33652DCA5246EBB6BAC58B365FFBC87B4A8484DCA48944D602B29",
+      "warnings": []
+    }
+  ],
+  "scope": [],
+  "limitations": [
+    "Abstract point source, mapper and UART completion; actual document generator, shared transport, formatter and parser.",
+    "Physical mechanics, source-image planning and DDR are covered separately."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

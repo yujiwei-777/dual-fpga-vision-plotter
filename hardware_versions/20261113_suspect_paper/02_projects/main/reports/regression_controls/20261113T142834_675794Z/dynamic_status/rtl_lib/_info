@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/regression_controls/20261113T142834_675794Z/dynamic_status
+T_opt
+!s110 1794580116
+VhnBaZB]oR?Q@z`iWHLL1b3
+04 17 4 work tb_dynamic_status fast 0
+=1-e8c82923d912-6af71e93-389-9efc
+o-quiet -auto_acc_if_foreign -work rtl_lib +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vmerged_panel_tokens
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1794580114
+!i10b 1
+!s100 AhMi=;NGeRT4RNA2dKO6X0
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVINAC@;4U`2>IXMgOX]X42
+S1
+R0
+Z5 w1794556372
+Z6 8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v
+Z7 FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v
+!i122 0
+L0 331 2071
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1794580114.000000
+Z11 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source/osd_compact_glyphs.vh|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\tests\dynamic_osd\tb_dynamic_status.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v|
+Z12 !s90 -sv|-work|rtl_lib|+incdir+D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\tests\dynamic_osd\tb_dynamic_status.sv|
+!i113 0
+Z13 o-sv -work rtl_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 -sv -work rtl_lib {+incdir+D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+voperator_ui_text
+R2
+R3
+!i10b 1
+!s100 zSPSEz<cC<ZcnXd0zQaYo2
+R4
+I419J^bbc7c3WVzGZHXnco1
+S1
+R0
+w1794496117
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v
+!i122 0
+L0 2 70
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1
+vosd_compact_font_rom
+R2
+R3
+!i10b 1
+!s100 fZ6dQnOQzngY7g^A[M3Q20
+R4
+I973O20;l?K@NReWM7NP[I3
+S1
+R0
+w1794528453
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v
+!i122 0
+L0 2 4102
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1
+vosd_compact_panel
+R2
+R3
+!i10b 1
+!s100 G<J_W?e8lTm@]TlQL>RD93
+R4
+I`hRKa=laI^SCMZ2MCS7Hk0
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 5 323
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1
+vtb_dynamic_status
+R2
+R3
+!i10b 1
+!s100 2^OO=nno2Mz`TY?O>P:Eo0
+R4
+I3ZXgbRhfKfCV`1RW5I6Kc1
+S1
+R0
+R5
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\tests\dynamic_osd\tb_dynamic_status.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\tests\dynamic_osd\tb_dynamic_status.sv
+!i122 0
+L0 2 65
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1

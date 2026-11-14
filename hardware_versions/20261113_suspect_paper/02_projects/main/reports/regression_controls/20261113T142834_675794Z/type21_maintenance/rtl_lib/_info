@@ -1,0 +1,120 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/regression_controls/20261113T142834_675794Z/type21_maintenance
+T_opt
+!s110 1794580118
+Vhl6I9]Ufd:fTJ@V`1I<aZ3
+04 21 4 work tb_type21_maintenance fast 0
+=1-e8c82923d912-6af71e96-5e-a7b8
+o-quiet -auto_acc_if_foreign -work rtl_lib +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vhxa_main_link
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1794580117
+!i10b 1
+!s100 Cfd<`_mUK;5AjMTRKi8cH0
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZobEafj@1Mo_h5g6]XIF@2
+S1
+R0
+Z5 w1794559236
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\shared\rtl\hxa_main_link.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\shared\rtl\hxa_main_link.v
+!i122 0
+L0 3 1158
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1794580117.000000
+Z9 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\tests\dynamic_osd\tb_type21_maintenance.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\shared\rtl\hxa_main_link.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\shared\rtl\hxa_packet_codec.v|
+Z10 !s90 -sv|-work|rtl_lib|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\shared\rtl\hxa_packet_codec.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\shared\rtl\hxa_main_link.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\tests\dynamic_osd\tb_type21_maintenance.sv|
+!i113 0
+Z11 o-sv -work rtl_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vhxa_packet_rx
+R2
+R3
+!i10b 1
+!s100 =Nn4_A[0P2c`n0mJZ>L@e2
+R4
+IjCzgV`Y3gR38RQjSYRP?b1
+S1
+R0
+Z12 w1794496117
+Z13 8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\shared\rtl\hxa_packet_codec.v
+Z14 FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\shared\rtl\hxa_packet_codec.v
+!i122 0
+L0 114 90
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vhxa_packet_tx
+R2
+R3
+!i10b 1
+!s100 UNFSjL`_N][;caz6Dic6P1
+R4
+I8L<P5zUBe`EWnZ_D=O`XL1
+S1
+R0
+R12
+R13
+R14
+!i122 0
+L0 4 109
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtb_type21_maintenance
+R2
+R3
+!i10b 1
+!s100 ?PiTLh?IW4PNY7cb9<7TY2
+R4
+Ic7VGiFoz9bglzSaP8Pz<D3
+S1
+R0
+R5
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\tests\dynamic_osd\tb_type21_maintenance.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\tests\dynamic_osd\tb_type21_maintenance.sv
+!i122 0
+L0 4 108
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

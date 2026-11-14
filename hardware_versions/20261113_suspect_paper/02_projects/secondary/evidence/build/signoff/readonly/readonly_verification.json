@@ -1,0 +1,23 @@
+{
+  "status": "CURRENT_QUERY_COMPLETE_NOT_YET_PHYSICAL_ACCEPTANCE",
+  "exit_code": 0,
+  "inputs_unchanged": true,
+  "inputs": {
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\phy_1\\secondary_cnn_multibox_pr.db": "7A71EF0B02AA6E5A8B4D0F3B0CEACDC9B380E09B69B1F6E20DC26BEA51701CD9",
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\phy_1\\secondary_cnn_multibox.al": "FDC2A4180F99C157621512E0FC2BFA92566812AF7E0B23D769932047635E492B",
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\syn_1\\secondary_cnn_multibox_gate.db": "222DA721BDC6795672CE91B102083D8BCCF2F74A5325FF24B11201B2EF589D82",
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\SOURCE_MANIFEST.json": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\BUILD_PLAN.json": "FAAC22BCD5449E62E0358D0EBC6F46CE15BEB559D2D8C5426392F8ADAB1D3D18"
+  },
+  "script": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\readonly_reimport.tcl",
+    "sha256": "59CF8809196D05987BF8F5BC1E01D7EBA6B91A9D2C85FC057FC153B827B20BA3"
+  },
+  "log": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\console_readonly.log",
+    "sha256": "12335B130D55E9592486ED1532388D9D2D66A5E55C3CC16870678F491E513449"
+  },
+  "source_manifest_sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+  "routed_database_sha256": "7A71EF0B02AA6E5A8B4D0F3B0CEACDC9B380E09B69B1F6E20DC26BEA51701CD9",
+  "hardware_status": "NOT_RUN"
+}

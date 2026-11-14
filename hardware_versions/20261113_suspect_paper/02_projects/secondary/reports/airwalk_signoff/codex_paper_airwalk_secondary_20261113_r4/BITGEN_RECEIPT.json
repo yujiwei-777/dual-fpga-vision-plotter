@@ -1,0 +1,96 @@
+{
+  "status": "BITGEN_PASS",
+  "artifact": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\artifacts\\dual_fpga_secondary_20261113_pcb_paper_load_stroke_cont_diagnostic.bit",
+    "sha256": "5BA649F37D687B66809A6876B2AB9E77657D1C467BAD421E258B04143D5B8EE5"
+  },
+  "bytes": 1789542,
+  "bid": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\artifacts\\dual_fpga_secondary_20261113_pcb_paper_load_stroke_cont_diagnostic.bid",
+    "sha256": "0CECEB8CD5C33180A43B7D5C41B027F5A403F1A2B410D13BDD243EC0D3E8E47A"
+  },
+  "temporary_bit": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\bitgen\\dual_fpga_secondary_20261113_pcb_paper_load_stroke_cont_diagnostic.bit",
+    "sha256": "5BA649F37D687B66809A6876B2AB9E77657D1C467BAD421E258B04143D5B8EE5"
+  },
+  "source_manifest": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\SOURCE_MANIFEST.json",
+    "sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3"
+  },
+  "prebitgen_gate": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\PREBITGEN_GATE.json",
+    "sha256": "2426DC5936E08D518AEB7429A5FD668AAF874679B571180DD255EB659E22E83C"
+  },
+  "warning_review": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\IMPLEMENTATION_WARNING_REVIEW.json",
+    "sha256": "5C4254A97E926CE2BD5E64F6BD896D3A6F4D8F93E9A37BBCAADE1C2CED1CB60E"
+  },
+  "retained_critical_warnings": [
+    {
+      "phase": "syn",
+      "line": 1084,
+      "code": "SYN-6024",
+      "severity": "CRITICAL-WARNING",
+      "stage": "SYN-1001 : Stage 2.2 | Map IO",
+      "text": "SYN-6024 CRITICAL-WARNING: MapIO rule -- ODDR \"u_rgmii/rgmii_txc_ddr\" not have rst or rst is const or ASYNCRST is DISABLE, this may lead PAD tx data out of sync with other PAD. Please consider rewriting code in ../../main/user_source/hdl_source/ethernet/rgmii_interface.v(129).",
+      "disposition": "RETAINED_UNCHANGED_RGMII_ODDR_WARNING",
+      "unchanged_source": {
+        "relative": "main/user_source/hdl_source/ethernet/rgmii_interface.v",
+        "sha256": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A"
+      }
+    },
+    {
+      "phase": "place",
+      "line": 33945,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.6 | GP Phase 3",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "RETAINED_LOGICAL_SLICEL_WARNING_WITH_CURRENT_COMPLETE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true,
+      "physical_capacity_evidence": {
+        "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\physical_capacity\\physical_capacity_validation.json",
+        "sha256": "439A724FF5B4ABFA9AF221B580CE9E7334709E0CC5A5389C6EDD6E6046E6A8CC"
+      }
+    },
+    {
+      "phase": "place",
+      "line": 33980,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.8 | GP Phase 4",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "RETAINED_LOGICAL_SLICEL_WARNING_WITH_CURRENT_COMPLETE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true,
+      "physical_capacity_evidence": {
+        "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\physical_capacity\\physical_capacity_validation.json",
+        "sha256": "439A724FF5B4ABFA9AF221B580CE9E7334709E0CC5A5389C6EDD6E6046E6A8CC"
+      }
+    }
+  ],
+  "routed_database": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\phy_1\\secondary_cnn_multibox_pr.db",
+    "sha256": "7A71EF0B02AA6E5A8B4D0F3B0CEACDC9B380E09B69B1F6E20DC26BEA51701CD9"
+  },
+  "input_hashes_before": {
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\phy_1\\secondary_cnn_multibox_pr.db": "7A71EF0B02AA6E5A8B4D0F3B0CEACDC9B380E09B69B1F6E20DC26BEA51701CD9",
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\phy_1\\secondary_cnn_multibox.al": "FDC2A4180F99C157621512E0FC2BFA92566812AF7E0B23D769932047635E492B",
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\syn_1\\secondary_cnn_multibox_gate.db": "222DA721BDC6795672CE91B102083D8BCCF2F74A5325FF24B11201B2EF589D82",
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\SOURCE_MANIFEST.json": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\BUILD_PLAN.json": "FAAC22BCD5449E62E0358D0EBC6F46CE15BEB559D2D8C5426392F8ADAB1D3D18"
+  },
+  "inputs_unchanged": true,
+  "post_integrity": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\bitgen\\POST_BITGEN_INTEGRITY.json",
+    "sha256": "79913F04A9346EF8D2A114BEF14230F32330352AA7B56B8785CDDAE6EDD06452"
+  },
+  "script": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\bitgen\\bitgen.tcl",
+    "sha256": "97EC79732B231CA76D574EA24D9B6EBF922C6427816F5049F0B4694DD394692D"
+  },
+  "log": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\bitgen\\bitgen.log",
+    "sha256": "1B2C73CA772B5EBB54006D59F4F36462E2FCE8725BCD10BB330FB076A9BFBF71"
+  },
+  "hardware_status": "NOT_RUN"
+}

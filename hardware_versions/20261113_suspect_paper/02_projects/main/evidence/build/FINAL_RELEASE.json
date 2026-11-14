@@ -1,0 +1,40 @@
+{
+  "status": "PASS_DIAGNOSTIC_NOT_RUN",
+  "build": "E:\\codex_pcb_suspect_center_main_20261113_r4",
+  "started_utc": "2026-11-13T14:34:55.193517+00:00",
+  "hardware_status": "NOT_RUN",
+  "phase_started_utc": "2026-11-13T15:12:10.242512+00:00",
+  "bit": {
+    "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/artifacts/dual_fpga_main_20261113_pcb_suspect_center_diagnostic.bit",
+    "sha256": "E2E1FE983B3D63056B4044710EF979A42FF8EBEDC81D6440C2301175FBE08011",
+    "bytes": 1789547
+  },
+  "resources": {
+    "slice": {
+      "used": 19868,
+      "total": 21216,
+      "percent": 93.64630467571644,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 97,
+      "total": 108,
+      "percent": 89.81481481481481,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  },
+  "timing_ns": {
+    "SWNS": 0.383,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "ended_utc": "2026-11-13T15:13:46.110957+00:00",
+  "release_report": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\artifacts\\RELEASE_REPORT.json"
+}

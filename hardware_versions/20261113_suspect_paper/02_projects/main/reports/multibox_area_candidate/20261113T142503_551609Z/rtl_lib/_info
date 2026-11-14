@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z
+T_opt
+!s110 1794579904
+VVF6P5d2ceJ=1Ua^N>0BK[2
+04 2 4 work tb fast 0
+=1-e8c82923d912-6af71dc0-231-ae28
+o-quiet -auto_acc_if_foreign -work rtl_lib
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vhxa_multibox_overlay_candidate
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1794579903
+!i10b 1
+!s100 VQRaGeG2Ye;B4kXW21Z[j3
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]89K8>Nhf_VJYmA_Ijfj`0
+S1
+R0
+Z5 w1794579903
+8candidate.v
+Fcandidate.v
+!i122 0
+L0 4 295
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1794579903.000000
+Z9 !s107 tb.sv|candidate.v|original.v|
+Z10 !s90 -sv|-work|rtl_lib|original.v|candidate.v|tb.sv|
+!i113 0
+Z11 o-sv -work rtl_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vhxa_multibox_overlay_control
+R2
+R3
+!i10b 1
+!s100 W]^c3cjEa^iQBj`l9?dJI1
+R4
+I@gT20Am7jhGVS^ndA>3<@3
+S1
+R0
+R5
+8original.v
+Foriginal.v
+!i122 0
+L0 4 278
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vtb
+R2
+R3
+!i10b 1
+!s100 DR4Uk`IV5HD0X9Rn?XXkg3
+R4
+IabkRUe>214i<oPLBoaifV1
+S1
+R0
+R5
+8tb.sv
+Ftb.sv
+!i122 0
+L0 3 65
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "rtl_marker": "# MULTIBOX_BADGE_EQUIVALENCE_PASS checks=4438724 full_frames=3 hit_cycles=100724 seed=20261113",
+  "simulation": [
+    {
+      "command": [
+        "E:/model/win64/vlib.exe",
+        "rtl_lib"
+      ],
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\multibox_area_candidate\\20261113T142503_551609Z\\vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "command": [
+        "E:/model/win64/vlog.exe",
+        "-sv",
+        "-work",
+        "rtl_lib",
+        "original.v",
+        "candidate.v",
+        "tb.sv"
+      ],
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\multibox_area_candidate\\20261113T142503_551609Z\\compile.log",
+      "log_sha256": "6B053263E3F8371FBFEDC2B68FF800477EF5D05110B4C6CDB7DC649ECCCCF602"
+    },
+    {
+      "command": [
+        "E:/model/win64/vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "rtl_lib",
+        "tb",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\multibox_area_candidate\\20261113T142503_551609Z\\simulation.log",
+      "log_sha256": "3D1B8357F494491C8C8021B63A9AA9B6BA6095EE20C012E9BA081B692DCF7DE1"
+    }
+  ],
+  "area": {
+    "baseline": {
+      "slices": 568,
+      "registers": 493,
+      "raw_lut": 735,
+      "lslice": 32,
+      "eram": 1,
+      "dsp": 0,
+      "source_sha256": "63E94A56D65F7F2DFF210EBCC2137E775D77B45B90B9BEE38E5F43ABBFFC7C60",
+      "gate_report_sha256": "0DF3AD00D4D3A1D04E8EFB2B8275CA984D81A6FE6961D7731A889E809AF2ACCE",
+      "legalized_report_sha256": "BFF22699911215767D031F4F09C730B3D13F19390DA251738047D900BA2E1155",
+      "execution": {
+        "command": [
+          "E:\\td\\bin\\td_commands_prompt.exe",
+          "run.tcl"
+        ],
+        "returncode": 0,
+        "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\multibox_area_candidate\\20261113T142503_551609Z\\baseline\\td.log",
+        "log_sha256": "D71E9C3B80BB52FA16FB765F6952CC0064A168C895FC8F618B53B2717BA0FC6C"
+      }
+    },
+    "candidate": {
+      "slices": 507,
+      "registers": 493,
+      "raw_lut": 654,
+      "lslice": 0,
+      "eram": 1,
+      "dsp": 0,
+      "source_sha256": "95A538C533526F672A0850FCE611913044E58BCF6EF110C458B83E14203B6CD9",
+      "gate_report_sha256": "53C26E02C028F23184D4380D74435E61885A265AC6376DE55271C6CC8ABF6650",
+      "legalized_report_sha256": "8EEC4957F356C885736AAA85ECF653BB9CA6D2889E8A79EBC07F0F269300F916",
+      "execution": {
+        "command": [
+          "E:\\td\\bin\\td_commands_prompt.exe",
+          "run.tcl"
+        ],
+        "returncode": 0,
+        "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\multibox_area_candidate\\20261113T142503_551609Z\\candidate\\td.log",
+        "log_sha256": "FA23A1A421F0A86E1500C11AA9E69659FF0ECA71E340E803BF9181344C93EA64"
+      }
+    }
+  },
+  "raw_lut_saving": 81,
+  "production_input_unchanged": true,
+  "production_rtl_modified": false,
+  "hardware_status": "NOT_RUN",
+  "scope": "Real four-target module and actual initialized glyph ROM, targeted full output miter plus independent fresh area-only synthesis. Identical 32-bit serial-box input wrapper overhead included in both area totals to fit physical IO limit. No whole-board place/route or bitgen.",
+  "recommendation": "AREA_CANDIDATE_FOR_WHOLE_BOARD_VERIFICATION"
+}

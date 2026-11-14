@@ -1,0 +1,89 @@
+{
+  "schema": "main-suspect-center-current-route-audit-r4-v1",
+  "started_utc": "2026-11-13T15:11:06.529582+00:00",
+  "runner": {
+    "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/tools/audit_current_route_r4.py",
+    "sha256": "6EFF73815DF7397EC178C5EA492EE345712C210E18747488B321A3B7DB5AB61E",
+    "bytes": 14469
+  },
+  "build_root": "E:/codex_pcb_suspect_center_main_20261113_r4",
+  "td": {
+    "path": "E:/td/bin/td_commands_prompt.exe",
+    "sha256": "79EC56674F8F7B889E25E11BDCA91F7D64C24BA0DE99E80680248F00B4F87190",
+    "bytes": 119567120
+  },
+  "source_manifest_sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+  "source_files_checked": 251,
+  "phases": [
+    {
+      "receipt": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/synth.json",
+        "sha256": "02E2D4CA0BA42052B9FE5AB482FFBE50222329A811D9B00720C5BC60D97966FF",
+        "bytes": 876
+      },
+      "log": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/synth.log",
+        "sha256": "2B78BCC33C8636280F02B1269E07795C6426423AEBC252811647C8586CF04F5F",
+        "bytes": 174402
+      },
+      "ended_utc": "2026-11-13T15:00:02.344736+00:00"
+    },
+    {
+      "receipt": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.json",
+        "sha256": "1E2910532BFC3B0ED3523300FA913275ED201B2031A99D32866CC20C63C040E3",
+        "bytes": 876
+      },
+      "log": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+        "sha256": "714A3D7419288DEA95097D8A5E486C380CB90AE4FC97A02259F252CD5080FFF4",
+        "bytes": 138725
+      },
+      "ended_utc": "2026-11-13T15:05:49.363103+00:00"
+    },
+    {
+      "receipt": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/route.json",
+        "sha256": "05A0F7208F3043F9E55E1C21DCF64A68288C591207B771096532E07F28991A1D",
+        "bytes": 876
+      },
+      "log": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/route.log",
+        "sha256": "09498211719E203D410064EF23599910C78CA98062F81C99D69692EB28DF6230",
+        "bytes": 128722
+      },
+      "ended_utc": "2026-11-13T15:11:01.018625+00:00"
+    }
+  ],
+  "bound_input_hashes": {
+    "E:/codex_pcb_suspect_center_main_20261113_r4/SOURCE_MANIFEST.json": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/BUILD_PLAN.json": "99D2D683880ABC95E46902DC6E511FA9FEE0A1580AD81801B0CB419B601446EE",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.al": "8CD5415DAED04B8C38F7BD061E7D9636BF299402A84D845143E577C8168A630A",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.prj": "8CD5415DAED04B8C38F7BD061E7D9636BF299402A84D845143E577C8168A630A",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_gate.db": "72F584394BC4340C280194F3D529CE3C1869E9785458F15DD1C89D9AE79A1325",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.db": "8220E077AA2910704A6E1861F04BA60BF9B4B18429CACE5A11A26AB6EBC3806E",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.timing": "58F32F537DBF6EC566FE1C9253BB251590300EF45278D0D26DD625888CC90517",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_phy.area": "FD01EEFE939C3A24069B9C5C9E79EC8ABC2EEEDBF45B93A488A6E75A8193840A",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/source_snapshot.json": "6539652E99EB0E03CA2F26CED2EDF50583FAE4E6FA6D2AD97DE091FAD396B27E"
+  },
+  "hardware_status": "NOT_RUN",
+  "bitgen_invoked": false,
+  "passed": true,
+  "ended_utc": "2026-11-13T15:12:10.220513+00:00",
+  "generic_gate": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/release_gate.json",
+    "sha256": "0B650E0D7863BA56ECED73F101D82F3F19EF19C4DAB2EDDA8CF8A0CE81AC8985",
+    "bytes": 8944
+  },
+  "readonly_summary": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/READONLY_AUDIT_REPORT.json",
+    "sha256": "4542BEA79E00405C405CCE83398ECA0EC9B26F71E92DB634FF7C9DAE356BA814",
+    "bytes": 21836
+  },
+  "physical_capacity": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/physical_capacity/physical_capacity_validation.json",
+    "sha256": "6DCBFE878AD1DBD92113FCF1A7C32B6EF851488B7661BA25E4C700EF85B0A3D1",
+    "bytes": 4070
+  },
+  "scope": "Current source closure, fresh synth/place/route receipts, strict routed resource/timing gates, native final DRC, unchanged AL/DB reimport, full current placed Slice census. Functional regression and hardware acceptance are separate."
+}

@@ -1,0 +1,6 @@
+PASS hxa/vlib
+PASS hxa/lint
+PASS hxa/tb_pose7_fifo4
+PASS hxa/tb_pose7_hxa_crc_network
+hxa: PASS
+CURRENT_SUITE_OUTPUT D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\hxa_fifo_crc

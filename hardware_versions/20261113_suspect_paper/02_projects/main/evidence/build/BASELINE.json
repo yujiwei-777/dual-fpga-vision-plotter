@@ -1,0 +1,10 @@
+{
+  "baseline": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_operator_ui_cn_font_shift1_dynamic_osd_20261113",
+  "baseline_build": "E:\\codex_pcb_operator_dynamic_osd_main_20261113_r2",
+  "baseline_bit": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_operator_ui_cn_font_shift1_dynamic_osd_20261113\\artifacts\\dual_fpga_main_20261113_pcb_operator_dynamic_osd_diagnostic.bit",
+  "baseline_bit_sha256": "2E6B05D29B4B000BFD826FE16F43175F906FC2042E317F38D1345E24EDE93656",
+  "candidate_manifest_sha256": "E58B4FB0A281B838A40884FFF6CAAEE04596B9B9B0130323291B0D3D6E88CD9E",
+  "candidate_test": "reports/20261113T123737_281618Z/RESULT.json",
+  "scope": "Main SUSPECT center cross only; existing classification, region, protocol and secondary unchanged.",
+  "hardware_status": "NOT_RUN"
+}

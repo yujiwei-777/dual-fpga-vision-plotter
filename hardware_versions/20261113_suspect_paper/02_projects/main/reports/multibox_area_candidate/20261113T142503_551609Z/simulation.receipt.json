@@ -1,0 +1,16 @@
+{
+  "command": [
+    "E:/model/win64/vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-lib",
+    "rtl_lib",
+    "tb",
+    "-do",
+    "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+  ],
+  "returncode": 0,
+  "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\multibox_area_candidate\\20261113T142503_551609Z\\simulation.log",
+  "log_sha256": "3D1B8357F494491C8C8021B63A9AA9B6BA6095EE20C012E9BA081B692DCF7DE1"
+}

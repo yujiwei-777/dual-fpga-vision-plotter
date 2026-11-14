@@ -1,0 +1,102 @@
+{
+  "status": "PASS_PREPARATION_CHECKS_ONLY",
+  "checks": [
+    {
+      "check": "prepare_does_not_run_TD",
+      "result": "PASS_CHECK"
+    },
+    {
+      "check": "historical_final_named_eight_checkers_parse_only",
+      "result": "PASS_CHECK"
+    },
+    {
+      "check": "missing_final_checker_end",
+      "result": "EXPECTED_REJECTION",
+      "reason": "Incomplete/duplicate final DRC checker: Bound"
+    },
+    {
+      "check": "adverse_final_checker",
+      "result": "EXPECTED_REJECTION",
+      "reason": "Adverse final DRC checker: Bound"
+    },
+    {
+      "check": "strict_slice_threshold_rejects_boundary",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "strict_eram_threshold_rejects_boundary",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "strict_dsp_threshold_rejects_boundary",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "negative_SWNS_rejects",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "negative_HWNS_rejects",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "negative_STNS_rejects",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "negative_HTNS_rejects",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "actual_receipt_tree_and_changed_source_coverage",
+      "result": "PASS_CHECK"
+    },
+    {
+      "check": "gate_cannot_invent_current_source_coverage",
+      "result": "EXPECTED_REJECTION",
+      "reason": "Functional gate contents differ from actual receipt tree: doc_total_ack"
+    },
+    {
+      "check": "old_FAILED_preserved_receipt_rejected",
+      "result": "EXPECTED_REJECTION",
+      "reason": "Behavior report is not PASS: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T111951_796073Z\\RESULTS.json"
+    },
+    {
+      "check": "two_PHY7027_retained_and_require_current_site_proof",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "unknown_PHY7027_variant_blocks",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "PHY9002_never_waived",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "capacity_rejects_duplicate_slice",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "capacity_rejects_unplaced_slice",
+      "result": "EXPECTED_REJECTION"
+    },
+    {
+      "check": "capacity_rejects_missing_slice",
+      "result": "EXPECTED_REJECTION"
+    }
+  ],
+  "tool": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\signoff_airwalk.py",
+    "sha256": "6B2CBF3EC5DB7F925F2F1CFBA7CAB322A5842AA00E62CD3A7FF52F53E8F52FB5"
+  },
+  "self_check": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\check_airwalk_signoff_preparation.py",
+    "sha256": "AC5306341CC2D69282F3743640D4E9307C5B84901BEB61A79F4030AB0B9CE306"
+  },
+  "bitgen_invoked": false,
+  "TD_invoked": false,
+  "bitgen_allowed": false,
+  "hardware_status": "NOT_RUN",
+  "scope": "Preparation/source binding and rejection checks only. Historical logs are parser fixtures, not current route acceptance."
+}

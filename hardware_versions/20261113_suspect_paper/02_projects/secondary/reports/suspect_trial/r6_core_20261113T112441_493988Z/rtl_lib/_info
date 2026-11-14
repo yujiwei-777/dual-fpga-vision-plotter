@@ -1,0 +1,152 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/suspect_trial/r6_core_20261113T112441_493988Z
+T_opt
+!s110 1794569083
+VYH[hbPf;^cd0;J<5`i6LF2
+04 15 4 work tb_suspect_core fast 0
+=1-e8c82923d912-6af6f37a-30d-b8e8
+o-quiet -auto_acc_if_foreign -work rtl_lib +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vpcb_fullboard_spatial96
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1794569081
+!i10b 1
+!s100 =l^A?_iR6N7PXJ`W>Qn500
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;kCJO4W;m;gC09UcbZ>2h2
+S1
+R0
+Z5 w1794370194
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_fullboard_spatial96.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_fullboard_spatial96.v
+!i122 0
+L0 12 501
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1794569081.000000
+Z9 !s107 calls.svh|cases.svh|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\suspect_trial\r6_core_20261113T112441_493988Z\tb_suspect_core.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\vision_workspace_goodonly.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\vision_shared_mac.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\suspect_trial\r6_core_20261113T112441_493988Z\pcb_fullboard_spatial96_r5.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_fullboard_spatial96.v|
+Z10 !s90 -sv|-lint|-work|rtl_lib|+incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/suspect_trial/r6_core_20261113T112441_493988Z|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_fullboard_spatial96.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\suspect_trial\r6_core_20261113T112441_493988Z\pcb_fullboard_spatial96_r5.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\vision_shared_mac.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\vision_workspace_goodonly.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\suspect_trial\r6_core_20261113T112441_493988Z\tb_suspect_core.sv|
+!i113 0
+Z11 o-sv -lint -work rtl_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -sv -lint -work rtl_lib +incdir+D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/suspect_trial/r6_core_20261113T112441_493988Z -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpcb_fullboard_spatial96_r5
+R2
+R3
+!i10b 1
+!s100 P8PUmnOXh7Ulzn?D^H7]f0
+R4
+IcTN`Wi[m2Q_I@^]kINK6E1
+S1
+R0
+Z13 w1794569081
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\suspect_trial\r6_core_20261113T112441_493988Z\pcb_fullboard_spatial96_r5.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\suspect_trial\r6_core_20261113T112441_493988Z\pcb_fullboard_spatial96_r5.v
+!i122 0
+L0 12 500
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vtb_suspect_core
+R2
+R3
+!i10b 1
+!s100 cC6>ego`5]N0<`d88eCnV0
+R4
+I8KI9BVjgbUeQhU0K^3gk=0
+S1
+R0
+R13
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\suspect_trial\r6_core_20261113T112441_493988Z\tb_suspect_core.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\suspect_trial\r6_core_20261113T112441_493988Z\tb_suspect_core.sv
+Fcases.svh
+Fcalls.svh
+!i122 0
+L0 3 108
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vvision_shared_mac
+R2
+R3
+!i10b 1
+!s100 X0GTOXjLbzi1MfNDWGLKM0
+R4
+I9_0PLDG7JE:1h[4M^=;U50
+S1
+R0
+R5
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\vision_shared_mac.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\vision_shared_mac.v
+!i122 0
+L0 7 18
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vvision_workspace_goodonly
+R2
+R3
+!i10b 1
+!s100 iLSS9Q_i0jnnl4[oHi3L32
+R4
+IiKkk^fKk:>@nnAX2=Gm2M2
+S1
+R0
+R5
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\vision_workspace_goodonly.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\vision_workspace_goodonly.v
+!i122 0
+L0 5 78
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1

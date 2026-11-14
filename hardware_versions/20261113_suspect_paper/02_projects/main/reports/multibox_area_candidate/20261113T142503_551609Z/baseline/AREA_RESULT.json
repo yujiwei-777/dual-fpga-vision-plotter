@@ -1,0 +1,20 @@
+{
+  "slices": 568,
+  "registers": 493,
+  "raw_lut": 735,
+  "lslice": 32,
+  "eram": 1,
+  "dsp": 0,
+  "source_sha256": "63E94A56D65F7F2DFF210EBCC2137E775D77B45B90B9BEE38E5F43ABBFFC7C60",
+  "gate_report_sha256": "0DF3AD00D4D3A1D04E8EFB2B8275CA984D81A6FE6961D7731A889E809AF2ACCE",
+  "legalized_report_sha256": "BFF22699911215767D031F4F09C730B3D13F19390DA251738047D900BA2E1155",
+  "execution": {
+    "command": [
+      "E:\\td\\bin\\td_commands_prompt.exe",
+      "run.tcl"
+    ],
+    "returncode": 0,
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\multibox_area_candidate\\20261113T142503_551609Z\\baseline\\td.log",
+    "log_sha256": "D71E9C3B80BB52FA16FB765F6952CC0064A168C895FC8F618B53B2717BA0FC6C"
+  }
+}

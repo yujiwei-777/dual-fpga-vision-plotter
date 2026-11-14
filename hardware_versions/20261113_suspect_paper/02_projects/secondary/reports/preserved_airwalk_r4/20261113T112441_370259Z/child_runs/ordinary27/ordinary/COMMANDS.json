@@ -1,0 +1,22 @@
+[
+  {
+    "label": "ordinary_integer27",
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\run_ordinary_pose7_regression.py",
+      "--rtl-root",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113",
+      "--model",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\export",
+      "--output",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\ordinary27\\ordinary\\integer27"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\ordinary27\\ordinary",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\ordinary27\\ordinary\\ordinary_integer27.log",
+    "log_sha256": "6A770B8D8819B44CE3F8204447FF085EB2BF4D7D03DE09F72DD8C894E0762DBD",
+    "warnings": []
+  }
+]

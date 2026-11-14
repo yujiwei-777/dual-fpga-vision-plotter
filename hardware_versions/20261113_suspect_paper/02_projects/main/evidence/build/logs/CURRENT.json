@@ -1,0 +1,20 @@
+{
+  "phase": "route",
+  "started_utc": "2026-11-13T15:05:49.566558+00:00",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_display_noise_route.tcl"
+  ],
+  "cwd": "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8",
+  "source_manifest_sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+  "runner_sha256": "19491E381743FC7AA63389243DE8A6631451ED683AE7096C76BEF6CB0F8952BD",
+  "script_sha256": "2B7EDE0874A3CD6E1599CB3FAA04DFCABFC73D06FB706B48556DFE78F042BF2A",
+  "td_sha256": "79EC56674F8F7B889E25E11BDCA91F7D64C24BA0DE99E80680248F00B4F87190",
+  "ended_utc": "2026-11-13T15:11:01.018625+00:00",
+  "returncode": 0,
+  "errors": [],
+  "log_sha256": "09498211719E203D410064EF23599910C78CA98062F81C99D69692EB28DF6230",
+  "completion_marker": true,
+  "passed": true,
+  "status": "COMPLETE"
+}

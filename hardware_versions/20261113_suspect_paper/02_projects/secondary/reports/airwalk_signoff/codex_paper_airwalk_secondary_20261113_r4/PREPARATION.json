@@ -1,0 +1,27 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "run": "E:\\codex_paper_airwalk_secondary_20261113_r4",
+  "source_manifest": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\SOURCE_MANIFEST.json",
+    "sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3"
+  },
+  "readonly_template": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\PREPARED_READONLY.tcl",
+    "sha256": "59CF8809196D05987BF8F5BC1E01D7EBA6B91A9D2C85FC057FC153B827B20BA3"
+  },
+  "bitgen_template": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\PREPARED_BITGEN.tcl",
+    "sha256": "97EC79732B231CA76D574EA24D9B6EBF922C6427816F5049F0B4694DD394692D"
+  },
+  "pending": [
+    "Fresh successful syn/place/route invocation receipts",
+    "Current routed timing/resource gate",
+    "Final eight named DRC checkers",
+    "Read-only DB import and unchanged AL/DB/source hashes",
+    "Fresh placed-site device capacity and mapped CDC/reset/DDR proof",
+    "Source-bound functional gate including preserved/document-integrated/total-ACK receipts"
+  ],
+  "artifact_name": "dual_fpga_secondary_20261113_pcb_paper_load_stroke_cont_diagnostic.bit",
+  "bitgen_allowed": false,
+  "hardware_status": "NOT_RUN"
+}

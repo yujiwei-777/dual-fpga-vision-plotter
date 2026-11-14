@@ -1,0 +1,72 @@
+{
+  "status": "PASS_CURRENT_IMPLEMENTATION_SIGNOFF",
+  "static_audit": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\STATIC_AUDIT.json",
+    "sha256": "4A70B6C6435EFB89F3E74B79E0636DBE1546008722834D47BF186461235AEA6E"
+  },
+  "route_review": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\ROUTE_GATE_REVIEW.json",
+    "sha256": "33F7FDE308ACCFCBD2C2CF82599DCD4AD234868A3949A89FFEA81A40DBFCC2BD"
+  },
+  "physical_review": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\PHYSICAL_REVIEW.json",
+    "sha256": "69D34A0A3A0CDFBF1179B23293F04252979B39D9B4DEC8E466DBBCD9A3A584DB"
+  },
+  "warning_review": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\IMPLEMENTATION_WARNING_REVIEW.json",
+    "sha256": "5C4254A97E926CE2BD5E64F6BD896D3A6F4D8F93E9A37BBCAADE1C2CED1CB60E"
+  },
+  "retained_critical_warnings": [
+    {
+      "phase": "syn",
+      "line": 1084,
+      "code": "SYN-6024",
+      "severity": "CRITICAL-WARNING",
+      "stage": "SYN-1001 : Stage 2.2 | Map IO",
+      "text": "SYN-6024 CRITICAL-WARNING: MapIO rule -- ODDR \"u_rgmii/rgmii_txc_ddr\" not have rst or rst is const or ASYNCRST is DISABLE, this may lead PAD tx data out of sync with other PAD. Please consider rewriting code in ../../main/user_source/hdl_source/ethernet/rgmii_interface.v(129).",
+      "disposition": "RETAINED_UNCHANGED_RGMII_ODDR_WARNING",
+      "unchanged_source": {
+        "relative": "main/user_source/hdl_source/ethernet/rgmii_interface.v",
+        "sha256": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A"
+      }
+    },
+    {
+      "phase": "place",
+      "line": 33945,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.6 | GP Phase 3",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "RETAINED_LOGICAL_SLICEL_WARNING_WITH_CURRENT_COMPLETE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true,
+      "physical_capacity_evidence": {
+        "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\physical_capacity\\physical_capacity_validation.json",
+        "sha256": "439A724FF5B4ABFA9AF221B580CE9E7334709E0CC5A5389C6EDD6E6046E6A8CC"
+      }
+    },
+    {
+      "phase": "place",
+      "line": 33980,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.8 | GP Phase 4",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "RETAINED_LOGICAL_SLICEL_WARNING_WITH_CURRENT_COMPLETE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true,
+      "physical_capacity_evidence": {
+        "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\physical_capacity\\physical_capacity_validation.json",
+        "sha256": "439A724FF5B4ABFA9AF221B580CE9E7334709E0CC5A5389C6EDD6E6046E6A8CC"
+      }
+    }
+  ],
+  "source_manifest": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\SOURCE_MANIFEST.json",
+    "sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3"
+  },
+  "routed_database": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\phy_1\\secondary_cnn_multibox_pr.db",
+    "sha256": "7A71EF0B02AA6E5A8B4D0F3B0CEACDC9B380E09B69B1F6E20DC26BEA51701CD9"
+  },
+  "bitgen_allowed": false,
+  "hardware_status": "NOT_RUN"
+}

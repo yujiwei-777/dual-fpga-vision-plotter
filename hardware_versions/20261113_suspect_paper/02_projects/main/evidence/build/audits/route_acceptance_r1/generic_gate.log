@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "timing_ns": {
+    "SWNS": 0.383,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19868,
+      "total": 21216,
+      "percent": 93.64630467571644,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 97,
+      "total": 108,
+      "percent": 89.81481481481481,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  },
+  "failures": []
+}

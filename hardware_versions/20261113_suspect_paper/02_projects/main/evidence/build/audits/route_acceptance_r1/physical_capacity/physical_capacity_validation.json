@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "errors": [],
+  "expected_slices": 19868,
+  "placed_compatible_unique_slices": 19868,
+  "expected_model_counts": {
+    "PH1P_PHY_LSLICE": 19284,
+    "PH1P_PHY_MSLICE": 584
+  },
+  "placed_model_by_physical_tile": {
+    "PH1P_PHY_LSLICE_in_Pmb": 7037,
+    "PH1P_PHY_LSLICE_in_Plb": 12247,
+    "PH1P_PHY_MSLICE_in_Pmb": 584
+  },
+  "capacities": {
+    "Plb": 13104,
+    "Pmb": 8112
+  },
+  "used": {
+    "Plb": 12247,
+    "Pmb": 7621
+  },
+  "free": {
+    "Plb": 857,
+    "Pmb": 491
+  },
+  "total_utilization_percent": 93.64630467571644,
+  "named_logic_tile_counts": {
+    "Plb": 1638,
+    "Pmb": 1014
+  },
+  "representative_td_slot_evidence": [
+    {
+      "col": 31,
+      "row": 49,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    },
+    {
+      "col": 15,
+      "row": 64,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    },
+    {
+      "col": 2,
+      "row": 1,
+      "mosaic_type": 3,
+      "slot_type": 158,
+      "slots": 8
+    },
+    {
+      "col": 31,
+      "row": 1,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    },
+    {
+      "col": 9,
+      "row": 1,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    },
+    {
+      "col": 2,
+      "row": 40,
+      "mosaic_type": 3,
+      "slot_type": 158,
+      "slots": 8
+    },
+    {
+      "col": 9,
+      "row": 40,
+      "mosaic_type": 31,
+      "slot_type": 157,
+      "slots": 8
+    }
+  ],
+  "allowed_models": {
+    "Plb": [
+      "PH1P_PHY_LSLICE"
+    ],
+    "Pmb": [
+      "PH1P_PHY_LSLICE",
+      "PH1P_PHY_MSLICE"
+    ]
+  },
+  "official_resource_cross_check": {
+    "official_luts": 21216,
+    "official_dffs": 42432,
+    "official_distributed_ram_kbits": 507,
+    "slots_from_named_device_tiles": 21216,
+    "memory_slots_from_named_device_tiles": 8112
+  },
+  "scope": "Only physical Slice capacity, complete cell correspondence, placement and model/slot compatibility. TD IO/clock/routing/DRC/timing remain separate mandatory checks.",
+  "inputs": {
+    "chip": {
+      "path": "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\physical_capacity\\ph1_35p_device_dump.txt_chip",
+      "sha256": "5246B3BC13CA653CA3D4058068E10A6323A09E9EB2868F7E2D5680E7E3F6B9D7"
+    },
+    "routing": {
+      "path": "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\physical_capacity\\ph1_35p_device_dump.txt_connmngr",
+      "sha256": "7A2AABFC3943C9B2703CF1C06B0B1F141970CFA8947E1B617709F52D58FACC1E"
+    },
+    "tile_report": {
+      "path": "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_launcher.log",
+      "sha256": "617A77D9BBF0617C67B8BA32878C4DC48828E22A6F291362E1859A6D4C919BC3"
+    },
+    "datasheet": {
+      "path": "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\physical_capacity\\DS1300_logic_and_dram_excerpt.txt",
+      "sha256": "C3616AB581A42ECFAF5E8DF7AE3A0C149FF108B08C3C7206602C25D07BCE7A52"
+    },
+    "expected_cells": {
+      "path": "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\expected_slice_cells.tsv",
+      "sha256": "1E1C3A4A73808CAE6A051F1DA6861EA115ECE097BAAD1738B423526C81792ED0"
+    },
+    "expected_log": {
+      "path": "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_launcher.log",
+      "sha256": "617A77D9BBF0617C67B8BA32878C4DC48828E22A6F291362E1859A6D4C919BC3"
+    },
+    "resource_report": {
+      "path": "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\physical_capacity\\physical_device_resources.txt",
+      "sha256": "F05A40A3362D448BD25B2E41BDD0F00648158F50BBFC2C435E83A9AF5C5DF395"
+    },
+    "placements": {
+      "path": "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly.sites.tsv",
+      "sha256": "D1BBD45EED5078B8FE92CC22B7D65D881CBF66092B2F7DD714560DBA87E81462"
+    }
+  },
+  "validator_sha256": "16B7496C54FB97F2B9B0746F83A740B04ADF5D04194E6E8A7F7F7D04A9CAEBD2"
+}

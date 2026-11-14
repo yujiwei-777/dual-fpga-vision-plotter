@@ -1,0 +1,13 @@
+PASS pipeline/pipeline_vlib
+PASS pipeline/pipeline_lint
+PASS pipeline/pipeline_simulation
+pipeline: PASS
+PASS adapter/adapter_vlib
+PASS adapter/adapter_lint
+PASS adapter/adapter_simulation
+adapter: PASS
+PASS sharehold/sharehold_vlib
+PASS sharehold/sharehold_lint
+PASS sharehold/sharehold_simulation
+sharehold: PASS
+CURRENT_SUITE_OUTPUT D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\pcb_pipeline_adapter_sharehold

@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-13T11:25:17.613329+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\run_retrained_preserved_regressions.py": "8345B2D3EBBCEBD12DABACC074CD430F6AEFCFB7A482C8D15B87DDA2C65E59E9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tests\\suspect_r6\\run_current.py": "E95FD1E58BB09FD12B7F6123FE0D3D19027F4C19206FCDBC07598D6161B42DC8",
+    "E:\\codex_paper_airwalk_secondary_20261113_r4\\SOURCE_MANIFEST.json": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\model\\suspect\\confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\model\\suspect\\CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\model\\suspect\\mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tests\\suspect_r6\\tb_suspect_adapter_current.sv": "54E17249B845E53DD399251EDF4732B6D89973742FF78667700F862B48BF4228",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\pcb_ccl_binary_core.v": "3854CE24EE32D0D6951EC5BB57E3D380400553E5A763F1883ABCEF512DA37EEE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\pcb_fullboard_spatial96.v": "284B6BF9BB426AD2F04B2BCD0BA2679CFD2DD476C480439306A018D06EF429AB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter\\tb_suspect_adapter_current.sv": "1099865E47ACB5BDD26387C849AB90A34441E2D592168620C4FF6BDF8C393AE7",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\export\\biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\export\\weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\experiments\\conv4_4\\biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\experiments\\conv4_4\\weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\suspect\\mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\suspect\\CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\suspect\\confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85"
+  },
+  "commands": [
+    {
+      "label": "adapter_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter\\adapter_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter\\adapter_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "adapter_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter\\adapter_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\pcb_ccl_binary_core.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\pcb_fullboard_spatial96.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter\\tb_suspect_adapter_current.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter\\adapter_lint.log",
+      "log_sha256": "D86820F0CEEE067235BF96B8EC76A6F18545930E1CC6A7349502119F8E0A6598",
+      "warnings": []
+    },
+    {
+      "label": "adapter_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "adapter_lib",
+        "tb_suspect_adapter",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter\\adapter_simulation.log",
+      "log_sha256": "E5497C59928644ADFEB08D6C98356CC709992FDF9905EEDF9A51416669F1970A",
+      "warnings": []
+    }
+  ],
+  "scope": [
+    {
+      "suite": "adapter",
+      "coverage": "Current CCL/ROI/features/logits/class/score/margin/SUSPECT, cancel/drain/reentry; adapter controlled classification; sharehold actual snapshot lifetimes."
+    },
+    {
+      "source_manifest": "E:\\codex_paper_airwalk_secondary_20261113_r4\\SOURCE_MANIFEST.json",
+      "sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+      "bound_current_production_sources": {
+        "01_rtl/pcb_ccl_binary_core.v": "3854CE24EE32D0D6951EC5BB57E3D380400553E5A763F1883ABCEF512DA37EEE",
+        "01_rtl/pcb_fullboard_spatial96.v": "284B6BF9BB426AD2F04B2BCD0BA2679CFD2DD476C480439306A018D06EF429AB",
+        "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+        "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+        "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+        "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+        "model/suspect/mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+        "model/suspect/CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+        "model/suspect/confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85"
+      }
+    }
+  ],
+  "limitations": [
+    "Existing frozen fixtures; no new localization accuracy or physical DDR/CDC claim."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

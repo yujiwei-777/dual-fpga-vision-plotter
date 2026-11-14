@@ -1,0 +1,58 @@
+[
+  {
+    "label": "transport_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter\\transport_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter\\transport_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "transport_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter\\transport_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_line_formatter.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_response_parser.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_shared_transport_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter\\tb_pose7_plotter.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter\\transport_lint.log",
+    "log_sha256": "80239FB5605FD313C4FE3DF41E5D0E1C37B74EC6D8E38CFBFD07F9DD3A710187",
+    "warnings": []
+  },
+  {
+    "label": "transport_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "transport_lib",
+      "tb_pose7_plotter",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter\\transport_simulation.log",
+    "log_sha256": "DD4DE041608945D98571FB94806C0E1F567C35CB238F158BE591749B81691D1C",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter\\tb_pose7_plotter.sv(29): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 92, found 91.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter\\tb_pose7_plotter.sv(29): (vopt-2718) [TFMPC] - Missing connection for port 'R_idle_done'."
+    ]
+  }
+]

@@ -1,0 +1,234 @@
+{
+  "schema": "main-suspect-center-diagnostic-release-r4-v1",
+  "status": "NOT_PUBLISHED",
+  "started_utc": "2026-11-13T15:12:13.213822+00:00",
+  "runner": {
+    "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/tools/bitgen_current_r4.py",
+    "sha256": "564C0C3590D0BA6CFDC28538251DCE0E6C37EEED5124B5ACE65FF3AC9FDA617C",
+    "bytes": 28121
+  },
+  "script": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/bitgen_r1/bitgen.tcl",
+    "sha256": "C5A94A2317EB08A138D2697C95F8B6C0E48F486F5B33BE1B9BC8619BBDFAEB01",
+    "bytes": 1831
+  },
+  "td": {
+    "path": "E:/td/bin/td_commands_prompt.exe",
+    "sha256": "79EC56674F8F7B889E25E11BDCA91F7D64C24BA0DE99E80680248F00B4F87190",
+    "bytes": 119567120
+  },
+  "route_acceptance": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/CURRENT_ROUTE_ACCEPTANCE.json",
+    "sha256": "05161E68A7CD66A5B9C0B8CD85DA6D402DEE78A296279561288964CB07EBACF0",
+    "bytes": 5249
+  },
+  "source_manifest_sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+  "source_files_checked": 251,
+  "regressions": {
+    "center": {
+      "result": {
+        "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/center_integration/20261113T142834_675794Z/RESULT.json",
+        "sha256": "90E03EF52DE003B59474EAFBD4DEB2D368771375B0427D061EB8108448DD9182",
+        "bytes": 13798
+      },
+      "logs": [
+        {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/center_integration/20261113T142834_675794Z/simulation/vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "bytes": 0
+        },
+        {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/center_integration/20261113T142834_675794Z/simulation/compile.log",
+          "sha256": "9FC4D1838DA24CC74075D221706AFA2B0B65529FD7C1AB2E3BF30E7A75C8A8DD",
+          "bytes": 2582
+        },
+        {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/center_integration/20261113T142834_675794Z/simulation/simulation.log",
+          "sha256": "A4D0E971D2D55F97EFF2EB715A1F9D9C15054081C2B9BB36F7255142D181A19E",
+          "bytes": 1342
+        }
+      ],
+      "scope": "Actual new-variant hx_result_select/hdmi_mixer plus byte-equal frozen real dependencies elaborated/simulated against successful baseline miter; 163-bit original metadata and pixel checks. Full new-variant top syntax compiled and center named-port wiring checked; no whole-board IP elaboration, synthesis/place/route or localization-accuracy/hardware claim."
+    },
+    "controls": {
+      "result": {
+        "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/regression_controls/20261113T142834_675794Z/RESULT.json",
+        "sha256": "2A555B450D1436F5F3C22A819A7CA4A0E5BB3BBF846CA088E17C607AD9D462D6",
+        "bytes": 9739
+      },
+      "logs": [
+        {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/regression_controls/20261113T142834_675794Z/dynamic_status/vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "bytes": 0
+        },
+        {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/regression_controls/20261113T142834_675794Z/dynamic_status/compile.log",
+          "sha256": "D0E85A2792306E1ECCB66B9030071DAE0C06FD29E68BE45AA1621B05E6A118A7",
+          "bytes": 1118
+        },
+        {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/regression_controls/20261113T142834_675794Z/dynamic_status/simulation.log",
+          "sha256": "411D90B64E4A1BD91D27A7AA638FA591BDE60BC721DFF67428F13370A2BEA079",
+          "bytes": 1250
+        },
+        {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/regression_controls/20261113T142834_675794Z/type21_maintenance/vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "bytes": 0
+        },
+        {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/regression_controls/20261113T142834_675794Z/type21_maintenance/compile.log",
+          "sha256": "7177DED54B20772B64D6EF7BABB15EB3B079108AAC5B6282F669BE8C9CB3926C",
+          "bytes": 766
+        },
+        {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/regression_controls/20261113T142834_675794Z/type21_maintenance/simulation.log",
+          "sha256": "63E3CDE35024DC0908C28868B6DDCD884CEB579B3BEE3E99C088AA7C62F202AE",
+          "bytes": 1736
+        }
+      ],
+      "scope": "Actual new-variant dynamic panel/font and HXA main link/packet codec; real CRC/session byte-stream Type21 maintenance 0..7 accepted, 8/255 rejected. All design/test bytes match frozen build. No whole-board simulation or hardware acceptance."
+    }
+  },
+  "badge_equivalence": {
+    "result": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/RESULT.json",
+      "sha256": "057DE3AEBB35B15A9AFEE260A1F12A8F907931EE237A4A4A5C43548B68F7FAE6",
+      "bytes": 3824
+    },
+    "probe_inputs": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/INPUTS.json",
+      "sha256": "382C7843AAF0A5019838F3FD6C65DF0BA590D73E19AFB07AC336D4D392E82C6F",
+      "bytes": 717
+    },
+    "runner": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/tools/probe_multibox_area.py",
+      "sha256": "0C395B37414C0945E0B977CB7CBB662B704A025F8C3C474202E2837A4E04C11E",
+      "bytes": 12060
+    },
+    "baseline_control": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_operator_ui_cn_font_shift1_dynamic_osd_20261113/01_rtl/imgq_gain_m/main/user_source/hdl_source/hxa_multibox_overlay.v",
+      "sha256": "51362EF60E6A5DEBC11F6C63E28D4F3A796F44B28420D54E7530DCE4473B9933",
+      "bytes": 12067
+    },
+    "tested_source": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/candidate/hxa_multibox_overlay.v",
+      "sha256": "95A538C533526F672A0850FCE611913044E58BCF6EF110C458B83E14203B6CD9",
+      "bytes": 13194
+    },
+    "frozen_source": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/user_source/hdl_source/hxa_multibox_overlay.v",
+      "sha256": "95A538C533526F672A0850FCE611913044E58BCF6EF110C458B83E14203B6CD9",
+      "bytes": 13194
+    },
+    "actual_miter_logs": [
+      {
+        "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/vlib.log",
+        "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "bytes": 0
+      },
+      {
+        "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/compile.log",
+        "sha256": "6B053263E3F8371FBFEDC2B68FF800477EF5D05110B4C6CDB7DC649ECCCCF602",
+        "bytes": 400
+      },
+      {
+        "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/simulation.log",
+        "sha256": "3D1B8357F494491C8C8021B63A9AA9B6BA6095EE20C012E9BA081B692DCF7DE1",
+        "bytes": 1137
+      }
+    ],
+    "bench": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/tb.sv",
+      "sha256": "395DEB9F1359CF18E1086EC0C269B4D485ED6CE625BB27076B289EEEE5559712",
+      "bytes": 3266
+    },
+    "area": {
+      "baseline": {
+        "source": {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/baseline/hxa_multibox_overlay.v",
+          "sha256": "63E94A56D65F7F2DFF210EBCC2137E775D77B45B90B9BEE38E5F43ABBFFC7C60",
+          "bytes": 12348
+        },
+        "top": {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/baseline/module_area_top.v",
+          "sha256": "CD4C6D7ABB4CCE23E4BCD0FBFFADFE513689A66DAA6183CC595F486048FD6F36",
+          "bytes": 13151
+        },
+        "execution_log": {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/baseline/td.log",
+          "sha256": "D71E9C3B80BB52FA16FB765F6952CC0064A168C895FC8F618B53B2717BA0FC6C",
+          "bytes": 32030
+        },
+        "area": {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/baseline/AREA_RESULT.json",
+          "sha256": "63479CB8F11316AB32C9D4462D6536ED266BC4B771D5F071500CFC1641BEFA72",
+          "bytes": 775
+        },
+        "raw_lut": 735,
+        "slices": 568,
+        "lslice": 32
+      },
+      "candidate": {
+        "source": {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/candidate/hxa_multibox_overlay.v",
+          "sha256": "95A538C533526F672A0850FCE611913044E58BCF6EF110C458B83E14203B6CD9",
+          "bytes": 13194
+        },
+        "top": {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/candidate/module_area_top.v",
+          "sha256": "4DBE1F87C4C6CFC7871BF8B1CC228C1C5A65F036C6DA43F119D7FAAD0D50BB4A",
+          "bytes": 13997
+        },
+        "execution_log": {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/candidate/td.log",
+          "sha256": "FA23A1A421F0A86E1500C11AA9E69659FF0ECA71E340E803BF9181344C93EA64",
+          "bytes": 32028
+        },
+        "area": {
+          "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/multibox_area_candidate/20261113T142503_551609Z/candidate/AREA_RESULT.json",
+          "sha256": "666260D2DD31AF1DF0648AF36F65EAC12FAD0FAC8B50A68D8ED4E857E16C973C",
+          "bytes": 775
+        },
+        "raw_lut": 654,
+        "slices": 507,
+        "lslice": 0
+      }
+    },
+    "raw_lut_saving": 81,
+    "scope": "Actual four-target glyph module and all 77 output bits, 4438724 matching cycles; independent module area uses a common serial input wrapper. Default parameters tested; other parameter fallback statically reviewed. Whole-board route gates remain separate."
+  },
+  "control_integrity": {
+    "receipt": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/CONTROL_INPUT_INTEGRITY_R4.json",
+      "sha256": "0A0AB3058AFF406EE6A8B51A63DCBF40BA8943265EFB0453D03384EC547D1812",
+      "bytes": 57138
+    },
+    "baseline_files_checked": 217,
+    "source_snapshot": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/source_snapshot.json",
+      "sha256": "6BB1DD63E772E765431B68FC7F112A8323493D573E04A6D9B4C764DD6690F684",
+      "bytes": 110161
+    },
+    "source_active_files_checked": 193
+  },
+  "input_hashes_before_bitgen": {
+    "E:/codex_pcb_suspect_center_main_20261113_r4/SOURCE_MANIFEST.json": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/BUILD_PLAN.json": "99D2D683880ABC95E46902DC6E511FA9FEE0A1580AD81801B0CB419B601446EE",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.al": "8CD5415DAED04B8C38F7BD061E7D9636BF299402A84D845143E577C8168A630A",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.prj": "8CD5415DAED04B8C38F7BD061E7D9636BF299402A84D845143E577C8168A630A",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_gate.db": "72F584394BC4340C280194F3D529CE3C1869E9785458F15DD1C89D9AE79A1325",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.db": "8220E077AA2910704A6E1861F04BA60BF9B4B18429CACE5A11A26AB6EBC3806E",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.timing": "58F32F537DBF6EC566FE1C9253BB251590300EF45278D0D26DD625888CC90517",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_phy.area": "FD01EEFE939C3A24069B9C5C9E79EC8ABC2EEEDBF45B93A488A6E75A8193840A",
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/source_snapshot.json": "6539652E99EB0E03CA2F26CED2EDF50583FAE4E6FA6D2AD97DE091FAD396B27E"
+  },
+  "hardware_status": "NOT_RUN",
+  "localization_accuracy": "Display center cross only; no improvement in localization accuracy claimed. Pad localization remains below the prior per-class 80% target.",
+  "limits": [
+    "CDC/FIFO/DDR reports are static evidence; no current DDR runtime calibration or traffic proof is certified.",
+    "RTL display/control regressions are targeted; no whole-board IP functional simulation claimed.",
+    "Mechanical drawing, paper load/eject and paired-board operation require hardware tests."
+  ]
+}

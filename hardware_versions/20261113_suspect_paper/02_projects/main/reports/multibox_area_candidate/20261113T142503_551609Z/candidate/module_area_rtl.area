@@ -1,0 +1,35 @@
+standard
+***Report Model: module_area_top Device: PH1P35MDG324***
+
+IO Statistics
+#IO                       132
+  #input                   55
+  #output                  77
+  #inout                    0
+
+Gate Statistics
+#Basic gates              771
+  #and                     77
+  #nand                     0
+  #or                      20
+  #nor                      0
+  #xor                      1
+  #xnor                     0
+  #buf                      0
+  #not                     74
+  #bufif1                   0
+  #MX21                   105
+  #FADD                     0
+  #DFF                    494
+  #LATCH                    0
+#MACRO_ADD                106
+#MACRO_EQ                   7
+#MACRO_MUX                248
+
+Report Hierarchy Area:
++-------------------------------------------------------+
+|Instance |Module               |gates  |seq    |macros |
++-------------------------------------------------------+
+|top      |module_area_top      |277    |494    |113    |
+|  actual |hxa_multibox_overlay |270    |189    |113    |
++-------------------------------------------------------+

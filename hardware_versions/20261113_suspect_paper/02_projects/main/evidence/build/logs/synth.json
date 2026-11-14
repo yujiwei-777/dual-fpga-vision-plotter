@@ -1,0 +1,19 @@
+{
+  "phase": "synth",
+  "started_utc": "2026-11-13T14:29:14.589501+00:00",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_display_noise_synth.tcl"
+  ],
+  "cwd": "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8",
+  "source_manifest_sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+  "runner_sha256": "19491E381743FC7AA63389243DE8A6631451ED683AE7096C76BEF6CB0F8952BD",
+  "script_sha256": "420F7A9FE308D1B2264FBDCBA793E01BC604B1DCDDF2B7C10905C8936CFFA5C1",
+  "td_sha256": "79EC56674F8F7B889E25E11BDCA91F7D64C24BA0DE99E80680248F00B4F87190",
+  "ended_utc": "2026-11-13T15:00:02.344736+00:00",
+  "returncode": 0,
+  "errors": [],
+  "log_sha256": "2B78BCC33C8636280F02B1269E07795C6426423AEBC252811647C8586CF04F5F",
+  "completion_marker": true,
+  "passed": true
+}

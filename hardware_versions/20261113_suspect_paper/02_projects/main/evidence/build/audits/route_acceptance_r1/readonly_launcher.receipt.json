@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-11-13T15:11:09.181933+00:00",
+  "ended_utc": "2026-11-13T15:11:58.584958+00:00",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "readonly_reimport.tcl"
+  ],
+  "cwd": "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1",
+  "returncode": 0,
+  "log": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly_launcher.log",
+    "sha256": "617A77D9BBF0617C67B8BA32878C4DC48828E22A6F291362E1859A6D4C919BC3",
+    "bytes": 16043944
+  }
+}

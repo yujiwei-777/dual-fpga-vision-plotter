@@ -1,0 +1,56 @@
+[
+  {
+    "label": "reader_mailbox_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader\\reader_mailbox_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader\\reader_mailbox_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "reader_mailbox_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader\\reader_mailbox_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\vision_pixel_reader.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\hxa_ddr_store.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader\\top_read_route_probe.sv",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader\\hxa_read_route_probe.sv",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader\\tb_reader.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader\\reader_mailbox_lint.log",
+    "log_sha256": "B736258B7BEEFC25DACDFA806C6FC01524556242828509FC4D71571FF23A57B3",
+    "warnings": []
+  },
+  {
+    "label": "reader_mailbox_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "reader_mailbox_lib",
+      "tb_pose7_real_reader",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader\\reader_mailbox_simulation.log",
+    "log_sha256": "5C92B5A3ECFDDE6F43D5ABD26F94AE70750BF613680A3577FE7289BCDF8A5FB8",
+    "warnings": []
+  }
+]

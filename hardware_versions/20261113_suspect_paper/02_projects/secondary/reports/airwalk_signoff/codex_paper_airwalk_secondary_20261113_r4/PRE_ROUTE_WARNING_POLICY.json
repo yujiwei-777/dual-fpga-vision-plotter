@@ -1,0 +1,994 @@
+{
+  "status": "IMPLEMENTATION_WARNINGS_REVIEW_REQUIRED",
+  "passed": false,
+  "policy_blockers": [],
+  "pending_site_proof": [
+    {
+      "phase": "place",
+      "line": 33945,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.6 | GP Phase 3",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "REQUIRES_CURRENT_COMPLETE_UNIQUE_COMPATIBLE_SLICE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true
+    },
+    {
+      "phase": "place",
+      "line": 33980,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.8 | GP Phase 4",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "REQUIRES_CURRENT_COMPLETE_UNIQUE_COMPATIBLE_SLICE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true
+    }
+  ],
+  "warnings": [
+    {
+      "phase": "syn",
+      "line": 24,
+      "code": "PRJ-5611",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "PRJ-5611 WARNING: ../../01_rtl/pcb_fullboard_spatial96.v and ../../01_rtl/pcb_ccl_binary_core.v have the same CompileOrder value.",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 25,
+      "code": "PRJ-5611",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "PRJ-5611 WARNING: ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml and ../../01_rtl/doc_grbl_plotter_shared_candidate.v have the same CompileOrder value.",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 259,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'rom_w52' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(36)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 264,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'usr_vld[8]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v(132)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 265,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'init_gate[80]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v(134)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 266,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'init_wdqs[80]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v(135)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 267,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'init_wdq[80]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v(136)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 268,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'init_rdqsp[80]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v(137)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 269,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'init_rdqsn[80]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v(138)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 270,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'init_wsl[35]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v(139)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 271,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'init_rsl[35]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_fast_init_wrapper.v(140)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 274,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'lcdl_mdl_r[8]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_dcu.v(94)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 280,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'dhi_wdata_en' in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v(605)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 291,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'phy_rdata[103]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(152)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 292,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'phy_rdqs[7]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(157)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 293,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dl_in' is not connected on this instance in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(390)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 295,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'phy_rdata[103]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(152)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 296,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'phy_rdqs[7]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(157)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 297,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dl_in' is not connected on this instance in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(390)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 299,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'phy_rdata[103]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(152)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 300,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dl_in' is not connected on this instance in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(390)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 306,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'phy_rdata[103]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(152)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 307,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dl_in' is not connected on this instance in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(390)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 308,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: actual bit length 2 differs from formal bit length 1 for port 'dx_rfifo_en' in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v(620)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 310,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'phy_rdata[103]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(152)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 311,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dl_in' is not connected on this instance in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_byte_wrapper.v(390)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 312,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: actual bit length 2 differs from formal bit length 1 for port 'dx_rfifo_en' in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v(620)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 313,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'dx2_wdata[103]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v(187)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 314,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'dx3_wdata[103]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v(188)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 315,
+      "code": "HDL-5314",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5314 WARNING: net 'dx4_wdata[103]' does not have a driver in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v(189)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 317,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'i_scan_clk' is not connected on this instance in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v(438)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 318,
+      "code": "HDL-5323",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5323 WARNING: input port 'dqs_pupd_en' remains unconnected for this instance in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy.v(528)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 319,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dly_full[1]' is not connected on this instance in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v(457)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 320,
+      "code": "HDL-5323",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5323 WARNING: input port 'dhi_bg[11]' remains unconnected for this instance in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_top.v(658)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 324,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(49)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 325,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(51)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 326,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(58)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 327,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(60)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 328,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(67)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 329,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(74)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 330,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(75)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 331,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(76)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 332,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(78)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 333,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(79)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 338,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(49)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 339,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(51)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 340,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(58)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 341,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(60)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 342,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(67)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 343,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(74)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 344,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(75)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 345,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(76)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 346,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: delay control is not supported for synthesis in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/misc/ph1p_ddr_fifo_dram_sync.v(78)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 362,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv(4019)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 363,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv(4019)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 364,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv(177)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 380,
+      "code": "HDL-5369",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5369 WARNING: latch inferred for net '**' in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv(2464)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 401,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dib[7]' is not connected on this instance in ../../main/user_source/hdl_source/ethernet/udp_pkg_buf.v(221)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 437,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dib[7]' is not connected on this instance in ../../main/user_source/hdl_source/ethernet/udp_pkg_buf.v(221)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 442,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dib[74]' is not connected on this instance in ../../main/user_source/hdl_source/ethernet/udp_pkg_buf.v(221)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 449,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dib[69]' is not connected on this instance in ../../main/user_source/hdl_source/ethernet/udp_pkg_buf.v(221)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 465,
+      "code": "HDL-5317",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5317 WARNING: input port 'dib[27]' is not connected on this instance in ../../main/user_source/hdl_source/ethernet/udp_pkg_buf.v(221)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 502,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case equality operator always evaluates to false due to comparison with 'x' or 'z' in ../../01_rtl/pcb_ccl_binary_core.v(263)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 503,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case equality operator always evaluates to false due to comparison with 'x' or 'z' in ../../01_rtl/pcb_ccl_binary_core.v(264)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 504,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case equality operator always evaluates to false due to comparison with 'x' or 'z' in ../../01_rtl/pcb_ccl_binary_core.v(264)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 505,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case equality operator always evaluates to false due to comparison with 'x' or 'z' in ../../01_rtl/pcb_ccl_binary_core.v(264)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 506,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case inequality operator always evaluates to true due to comparison with 'x' or 'z' in ../../01_rtl/pcb_ccl_binary_core.v(280)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 507,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case inequality operator always evaluates to true due to comparison with 'x' or 'z' in ../../01_rtl/pcb_ccl_binary_core.v(280)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 508,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case inequality operator always evaluates to true due to comparison with 'x' or 'z' in ../../01_rtl/pcb_ccl_binary_core.v(280)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 515,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case equality operator always evaluates to false due to comparison with 'x' or 'z' in ../../01_rtl/vision_pipeline.v(857)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 516,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case equality operator always evaluates to false due to comparison with 'x' or 'z' in ../../01_rtl/vision_pipeline.v(858)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 517,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case equality operator always evaluates to false due to comparison with 'x' or 'z' in ../../01_rtl/vision_pipeline.v(858)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 518,
+      "code": "HDL-5007",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "HDL-5007 WARNING: case equality operator always evaluates to false due to comparison with 'x' or 'z' in ../../01_rtl/vision_pipeline.v(859)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 704,
+      "code": "SYN-5065",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.1 | Check Design Sanity",
+      "text": "SYN-5065 WARNING: Register \"genCA$op\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/mc/alc_mc_top_all.enc.sv(0) is described with both an asynchronous reset and an asynchronous set. It may have an uncertainty of the timing. Please conside rewriting code.",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 733,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[31]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 735,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[30]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 737,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[29]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 739,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[28]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 741,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[27]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 743,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[26]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 745,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[25]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 747,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[24]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 749,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[23]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 751,
+      "code": "SYN-5013",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5013 WARNING: Undriven net: model \"secondary_top\" / net \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/cal_apb_prdata[22]\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_wrapper.v(241)",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 754,
+      "code": "SYN-5025",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 1.4 | Uniform Instance",
+      "text": "SYN-5025 WARNING: Using 0 for all undriven pins and nets",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1084,
+      "code": "SYN-6024",
+      "severity": "CRITICAL-WARNING",
+      "stage": "SYN-1001 : Stage 2.2 | Map IO",
+      "text": "SYN-6024 CRITICAL-WARNING: MapIO rule -- ODDR \"u_rgmii/rgmii_txc_ddr\" not have rst or rst is const or ASYNCRST is DISABLE, this may lead PAD tx data out of sync with other PAD. Please consider rewriting code in ../../main/user_source/hdl_source/ethernet/rgmii_interface.v(129).",
+      "disposition": "RETAINED_UNCHANGED_RGMII_ODDR_WARNING",
+      "unchanged_source": {
+        "relative": "main/user_source/hdl_source/ethernet/rgmii_interface.v",
+        "sha256": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A"
+      }
+    },
+    {
+      "phase": "syn",
+      "line": 1128,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_24\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[7]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1129,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_24\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[6]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1130,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_24\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[5]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1131,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_24\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[4]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1132,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_24\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[3]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1133,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_24\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[2]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1134,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_24\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[1]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1135,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_24\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[0]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1136,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_25\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[7]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1137,
+      "code": "SYN-5011",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5011 WARNING: Undriven pin: model \"secondary_top\" / inst \"u_ddr/u_ddr2/ph1p_ddrmc_wrapper/ph1p_ddrmc_top/u_ddr_phy/u_ddrphy_top/u_ddrphy_init/ramread0_syn_25\" in ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/src/rtl/phy/ph1p_ddrphy_init.v(73) / pin \"di[6]\"",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "syn",
+      "line": 1139,
+      "code": "SYN-5025",
+      "severity": "WARNING",
+      "stage": "SYN-1001 : Stage 2.3 | Map Macro",
+      "text": "SYN-5025 WARNING: Using 0 for all undriven pins and nets",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "place",
+      "line": 24,
+      "code": "PRJ-5611",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "PRJ-5611 WARNING: ../../01_rtl/pcb_fullboard_spatial96.v and ../../01_rtl/pcb_ccl_binary_core.v have the same CompileOrder value.",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "place",
+      "line": 25,
+      "code": "PRJ-5611",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "PRJ-5611 WARNING: ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml and ../../01_rtl/doc_grbl_plotter_shared_candidate.v have the same CompileOrder value.",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "place",
+      "line": 33780,
+      "code": "PHY-5016",
+      "severity": "WARNING",
+      "stage": "PHY-1001 : Stage 2.1.1 | Pre-Place DRC Check",
+      "text": "PHY-5016 WARNING: PLL clkc is driving an IO without location.",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "place",
+      "line": 33945,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.6 | GP Phase 3",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "REQUIRES_CURRENT_COMPLETE_UNIQUE_COMPATIBLE_SLICE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true
+    },
+    {
+      "phase": "place",
+      "line": 33980,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.8 | GP Phase 4",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "REQUIRES_CURRENT_COMPLETE_UNIQUE_COMPATIBLE_SLICE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true
+    },
+    {
+      "phase": "route",
+      "line": 24,
+      "code": "PRJ-5611",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "PRJ-5611 WARNING: ../../01_rtl/pcb_fullboard_spatial96.v and ../../01_rtl/pcb_ccl_binary_core.v have the same CompileOrder value.",
+      "disposition": "RECORDED_WARNING"
+    },
+    {
+      "phase": "route",
+      "line": 25,
+      "code": "PRJ-5611",
+      "severity": "WARNING",
+      "stage": "",
+      "text": "PRJ-5611 WARNING: ../../main/user_source/hdl_source/ph1p35_ddr/ddr2/ddr2.xml and ../../01_rtl/doc_grbl_plotter_shared_candidate.v have the same CompileOrder value.",
+      "disposition": "RECORDED_WARNING"
+    }
+  ],
+  "warning_count": 104,
+  "critical_warning_count": 3,
+  "logs": [
+    {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\logs\\syn.log",
+      "sha256": "F279BA1B1B4C77AC58FC6500D58EB6CB1C9F2966BC8E32E08001DA82B287F211"
+    },
+    {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\logs\\place.log",
+      "sha256": "CD0D2172B587B46FF495BB01EA5C7DC9BC455E6AD29E5B964AC0945D21C7FEEE"
+    },
+    {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\logs\\route.log",
+      "sha256": "105A0E8B09BF1D53D7A53E4B4C4872A7484C6BEE3CA1B109E4465D306E56415F"
+    }
+  ],
+  "current_complete_site_proof": null,
+  "note": "Warnings remain present. Exit code and intermediate legalization summaries do not replace final complete site/capacity proof.",
+  "bitgen_allowed": false,
+  "hardware_status": "NOT_RUN",
+  "snapshot_live_log": true,
+  "captured_utc": "2026-11-13T11:53:41.179006+00:00",
+  "scope": "Read-only in-flight warning inventory; not route/physical acceptance."
+}

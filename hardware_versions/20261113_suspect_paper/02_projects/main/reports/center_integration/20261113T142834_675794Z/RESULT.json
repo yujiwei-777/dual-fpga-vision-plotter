@@ -1,0 +1,219 @@
+{
+  "status": "PASS",
+  "result": {
+    "status": "PASS",
+    "marker": "SUSPECT_CENTER_PASS ",
+    "steps": [
+      {
+        "step": "vlib",
+        "returncode": 0,
+        "command": [
+          "E:/model/win64/vlib.exe",
+          "rtl_lib"
+        ],
+        "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\simulation\\vlib.log",
+        "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+      },
+      {
+        "step": "compile",
+        "returncode": 0,
+        "command": [
+          "E:/model/win64/vlog.exe",
+          "-sv",
+          "-work",
+          "rtl_lib",
+          "+incdir+E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source",
+          "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\reset_sync.v",
+          "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\doc_copy_overlay.v",
+          "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hxa_multibox_overlay.v",
+          "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_operator_decimal_snapshot.v",
+          "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v",
+          "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v",
+          "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v",
+          "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hx_result_select.v",
+          "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hdmi_mixer.v",
+          "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\control_hx_result_select.v",
+          "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\control_hdmi_mixer.v",
+          "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\design_top_wrapper.v",
+          "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\tb_suspect_center.sv"
+        ],
+        "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\simulation\\compile.log",
+        "log_sha256": "9FC4D1838DA24CC74075D221706AFA2B0B65529FD7C1AB2E3BF30E7A75C8A8DD"
+      },
+      {
+        "step": "simulation",
+        "returncode": 0,
+        "command": [
+          "E:/model/win64/vsim.exe",
+          "-batch",
+          "-syncio",
+          "-quiet",
+          "-voptargs=+acc",
+          "-lib",
+          "rtl_lib",
+          "tb_suspect_center",
+          "-do",
+          "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+        ],
+        "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\simulation\\simulation.log",
+        "log_sha256": "A4D0E971D2D55F97EFF2EB715A1F9D9C15054081C2B9BB36F7255142D181A19E"
+      }
+    ]
+  },
+  "marker": "# SUSPECT_CENTER_PASS checks=30 pixel_checks=72241 scan_cases=10 added_cross_pixels=83 original_metadata_cycles=9033",
+  "frozen_manifest_sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+  "inputs": {
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\SOURCE_MANIFEST.json": {
+      "sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+      "bytes": 49348
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\tools\\run_validation_r4.py": {
+      "sha256": "404F21D748EE963295191D1CFD08FF8BD0CB6D8778FF5A2D342B0AD149BF23B3",
+      "bytes": 8383
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\tests\\dynamic_osd\\tb_dynamic_status.sv": {
+      "sha256": "510FA0858FF9E01C9315AAF10C45BC81E345FB847B31B3A733627DE5CCEE1572",
+      "bytes": 2511
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tests\\dynamic_osd\\tb_dynamic_status.sv": {
+      "sha256": "510FA0858FF9E01C9315AAF10C45BC81E345FB847B31B3A733627DE5CCEE1572",
+      "bytes": 2511
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\tests\\dynamic_osd\\tb_type21_maintenance.sv": {
+      "sha256": "75AB84F972828C2DDA3C6D3D41538E6F98CF4C014AB6FC2EB7F98D6EFC5FCD5E",
+      "bytes": 5157
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tests\\dynamic_osd\\tb_type21_maintenance.sv": {
+      "sha256": "75AB84F972828C2DDA3C6D3D41538E6F98CF4C014AB6FC2EB7F98D6EFC5FCD5E",
+      "bytes": 5157
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v": {
+      "sha256": "B318439CB8435BFA8E7EAC06A1821FF73C6435E56F7B2FB22F2FD7F9125AA58C",
+      "bytes": 73533
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v": {
+      "sha256": "B318439CB8435BFA8E7EAC06A1821FF73C6435E56F7B2FB22F2FD7F9125AA58C",
+      "bytes": 73533
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v": {
+      "sha256": "F56FA766988BE752A7E878BD674315BD6F7D445AEC734DE62ECB65509BB3824A",
+      "bytes": 105707
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v": {
+      "sha256": "F56FA766988BE752A7E878BD674315BD6F7D445AEC734DE62ECB65509BB3824A",
+      "bytes": 105707
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_glyphs.vh": {
+      "sha256": "369CB526EF0DF9723FE513A9AC0FF18C7767560DE7B1D0E9554D95D3136E8873",
+      "bytes": 5373
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_glyphs.vh": {
+      "sha256": "369CB526EF0DF9723FE513A9AC0FF18C7767560DE7B1D0E9554D95D3136E8873",
+      "bytes": 5373
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v": {
+      "sha256": "D56A399B65AD51EBADB3DF6F21F41DF10B62B9927C6F5460DBEC8B5C8F0E4414",
+      "bytes": 2238
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v": {
+      "sha256": "D56A399B65AD51EBADB3DF6F21F41DF10B62B9927C6F5460DBEC8B5C8F0E4414",
+      "bytes": 2238
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_main_link.v": {
+      "sha256": "6DC999C311E0A14F6420E8012C6597740B7CEDAE7E28AEE82D80565B8704EE38",
+      "bytes": 70755
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_main_link.v": {
+      "sha256": "6DC999C311E0A14F6420E8012C6597740B7CEDAE7E28AEE82D80565B8704EE38",
+      "bytes": 70755
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_packet_codec.v": {
+      "sha256": "E3B16BEE86D4143A0DC592BCF286DA9B4BA2C8D48854813B0C8812EB1723ADFD",
+      "bytes": 9502
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_packet_codec.v": {
+      "sha256": "E3B16BEE86D4143A0DC592BCF286DA9B4BA2C8D48854813B0C8812EB1723ADFD",
+      "bytes": 9502
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hx_result_select.v": {
+      "sha256": "701A10AAFFFB7187887BD9811466DEE61C9A5539F9F586A22985A0D69D0EDDCA",
+      "bytes": 9702
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hx_result_select.v": {
+      "sha256": "701A10AAFFFB7187887BD9811466DEE61C9A5539F9F586A22985A0D69D0EDDCA",
+      "bytes": 9702
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hdmi_mixer.v": {
+      "sha256": "ED1AA6F016AE509AA766828868D23F10EE637D5ED1B166AEF2BCBBA167207C67",
+      "bytes": 59063
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hdmi_mixer.v": {
+      "sha256": "ED1AA6F016AE509AA766828868D23F10EE637D5ED1B166AEF2BCBBA167207C67",
+      "bytes": 59063
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\design_top_wrapper.v": {
+      "sha256": "1B819A6D11BAA4B4B2AD056847166CFDBAAEC23808C726D20AF72187565E46A8",
+      "bytes": 105556
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\design_top_wrapper.v": {
+      "sha256": "1B819A6D11BAA4B4B2AD056847166CFDBAAEC23808C726D20AF72187565E46A8",
+      "bytes": 105556
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_operator_ui_cn_font_shift1_dynamic_osd_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hx_result_select.v": {
+      "sha256": "9F6C89CE75EA1E7C9DE015BB28910CAB1D68D68859118094D94679FCC687C368",
+      "bytes": 9238
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_operator_ui_cn_font_shift1_dynamic_osd_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hdmi_mixer.v": {
+      "sha256": "454511B4E3629100D6EDA7924FFA4736C7639441AD4AB0ACF209E8D9D8086865",
+      "bytes": 58461
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\tests\\suspect_center_dotted\\tb_suspect_center.sv": {
+      "sha256": "5147F76F0B0C97E4C0178FD0D10BD1C564CAD093C878FAC4FA6016693D677AB5",
+      "bytes": 10054
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tests\\suspect_center_dotted\\tb_suspect_center.sv": {
+      "sha256": "5147F76F0B0C97E4C0178FD0D10BD1C564CAD093C878FAC4FA6016693D677AB5",
+      "bytes": 10054
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\reset_sync.v": {
+      "sha256": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+      "bytes": 496
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\reset_sync.v": {
+      "sha256": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+      "bytes": 496
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\doc_copy_overlay.v": {
+      "sha256": "F86E5EFEA7A556C0BDCA9969A55C0037A8B3BA723BBE347F2AF149F30F14C682",
+      "bytes": 2993
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\doc_copy_overlay.v": {
+      "sha256": "F86E5EFEA7A556C0BDCA9969A55C0037A8B3BA723BBE347F2AF149F30F14C682",
+      "bytes": 2993
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hxa_multibox_overlay.v": {
+      "sha256": "95A538C533526F672A0850FCE611913044E58BCF6EF110C458B83E14203B6CD9",
+      "bytes": 13194
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hxa_multibox_overlay.v": {
+      "sha256": "95A538C533526F672A0850FCE611913044E58BCF6EF110C458B83E14203B6CD9",
+      "bytes": 13194
+    },
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_operator_decimal_snapshot.v": {
+      "sha256": "B829C84B47B797575A139EF2DF27732B994D156B786E9824C926C2B809784819",
+      "bytes": 3324
+    },
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_operator_decimal_snapshot.v": {
+      "sha256": "B829C84B47B797575A139EF2DF27732B994D156B786E9824C926C2B809784819",
+      "bytes": 3324
+    }
+  },
+  "generated_test_sha256": "DC024810DB63431331C41461764F9DFAC813D187D385F4819985AFBE761B5A93",
+  "generated_control_sha256": {
+    "hx_result_select.v": "6CB3CE5C41AE92B543066C519A82EC47AD68C5CF80E333567BEF8B81329C0081",
+    "hdmi_mixer.v": "ABADB88292C86233213161B2665BE323025A5257C8C1406DB1CF060B808A2D88"
+  },
+  "scope": "Actual new-variant hx_result_select/hdmi_mixer plus byte-equal frozen real dependencies elaborated/simulated against successful baseline miter; 163-bit original metadata and pixel checks. Full new-variant top syntax compiled and center named-port wiring checked; no whole-board IP elaboration, synthesis/place/route or localization-accuracy/hardware claim.",
+  "inputs_unchanged": true,
+  "hardware_status": "NOT_RUN"
+}

@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "bitgen_allowed": true,
+  "run": "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8",
+  "name": "camera_to_dsi_display_720p60_cnn_multibox",
+  "generated_utc": "2026-11-13T15:11:07.722871+00:00",
+  "timing_ns": {
+    "SWNS": 0.383,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19868,
+      "total": 21216,
+      "percent": 93.64630467571644,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 97,
+      "total": 108,
+      "percent": 89.81481481481481,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  },
+  "source_manifest_sha256": "9758EB92CCF9EE8EFDD489A508A7AE241487BBBC4959017818DDFAB1D8BC7B44",
+  "snapshot": "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/source_snapshot.json",
+  "failures": [],
+  "tracked_warnings": [
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1281,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1282,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1283,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1284,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1285,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1286,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_7 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1287,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_8 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1288,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_9 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1289,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1290,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_cfg/u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1291,
+      "text": "SLATR-1036 Similar messages will be suppressed."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1292,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_10 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1293,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_10 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1294,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_11 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1295,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_11 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1296,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_12 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1297,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_12 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1298,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_13 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1299,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_13 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1300,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_14 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1301,
+      "text": "DRC SLATR-1038 : Found mslice u_hdmi_tx/u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_video_data_assemble/I_island_guard_band_syn_14 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log",
+      "line": 1302,
+      "text": "SLATR-1038 Similar messages will be suppressed."
+    }
+  ],
+  "evidence": {
+    "camera_to_dsi_display_720p60_cnn_multibox_pr.timing": {
+      "sha256": "58F32F537DBF6EC566FE1C9253BB251590300EF45278D0D26DD625888CC90517",
+      "mtime_ns": 1794582649643150600
+    },
+    "camera_to_dsi_display_720p60_cnn_multibox_phy.area": {
+      "sha256": "FD01EEFE939C3A24069B9C5C9E79EC8ABC2EEEDBF45B93A488A6E75A8193840A",
+      "mtime_ns": 1794582621437116600
+    },
+    "route_flow.status": {
+      "sha256": "BECE2D2468B871DF924DEB138A4972C68ABB783FBB90CDA163F7A832629D0F97",
+      "mtime_ns": 1794582649793159600
+    },
+    ".opt_route.end.f": {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "mtime_ns": 1794582653193313400
+    },
+    "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/.read_design.begin.f": {
+      "sha256": "A1DF35E1CAF55076D4D294A93BC10D2AA1A42792FF500D6DF5F2EE2C7FFFD23E",
+      "mtime_ns": 1794580154880541400
+    },
+    "camera_to_dsi_display_720p60_cnn_multibox_pr.db": {
+      "sha256": "8220E077AA2910704A6E1861F04BA60BF9B4B18429CACE5A11A26AB6EBC3806E",
+      "mtime_ns": 1794582652969463200
+    },
+    "E:/codex_pcb_suspect_center_main_20261113_r4/logs/synth.log": {
+      "sha256": "2B78BCC33C8636280F02B1269E07795C6426423AEBC252811647C8586CF04F5F"
+    },
+    "E:/codex_pcb_suspect_center_main_20261113_r4/logs/place.log": {
+      "sha256": "714A3D7419288DEA95097D8A5E486C380CB90AE4FC97A02259F252CD5080FFF4"
+    },
+    "E:/codex_pcb_suspect_center_main_20261113_r4/logs/route.log": {
+      "sha256": "09498211719E203D410064EF23599910C78CA98062F81C99D69692EB28DF6230"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Build gates only; CDC/DDR/DRC and hardware review remain required"
+}

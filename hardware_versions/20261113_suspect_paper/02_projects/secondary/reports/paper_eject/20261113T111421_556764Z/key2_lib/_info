@@ -1,0 +1,170 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z
+T_opt
+!s110 1794568467
+V?[SSX;2UXz?9dZlVQ7m4=0
+04 16 4 work tb_key2_operator fast 0
+=1-e8c82923d912-6af6f112-3c2-7018
+o-quiet -auto_acc_if_foreign -work key2_lib
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vgrbl_key1_job_guard
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1794568465
+!i10b 1
+!s100 >SbOb4?efniTKZlf;:CBR0
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ij`_Z8@A7JoaX>oQ;0@Of70
+S1
+R0
+Z5 w1794568440
+Z6 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\secondary_top.v
+Z7 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\secondary_top.v
+!i122 0
+L0 1400 13
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1794568465.000000
+Z11 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\tests\paper_eject\tb_key2_operator.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\secondary_top.v|
+Z12 !s90 -sv|-lint|-work|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\paper_eject\20261113T111421_556764Z\key2_lib|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\secondary_top.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\tests\paper_eject\tb_key2_operator.sv|
+!i113 0
+Z13 o-sv -lint -work {D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\paper_eject\20261113T111421_556764Z\key2_lib} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vgrbl_key2_test_ctrl
+R2
+R3
+!i10b 1
+!s100 R]MZE;e89kGLPJ@F==2Y02
+R4
+IHBm=22Hc]Hz:C8lK9I;EW3
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 1317 80
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vsecondary_key1_action_ctrl
+R2
+R3
+!i10b 1
+!s100 adR;O@>U<0Azej3ZdFXnm1
+R4
+IQaiFdNTlR3YQGHofAHO1T3
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 1416 67
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vsecondary_key3_board_reset
+R2
+R3
+!i10b 1
+!s100 P`3z3<VNe`QJQjA_LFZWQ1
+R4
+IbmWBAL9`g9kFCn<KDi2zi3
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 1278 38
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vsecondary_top
+R2
+R3
+!i10b 1
+!s100 B5aSdFTU^5^I_n2>M<@>g1
+R4
+IeH6h41?0i6@SK9j65BGkg2
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 6 1269
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vtb_key2_operator
+R2
+R3
+!i10b 1
+!s100 3NhX@l=K0@Q?8ZLhglmDD3
+R4
+I4Z31K>m@?SLNDVM8Ijjh80
+S1
+R0
+w1794496312
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\tests\paper_eject\tb_key2_operator.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\tests\paper_eject\tb_key2_operator.sv
+!i122 0
+L0 2 29
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1

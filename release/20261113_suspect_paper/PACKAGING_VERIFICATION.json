@@ -1,0 +1,19 @@
+{
+  "vision_inspection_plotter_suspect_paper_20261113.zip": {
+    "bytes": 17784241,
+    "sha256": "96AE31DF7A269F4B6992F7BBC14C7C2E11452F0B0236F525D20987A5004C6DB9",
+    "zip_crc": "PASS"
+  },
+  "vision_inspection_plotter_suspect_paper_20261113_complete.zip": {
+    "bytes": 226371322,
+    "sha256": "C2F9284DDC140A2D3A562B6D6437A3991592D047C580C2D53ADBB506BFCDBD63",
+    "zip_crc": "PASS"
+  },
+  "extracted_package": "PASS",
+  "relocated_projects": "PASS",
+  "all_550_frozen_inputs": "PASS",
+  "include_closure": "45 includes resolved",
+  "rtl_model_constraints_changes": false,
+  "new_synthesis_or_bitgen": false,
+  "hardware_status": "NOT_RUN"
+}

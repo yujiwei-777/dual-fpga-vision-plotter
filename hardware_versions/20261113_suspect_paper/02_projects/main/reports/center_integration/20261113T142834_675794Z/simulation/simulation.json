@@ -1,0 +1,18 @@
+{
+  "step": "simulation",
+  "returncode": 0,
+  "command": [
+    "E:/model/win64/vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-voptargs=+acc",
+    "-lib",
+    "rtl_lib",
+    "tb_suspect_center",
+    "-do",
+    "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+  ],
+  "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\simulation\\simulation.log",
+  "log_sha256": "A4D0E971D2D55F97EFF2EB715A1F9D9C15054081C2B9BB36F7255142D181A19E"
+}

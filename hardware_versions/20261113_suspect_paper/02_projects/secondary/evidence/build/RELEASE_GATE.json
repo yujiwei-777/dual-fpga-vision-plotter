@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "bitgen_allowed": true,
+  "run": "E:/codex_paper_airwalk_secondary_20261113_r4/runs/phy_1",
+  "name": "secondary_cnn_multibox",
+  "generated_utc": "2026-11-13T11:58:28.755999+00:00",
+  "timing_ns": {
+    "SWNS": 0.007,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19310,
+      "total": 21216,
+      "percent": 91.01621417797888,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 86,
+      "total": 108,
+      "percent": 79.62962962962963,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0,
+      "strict_limit_percent": 95
+    }
+  },
+  "source_manifest_sha256": "311AC423B7A0E7B418198287D9088F0FEC8F38B64996721AEF0236D6CDE2EF63",
+  "snapshot": "E:/codex_paper_airwalk_secondary_20261113_r4/runs/phy_1/source_snapshot.json",
+  "failures": [],
+  "tracked_warnings": [
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34428,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34429,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34430,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34431,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34432,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34433,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_7 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34434,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_8 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34435,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_9 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34436,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34437,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34438,
+      "text": "SLATR-1036 Similar messages will be suppressed."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34439,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34440,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34441,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34442,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34443,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34444,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34445,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34446,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34447,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34448,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log",
+      "line": 34449,
+      "text": "SLATR-1038 Similar messages will be suppressed."
+    }
+  ],
+  "evidence": {
+    "secondary_cnn_multibox_pr.timing": {
+      "sha256": "75E5DD62706AADDC0DB78C05BE6DA166BB1349667423C5DE4473774C4506C5A8",
+      "mtime_ns": 1794570817706021800
+    },
+    "secondary_cnn_multibox_phy.area": {
+      "sha256": "242220B61969CAD73D92CF29B3B94581CD0B7BCF4BDD966224D9D21156E5B295",
+      "mtime_ns": 1794570763857524700
+    },
+    "route_flow.status": {
+      "sha256": "0EF82786983FE25D484B15A8A4D9118D7B8E429FEF76C9B14551F6B1F5B51BE0",
+      "mtime_ns": 1794570817743654700
+    },
+    ".opt_route.end.f": {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "mtime_ns": 1794570819804096200
+    },
+    "E:/codex_paper_airwalk_secondary_20261113_r4/runs/syn_1/.read_design.begin.f": {
+      "sha256": "5D6C5A403EB1BE42759F55DE1CCB6D060AD05470A833A3BBF4C4BE1DA9873E06",
+      "mtime_ns": 1794568480311683000
+    },
+    "secondary_cnn_multibox_pr.db": {
+      "sha256": "7A71EF0B02AA6E5A8B4D0F3B0CEACDC9B380E09B69B1F6E20DC26BEA51701CD9",
+      "mtime_ns": 1794570819710990900
+    },
+    "E:/codex_paper_airwalk_secondary_20261113_r4/logs/syn.log": {
+      "sha256": "F279BA1B1B4C77AC58FC6500D58EB6CB1C9F2966BC8E32E08001DA82B287F211"
+    },
+    "E:/codex_paper_airwalk_secondary_20261113_r4/logs/place.log": {
+      "sha256": "CD0D2172B587B46FF495BB01EA5C7DC9BC455E6AD29E5B964AC0945D21C7FEEE"
+    },
+    "E:/codex_paper_airwalk_secondary_20261113_r4/logs/route.log": {
+      "sha256": "105A0E8B09BF1D53D7A53E4B4C4872A7484C6BEE3CA1B109E4465D306E56415F"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Build gates only; CDC/DDR/DRC and hardware review remain required"
+}

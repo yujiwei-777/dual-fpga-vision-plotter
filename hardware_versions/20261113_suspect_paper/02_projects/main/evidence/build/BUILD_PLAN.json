@@ -1,0 +1,14 @@
+{
+  "status": "PREPARED_NOT_STARTED",
+  "source_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113",
+  "build_root": "E:\\codex_pcb_suspect_center_main_20261113_r4",
+  "source_manifest_sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+  "phase_runner_sha256": "19491E381743FC7AA63389243DE8A6631451ED683AE7096C76BEF6CB0F8952BD",
+  "limits_strict_less_than": {
+    "slice": 95,
+    "eram": 90,
+    "dsp": 95
+  },
+  "hardware_status": "NOT_RUN",
+  "bitgen_allowed": false
+}

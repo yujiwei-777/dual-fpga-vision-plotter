@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-11-13T15:11:59.806016+00:00",
+  "ended_utc": "2026-11-13T15:12:00.628493+00:00",
+  "command": [
+    "D:\\conda\\python.exe",
+    "-B",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\td_release_audit.py",
+    "verify-readonly",
+    "--root",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4",
+    "--run",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8",
+    "--name",
+    "camera_to_dsi_display_720p60_cnn_multibox",
+    "--audit-dir",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1",
+    "--log",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_launcher.log",
+    "--output",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_verification.json"
+  ],
+  "cwd": "E:\\codex_pcb_suspect_center_main_20261113_r4",
+  "returncode": 0,
+  "log": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/verify_readonly.log",
+    "sha256": "7768D69993EF181C92FF6D167EBB48D6EC04B37D25B80D986B33E0028CD9C17B",
+    "bytes": 184
+  }
+}

@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 19:25:01 on Nov 13,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\reader\reader\reader_mailbox_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\vision_pixel_reader.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\hxa_ddr_store.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\reader\reader\top_read_route_probe.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\reader\reader\hxa_read_route_probe.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\reader\reader\tb_reader.sv 
+-- Compiling module vision_pixel_reader
+-- Compiling module hxa_ddr_store
+-- Compiling module pose7_read_route_probe
+-- Compiling module pose7_hxa_read_route_probe
+-- Compiling module tb_pose7_real_reader
+
+Top level modules:
+	tb_pose7_real_reader
+End time: 19:25:01 on Nov 13,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

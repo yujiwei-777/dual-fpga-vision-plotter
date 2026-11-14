@@ -1,0 +1,17 @@
+{
+  "step": "compile",
+  "returncode": 0,
+  "command": [
+    "E:/model/win64/vlog.exe",
+    "-sv",
+    "-work",
+    "rtl_lib",
+    "+incdir+D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\tests\\dynamic_osd\\tb_dynamic_status.sv"
+  ],
+  "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\regression_controls\\20261113T142834_675794Z\\dynamic_status\\compile.log",
+  "log_sha256": "D0E85A2792306E1ECCB66B9030071DAE0C06FD29E68BE45AA1621B05E6A118A7"
+}

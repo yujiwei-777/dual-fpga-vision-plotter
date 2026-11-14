@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-11-13T15:11:06.978199+00:00",
+  "ended_utc": "2026-11-13T15:11:08.052606+00:00",
+  "command": [
+    "D:\\conda\\python.exe",
+    "-B",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\td_release_audit.py",
+    "gate",
+    "--root",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4",
+    "--run",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8",
+    "--name",
+    "camera_to_dsi_display_720p60_cnn_multibox",
+    "--config",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\release_audit_config.json",
+    "--snapshot",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8\\source_snapshot.json",
+    "--output",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\release_gate.json",
+    "--log",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\logs\\synth.log",
+    "--log",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\logs\\place.log",
+    "--log",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\logs\\route.log"
+  ],
+  "cwd": "E:\\codex_pcb_suspect_center_main_20261113_r4",
+  "returncode": 0,
+  "log": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/generic_gate.log",
+    "sha256": "C7452C0360F591746A805003782ECB45B2FF0A0456B9201BE1421F987C21FA6A",
+    "bytes": 557
+  }
+}

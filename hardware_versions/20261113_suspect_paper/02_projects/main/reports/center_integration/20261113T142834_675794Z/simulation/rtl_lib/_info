@@ -1,0 +1,384 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/main_pcb_suspect_center_20261113/reports/center_integration/20261113T142834_675794Z/simulation
+T_opt
+!s110 1794580120
+VPnd6P;c^D>8TamE=dE=dB2
+04 17 4 work tb_suspect_center fast 0
+=1-e8c82923d912-6af71e98-8d-a10c
+o-quiet -auto_acc_if_foreign -work rtl_lib +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vdesign_top_wrapper
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1794580119
+!i10b 1
+!s100 S^PIojU[>o^f9TT9giFXi0
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ij>N]9B2WZZdYMHg_f^MIz0
+S1
+R0
+w1794572781
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\design_top_wrapper.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\design_top_wrapper.v
+!i122 0
+L0 3 2264
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1794580119.000000
+Z8 !s107 E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source/osd_compact_glyphs.vh|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\tb_suspect_center.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\design_top_wrapper.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\control_hdmi_mixer.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\control_hx_result_select.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\hdmi_mixer.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\hx_result_select.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_operator_decimal_snapshot.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\hxa_multibox_overlay.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\doc_copy_overlay.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\reset_sync.v|
+Z9 !s90 -sv|-work|rtl_lib|+incdir+E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\reset_sync.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\doc_copy_overlay.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\hxa_multibox_overlay.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_operator_decimal_snapshot.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v|E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\hx_result_select.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\hdmi_mixer.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\control_hx_result_select.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\control_hdmi_mixer.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\design_top_wrapper.v|D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\tb_suspect_center.sv|
+!i113 0
+Z10 o-sv -work rtl_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv -work rtl_lib {+incdir+E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdoc_copy_overlay
+R2
+R3
+!i10b 1
+!s100 j:;XIMS7zPzhnOEoLcV5H1
+R4
+IQD1hS15OLB2AozSioX32O0
+S1
+R0
+Z12 w1794496117
+8E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\doc_copy_overlay.v
+FE:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\doc_copy_overlay.v
+!i122 0
+L0 2 64
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vhdmi_mixer
+R2
+R3
+!i10b 1
+!s100 YYC7>dWFmSP6Yb=];X<_c0
+R4
+ITc4_U=GX^CzGPbKVBMKQ72
+S1
+R0
+Z13 w1794579373
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\hdmi_mixer.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\hdmi_mixer.v
+!i122 0
+L0 1 1257
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vhdmi_mixer_control
+R2
+R3
+!i10b 1
+!s100 J[eD4Gf@gI>=C44CibE4:1
+R4
+I2?8Cf=W99^ZQl;?]4FnFd3
+S1
+R0
+Z14 w1794580119
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\control_hdmi_mixer.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\control_hdmi_mixer.v
+!i122 0
+L0 1 1247
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vhx_result_select
+R2
+R3
+!i10b 1
+!s100 4DIzfFzCB9Hn1jbQWTVoY0
+R4
+Ie`hZ]g:V[P?2fOn42GIla0
+S1
+R0
+R13
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\hx_result_select.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\01_rtl\imgq_gain_m\main\user_source\hdl_source\hx_result_select.v
+!i122 0
+L0 4 153
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vhx_result_select_control
+R2
+R3
+!i10b 1
+!s100 @]I;I@e9H1Sl8FCE`NN<N2
+R4
+I@HT5ODMM`E4XQAZlacKC80
+S1
+R0
+R14
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\control_hx_result_select.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\control_hx_result_select.v
+!i122 0
+L0 4 143
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vhxa_multibox_overlay
+R2
+R3
+!i10b 1
+!s100 La]W0_R^oJoJOedeNHFoC2
+R4
+If<0aIJKmigMn;ETlzCAO52
+S1
+R0
+w1794579918
+8E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\hxa_multibox_overlay.v
+FE:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\hxa_multibox_overlay.v
+!i122 0
+L0 4 295
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vmerged_panel_tokens
+R2
+R3
+!i10b 1
+!s100 AhMi=;NGeRT4RNA2dKO6X0
+R4
+ICm6o5@Z`>kfzoKLTLWWO=0
+S1
+R0
+Z15 w1794556372
+Z16 8E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v
+Z17 FE:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v
+!i122 0
+L0 331 2071
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+voperator_ui_text
+R2
+R3
+!i10b 1
+!s100 zSPSEz<cC<ZcnXd0zQaYo2
+R4
+IjOXM@bCBU?:R>aKfI9V]G1
+S1
+R0
+R12
+8E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v
+FE:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v
+!i122 0
+L0 2 70
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vosd_compact_font_rom
+R2
+R3
+!i10b 1
+!s100 fZ6dQnOQzngY7g^A[M3Q20
+R4
+I2=Go;jzEFl5VAJfTH]B>F2
+S1
+R0
+w1794528453
+8E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v
+FE:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v
+!i122 0
+L0 2 4102
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vosd_compact_panel
+R2
+R3
+!i10b 1
+!s100 G<J_W?e8lTm@]TlQL>RD93
+R4
+IYk?lMRcXdI2IWVLNVVJ^n2
+S1
+R0
+R15
+R16
+R17
+!i122 0
+L0 5 323
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vosd_operator_decimal_snapshot
+R2
+R3
+!i10b 1
+!s100 D6c@OnYISKDB7=W^UZfWV0
+R4
+I@XX[f;LgYU5Va;hDXQ^PH0
+S1
+R0
+R12
+8E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_operator_decimal_snapshot.v
+FE:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_operator_decimal_snapshot.v
+!i122 0
+L0 5 64
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vreset_sync
+R2
+R3
+!i10b 1
+!s100 4m3jVKP`nZe3;KbBn4oXf3
+R4
+IPJNCb2Hn8]HiFGaeViBJJ0
+S1
+R0
+R12
+8E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\reset_sync.v
+FE:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\user_source\hdl_source\reset_sync.v
+!i122 0
+L0 3 14
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vtb_suspect_center
+R2
+R3
+!i10b 1
+!s100 =KZ;J123dgI@`kiJabjW93
+R4
+I;^G<@FVGNIQFVTC>OXI`j0
+S1
+R0
+R14
+8D:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\tb_suspect_center.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\main_pcb_suspect_center_20261113\reports\center_integration\20261113T142834_675794Z\tb_suspect_center.sv
+!i122 0
+L0 2 298
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1

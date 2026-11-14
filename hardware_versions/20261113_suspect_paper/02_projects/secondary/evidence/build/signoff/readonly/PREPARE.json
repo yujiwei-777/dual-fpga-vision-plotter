@@ -1,0 +1,10 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "script": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\readonly_reimport.tcl",
+    "sha256": "59CF8809196D05987BF8F5BC1E01D7EBA6B91A9D2C85FC057FC153B827B20BA3"
+  },
+  "source_manifest_sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+  "readonly": true,
+  "bitgen_invoked": false
+}

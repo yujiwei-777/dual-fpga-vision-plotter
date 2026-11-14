@@ -1,0 +1,145 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/preserved_airwalk_r4/20261113T112441_370259Z/child_runs/plotter/plotter
+T_opt
+!s110 1794569095
+VfIPdUzTYg0AMF4kYaB2Y=3
+04 16 4 work tb_pose7_plotter fast 0
+=1-e8c82923d912-6af6f387-1b3-bb20
+o-quiet -auto_acc_if_foreign -work transport_lib
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vgrbl_decimal
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1794569094
+!i10b 1
+!s100 1Ha2<l3oO`JHDXZl_]HhV2
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I38eg1m3SUNgaWooGETm1?0
+S1
+R0
+Z5 w1794370194
+Z6 8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_line_formatter.v
+Z7 FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_line_formatter.v
+!i122 0
+L0 2 26
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1794569094.000000
+Z11 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\plotter\plotter\tb_pose7_plotter.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_shared_transport_candidate.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_response_parser.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_line_formatter.v|
+Z12 !s90 -sv|-lint|-work|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\plotter\plotter\transport_lib|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_line_formatter.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_response_parser.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_shared_transport_candidate.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\plotter\plotter\tb_pose7_plotter.sv|
+!i113 0
+Z13 o-sv -lint -work {D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\plotter\plotter\transport_lib} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vgrbl_line_formatter
+R2
+R3
+!i10b 1
+!s100 z`SD=XgXK=0_DaIRCb@UX3
+R4
+IfZRfko7;lP?XcdCM12KBj2
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 31 91
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vgrbl_response_parser
+R2
+R3
+!i10b 1
+!s100 e9g_^X65j2C]zOfXB>lDU3
+R4
+I3YJY46Q2z8]o2H=`L6hl>3
+S1
+R0
+w1794496660
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_response_parser.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_response_parser.v
+!i122 0
+L0 3 62
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vgrbl_shared_transport_candidate
+R2
+R3
+!i10b 1
+!s100 hOIMj<Mj<4^_`8IAdQWV91
+R4
+Im@`N=@G8Y@V[Z]gZ@iam32
+S1
+R0
+w1794531265
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_shared_transport_candidate.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\grbl_shared_transport_candidate.v
+!i122 0
+L0 5 687
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1
+vtb_pose7_plotter
+R2
+R3
+!i10b 1
+!s100 QYVm9JEUKZiIc7mi`QQ^W1
+R4
+IlVQkelW0^SjlHdDge]GPU1
+S1
+R0
+w1794569094
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\plotter\plotter\tb_pose7_plotter.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\plotter\plotter\tb_pose7_plotter.sv
+!i122 0
+L0 4 231
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R1

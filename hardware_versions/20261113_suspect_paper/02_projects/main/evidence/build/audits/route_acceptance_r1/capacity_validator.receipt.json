@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-11-13T15:12:01.238927+00:00",
+  "ended_utc": "2026-11-13T15:12:02.902516+00:00",
+  "command": [
+    "D:\\conda\\python.exe",
+    "-B",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\physical_capacity\\validate_device_capacity.py",
+    "--chip",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\physical_capacity\\ph1_35p_device_dump.txt_chip",
+    "--routing",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\physical_capacity\\ph1_35p_device_dump.txt_connmngr",
+    "--datasheet",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\physical_capacity\\DS1300_logic_and_dram_excerpt.txt",
+    "--resource-report",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\physical_capacity\\physical_device_resources.txt",
+    "--tile-report",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_launcher.log",
+    "--expected-cells",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\expected_slice_cells.tsv",
+    "--expected-log",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_launcher.log",
+    "--placements",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly.sites.tsv",
+    "--out",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\physical_capacity"
+  ],
+  "cwd": "E:\\codex_pcb_suspect_center_main_20261113_r4",
+  "returncode": 0,
+  "log": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/capacity_validator.log",
+    "sha256": "194558D59605187AD1CFB9F559FEF1570013A521EF8B05C285653E1ED77F6FA4",
+    "bytes": 4072
+  }
+}

@@ -1,0 +1,694 @@
+{
+  "schema_version": 1,
+  "candidate_root": "E:/codex_pcb_suspect_center_main_20261113_r4",
+  "generated_utc": "2026-11-13T15:12:09.126150+00:00",
+  "status": "PASS_CURRENT_BUILD_STATIC_AUDIT",
+  "passed": true,
+  "failures": [],
+  "hardware_status": "NOT_RUN",
+  "scope": "Current-build static evidence only; no functional simulation, DDR runtime calibration or hardware signoff claimed",
+  "source_manifest_file_sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+  "source_snapshot_manifest_sha256": "9758EB92CCF9EE8EFDD489A508A7AE241487BBBC4959017818DDFAB1D8BC7B44",
+  "frozen_sources": {
+    "checked_files": 251,
+    "hash_failures": []
+  },
+  "route_gate": {
+    "generic_gate": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/release_gate.json",
+      "sha256": "0B650E0D7863BA56ECED73F101D82F3F19EF19C4DAB2EDDA8CF8A0CE81AC8985",
+      "bytes": 8944
+    },
+    "generic_passed": true,
+    "native_log": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/logs/route.log",
+      "sha256": "09498211719E203D410064EF23599910C78CA98062F81C99D69692EB28DF6230",
+      "bytes": 128722
+    },
+    "independent_log_scan": {
+      "errors": [],
+      "missing_rom": [],
+      "passed": true
+    },
+    "timing": {
+      "passed": true,
+      "metrics_ns": {
+        "SWNS": 0.383,
+        "STNS": 0.0,
+        "HWNS": 0.02,
+        "HTNS": 0.0
+      },
+      "errors": []
+    },
+    "area": {
+      "passed": true,
+      "resources": {
+        "slice": {
+          "used": 19868,
+          "total": 21216,
+          "percent": 93.64630467571644,
+          "strict_limit_percent": 95
+        },
+        "eram": {
+          "used": 97,
+          "total": 108,
+          "percent": 89.81481481481481,
+          "strict_limit_percent": 90
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5,
+          "strict_limit_percent": 95
+        }
+      },
+      "reported_capacity": {
+        "io": {
+          "used": 75,
+          "total": 160,
+          "percent": 46.875
+        },
+        "lut6": {
+          "used": 18874,
+          "total": 21216,
+          "percent": 88.96116138763198
+        },
+        "slice_reg": {
+          "used": 21297,
+          "total": 42432,
+          "percent": 50.19089366515837
+        },
+        "slice": {
+          "used": 19868,
+          "total": 21216,
+          "percent": 93.64630467571644
+        },
+        "f7mux": {
+          "used": 2,
+          "total": 10608,
+          "percent": 0.01885369532428356
+        },
+        "f8mux": {
+          "used": 0,
+          "total": 5304,
+          "percent": 0.0
+        },
+        "eram": {
+          "used": 97,
+          "total": 108,
+          "percent": 89.81481481481481
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5
+        },
+        "ddr_byte": {
+          "used": 6,
+          "total": 12,
+          "percent": 50.0
+        },
+        "mipi_tx": {
+          "used": 0,
+          "total": 2,
+          "percent": 0.0
+        },
+        "mipi_rx": {
+          "used": 1,
+          "total": 2,
+          "percent": 50.0
+        },
+        "pad": {
+          "used": 34,
+          "total": 160,
+          "percent": 21.25
+        },
+        "pll": {
+          "used": 4,
+          "total": 6,
+          "percent": 66.66666666666667
+        },
+        "dpll": {
+          "used": 0,
+          "total": 2,
+          "percent": 0.0
+        },
+        "gclk": {
+          "used": 11,
+          "total": 32,
+          "percent": 34.375
+        },
+        "lclk": {
+          "used": 1,
+          "total": 16,
+          "percent": 6.25
+        },
+        "sclk": {
+          "used": 28,
+          "total": 48,
+          "percent": 58.333333333333336
+        },
+        "mlclk": {
+          "used": 2,
+          "total": 16,
+          "percent": 12.5
+        },
+        "ioclk": {
+          "used": 4,
+          "total": 12,
+          "percent": 33.333333333333336
+        }
+      },
+      "errors": []
+    },
+    "route_db": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.db",
+      "sha256": "8220E077AA2910704A6E1861F04BA60BF9B4B18429CACE5A11A26AB6EBC3806E",
+      "bytes": 27773966
+    },
+    "project_al": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.al",
+      "sha256": "8CD5415DAED04B8C38F7BD061E7D9636BF299402A84D845143E577C8168A630A",
+      "bytes": 48946
+    }
+  },
+  "drc": {
+    "passed": true,
+    "parent_stage": "6",
+    "stages": [
+      {
+        "stage": "Stage 6",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Design Rule Check",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.1",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Pin Swap Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.2",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Net Connection Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.3",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Lut Bridge Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.4",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Multi Drive Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.5",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Clock Status Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.6",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Abnormal Path Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.7",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Route Region Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.8",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Bound Checker",
+        "ordered": true
+      }
+    ],
+    "scope": "Native route-log completion markers; no separate check_design or check_io claimed"
+  },
+  "readonly_reimport": {
+    "verification": {
+      "passed": true,
+      "failures": [],
+      "hardware_status": "NOT_RUN",
+      "scope": "Database/AL unchanged and timing/reports produced; inspect CDC/DRC report content separately"
+    },
+    "verification_file": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly_verification.json",
+      "sha256": "7768D69993EF181C92FF6D167EBB48D6EC04B37D25B80D986B33E0028CD9C17B",
+      "bytes": 184
+    },
+    "input_hashes_file": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly_input_hashes.json",
+      "sha256": "1F0EC475F2D46393DE2E6B4A97432DFCDE8C96E581C1EE0C95DE6FEB1AA618E5",
+      "bytes": 440
+    },
+    "input_hashes_unchanged": true,
+    "changed_inputs": [],
+    "reports": {
+      "readonly.ts": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly.ts",
+        "sha256": "6F968529309CD0C926338E6F6CA4F60D2486AF24B6C06538C3982F3E86A7997B",
+        "bytes": 62
+      },
+      "readonly.timing": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly.timing",
+        "sha256": "5C4698B63532F4492B18B60FD27338803567D6C3D98BDE2A6D64B4CCCBFB7520",
+        "bytes": 6728291
+      },
+      "readonly.exceptions": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly.exceptions",
+        "sha256": "0F488F87BE290BDE923C6D0AD521AF5670762CC834F8EC6C9394C094BB7B4259",
+        "bytes": 570243
+      },
+      "readonly.check": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly.check",
+        "sha256": "77F6BCC01C8FD5EE5C99BCA496DD2F5F3F3040E37DFDB51B21CF883206AD6409",
+        "bytes": 13333
+      },
+      "readonly.area": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly.area",
+        "sha256": "FD01EEFE939C3A24069B9C5C9E79EC8ABC2EEEDBF45B93A488A6E75A8193840A",
+        "bytes": 76874
+      },
+      "readonly.clocks": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly.clocks",
+        "sha256": "93AB73AACD629D70BE245B7F41B5832A3B17C15EE84F5254C0D60FDB0E848634",
+        "bytes": 103843
+      },
+      "readonly.flow": {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly.flow",
+        "sha256": "4E961F309FBBD6307C41152B74EB6D80F10D77E67B940330EC0103BB83EC3173",
+        "bytes": 1298
+      }
+    },
+    "timing": {
+      "passed": true,
+      "metrics_ns": {
+        "SWNS": 0.383,
+        "STNS": 0.0,
+        "HWNS": 0.02,
+        "HTNS": 0.0
+      },
+      "errors": []
+    },
+    "area": {
+      "passed": true,
+      "resources": {
+        "slice": {
+          "used": 19868,
+          "total": 21216,
+          "percent": 93.64630467571644,
+          "strict_limit_percent": 95
+        },
+        "eram": {
+          "used": 97,
+          "total": 108,
+          "percent": 89.81481481481481,
+          "strict_limit_percent": 90
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5,
+          "strict_limit_percent": 95
+        }
+      },
+      "reported_capacity": {
+        "io": {
+          "used": 75,
+          "total": 160,
+          "percent": 46.875
+        },
+        "lut6": {
+          "used": 18874,
+          "total": 21216,
+          "percent": 88.96116138763198
+        },
+        "slice_reg": {
+          "used": 21297,
+          "total": 42432,
+          "percent": 50.19089366515837
+        },
+        "slice": {
+          "used": 19868,
+          "total": 21216,
+          "percent": 93.64630467571644
+        },
+        "f7mux": {
+          "used": 2,
+          "total": 10608,
+          "percent": 0.01885369532428356
+        },
+        "f8mux": {
+          "used": 0,
+          "total": 5304,
+          "percent": 0.0
+        },
+        "eram": {
+          "used": 97,
+          "total": 108,
+          "percent": 89.81481481481481
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5
+        },
+        "ddr_byte": {
+          "used": 6,
+          "total": 12,
+          "percent": 50.0
+        },
+        "mipi_tx": {
+          "used": 0,
+          "total": 2,
+          "percent": 0.0
+        },
+        "mipi_rx": {
+          "used": 1,
+          "total": 2,
+          "percent": 50.0
+        },
+        "pad": {
+          "used": 34,
+          "total": 160,
+          "percent": 21.25
+        },
+        "pll": {
+          "used": 4,
+          "total": 6,
+          "percent": 66.66666666666667
+        },
+        "dpll": {
+          "used": 0,
+          "total": 2,
+          "percent": 0.0
+        },
+        "gclk": {
+          "used": 11,
+          "total": 32,
+          "percent": 34.375
+        },
+        "lclk": {
+          "used": 1,
+          "total": 16,
+          "percent": 6.25
+        },
+        "sclk": {
+          "used": 28,
+          "total": 48,
+          "percent": 58.333333333333336
+        },
+        "mlclk": {
+          "used": 2,
+          "total": 16,
+          "percent": 12.5
+        },
+        "ioclk": {
+          "used": 4,
+          "total": 12,
+          "percent": 33.333333333333336
+        }
+      },
+      "errors": []
+    },
+    "scripts": [
+      {
+        "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly_reimport.tcl",
+        "sha256": "FE901B3A0B7E1E8A9EE17B63596468D6A1DD7AD37CDCFC4E079ED2D820D19EB5",
+        "bytes": 2446
+      }
+    ],
+    "log_scans": [
+      {
+        "file": {
+          "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/readonly_launcher.log",
+          "sha256": "617A77D9BBF0617C67B8BA32878C4DC48828E22A6F291362E1859A6D4C919BC3",
+          "bytes": 16043944
+        },
+        "errors": [],
+        "missing_rom": [],
+        "passed": true
+      }
+    ],
+    "completion_marker_count": 1,
+    "prohibited_commands": []
+  },
+  "cdc_fifo_ddr": {
+    "status": "STATIC_EVIDENCE_ONLY",
+    "standalone_simulation_run": false,
+    "ddr_runtime_calibration_run": false,
+    "constraint_file": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/04_pin/camera_to_dsi_display_720p60.sdc",
+      "sha256": "79A7FAD3CD8AA9F37D9D0559473AE56E2BA7D13571C438241B7714BEEA2E60A8",
+      "bytes": 17415
+    },
+    "constraint_command_counts": {
+      "set_clock_groups": 2,
+      "set_path_skew": 22,
+      "set_max_delay": 19
+    },
+    "check_timing": {
+      "passed_core_static_checks": true,
+      "errors": [],
+      "diagnostic_sections": [
+        {
+          "number": 1,
+          "name": "no clock",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 2,
+          "name": "clock definition",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 3,
+          "name": "dummy node",
+          "count": 3,
+          "severity": "HIGH"
+        },
+        {
+          "number": 4,
+          "name": "invalid constraint",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 5,
+          "name": "pll/clock buffer clock constraints",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 6,
+          "name": "combinational loops",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 7,
+          "name": "soft fifo timing exception constraints",
+          "count": 6,
+          "severity": "HIGH"
+        },
+        {
+          "number": 8,
+          "name": "no path constraints",
+          "count": 4,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 9,
+          "name": "shadowed/ignored timing exception constraints",
+          "count": 1,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 10,
+          "name": "no input delay",
+          "count": 40,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 11,
+          "name": "no output delay",
+          "count": 63,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 12,
+          "name": "partial input delay",
+          "count": 1,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 13,
+          "name": "partial output delay",
+          "count": 0,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 14,
+          "name": "abnormal input delay",
+          "count": 0,
+          "severity": "MEDIUM"
+        }
+      ],
+      "nonzero_sections": [
+        {
+          "number": 3,
+          "name": "dummy node",
+          "count": 3,
+          "severity": "HIGH"
+        },
+        {
+          "number": 7,
+          "name": "soft fifo timing exception constraints",
+          "count": 6,
+          "severity": "HIGH"
+        },
+        {
+          "number": 8,
+          "name": "no path constraints",
+          "count": 4,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 9,
+          "name": "shadowed/ignored timing exception constraints",
+          "count": 1,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 10,
+          "name": "no input delay",
+          "count": 40,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 11,
+          "name": "no output delay",
+          "count": 63,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 12,
+          "name": "partial input delay",
+          "count": 1,
+          "severity": "MEDIUM"
+        }
+      ],
+      "soft_fifo_async_path_count": 6,
+      "soft_fifo_entries": [
+        {
+          "from_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "to_clock": "eth_pll_clk_125m",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "eth_pll_clk_125m",
+          "to_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "to_clock": "eth_pll_clk_125m",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "eth_pll_clk_125m",
+          "to_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "to_clock": "eth_pll_clk_125m",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "eth_pll_clk_125m",
+          "to_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        }
+      ],
+      "no_unconstrained_pll_clock_pins": true,
+      "pll_frequency_mismatch_zero": true,
+      "scope": "All diagnostic section counts retained; nonzero findings are not silently treated as zero"
+    },
+    "ddr_resources_after_route": {
+      "used": 6,
+      "total": 12,
+      "percent": 50.0
+    },
+    "limitations": [
+      "Constraint/report presence does not establish CDC/FIFO functional correctness.",
+      "No DDR memory traffic test or runtime calibration result is certified by this report.",
+      "Nonzero diagnostic categories require contextual review; they remain listed verbatim."
+    ]
+  },
+  "provenance": {
+    "summary_script": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/summarize_readonly.py",
+      "sha256": "18EE26D1E54A26AD846E52C79FFA233D6B0B9768720C5F9D387B765CA9D9AA15",
+      "bytes": 21122
+    },
+    "source_manifest": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/SOURCE_MANIFEST.json",
+      "sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+      "bytes": 49348
+    },
+    "source_snapshot": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/source_snapshot.json",
+      "sha256": "6539652E99EB0E03CA2F26CED2EDF50583FAE4E6FA6D2AD97DE091FAD396B27E",
+      "bytes": 101467
+    },
+    "native_route_timing": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.timing",
+      "sha256": "58F32F537DBF6EC566FE1C9253BB251590300EF45278D0D26DD625888CC90517",
+      "bytes": 6728291
+    },
+    "native_route_area": {
+      "path": "E:/codex_pcb_suspect_center_main_20261113_r4/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_phy.area",
+      "sha256": "FD01EEFE939C3A24069B9C5C9E79EC8ABC2EEEDBF45B93A488A6E75A8193840A",
+      "bytes": 76874
+    }
+  }
+}

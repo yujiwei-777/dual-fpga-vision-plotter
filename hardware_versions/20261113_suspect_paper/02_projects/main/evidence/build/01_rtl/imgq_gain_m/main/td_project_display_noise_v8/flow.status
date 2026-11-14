@@ -1,0 +1,23 @@
+Location         : E:\codex_pcb_suspect_center_main_20261113_r4\01_rtl\imgq_gain_m\main\td_project_display_noise_v8
+Running with     : Tang Dynasty Release_2026.1_SP2
+                   Copyright (c) 2012-2026 Anlogic Inc.
+Top Model        : design_top_wrapper
+Device           : PH1P35MDG324
+Speed            : 3
+
+Timing Mode      : basic
+Setup            : WNS -1265ps  TNS   -18070ps  NUM_FEPS    19
+Hold             : WNS 2147483647ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+----------------------------------------------------------------------------------------------------
+     command     |  #calls  |   wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+----------------------------------------------------------------------------------------------------
+  optimize_gate  |    1     |  28m39s(94%)  |   899(98%)    |       1945        |       2212        
+  optimize_rtl   |    1     |   1m44s(5%)   |    13(1%)     |       1865        |       2212        
+  import_device  |    1     |    2s(0%)     |     0(0%)     |        330        |        363        
+    read_adc     |    2     |    0s(0%)     |     0(0%)     |        864        |       1271        
+    read_sdc     |    2     |    0s(0%)     |     0(0%)     |        864        |       1271        
+----------------------------------------------------------------------------------------------------
+      total      |    7     |    30m25s     |      912      |       1945        |       2212        
+----------------------------------------------------------------------------------------------------

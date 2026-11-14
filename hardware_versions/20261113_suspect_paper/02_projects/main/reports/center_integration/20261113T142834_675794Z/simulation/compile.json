@@ -1,0 +1,26 @@
+{
+  "step": "compile",
+  "returncode": 0,
+  "command": [
+    "E:/model/win64/vlog.exe",
+    "-sv",
+    "-work",
+    "rtl_lib",
+    "+incdir+E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\reset_sync.v",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\doc_copy_overlay.v",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hxa_multibox_overlay.v",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_operator_decimal_snapshot.v",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hx_result_select.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hdmi_mixer.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\control_hx_result_select.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\control_hdmi_mixer.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\design_top_wrapper.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\tb_suspect_center.sv"
+  ],
+  "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\simulation\\compile.log",
+  "log_sha256": "9FC4D1838DA24CC74075D221706AFA2B0B65529FD7C1AB2E3BF30E7A75C8A8DD"
+}

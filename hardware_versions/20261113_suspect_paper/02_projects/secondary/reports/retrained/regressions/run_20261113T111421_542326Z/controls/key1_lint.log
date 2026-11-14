@@ -1,0 +1,15 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 19:14:24 on Nov 13,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\retrained\regressions\run_20261113T111421_542326Z\controls\key1_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\secondary_top.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\retrained\regressions\run_20261113T111421_542326Z\controls\tb_grbl_key1_job_guard.sv 
+-- Compiling module secondary_top
+-- Compiling module secondary_key3_board_reset
+-- Compiling module grbl_key2_test_ctrl
+-- Compiling module grbl_key1_job_guard
+-- Compiling module secondary_key1_action_ctrl
+-- Compiling module tb_grbl_key1_job_guard
+
+Top level modules:
+	secondary_top
+	tb_grbl_key1_job_guard
+End time: 19:14:24 on Nov 13,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

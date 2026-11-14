@@ -1,0 +1,20 @@
+{
+  "status": "PASS_TOOL_INVOCATION",
+  "phase": "place",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_place.tcl"
+  ],
+  "cwd": "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\phy_1",
+  "source_manifest_sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+  "script_sha256": "EC18F7507C310D0CAE98E4E797200B4BC083D134CFF52ED1D408D69EE1470FAF",
+  "td_launcher_sha256": "79EC56674F8F7B889E25E11BDCA91F7D64C24BA0DE99E80680248F00B4F87190",
+  "runner_snapshot": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\logs\\place_RUNNER_AT_EXECUTION.py",
+    "sha256": "0D2B196DD000691E1D71150972A0ED629A5B1BED15C13CF98312E8B266CA06D2"
+  },
+  "exit_code": 0,
+  "errors": [],
+  "error_markers": [],
+  "log_sha256": "CD0D2172B587B46FF495BB01EA5C7DC9BC455E6AD29E5B964AC0945D21C7FEEE"
+}

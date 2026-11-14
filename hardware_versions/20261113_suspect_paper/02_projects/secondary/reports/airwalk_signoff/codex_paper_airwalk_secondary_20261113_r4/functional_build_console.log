@@ -1,0 +1,732 @@
+{
+  "status": "PASS_CURRENT_FUNCTIONAL_GATE",
+  "source_manifest_sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+  "groups": {
+    "preserved": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\RESULTS.json",
+      "sha256": "96746075C6F3B1844AA81B6B260874106D2142641B39EC45E49F0E89EF99D6D9",
+      "source_sha256": {
+        "01_rtl/secondary_top.v": "C0AF62CFA1F30CE454AE5258A6C6335B5A30522347FBD5DF552F89EB1C5EF936",
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+        "01_rtl/vision_pipeline.v": "640DBC76DD0FE5BB0C7F88798B573CCFB9EE64642F2922112D2EEC1C5F7226D5",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "F54EE47EED746A5ED3C8832F12827B2CD886B6DD9D292AE19A5C0A36C2A3794E",
+        "01_rtl/grbl_uart.v": "7D130BC60674A51A300B728F0BACB55D83268ED1811344128D4F85709BF710E9",
+        "01_rtl/grbl_reporter_shared_candidate.v": "0162E9AAE47D8722801AE6BFA92393A29C445729576018FA0F5491F91857BB2D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+        "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+        "01_rtl/doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+        "01_rtl/doc_stroke_planner.v": "E68C26D36AE92AEC766673D24056E88A6FC1CBFD9C61E0DA3B362CE53DF41668",
+        "01_rtl/doc_grbl_plotter_shared_candidate.v": "82715A03828D55DA5B1813337FBBBA42184C9F2422512DC8A4F871C96F74FA9D",
+        "01_rtl/doc_machine_map.v": "9AE19EB6EF206CC508D865D6D42BE1D488CBB60217125A81682AA4CBC57BCD3D",
+        "01_rtl/pcb_fullboard_spatial96.v": "284B6BF9BB426AD2F04B2BCD0BA2679CFD2DD476C480439306A018D06EF429AB",
+        "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+        "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+        "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+        "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+        "model/suspect/mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+        "model/suspect/CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+        "model/suspect/confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85",
+        "01_rtl/vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+        "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+        "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+        "01_rtl/pcb_ccl_binary_core.v": "3854CE24EE32D0D6951EC5BB57E3D380400553E5A763F1883ABCEF512DA37EEE",
+        "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+        "shared/rtl/hxa_packet_codec.v": "CD67459EF75CD81D326B336A7A28ECBE17E5ED89D0FCCE07898FE4BE41FEC19E",
+        "shared/rtl/hxa_packet_rx_fifo4.v": "FBF3B42DF3C5C98F3C77F81C2D0EEE082241CF968CB219CF50BCEF545FC1D65F",
+        "model/export/quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+        "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+        "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+        "01_rtl/vision_ccl_pcb_candidate.v": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_simulation.log",
+          "sha256": "2891641924118A5FDBC13D3F8307C14526C288587799F7B6068E5FD18704080A",
+          "pass_marker": "KEY1_ACTIONS_PASS checks=10",
+          "observed_markers": [
+            "KEY1_ACTIONS_PASS checks=10"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_timing_simulation.log",
+          "sha256": "D33356E25C05D0E3F6513A1C89A965942D6C355489366571F50F0980E9F31ACA",
+          "pass_marker": "KEY1_MIN_COMPARE_PASS cycles=23931 shorts=32 longs=54 presses=267 mismatches=0",
+          "observed_markers": [
+            "KEY1_MIN_COMPARE_PASS cycles=23931 shorts=32 longs=54 presses=267 mismatches=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\key1_min_safety_simulation.log",
+          "sha256": "EC23EAFA889231BD512AD20FC2C59673366D8A4237BC595418188F5B73836BD8",
+          "pass_marker": "KEY1_MIN_SAFETY_PASS checks=22 shorts=2 longs=1 presses=15",
+          "observed_markers": [
+            "KEY1_MIN_SAFETY_PASS checks=22 shorts=2 longs=1 presses=15"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\paper_eject\\20261113T111421_556764Z\\metadata_simulation.log",
+          "sha256": "D28014B0EF69D2ED324262E2AA90814E3828C199953BF0B9F0724E1C804B75CB",
+          "pass_marker": "PASS history clear deasserts with stable ordinary session",
+          "observed_markers": [
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS OPR1 layout and initial invalid",
+            "PASS low confidence preview uses actual class score exact centre and result ID",
+            "PASS KEY1 cannot write before snapshot take",
+            "PASS metadata take locks pending snapshot",
+            "PASS new valid frame cannot overwrite locked preview",
+            "PASS current no-target clears old preview and snapshot lock",
+            "PASS KEY1 admitted exact frozen preview",
+            "PASS active metadata selects independent accepted snapshot",
+            "PASS network and new frame cannot change accepted writing",
+            "PASS PCB FAIL preview pairs reason judgement and SUSPECT centre",
+            "PASS pending PCB verdict uses frozen cache rather than changing live classifier outputs",
+            "PASS PCB KEY1 accepts frozen suspect and reason",
+            "PASS new no-target PCB does not alter accepted report metadata",
+            "PASS no-target REVIEW clears old suspect; raw local error retained and transport diagnostics reserved zero",
+            "PASS new PCB task clears diagnostic preview",
+            "PASS legacy peer retains local KEY1 ready without UI capability",
+            "PASS legacy non-Type21 peer admits original local KEY1 cached result",
+            "PASS paper fields use physical occupied cursor and remaining height",
+            "PASS page request pulse fences KEY1 and document admission and protects network handoff",
+            "PASS page request handoff shows busy with no old report or ready preview",
+            "PASS maintenance ACK and DONE never reuse the last report job status",
+            "PASS active maintenance clears old names coordinates verdict snapshot and job while keeping busy",
+            "OPERATOR_METADATA_PASS checks=23"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\paper_eject\\20261113T111421_556764Z\\key2_simulation.log",
+          "sha256": "CEAC50D4126573314B943185A845E8704050B555031E28F558BA16D58ABDF25A",
+          "pass_marker": "KEY2_OPERATOR_PASS checks=14",
+          "observed_markers": [
+            "KEY2_OPERATOR_PASS checks=14"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\paper_eject\\20261113T111421_556764Z\\robust_transport_simulation.log",
+          "sha256": "D16942EF5DB2556041CEA33C8FE66660E5E964AF618BEE6AE943D148742FFB2B",
+          "pass_marker": "CASE_PASS unowned_idle_alarm",
+          "observed_markers": [
+            "CASE_PASS unowned_idle_alarm",
+            "CASE_PASS owned_report_idle_alarm",
+            "CASE_PASS doc_prepare_alarm",
+            "CASE_PASS alarm_same_edge_report_start_clear",
+            "CASE_PASS alarm_same_edge_doc_start_clear",
+            "CASE_PASS clear_and_idle_cannot_rearm_alarm",
+            "CASE_PASS repeat_alarm_stays_locked",
+            "CASE_PASS key4_requires_fresh_hold_and_idle",
+            "CASE_PASS post_reset_alarm_rejects_late_idle",
+            "CASE_PASS key4_without_fresh_idle_times_out",
+            "CASE_PASS normal_last_ok_no_idle_poll",
+            "CASE_PASS reset_still_locks_idle",
+            "ROBUST_TRANSPORT_PASS cases=12 checks=51"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\paper_eject\\20261113T111421_556764Z\\paper_simulation.log",
+          "sha256": "F3959A1FAA3C0D6BB5D8DE531B6732606DEC5E7B3684A9B2698172BF5681894A",
+          "pass_marker": "KEY2_ZERO_CASE_PASS two_KEY2_ACK_gated_X0_Y35_rezero",
+          "observed_markers": [
+            "KEY2_ZERO_CASE_PASS two_KEY2_ACK_gated_X0_Y35_rezero",
+            "KEY2_ZERO_CASE_PASS return_lost_ok_no_G92_no_replay",
+            "KEY2_ZERO_CASE_PASS G92_lost_ok_no_done_no_replay",
+            "KEY2_ZERO_CASE_PASS KEY4_stop_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS Alarm_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS Reset_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS PCB_report_retains_old_newline_no_G92",
+            "KEY2_ZERO_CASE_PASS CNN_report_retains_old_newline_no_G92",
+            "KEY2_ZERO_CASE_PASS six_KEY2_page_budget_then_seventh_rejected",
+            "KEY2_ZERO_CASE_PASS PCB_short_report_then_CNN_multiline_page_budget",
+            "KEY2_ZERO_CASE_PASS fresh_work_frame_reset_preserves_physical_paper_offset",
+            "KEY2_ZERO_CASE_PASS KEY4_stop_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS Alarm_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS Reset_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS UART_link_ready_drop_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS paper_initial_safe_height_and_document_reservation",
+            "KEY2_ZERO_CASE_PASS document_reserved_page_advance_ACK_Idle_rezero",
+            "KEY2_ZERO_CASE_PASS rebased_page_is_safely_advanceable",
+            "KEY2_ZERO_CASE_PASS busy_new_page_is_not_queued",
+            "KEY2_ZERO_CASE_PASS unsafe_new_page_is_not_queued",
+            "KEY2_ZERO_CASE_PASS simultaneous_document_commit_wins_page_request",
+            "KEY2_ZERO_CASE_PASS old_Idle_and_Hold_not_page_completion",
+            "KEY2_ZERO_CASE_PASS page_motion_missing_ok_no_replay",
+            "KEY2_ZERO_CASE_PASS page_G92_missing_ok_keeps_consumed_page",
+            "KEY2_ZERO_CASE_PASS page_status_missing_timeout_locks",
+            "KEY2_ZERO_CASE_PASS page_UART_ready_drop_keeps_old_page",
+            "KEY2_ZERO_CASE_PASS page_Alarm_never_G92",
+            "KEY2_ZERO_CASE_PASS page_Reset_never_G92",
+            "KEY2_ZERO_CASE_PASS page_KEY4_stops_without_clear",
+            "KEY2_ZERO_CASE_PASS paper_confirm_lost_ack_no_replay",
+            "KEY2_ZERO_CASE_PASS paper_confirm_KEY4_stops_before_next_line",
+            "PAPER_EJECT_PASS cases=31"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\paper_document\\20261113T111421_534654Z\\document_simulation.log",
+          "sha256": "B9338CC9D03DF44611166CFA9C9EAB69050A1577FCD4A3B8C490EB455C8CCF5B",
+          "pass_marker": "DOC_FRESH_KEY1_CASE_PASS early_planning_press_discarded_held_then_fresh",
+          "observed_markers": [
+            "DOC_FRESH_KEY1_CASE_PASS early_planning_press_discarded_held_then_fresh",
+            "DOC_FRESH_KEY1_CASE_PASS prepared_same_edge_as_KEY1_not_deferred",
+            "DOC_FRESH_KEY1_CASE_PASS WAIT_key_bounce_lock_no_duplicate",
+            "DOC_FRESH_KEY1_CASE_PASS cancel_same_edge_as_confirm_wins",
+            "DOC_FRESH_KEY1_CASE_PASS KEY4_same_edge_as_confirm_wins",
+            "DOC_FRESH_KEY1_CASE_PASS ethernet_cancel_during_WAIT_retains_plan",
+            "DOC_FRESH_KEY1_CASE_PASS admission_fault_and_plan_error_cannot_draw",
+            "DOC_FRESH_KEY1_CASE_PASS no_old_held_key_carries_to_next_task",
+            "DOC_FRESH_KEY1_CASE_PASS DRAW_done_same_edge_KEY1_cannot_spill_into_CNN",
+            "DOC_FRESH_KEY1_CASE_PASS ordinary_CNN_KEY1_cache_write_preserved",
+            "DOC_FRESH_KEY1_CASE_PASS PCB_KEY1_cache_write_preserved",
+            "DOC_FRESH_KEY1_CASE_PASS occupied_page_can_prepare_but_KEY1_cannot_draw",
+            "OPERATOR_DOCUMENT_PASS cases=12 checks=78"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\retrained\\regressions\\run_20261113T111421_542326Z\\controls\\top_control_simulation.log",
+          "sha256": "74AFDCE64F5BC22EEA61156F3670CFE3D4F2A07C196DF827609D9B8DC5841114",
+          "pass_marker": "POSE7_TOP_CONTROL_PASS checks=52",
+          "observed_markers": [
+            "POSE7_TOP_CONTROL_PASS checks=52"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\retrained\\regressions\\run_20261113T111421_542326Z\\controls\\key1_simulation.log",
+          "sha256": "0497BC5FCA0A98F4409C7105D51F74ACCABE99E038690E946E2A6012789927DA",
+          "pass_marker": "PASS KEY1 job guard: accept protection, network-independent hold, done/error/cancel release",
+          "observed_markers": [
+            "PASS KEY1 job guard: accept protection, network-independent hold, done/error/cancel release"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\suspect_trial\\r6_core_20261113T112441_493988Z\\simulation.log",
+          "sha256": "97682AE01A652DA823466151EB602E7B4F9A9A0ECDA1B7D2666EE5D9AC3855F7",
+          "pass_marker": "SUSPECT_CORE_PASS all_zero class1 margin100 suspect1 grid5 postcycles7121",
+          "observed_markers": [
+            "SUSPECT_CORE_PASS all_zero class1 margin100 suspect1 grid5 postcycles7121",
+            "SUSPECT_CORE_PASS all_at_mean class1 margin100 suspect0 grid0 postcycles7121",
+            "SUSPECT_CORE_PASS all_above_mean class1 margin100 suspect0 grid0 postcycles7121",
+            "SUSPECT_CORE_PASS equal_max_first_grid class1 margin100 suspect1 grid0 postcycles7121",
+            "SUSPECT_CORE_PASS last_grid class1 margin100 suspect1 grid15 postcycles7121",
+            "SUSPECT_CORE_PASS skip_PASS class0 margin100 suspect0 grid0 postcycles0",
+            "SUSPECT_CORE_PASS skip_REVIEW class1 margin31 suspect0 grid0 postcycles0",
+            "SUSPECT_CORE_PASS random_0 class1 margin100 suspect1 grid14 postcycles7121",
+            "SUSPECT_CORE_PASS random_1 class1 margin100 suspect1 grid13 postcycles7121",
+            "SUSPECT_CORE_PASS random_2 class1 margin100 suspect1 grid1 postcycles7121",
+            "SUSPECT_CORE_PASS random_3 class1 margin100 suspect1 grid13 postcycles7121",
+            "SUSPECT_CORE_PASS random_4 class1 margin100 suspect1 grid10 postcycles7121",
+            "SUSPECT_CORE_PASS random_5 class1 margin100 suspect1 grid7 postcycles7121",
+            "SUSPECT_CORE_PASS random_6 class1 margin100 suspect1 grid6 postcycles7121",
+            "SUSPECT_CORE_PASS random_7 class1 margin100 suspect1 grid5 postcycles7121",
+            "SUSPECT_CORE_PASS random_8 class1 margin100 suspect1 grid6 postcycles7121",
+            "SUSPECT_CORE_PASS random_9 class1 margin100 suspect1 grid10 postcycles7121",
+            "SUSPECT_CORE_PASS random_10 class1 margin100 suspect1 grid0 postcycles7121",
+            "SUSPECT_CORE_PASS random_11 class1 margin100 suspect1 grid5 postcycles7121",
+            "SUSPECT_CORE_PASS real_FAIL class1 margin782 suspect1 grid6 postcycles7121",
+            "SUSPECT_CORE_PASS real_PASS class0 margin660 suspect0 grid0 postcycles0",
+            "SUSPECT_CORE_PASS real_REVIEW class1 margin17 suspect0 grid0 postcycles0",
+            "SUSPECT_CORE_GOLDEN_PASS tests=22"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\cnn_publication.log",
+          "sha256": "A95558906C71870CB26B52BA25CA3717E1DE3BD66A550D9FBB9AE30676D553D9",
+          "pass_marker": "PASS r6_publication_20261113T112449_391534Z/publication_vlib",
+          "observed_markers": [
+            "PASS r6_publication_20261113T112449_391534Z/publication_vlib",
+            "PASS r6_publication_20261113T112449_391534Z/publication_lint",
+            "PASS r6_publication_20261113T112449_391534Z/publication_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\suspect_trial\\r6_publication_20261113T112449_391534Z\\publication_simulation.log",
+          "sha256": "AFB18BC3D3C5DAC55375EE7899BEE464AD497C84EBCC7240D7A7C30529DA4E41",
+          "pass_marker": "PASS CNN_PUBLICATION_INTEGRATION checks=170 jobs=30 starts=32",
+          "observed_markers": [
+            "PASS CNN_PUBLICATION_INTEGRATION checks=170 jobs=30 starts=32"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\plotter.log",
+          "sha256": "6E7FE6CA7F14F383B7F4928F68E6726621E4146CE4EC2E73ED6B2E1264871649",
+          "pass_marker": "PASS plotter/transport_vlib",
+          "observed_markers": [
+            "PASS plotter/transport_vlib",
+            "PASS plotter/transport_lint",
+            "PASS plotter/transport_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\plotter\\transport_simulation.log",
+          "sha256": "DD4DE041608945D98571FB94806C0E1F567C35CB238F158BE591749B81691D1C",
+          "pass_marker": "PLOTTER_CASE_PASS name=KEY2_first_final_ok_no_Idle",
+          "observed_markers": [
+            "PLOTTER_CASE_PASS name=KEY2_first_final_ok_no_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_second_no_KEY3_uart_unaccepted_retry",
+            "PLOTTER_CASE_PASS name=CNN_PCB_multiline_ack_serialization",
+            "PLOTTER_CASE_PASS name=DOC_final_ok_owner_withdrawal_no_final_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_after_DOC_owner_switch",
+            "PLOTTER_CASE_PASS name=DOC_lost_ok_no_motion_replay_safe_stop",
+            "PLOTTER_CASE_PASS name=REPORT_lost_ok_no_motion_replay",
+            "PLOTTER_CASE_PASS name=REPORT_KEY4_stop_Hold_reset_fresh_Idle",
+            "PLOTTER_CASE_PASS name=REPORT_Alarm_rearm_required",
+            "PLOTTER_CASE_PASS name=REPORT_Reset_invalidates_coordinates",
+            "PLOTTER_CASE_PASS name=REPORT_UART_ready_loss_is_fault",
+            "PLOTTER_CASE_PASS name=DOC_KEY4_reset_Hold_fresh_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_after_DOC_stop_recovery",
+            "POSE7_PLOTTER_REGRESSION_PASS cases=13 lines=14 queries=29 holds=9 resets=9"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\hxa_fifo_crc.log",
+          "sha256": "A714C2A5098F1B1E84F9B91B61396451CC0334A80F512BC990D1F70F09DE939F",
+          "pass_marker": "PASS hxa/vlib",
+          "observed_markers": [
+            "PASS hxa/vlib",
+            "PASS hxa/lint",
+            "PASS hxa/tb_pose7_fifo4",
+            "PASS hxa/tb_pose7_hxa_crc_network"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\hxa_fifo_crc\\hxa\\tb_pose7_fifo4.log",
+          "sha256": "1799B0215012443631749C9D94D04CDD7701C09C3014E549B40872682C2ED41D",
+          "pass_marker": "POSE7_FIFO4_PASS: 41 payload/header/control checks, 11 expected rejected packets, 6 control events, 40us cadence",
+          "observed_markers": [
+            "POSE7_FIFO4_PASS: 41 payload/header/control checks, 11 expected rejected packets, 6 control events, 40us cadence"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\hxa_fifo_crc\\hxa\\tb_pose7_hxa_crc_network.log",
+          "sha256": "34D85B8718815D350D9BC9371E2E6506B687D7FBDFA2854288B939809D04E645",
+          "pass_marker": "POSE7_HXA_CASE_PASS name=bad_FRAME_BEGIN_packet_CRC",
+          "observed_markers": [
+            "POSE7_HXA_CASE_PASS name=bad_FRAME_BEGIN_packet_CRC",
+            "POSE7_HXA_CASE_PASS name=bad_FRAME_END_packet_CRC",
+            "POSE7_HXA_CASE_PASS name=complete_DDR_frame_bad_CRC",
+            "POSE7_HXA_CASE_PASS name=complete_DDR_frame_correct_CRC",
+            "POSE7_HXA_CASE_PASS name=ordinary_empty_Type11_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=ordinary_HXD1_Type11_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=PHY_drop_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=lease_expiry_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=HELLO_session_change_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=wrong_session_Type11_rejected",
+            "POSE7_HXA_CASE_PASS name=explicit_reason80_Type11_cancels",
+            "POSE7_HXA_CRC_NETWORK_PASS cases=11"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\reader.log",
+          "sha256": "D9082772BBC01033DD0FD4DA107B95C3E6BF8FE03A68C05541D0F7B5CE711525",
+          "pass_marker": "PASS reader/reader_mailbox_vlib",
+          "observed_markers": [
+            "PASS reader/reader_mailbox_vlib",
+            "PASS reader/reader_mailbox_lint",
+            "PASS reader/reader_mailbox_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\reader\\reader_mailbox_simulation.log",
+          "sha256": "5C92B5A3ECFDDE6F43D5ABD26F94AE70750BF613680A3577FE7289BCDF8A5FB8",
+          "pass_marker": "POSE7_REAL_READER_CASE_PASS name=calibration_fences_requests",
+          "observed_markers": [
+            "POSE7_REAL_READER_CASE_PASS name=calibration_fences_requests",
+            "POSE7_REAL_READER_CASE_PASS name=all_eight_Y_lanes_odd_even_cache",
+            "POSE7_REAL_READER_CASE_PASS name=miss_boundaries_last_address_and_variable_latency",
+            "POSE7_REAL_READER_CASE_PASS name=frame_invalidate_changes_same_word",
+            "POSE7_REAL_READER_CASE_PASS name=app_command_backpressure_and_samecycle_app_response",
+            "POSE7_REAL_READER_CASE_PASS name=ordinary_color_word_port_masks_pixel_reply",
+            "POSE7_REAL_READER_CASE_PASS name=document_owns_reader_ignores_live_purpose_and_color",
+            "POSE7_REAL_READER_CASE_PASS name=PCB_network_cancel_retains_inflight_response",
+            "POSE7_REAL_READER_CASE_PASS name=explicit_doc_cancel_drain_and_reentry",
+            "POSE7_REAL_READER_CASE_PASS name=KEY4_doc_drain_and_reentry",
+            "POSE7_REAL_READER_CASE_PASS name=CRC_read_owner_never_publishes_pixel",
+            "POSE7_REAL_READER_CASE_PASS name=unreturned_doc_response_locks_until_raw_reset",
+            "POSE7_REAL_READER_PASS cases=12 checks=506 pixels=44 client_words=37 app_words=37 clocks=8ns_14ns"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\key3.log",
+          "sha256": "ED38E757F4405A5F7575A625B2FD6D1119221DDA537BE1358FAE2187D12EA878",
+          "pass_marker": "PASS key3/key3_supervisor_vlib",
+          "observed_markers": [
+            "PASS key3/key3_supervisor_vlib",
+            "PASS key3/key3_supervisor_lint",
+            "PASS key3/key3_supervisor_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\key3\\key3\\key3_supervisor_simulation.log",
+          "sha256": "6E7E607737C8E65D8C3C7488538E6F0243889674B005D4A7FDD3D00878224F05",
+          "pass_marker": "KEY3_RESET_UNIT_PASS cases=5",
+          "observed_markers": [
+            "KEY3_RESET_UNIT_PASS cases=5"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\key1_snapshot.log",
+          "sha256": "ACEE46E803EBABD7C88CDF1275A4BF705188A6FF92867DD2474D1B69A2CF5E5D",
+          "pass_marker": "PASS 20261113T112512_532178Z/snapshot_vlib",
+          "observed_markers": [
+            "PASS 20261113T112512_532178Z/snapshot_vlib",
+            "PASS 20261113T112512_532178Z/snapshot_lint",
+            "PASS 20261113T112512_532178Z/snapshot_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\suspect_trial_key1\\20261113T112512_532178Z\\snapshot_simulation.log",
+          "sha256": "C07FDD9F7581EE02A2AD237953B9FE9CAD17521B0E947BBF8071BD03FBFE98F4",
+          "pass_marker": "PASS FAIL caches coherent original-frame SUSPECT centre without auto writing",
+          "observed_markers": [
+            "PASS FAIL caches coherent original-frame SUSPECT centre without auto writing",
+            "PASS inspection never auto writes",
+            "PASS KEY1 snapshot passes same centre and SUSPECT tag to reporter",
+            "PASS accepted cache is consumed once",
+            "PASS accepted SUSPECT snapshot survives live changes Ethernet loss and frame cancel",
+            "PASS repeated KEY1 cannot replay consumed PCB result",
+            "PASS PASS atomically clears old SUSPECT snapshot",
+            "PASS PASS KEY1 never inherits old SUSPECT",
+            "PASS REVIEW KEY1 has no suspect",
+            "PASS new image transaction clears cached old region before completion",
+            "PASS KEY1 before new completion cannot print stale region",
+            "PASS mode change clears cached PCB region",
+            "PASS no-target completion clears cached PCB region",
+            "PASS invalid/outside/zero-area source region never enters compressed centre cache",
+            "PASS invalid region retains FAIL title but sends no suspect coordinate",
+            "PASS invalid/outside/zero-area source region never enters compressed centre cache",
+            "PASS invalid region retains FAIL title but sends no suspect coordinate",
+            "PASS invalid/outside/zero-area source region never enters compressed centre cache",
+            "PASS invalid region retains FAIL title but sends no suspect coordinate",
+            "PASS explicit job cancel clears cached region",
+            "PASS KEY4 reset clears cached region",
+            "SUSPECT_KEY1_SNAPSHOT_PASS checks=21"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_key1\\key2_center\\20261113T112516_212075Z\\simulation.log",
+          "sha256": "BB5561835B6F613D4679C6984E77ECAE971CA560033F5DDA1F0CA4EE3E7525ED",
+          "pass_marker": "KEY2_ZERO_CASE_PASS two_KEY2_ACK_gated_X0_Y35_rezero",
+          "observed_markers": [
+            "KEY2_ZERO_CASE_PASS two_KEY2_ACK_gated_X0_Y35_rezero",
+            "KEY2_ZERO_CASE_PASS return_lost_ok_no_G92_no_replay",
+            "KEY2_ZERO_CASE_PASS G92_lost_ok_no_done_no_replay",
+            "KEY2_ZERO_CASE_PASS KEY4_stop_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS Alarm_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS Reset_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS PCB_report_retains_old_newline_no_G92",
+            "KEY2_ZERO_CASE_PASS CNN_report_retains_old_newline_no_G92",
+            "KEY2_ZERO_CASE_PASS six_KEY2_page_budget_then_seventh_rejected",
+            "KEY2_ZERO_CASE_PASS PCB_short_then_CNN_multiline_at_rebased_page_bottom",
+            "KEY2_ZERO_CASE_PASS fresh_work_frame_reset_preserves_physical_paper_offset",
+            "KEY2_ZERO_CASE_PASS KEY4_stop_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS Alarm_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS Reset_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS UART_link_ready_drop_while_G92_unacknowledged",
+            "KEY2_ZERO_REGRESSION_PASS cases=15"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\suspect_trial_report_center\\20261113T112518_581120Z\\simulation.log",
+          "sha256": "0DD993C19E199CD4F1B0A7837E8F5D96652280F357D0380D9F6396D65F433E70",
+          "pass_marker": "SUSPECT_REPORT_CASE_PASS FAIL_source_centre_snapshot_and_final_ACK",
+          "observed_markers": [
+            "SUSPECT_REPORT_CASE_PASS FAIL_source_centre_snapshot_and_final_ACK",
+            "SUSPECT_REPORT_CASE_PASS second_FAIL_report_newline_and_new_snapshot",
+            "SUSPECT_REPORT_CASE_PASS PASS_clears_old_suspect",
+            "SUSPECT_REPORT_CASE_PASS REVIEW_clears_old_suspect",
+            "SUSPECT_REPORT_CASE_PASS FAIL_no_positive_region_title_only",
+            "SUSPECT_REPORT_CASE_PASS legacy_kind_not_treated_as_suspect",
+            "SUSPECT_REPORT_CASE_PASS invalid_source_box_rejected",
+            "SUSPECT_REPORT_CASE_PASS source_boundary_centre_not_machine_mirrored",
+            "SUSPECT_REPORT_CASE_PASS CNN_low_actual_confidence_name_centre_unchanged",
+            "SUSPECT_REPORT_CASE_PASS abort_no_automatic_replay",
+            "SUSPECT_REPORT_CASE_PASS KEY4_stop_no_new_segments",
+            "SUSPECT_REPORT_CASE_PASS Alarm_locks_report_without_done",
+            "SUSPECT_REPORT_REGRESSION_PASS cases=12"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\ordinary27.log",
+          "sha256": "BD9B43FBBD447D69B765A0630603FB683404B3C2E38D90B0899A38E0EFAF53B2",
+          "pass_marker": "PASS ordinary/ordinary_integer27",
+          "observed_markers": [
+            "PASS ordinary/ordinary_integer27"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\ordinary27\\ordinary\\ordinary_integer27.log",
+          "sha256": "6A770B8D8819B44CE3F8204447FF085EB2BF4D7D03DE09F72DD8C894E0762DBD",
+          "pass_marker": "PASS vlib",
+          "observed_markers": [
+            "PASS vlib",
+            "PASS lint",
+            "PASS simulation",
+            "PASS RTL + integer golden: 27 cases"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\ordinary27\\ordinary\\integer27\\simulation.log",
+          "sha256": "5BB594C5B412B47FA1DED0393573D307E587AB7BE09BBA3558D40FBBE548D8CC",
+          "pass_marker": "PASS CNN CASE 0 cycles=1880088 logits=51333,-82949,13983 class=1 color_conf=136 shape_conf=145",
+          "observed_markers": [
+            "PASS CNN CASE 0 cycles=1880088 logits=51333,-82949,13983 class=1 color_conf=136 shape_conf=145",
+            "PASS CNN CASE 1 cycles=1880088 logits=41006,-74552,16398 class=1 color_conf=128 shape_conf=96",
+            "PASS CNN CASE 2 cycles=1880088 logits=41701,-75933,17062 class=1 color_conf=128 shape_conf=96",
+            "PASS CNN CASE 3 cycles=1880088 logits=-78460,61880,19997 class=2 color_conf=175 shape_conf=163",
+            "PASS CNN CASE 4 cycles=1880088 logits=-69059,54126,17243 class=2 color_conf=162 shape_conf=144",
+            "PASS CNN CASE 5 cycles=1880088 logits=-70617,52721,19131 class=2 color_conf=173 shape_conf=131",
+            "PASS CNN CASE 6 cycles=1880088 logits=-27726,-651,29002 class=3 color_conf=190 shape_conf=115",
+            "PASS CNN CASE 7 cycles=1880088 logits=-23355,-2848,27680 class=3 color_conf=203 shape_conf=119",
+            "PASS CNN CASE 8 cycles=1880088 logits=-22126,-2221,24642 class=3 color_conf=179 shape_conf=104",
+            "PASS CNN CASE 9 cycles=1880088 logits=92350,-86837,-21368 class=4 color_conf=32 shape_conf=255",
+            "PASS CNN CASE 10 cycles=1880088 logits=88011,-83619,-17783 class=4 color_conf=30 shape_conf=255",
+            "PASS CNN CASE 11 cycles=1880088 logits=88112,-88217,-15681 class=4 color_conf=34 shape_conf=255",
+            "PASS CNN CASE 12 cycles=1880088 logits=-93303,76586,18920 class=5 color_conf=45 shape_conf=225",
+            "PASS CNN CASE 13 cycles=1880088 logits=-87876,74817,16308 class=5 color_conf=44 shape_conf=228",
+            "PASS CNN CASE 14 cycles=1880088 logits=-80952,64588,18598 class=5 color_conf=47 shape_conf=179",
+            "PASS CNN CASE 15 cycles=1880088 logits=-32783,-16366,42758 class=6 color_conf=41 shape_conf=230",
+            "PASS CNN CASE 16 cycles=1880088 logits=-30151,-15417,39388 class=6 color_conf=40 shape_conf=214",
+            "PASS CNN CASE 17 cycles=1880088 logits=-31636,-6248,34651 class=6 color_conf=38 shape_conf=159",
+            "PASS CNN CASE 18 cycles=1880088 logits=80598,-111285,1894 class=7 color_conf=52 shape_conf=255",
+            "PASS CNN CASE 19 cycles=1880088 logits=62628,-80992,-2889 class=7 color_conf=48 shape_conf=255",
+            "PASS CNN CASE 20 cycles=1880088 logits=80748,-119197,6561 class=7 color_conf=53 shape_conf=255",
+            "PASS CNN CASE 21 cycles=1880088 logits=-86734,70531,17420 class=8 color_conf=45 shape_conf=207",
+            "PASS CNN CASE 22 cycles=1880088 logits=-88226,65504,24196 class=8 color_conf=46 shape_conf=161",
+            "PASS CNN CASE 23 cycles=1880088 logits=-78292,63497,17554 class=8 color_conf=46 shape_conf=179",
+            "PASS CNN CASE 24 cycles=1880088 logits=-31129,-8539,33680 class=9 color_conf=60 shape_conf=164",
+            "PASS CNN CASE 25 cycles=1880088 logits=-28810,-10159,32623 class=9 color_conf=60 shape_conf=167",
+            "PASS CNN CASE 26 cycles=1880088 logits=-29410,-6287,30726 class=9 color_conf=58 shape_conf=144",
+            "PASS ALL CNN REMOTE DETAIL cases=27"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\pcb_pipeline_adapter_sharehold.log",
+          "sha256": "C67AFEEA9D8F2CB57BE8B250A1383CB12E27F87A35713456A8803BC23C1824BB",
+          "pass_marker": "PASS pipeline/pipeline_vlib",
+          "observed_markers": [
+            "PASS pipeline/pipeline_vlib",
+            "PASS pipeline/pipeline_lint",
+            "PASS pipeline/pipeline_simulation",
+            "PASS adapter/adapter_vlib",
+            "PASS adapter/adapter_lint",
+            "PASS adapter/adapter_simulation",
+            "PASS sharehold/sharehold_vlib",
+            "PASS sharehold/sharehold_lint",
+            "PASS sharehold/sharehold_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\pipeline\\pipeline_simulation.log",
+          "sha256": "41931E25EEECCC217E7BCC538250439AA58B4A4B8C5C72CC4A6501CB1A600BF6",
+          "pass_marker": "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+          "observed_markers": [
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_pad status=1 valid=1 ROI=9216 cycles=1295263",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_corner status=1 valid=1 ROI=9216 cycles=1276769",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_review status=2 valid=1 ROI=9216 cycles=1269588",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_blank status=2 valid=0 ROI=0 cycles=230581",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_source_border status=2 valid=0 ROI=0 cycles=233779",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_label_overflow status=2 valid=0 ROI=0 cycles=233126",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=0",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=1",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=2",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=3",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_pad status=1 valid=1 ROI=9216 cycles=1295263",
+            "BINARY_FULLPIPELINE_ORDINARY_EMPTY_PASS",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_GOLDEN_PASS frames=13 cancels=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\adapter\\adapter_simulation.log",
+          "sha256": "E5497C59928644ADFEB08D6C98356CC709992FDF9905EEDF9A51416669F1970A",
+          "pass_marker": "SUSPECT_ADAPTER_CURRENT_PASS tests=30 good_pass_min=192 bad_min=32",
+          "observed_markers": [
+            "SUSPECT_ADAPTER_CURRENT_PASS tests=30 good_pass_min=192 bad_min=32"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\sharehold\\sharehold_simulation.log",
+          "sha256": "874AEF5BF34930D8679ECBED3909216D0F2A8CC77FFE71461879B186A014F48A",
+          "pass_marker": "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+          "observed_markers": [
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_pad status=1 valid=1 ROI=9216 cycles=1295263",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_corner status=1 valid=1 ROI=9216 cycles=1276769",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_review status=2 valid=1 ROI=9216 cycles=1269588",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_blank status=2 valid=0 ROI=0 cycles=230581",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_source_border status=2 valid=0 ROI=0 cycles=233779",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_label_overflow status=2 valid=0 ROI=0 cycles=233126",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=0",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=1",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=2",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=3",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_pad status=1 valid=1 ROI=9216 cycles=1295263",
+            "BINARY_FULLPIPELINE_ORDINARY_EMPTY_PASS",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_GOLDEN_PASS frames=13 cancels=4",
+            "PIPELINE_SHAREHOLD_PASS hold_checks=104 clear_checks=50"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\RESULTS.json",
+          "sha256": "96746075C6F3B1844AA81B6B260874106D2142641B39EC45E49F0E89EF99D6D9"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\actions\\20261113T111421_534654Z\\RESULTS.json",
+          "sha256": "27C2106C17D35E970326284606DD52FC536544E6DA213E41FD6DFE8A85B3C5DF"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\paper_eject\\20261113T111421_556764Z\\RESULTS.json",
+          "sha256": "E2AF78E9EB7C6DB3B8135D6681B8333F4669016F81E01FC51043884A6BA3E9C6"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\paper_document\\20261113T111421_534654Z\\RESULTS.json",
+          "sha256": "008564586F86DEF12F8B7FEADDC7BCD8595902260ADFCAB768E8E53914EA6198"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\retrained\\regressions\\run_20261113T111421_542326Z\\RESULTS.json",
+          "sha256": "E8876E8F1F0CAC10BB3FF573D742BC18D820058E8E8FC92FFFEB441C01805DE7"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\suspect_trial\\r6_core_20261113T112441_493988Z\\RESULT.json",
+          "sha256": "60C23419BC602B0AC3CB295D98B49DD635706DDD6F8EECE6AB1162C417F663BE"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\suspect_trial\\r6_publication_20261113T112449_391534Z\\RESULTS.json",
+          "sha256": "50907F973A84BBB702634B4F2E367899E24E827B5F3E536D028B1F36FF87D546"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\plotter\\RESULTS.json",
+          "sha256": "AE52837D49D47EF5AFE1B477EA9CE6AB5549EB425BF11BEEF2DF6F1CFE368C93"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\hxa_fifo_crc\\RESULTS.json",
+          "sha256": "AC9E5B658D115CB0944CF40F1B109EFF6F6F3C6BC0060094AB92BB6BF184949E"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\reader\\RESULTS.json",
+          "sha256": "FB3C2966EEA7C11E68268C977151DFC230F477B148C57BDAA955D47E00D39A5F"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\key3\\RESULTS.json",
+          "sha256": "C6D1758C6F2250C7C4C98C73D2DED7E9ED65DE34ABEEED37AC670E6773525A71"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\suspect_trial_key1\\20261113T112512_532178Z\\RESULTS.json",
+          "sha256": "11FC8A11EE36F46A158F43E25ABB91F6C8D010FA66A95210B00AF4266DCC1C80"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_key1\\key2_center\\20261113T112516_212075Z\\RESULT.json",
+          "sha256": "E4AC5B4F185FB1793DC8DDF20305557853E04F59DFCB85BDBDA1B35F44807E33"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\suspect_trial_report_center\\20261113T112518_581120Z\\RESULT.json",
+          "sha256": "DE8D77576E6C2D2338F85C94E93F56DFC294EEF4AA04FE857EB4FEA25B2A4631"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\ordinary27\\RESULTS.json",
+          "sha256": "457C14452CEFAFB55F5EB7C4010FEF4FF540181D179F85E9F50A6F6B9D58AB65"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\ordinary27\\ordinary\\integer27\\RESULTS.json",
+          "sha256": "DEA560D19A8F296B8039AD091F5BFF390DE450CCA000E1CBC2FB000E912AD793"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\preserved_airwalk_r4\\20261113T112441_370259Z\\child_runs\\pcb_pipeline_adapter_sharehold\\RESULTS.json",
+          "sha256": "B10E538AD2D13586D7DC8195B6120D70A2B9143F54D4F0B2945701AFF7F8B948"
+        }
+      ]
+    },
+    "document_integrated": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_mapper_r4\\20261113T111600_164164Z\\RESULT.json",
+      "sha256": "A8281438D002B902A8F7FF48199DD29641FD31DD55B45E8B71778393F62554F9",
+      "source_sha256": {
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "F54EE47EED746A5ED3C8832F12827B2CD886B6DD9D292AE19A5C0A36C2A3794E",
+        "01_rtl/doc_image_frontend.v": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+        "01_rtl/doc_stroke_planner.v": "E68C26D36AE92AEC766673D24056E88A6FC1CBFD9C61E0DA3B362CE53DF41668",
+        "01_rtl/doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+        "01_rtl/doc_machine_map.v": "9AE19EB6EF206CC508D865D6D42BE1D488CBB60217125A81682AA4CBC57BCD3D",
+        "01_rtl/doc_grbl_plotter_shared_candidate.v": "82715A03828D55DA5B1813337FBBBA42184C9F2422512DC8A4F871C96F74FA9D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_mapper_r4\\20261113T111600_164164Z\\baseline\\simulation.log",
+          "sha256": "47F0BCCF1D443CDB80352B044417AB38F180924CA3B083B0FDBB912E1A69DB69",
+          "pass_marker": "DOC_KEY1_INTEGRATED_PASS points=351 lines=417 queries=1 requests=956416 cycles=45778964",
+          "observed_markers": [
+            "DOC_KEY1_INTEGRATED_PASS points=351 lines=417 queries=1 requests=956416 cycles=45778964",
+            "DOC_MAPPER_HANDSHAKE_PASS requests=954 completions=954 min_latency=30 max_latency=30"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_mapper_r4\\20261113T111600_164164Z\\confirm\\simulation.log",
+          "sha256": "3D8C00548C41B6FDAE5ACF3C98BDD97FAF2731369622BD60779DD01538C2D6FC",
+          "pass_marker": "DOC_KEY1_INTEGRATED_PASS points=351 lines=417 queries=1 requests=956416 cycles=45777069",
+          "observed_markers": [
+            "DOC_KEY1_INTEGRATED_PASS points=351 lines=417 queries=1 requests=956416 cycles=45777069",
+            "DOC_MAPPER_HANDSHAKE_PASS requests=954 completions=954 min_latency=28 max_latency=28"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_mapper_r4\\20261113T111600_164164Z\\RESULT.json",
+          "sha256": "A8281438D002B902A8F7FF48199DD29641FD31DD55B45E8B71778393F62554F9"
+        }
+      ]
+    },
+    "doc_total_ack": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\RESULTS.json",
+      "sha256": "9D6B6361620A5D427D6CB8FD781C5848973AC7F5B2BC56C0BC6CED36E5D55B0B",
+      "source_sha256": {
+        "01_rtl/doc_grbl_plotter_shared_candidate.v": "82715A03828D55DA5B1813337FBBBA42184C9F2422512DC8A4F871C96F74FA9D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\doc_total_simulation.log",
+          "sha256": "2ED81A07B2C33652DCA5246EBB6BAC58B365FFBC87B4A8484DCA48944D602B29",
+          "pass_marker": "DOC_TOTAL_ACK_PASS cases=3 normal_dot_empty delayed_ack_no_final_idle",
+          "observed_markers": [
+            "DOC_TOTAL_ACK_PASS cases=3 normal_dot_empty delayed_ack_no_final_idle"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\doc_total_ack\\20261113T111432_242492Z\\RESULTS.json",
+          "sha256": "9D6B6361620A5D427D6CB8FD781C5848973AC7F5B2BC56C0BC6CED36E5D55B0B"
+        }
+      ]
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "bitgen_allowed": false
+}

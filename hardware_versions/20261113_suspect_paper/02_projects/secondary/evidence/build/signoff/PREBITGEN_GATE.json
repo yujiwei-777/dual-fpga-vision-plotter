@@ -1,0 +1,50 @@
+{
+  "status": "PASS_CURRENT_PREBITGEN_GATE",
+  "source_manifest_sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+  "routed_database_sha256": "7A71EF0B02AA6E5A8B4D0F3B0CEACDC9B380E09B69B1F6E20DC26BEA51701CD9",
+  "implementation": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\IMPLEMENTATION_SIGNOFF.json",
+    "sha256": "2D6E5848280C0EB7B14BB549F5658F0E1047104FEDD5AF0D4932D8825183759E"
+  },
+  "functional_gate": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\FUNCTIONAL_GATE.json",
+    "sha256": "32F5A98F7DC66030099B9DCDB3014D114CC9D7EA855788A31184595D2BFDA41D"
+  },
+  "toolchain": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\signoff_airwalk.py",
+      "sha256": "6B2CBF3EC5DB7F925F2F1CFBA7CAB322A5842AA00E62CD3A7FF52F53E8F52FB5"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\build_airwalk.py",
+      "sha256": "69D77D92DADB47489268C51D1B297E4BA7CFD29FF6AFC3F0C20CEAF149ACBCB6"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\build_opt.py",
+      "sha256": "0D2B196DD000691E1D71150972A0ED629A5B1BED15C13CF98312E8B266CA06D2"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\signoff_doc_key1_confirm.py",
+      "sha256": "23EEDD8FE34B11C0F3A4F62CD6B61EF06C8D9B2E76D92A22CE3DF3C5B7EC52BC"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\tools\\doc_key1_confirm_strict_checks.py",
+      "sha256": "E350D82F3CF494E8B70CF84E3EEEE31D1D95D0F57B8254629CEF6AA6090A79BE"
+    },
+    {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\tools\\td_release_audit.py",
+      "sha256": "72B08AAF0EF99A53C53635AF5F6E11A12178AE39FB217838165225CFF40B4DA1"
+    },
+    {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\tools\\binary_source_audit_config.json",
+      "sha256": "0E2919329F4C62C7E7CE16ACBE6B706E43DD0F4F3C6E9330E7D1ED1E0215B2CE"
+    },
+    {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\tools\\physical_capacity\\validate_device_capacity.py",
+      "sha256": "16B7496C54FB97F2B9B0746F83A740B04ADF5D04194E6E8A7F7F7D04A9CAEBD2"
+    }
+  ],
+  "artifact_name": "dual_fpga_secondary_20261113_pcb_paper_load_stroke_cont_diagnostic.bit",
+  "bitgen_allowed": true,
+  "hardware_status": "NOT_RUN"
+}

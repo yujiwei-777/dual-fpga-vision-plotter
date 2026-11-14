@@ -1,0 +1,21 @@
+{
+  "status": "OPERATOR_UI_EXPLICIT_SCOPE",
+  "allowed_production_changes": [
+    "01_rtl/secondary_top.v",
+    "01_rtl/pcb_ccl_binary_core.v",
+    "01_rtl/vision_pipeline.v",
+    "01_rtl/grbl_reporter_shared_candidate.v",
+    "01_rtl/doc_copy_pipeline_shared_candidate.v",
+    "shared/rtl/hxa_secondary_link.v",
+    "shared/rtl/hxa_packet_codec.v",
+    "shared/rtl/hxa_packet_rx_fifo4.v",
+    "01_rtl/grbl_shared_transport_candidate.v"
+  ],
+  "models_changed": false,
+  "localization_head_promoted": false,
+  "new_ROM": "Main character ROM is self-contained initial data in operator_ui_text.v; no external mem file.",
+  "constraints_policy": "All old constraints unchanged; main SDC may only append a reviewed exact operator mailbox block.",
+  "r3_area_scope": "Purpose-exclusive pending job/centre storage and exact-range timeout/ms counters; all payload IDs and UART/model semantics retained. Original packet timeout and CRC rules unchanged.",
+  "r8_area_scope": "Cycle-equivalent diagnostic LED counter sharing and common unsigned 16-bit X-mirror subtraction. No model, protocol, UART, safety FSM or constraint change.",
+  "r9_area_scope": "Source-bounded HXA scan_word 17-bit, tx_at/result_copy_at 8-bit; same protocol, payload lengths, CRC steps, timeouts and reset-reachable cycle behavior. No frame, write-task, model, safety or constraint semantics changed."
+}

@@ -1,0 +1,128 @@
+{
+  "resources": {
+    "slice": {
+      "used": 19310,
+      "total": 21216,
+      "percent": 91.01621417797888
+    },
+    "eram": {
+      "used": 86,
+      "total": 108,
+      "percent": 79.62962962962963
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0
+    }
+  },
+  "reported_capacity": {
+    "io": {
+      "used": 71,
+      "total": 160,
+      "percent": 44.375
+    },
+    "lut6": {
+      "used": 18571,
+      "total": 21216,
+      "percent": 87.5329939668175
+    },
+    "slice_reg": {
+      "used": 17904,
+      "total": 42432,
+      "percent": 42.19457013574661
+    },
+    "slice": {
+      "used": 19310,
+      "total": 21216,
+      "percent": 91.01621417797888
+    },
+    "f7mux": {
+      "used": 37,
+      "total": 10608,
+      "percent": 0.34879336349924583
+    },
+    "f8mux": {
+      "used": 0,
+      "total": 5304,
+      "percent": 0.0
+    },
+    "eram": {
+      "used": 86,
+      "total": 108,
+      "percent": 79.62962962962963
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0
+    },
+    "ddr_byte": {
+      "used": 6,
+      "total": 12,
+      "percent": 50.0
+    },
+    "mipi_tx": {
+      "used": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "mipi_rx": {
+      "used": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "pad": {
+      "used": 26,
+      "total": 160,
+      "percent": 16.25
+    },
+    "pll": {
+      "used": 4,
+      "total": 6,
+      "percent": 66.66666666666667
+    },
+    "dpll": {
+      "used": 0,
+      "total": 2,
+      "percent": 0.0
+    },
+    "gclk": {
+      "used": 7,
+      "total": 32,
+      "percent": 21.875
+    },
+    "lclk": {
+      "used": 1,
+      "total": 16,
+      "percent": 6.25
+    },
+    "sclk": {
+      "used": 16,
+      "total": 48,
+      "percent": 33.333333333333336
+    },
+    "mlclk": {
+      "used": 2,
+      "total": 16,
+      "percent": 12.5
+    },
+    "ioclk": {
+      "used": 4,
+      "total": 12,
+      "percent": 33.333333333333336
+    }
+  },
+  "timing_ns": {
+    "SWNS": 0.007,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "routed_two_corner": true,
+  "board": "secondary",
+  "phase": "route",
+  "tool_pass": true,
+  "bitgen_allowed": false,
+  "source_manifest_sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3"
+}

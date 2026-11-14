@@ -1,0 +1,38 @@
+{
+  "schema": "suspect-paper-pair-v1",
+  "version": "2026-11-13",
+  "packaged": "2026-11-14",
+  "hardware_status": "NOT_RUN",
+  "projects": [
+    {
+      "board": "main",
+      "source": "main_pcb_suspect_center_20261113",
+      "build": "E:/codex_pcb_suspect_center_main_20261113_r4",
+      "entry": "01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.al",
+      "bit": "dual_fpga_main_20261113_pcb_suspect_center_diagnostic.bit",
+      "bit_sha256": "E2E1FE983B3D63056B4044710EF979A42FF8EBEDC81D6440C2301175FBE08011",
+      "manifest_sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+      "directory": "02_projects/main",
+      "frozen_files": 251,
+      "hardware_status": "NOT_RUN"
+    },
+    {
+      "board": "secondary",
+      "source": "secondary_pcb_airwalk_stroke_cont_20261113",
+      "build": "E:/codex_paper_airwalk_secondary_20261113_r4",
+      "entry": "runs/syn_1/secondary_cnn_multibox.al",
+      "bit": "dual_fpga_secondary_20261113_pcb_paper_load_stroke_cont_diagnostic.bit",
+      "bit_sha256": "5BA649F37D687B66809A6876B2AB9E77657D1C467BAD421E258B04143D5B8EE5",
+      "manifest_sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+      "directory": "02_projects/secondary",
+      "frozen_files": 299,
+      "hardware_status": "NOT_RUN"
+    }
+  ],
+  "notes": [
+    "Main selects this exact secondary bit as its companion. The secondary historical report names an older main; preserved verbatim as build history.",
+    "No RTL, model, constraints or bit bytes were changed; only delivery documentation and development-copy preparation scripts were added.",
+    "SYN-6024, PHY-7027 and RUN-8007 diagnostics remain in the original evidence. Final legal physical placement/signoff evidence is retained.",
+    "BUILD_PLAN/PREPARED_NOT_STARTED and functional-gate bitgen_allowed=false are intermediate artifacts, not final release results."
+  ]
+}

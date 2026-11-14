@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-11-13T15:12:03.465440+00:00",
+  "ended_utc": "2026-11-13T15:12:09.719452+00:00",
+  "command": [
+    "D:\\conda\\python.exe",
+    "-B",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\summarize_readonly.py",
+    "--route-log",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\logs\\route.log",
+    "--audit-dir",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1",
+    "--release-gate",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\release_gate.json",
+    "--readonly-verification",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_verification.json",
+    "--readonly-script",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_reimport.tcl",
+    "--readonly-log",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_launcher.log"
+  ],
+  "cwd": "E:\\codex_pcb_suspect_center_main_20261113_r4",
+  "returncode": 0,
+  "log": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/summary.log",
+    "sha256": "F6E997C86EC571E58E82753DD97EBE5C3CE2CAC5BA841621E7D3F79F3C308EAE",
+    "bytes": 206
+  }
+}

@@ -1,0 +1,122 @@
+# vsim -batch -syncio -quiet -novopt -suppress 12110 -lib metadata_lib tb_operator_metadata -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 19:14:21 on Nov 13,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.tb_operator_metadata
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.secondary_top
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.secondary_key3_board_reset
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.pll
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.PH1P_LOGIC_BUFG
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.reset_sync
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.PLL
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.secondary_ddr_wrapper
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.hxa_ddr_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.uiudp_stack
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.rgmii_interface
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.secondary_key1_action_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.vision_pixel_reader
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.hxa_secondary_link
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.vision_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.hxa_config_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.doc_copy_pipeline_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.grbl_key1_job_guard
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.grbl_key2_test_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.grbl_uart_port
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.grbl_reporter_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/paper_eject/20261113T111421_556764Z/metadata_lib.grbl_shared_transport_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_operator_metadata/dut File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv Line: 23
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_rgmii_txd'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_rgmii_txc'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_phy_rst'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_uart_tx'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_addr'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_ba'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_cke'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_odt'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_cs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_ck_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_ck_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_ras_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_cas_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_we_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_dm'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_dqs_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_dqs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_dq'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_led'.
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# PASS history clear deasserts with stable ordinary session
+# PASS OPR1 layout and initial invalid
+# PASS low confidence preview uses actual class score exact centre and result ID
+# KEY1_BEGIN purpose=0 can=0 armed=1 preview=0 slot=1
+# KEY1_HELD eligible=0 ctx=0 pending=1 can=0 long=0
+# PASS KEY1 cannot write before snapshot take
+# PASS metadata take locks pending snapshot
+# PASS new valid frame cannot overwrite locked preview
+# PASS current no-target clears old preview and snapshot lock
+# KEY1_BEGIN purpose=0 can=1 armed=1 preview=1 slot=1
+# KEY1_HELD eligible=1 ctx=0 pending=1 can=1 long=0
+# PASS KEY1 admitted exact frozen preview
+# PASS active metadata selects independent accepted snapshot
+# PASS network and new frame cannot change accepted writing
+# PASS PCB FAIL preview pairs reason judgement and SUSPECT centre
+# PASS pending PCB verdict uses frozen cache rather than changing live classifier outputs
+# KEY1_BEGIN purpose=1 can=1 armed=1 preview=1 slot=1
+# KEY1_HELD eligible=1 ctx=1 pending=1 can=1 long=0
+# PASS PCB KEY1 accepts frozen suspect and reason
+# PASS new no-target PCB does not alter accepted report metadata
+# PASS no-target REVIEW clears old suspect; raw local error retained and transport diagnostics reserved zero
+# PASS new PCB task clears diagnostic preview
+# PASS legacy peer retains local KEY1 ready without UI capability
+# KEY1_BEGIN purpose=0 can=1 armed=1 preview=0 slot=1
+# KEY1_HELD eligible=1 ctx=0 pending=1 can=1 long=0
+# PASS legacy non-Type21 peer admits original local KEY1 cached result
+# PASS paper fields use physical occupied cursor and remaining height
+# PASS page request pulse fences KEY1 and document admission and protects network handoff
+# PASS page request handoff shows busy with no old report or ready preview
+# PASS maintenance ACK and DONE never reuse the last report job status
+# PASS active maintenance clears old names coordinates verdict snapshot and job while keeping busy
+# OPERATOR_METADATA_PASS checks=23
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/tests/paper_eject/tb_operator_metadata.sv(182)
+#    Time: 1037 ns  Iteration: 0  Instance: /tb_operator_metadata
+# End time: 19:14:25 on Nov 13,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 22

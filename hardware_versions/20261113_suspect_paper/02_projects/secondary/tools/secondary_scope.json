@@ -1,0 +1,33 @@
+{
+  "allowed_production_changes": [
+    "01_rtl/doc_copy_pipeline_shared_candidate.v",
+    "01_rtl/doc_grbl_plotter_shared_candidate.v",
+    "01_rtl/grbl_reporter_shared_candidate.v",
+    "01_rtl/pcb_ccl_binary_core.v",
+    "01_rtl/secondary_top.v",
+    "04_pin/timing.sdc",
+    "runs/phy_1/run_place.tcl",
+    "01_rtl/doc_machine_map.v"
+  ],
+  "expected_changed_sources": [
+    "01_rtl/doc_copy_pipeline_shared_candidate.v",
+    "01_rtl/doc_grbl_plotter_shared_candidate.v",
+    "01_rtl/grbl_reporter_shared_candidate.v",
+    "01_rtl/pcb_ccl_binary_core.v",
+    "01_rtl/secondary_top.v",
+    "04_pin/timing.sdc",
+    "runs/phy_1/run_place.tcl",
+    "01_rtl/doc_machine_map.v"
+  ],
+  "new_production_sources": [],
+  "notes": [
+    "Control is final successful r3_seed2 source manifest; gate-to-gate comparisons only.",
+    "Models unchanged. timing.sdc retargets KEY1 synchronizer to u_key1_action/key_meta.",
+    "Current place seed1 versus control seed2; no pin/DDR/clock placement rules relaxed.",
+    "Changes preserve progress, stroke continuity, load confirmation and SUSPECT updates.",
+    "Long KEY1 only confirms armed paper loading; former ordinary airwalk entry tied off per user replacement request. Planner consume-once baseline restored.",
+    "r4 adopts tested shared stable-phase KEY1 counter with paper-armed context; long presses cannot queue ordinary writes.",
+    "r4 adopts bounded integer distance arithmetic, exact fixed ROM/map unchanged; distance result same and valid handshake two cycles earlier.",
+    "Type21 banked selector rejected after full u_link mapping increased LUT/F7; original 48-case retained."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "E:/model/win64/vlog.exe",
+    "-sv",
+    "-work",
+    "rtl_lib",
+    "original.v",
+    "candidate.v",
+    "tb.sv"
+  ],
+  "returncode": 0,
+  "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\multibox_area_candidate\\20261113T142503_551609Z\\compile.log",
+  "log_sha256": "6B053263E3F8371FBFEDC2B68FF800477EF5D05110B4C6CDB7DC649ECCCCF602"
+}

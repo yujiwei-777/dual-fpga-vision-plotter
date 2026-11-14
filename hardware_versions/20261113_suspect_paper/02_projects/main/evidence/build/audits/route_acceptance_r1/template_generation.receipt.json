@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-11-13T15:11:08.364801+00:00",
+  "ended_utc": "2026-11-13T15:11:08.826008+00:00",
+  "command": [
+    "D:\\conda\\python.exe",
+    "-B",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\tools\\td_release_audit.py",
+    "reimport-template",
+    "--root",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4",
+    "--run",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8",
+    "--name",
+    "camera_to_dsi_display_720p60_cnn_multibox",
+    "--audit-dir",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1",
+    "--output",
+    "E:\\codex_pcb_suspect_center_main_20261113_r4\\audits\\route_acceptance_r1\\readonly_reimport.tcl"
+  ],
+  "cwd": "E:\\codex_pcb_suspect_center_main_20261113_r4",
+  "returncode": 0,
+  "log": {
+    "path": "E:/codex_pcb_suspect_center_main_20261113_r4/audits/route_acceptance_r1/template_generation.log",
+    "sha256": "DE3082F1A13C2599E5409A14CA67A71524A16F3E1B975CB52DC4598E23A731EA",
+    "bytes": 95
+  }
+}

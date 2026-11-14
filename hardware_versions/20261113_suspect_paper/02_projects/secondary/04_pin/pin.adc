@@ -1,0 +1,36 @@
+# HX1P35MDG324: board/manual pin evidence is recorded beside this file.
+set_pin_assignment { I_sys_clk } { LOCATION = C4; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_sw2 } { LOCATION = B4; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_rgmii_rxd[0] } { LOCATION = N9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_rgmii_rxd[1] } { LOCATION = T7; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_rgmii_rxd[2] } { LOCATION = T8; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_rgmii_rxd[3] } { LOCATION = T9; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_rgmii_rx_ctl } { LOCATION = N8; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { I_rgmii_rxc } { LOCATION = V3; IOSTANDARD = LVCMOS33; PULLTYPE = NONE; }
+set_pin_assignment { O_rgmii_txd[0] } { LOCATION = R11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; }
+set_pin_assignment { O_rgmii_txd[1] } { LOCATION = P11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; }
+set_pin_assignment { O_rgmii_txd[2] } { LOCATION = T10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; }
+set_pin_assignment { O_rgmii_txd[3] } { LOCATION = R12; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; }
+set_pin_assignment { O_rgmii_tx_ctl } { LOCATION = R10; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; }
+set_pin_assignment { O_rgmii_txc } { LOCATION = U9; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 16; PULLTYPE = NONE; }
+set_pin_assignment { O_phy_rst } { LOCATION = V8; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+# J1 physical pin 1 = C18, pin 2 = D15, pin 3 = E12. BANK32 VCCIO is 3.3V.
+# FPGA TX connects to ESP32 RX; FPGA RX connects to ESP32 TX. Common ground J1-30.
+set_pin_assignment { O_uart_tx } { LOCATION = C18; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { I_uart_rx } { LOCATION = D15; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_esp_link_ready } { LOCATION = E12; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+# On-board diagnostic LEDs (schematic P08): FPGA -> 1 kOhm -> LED anode,
+# common cathode to GND; high level turns the LED on.
+set_pin_assignment { O_led[0] } { LOCATION = C11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_led[1] } { LOCATION = B11; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_led[2] } { LOCATION = E7; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_led[3] } { LOCATION = E6; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+# DDR pin and electrical assignments come from the original DDR IP ADC.
+
+# Secondary local KEY1, active-low, same physical D5 as main-board KEY1.
+set_pin_assignment { I_key1_n } { LOCATION = D5; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+# Secondary local KEY2, active-low, board pin A9.
+set_pin_assignment { I_key2_n } { LOCATION = A9; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+# Secondary local KEY3/KEY4, active-low. The physical pins were confirmed.
+set_pin_assignment { I_key3_n } { LOCATION = B9; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { I_key4_n } { LOCATION = C7; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }

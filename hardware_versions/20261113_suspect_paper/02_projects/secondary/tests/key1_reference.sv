@@ -1,0 +1,57 @@
+module secondary_key1_action_ctrl_reference #(
+    parameter integer DEBOUNCE_CYCLES=2500000,
+    parameter integer LONG_PRESS_CYCLES=250000000
+)(
+    input wire clk,rst_n,key_n,can_start,inhibit,
+    input wire [1:0] context_id,
+    output reg short_pulse,airwalk_pulse,press_pulse,
+    output wire held
+);
+    localparam integer DBW=DEBOUNCE_CYCLES<2?1:$clog2(DEBOUNCE_CYCLES+1);
+    localparam integer HW=LONG_PRESS_CYCLES<2?1:$clog2(LONG_PRESS_CYCLES+1);
+    (* async_reg="true" *) reg key_meta,key_sync;
+    reg key_sample,key_debounced,raw_d,eligible,long_sent,armed,press_pending;
+    reg [1:0] sample_valid,context_q;
+    reg [DBW-1:0] db_count;
+    reg [HW-1:0] hold_count;
+    assign held=press_pending;
+    always @(posedge clk or negedge rst_n)begin
+        if(!rst_n)begin
+            key_meta<=1;key_sync<=1;key_sample<=1;key_debounced<=0;raw_d<=1;
+            sample_valid<=0;context_q<=0;db_count<=0;hold_count<=0;
+            eligible<=0;long_sent<=0;armed<=0;press_pending<=0;
+            short_pulse<=0;airwalk_pulse<=0;press_pulse<=0;
+        end else begin
+            key_meta<=key_n;key_sync<=key_meta;raw_d<=key_sync;
+            sample_valid<={sample_valid[0],1'b1};
+            short_pulse<=0;airwalk_pulse<=0;press_pulse<=0;
+            if(!sample_valid[1])begin
+                key_sample<=key_sync;db_count<=0;
+                eligible<=0;press_pending<=0;armed<=0;
+            end else begin
+                if(raw_d&&!key_sync)begin
+                    eligible<=armed&&can_start&&!inhibit;
+                    context_q<=context_id;hold_count<=0;long_sent<=0;
+                    press_pending<=armed;armed<=0;
+                end
+                if(key_sync!=key_sample)begin key_sample<=key_sync;db_count<=0;end
+                else if(db_count<DEBOUNCE_CYCLES-1)db_count<=db_count+1'b1;
+                else if(key_debounced!=key_sample)begin
+                    key_debounced<=key_sample;
+                    if(!key_sample)press_pulse<=press_pending;
+                    else begin
+                        short_pulse<=press_pending&&eligible&&!long_sent&&can_start&&!inhibit&&context_id==context_q;
+                        press_pending<=0;eligible<=0;armed<=1;hold_count<=0;
+                    end
+                end else if(key_sample)armed<=1;
+                if(press_pending&&!key_sync&&!long_sent)begin
+                    if(hold_count>=LONG_PRESS_CYCLES-1)begin
+                        airwalk_pulse<=eligible&&can_start&&!inhibit&&context_id==context_q;
+                        long_sent<=1;
+                    end else hold_count<=hold_count+1'b1;
+                end
+                if(inhibit||!can_start||(press_pending&&context_id!=context_q))eligible<=0;
+            end
+        end
+    end
+endmodule

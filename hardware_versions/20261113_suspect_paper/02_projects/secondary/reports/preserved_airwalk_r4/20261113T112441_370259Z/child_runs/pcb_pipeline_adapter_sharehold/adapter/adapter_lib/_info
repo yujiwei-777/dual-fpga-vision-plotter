@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/program/fpga/lab_ex3_osd_SC500_720P/secondary_pcb_airwalk_stroke_cont_20261113/reports/preserved_airwalk_r4/20261113T112441_370259Z/child_runs/pcb_pipeline_adapter_sharehold/adapter
+T_opt
+!s110 1794569116
+VHY61YS1RX;CN0l61<00im0
+04 18 4 work tb_suspect_adapter fast 0
+=1-e8c82923d912-6af6f39c-2eb-e704
+o-quiet -auto_acc_if_foreign -work adapter_lib
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vpcb_ccl_binary_core
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1794569115
+!i10b 1
+!s100 g>O=BYRSDclTOgTYn1i`22
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INAgSDI_LOTbIHm1E02MIP1
+S1
+R0
+w1794541256
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_ccl_binary_core.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_ccl_binary_core.v
+!i122 0
+L0 5 305
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z7 !s108 1794569115.000000
+Z8 !s107 D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\pcb_pipeline_adapter_sharehold\adapter\tb_suspect_adapter_current.sv|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_fullboard_spatial96.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_ccl_binary_core.v|
+Z9 !s90 -sv|-lint|-work|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\pcb_pipeline_adapter_sharehold\adapter\adapter_lib|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_ccl_binary_core.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_fullboard_spatial96.v|D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\pcb_pipeline_adapter_sharehold\adapter\tb_suspect_adapter_current.sv|
+!i113 0
+Z10 o-sv -lint -work {D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\pcb_pipeline_adapter_sharehold\adapter\adapter_lib} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpcb_fullboard_spatial96
+R2
+R3
+!i10b 1
+!s100 =l^A?_iR6N7PXJ`W>Qn500
+R4
+IaN8MoORHX`[0?l20:_Z[<1
+S1
+R0
+w1794370194
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_fullboard_spatial96.v
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\01_rtl\pcb_fullboard_spatial96.v
+!i122 0
+L0 12 501
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1
+vtb_suspect_adapter
+R2
+R3
+!i10b 1
+!s100 cA0]hk^]XUdK:A6YWMETl0
+R4
+I=bciFJIZD[2gG1Cg0WnNQ1
+S1
+R0
+w1794569115
+8D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\pcb_pipeline_adapter_sharehold\adapter\tb_suspect_adapter_current.sv
+FD:\program\fpga\lab_ex3_osd_SC500_720P\secondary_pcb_airwalk_stroke_cont_20261113\reports\preserved_airwalk_r4\20261113T112441_370259Z\child_runs\pcb_pipeline_adapter_sharehold\adapter\tb_suspect_adapter_current.sv
+!i122 0
+L0 4 106
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R1

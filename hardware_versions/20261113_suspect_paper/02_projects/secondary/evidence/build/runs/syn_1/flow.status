@@ -1,0 +1,23 @@
+Location         : E:\codex_paper_airwalk_secondary_20261113_r4\runs\syn_1
+Running with     : Tang Dynasty Release_2026.1_SP2
+                   Copyright (c) 2012-2026 Anlogic Inc.
+Top Model        : secondary_top
+Device           : PH1P35MDG324
+Speed            : 3
+
+Timing Mode      : basic
+Setup            : WNS -1265ps  TNS   -34000ps  NUM_FEPS   145
+Hold             : WNS 2147483647ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+----------------------------------------------------------------------------------------------------
+     command     |  #calls  |   wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+----------------------------------------------------------------------------------------------------
+  optimize_gate  |    1     |  22m25s(92%)  |   648(93%)    |       1811        |       2674        
+  optimize_rtl   |    1     |   1m50s(7%)   |    48(6%)     |       1961        |       2674        
+  import_device  |    1     |    1s(0%)     |     0(0%)     |        330        |        363        
+    read_adc     |    2     |    0s(0%)     |     0(0%)     |        896        |       1403        
+    read_sdc     |    7     |    0s(0%)     |     0(0%)     |       1814        |       2674        
+----------------------------------------------------------------------------------------------------
+      total      |    12    |    24m16s     |      696      |       1961        |       2674        
+----------------------------------------------------------------------------------------------------

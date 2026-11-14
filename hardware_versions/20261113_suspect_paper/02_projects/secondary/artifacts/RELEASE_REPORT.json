@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "status": "DIAGNOSTIC_BIT_GENERATED",
+  "generated_utc": "2026-11-13T12:00:42.091584+00:00",
+  "source_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113",
+  "build_root": "E:\\codex_paper_airwalk_secondary_20261113_r4",
+  "bit": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\artifacts\\dual_fpga_secondary_20261113_pcb_paper_load_stroke_cont_diagnostic.bit",
+    "sha256": "5BA649F37D687B66809A6876B2AB9E77657D1C467BAD421E258B04143D5B8EE5"
+  },
+  "bit_bytes": 1789542,
+  "bid": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\artifacts\\dual_fpga_secondary_20261113_pcb_paper_load_stroke_cont_diagnostic.bid",
+    "sha256": "0CECEB8CD5C33180A43B7D5C41B027F5A403F1A2B410D13BDD243EC0D3E8E47A"
+  },
+  "source_manifest": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\SOURCE_MANIFEST.json",
+    "sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3"
+  },
+  "routed_database": {
+    "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\runs\\phy_1\\secondary_cnn_multibox_pr.db",
+    "sha256": "7A71EF0B02AA6E5A8B4D0F3B0CEACDC9B380E09B69B1F6E20DC26BEA51701CD9"
+  },
+  "baseline": {
+    "baseline_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_operator_ui_eject_opt_20261113",
+    "baseline_bit": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_operator_ui_eject_opt_20261113\\artifacts\\dual_fpga_secondary_20261113_pcb_operator_ui_eject_diagnostic.bit",
+      "sha256": "9B75DDF7612A7A8A043AC1D248BF337317907673B098A5B4580B958A6241ADFC"
+    },
+    "baseline_source_freeze": {
+      "path": "E:\\codex_paper_eject_secondary_opt_20261113_r3_seed2\\SOURCE_MANIFEST.json",
+      "sha256": "2DE7F709C29A09ECB5755122559E29ED3A8CEC506C1AA867BBBCE7F1CF8CF58D"
+    },
+    "older_validator_control_bit_note": "The retained tool inventory uses the 20261111 release as its validator trust root; the immediate physical/source control is the immutable 20261113 r3_seed2 freeze and bit identified here.",
+    "hardware": "NOT_RUN"
+  },
+  "paired_main_bit": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_operator_ui_cn_font_shift1_dynamic_osd_20261113\\artifacts\\dual_fpga_main_20261113_pcb_operator_dynamic_osd_diagnostic.bit",
+    "bytes": 1789547,
+    "sha256": "2E6B05D29B4B000BFD826FE16F43175F906FC2042E317F38D1345E24EDE93656"
+  },
+  "timing_ns": {
+    "SWNS": 0.007,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19310,
+      "total": 21216,
+      "percent": 91.01621417797888
+    },
+    "eram": {
+      "used": 86,
+      "total": 108,
+      "percent": 79.62962962962963
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0
+    }
+  },
+  "checks": {
+    "rtl": "PASS_CURRENT_R4_PRESERVED_AND_DOCUMENT_HANDSHAKE",
+    "synthesis": "PASS",
+    "place": "PASS",
+    "route": "PASS",
+    "final_eight_named_drc": "PASS_STAGE_7_2_TO_7_9",
+    "readonly_reimport": "PASS",
+    "complete_physical_capacity": "PASS_19310_UNIQUE_COMPATIBLE_SITES",
+    "cdc_fifo_ddr": "STATIC_CONSTRAINT_AND_BEHAVIORAL_EVIDENCE_ONLY",
+    "bitgen": "PASS",
+    "post_bitgen_source_database_integrity": "PASS"
+  },
+  "features": {
+    "key2_short": "One square, newline and existing X0/G92 behavior retained.",
+    "key2_hold_seconds": 2,
+    "paper_eject_y_mm": 297,
+    "key1_short": "Current-mode CNN/PCB report or prepared document, using an admitted immutable snapshot.",
+    "key1_hold": "Paper load confirmation only while armed; never ordinary dry-run or queued writing.",
+    "paper_loading": {
+      "nominal_midpoint_mm": 148.5,
+      "manual_y_error_allowance_mm": 20,
+      "first_boundary_mm": 30,
+      "last_boundary_mm": 267,
+      "local_y_limit_mm": 237,
+      "x_unchanged": true,
+      "sequence": "Pen up; G90; G92 Y148.50; G0 Y30; G0 Y267; G0 Y30; fresh Idle; G92 Y0, each G-code ACK gated."
+    },
+    "normal_completion": "Final G-code ok; maintenance and safety flows retain fresh Idle barriers.",
+    "network_drop": "Accepted writing retained; confirmed G-code is not replayed.",
+    "font_continuity": "Adjacent vector segments may retain pen-down; separate strokes retain safe pen-up moves.",
+    "progress": "Type21 accepted-command counters retained; paired main currently shows states only, not numeric counts or percentage.",
+    "pcb_model": "Weights and bias unchanged. Existing candidate GOOD minimum margin192 and BAD minimum32 policy retained; weak GOOD returns REVIEW. No new accuracy claim."
+  },
+  "optimizations": [
+    "KEY1 debounce/longpress share a stable-phase counter with latched paper/mode context.",
+    "Exact bounded integer doc distance path; coordinate ROM/map unchanged; distance completion two clocks earlier.",
+    "Reporter duplicate line/cache counters removed in previous candidate steps.",
+    "Type21 banked selector rejected after full-module area mapping."
+  ],
+  "retained_critical_warnings": [
+    {
+      "phase": "syn",
+      "line": 1084,
+      "code": "SYN-6024",
+      "severity": "CRITICAL-WARNING",
+      "stage": "SYN-1001 : Stage 2.2 | Map IO",
+      "text": "SYN-6024 CRITICAL-WARNING: MapIO rule -- ODDR \"u_rgmii/rgmii_txc_ddr\" not have rst or rst is const or ASYNCRST is DISABLE, this may lead PAD tx data out of sync with other PAD. Please consider rewriting code in ../../main/user_source/hdl_source/ethernet/rgmii_interface.v(129).",
+      "disposition": "RETAINED_UNCHANGED_RGMII_ODDR_WARNING",
+      "unchanged_source": {
+        "relative": "main/user_source/hdl_source/ethernet/rgmii_interface.v",
+        "sha256": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A"
+      }
+    },
+    {
+      "phase": "place",
+      "line": 33945,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.6 | GP Phase 3",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "RETAINED_LOGICAL_SLICEL_WARNING_WITH_CURRENT_COMPLETE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true,
+      "physical_capacity_evidence": {
+        "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\physical_capacity\\physical_capacity_validation.json",
+        "sha256": "439A724FF5B4ABFA9AF221B580CE9E7334709E0CC5A5389C6EDD6E6046E6A8CC"
+      }
+    },
+    {
+      "phase": "place",
+      "line": 33980,
+      "code": "PHY-7027",
+      "severity": "CRITICAL-WARNING",
+      "stage": "PHY-1001 : Stage 2.8 | GP Phase 4",
+      "text": "PHY-7027 CRITICAL-WARNING: Base field: model type (SLICEL) execeed the design limits.",
+      "disposition": "RETAINED_LOGICAL_SLICEL_WARNING_WITH_CURRENT_COMPLETE_SITE_PROOF",
+      "same_text_seen_in_selected_control": true,
+      "physical_capacity_evidence": {
+        "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\physical_capacity\\physical_capacity_validation.json",
+        "sha256": "439A724FF5B4ABFA9AF221B580CE9E7334709E0CC5A5389C6EDD6E6046E6A8CC"
+      }
+    }
+  ],
+  "evidence": {
+    "prebitgen_gate": {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\PREBITGEN_GATE.json",
+      "sha256": "2426DC5936E08D518AEB7429A5FD668AAF874679B571180DD255EB659E22E83C"
+    },
+    "physical_review": {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\PHYSICAL_REVIEW.json",
+      "sha256": "69D34A0A3A0CDFBF1179B23293F04252979B39D9B4DEC8E466DBBCD9A3A584DB"
+    },
+    "physical_capacity": {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\readonly\\physical_capacity\\physical_capacity_validation.json",
+      "sha256": "439A724FF5B4ABFA9AF221B580CE9E7334709E0CC5A5389C6EDD6E6046E6A8CC"
+    },
+    "warning_review": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\IMPLEMENTATION_WARNING_REVIEW.json",
+      "sha256": "5C4254A97E926CE2BD5E64F6BD896D3A6F4D8F93E9A37BBCAADE1C2CED1CB60E"
+    },
+    "functional_gate": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\airwalk_signoff\\codex_paper_airwalk_secondary_20261113_r4\\FUNCTIONAL_GATE.json",
+      "sha256": "32F5A98F7DC66030099B9DCDB3014D114CC9D7EA855788A31184595D2BFDA41D"
+    },
+    "bitgen_receipt": {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\bitgen\\BITGEN_RECEIPT.json",
+      "sha256": "09BD211E7498034D46CEA2ECCB9A8C5556518F3D4BF790E220083346FDCF5AC7"
+    },
+    "post_bitgen_integrity": {
+      "path": "E:\\codex_paper_airwalk_secondary_20261113_r4\\signoff\\bitgen\\POST_BITGEN_INTEGRITY.json",
+      "sha256": "79913F04A9346EF8D2A114BEF14230F32330352AA7B56B8785CDDAE6EDD06452"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "limitations": [
+    "Setup margin is only +0.007 ns (7 ps).",
+    "RGMII ODDR SYN6024 and exact logical SLICEL PHY7027 diagnostics remain recorded. The SLICEL warning is resolved for release only by complete current compatible physical placement evidence, not by removing constraints.",
+    "Physical DDR calibration, CDC MTBF, actual paper travel/direction/feed/slip and pen mechanics require hardware acceptance.",
+    "SUSPECT remains approximate and has no new validated localization accuracy.",
+    "Numeric HDMI progress is not implemented in the paired main."
+  ],
+  "preservation": "Previous releases, immediate control source/bit, models, main project and work/ retained unchanged."
+}

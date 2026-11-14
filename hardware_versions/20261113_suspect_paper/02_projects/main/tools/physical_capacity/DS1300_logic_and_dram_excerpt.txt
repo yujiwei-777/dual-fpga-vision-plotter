@@ -1,0 +1,156 @@
+PDF page 7
+                                                         SALPHOENIX®1P 系列FPGA 数据手册 
+DS1300_1.2                           www.anlogic.com                                 1 
+2025.08                                                                        
+1 简介 
+1.1 SALPHOENIX®1P（以下简称PH1P）系列器件特性 
+ 
+可配置逻辑模块 
+ 
+自主高效的双LUT5 结构 
+ 
+双端口分布式存储器 
+ 
+支持算术逻辑运算 
+ 
+快速进位链逻辑 
+ 
+专用移位寄存器 
+ 
+分布式和嵌入式存储器 
+ 
+嵌入块存储器容量为20Kbits 
+ 
+简单双口模式支持位宽16K*1 到512*40 
+ 
+真双口模式支持位宽16K*1 到1K*20 
+ 
+支持ECC 模式 
+ 
+专用FIFO 控制逻辑 
+ 
+分布式存储器支持64*8 和32*16 两种模
+式配置 
+ 
+高性能数据信号处理器 
+ 
+可支持两输入预加器、三输入加法器、乘
+法器和算术逻辑单元 
+ 
+扩展功能：多位宽运算，级联快速互连实
+现宽位宽的加法、乘法、逻辑运算 
+ 
+源同步输入/输出接口 
+ 
+HR I/O 支持SERDESx1、SERDESx2、
+SERDESx3.5、SERDESx4、SERDESx5、DDRx1、
+DDRx2  
+ 
+HD I/O 支持DDRx1 
+ 
+DDR I/O 支持SERDESx1、SERDESx2、
+SERDESx3.5、SERDESx4、SERDESx5、DDRx1、
+DDRx2 
+ 
+高性能，灵活的输入/输出缓冲器 
+ 
+可配置支持以下单端标准 
+HR I/O BANK 
+– 
+LVTTL33 
+– 
+LVCMOS(3.3/2.5/1.8/1.5/1.2V) 
+– 
+HSTL_I(1.8/1.5V) 
+– 
+HSUL12 
+– 
+SSTL18_I(1.8V) 
+– 
+SSTL(1.5/1.35/1.2V) 
+– 
+SSTL15_R 
+– 
+POD12 
+HD I/O BANK 
+– 
+LVCMOS(3.3/2.5/1.8/1.5V) 
+– 
+LVTTL33 
+DDR I/O BANK 
+– 
+LVCMOS(1.8/1.5/1.2V) 
+– 
+HSTL_I(1.8/1.5V) 
+– 
+SSTL18_I 
+– 
+SSTL(1.5/1.35/1.2V) 
+– 
+SSTL15_R 
+– 
+POD12 
+– 
+HSUL12 
+
+PDF page 17
+                                                          
+SALPHOENIX®1P 系列FPGA 数据手册 
+DS1300_1.2                         www.anlogic.com                                  11 
+2025.08                                                                        
+2.1.1 PLB 结构 
+可编程逻辑阵列如下图所示，主要有PLB、PMB 和IP 三类模块。PLB（Programmable Logic Block，
+可编程逻辑块)和PMB（Programmable Multi-Function Block，可编程多功能块)带有可编程逻辑功能，
+IP 具有特定功能，比如：DSP，BRAM 等硬件模块。 
+RSB
+RSB
+RSB
+RSB
+RSB
+PMB
+RSB
+IP
+PLB
+RSB
+RSB
+RSB
+RSB
+PFU
+RSB
+RSB
+RSB
+RSB
+RSB
+RSB
+RSB
+RSB
+RSB
+RSB
+RSB
+RSB
+RSB
+RSB
+IP
+PFU
+PFU
+PFU
+PFU
+PFU
+PFU
+PFU
+PFU
+PFU
+PFU
+PFU
+PMU
+PMU
+PMU
+PMU
+ 
+图 2-3 可编程逻辑阵列单元示意图 
+PLB 包括RSB（Routing Switch Block，可编程互连单元）和PFU（Programmable Functional Unit，
+可编程功能单元)；PMB 包括RSB 和PMU（Programmable Memory Unit，可编程功能/存储单元)。 
+RSB 包含单元间的连线以及互连单元。以实现可编程的连接关系，RSB 只负责实现逻辑单元之间的
+信号传输，以及逻辑单元和内嵌其它IP 单元的连接，不带有逻辑功能。 
+PFU 负责实现用户逻辑中的各种组合/时序功能。包含有查找表、加法器逻辑和DFF。 
+PMU 除能够实现所有的PFU 功能外，还可以实现额外的分布式RAM 功能/移位器功能。 

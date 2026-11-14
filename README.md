@@ -2,11 +2,19 @@
 
 **Vision Inspection, Control & Tracing System · Dual-FPGA · FPGA 创新设计大赛参赛工程**
 
-本作品基于 HX1P35A 平台，采用主从双 FPGA 与串口无线桥接协同架构，集成高清图像采集、视觉识别、PCB 质检和写字机控制，实现从图像感知、结果判定到报告书写与笔迹描摹的完整流程。
+基于 HX1P35A 平台的双 FPGA 视觉与执行系统。主板采集 SC500 720p 图像，完成图像风格化、运动区域检测、成像调节与 HDMI 叠加；副板执行普通 CNN、PCB 二分类和手写笔迹中心线提取，经串口无线桥接驱动 GRBL 写字机。
 
-主板负责 SC500 摄像头 1280×720 图像采集、图像处理与风格化、运动区域检测、成像质量自动调节和 HDMI 信息叠加，并调度板间图像与识别结果传输；副板通过以太网接收图像，完成轻量化 CNN 目标识别、自动定位 PCB 二分类检测和文档笔迹提取，再将识别结果或笔迹转换为写字机路径；无线桥接模块负责转发副板与执行控制器之间的串口数据。
+识别结果可以显示在屏幕上，也可以写成纸面报告；文档模式直接把图像笔迹转换为路径，不做 OCR。报告使用单线矢量字模，支持一次 X 镜像、按内容高度换行和纸张维护。已接受的写字任务由副板持有，板间断网不自动取消或重放。
 
-系统既能显示并书写目标名称、中心坐标和置信分数，输出 PCB 检测报告，也能将普通黑笔手写内容提取为中心线路径，按比例驱动写字机描摹，无需 OCR 或纸张四角定位。报告采用单线矢量字体，支持坐标镜像与自动换行；通过逐行应答、任务锁存和停止恢复机制，衔接视觉处理与 GRBL 运动控制，并在板间网络断开后保持已接受的写字任务。
+## 当前版本：2026-11-13
+
+主板 **SUSPECT 黄色框与点状中心准线**，副板 **KEY1 上纸确认、KEY2 退纸与连续矢量书写**。配套工程为 main_pcb_suspect_center_20261113 与 secondary_pcb_airwalk_stroke_cont_20261113。构建通过，当前配对实板状态 **NOT_RUN**。
+
+- [下载可直接转发的源码工程包，约 17.8 MB](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.13-suspect-paper/vision_inspection_plotter_suspect_paper_20261113.zip)：含两板 bit、源工程、模型、约束、仿真材料与离线使用页。
+- [完整构建归档，约 226 MB](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.13-suspect-paper/vision_inspection_plotter_suspect_paper_20261113_complete.zip)：另含成功构建数据库与原始日志。
+- [版本说明与验证范围](docs/SUSPECT_PAPER_20261113.md) · [接线与操作](docs/HARDWARE_AND_CONTROL.md)
+
+解压后打开 `00_开始使用.html`。工程开发前使用包内 `prepare_projects.py` 生成新副本，避免历史绝对路径指回原构建位置。
 
 ## 系统结构
 
@@ -25,7 +33,7 @@
 
 ![MIPI、ISP、DDR、HXA1、CNN 和 GRBL 模块接口](docs/assets/pdf_20261102/architecture-modules.png)
 
-这些图保留文档中的概念性连接，具体 RTL 支路、模式及按键操作见[当前版本说明](docs/DISPLAY_NOISE_KEY1_20261103.md)。
+这些图保留文档中的概念性连接，具体 RTL 支路、模式及按键操作见[当前版本说明](docs/SUSPECT_PAPER_20261113.md)。
 
 </details>
 
@@ -48,118 +56,55 @@
 ![红蓝通道、伪彩、卡通化、海报化及亮度增强实拍对照](docs/assets/pdf_20261102/style-overview-2.jpg)
 
 以上新增图片提取自 2026-11-02 技术文档；完整 18 种效果、CNN 样本和历史 PCB 取景画面见[图集](docs/GALLERY.md#技术文档补充图片)。
+## 技术特点
 
-## 程序特色
+1. **双 FPGA 分工与板间闭环。** 主板负责采集、显示和任务调度，副板负责推理、路径规划和执行器通信；以太网传输图像及结果，UART 逐行等待 GRBL 应答。
+2. **普通 CNN 与 PCB 独立处理。** 普通目标采用 64×64 RGB8、9 类轻量网络与连续确认，输出名称、原图中心坐标和实际 margin；PCB 先做 CCL 候选定位，再以 96×96 Y8 执行 GOOD/BAD 判定，低证据结果为 REVIEW。
+3. **图像笔迹直接转机器路径。** 320×180 网格按 4×4 源块判定，经过骨架提取、端点优先和分叉拆笔生成中心线；保持整帧比例，无需纸张四角定位。
+4. **识别与书写状态分离。** KEY1 接纳锁存结果或准备路径；断网不重复启动。串口异常、安全停止与复位使用独立状态保护，已发运动命令不盲目重发。
+5. **纸面报告与纸张维护。** 单线矢量字体、相邻同笔段连续书写、统一镜像与页面预算；KEY2 长按退纸、KEY1 长按确认新纸，维护只动 Y，保留 X 基准。
+6. **显示与成像处理。** 图像风格化采用传统定点算子；显示支路保边空间滤波配合曝光/增益/白平衡统计控制。主板保留运动叠加、左下 PCB 状态与按需中文操作面板。
 
-1. **双 FPGA 分工处理。** 主板采集并处理 720p 图像，负责 HDMI 显示、运动检测和板间调度；副板执行 CNN、PCB 检测与文档路径规划，降低单板同时承担显示和识别任务的压力。
-2. **视觉结果可直接执行。** 普通 CNN 输出类别名称、图像中心坐标和模型 margin；PCB 输出 PASS、FAIL 或 REVIEW。识别报告可交给写字机书写，形成从图像输入到实体输出的闭环。
-3. **CNN 与 PCB 使用不同识别流程。** 普通目标采用 9 类轻量化 CNN；PCB 先以共享 CCL 定位候选区域，再用 96×96 Y8 输入进行 GOOD/BAD 二分类，低 margin 单独标为 REVIEW。
-4. **手写描摹不依赖文字识别。** 文档模式直接从整帧提取黑色笔迹，经过骨架化和路径规划生成机器轨迹；不做 OCR，不要求检测纸张四角。路径保留中心线特征，并对分叉处进行拆笔处理。
-5. **识别报告采用适合落笔的路径。** 报告文字使用单线矢量字模，统一坐标镜像与边界检查，并按内容高度自动换行；减少栅格字体逐行描边产生的重复路径。
-6. **显示链路兼顾图像质量与边缘。** 当前主板版本加入 RGB8 二维保边空间滤波，对低对比纹理可能产生柔化；这是空间滤波，不是帧间 TNR，也不代表所有摄像头噪声都已消除。
-7. **写字任务有明确的接收与停止流程。** G-code 按行等待 GRBL `ok` 后再发送下一条；已接受的任务不因板间以太网短暂断开而取消，副板 KEY4 用于任务停止与重置，KEY3 用于副板应用复位。
-8. **源码和硬件交付可核验。** 仓库保留配套主副板工程、模型、约束、构建证据和 bit，并提供文件哈希及工程引用校验。当前配对 bit 的实板验收状态为 `NOT_RUN`，功能与测试边界见版本说明。
+SUSPECT 为疑似区域提示，点状准线对应原图区域中心，不等同于精确缺陷分割；CNN margin 不是校准概率。文档几何中心线不等同于汉字标准笔顺。
 
-## 主要功能
+## 模式与按键
 
-| 功能 | 当前版本行为 |
-| --- | --- |
-| 图像处理与风格化 | 支持原图及 18 种处理模式，包括灰度、二值化、Sobel 边缘、形态学、伪彩、海报化、卡通化和亮度增强；按键切换并显示当前模式 |
-| 运动区域检测 | 硬件帧差结合亮度自适应阈值、区域筛选和连续确认，叠加运动框及区域内变化采样点数；SW1 控制运动显示 |
-| 成像质量自动调节 | 根据亮度与颜色统计自动调整曝光、模拟 / 数字增益和白平衡；显示支路采用保留 RGB8 的二维保边空间滤波（非 TNR） |
-| 普通目标识别 | 9 类 CNN；输出名称、图像中心坐标和置信分数；连续确认与短暂不确定保持，允许输出真实低分结果 |
-| PCB 检测 | 共享 CCL 自动定位最大候选，以原框采样 96×96 Y8，执行 GOOD / BAD 二分类；输出 PASS / FAIL / REVIEW；主板 KEY4 每次按下触发一次 |
-| 文档复制 | 整帧按比例映射，320×180 网格，每格读取 4×4 源像素；骨架、路径规划、机器坐标和 G-code；不做 OCR，不要求纸张四角或距离标定 |
-| 笔迹路径 | 端点优先和分叉拆笔；针对固定机位右侧摄像头脏斑做局部补偿，保留路径容量与边界检查 |
-| 写字报告 | 单线中心线矢量字体、一次 X 镜像、报告自动换行；PCB 二分类报告按文字实际高度换行 |
-| 本地操作 | 副板 KEY1 提交当前 CNN/PCB 缓存报告（PCB 单次消费）、KEY2 一次方框测试、KEY3 整体应用复位、KEY4 写字任务停止与重置 |
-| 任务保持 | 以太网断链不取消已接受的写字任务；串口错误单独处理，已发送运动命令不盲目重放 |
-| 主板显示 | 中文信息叠加、算法模式与延迟字段、PCB 实际检测框和左下状态、识别框及结果显示 |
-
-CNN 分数是模型输出经缩放得到的 margin，**不是校准后的正确概率**。描摹路径是几何中心线，不等于汉字标准笔顺。镜头脏斑补偿与当前机位和裁剪有关。
-
-风格化使用传统图像算子与定点流水线实现。自动曝光、增益和白平衡根据场景统计反馈调节；显示空间滤波与自动成像控制分别工作。算法与源码入口见 [图像风格化、运动检测与成像调节](docs/VERSION_SCOPE.md#图像风格化运动检测与成像调节)。
-
-## 模式与操作
-
-主板通过 SW4:SW3 选择任务模式，板间识别需选择向副板传图的通路。两板同名按键功能不同，完整接线与操作见 [硬件与控制](docs/HARDWARE_AND_CONTROL.md)。
-
-| SW4:SW3 | 模式 | 主要操作 |
+| 主板 SW4:SW3 | 模式 | 操作 |
 | --- | --- | --- |
-| 00 | 普通 CNN | 显示目标名称、中心坐标与分数；副板 KEY1 锁存结果并书写报告 |
-| 01 | PCB 检测 | 主板 KEY4 按下并消抖后识别一次，长按不连拍；结果先缓存，按副板 KEY1 才书写 PCB 报告 |
-| 10 | 文档复制 | 按整帧比例提取笔迹并生成中心线路径，不依赖纸张四角定位 |
+| 00 | 普通 CNN | 显示结果，副板 KEY1 短按书写已锁存报告 |
+| 01 | PCB | 主板 KEY4 每次稳定按下识别一次，副板 KEY1 短按写报告 |
+| 10 | 文档 | 完整接收并准备路径后，副板 KEY1 短按提交描摹 |
 | 11 | 保留 | 暂无功能 |
 
-PCB 框来自副板返回的原图候选坐标，表示检测对象范围，不表示缺陷位置。当前模型不做方向校正，摆放角度变化仍需实测。文档使用 A4 纸面坐标和安全边界，与相机测距是两项不同功能。运动数值表示所选运动区域内的变化采样点数，不是累计物体数量。与旧版介绍的具体差异及 RTL 依据见 [当前版本功能范围](docs/DISPLAY_NOISE_KEY1_20261103.md)。
+本版 SW2 控制信息叠加，板间网络固定连接副板。副板 KEY2 短按画方框并换行，长按至少 2 秒退纸；人工放新纸后长按 KEY1 上纸确认。副板 KEY3 复位整个应用，KEY4 用于写字任务停止/重置。主板 KEY4 与副板 KEY4 功能不同。完整流程见[操作说明](docs/HARDWARE_AND_CONTROL.md)。
 
-## 当前版本：2026-11-03 显示空间滤波 + KEY1 报告版
+## 工程与校验
 
-配套主板为 display_noise_fix，副板为 pcb_ccl_binary_key1_write。主板更新二维保边空间滤波和亮度表局部修正，保留 RGB8；副板与上一 KEY1 写字版相同。CNN/PCB 结果先缓存，按副板 KEY1 才提交当前模式的报告；PCB 结果只消费一次，失效结果不重放。文档复制入口保持独立。该组合实板状态 **NOT_RUN**。
+当前源码位于 [hardware_versions/20261113_suspect_paper](hardware_versions/20261113_suspect_paper/)。两板器件 PH1P35MDG324、speed -3；构建工具 Tang Dynasty Release 2026.1 SP2 / 6.2.200067。
 
-[下载可直接转发的源码交付包（约 10 MB）](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.03-display-noise-key1/vision_inspection_plotter_display_noise_key1_source_20261103.zip)。解压后打开“00_开始使用.html”，包含配套 bit、两板工程、接线和使用说明。[完整构建归档](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/tag/v2026.11.03-display-noise-key1) 单独提供日志、验证记录与检查点。
+```text
+01_bit/                 当前配套 bit
+02_projects/main/       主板冻结输入、IP、约束与证据
+02_projects/secondary/  副板冻结输入、模型、仿真与证据
+03_docs/                中文使用与开发说明
+04_verification/        配对身份及验证范围
+```
 
-历史版本：[KEY1 报告原版](docs/CCL_BINARY_KEY1_WRITE_20261103.md)、[CCL 二分类原版](docs/CCL_BINARY_RETRAINED_20261103.md)、[pose7 版](docs/POSE7_AUTO_20261102.md)、[2026-11-01 固定窗口版](hardware/)。
-
-## 工程入口
-
-| 板卡 | 工程入口 |
-| --- | --- |
-| 主板 | [camera_to_dsi_display_720p60_cnn_multibox.al](hardware_versions/20261103_display_noise_key1/main_display_noise_fix_20261103/camera_to_dsi_display_720p60_cnn_multibox.al) |
-| 副板 | [secondary_cnn_multibox.al](hardware_versions/20261103_display_noise_key1/secondary_pcb_ccl_binary_key1_write_20261103/secondary_cnn_multibox.al) |
-
-两板器件均为 PH1P35MDG324、speed -3；工具记录为 Tang Dynasty **Release 2026.1 SP2 / 6.2.200067**。
-
-~~~text
-hardware_versions/20261103_display_noise_key1/
-  main_display_noise_fix_20261103/             主板源码、约束、bit 与构建证据
-  secondary_pcb_ccl_binary_key1_write_20261103/ 副板冻结源码、模型、bit 与回归证据
-  PACKAGE_MANIFEST.json                     文件与 bit 身份
-  SOURCE_AND_EVIDENCE_MAPPING.json          冻结输入和证据哈希映射
-hardware/                                  2026-11-01 原版完整归档
-docs/                                      功能、操作与验证说明
-release/20261103_display_noise_key1/                 新版身份与验收记录
-verify_release.py                          分别校验五组归档
-~~~
-
-## 下载与校验
-
-| 板卡 | 文件 |
-| --- | --- |
-| 主板 | [dual_fpga_main_20261103_display_noise_fix_diagnostic.bit](hardware_versions/20261103_display_noise_key1/main_display_noise_fix_20261103/artifacts/dual_fpga_main_20261103_display_noise_fix_diagnostic.bit) |
-| 副板 | [dual_fpga_secondary_20261103_pcb_ccl_binary_key1_write_diagnostic.bit](hardware_versions/20261103_display_noise_key1/secondary_pcb_ccl_binary_key1_write_20261103/artifacts/dual_fpga_secondary_20261103_pcb_ccl_binary_key1_write_diagnostic.bit) |
-
-~~~text
-主板 SHA256
-B7F39A1E4E4906074BA59BB8C124BA1B24690C6D33D20BFA47C7AF817C60D485
-
-副板 SHA256
-D8AEABE97D2249C13D0CFB31E80196D5F05701B3C214BBA6FDDCEA8D611AAF15
-~~~
-
-下载后先运行：
-
-~~~powershell
-python -B verify_release.py
-~~~
-
-校验不需要 FPGA 工具。建议使用 **Python 3.11+**，下载完整仓库到短英文路径。构建流程见 [构建与核验](docs/BUILD_AND_VERIFY.md)；接线和按键见 [硬件与控制](docs/HARDWARE_AND_CONTROL.md)。
-
-## 资源与时序
+在仓库根目录运行 `python -B verify_release.py` 校验各历史归档；在当前版本目录运行 `python -B verify_package.py` 只校验本版。校验不需要 FPGA 工具。开发前按[工程说明](hardware_versions/20261113_suspect_paper/03_docs/工程打开与开发.md)创建适配路径的独立副本。
 
 | 板卡 | Setup WNS | Hold WNS | TNS | Slice | ERAM | DSP |
 | --- | --- | --- | --- | --- | --- | --- |
-| display_noise_fix 主板 | +0.174 ns | +0.020 ns | 0 | 92.59% | 86.11% | 92.50% |
-| KEY1 报告版副板 | +0.021 ns | +0.020 ns | 0 | 90.77% | 75.93% | 45.00% |
+| SUSPECT 主板 | +0.383 ns | +0.020 ns | 0 | 93.6463% | 89.8148% | 92.50% |
+| 纸张维护副板 | +0.007 ns | +0.020 ns | 0 | 91.0162% | 79.6296% | 40.00% |
 
-主板 193 项、副板 324 项构建输入已校验。主板最终 V8 通过源码哈希一致的 V6/V7 仿真与逐周期等价链验证，未重跑全部 V8 仿真。副板保留独立综合、布局布线、双角时序和只读核验记录；KEY1 控制 23 项、普通 CNN 27 向量、PCB 核心 18 向量及集成流水线回归已记录。主板原始诊断 RUN-8007 / USR-8450 与独立容量、IO 对照记录同时保留。
+共 550 项冻结输入与指定 bit 已核对；原始诊断、物理位置核验、最终 DRC、只读 reimport 和 bitgen 证据保留。副板 setup 余量仅 7 ps；静态构建通过不代替实板 DDR、机械与功能测试。[详细验证范围](docs/SUSPECT_PAPER_20261113.md#构建与测试边界)。
 
-PCB 的 231 个有效留出帧中，分类正确 222 个（96.10%）；仍有 **7 张缺焊盘被接受为 PASS**。这些是同批采集分块测试，不能作为新板、新工位的准确率。验证范围见 [新版说明](docs/DISPLAY_NOISE_KEY1_20261103.md)。
+## 历史版本与资料
 
-本版显示亮度表仅修正输入 96..99，CNN 固定亮度支路不变；显示变化进入 DDR，运动输入可能受影响。低对比纹理可能变柔，严重噪声现象尚缺少对应故障原始帧验证。
+[2026-11-03 显示滤波与 KEY1 报告](docs/DISPLAY_NOISE_KEY1_20261103.md) · [CCL 二分类](docs/CCL_BINARY_RETRAINED_20261103.md) · [pose7](docs/POSE7_AUTO_20261102.md) · [2026-11-01](hardware/)
+
+图像处理算法见 [风格化、运动检测与成像调节](docs/VERSION_SCOPE.md#图像风格化运动检测与成像调节)；历史实测结论见 [验证记录](docs/VALIDATION.md)，不自动适用于后续 bit。
 
 ## 版权与使用
 
-本项目作者原创的 RTL、脚本和文档采用 [MIT 许可证](LICENSE)，允许在保留版权与许可声明的前提下使用、修改和再分发，包括商业使用。
-
-厂商 IP、第三方模块及其衍生部分保留原有版权和许可，不因本仓库采用 MIT 而重新授权。工具生成文件与 bit 不统一授予 MIT 权利；使用范围见 [第三方与许可范围说明](docs/THIRD_PARTY_NOTICES.md)。ESP32 桥接固件需另行配置。
+原创 RTL、脚本和文档采用 [MIT 许可证](LICENSE)。厂商 IP、第三方模块、模型、图片及工具输出保留各自授权范围，不因仓库采用 MIT 而重新授权，见[第三方说明](docs/THIRD_PARTY_NOTICES.md)。工具、许可证、原始训练数据与无线桥接固件需另行准备。
