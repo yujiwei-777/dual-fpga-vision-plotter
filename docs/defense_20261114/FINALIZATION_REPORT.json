@@ -1,0 +1,67 @@
+{
+  "status": "COMPLETE",
+  "generated_utc": "2026-11-14T14:15:13.750086+00:00",
+  "version": "V1.1 算法详解版",
+  "pdf_pages": 48,
+  "chapters": 20,
+  "figures": 10,
+  "tables": 27,
+  "defense_questions": 32,
+  "references": 55,
+  "reference_files": 66,
+  "word_toc": "UPDATED",
+  "pdf_bookmarks": 157,
+  "automated_pdf_qa": "PASS",
+  "docx_zip_integrity": "PASS",
+  "visual_review": {
+    "scope": "All 48 pages inspected in contact sheets; all 10 illustrations and representative detailed pages inspected.",
+    "detailed_pdf_pages": [
+      9,
+      11,
+      13,
+      14,
+      19,
+      23,
+      26,
+      44,
+      46
+    ],
+    "result": "PASS_READABLE_NO_OVERFLOW_OR_BLANK_PAGES"
+  },
+  "evidence_files_rechecked_unchanged": 70,
+  "previous_version_reference_files_unchanged": 40,
+  "source_scope": "Documentation output only; no RTL, model, bit, release report or work/ modified.",
+  "hardware_status": "NOT_RUN",
+  "artifact_files": [
+    {
+      "file": "技术说明与答辩参考.docx",
+      "bytes": 2117618,
+      "sha256": "C241300A2A84F5C86194DC1EAA3FA6B239157D72A475ABDCC8BC9B786960D9A1"
+    },
+    {
+      "file": "技术说明与答辩参考.pdf",
+      "bytes": 2531826,
+      "sha256": "F0F36CCCBCBFBBCCC7DAB2D9CA96EC05EF2C16F2B83D16880D3B4430819E011E"
+    },
+    {
+      "file": "技术说明与答辩参考.md",
+      "bytes": 107435,
+      "sha256": "7B269191914F4079DDAB20A0252BF45C669A004CDA9241887DB11C4FB26D17A9"
+    },
+    {
+      "file": "EVIDENCE_INDEX.json",
+      "bytes": 76277,
+      "sha256": "FA4B9E86A4E44FB1368C2F9FD48E9A054BEE89B560011AA145D492D92F698995"
+    },
+    {
+      "file": "DOCUMENT_QA.json",
+      "bytes": 19253,
+      "sha256": "03527E8E245C54BA6295A4576FDE69EA291758174D82105BA61CD79AC8350C90"
+    },
+    {
+      "file": "WORD_EXPORT.json",
+      "bytes": 128,
+      "sha256": "E2EFFA24E3E5772E8ED4EEB512B06A7C9C150B66780C4F8922D1690F80A8BD88"
+    }
+  ]
+}

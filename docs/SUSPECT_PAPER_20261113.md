@@ -55,3 +55,7 @@ PCB 保留 C4/C4 模型及 GOOD margin≥192、BAD margin≥32 的策略；弱 G
 main E2E1FE983B3D63056B4044710EF979A42FF8EBEDC81D6440C2301175FBE08011
 secondary 5BA649F37D687B66809A6876B2AB9E77657D1C467BAD421E258B04143D5B8EE5
 ```
+
+## 技术说明与答辩参考
+
+[Markdown 在线阅读](defense_20261114/技术说明与答辩参考.md) · [PDF（48 页）](defense_20261114/技术说明与答辩参考.pdf) · [Word](defense_20261114/技术说明与答辩参考.docx)。文档为 2026-11-14 V1.1 算法详解版，与本配对工程对应。

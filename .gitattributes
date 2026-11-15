@@ -10,3 +10,6 @@ hardware/** -text
 
 # Preserve exact bytes of the separately versioned pose7 bundle.
 hardware_versions/** -text
+
+# Preserve the original defense documents and their evidence hashes.
+docs/defense_20261114/** -text

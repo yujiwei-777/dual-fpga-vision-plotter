@@ -1,0 +1,2145 @@
+{
+  "schema": "defense-document-evidence-v1",
+  "generated_utc": "2026-11-14T14:11:19.933026+00:00",
+  "scope": "Read-only reference audit; no FPGA input modified; no new hardware acceptance",
+  "release_pair": [
+    {
+      "board": "main",
+      "bit": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\artifacts\\dual_fpga_main_20261113_pcb_suspect_center_diagnostic.bit",
+      "sha256": "E2E1FE983B3D63056B4044710EF979A42FF8EBEDC81D6440C2301175FBE08011",
+      "bytes": 1789547,
+      "source_manifest": "E:\\codex_pcb_suspect_center_main_20261113_r4\\SOURCE_MANIFEST.json",
+      "source_manifest_sha256": "9CD6B85B690D3A4C9497C2889359F599D5032FF9F0C1D53604F7F4E6C538C4BF",
+      "hardware_status": "NOT_RUN"
+    },
+    {
+      "board": "secondary",
+      "bit": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\artifacts\\dual_fpga_secondary_20261113_pcb_paper_load_stroke_cont_diagnostic.bit",
+      "sha256": "5BA649F37D687B66809A6876B2AB9E77657D1C467BAD421E258B04143D5B8EE5",
+      "bytes": 1789542,
+      "source_manifest": "E:\\codex_paper_airwalk_secondary_20261113_r4\\SOURCE_MANIFEST.json",
+      "source_manifest_sha256": "2A0D65475942FD7F6E440D7856BA7375D35140F4200FA476EFD65B8FE7F366D3",
+      "hardware_status": "NOT_RUN"
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "purpose": "当前主板发布、时序、资源及证据绑定",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\artifacts\\RELEASE_REPORT.json",
+          "sha256": "C24173DDC6A97857EC44AD127999059ABF4149519ED8E0A4EFAE68666805E6DC",
+          "bytes": 19903,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "purpose": "当前副板发布与限制",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\artifacts\\RELEASE_REPORT.json",
+          "sha256": "29596BA9854E77FE9BAB228E4343E5D343573EFA66F9CCB14473F01F84B0FACA",
+          "bytes": 9877,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "purpose": "主板最终完成状态",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\COMPLETION_R4.json",
+          "sha256": "2C901478836B350A55B480E211836C728CDD042CEFA4C6B7BBFF22A97A4EC95F",
+          "bytes": 1230,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R04",
+      "purpose": "中心显示回归",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\center_integration\\20261113T142834_675794Z\\RESULT.json",
+          "sha256": "90E03EF52DE003B59474EAFBD4DEB2D368771375B0427D061EB8108448DD9182",
+          "bytes": 13798,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "purpose": "动态 OSD 与真实协议回归",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\regression_controls\\20261113T142834_675794Z\\RESULT.json",
+          "sha256": "2A555B450D1436F5F3C22A819A7CA4A0E5BB3BBF846CA088E17C607AD9D462D6",
+          "bytes": 9739,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R06",
+      "purpose": "多目标标签输出等价与局部面积",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\multibox_area_candidate\\20261113T142503_551609Z\\RESULT.json",
+          "sha256": "057DE3AEBB35B15A9AFEE260A1F12A8F907931EE237A4A4A5C43548B68F7FAE6",
+          "bytes": 3824,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R07",
+      "purpose": "定位历史结果与未接入细化",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\local_refinement_feasibility\\README.md",
+          "sha256": "076E19448ADFAA12408FE9F7D1359E0265829AAFA1CD695A32B72DE3A8C9FD46",
+          "bytes": 4051,
+          "key_lines": []
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\reports\\local_refinement_feasibility\\RESULT.json",
+          "sha256": "02DD18E8C8EFE306345E52565FCD836FADDF2EE9CBF30B8B62751D3DA6EABDA2",
+          "bytes": 7683,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R08",
+      "purpose": "按需面板与数值进度限制",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_operator_ui_cn_font_shift1_dynamic_osd_20261113\\DYNAMIC_OSD_IMPLEMENTATION.md",
+          "sha256": "A476CBFE48AA923A85262856E0CEB525685F525D22727F5A8127C72899D9AF88",
+          "bytes": 2436,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R09",
+      "purpose": "普通 CNN 历史整数回放",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\suspect_trial\\r6_functional_20261113T112049_333503Z\\ordinary\\integer27\\REFERENCE_REPORT.json",
+          "sha256": "825CBF04534FC40669461DE73012D432D1D678FEBC1D6687A78AEE1369061BFF",
+          "bytes": 31208,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "purpose": "GOOD192 / BAD32 发布边界回归",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\reports\\margin_policy\\RESULT.json",
+          "sha256": "302C778941CC8A26187C790235BE708C5EFF81663FA7E9CD1F914B52169D464C",
+          "bytes": 2059,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R11",
+      "purpose": "历史分类与区域评估，非新实板",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\pcb_suspect_reliability_opt_20261113\\SUMMARY.json",
+          "sha256": "27971F867378D74F97DBCFCBE7D419F058631DB5B7A04D991E4A3B4089F7EA27",
+          "bytes": 50496,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "S01",
+      "purpose": "主板模式、显示、时钟与模块例化",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\design_top_wrapper.v",
+          "sha256": "1B819A6D11BAA4B4B2AD056847166CFDBAAEC23808C726D20AF72187565E46A8",
+          "bytes": 105556,
+          "key_lines": [
+            {
+              "pattern": "module design_top_wrapper",
+              "line": 3,
+              "text": "module design_top_wrapper ("
+            },
+            {
+              "pattern": "pcb",
+              "line": 227,
+              "text": "wire S_mode_pcb_eth  = (S_mode_sel_eth==2'd1);"
+            },
+            {
+              "pattern": "pcb",
+              "line": 230,
+              "text": "// KEY4 only authorizes a single PCB task. Its stable press is synchronized"
+            },
+            {
+              "pattern": "pcb",
+              "line": 232,
+              "text": "wire S_pcb_detect_en_eth = S_mode_pcb_eth;"
+            },
+            {
+              "pattern": "125",
+              "line": 197,
+              "text": "wire S_125m_clk, S_125m_90_clk, S_125m_90_clk_b, S_eth_pll_lock, S_eth_rst_n;"
+            },
+            {
+              "pattern": "125",
+              "line": 236,
+              "text": ".clk(S_125m_clk),.rst_n(S_eth_rst_n),.key_n(I_button[3]),"
+            },
+            {
+              "pattern": "125",
+              "line": 239,
+              "text": "always @(posedge S_125m_clk or negedge S_eth_rst_n) begin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "purpose": "副板按键、任务、固定参数与共享例化",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\secondary_top.v",
+          "sha256": "C0AF62CFA1F30CE454AE5258A6C6335B5A30522347FBD5DF552F89EB1C5EF936",
+          "bytes": 89948,
+          "key_lines": [
+            {
+              "pattern": "module secondary_top",
+              "line": 6,
+              "text": "module secondary_top #("
+            },
+            {
+              "pattern": "FIXED_STEP",
+              "line": 485,
+              "text": "localparam [7:0] FIXED_STEP=8'd60;"
+            },
+            {
+              "pattern": "FIXED_STEP",
+              "line": 493,
+              "text": "wire [7:0] profile_step=FIXED_STEP;"
+            },
+            {
+              "pattern": "CNN_LOWCONF",
+              "line": 461,
+              "text": "vision_pipeline #(.PCB_GOODONLY_AUTO(1),.CNN_LOWCONF_OUTPUT(1),"
+            },
+            {
+              "pattern": "PLANNER_OPT_PASSES",
+              "line": 607,
+              "text": "doc_copy_pipeline_shared_candidate #(.PLANNER_OPT_PASSES(0),.EXTERNAL_ADMISSION_GUARD(1)) u_copy(.clk(clk125),.rst_n(rst125_n),.start(vision_start&&copy_task&&!vision_job_cancel&&!copy_prepare_cancel&&!key4_reset_active&&!key4_sto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S03",
+      "purpose": "普通 CNN / PCB 分流与结果发布",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\vision_pipeline.v",
+          "sha256": "640DBC76DD0FE5BB0C7F88798B573CCFB9EE64642F2922112D2EEC1C5F7226D5",
+          "bytes": 72192,
+          "key_lines": [
+            {
+              "pattern": "module vision_pipeline",
+              "line": 5,
+              "text": "module vision_pipeline #("
+            },
+            {
+              "pattern": "FC_CONF_SHIFT",
+              "line": 342,
+              "text": "cnn_core #(.FC_CONF_SHIFT(8),.USE_SHARED_WORKSPACE(SHARED_WORKSPACE),.EXTERNAL_MAC(1)) classifier(.clk(clk),.rst_n(processing_rst_n),.pixel_we(cnn_pixel_we),.pixel_addr(cnn_pixel_addr),"
+            },
+            {
+              "pattern": "LOWCONF",
+              "line": 71,
+              "text": "parameter integer CNN_LOWCONF_OUTPUT=0,"
+            },
+            {
+              "pattern": "LOWCONF",
+              "line": 1081,
+              "text": "if(CNN_LOWCONF_OUTPUT != 0)"
+            },
+            {
+              "pattern": "pcb_ccl_binary_core",
+              "line": 383,
+              "text": "pcb_ccl_binary_core #(.WEIGHTS_MEM(PCB_BINARY_WEIGHTS_MEM),"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S04",
+      "purpose": "原框采样、margin 策略与排空",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\pcb_ccl_binary_core.v",
+          "sha256": "3854CE24EE32D0D6951EC5BB57E3D380400553E5A763F1883ABCEF512DA37EEE",
+          "bytes": 16562,
+          "key_lines": [
+            {
+              "pattern": "module pcb_ccl_binary_core",
+              "line": 5,
+              "text": "module pcb_ccl_binary_core #("
+            },
+            {
+              "pattern": "192",
+              "line": 9,
+              "text": "parameter integer ABORT_TIMEOUT=8192,"
+            },
+            {
+              "pattern": "192",
+              "line": 15,
+              "text": "parameter integer GOOD_PASS_MARGIN_MIN=192,"
+            },
+            {
+              "pattern": "DRAIN",
+              "line": 4,
+              "text": "// Accepted DDR reads retain frame ownership until their response is drained."
+            },
+            {
+              "pattern": "DRAIN",
+              "line": 57,
+              "text": "PUBLISH=13,DRAIN=14,LOCKED=15,SUSPECT_MAP=16,SUSPECT_X_WALK=17,SUSPECT_Y_WALK=18;"
+            },
+            {
+              "pattern": "DRAIN",
+              "line": 175,
+              "text": "else if(state==DRAIN)begin"
+            },
+            {
+              "pattern": "suspect",
+              "line": 13,
+              "text": "// arithmetic, weights, suspect constants, or the BAD path."
+            },
+            {
+              "pattern": "suspect",
+              "line": 16,
+              "text": "parameter SUSPECT_CONST_MEM=\"../model/suspect/mad_negative_constants.mem\""
+            },
+            {
+              "pattern": "suspect",
+              "line": 30,
+              "text": "output reg suspect_valid,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S05",
+      "purpose": "分解普通 CNN 与 margin",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\cnn_core.v",
+          "sha256": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+          "bytes": 18181,
+          "key_lines": [
+            {
+              "pattern": "module cnn_core",
+              "line": 4,
+              "text": "module cnn_core #("
+            },
+            {
+              "pattern": "FC_CONF_SHIFT",
+              "line": 9,
+              "text": "parameter integer FC_CONF_SHIFT = 7,"
+            },
+            {
+              "pattern": "FC_CONF_SHIFT",
+              "line": 241,
+              "text": "shape_margin=(shape_difference<=0)?0:(shape_difference>>>FC_CONF_SHIFT); color_margin=(color_difference>>>8);"
+            },
+            {
+              "pattern": "shape_margin",
+              "line": 207,
+              "text": "reg signed [32:0] shape_difference; reg [31:0] color_difference,shape_margin,color_margin;"
+            },
+            {
+              "pattern": "shape_margin",
+              "line": 241,
+              "text": "shape_margin=(shape_difference<=0)?0:(shape_difference>>>FC_CONF_SHIFT); color_margin=(color_difference>>>8);"
+            },
+            {
+              "pattern": "shape_margin",
+              "line": 296,
+              "text": "FINISH:begin color_id<=color_best_id_q+1'b1;shape_id<=shape_id_q+1'b1;color_conf<=(color_margin>255)?8'd255:color_margin[7:0];shape_conf<=(shape_margin>255)?8'd255:shape_margin[7:0];background_reject<=0;busy<=0;done<=1;state<=IDLE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S06",
+      "purpose": "灰度/色度前景及共享 CCL",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v",
+          "sha256": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+          "bytes": 6288,
+          "key_lines": [
+            {
+              "pattern": "module edge_roi",
+              "line": 6,
+              "text": "module edge_roi_ccl_shared_pcb_candidate #("
+            },
+            {
+              "pattern": "112",
+              "line": 88,
+              "text": "mask_mem[in_addr]<=pcb_mode_q ? (pixel_luma<=8'd112) : color_ok(pixel_rgb);"
+            },
+            {
+              "pattern": "pcb",
+              "line": 1,
+              "text": "// Shared 160x90 locator: ordinary ratio-8 RGB mask or PCB source-Y mask."
+            },
+            {
+              "pattern": "pcb",
+              "line": 6,
+              "text": "module edge_roi_ccl_shared_pcb_candidate #("
+            },
+            {
+              "pattern": "pcb",
+              "line": 17,
+              "text": "input wire pcb_mode,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S07",
+      "purpose": "半开/闭区间中心与元数据",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hx_result_select.v",
+          "sha256": "701A10AAFFFB7187887BD9811466DEE61C9A5539F9F586A22985A0D69D0EDDCA",
+          "bytes": 9702,
+          "key_lines": [
+            {
+              "pattern": "module hx_result_select",
+              "line": 4,
+              "text": "module hx_result_select("
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "purpose": "黄色区域、点状准线与叠加",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hdmi_mixer.v",
+          "sha256": "ED1AA6F016AE509AA766828868D23F10EE637D5ED1B166AEF2BCBBA167207C67",
+          "bytes": 59063,
+          "key_lines": [
+            {
+              "pattern": "module hdmi_mixer",
+              "line": 1,
+              "text": "module hdmi_mixer #("
+            },
+            {
+              "pattern": "suspect",
+              "line": 55,
+              "text": "input wire I_pcb_suspect,"
+            },
+            {
+              "pattern": "suspect",
+              "line": 56,
+              "text": "input wire [10:0] I_suspect_x0,I_suspect_x1,"
+            },
+            {
+              "pattern": "suspect",
+              "line": 57,
+              "text": "input wire [9:0] I_suspect_y0,I_suspect_y1,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S09",
+      "purpose": "类别确认与候选发布",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\cnn_result_stabilizer.v",
+          "sha256": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+          "bytes": 29887,
+          "key_lines": [
+            {
+              "pattern": "module cnn_result_stabilizer",
+              "line": 29,
+              "text": "module cnn_result_stabilizer #("
+            },
+            {
+              "pattern": "confirm",
+              "line": 14,
+              "text": "// Every legal current candidate is visible immediately. Confirmation changes"
+            },
+            {
+              "pattern": "confirm",
+              "line": 30,
+              "text": "parameter integer CONFIRM_RESULTS=3, // Supported: 1..15."
+            },
+            {
+              "pattern": "confirm",
+              "line": 60,
+              "text": "if(CONFIRM_RESULTS<1 || CONFIRM_RESULTS>15 ||"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "purpose": "4→4 二分类、空间特征、SUSPECT",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\pcb_fullboard_spatial96.v",
+          "sha256": "284B6BF9BB426AD2F04B2BCD0BA2679CFD2DD476C480439306A018D06EF429AB",
+          "bytes": 26709,
+          "key_lines": [
+            {
+              "pattern": "module pcb_fullboard",
+              "line": 12,
+              "text": "module pcb_fullboard_spatial96 #("
+            },
+            {
+              "pattern": "suspect",
+              "line": 33,
+              "text": "parameter integer SUSPECT_ENABLE = 0,"
+            },
+            {
+              "pattern": "suspect",
+              "line": 34,
+              "text": "parameter integer SUSPECT_MARGIN_MIN = 32,"
+            },
+            {
+              "pattern": "suspect",
+              "line": 35,
+              "text": "parameter SUSPECT_CONST_MEM = \"../model/suspect/mad_negative_constants.mem\""
+            },
+            {
+              "pattern": "margin",
+              "line": 34,
+              "text": "parameter integer SUSPECT_MARGIN_MIN = 32,"
+            },
+            {
+              "pattern": "margin",
+              "line": 40,
+              "text": "output reg [7:0] score,output reg [15:0] margin,output wire [15:0] saturation_count,"
+            },
+            {
+              "pattern": "margin",
+              "line": 54,
+              "text": "S_MARGIN=13, S_FINISH=14, S_SUSPECT_MAC=15,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "purpose": "统一发送、ACK、格式化与单次镜像",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_shared_transport_candidate.v",
+          "sha256": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+          "bytes": 43390,
+          "key_lines": [
+            {
+              "pattern": "module grbl_shared",
+              "line": 5,
+              "text": "module grbl_shared_transport_candidate #("
+            },
+            {
+              "pattern": "20000",
+              "line": 9,
+              "text": "parameter integer REPORT_ACK_HARD_MS=120000,"
+            },
+            {
+              "pattern": "20000",
+              "line": 12,
+              "text": "parameter integer DOC_FINAL_MS=120000,DOC_PROGRESS_MS=30000,DOC_JOB_MS=1800000,"
+            },
+            {
+              "pattern": "20000",
+              "line": 14,
+              "text": "parameter integer PAPER_IDLE_TIMEOUT_MS=120000,"
+            },
+            {
+              "pattern": "21000",
+              "line": 213,
+              "text": "wire [15:0] fmt_selected_origin=active_doc?16'd21000:16'd20000;"
+            },
+            {
+              "pattern": "PLOT_MIRROR_X",
+              "line": 218,
+              "text": "grbl_line_formatter #(.PLOT_MIRROR_X(0)) u_formatter(.I_clk(clk),.I_rst_n(rst_n),.I_start(fmt_start),"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "purpose": "115200 串口、启动与恢复守卫",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_uart.v",
+          "sha256": "7D130BC60674A51A300B728F0BACB55D83268ED1811344128D4F85709BF710E9",
+          "bytes": 12083,
+          "key_lines": [
+            {
+              "pattern": "module grbl_uart",
+              "line": 2,
+              "text": "module grbl_uart_tx #("
+            },
+            {
+              "pattern": "module grbl_uart",
+              "line": 46,
+              "text": "module grbl_uart_port #("
+            },
+            {
+              "pattern": "module grbl_uart",
+              "line": 182,
+              "text": "module grbl_uart_rx #("
+            },
+            {
+              "pattern": "115200",
+              "line": 1,
+              "text": "// Single-clock UART PHY. 115200 8N1, idle high, LSB first."
+            },
+            {
+              "pattern": "115200",
+              "line": 4,
+              "text": "parameter integer BAUD=115200"
+            },
+            {
+              "pattern": "115200",
+              "line": 48,
+              "text": "parameter integer BAUD=115200,"
+            },
+            {
+              "pattern": "link_ready",
+              "line": 41,
+              "text": "// Board-facing byte bridge.  The legacy LINK_READY pin remains in the port"
+            },
+            {
+              "pattern": "link_ready",
+              "line": 54,
+              "text": "input wire I_uart_rx,output wire O_uart_tx,input wire I_esp_link_ready,"
+            },
+            {
+              "pattern": "link_ready",
+              "line": 55,
+              "text": "output wire O_link_ready,"
+            },
+            {
+              "pattern": "Idle",
+              "line": 1,
+              "text": "// Single-clock UART PHY. 115200 8N1, idle high, LSB first."
+            },
+            {
+              "pattern": "Idle",
+              "line": 44,
+              "text": "// hold, fresh stopped status, Ctrl-X and a fresh post-reset Idle. An Idle alone"
+            },
+            {
+              "pattern": "Idle",
+              "line": 62,
+              "text": "output wire O_idle_pulse,output wire O_rt_done"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "purpose": "CRC、会话与取消作用域",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\shared\\rtl\\hxa_secondary_link.v",
+          "sha256": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+          "bytes": 48693,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 3,
+              "text": "module hxa_secondary_link #("
+            },
+            {
+              "pattern": "HXD1",
+              "line": 102,
+              "text": "// HXD1/v1 reason 0x81 is a distinct, scoped mode-exit operation. Its"
+            },
+            {
+              "pattern": "8.h80",
+              "line": 120,
+              "text": "ctrl_body[31:0]==32'h31445848&&ctrl_body[39:32]==8'd1&&ctrl_body[47:40]==8'h80;"
+            },
+            {
+              "pattern": "8.h80",
+              "line": 693,
+              "text": "body[39:32]==8'd1&&body[47:40]==8'h80))"
+            },
+            {
+              "pattern": "8.h80",
+              "line": 697,
+              "text": "if(!job_busy || (saved_length==28&&body[31:0]==32'h31445848&&body[39:32]==8'd1&&body[47:40]==8'h80))begin"
+            },
+            {
+              "pattern": "8.h81",
+              "line": 106,
+              "text": "ctrl_body[39:32]==8'd1&&ctrl_body[47:40]==8'h81;"
+            },
+            {
+              "pattern": "8.h81",
+              "line": 688,
+              "text": "11:if(!(body[31:0]==32'h31445848&&body[39:32]==1&&body[47:40]==8'h81))begin"
+            },
+            {
+              "pattern": "crc",
+              "line": 6,
+              "text": "parameter integer FRAME_CRC_BYTES_PER_CYCLE=1,"
+            },
+            {
+              "pattern": "crc",
+              "line": 40,
+              "text": "output wire [31:0] cfg_pending_version,cfg_expected_crc32,"
+            },
+            {
+              "pattern": "crc",
+              "line": 59,
+              "text": "CRC_INIT=13,CRC_REQUEST=14,CRC_WAIT=15,CRC_BYTE=16,"
+            }
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\shared\\rtl\\hxa_packet_codec.v",
+          "sha256": "CD67459EF75CD81D326B336A7A28ECBE17E5ED89D0FCCE07898FE4BE41FEC19E",
+          "bytes": 10070,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 1,
+              "text": "module hxa_packet_tx #(parameter integer REQUEST_TIMEOUT=12500000)("
+            },
+            {
+              "pattern": "module ",
+              "line": 111,
+              "text": "module hxa_packet_rx #(parameter integer MAX_PAYLOAD=1440,parameter integer PACKET_TIMEOUT=125000)("
+            },
+            {
+              "pattern": "module ",
+              "line": 203,
+              "text": "// The UDP stack presents one byte stream at a time.  This module captures a"
+            },
+            {
+              "pattern": "crc",
+              "line": 11,
+              "text": "localparam IDLE=0,HEADER=1,PRIME_CRC=2,SCAN=3,TAIL=4,"
+            },
+            {
+              "pattern": "crc",
+              "line": 23,
+              "text": "reg [31:0] crc,crc_final;"
+            },
+            {
+              "pattern": "crc",
+              "line": 27,
+              "text": "function [31:0] crc_byte;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "purpose": "中文面板与风格编号",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v",
+          "sha256": "B318439CB8435BFA8E7EAC06A1821FF73C6435E56F7B2FB22F2FD7F9125AA58C",
+          "bytes": 73533,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 5,
+              "text": "module osd_compact_panel("
+            },
+            {
+              "pattern": "module ",
+              "line": 331,
+              "text": "module merged_panel_tokens(input wire clk,operator_mode,input wire[5:0]key,"
+            },
+            {
+              "pattern": "mode_char",
+              "line": 133,
+              "text": "function [7:0] mode_char;"
+            },
+            {
+              "pattern": "mode_char",
+              "line": 138,
+              "text": "0:mode_char=second?`OSD_CN_U56FE:`OSD_CN_U539F; // original"
+            },
+            {
+              "pattern": "mode_char",
+              "line": 139,
+              "text": "1:mode_char=second?`OSD_CN_U5EA6:`OSD_CN_U7070; // grayscale"
+            },
+            {
+              "pattern": "dynamic",
+              "line": 70,
+              "text": "reg dynamic_cell;"
+            },
+            {
+              "pattern": "dynamic",
+              "line": 76,
+              "text": "static_key=0;dynamic_cell=0;"
+            },
+            {
+              "pattern": "dynamic",
+              "line": 80,
+              "text": "dynamic_cell=(cell_idx>=7&&cell_idx<=10);"
+            }
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\style_controls.v",
+          "sha256": "6F5BACBCE5E6ABFF327F226773D7492E8D955B17F3BEB15A3C879782B6CA6A00",
+          "bytes": 3568,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 5,
+              "text": "module style_controls #("
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S15",
+      "purpose": "运动有效计数与确认",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\motion_detect.v",
+          "sha256": "B038E6DBB614D3BE55AEDF27240AA48A0505A9E74F7344A2A8D88AC59D993EDA",
+          "bytes": 8824,
+          "key_lines": [
+            {
+              "pattern": "module motion_detect",
+              "line": 6,
+              "text": "module motion_detect #("
+            },
+            {
+              "pattern": "O_count",
+              "line": 36,
+              "text": "output reg [15:0] O_count,"
+            },
+            {
+              "pattern": "O_count",
+              "line": 159,
+              "text": ".O_y_min(S_region_y0), .O_y_max(S_region_y1), .O_count(S_region_count),"
+            },
+            {
+              "pattern": "O_count",
+              "line": 168,
+              "text": "O_valid<=0; O_count<=0; O_x_min<=0; O_x_max<=0; O_y_min<=0; O_y_max<=0;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S16",
+      "purpose": "4×4 输入与固定污点对比",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\doc_image_frontend.v",
+          "sha256": "42F2140588B7DB5AB5E815DFDFA0BFD0CEE161944CC198DD1BEAA571B22D05F4",
+          "bytes": 7830,
+          "key_lines": [
+            {
+              "pattern": "module doc_image_frontend",
+              "line": 8,
+              "text": "module doc_image_frontend #("
+            },
+            {
+              "pattern": "112",
+              "line": 5,
+              "text": "// raster x=288..319,y=112..179; camera x=1152..1279,y=448..719."
+            },
+            {
+              "pattern": "112",
+              "line": 11,
+              "text": "parameter integer INK_THRESHOLD = 112,"
+            },
+            {
+              "pattern": "112",
+              "line": 16,
+              "text": "parameter integer DIRT_Y_MIN = 112,"
+            },
+            {
+              "pattern": "288",
+              "line": 5,
+              "text": "// raster x=288..319,y=112..179; camera x=1152..1279,y=448..719."
+            },
+            {
+              "pattern": "288",
+              "line": 14,
+              "text": "parameter integer DIRT_X_MIN = 288,"
+            },
+            {
+              "pattern": "contrast",
+              "line": 7,
+              "text": "// No ROI is forced white: real dark strokes still use the contrast decision."
+            },
+            {
+              "pattern": "contrast",
+              "line": 12,
+              "text": "parameter integer LOCAL_CONTRAST_DELTA = 12,"
+            },
+            {
+              "pattern": "contrast",
+              "line": 74,
+              "text": "wire [8:0] contrast_required = {1'b0,second_min} + LOCAL_CONTRAST_DELTA;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S17",
+      "purpose": "骨架、断笔、排序和容量",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\doc_stroke_planner.v",
+          "sha256": "E68C26D36AE92AEC766673D24056E88A6FC1CBFD9C61E0DA3B362CE53DF41668",
+          "bytes": 37713,
+          "key_lines": [
+            {
+              "pattern": "module doc_stroke_planner",
+              "line": 5,
+              "text": "module doc_stroke_planner #("
+            },
+            {
+              "pattern": "32768",
+              "line": 6,
+              "text": "parameter integer MAX_EDGES=32768,MAX_PATHS=2048,MAX_POINTS=8192,"
+            },
+            {
+              "pattern": "2048",
+              "line": 6,
+              "text": "parameter integer MAX_EDGES=32768,MAX_PATHS=2048,MAX_POINTS=8192,"
+            },
+            {
+              "pattern": "junction",
+              "line": 52,
+              "text": "DOT0=17,APPEND=16,PATH_JUNCTION=48,"
+            },
+            {
+              "pattern": "junction",
+              "line": 456,
+              "text": "else neighbourhood(cx,cy,0,PATH_JUNCTION);"
+            },
+            {
+              "pattern": "junction",
+              "line": 459,
+              "text": "PATH_JUNCTION:begin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S18",
+      "purpose": "WAIT_KEY1、文档所有权",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\doc_copy_pipeline_shared_candidate.v",
+          "sha256": "F54EE47EED746A5ED3C8832F12827B2CD886B6DD9D292AE19A5C0A36C2A3794E",
+          "bytes": 16776,
+          "key_lines": [
+            {
+              "pattern": "module doc_copy",
+              "line": 4,
+              "text": "module doc_copy_pipeline_shared_candidate #("
+            },
+            {
+              "pattern": "WAIT_KEY1",
+              "line": 95,
+              "text": "localparam IDLE=0,IMAGE=1,PLAN=2,DRAW=3,ABORT=4,WAIT_KEY1=5;"
+            },
+            {
+              "pattern": "WAIT_KEY1",
+              "line": 126,
+              "text": "assign prepare_cancel_ready=(state==IMAGE)||(state==PLAN)||(state==WAIT_KEY1);"
+            },
+            {
+              "pattern": "WAIT_KEY1",
+              "line": 131,
+              "text": "assign write_waiting=(state==WAIT_KEY1);"
+            },
+            {
+              "pattern": "cancel",
+              "line": 16,
+              "text": "input wire clk,rst_n,start,cancel,rearm,reset_job,"
+            },
+            {
+              "pattern": "cancel",
+              "line": 18,
+              "text": "// accepted local KEY1. Ordinary frame/network cancellation is separate."
+            },
+            {
+              "pattern": "cancel",
+              "line": 19,
+              "text": "input wire prepare_cancel,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S19",
+      "purpose": "固定坐标 ROM 与整数参考",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\doc_machine_map.v",
+          "sha256": "9AE19EB6EF206CC508D865D6D42BE1D488CBB60217125A81682AA4CBC57BCD3D",
+          "bytes": 40171,
+          "key_lines": [
+            {
+              "pattern": "module doc_",
+              "line": 6,
+              "text": "module doc_machine_map("
+            },
+            {
+              "pattern": "19000",
+              "line": 359,
+              "text": "coordinates[319]=16'd19000;"
+            },
+            {
+              "pattern": "10688",
+              "line": 731,
+              "text": "coordinates[691]=16'd10688;"
+            },
+            {
+              "pattern": "rom",
+              "line": 3,
+              "text": "// A single synchronous 16-bit ROM replaces scaling and serial division."
+            },
+            {
+              "pattern": "rom",
+              "line": 15,
+              "text": "localparam [3:0] ST_IDLE=4'd0,ST_ROM_WAIT=4'd1,ST_ROM_TAKE=4'd2,"
+            },
+            {
+              "pattern": "rom",
+              "line": 37,
+              "text": "(* ram_style=\"bram\" *) reg [15:0] coordinates[0:1023] /* synthesis syn_romstyle=\"block_rom\" */;"
+            }
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\doc_grbl_map.v",
+          "sha256": "7BEB8C7DE138DB9FD0BEEA974EE8FAB1EC46ED7C67A6E20809098429BFF60FC5",
+          "bytes": 3722,
+          "key_lines": [
+            {
+              "pattern": "module doc_",
+              "line": 6,
+              "text": "module doc_grbl_map("
+            },
+            {
+              "pattern": "19000",
+              "line": 3,
+              "text": "// proportional on the A4 sheet: 19000 cmm wide by 10688 cmm high, with the"
+            },
+            {
+              "pattern": "19000",
+              "line": 13,
+              "text": "localparam integer X_SCALE=19000,Y_SCALE=10688;"
+            },
+            {
+              "pattern": "10688",
+              "line": 3,
+              "text": "// proportional on the A4 sheet: 19000 cmm wide by 10688 cmm high, with the"
+            },
+            {
+              "pattern": "10688",
+              "line": 13,
+              "text": "localparam integer X_SCALE=19000,Y_SCALE=10688;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S20",
+      "purpose": "文档出笔和结束返回",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\doc_grbl_plotter_shared_candidate.v",
+          "sha256": "82715A03828D55DA5B1813337FBBBA42184C9F2422512DC8A4F871C96F74FA9D",
+          "bytes": 11243,
+          "key_lines": [
+            {
+              "pattern": "module doc_grbl_plotter",
+              "line": 4,
+              "text": "module doc_grbl_plotter_shared_candidate #("
+            },
+            {
+              "pattern": "20000",
+              "line": 6,
+              "text": "parameter integer QUERY_MS=500,STATUS_MS=2000,FINAL_MS=120000,"
+            },
+            {
+              "pattern": "20000",
+              "line": 12,
+              "text": "// X=10.00 mm (formatter input 20000 -> output 1000)."
+            },
+            {
+              "pattern": "20000",
+              "line": 13,
+              "text": "parameter integer RETURN_X_CMM=20000,"
+            },
+            {
+              "pattern": "RETURN",
+              "line": 10,
+              "text": "// are mirrored once by the formatter.  The return request is therefore"
+            },
+            {
+              "pattern": "RETURN",
+              "line": 13,
+              "text": "parameter integer RETURN_X_CMM=20000,"
+            },
+            {
+              "pattern": "RETURN",
+              "line": 14,
+              "text": "parameter integer RETURN_Y_CMM=1000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S21",
+      "purpose": "当前矢量字模",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_vector_font_rom.v",
+          "sha256": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+          "bytes": 10283,
+          "key_lines": [
+            {
+              "pattern": "module grbl_vector_font_rom",
+              "line": 4,
+              "text": "module grbl_vector_font_rom #("
+            },
+            {
+              "pattern": "O_segment_count",
+              "line": 7,
+              "text": "output wire [4:0] O_pixels,output wire [3:0] O_segment_count,"
+            },
+            {
+              "pattern": "O_segment_count",
+              "line": 217,
+              "text": "assign O_segment_count=q[15:12];"
+            },
+            {
+              "pattern": "O_advance_width",
+              "line": 8,
+              "text": "output wire [3:0] O_advance_width,input wire [3:0] I_segment,"
+            },
+            {
+              "pattern": "O_advance_width",
+              "line": 219,
+              "text": "assign O_advance_width=4'd6;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S22",
+      "purpose": "报告、换行、KEY2、纸面维护",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\grbl_reporter_shared_candidate.v",
+          "sha256": "0162E9AAE47D8722801AE6BFA92393A29C445729576018FA0F5491F91857BB2D",
+          "bytes": 71310,
+          "key_lines": [
+            {
+              "pattern": "module grbl_reporter",
+              "line": 7,
+              "text": "module grbl_reporter_shared_candidate #("
+            },
+            {
+              "pattern": "297",
+              "line": 29,
+              "text": "parameter integer PAPER_FEED_CMM=29700,"
+            },
+            {
+              "pattern": "297",
+              "line": 353,
+              "text": "// 720*29700=21384000. Quotients fit the 16-bit machine coordinate."
+            },
+            {
+              "pattern": "297",
+              "line": 463,
+              "text": "I_origin_x_cmm<16'd21000 && I_origin_y_cmm<16'd29700 &&"
+            },
+            {
+              "pattern": "14850",
+              "line": 31,
+              "text": "parameter integer PAPER_LOAD_CENTER_Y_CMM=14850,"
+            },
+            {
+              "pattern": "26700",
+              "line": 34,
+              "text": "parameter integer PAPER_LOAD_LAST_ROW_CMM=26700,"
+            },
+            {
+              "pattern": "26700",
+              "line": 189,
+              "text": "(PAPER_LOAD_LAST_ROW_CMM<=26700) &&"
+            },
+            {
+              "pattern": "SUSPECT",
+              "line": 1,
+              "text": "// PCB report. Experimental SUSPECT mode adds a source-image centre only;"
+            },
+            {
+              "pattern": "SUSPECT",
+              "line": 20,
+              "text": "// SUSPECT region when kind==3, not a count/type of verified defects."
+            },
+            {
+              "pattern": "SUSPECT",
+              "line": 21,
+              "text": "parameter integer PCB_SUSPECT_ENABLE=0,"
+            },
+            {
+              "pattern": "newline",
+              "line": 15,
+              "text": "parameter integer AUTO_NEWLINE=0,"
+            },
+            {
+              "pattern": "newline",
+              "line": 25,
+              "text": "// Roller Y follows the existing downward page/newline direction. After"
+            },
+            {
+              "pattern": "newline",
+              "line": 142,
+              "text": "R_NPREFLIGHT=56,R_NHEIGHT=57,R_NCHECK=58,R_NEWLINE=59,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M01",
+      "purpose": "普通 CNN 量化与 FC8",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\export\\quantization.json",
+          "sha256": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+          "bytes": 1151,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "M02",
+      "purpose": "当前 PCB 模型、裁剪与哈希",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\experiments\\conv4_4\\MODEL.json",
+          "sha256": "012801A09698036F5E30C976AEA1FD09DBC10FC551CFB70B1FF15C9B9F2D43DB",
+          "bytes": 752,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "M03",
+      "purpose": "良品负残差统计与区域契约",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\model\\suspect\\CONTRACT.json",
+          "sha256": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+          "bytes": 764,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "purpose": "本次文档函数探针与LSC解码，非帧级或实板验证",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\defense_docs_20261114_release_pair\\algorithm_review\\RESULT.json",
+          "sha256": "7B6F1773414D59FC4D04CBC09B559A5FA073336642ED38A3C890F24EC7E34411",
+          "bytes": 3201,
+          "key_lines": []
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\defense_docs_20261114_release_pair\\algorithm_review\\LSC_COEFFICIENTS.json",
+          "sha256": "A5FB00C31BB6CD60CC7FF0E10671CD0EA00B6749D925CA403FFF3ED8415E3F1F",
+          "bytes": 309,
+          "key_lines": []
+        }
+      ]
+    },
+    {
+      "id": "S23",
+      "purpose": "当前活动ISP例化与两条Tone路径",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\isp_top_basic.v",
+          "sha256": "FC35FC1DCD414E448DBF98E750E04D9E5682DD159EE9EB1413F5D7390FDBFBC3",
+          "bytes": 3759,
+          "key_lines": [
+            {
+              "pattern": "RAW_AWB_ENABLE",
+              "line": 5,
+              "text": "parameter RAW_AWB_ENABLE = 1'b1,"
+            },
+            {
+              "pattern": "RAW_AWB_ENABLE",
+              "line": 62,
+              "text": ".RAW_AWB_ENABLE(RAW_AWB_ENABLE), .RAW_AE_ENABLE(RAW_AE_ENABLE),"
+            },
+            {
+              "pattern": "COLOR_LSC_ENABLE",
+              "line": 7,
+              "text": "parameter COLOR_LSC_ENABLE = 1'b0,"
+            },
+            {
+              "pattern": "COLOR_LSC_ENABLE",
+              "line": 63,
+              "text": ".COLOR_LSC_ENABLE(COLOR_LSC_ENABLE), .ORIGINAL_MODE_ENABLE(ORIGINAL_MODE_ENABLE)) u_core ("
+            },
+            {
+              "pattern": "u_core",
+              "line": 63,
+              "text": ".COLOR_LSC_ENABLE(COLOR_LSC_ENABLE), .ORIGINAL_MODE_ENABLE(ORIGINAL_MODE_ENABLE)) u_core ("
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S24",
+      "purpose": "四像素RAW10黑电平与弹性握手",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\BLC\\raw10_bggr_blc.v",
+          "sha256": "4A99477AF83C9FC72E3BF03934C09127B2BDF2078AB3B5D2B8044D079F8B02E7",
+          "bytes": 7416,
+          "key_lines": [
+            {
+              "pattern": "module raw10_bggr_blc",
+              "line": 18,
+              "text": "module raw10_bggr_blc #("
+            },
+            {
+              "pattern": "module raw10_bggr_blc",
+              "line": 138,
+              "text": "module raw10_bggr_blc_comb #("
+            },
+            {
+              "pattern": "OFFSET",
+              "line": 20,
+              "text": "// offsets for the two green Bayer phases: the even-row Gr samples and"
+            },
+            {
+              "pattern": "OFFSET",
+              "line": 22,
+              "text": "parameter [9:0] OFFSET_B  = 10'd64,"
+            },
+            {
+              "pattern": "OFFSET",
+              "line": 23,
+              "text": "parameter [9:0] OFFSET_GR = 10'd64,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S25",
+      "purpose": "低秩LSC、饱和掩码、三段流水",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\raw10_color_lsc_grid9x7.v",
+          "sha256": "67933174F6570116EBB0D286D55287C2510C747509C73565D8586DF3FAFF2E5C",
+          "bytes": 6720,
+          "key_lines": [
+            {
+              "pattern": "module raw10_color_lsc",
+              "line": 8,
+              "text": "module raw10_color_lsc_grid9x7 #("
+            },
+            {
+              "pattern": "cross0_q4",
+              "line": 78,
+              "text": "wire signed [31:0] cross0_q4=(cross0+32'sd131072)>>>18;"
+            },
+            {
+              "pattern": "cross0_q4",
+              "line": 83,
+              "text": "wire signed [17:0] sum0_q4=xb0+yb+$signed(cross0_q4[17:0]);"
+            },
+            {
+              "pattern": "coeff0",
+              "line": 46,
+              "text": "reg [11:0] p1_coeff0,p1_coeff1;"
+            },
+            {
+              "pattern": "coeff0",
+              "line": 85,
+              "text": "wire signed [17:0] coeff0_int=(sum0_q4+18'sd8)>>>4;"
+            },
+            {
+              "pattern": "coeff0",
+              "line": 87,
+              "text": "wire [11:0] coeff0=(coeff0_int<0)?12'd0:"
+            },
+            {
+              "pattern": "bad_now",
+              "line": 60,
+              "text": "wire bad_now=(!I_tuser && (!frame_started_r || frame_bad_r)) ||"
+            },
+            {
+              "pattern": "bad_now",
+              "line": 125,
+              "text": "p0_lsc<=(LSC_ENABLE!=0)&&!bad_now;p0_data<=I_tdata;p0_sat<=I_sat_mask;end"
+            },
+            {
+              "pattern": "bad_now",
+              "line": 129,
+              "text": "else if(bad_now) frame_bad_r<=1;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S26",
+      "purpose": "ROI加权绿均值、高光代理和帧检查",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\raw10_ae_stat.v",
+          "sha256": "6DC9462654555187DF16CD16682025634FE72B42FAD05FA8268C386D6E7FD065",
+          "bytes": 15459,
+          "key_lines": [
+            {
+              "pattern": "module raw10_ae",
+              "line": 18,
+              "text": "module raw10_ae_stat #("
+            },
+            {
+              "pattern": "ROI_X0",
+              "line": 43,
+              "text": "localparam integer ROI_X0         = 160;"
+            },
+            {
+              "pattern": "ROI_X0",
+              "line": 49,
+              "text": "localparam integer ROI_X0_E       = (IMG_WIDTH  > ROI_X0) ? ROI_X0 : 0;"
+            },
+            {
+              "pattern": "ROI_X0",
+              "line": 53,
+              "text": "localparam integer ROI_PIXELS     = ((ROI_X1_E > ROI_X0_E) && (ROI_Y1_E > ROI_Y0_E)) ?"
+            },
+            {
+              "pattern": "CLIP_TH",
+              "line": 15,
+              "text": "// reaches CLIP_TH without making one bright object force a step."
+            },
+            {
+              "pattern": "CLIP_TH",
+              "line": 22,
+              "text": "parameter integer CLIP_TH          = 944,"
+            },
+            {
+              "pattern": "CLIP_TH",
+              "line": 156,
+              "text": "wire [3:0]  clip_beat = ((roi0 && (p0 >= CLIP_TH)) ? 4'd2 : 4'd0) +"
+            },
+            {
+              "pattern": "BRIGHT_TH",
+              "line": 23,
+              "text": "parameter integer BRIGHT_TH        = 860,"
+            },
+            {
+              "pattern": "BRIGHT_TH",
+              "line": 160,
+              "text": "wire [3:0]  bright_beat = ((roi0 && (p0 >= BRIGHT_TH)) ? 4'd2 : 4'd0) +"
+            },
+            {
+              "pattern": "BRIGHT_TH",
+              "line": 161,
+              "text": "((roi1 && (p1 >= BRIGHT_TH)) ? 4'd2 : 4'd0) +"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S27",
+      "purpose": "AE死区、增益、等待与保护策略",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\uiisp_beta\\ae_auto.v",
+          "sha256": "FD4B7FEDE24C1915542FD96C78059C8830260DFB580604916B12C59FAB165383",
+          "bytes": 25628,
+          "key_lines": [
+            {
+              "pattern": "module ae_auto",
+              "line": 8,
+              "text": "module ae_auto #("
+            },
+            {
+              "pattern": "Y_TARGET",
+              "line": 10,
+              "text": "parameter integer Y_TARGET = 128,"
+            },
+            {
+              "pattern": "Y_TARGET",
+              "line": 293,
+              "text": "err_dist = (cur_y > Y_TARGET) ? cur_y-Y_TARGET : Y_TARGET-cur_y;"
+            },
+            {
+              "pattern": "FLICKER_N",
+              "line": 20,
+              "text": "parameter integer FLICKER_N = 1,"
+            },
+            {
+              "pattern": "FLICKER_N",
+              "line": 67,
+              "text": "localparam integer DG_EXPOSURE_MAX = (FLICKER_N > 1) ?"
+            },
+            {
+              "pattern": "FLICKER_N",
+              "line": 68,
+              "text": "((AE_SPORT_MAX / FLICKER_N) * FLICKER_N) : AE_SPORT_MAX;"
+            },
+            {
+              "pattern": "discard",
+              "line": 6,
+              "text": "// followed by three discarded statistics; the fourth rebuilds the Y filter."
+            },
+            {
+              "pattern": "discard",
+              "line": 23,
+              "text": "parameter integer ADJ_FRAMES = 4, // retained interface; stability policy uses 3 discarded events"
+            },
+            {
+              "pattern": "discard",
+              "line": 237,
+              "text": "// never advance it from pre-write/discarded frames."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S28",
+      "purpose": "灰世界AWB、串行除法、帧首增益",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\awb_raw10_bggr_grayworld.v",
+          "sha256": "628F803C37B24C9701AA49C5A0357EDED07C989EB1479019860D0430396F0524",
+          "bytes": 18688,
+          "key_lines": [
+            {
+              "pattern": "module awb_raw10",
+              "line": 10,
+              "text": "module awb_raw10_bggr_grayworld #("
+            },
+            {
+              "pattern": "GAIN_",
+              "line": 45,
+              "text": "localparam [19:0] GAIN_ONE = 20'h10000;"
+            },
+            {
+              "pattern": "GAIN_",
+              "line": 46,
+              "text": "localparam [19:0] GAIN_MIN = 20'h0c000;"
+            },
+            {
+              "pattern": "GAIN_",
+              "line": 47,
+              "text": "localparam [19:0] GAIN_MAX = 20'h24000;"
+            },
+            {
+              "pattern": "128",
+              "line": 11,
+              "text": "parameter integer IMG_WIDTH = 1280,"
+            },
+            {
+              "pattern": "128",
+              "line": 16,
+              "text": "parameter integer MIN_BLOCKS = 128,"
+            },
+            {
+              "pattern": "10000",
+              "line": 45,
+              "text": "localparam [19:0] GAIN_ONE = 20'h10000;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S29",
+      "purpose": "活动RAW8窗口与方向选绿",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\demosaic.v",
+          "sha256": "95FF3EAA0E99FD1DBE63C153164E36FAA1A97B19D071E4A0B0BB3936287F22D4",
+          "bytes": 4633,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 20,
+              "text": "module demosaic #("
+            }
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\mipi_to_raw_converter.v",
+          "sha256": "B77E678034AF9968D0969655F403CAC3B992412B109DBA889E8CCB3F6F224975",
+          "bytes": 2493,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 20,
+              "text": "module mipi_to_raw_converter"
+            },
+            {
+              "pattern": "9:2",
+              "line": 50,
+              "text": "raw_data_r0 <= {I_raw_tdata[9:2], I_raw_tdata[19:12], I_raw_tdata[29:22], I_raw_tdata[39:32]};"
+            }
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\raw_matrix_3x3_buffer.v",
+          "sha256": "28F19502F5A70B48E9BDEEADDCB84500052B7BD0C6E15B4DA1EA9899265577C3",
+          "bytes": 14900,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 21,
+              "text": "module raw_matrix_3x3_buffer #("
+            }
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\demosaic_4x_2_0\\bilinear_interpolation.v",
+          "sha256": "5226D559384BFAAD5F0B8DED77434CCE2B0F1759C7C9ECE403CECBDC9BBB5AF9",
+          "bytes": 35597,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 22,
+              "text": "module bilinear_interpolation #("
+            },
+            {
+              "pattern": "horiz",
+              "line": 122,
+              "text": "// BGGR edge-aware green interpolation. Compare horizontal and vertical"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S30",
+      "purpose": "Q8.8颜色矩阵及等价分解",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\ccm8_4x.v",
+          "sha256": "515E6B8452B7D826D7E71CD6E487D6B4C215D09DC3B07AED1A31F1B0498F1822",
+          "bytes": 7380,
+          "key_lines": [
+            {
+              "pattern": "module ccm8",
+              "line": 7,
+              "text": "module ccm8_4x ("
+            },
+            {
+              "pattern": "Gnum",
+              "line": 74,
+              "text": "(* dsp_style=\"yes\" *) wire signed [17:0] gnum_post="
+            },
+            {
+              "pattern": "Gnum",
+              "line": 80,
+              "text": "else if(stage2_free && stage1_valid) stage2_g_num<=gnum_post;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S31",
+      "purpose": "固定识别和原图显示分段曲线",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\display_tone_96.v",
+          "sha256": "FC4A0929BAF40AFF73008B3F29207A24D00F6F0C5DCFA0D9A9C2820B4420193C",
+          "bytes": 5019,
+          "key_lines": [
+            {
+              "pattern": "module display_tone",
+              "line": 9,
+              "text": "module display_tone_96 #("
+            },
+            {
+              "pattern": "function",
+              "line": 41,
+              "text": "function [7:0] tone8;"
+            },
+            {
+              "pattern": "function",
+              "line": 57,
+              "text": "endfunction"
+            },
+            {
+              "pattern": "function",
+              "line": 59,
+              "text": "function [95:0] display_group;"
+            },
+            {
+              "pattern": "96",
+              "line": 9,
+              "text": "module display_tone_96 #("
+            },
+            {
+              "pattern": "96",
+              "line": 49,
+              "text": "else if (value < 8'd96)"
+            },
+            {
+              "pattern": "96",
+              "line": 68,
+              "text": "// Join 95->118 to 100->127 without the old 96->124 step."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S32",
+      "purpose": "19模式、组空间核与活动点运算",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\style_transfer_96.v",
+          "sha256": "9E8D7DC30411E5C38CAD9C52CA1F446E37D353EE6A66B16728544E58BA12EAF9",
+          "bytes": 36274,
+          "key_lines": [
+            {
+              "pattern": "module style_transfer",
+              "line": 4,
+              "text": "module style_transfer_96 #("
+            },
+            {
+              "pattern": "function.*gray",
+              "line": 135,
+              "text": "function [7:0] gray8;"
+            },
+            {
+              "pattern": "delta\\[9:1\\]",
+              "line": 263,
+              "text": "offset = {1'b0,delta[9:1]};"
+            },
+            {
+              "pattern": "spatial_a",
+              "line": 442,
+              "text": "reg [9:0] spatial_a, spatial_b;"
+            },
+            {
+              "pattern": "spatial_a",
+              "line": 444,
+              "text": "reg [10:0] spatial_abs;"
+            },
+            {
+              "pattern": "spatial_a",
+              "line": 452,
+              "text": "spatial_a = 10'd0;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S33",
+      "purpose": "逐像素因果边缘与量化",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\cartoon_96.v",
+          "sha256": "6B8FC92B7EB60981DE64C1E8B5E91DF5EB17CDC226BF608713C454A32FB65838",
+          "bytes": 5487,
+          "key_lines": [
+            {
+              "pattern": "module cartoon_96",
+              "line": 4,
+              "text": "module cartoon_96 #("
+            },
+            {
+              "pattern": "EDGE_THRESHOLD",
+              "line": 7,
+              "text": "parameter integer EDGE_THRESHOLD=32,"
+            },
+            {
+              "pattern": "EDGE_THRESHOLD",
+              "line": 83,
+              "text": "if(EDGE_THRESHOLD==32) edge_pixel=(|hd[7:5]) || (|vd[7:5]) || mag_low[5];"
+            },
+            {
+              "pattern": "EDGE_THRESHOLD",
+              "line": 84,
+              "text": "else edge_pixel=(mag>=EDGE_THRESHOLD);"
+            },
+            {
+              "pattern": "QUANT_MASK",
+              "line": 8,
+              "text": "parameter [7:0] QUANT_MASK=8'he0"
+            },
+            {
+              "pattern": "QUANT_MASK",
+              "line": 85,
+              "text": "q={cp[23:16]&QUANT_MASK,cp[15:8]&QUANT_MASK,cp[7:0]&QUANT_MASK};"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S34",
+      "purpose": "HDMI二级因果保边平均",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\a4_display_spatial_h1.v",
+          "sha256": "CD72245FA5CF73F16F35C2F655E5F13DD5F4949D14D258A7B99F9179AA219696",
+          "bytes": 8242,
+          "key_lines": [
+            {
+              "pattern": "module a4_display",
+              "line": 8,
+              "text": "module a4_display_spatial_h1 #("
+            },
+            {
+              "pattern": "EDGE_TH",
+              "line": 10,
+              "text": "parameter integer EDGE_TH = 16,"
+            },
+            {
+              "pattern": "EDGE_TH",
+              "line": 78,
+              "text": "if(EDGE_TH==16) within_edge=(~|d[8:4]) || (&d[8:4]) || (d==9'd16);"
+            },
+            {
+              "pattern": "EDGE_TH",
+              "line": 79,
+              "text": "else within_edge=(d>=-EDGE_TH)&&(d<=EDGE_TH);"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S35",
+      "purpose": "BT.601 limited及YUYV字节顺序",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hx_snapshot_service.v",
+          "sha256": "BACA8A903218E0BEEB75A8020BFE41AED4480EB38DBA0B511DBB7B488470D594",
+          "bytes": 34171,
+          "key_lines": [
+            {
+              "pattern": "module hx_snapshot",
+              "line": 4,
+              "text": "module hx_snapshot_service #("
+            },
+            {
+              "pattern": "module hx_snapshot",
+              "line": 615,
+              "text": "module hx_snapshot_recovery #("
+            },
+            {
+              "pattern": "66",
+              "line": 470,
+              "text": "reg [15:0] yr66,yg129,yb25,ur38,ug74,vg94,vb18;"
+            },
+            {
+              "pattern": "66",
+              "line": 500,
+              "text": "yr66<=0;yg129<=0;yb25<=0;ur38<=0;ug74<=0;vg94<=0;vb18<=0;r112<=0;b112<=0;"
+            },
+            {
+              "pattern": "66",
+              "line": 568,
+              "text": "yr66<=reservoir[23:16]*16'd66;yg129<=reservoir[15:8]*16'd129;yb25<=reservoir[7:0]*16'd25;"
+            },
+            {
+              "pattern": "129",
+              "line": 470,
+              "text": "reg [15:0] yr66,yg129,yb25,ur38,ug74,vg94,vb18;"
+            },
+            {
+              "pattern": "129",
+              "line": 500,
+              "text": "yr66<=0;yg129<=0;yb25<=0;ur38<=0;ug74<=0;vg94<=0;vb18<=0;r112<=0;b112<=0;"
+            },
+            {
+              "pattern": "129",
+              "line": 568,
+              "text": "yr66<=reservoir[23:16]*16'd66;yg129<=reservoir[15:8]*16'd129;yb25<=reservoir[7:0]*16'd25;"
+            },
+            {
+              "pattern": "112",
+              "line": 471,
+              "text": "reg [14:0] r112,b112;"
+            },
+            {
+              "pattern": "112",
+              "line": 500,
+              "text": "yr66<=0;yg129<=0;yb25<=0;ur38<=0;ug74<=0;vg94<=0;vb18<=0;r112<=0;b112<=0;"
+            },
+            {
+              "pattern": "112",
+              "line": 571,
+              "text": "r112<=reservoir[23:16]*15'd112;b112<=reservoir[7:0]*15'd112;"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S36",
+      "purpose": "4×4运动采样和tile聚合",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\motion_post_hist_adapter.v",
+          "sha256": "E6750BC1D6A46CDEE1DED0F2C85E990AED52CEE7D3A85DAA20217A2B030BC4E3",
+          "bytes": 5200,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 6,
+              "text": "module motion_post_hist_adapter("
+            },
+            {
+              "pattern": "77",
+              "line": 3,
+              "text": "// floor((77R+150G+29B)/256); output is round(sum_of_16_luminances/16)."
+            },
+            {
+              "pattern": "150",
+              "line": 3,
+              "text": "// floor((77R+150G+29B)/256); output is round(sum_of_16_luminances/16)."
+            }
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\motion_region_select.v",
+          "sha256": "6A849AD625ADA532D0DFBCD71D5C4F17879ECEC4558BC712C3E6B81F45BD8255",
+          "bytes": 17115,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 10,
+              "text": "module motion_region_select #("
+            },
+            {
+              "pattern": "count",
+              "line": 3,
+              "text": "// sample count and exact local bounds; sparse tiles are discarded. After the"
+            },
+            {
+              "pattern": "count",
+              "line": 12,
+              "text": "parameter [6:0] TILE_MIN_COUNT = 7'd4,"
+            },
+            {
+              "pattern": "count",
+              "line": 30,
+              "text": "output reg [15:0] O_count,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S37",
+      "purpose": "四连通等价类、RAM端口和筛选",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\vision_ccl_pcb_candidate.v",
+          "sha256": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+          "bytes": 12582,
+          "key_lines": [
+            {
+              "pattern": "module vision_ccl",
+              "line": 5,
+              "text": "module vision_ccl_pcb_candidate #("
+            },
+            {
+              "pattern": "next_label==511",
+              "line": 155,
+              "text": "if(next_label==511)begin overflow<=1;root<=0;state<=COMMIT;end"
+            },
+            {
+              "pattern": "candidate_aspect",
+              "line": 53,
+              "text": "reg candidate_root_ok,candidate_aspect_ok,candidate_ok;"
+            },
+            {
+              "pattern": "candidate_aspect",
+              "line": 117,
+              "text": "candidate_area_x12<=0;candidate_root_ok<=0;candidate_aspect_ok<=0;candidate_ok<=0;candidate_rank<=0;"
+            },
+            {
+              "pattern": "candidate_aspect",
+              "line": 201,
+              "text": "candidate_aspect_ok<=pcb_filter ?"
+            },
+            {
+              "pattern": "candidate_area_x12",
+              "line": 52,
+              "text": "reg [19:0] candidate_area_x12;"
+            },
+            {
+              "pattern": "candidate_area_x12",
+              "line": 117,
+              "text": "candidate_area_x12<=0;candidate_root_ok<=0;candidate_aspect_ok<=0;candidate_ok<=0;candidate_rank<=0;"
+            },
+            {
+              "pattern": "candidate_area_x12",
+              "line": 196,
+              "text": "candidate_area_x12<={1'b0,candidate_stat[49:34],3'b000}+{2'b00,candidate_stat[49:34],2'b00};"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S38",
+      "purpose": "机械距离、串行除法和整数开方",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\doc_path_distance.v",
+          "sha256": "265774F97B39989FF199B8D288F892E364AB2B38076C1384025430624FB67174",
+          "bytes": 6747,
+          "key_lines": [
+            {
+              "pattern": "module doc_path",
+              "line": 5,
+              "text": "module doc_path_distance("
+            },
+            {
+              "pattern": "square",
+              "line": 3,
+              "text": "// The divider and square root are serial; this is a distance in 0.01 mm,"
+            },
+            {
+              "pattern": "square",
+              "line": 4,
+              "text": "// never a sum of squared distances used as a substitute for route length."
+            },
+            {
+              "pattern": "square",
+              "line": 9,
+              "text": "output reg [32:0] squared"
+            },
+            {
+              "pattern": "trial",
+              "line": 30,
+              "text": "wire [33:0] trial={15'd0,root,2'b01};"
+            },
+            {
+              "pattern": "trial",
+              "line": 138,
+              "text": "if(rnext>=trial) begin rem<=rnext-trial;root<={root[15:0],1'b1};end"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S39",
+      "purpose": "workspace与源像素读取接口",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\vision_workspace.v",
+          "sha256": "F4636E94C984B86A54DE00827ED395EEE4F4CD1D9D55638BA845A2E4DC731873",
+          "bytes": 3872,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 6,
+              "text": "module vision_workspace("
+            }
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_airwalk_stroke_cont_20261113\\01_rtl\\vision_pixel_reader.v",
+          "sha256": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+          "bytes": 3880,
+          "key_lines": [
+            {
+              "pattern": "module ",
+              "line": 4,
+              "text": "module vision_pixel_reader("
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "M04",
+      "purpose": "冻结LSC一维色场系数ROM",
+      "files": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\horizontal.mem",
+          "sha256": "A30DE3259BD5B8F1D8C92258C0BE89A515CDBADCCD2B3F5871E1E4B376AB96BC",
+          "bytes": 40960,
+          "key_lines": []
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_suspect_center_20261113\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\vertical.mem",
+          "sha256": "4E5A557C75BEDECAB62D7BE6EC39042DAF043EA0817648988F1403E66AC12732",
+          "bytes": 10240,
+          "key_lines": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": "V1.1",
+  "document_date": "2026-11-14",
+  "uploaded_date": "2026-11-15",
+  "pdf_pages": 48,
+  "hardware_status": "NOT_RUN",
+  "original_document_bytes_preserved": true,
+  "files": {
+    "技术说明与答辩参考.md": {
+      "sha256": "7B269191914F4079DDAB20A0252BF45C669A004CDA9241887DB11C4FB26D17A9",
+      "bytes": 107435
+    },
+    "技术说明与答辩参考.pdf": {
+      "sha256": "F0F36CCCBCBFBBCCC7DAB2D9CA96EC05EF2C16F2B83D16880D3B4430819E011E",
+      "bytes": 2531826
+    },
+    "技术说明与答辩参考.docx": {
+      "sha256": "C241300A2A84F5C86194DC1EAA3FA6B239157D72A475ABDCC8BC9B786960D9A1",
+      "bytes": 2117618
+    },
+    "EVIDENCE_INDEX.json": {
+      "sha256": "FA4B9E86A4E44FB1368C2F9FD48E9A054BEE89B560011AA145D492D92F698995",
+      "bytes": 76277
+    },
+    "DOCUMENT_QA.json": {
+      "sha256": "03527E8E245C54BA6295A4576FDE69EA291758174D82105BA61CD79AC8350C90",
+      "bytes": 19253
+    },
+    "FINALIZATION_REPORT.json": {
+      "sha256": "76532DD7B4741C50CBEDAAAFFB2FB5A26E23BFF8C4C924FABFAF890E39782088",
+      "bytes": 1986
+    },
+    "WORD_EXPORT.json": {
+      "sha256": "E2EFFA24E3E5772E8ED4EEB512B06A7C9C150B66780C4F8922D1690F80A8BD88",
+      "bytes": 128
+    },
+    "assets/01_architecture.png": {
+      "sha256": "FF5720FF87C63323EB381CA720F762E1A421B0EDA7331F7F408EDB69A2ACF3C9",
+      "bytes": 165873
+    },
+    "assets/02_pcb_pipeline.png": {
+      "sha256": "182200B6357CC5BFB989973E0D052AF82E27DA531CC4023B7DF95D23D04D4EF8",
+      "bytes": 215025
+    },
+    "assets/03_coordinates.png": {
+      "sha256": "D8C35D92B66CDED9B43E8FC7DE490F966B0EEEF991276FB5E686B51D6669D46E",
+      "bytes": 135806
+    },
+    "assets/04_vector_font.png": {
+      "sha256": "123D2018E4AFA05C6831794BA451308E5D15C7D95D07866CBE975F21365D9F9C",
+      "bytes": 91050
+    },
+    "assets/05_safety.png": {
+      "sha256": "F09720330E78E0D9154C799C1C97D1E354C3DC622A7C23370893F9EBE7230F35",
+      "bytes": 194907
+    },
+    "assets/06_resources.png": {
+      "sha256": "AD173F431276DB7CB1F867AC4B17EB7FF0537D86D5CBF24944FA9035E778CDD7",
+      "bytes": 121062
+    },
+    "assets/07_isp_chain.png": {
+      "sha256": "75F1939755B8B9E48B1898386E1A22CE69A0BFCEF48C74CAB0417E8A8625DD9E",
+      "bytes": 209708
+    },
+    "assets/08_ae_awb_feedback.png": {
+      "sha256": "AD1CD81861200F1501D44C89045DBE79D7C9FFDEF661C49A2324CBA6B283FF78",
+      "bytes": 189974
+    },
+    "assets/09_actual_transfer_curves.png": {
+      "sha256": "37D2215CB058F1AF8B697B726A0E3B02CA60B12C423ED3C75D798411FFE6F4F4",
+      "bytes": 207559
+    },
+    "assets/10_lsc_coefficients.png": {
+      "sha256": "372743F2001ABD5C30B01E1E7337254ADEEA4D841751E88295A087660ED6AF59",
+      "bytes": 455618
+    },
+    "assets/ASSET_CONTACT.png": {
+      "sha256": "C5606711B3216C94306800E9A8C4FE4B6A23E0F43F978283C960ADDF7E0202F1",
+      "bytes": 497119
+    }
+  }
+}

@@ -1,0 +1,346 @@
+{
+  "pdf_pages": 48,
+  "pdf_bytes": 2531826,
+  "page_size": "A4",
+  "bookmarks": 157,
+  "warnings": [],
+  "pages": [
+    {
+      "page": 1,
+      "chars": 284,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": " \n \n \nENGINEERING DOSSIER  /  V1.1 \n双 FPGA 视觉识别 \nPCB 辅助质检 \n与写字控制系统 \n技术说明与答辩参考 \n架构 · 算法 · 协议 · 运动控制 · 资源时序 · 验证证据 · 答辩问答 \n编写日期：2026 年 11 月 14"
+    },
+    {
+      "page": 2,
+      "chars": 900,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     2 / 48 \n阅读导航与关键结论 \n本作品把“采集与显示—目标识别—PCB 辅助质检—人工确认—纸面报告/文档书写”连接成一个硬件处\n理系统。主板承担视"
+    },
+    {
+      "page": 3,
+      "chars": 3755,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     3 / 48 \n目录 \n阅读导航与关键结论 ......................................................."
+    },
+    {
+      "page": 4,
+      "chars": 780,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     4 / 48 \n1. 作品定位与需求 \n1.1 应用目标 \n作品面向固定摄像头下的桌面视觉交互与小型 PCB 工件辅助检测。系统既能实时显示视频和处理效果"
+    },
+    {
+      "page": 5,
+      "chars": 758,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     5 / 48 \n2. 总体架构与板间分工 \n \n图 1 系统分工与数据流 \n2.1 主板：让视频连续、让操作可见 \n主板完成摄像头视频接入、ISP 与显示"
+    },
+    {
+      "page": 6,
+      "chars": 1084,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     6 / 48 \n3. 硬件、时钟与数据组织 \n3.1 已核对的工程参数 \n项目 \n当前记录 \n工具报告中的器件 \nPH1P35MDG324；实物商品型号以"
+    },
+    {
+      "page": 7,
+      "chars": 874,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     7 / 48 \n操作 \n当前功能 \nSW4:SW3=01 \nPCB 模式 \nSW4:SW3=10 \n文档复制模式 \nSW4:SW3=11 \n不在本文主要演"
+    },
+    {
+      "page": 8,
+      "chars": 899,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     8 / 48 \n5.1 从 RAW10 到显示与识别的完整链路 \n \n图 2 当前启用的 ISP 及显示、运动、识别分支 \n摄像头通过 MIPI/CSI "
+    },
+    {
+      "page": 9,
+      "chars": 1544,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     9 / 48 \n5.2 Bayer 相位、帧标记与弹性流水 \nBGGR 的一个 2×2 单元为第一行 B/Gr、第二行 Gb/R。偶数行四像素是 B/Gr"
+    },
+    {
+      "page": 10,
+      "chars": 1011,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     10 / 48 \n \n图 3 从当前冻结 ROM 解码的 R/B 空间系数 \n文档逐点解码得到：B 有效位置系数范围 875/1024～1024/1024"
+    },
+    {
+      "page": 11,
+      "chars": 849,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     11 / 48 \n5.6 AE：曝光、模拟增益、数字增益与稳定策略 \n \n图 4 AE 与 AWB 两种反馈控制 \n参数 \n当前配置 \n含义 \n目标与死区"
+    },
+    {
+      "page": 12,
+      "chars": 1589,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     12 / 48 \n5.7 AWB：RAW 灰世界白平衡 \nAWB（Auto White Balance）调整 R/B 与 G 的相对增益，减少光源色温导致"
+    },
+    {
+      "page": 13,
+      "chars": 1313,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     13 / 48 \n[R']   1   [ 261  -20   15 ] [R] \n[G'] = --- [ -10  266    0 ] [G]，逐"
+    },
+    {
+      "page": 14,
+      "chars": 1470,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     14 / 48 \n编号/名称 \n当前处理或目标 \n实现要点与解释 \n0 原图 \n当前 ISP 颜色及原图 Tone \n是处理后原图，不是 RAW 直通 \n"
+    },
+    {
+      "page": 15,
+      "chars": 1461,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     15 / 48 \n本版空间风格使用“四像素组平均灰度”的3×3 窗口，横向一个采样单位相当于原图四像素，结果复制\n给该组四个像素。因此不是对每个原始像素做"
+    },
+    {
+      "page": 16,
+      "chars": 1564,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     16 / 48 \n5.15 HDMI：2×2 因果保边空间去噪 \nHDMI 后级对当前原始像素 C 与左邻原始像素 L 比较RGB 三个通道，只有三个差值"
+    },
+    {
+      "page": 17,
+      "chars": 1317,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     17 / 48 \nOSD 上的O_count 表示本次有效运动区域的支持计数，不是累计经过的工件数量。若要真正计件，还需目\n标跟踪、过线方向、去重与消抖事"
+    },
+    {
+      "page": 18,
+      "chars": 1193,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     18 / 48 \n6.2 本版涉及的消息类型 \n类型 \n用途 \n需要区分的含义 \nType8 \n既有 PCB/单结果通道，64 字节结\n果数据 \n复用既有"
+    },
+    {
+      "page": 19,
+      "chars": 1438,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     19 / 48 \n类别编号 \n写字名称 \n所表达的视觉类别 \n1 / 2 / 3 \nRED TRIANGLE / RED CIRCLE / RED \nSQ"
+    },
+    {
+      "page": 20,
+      "chars": 896,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     20 / 48 \nConv1 为1→8 的3×3 卷积，零填充保持64×64 后2×2 最大池化成32×32×8；Conv2 为8→16，保持\n32×32"
+    },
+    {
+      "page": 21,
+      "chars": 1471,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     21 / 48 \n8.1 共享 CCL 自动寻找 \nPCB 与普通 CNN 分时复用同一个 CCL 核心。PCB 前景规则改为原始源亮度 Y≤112，最小"
+    },
+    {
+      "page": 22,
+      "chars": 1112,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     22 / 48 \n当前筛选包括最小面积（PCB64、普通12）、最小高宽、外接框长宽比和填充度。活动代码PCB 宽高比允\n许到5:1，普通到3:1；部分历"
+    },
+    {
+      "page": 23,
+      "chars": 1529,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     23 / 48 \n9.3 原因显示与模型边界 \n原因码区分模型 FAIL、低 margin、无目标、CCL 溢出、源边界、框非法、输入非法、像素等待/响应"
+    },
+    {
+      "page": 24,
+      "chars": 1164,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     24 / 48 \n按从上到下、从左到右遍历，只在严格大于当前最佳值时替换，所以相同最大值选择先出现区域。全部\n得分为零则不输出。仅 BAD 且 margi"
+    },
+    {
+      "page": 25,
+      "chars": 1142,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     25 / 48 \n11.3 分类误检与定位误差必须分开 \n历史 1494 帧的当前 margin 策略软件回放中：870 良品有 732 PASS、118"
+    },
+    {
+      "page": 26,
+      "chars": 1256,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     26 / 48 \n项目 \n当前说明 \n额外 2-opt 轮数 \n当前顶层显式 PLANNER_OPT_PASSES=0；不能宣称本 bit 执行了两轮 \n"
+    },
+    {
+      "page": 27,
+      "chars": 717,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     27 / 48 \n12.8 最近邻排序、物理距离与笔画连续化 \n对开放路径比较两端接入代价，允许反向走；闭环尝试已有接缝。最近邻贪心降低空移距离，不能保证"
+    },
+    {
+      "page": 28,
+      "chars": 822,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     28 / 48 \n13.2 当前共享变换的两种安全范围 \n当前共享发送模块在格式化前只做一次减法，并关闭格式化器内部镜像，避免两次翻转： \n报告/KEY2"
+    },
+    {
+      "page": 29,
+      "chars": 641,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     29 / 48 \n14. 单线矢量字体、报告格式与书写速度 \n \n图 8 从当前 ROM 解码的单线字形 \n14.1 当前使用的是单线中心线字模 \n报告生"
+    },
+    {
+      "page": 30,
+      "chars": 628,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     30 / 48 \n14.3 实际报告内容 \n普通 CNN 示例（示意数值）： \nRED CIRCLE \nX0640 Y0360 \nCONF 042 \n \n"
+    },
+    {
+      "page": 31,
+      "chars": 791,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     31 / 48 \n15. GRBL 通信、异常停止与断网保持 \n \n图 9 命令应答与故障分流 \n15.1 一行一个应答的基本流程 \n内容生成器提交一行 "
+    },
+    {
+      "page": 32,
+      "chars": 1242,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     32 / 48 \n事件 \n当前处理原则 \nGRBL Alarm/Reset、接收帧\n错误 \n关闭正常发送接纳，保留诊断并进入恢复约束 \n \n特别注意：本副"
+    },
+    {
+      "page": 33,
+      "chars": 805,
+      "images": 1,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     33 / 48 \n16.4 人工装纸后长按 KEY1 \n退纸后人工将新纸大致放到滚筒中部，X 保持不变；再在待确认状态长按 KEY1。当前程序把该位置锚定"
+    },
+    {
+      "page": 34,
+      "chars": 1286,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     34 / 48 \n \n两板资源分别计算，不能把主板剩余 DSP 直接拿给副板实例使用。副板 setup 只有 7 ps 的工具报告\n余量，应完整保留这一限"
+    },
+    {
+      "page": 35,
+      "chars": 1323,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     35 / 48 \n验证层次 \n已有结果 \n边界 \n综合/布局/布线 \n两板通过 \n目标器件与当前约束范围内 \n最终 DRC \n两板完成八项具名检查与诊断复"
+    },
+    {
+      "page": 36,
+      "chars": 267,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     36 / 48 \n现象 \n先看什么 \n不应立即怎么做 \n第二份报告不写 \n页面剩余与 newline_fault/\nerror12、待写快照和串口安全态 "
+    },
+    {
+      "page": 37,
+      "chars": 1043,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     37 / 48 \n19. 答辩问答参考 \n19.1 为什么使用双 FPGA，而不是一块板完成？ \n主板视频流对连续性和实时显示要求高，副板推理、文档规划和"
+    },
+    {
+      "page": 38,
+      "chars": 1049,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     38 / 48 \n19.9 REVIEW 是不是系统失败？ \nREVIEW 是明确的不确定输出，通常用于低 margin、无候选或无效几何等情况，避免一律"
+    },
+    {
+      "page": 39,
+      "chars": 1097,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     39 / 48 \n19.18 为什么综合 100.16% 最后能布局？ \n综合报告是技术映射和逻辑打包估算；place 进一步合并、匹配可用资源和合法位置"
+    },
+    {
+      "page": 40,
+      "chars": 940,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     40 / 48 \n19.26 画风迁移是否使用深度神经网络？ \n本版显示风格使用灰度、阈值、量化、Sobel、形态学和卡通等确定性处理，CNN 用于目标/"
+    },
+    {
+      "page": 41,
+      "chars": 1117,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     41 / 48 \n20. 三分钟口述稿与演示用语 \n20.1 三分钟口述稿 \n各位老师好，本作品是基于双 FPGA 的视觉识别、PCB 辅助质检与写字控制"
+    },
+    {
+      "page": 42,
+      "chars": 1068,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     42 / 48 \n附录 A. 当前配套 bit 与指纹 \nA.1 主板 \n工程：main_pcb_suspect_center_20261113 \n文件："
+    },
+    {
+      "page": 43,
+      "chars": 2063,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     43 / 48 \n附录 B. 证据入口与源码索引 \n工作区根目录：D:/program/fpga/lab_ex3_osd_SC500_720P/ \n主板工"
+    },
+    {
+      "page": 44,
+      "chars": 2044,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     44 / 48 \n引用 \n文件入口 \n用途 \nS16 \nSEC/01_rtl/doc_image_frontend.v \n4×4 输入与固定污点对比 \nS"
+    },
+    {
+      "page": 45,
+      "chars": 761,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     45 / 48 \n附录 C. 答辩前实板记录表 \n本表留给真实演示前填写，空白不代表通过。当前文档生成时所有实板项目均未替用户勾选。 \n项目 \n预期 \n实"
+    },
+    {
+      "page": 46,
+      "chars": 1248,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     46 / 48 \n附录 D. 全系统算法速查与答辩推导 \nD.1 算法、作用与硬件代价总表 \n算法/机制 \n解决的问题 \n主要硬件或状态 \nBLC \n去传"
+    },
+    {
+      "page": 47,
+      "chars": 1434,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     47 / 48 \nD.3 定点数、舍入、钳位与除法 \n若Q 格式整数q 代表q/2^F，乘法会叠加小数位。转回目标格式要选定右移、舍入及饱和规则；加半量程"
+    },
+    {
+      "page": 48,
+      "chars": 802,
+      "images": 0,
+      "text_bounds_ok": true,
+      "first_text": "双 FPGA 视觉识别、PCB 辅助质检与写字控制系统 \nV1.1 算法详解版 · 2026-11-14     |     48 / 48 \nD.7 GRBL 命令流与纸面安全 \nUART 为115200、8N1，每字节含起始/数据/停止共10bit，理论有效字节率约11520"
+    }
+  ],
+  "status": "PASS_AUTOMATED"
+}
