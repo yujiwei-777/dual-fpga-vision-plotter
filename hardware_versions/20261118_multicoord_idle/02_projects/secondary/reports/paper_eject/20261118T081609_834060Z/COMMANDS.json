@@ -1,0 +1,267 @@
+[
+  {
+    "label": "metadata_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\metadata_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\metadata_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "metadata_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\metadata_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\top_interfaces.sv",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\secondary_top.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_eject\\tb_operator_metadata.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\metadata_lint.log",
+    "log_sha256": "D6B29F069F623A75F1D75F43A140441D2971C5A76A2928BCEC7F8A9864DA64A8",
+    "warnings": []
+  },
+  {
+    "label": "metadata_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-novopt",
+      "-suppress",
+      "12110",
+      "-lib",
+      "metadata_lib",
+      "tb_operator_metadata",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\metadata_simulation.log",
+    "log_sha256": "369454FDA520513A0AB0ACE7A48DE3CC8367C46E972667750B0DD5DCE1C20B1F",
+    "warnings": [
+      "** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.",
+      "** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_rgmii_txd'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_rgmii_txc'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_phy_rst'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_uart_tx'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_addr'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_ba'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_cke'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_odt'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_cs_n'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_ck_p'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_ck_n'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_ras_n'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_cas_n'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_we_n'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_dm'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_dqs_p'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_dqs_n'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'ddr_dq'.",
+      "** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_operator_metadata.sv(23): [TFMPC] - Missing connection for port 'O_led'."
+    ]
+  },
+  {
+    "label": "key2_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\key2_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\key2_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "key2_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\key2_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\secondary_top.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_eject\\tb_key2_operator.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\key2_lint.log",
+    "log_sha256": "F13F8F29D1C2776558F6726643E17EA36EA790B027DBEEFBA0978481C6683E3B",
+    "warnings": []
+  },
+  {
+    "label": "key2_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "key2_lib",
+      "tb_key2_operator",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\key2_simulation.log",
+    "log_sha256": "573EE018A025D794329D03C7942955AD5E7FCB26E670B09FBA19754D0C601AD4",
+    "warnings": []
+  },
+  {
+    "label": "robust_transport_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\robust_transport_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\robust_transport_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "robust_transport_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\robust_transport_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_eject\\tb_robust_transport.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\robust_transport_lint.log",
+    "log_sha256": "F76B7C6EDFE75E74DA24758CDB6ADFBD2139A7B647F82A07C2E27C653B977B01",
+    "warnings": []
+  },
+  {
+    "label": "robust_transport_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "robust_transport_lib",
+      "tb_robust_transport",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\robust_transport_simulation.log",
+    "log_sha256": "7C8F15EB3727D67EA2B5664E4ABF106F8B42EBB78CF06A849717A0AECFFD07BB",
+    "warnings": []
+  },
+  {
+    "label": "paper_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\paper_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\paper_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "paper_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\paper_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_reporter_shared_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_vector_font_rom.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_eject\\tb_paper_eject.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\paper_lint.log",
+    "log_sha256": "52A8401083C63E2311369F8F0B06E9888C1A7256CE9AD66699FBA4CF7C546AD8",
+    "warnings": []
+  },
+  {
+    "label": "paper_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "paper_lib",
+      "tb_paper_eject",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081609_834060Z\\paper_simulation.log",
+    "log_sha256": "1423870047D5AADAFB21DF250E41C02F31C01DC42B165F589469DBFF602243D7",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_eject\\tb_paper_eject.sv(63): (vopt-2685) [TFMPC] - Too few port connections for 'reporter'.  Expected 117, found 113.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_eject\\tb_paper_eject.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_airwalk_active'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_eject\\tb_paper_eject.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_eject\\tb_paper_eject.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_lines'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_eject\\tb_paper_eject.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'I_airwalk'."
+    ]
+  }
+]

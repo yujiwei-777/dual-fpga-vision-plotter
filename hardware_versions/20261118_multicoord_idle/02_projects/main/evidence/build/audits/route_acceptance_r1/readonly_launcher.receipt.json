@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-11-18T08:18:43.492341+00:00",
+  "ended_utc": "2026-11-18T08:19:15.392015+00:00",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "readonly_reimport.tcl"
+  ],
+  "cwd": "E:\\codex_main_cnn_multicoord_20261118_r1\\audits\\route_acceptance_r1",
+  "returncode": 0,
+  "log": {
+    "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly_launcher.log",
+    "sha256": "7F222469436E213663D26E15D787D64B90044092173B8363DA0ABCC9D995CEA3",
+    "bytes": 16023309
+  }
+}

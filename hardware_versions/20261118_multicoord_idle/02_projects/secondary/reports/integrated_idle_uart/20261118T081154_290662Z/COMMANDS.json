@@ -1,0 +1,40 @@
+[
+  {
+    "label": "integrated_idle_uart_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081154_290662Z\\integrated_idle_uart_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081154_290662Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081154_290662Z\\integrated_idle_uart_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "integrated_idle_uart_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081154_290662Z\\integrated_idle_uart_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081154_290662Z\\controlled_inference_interfaces.sv",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\secondary_top.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_reporter_shared_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_vector_font_rom.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081154_290662Z\\tb_common_write_uart_idle.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081154_290662Z",
+    "returncode": 2,
+    "status": "FAIL",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081154_290662Z\\integrated_idle_uart_lint.log",
+    "log_sha256": "2D215B43670DEBD01468B23DC78EB874A48F2BBFFB09C0D262F062BC27348294",
+    "warnings": []
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "status": "PREPARED",
+  "source_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118",
+  "build_root": "E:\\codex_main_cnn_multicoord_20261118_r1",
+  "source_manifest_sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+  "phase_runner_sha256": "187F43D0CD4AE7E44C6758BE45BA7993FBF076AD31A283B89E78E75ED478F753",
+  "limits_strict_less_than": {
+    "slice": 95,
+    "eram": 90,
+    "dsp": 95
+  },
+  "hardware_status": "NOT_RUN",
+  "bitgen_allowed": false
+}

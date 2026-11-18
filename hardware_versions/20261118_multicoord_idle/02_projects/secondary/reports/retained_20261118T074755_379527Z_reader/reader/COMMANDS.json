@@ -1,0 +1,56 @@
+[
+  {
+    "label": "reader_mailbox_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader\\reader_mailbox_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader\\reader_mailbox_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "reader_mailbox_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader\\reader_mailbox_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_pixel_reader.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\hxa_ddr_store.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader\\top_read_route_probe.sv",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader\\hxa_read_route_probe.sv",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader\\tb_reader.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader\\reader_mailbox_lint.log",
+    "log_sha256": "8B2CF99C4A662E8FCCC52CD0A577476B7F82FF53B8945E1384EBA4292EEC3502",
+    "warnings": []
+  },
+  {
+    "label": "reader_mailbox_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "reader_mailbox_lib",
+      "tb_pose7_real_reader",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\reader\\reader_mailbox_simulation.log",
+    "log_sha256": "441088B3F5F8696B751A88C0A38BE6C90B19FC1C730817BF31A3490F859EE92F",
+    "warnings": []
+  }
+]

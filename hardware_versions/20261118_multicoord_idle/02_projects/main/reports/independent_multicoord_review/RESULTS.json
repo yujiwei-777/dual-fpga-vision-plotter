@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "notes": [
+    "No production RTL edited by independent reviewer",
+    "Initial testbench compile used reserved SystemVerilog names expect/cell, corrected only in testbench before successful run",
+    "Simulation uses real shared decimal converter, shared token ROM, and compact panel"
+  ],
+  "checks": 71,
+  "hardware": "NOT_RUN",
+  "production_files": [
+    {
+      "sha256": "EED3A1FA44A20800E1AAAC73390F0C3532F2AF40B902E73572CAE107110D5B47",
+      "file": "osd_compact_panel.v"
+    },
+    {
+      "sha256": "59C5E4859DFD6128F2386F37F5904F9E1A81A3A7F3A9D313B4E86C8D0CF7E55D",
+      "file": "osd_operator_decimal_snapshot.v"
+    },
+    {
+      "sha256": "2DD890F814FA50C8E3A1FC135221C2FA7AA793267ACBCCB3986B69A1ED8D6885",
+      "file": "hdmi_mixer.v"
+    }
+  ],
+  "scope": "Four target centre coordinate rendering and recognition switch gating"
+}

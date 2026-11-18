@@ -1,0 +1,34 @@
+# vsim -batch -syncio -quiet -voptargs="+acc" -lib rtl_lib tb_cnn_panel_hidden -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 16:01:55 on Nov 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\reports\cnn_panel_validation\20261118T080154_952795Z\tb_cnn_panel_hidden.sv(21): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 39, found 38.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\reports\cnn_panel_validation\20261118T080154_952795Z\tb_cnn_panel_hidden.sv(21): (vopt-2718) [TFMPC] - Missing connection for port 'recognition_enable'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\reports\cnn_panel_validation\20261118T080154_952795Z\tb_cnn_panel_hidden.sv(41): (vopt-2685) [TFMPC] - Too few port connections for 'reference'.  Expected 39, found 38.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\reports\cnn_panel_validation\20261118T080154_952795Z\tb_cnn_panel_hidden.sv(41): (vopt-2718) [TFMPC] - Missing connection for port 'recognition_enable'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=4.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (6) for port 'operator_digit_addr'. The port definition is at: D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_compact_panel.v(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cnn_panel_hidden/dut File: D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/reports/cnn_panel_validation/20261118T080154_952795Z/tb_cnn_panel_hidden.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (6) for port 'operator_digit_addr'. The port definition is at: D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/01_rtl/imgq_gain_m/main/user_source/hdl_source/osd_compact_panel.v(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cnn_panel_hidden/reference File: D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/reports/cnn_panel_validation/20261118T080154_952795Z/tb_cnn_panel_hidden.sv Line: 41
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# CNN_PANEL_HIDDEN_PASS checks=64773 hidden=8066 preserved=56707 all_flags_all_modes_transition
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/reports/cnn_panel_validation/20261118T080154_952795Z/tb_cnn_panel_hidden.sv(86)
+#    Time: 3238696 ns  Iteration: 0  Instance: /tb_cnn_panel_hidden
+# End time: 16:01:57 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 6

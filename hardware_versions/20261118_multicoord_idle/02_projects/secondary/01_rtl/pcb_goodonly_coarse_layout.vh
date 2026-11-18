@@ -1,0 +1,10 @@
+// Frozen coarse addresses; all are physical 16-bit words.
+`ifndef PCB_GOODONLY_COARSE_LAYOUT_VH
+`define PCB_GOODONLY_COARSE_LAYOUT_VH
+`define PCB_COARSE_IMAGE_BANK 1'b0
+`define PCB_COARSE_IMAGE_BASE 15'd8192
+`define PCB_COARSE_OFFSET_BANK 1'b0
+`define PCB_COARSE_OFFSET_BASE 15'd12800
+`define PCB_COARSE_FEATURE_BANK 1'b1
+`define PCB_COARSE_FEATURE_BASE 15'd4876
+`endif

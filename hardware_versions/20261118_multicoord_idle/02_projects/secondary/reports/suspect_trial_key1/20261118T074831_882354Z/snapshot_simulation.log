@@ -1,0 +1,112 @@
+# vsim -batch -syncio -quiet -novopt -suppress 12110 -lib snapshot_lib tb_suspect_key1_snapshot -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 15:48:32 on Nov 18,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.tb_suspect_key1_snapshot
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.secondary_top
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.secondary_key3_board_reset
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.pll
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.PH1P_LOGIC_BUFG
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.reset_sync
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.PLL
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.secondary_ddr_wrapper
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.hxa_ddr_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.uiudp_stack
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.rgmii_interface
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.secondary_key1_action_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.vision_pixel_reader
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.hxa_secondary_link
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.vision_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.hxa_config_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.doc_copy_pipeline_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.grbl_key1_job_guard
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.grbl_key2_test_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.grbl_uart_port
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.grbl_reporter_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/snapshot_lib.grbl_shared_transport_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_suspect_key1_snapshot/dut File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv Line: 19
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'O_rgmii_txd'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'O_rgmii_txc'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'O_phy_rst'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'O_uart_tx'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_addr'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_ba'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_cke'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_odt'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_cs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_ck_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_ck_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_ras_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_cas_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_we_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_dm'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_dqs_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_dqs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'ddr_dq'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(19): [TFMPC] - Missing connection for port 'O_led'.
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# PASS FAIL caches coherent original-frame SUSPECT centre without auto writing
+# PASS inspection never auto writes
+# PASS KEY1 snapshot passes same centre and SUSPECT tag to reporter
+# PASS accepted cache is consumed once
+# PASS accepted SUSPECT snapshot survives live changes Ethernet loss and frame cancel
+# PASS repeated KEY1 cannot replay consumed PCB result
+# PASS PASS atomically clears old SUSPECT snapshot
+# PASS PASS KEY1 never inherits old SUSPECT
+# PASS REVIEW KEY1 has no suspect
+# PASS new image transaction clears cached old region before completion
+# PASS KEY1 before new completion cannot print stale region
+# PASS mode change clears cached PCB region
+# PASS no-target completion clears cached PCB region
+# PASS invalid/outside/zero-area source region never enters compressed centre cache
+# PASS invalid region retains FAIL title but sends no suspect coordinate
+# PASS invalid/outside/zero-area source region never enters compressed centre cache
+# PASS invalid region retains FAIL title but sends no suspect coordinate
+# PASS invalid/outside/zero-area source region never enters compressed centre cache
+# PASS invalid region retains FAIL title but sends no suspect coordinate
+# PASS explicit job cancel clears cached region
+# PASS KEY4 reset clears cached region
+# SUSPECT_KEY1_SNAPSHOT_PASS checks=21
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/suspect_trial_key1/20261118T074831_882354Z/tb_suspect_key1_snapshot.sv(158)
+#    Time: 1813 ns  Iteration: 0  Instance: /tb_suspect_key1_snapshot
+# End time: 15:48:36 on Nov 18,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 22

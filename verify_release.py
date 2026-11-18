@@ -147,7 +147,19 @@ def main():
     for project in suspect_identity["projects"]:
         if project["bit_sha256"] != suspect_acceptance[project["board"] + "_bit_sha256"]:
             raise ValueError("Suspect/paper bit/acceptance mismatch")
-    print("RELEASE_VERIFY_PASS: original=PASS_USER_REPORTED; five later pairs=NOT_RUN")
+    current_bundle = ROOT / "hardware_versions/20261118_multicoord_idle"
+    subprocess.run([sys.executable, "-B", str(current_bundle / "verify_package.py")], check=True)
+    current_release = ROOT / "release/20261118_multicoord_idle"
+    current_identity = json.loads((current_release / "SOURCE_IDENTITY.json").read_text(encoding="utf-8"))
+    current_acceptance = json.loads((current_release / "HARDWARE_ACCEPTANCE.json").read_text(encoding="utf-8"))
+    if current_acceptance["status"] != "NOT_RUN" or current_identity["hardware_acceptance"] != "NOT_RUN":
+        raise ValueError("Unexpected multicoord/idle hardware status")
+    if sha256(current_bundle / "PACKAGE_MANIFEST.json") != current_identity["hardware_manifest_sha256"]:
+        raise ValueError("Multicoord/idle package identity mismatch")
+    for project in current_identity["projects"]:
+        if project["bit_sha256"] != current_acceptance[project["board"] + "_bit_sha256"]:
+            raise ValueError("Multicoord/idle bit identity mismatch")
+    print("RELEASE_VERIFY_PASS: original=PASS_USER_REPORTED; six later pairs=NOT_RUN")
 
 if __name__ == "__main__":
     main()

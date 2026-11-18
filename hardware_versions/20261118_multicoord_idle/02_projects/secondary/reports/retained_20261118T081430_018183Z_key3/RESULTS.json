@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "source_manifest": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+  "suite_results": [
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-18T08:15:12.069879+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_retrained_preserved_regressions.py": "8345B2D3EBBCEBD12DABACC074CD430F6AEFCFB7A482C8D15B87DDA2C65E59E9",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_current.py": "E95FD1E58BB09FD12B7F6123FE0D3D19027F4C19206FCDBC07598D6161B42DC8",
+        "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\model\\suspect\\confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\model\\suspect\\CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\model\\suspect\\mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\retained_inputs\\secondary_doc_dirt_lowconf_factored_20261101\\tools\\run_key3_reset_unit.py": "19F998371CC5E4759A5C32D240BD4D460037B4AFC9ECD72CDA6F7E3542BABA2A",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\main\\user_source\\hdl_source\\reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\tb_key3_reset_unit.sv": "937112D691AF1C732C14CFAF6B59F58474965E32FFF651DE26D4B4DBA540F21A"
+      },
+      "commands": [
+        {
+          "label": "key3_supervisor_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "key3_supervisor_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\secondary_top.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\main\\user_source\\hdl_source\\reset_sync.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\tb_key3_reset_unit.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_lint.log",
+          "log_sha256": "716369666E5DA0E4DEB205DA76A689D132DC540CF5E400FF990D617D148BA2AD",
+          "warnings": []
+        },
+        {
+          "label": "key3_supervisor_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "key3_supervisor_lib",
+            "tb_key3_reset_unit",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_simulation.log",
+          "log_sha256": "2289C9B924653F19FE232171ECF47207E07803237FC526BF8D17C1D5BF0CB24E",
+          "warnings": []
+        }
+      ],
+      "scope": [
+        {
+          "test": "actual KEY3 whole-board supervisor and dual-clock reset_sync",
+          "records": [
+            "RESET_SYNC_CASE_RESULT checks=21 errors=0",
+            "KEY3_CASE_RESULT N=1 checks=103 errors=0",
+            "KEY3_CASE_RESULT N=4 checks=146 errors=0",
+            "KEY3_CASE_RESULT N=17 checks=341 errors=0",
+            "KEY3_CASE_RESULT N=1000000 checks=15000086 errors=0",
+            "KEY3_PRODUCTION_THRESHOLD cycles=1000000 clk_ns=20 debounce_ns=20000000 transition_edges=1000003",
+            "KEY3_RESET_UNIT_PASS cases=5"
+          ]
+        },
+        {
+          "source_manifest": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json",
+          "sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+          "bound_current_production_sources": {
+            "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73",
+            "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0"
+          }
+        }
+      ],
+      "limitations": [
+        "Does not claim external GRBL/ESP32 is reset or mechanically stopped."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    }
+  ],
+  "hardware": "NOT_RUN"
+}

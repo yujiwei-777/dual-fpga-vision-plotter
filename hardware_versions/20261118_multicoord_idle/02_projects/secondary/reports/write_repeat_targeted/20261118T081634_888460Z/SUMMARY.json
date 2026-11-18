@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "readonly_control",
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T081634_888460Z\\readonly_control\\RESULTS.json",
+      "status": "PASS",
+      "error": null
+    },
+    {
+      "name": "current_fixed",
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T081634_888460Z\\current_fixed\\RESULTS.json",
+      "status": "PASS",
+      "error": null
+    }
+  ],
+  "hardware": "NOT_RUN"
+}

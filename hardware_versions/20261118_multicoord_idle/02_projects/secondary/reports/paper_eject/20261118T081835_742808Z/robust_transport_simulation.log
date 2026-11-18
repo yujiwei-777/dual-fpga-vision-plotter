@@ -1,0 +1,37 @@
+# vsim -batch -syncio -quiet -lib robust_transport_lib tb_robust_transport -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 16:18:42 on Nov 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# CASE_PASS unowned_idle_alarm
+# CASE_PASS owned_report_idle_alarm
+# CASE_PASS doc_prepare_alarm
+# CASE_PASS alarm_same_edge_report_start_clear
+# CASE_PASS alarm_same_edge_doc_start_clear
+# CASE_PASS clear_and_idle_cannot_rearm_alarm
+# CASE_PASS repeat_alarm_stays_locked
+# CASE_PASS key4_requires_fresh_hold_and_idle
+# CASE_PASS post_reset_alarm_rejects_late_idle
+# CASE_PASS key4_without_fresh_idle_times_out
+# CASE_PASS normal_last_ok_no_idle_poll
+# CASE_PASS reset_still_locks_idle
+# ROBUST_TRANSPORT_PASS cases=12 checks=51
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_eject/tb_robust_transport.sv(234)
+#    Time: 8216 ns  Iteration: 0  Instance: /tb_robust_transport
+# End time: 16:18:44 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

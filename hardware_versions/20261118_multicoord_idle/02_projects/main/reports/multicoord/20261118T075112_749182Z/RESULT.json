@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "source_manifest_sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+  "inputs": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tools\\run_multicoord_validation.py": "AABD43434C6F6707CE5F7437E2D35C4260743AF3410F31C454A905A3CE3172A9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_glyphs.vh": "369CB526EF0DF9723FE513A9AC0FF18C7767560DE7B1D0E9554D95D3136E8873",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\audit_multicoord_idle_20261118\\tb_multicoord.sv": "D5A07FDC2A6E7CF013760D32899AB5194C7B79FD6847D9B0404291C3BB75EEEF",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_operator_decimal_snapshot.v": "59C5E4859DFD6128F2386F37F5904F9E1A81A3A7F3A9D313B4E86C8D0CF7E55D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v": "EED3A1FA44A20800E1AAAC73390F0C3532F2AF40B902E73572CAE107110D5B47",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v": "F56FA766988BE752A7E878BD674315BD6F7D445AEC734DE62ECB65509BB3824A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v": "B6C31B7777898A5E70334B67CB61EFCE7F863355F582EC7E7D1D2CBD1953402C",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\tb_multicoord_pixels.sv": "3E45882ECF3D9C33864B87FE6F4A6A31056D51C1C75DCB864C99F13DA6DE5B81",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tests\\dynamic_osd\\tb_dynamic_status.sv": "510FA0858FF9E01C9315AAF10C45BC81E345FB847B31B3A733627DE5CCEE1572",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_packet_codec.v": "E3B16BEE86D4143A0DC592BCF286DA9B4BA2C8D48854813B0C8812EB1723ADFD",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_main_link.v": "6DC999C311E0A14F6420E8012C6597740B7CEDAE7E28AEE82D80565B8704EE38",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tests\\dynamic_osd\\tb_type21_maintenance.sv": "75AB84F972828C2DDA3C6D3D41538E6F98CF4C014AB6FC2EB7F98D6EFC5FCD5E"
+  },
+  "tests": {
+    "coordinates": {
+      "status": "PASS",
+      "marker": "MULTICOORD_PASS",
+      "steps": [
+        {
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "rtl_lib"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\coordinates\\vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "rtl_lib",
+            "+incdir+D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_operator_decimal_snapshot.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\audit_multicoord_idle_20261118\\tb_multicoord.sv"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\coordinates\\compile.log",
+          "sha256": "9559C4BAF07337B13C6A22F247DAA3D704BBD7C6501370BBB1CAFFCFBC3EEEBC"
+        },
+        {
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-quiet",
+            "-lib",
+            "rtl_lib",
+            "tb_multicoord",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\coordinates\\simulation.log",
+          "sha256": "44984710D44E925C3F8A4F9897E07449584F07951A6C0543107650F3AD362E00"
+        }
+      ]
+    },
+    "pixels": {
+      "status": "PASS",
+      "marker": "MULTICOORD_PIXEL_PIPELINE_PASS",
+      "steps": [
+        {
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "rtl_lib"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\pixels\\vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "rtl_lib",
+            "+incdir+D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_operator_decimal_snapshot.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\tb_multicoord_pixels.sv"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\pixels\\compile.log",
+          "sha256": "4E5F525E8442E57EE5D447035AA38C1EB0607810E9A00FE4449CFE8739616E5D"
+        },
+        {
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-quiet",
+            "-lib",
+            "rtl_lib",
+            "tb_multicoord_pixels",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\pixels\\simulation.log",
+          "sha256": "C2491CFBBAB78F6E834507E4900A6DB3314D9104E41CB5BA9340276CFB4D755C"
+        }
+      ]
+    },
+    "operator": {
+      "status": "PASS",
+      "marker": "DYNAMIC_OSD_PASS",
+      "steps": [
+        {
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "rtl_lib"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\operator\\vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "rtl_lib",
+            "+incdir+D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tests\\dynamic_osd\\tb_dynamic_status.sv"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\operator\\compile.log",
+          "sha256": "5E6F6B152C8663B8FE2E5CF954670BFFF1E2C031166538861655EE63AC3F92FD"
+        },
+        {
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-quiet",
+            "-lib",
+            "rtl_lib",
+            "tb_dynamic_status",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\operator\\simulation.log",
+          "sha256": "4BF63C2D0A13BC628923659B2DEE3FCBDE7DB208597905BE693BDD2685B4986C"
+        }
+      ]
+    },
+    "protocol": {
+      "status": "PASS",
+      "marker": "TYPE21_MAINTENANCE_PASS",
+      "steps": [
+        {
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "rtl_lib"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\protocol\\vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "rtl_lib",
+            "+incdir+D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_packet_codec.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_main_link.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tests\\dynamic_osd\\tb_type21_maintenance.sv"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\protocol\\compile.log",
+          "sha256": "C65728AED16C7C7C22703438744B08ED1A28E6A6812CFD864D90E9957021987D"
+        },
+        {
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-quiet",
+            "-lib",
+            "rtl_lib",
+            "tb_type21_maintenance",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\multicoord\\20261118T075112_749182Z\\protocol\\simulation.log",
+          "sha256": "61BF8251E4DF31A7219FCA94BC98DA9CB697A4D7E1F066D2F0795469D04B657A"
+        }
+      ]
+    }
+  },
+  "hardware_status": "NOT_RUN"
+}

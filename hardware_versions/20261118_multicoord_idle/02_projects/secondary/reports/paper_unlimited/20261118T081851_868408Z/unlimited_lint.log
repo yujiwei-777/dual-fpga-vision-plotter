@@ -1,0 +1,15 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 16:18:51 on Nov 18,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\paper_unlimited\20261118T081851_868408Z\unlimited_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\grbl_reporter_shared_candidate.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\grbl_shared_transport_candidate.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\grbl_line_formatter.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\grbl_response_parser.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\grbl_vector_font_rom.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\tests\paper_unlimited\tb_paper_unlimited.sv 
+-- Compiling module grbl_reporter_shared_candidate
+-- Compiling module grbl_shared_transport_candidate
+-- Compiling module grbl_decimal
+-- Compiling module grbl_line_formatter
+-- Compiling module grbl_response_parser
+-- Compiling module grbl_vector_font_rom
+-- Compiling module tb_paper_unlimited
+
+Top level modules:
+	tb_paper_unlimited
+End time: 16:18:52 on Nov 18,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

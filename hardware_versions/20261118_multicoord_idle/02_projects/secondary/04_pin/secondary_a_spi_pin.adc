@@ -1,0 +1,14 @@
+# Secondary-A <-> Secondary-B J1 SPI handoff.
+# The J1 numbers are board-level references; the LOCATION values are the
+# verified PH1P35MDG324 GPIOs reserved for the three-board experiment.
+set_pin_assignment { I_sys_clk } { LOCATION = C4; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment { O_spi_sclk }  { LOCATION = E16; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { O_spi_mosi }  { LOCATION = E17; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { I_spi_miso }  { LOCATION = F13; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+set_pin_assignment { O_spi_cs_n }  { LOCATION = F14; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment { O_spi_frame } { LOCATION = F18; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+set_pin_assignment { I_spi_ready } { LOCATION = G17; IOSTANDARD = LVCMOS33; PULLTYPE = PULLDOWN; }
+
+# The bridge-only top is used as an RTL/synthesis target.  Its clock/reset
+# inputs are intentionally left to the board integration top; do not copy a
+# guessed reset pin into the production secondary constraint file.

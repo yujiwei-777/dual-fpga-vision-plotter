@@ -1,0 +1,87 @@
+[
+  {
+    "label": "vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\rtl_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\rtl_lib",
+      "+define+DOC_BEHAVIORAL_RAM",
+      "+define+CONFIRM",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\doc_copy_pipeline_shared_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\doc_image_frontend.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\doc_stroke_planner.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\doc_stroke_bram.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\doc_machine_map.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\doc_grbl_plotter_shared_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\lint.log",
+    "log_sha256": "16603B84C9D7484A93EF80C37C686CC26B80940D8956E3B61FFFD842B84979D4",
+    "warnings": []
+  },
+  {
+    "label": "simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-voptargs=+acc",
+      "-lib",
+      "rtl_lib",
+      "tb_doc_key1_integrated",
+      "-do",
+      "onerror {quit -code 2}; onbreak {quit -code 3}; run -all; quit -code 0"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\simulation.log",
+    "log_sha256": "E5DF9C7D3B77CB4C77BEF8110DC48CCEE86B7F12AC363293B6A422F32F6C2086",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 93, found 71.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_airwalk'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_total_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_total_lines'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'airwalk_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'airwalk_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'draw_admitted'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_state'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_acked_lines'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_job_id'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'frame_lock'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'planned_distance'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'baseline_distance'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'paper_corners'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'rt_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'rt_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'tx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'tx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'status_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'status_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'prepare_cancel_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'prepare_cancel'."
+    ]
+  }
+]

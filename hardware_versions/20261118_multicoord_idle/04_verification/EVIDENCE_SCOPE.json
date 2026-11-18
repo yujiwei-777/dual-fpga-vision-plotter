@@ -1,0 +1,125 @@
+{
+  "hardware": "NOT_RUN",
+  "rebuild_on_recipient_machine": "NOT_RUN",
+  "omitted_vendor_checkpoints": [
+    {
+      "board": "main",
+      "path": "01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_elaborate.db",
+      "bytes": 22042046,
+      "sha256": "AA36FF44C9476CD1220E48F802911466268781586FD545991A680100296394A8",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "main",
+      "path": "01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_gate.db",
+      "bytes": 17281992,
+      "sha256": "6D49BE6467CE59B27D55B155436600B4CDBB01B867BB37B0EFFCAEFAC68CDCF0",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "main",
+      "path": "01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_place.db",
+      "bytes": 22996800,
+      "sha256": "E4C4BD5B986BAFAF1680D6B648CAB65E7B2DA37191CB98263F1E92D43D3DB8C3",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "main",
+      "path": "01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.db",
+      "bytes": 27771478,
+      "sha256": "68B4A5DAF4F24169AB218CDC93149AFABED97ADC75883AA893C3D51D106685C8",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "main",
+      "path": "01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_rtl.db",
+      "bytes": 15861540,
+      "sha256": "E28AE60F67275151812FFD2DA4AACA913BAAB6230CB8E6234AE66E1AF46074DA",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "secondary",
+      "path": "runs/phy_1/secondary_cnn_multibox_place.db",
+      "bytes": 22039722,
+      "sha256": "36602C94A7ACC90C790D23342A60565227643217568B963CBEA1305B3DCDA97E",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "secondary",
+      "path": "runs/phy_1/secondary_cnn_multibox_place_checkpoint.db",
+      "bytes": 22036270,
+      "sha256": "C914B1BFED72A20E8623E20AA054F86842EBA0EAC6639108A78A4149115F196F",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "secondary",
+      "path": "runs/phy_1/secondary_cnn_multibox_pr.db",
+      "bytes": 26497556,
+      "sha256": "B7874B37804140991131843DC5DA6E0330A2428F70861AAD612EDA289A629B0A",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "secondary",
+      "path": "runs/syn_1/secondary_cnn_multibox_elaborate.db",
+      "bytes": 25171548,
+      "sha256": "0884B1065EA0F2B3F0ECC032C48BC7BC940080CCFC4EE9225377986AE595A985",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "secondary",
+      "path": "runs/syn_1/secondary_cnn_multibox_gate.db",
+      "bytes": 16388588,
+      "sha256": "999A0A8D51E97F0055557FE1ABEAB055AF09F95D1E379024E3D538EF908CDEDE",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "secondary",
+      "path": "runs/syn_1/secondary_cnn_multibox_mapped_before_proof.db",
+      "bytes": 16383830,
+      "sha256": "AEF755A9096D066B4922F06D53B1A68DF789CFA3E98FB37AE7F1B9FD8579B67C",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    },
+    {
+      "board": "secondary",
+      "path": "runs/syn_1/secondary_cnn_multibox_rtl.db",
+      "bytes": 15898488,
+      "sha256": "5C06CBACD332254B78A91BC254CFA9ACE3989A989AB765C0EB555345032022AB",
+      "reason": "vendor_checkpoint_omitted_from_source_handoff"
+    }
+  ],
+  "source_frozen_conflicts": [
+    {
+      "board": "main",
+      "path": "tools/release.py",
+      "reason": "frozen input kept; mutable source preserved as evidence"
+    },
+    {
+      "board": "main",
+      "path": "tools/run_cnn_panel_validation.py",
+      "reason": "frozen input kept; mutable source preserved as evidence"
+    },
+    {
+      "board": "main",
+      "path": "tools/run_paper_status_validation.py",
+      "reason": "frozen input kept; mutable source preserved as evidence"
+    },
+    {
+      "board": "main",
+      "path": "tools/run_regression.py",
+      "reason": "frozen input kept; mutable source preserved as evidence"
+    },
+    {
+      "board": "secondary",
+      "path": "tools/physical_capacity/validate_device_capacity.py",
+      "reason": "frozen input kept; mutable source preserved as evidence"
+    },
+    {
+      "board": "secondary",
+      "path": "tools/td_release_audit.py",
+      "reason": "frozen input kept; mutable source preserved as evidence"
+    }
+  ],
+  "excluded": "Simulator compiled libraries/waveforms/cache and vendor databases. Current readable reports and fixtures retained.",
+  "historical_paths": "Original evidence retains absolute paths. Use source mapping and prepare_projects.py.",
+  "package_does_not_rerun_full_hardware_signoff": true
+}

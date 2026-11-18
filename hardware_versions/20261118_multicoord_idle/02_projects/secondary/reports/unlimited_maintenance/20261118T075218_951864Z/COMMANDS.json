@@ -1,0 +1,63 @@
+[
+  {
+    "label": "unlimited_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T075218_951864Z\\unlimited_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T075218_951864Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T075218_951864Z\\unlimited_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "unlimited_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T075218_951864Z\\unlimited_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_reporter_shared_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_vector_font_rom.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_unlimited_maintenance.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T075218_951864Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T075218_951864Z\\unlimited_lint.log",
+    "log_sha256": "00CC4F02CA33343340607BCE69471CC71A53CCE06E241A026E4E50053ED10301",
+    "warnings": []
+  },
+  {
+    "label": "unlimited_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "unlimited_lib",
+      "tb_unlimited_maintenance",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T075218_951864Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T075218_951864Z\\unlimited_simulation.log",
+    "log_sha256": "30F8EA5AAFF7A6FA17C291E2CA330FE09032E890E5A16791043E912AC2522C28",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_unlimited_maintenance.sv(61): (vopt-2685) [TFMPC] - Too few port connections for 'reporter'.  Expected 117, found 113.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_unlimited_maintenance.sv(61): (vopt-2718) [TFMPC] - Missing connection for port 'O_airwalk_active'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_unlimited_maintenance.sv(61): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_unlimited_maintenance.sv(61): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_lines'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_unlimited_maintenance.sv(61): (vopt-2718) [TFMPC] - Missing connection for port 'I_airwalk'."
+    ]
+  }
+]

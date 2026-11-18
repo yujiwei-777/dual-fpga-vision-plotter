@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-11-18T08:18:41.403209+00:00",
+  "ended_utc": "2026-11-18T08:18:42.381268+00:00",
+  "command": [
+    "D:\\conda\\python.exe",
+    "-B",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\tools\\td_release_audit.py",
+    "gate",
+    "--root",
+    "E:\\codex_main_cnn_multicoord_20261118_r1",
+    "--run",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8",
+    "--name",
+    "camera_to_dsi_display_720p60_cnn_multibox",
+    "--config",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\tools\\release_audit_config.json",
+    "--snapshot",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8\\source_snapshot.json",
+    "--output",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\audits\\route_acceptance_r1\\release_gate.json",
+    "--log",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\logs\\synth.log",
+    "--log",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\logs\\place.log",
+    "--log",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\logs\\route.log"
+  ],
+  "cwd": "E:\\codex_main_cnn_multicoord_20261118_r1",
+  "returncode": 0,
+  "log": {
+    "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/generic_gate.log",
+    "sha256": "3022333E239FFF2E61FCEBF30FE5CE81975F66DAFE7C840A09CC11BB496D2806",
+    "bytes": 556
+  }
+}

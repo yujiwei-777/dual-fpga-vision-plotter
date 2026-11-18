@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE_DIAGNOSTIC_NOT_RUN",
+  "bit": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\artifacts\\dual_fpga_secondary_20261118_plotter_idle_preflight_diagnostic.bit",
+    "sha256": "E34B64D98152F4D15B06E995021CFDF82DAE9E1EA9DFF33BAA5420135F32A201"
+  },
+  "compatible_main_bit": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\artifacts\\dual_fpga_main_20261118_cnn_multicoord_diagnostic.bit",
+    "sha256": "52E2A1E8F2FC0B58873BBEE897E4D2F01BDABB1624AD9D98F38E19718DA66718"
+  },
+  "hardware_status": "NOT_RUN"
+}

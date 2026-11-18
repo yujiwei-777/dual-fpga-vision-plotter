@@ -1,0 +1,54 @@
+[
+  {
+    "label": "key3_supervisor_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "key3_supervisor_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\secondary_top.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\main\\user_source\\hdl_source\\reset_sync.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\tb_key3_reset_unit.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_lint.log",
+    "log_sha256": "716369666E5DA0E4DEB205DA76A689D132DC540CF5E400FF990D617D148BA2AD",
+    "warnings": []
+  },
+  {
+    "label": "key3_supervisor_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "key3_supervisor_lib",
+      "tb_key3_reset_unit",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_simulation.log",
+    "log_sha256": "2289C9B924653F19FE232171ECF47207E07803237FC526BF8D17C1D5BF0CB24E",
+    "warnings": []
+  }
+]

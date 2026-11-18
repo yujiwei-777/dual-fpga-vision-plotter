@@ -1,0 +1,151 @@
+# vsim -batch -syncio -quiet -novopt -suppress 12110 -lib continuous_key1_lib tb_continuous_cnn_key1 -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 15:54:09 on Nov 18,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.tb_continuous_cnn_key1
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.secondary_top
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.secondary_key3_board_reset
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.pll
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.PH1P_LOGIC_BUFG
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.reset_sync
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.PLL
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.secondary_ddr_wrapper
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.hxa_ddr_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.uiudp_stack
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.rgmii_interface
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.secondary_key1_action_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.vision_pixel_reader
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.hxa_secondary_link
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.vision_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.hxa_config_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.doc_copy_pipeline_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.grbl_key1_job_guard
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.grbl_key2_test_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.grbl_uart_port
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.grbl_reporter_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/continuous_key1_lib.grbl_shared_transport_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_continuous_cnn_key1/dut File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv Line: 28
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'O_rgmii_txd'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'O_rgmii_txc'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'O_phy_rst'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'O_uart_tx'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_addr'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_ba'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_cke'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_odt'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_cs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_ck_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_ck_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_ras_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_cas_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_we_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_dm'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_dqs_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_dqs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'ddr_dq'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(28): [TFMPC] - Missing connection for port 'O_led'.
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# KEY1_BEGIN purpose=0 can=1 armed=1 preview=1 slot=1
+# KEY1_HELD eligible=1 ctx=0 pending=1 can=1 long=0
+# PASS idle short press accepts CNN write
+# PASS accepted CNN snapshot contains original name confidence centre
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# KEY1_BEGIN purpose=0 can=1 armed=1 preview=1 slot=1
+# KEY1_HELD eligible=1 ctx=0 pending=1 can=1 long=0
+# PASS CNN inference already busy at press begins
+# PASS accepted CNN snapshot contains original name confidence centre
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS new CNN busy interval during held KEY1
+# PASS accepted CNN snapshot contains original name confidence centre
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS new ordinary frame during held KEY1
+# PASS accepted CNN snapshot contains original name confidence centre
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS valid new result during held key preserves admission
+# PASS accepted CNN snapshot contains original name confidence centre
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS physical release generated one short pulse
+# PASS valid completion coincident with short pulse
+# PASS accepted CNN snapshot contains original name confidence centre
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS no-target while held cancels write and clears cache
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS physical release generated one short pulse
+# PASS no-target simultaneous with release cannot print stale result
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS mode change while held cannot defer CNN write
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS explicit cancel during held KEY1 cannot write
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS session change during held KEY1 clears stale result
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS real recovery interval during held KEY1 cancels eligibility
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS another report during held KEY1 cancels eligibility
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS fresh unsampled preview not falsely frozen
+# KEY1_BEGIN purpose=0 can=0 armed=1 preview=0 slot=1
+# KEY1_HELD eligible=0 ctx=0 pending=1 can=0 long=0
+# PASS capable UI requires coherent sampled preview
+# PASS history clear deasserts with stable ordinary session
+# PASS seeded locked CNN result can start
+# PASS long report KEY1 does not print or start paper load
+# CONTINUOUS_CNN_KEY1_VALIDATED fixed=1 checks=54
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/continuous_cnn_key1/20261118T075409_660859Z/tb_continuous_cnn_key1.sv(158)
+#    Time: 4349 ns  Iteration: 0  Instance: /tb_continuous_cnn_key1
+# End time: 15:54:13 on Nov 18,2026, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 22

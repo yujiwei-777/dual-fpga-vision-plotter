@@ -1,0 +1,9 @@
+PASS readonly_control/write_repeat_vlib
+PASS readonly_control/write_repeat_lint
+PASS readonly_control/write_repeat_simulation
+{"name": "readonly_control", "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\readonly_control\\RESULTS.json", "status": "PASS", "error": null}
+PASS current_fixed/write_repeat_vlib
+PASS current_fixed/write_repeat_lint
+PASS current_fixed/write_repeat_simulation
+{"name": "current_fixed", "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\RESULTS.json", "status": "PASS", "error": null}
+{"status": "PASS", "summary": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\SUMMARY.json"}

@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "steps": [
+    {
+      "name": "main_vlib",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\main_vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "name": "main_lint",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\main_lint.log",
+      "sha256": "018161B4E35459EF0579DE308072DCE71ADE8C1FC27E76C29B7027E07A787F71"
+    },
+    {
+      "name": "main_tb_multicoord_2",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\main_tb_multicoord_2.log",
+      "sha256": "B56B838A9B5B8E1857647D21CF58DC4F945E57C018E9DD2C2C9B5E76CE9602C2"
+    },
+    {
+      "name": "main_tb_multicoord_pixels_3",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\main_tb_multicoord_pixels_3.log",
+      "sha256": "F3CCCB5C60E6F0409D4FD88812697C35B9B06CD37C88E935DB1D70DE3A0477EB"
+    },
+    {
+      "name": "uart_vlib",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "name": "uart_lint",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_lint.log",
+      "sha256": "7C6FB3C3DA8FE969F5CF311B9A750A1DB1DEE81BDAC534A02CF6CC4109915315"
+    },
+    {
+      "name": "uart_tb_uart_idle_monitor_6",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_idle_monitor_6.log",
+      "sha256": "7CE2829301023BB197E6F147D4448C9D5900A2459BFDF20524E754F1E27093C1"
+    },
+    {
+      "name": "uart_tb_uart_idle_monitor_7",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_idle_monitor_7.log",
+      "sha256": "1DC45EF0715E391F9AD8AB7ED0EAB26FF908461ABAD7370DB5382BF6F9E41265"
+    },
+    {
+      "name": "uart_tb_uart_idle_monitor_8",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_idle_monitor_8.log",
+      "sha256": "5A7CD693485C16CDD35E2DD692CB091BD47361423FFD622E0BBABAEC72458B1A"
+    },
+    {
+      "name": "uart_tb_uart_idle_monitor_9",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_idle_monitor_9.log",
+      "sha256": "D7F3F1A88B6A1C275E8427A77CCB53141347B77D71F987B6FA16A45EAB733F79"
+    },
+    {
+      "name": "uart_tb_uart_idle_monitor_10",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_idle_monitor_10.log",
+      "sha256": "D0EA06913F8616E605CB066F7C98D116D95DB59F45F70A641502EEA099CBE5D6"
+    },
+    {
+      "name": "uart_tb_uart_idle_monitor_11",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_idle_monitor_11.log",
+      "sha256": "90A5B94406652ACB9C899D104CEDDBB9862E396D799DD4ADDC99A06B99E470BB"
+    },
+    {
+      "name": "uart_tb_uart_idle_monitor_12",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_idle_monitor_12.log",
+      "sha256": "029E05384A96D2C61BED39EB38612AB93B9C762D5C902579E2F772434889B51B"
+    },
+    {
+      "name": "uart_tb_uart_idle_monitor_13",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_idle_monitor_13.log",
+      "sha256": "B2EB03EE91BE7F7166E99AC30D3695C688371B4B7A0447E6CF20FE705EEF8ED4"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_14",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_14.log",
+      "sha256": "763CF68E9673A2F578CDE4FADD151829D1FF0E1704E6CE82D8A67EC6CA9B9C8D"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_15",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_15.log",
+      "sha256": "3C6645347B8E813A88421EBE661064CAB605429F91377F33A91CDC93E8E94D40"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_16",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_16.log",
+      "sha256": "48030BF0C6089EEF8AC4D4AF7B1C31D69F7F5E362867243DB135079D1231916C"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_17",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_17.log",
+      "sha256": "911061D01F04DC2E92329FC08CB7BAA014BA58AE622477140BCFBFAF7B834FE9"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_18",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_18.log",
+      "sha256": "4227F99CED51B5081FCEE9C5CDAA6CFC5447EB510441D09FEBEC99FA64F9FA28"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_19",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_19.log",
+      "sha256": "952061A1DF9B68780467226751A48C75BF8E9289FEFF633426FC6A234E3B0C12"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_20",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_20.log",
+      "sha256": "DAE497CA9C49E78DD57250F1C7421E08EEB0F8E6FDCBF891FDB8EA7DE49A0801"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_21",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_21.log",
+      "sha256": "CD86AEF4D94FB5893EFB602DC22E02AD5E5E41D3A319F53D72562232950A0C10"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_22",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_22.log",
+      "sha256": "6C09C25B9A94C43925D0D62F96E7E20710D75D7A75471FD18188B3256634BC57"
+    },
+    {
+      "name": "uart_tb_uart_startup_retry_23",
+      "status": "PASS",
+      "log": "E:\\fpga_release_20261118_multicoord_idle\\recipient_smoke\\uart_tb_uart_startup_retry_23.log",
+      "sha256": "0710B6A16FF848E15126A8F24104407AB912D765F8EC8F0511B8079B3093713E"
+    }
+  ],
+  "error": null,
+  "source_hashes": {
+    "02_projects\\main\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_operator_decimal_snapshot.v": "59C5E4859DFD6128F2386F37F5904F9E1A81A3A7F3A9D313B4E86C8D0CF7E55D",
+    "02_projects\\main\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v": "EED3A1FA44A20800E1AAAC73390F0C3532F2AF40B902E73572CAE107110D5B47",
+    "02_projects\\main\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v": "F56FA766988BE752A7E878BD674315BD6F7D445AEC734DE62ECB65509BB3824A",
+    "02_projects\\main\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v": "B6C31B7777898A5E70334B67CB61EFCE7F863355F582EC7E7D1D2CBD1953402C",
+    "02_projects\\main\\tests\\portable\\tb_multicoord.sv": "D5A07FDC2A6E7CF013760D32899AB5194C7B79FD6847D9B0404291C3BB75EEEF",
+    "02_projects\\main\\reports\\multicoord\\20261118T075112_749182Z\\tb_multicoord_pixels.sv": "3E45882ECF3D9C33864B87FE6F4A6A31056D51C1C75DCB864C99F13DA6DE5B81",
+    "02_projects\\secondary\\01_rtl\\grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+    "02_projects\\secondary\\01_rtl\\grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+    "02_projects\\secondary\\tests\\paper_unlimited\\tb_uart_idle_monitor.sv": "479F46142785FC42D81DD2F578ED882F24B1AF80E10CD5CC185C39B6589C6608",
+    "02_projects\\secondary\\tests\\paper_unlimited\\tb_uart_startup_retry.sv": "4D2CF79D63C40851E5309710956095D4B444147152F3CEEF2D524FE00C45D724"
+  },
+  "hardware": "NOT_RUN",
+  "scope": "20 directed cases only; not full system or physical signoff."
+}

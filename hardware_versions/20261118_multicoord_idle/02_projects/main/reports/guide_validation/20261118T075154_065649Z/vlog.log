@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 15:51:54 on Nov 18,2026
+vlog -sv -lint -work rtl_lib D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source\doc_copy_overlay.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\reports\guide_validation\20261118T075154_065649Z\doc_copy_overlay_control.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\tests\tb_doc_center80_guide.sv 
+-- Compiling module doc_copy_overlay
+-- Compiling module doc_copy_overlay_control
+-- Compiling module tb_doc_center80_guide
+
+Top level modules:
+	tb_doc_center80_guide
+End time: 15:51:54 on Nov 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

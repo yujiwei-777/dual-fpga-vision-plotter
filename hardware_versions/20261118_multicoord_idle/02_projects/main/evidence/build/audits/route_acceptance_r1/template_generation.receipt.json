@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-11-18T08:18:42.685164+00:00",
+  "ended_utc": "2026-11-18T08:18:43.162169+00:00",
+  "command": [
+    "D:\\conda\\python.exe",
+    "-B",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\tools\\td_release_audit.py",
+    "reimport-template",
+    "--root",
+    "E:\\codex_main_cnn_multicoord_20261118_r1",
+    "--run",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8",
+    "--name",
+    "camera_to_dsi_display_720p60_cnn_multibox",
+    "--audit-dir",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\audits\\route_acceptance_r1",
+    "--output",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\audits\\route_acceptance_r1\\readonly_reimport.tcl"
+  ],
+  "cwd": "E:\\codex_main_cnn_multicoord_20261118_r1",
+  "returncode": 0,
+  "log": {
+    "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/template_generation.log",
+    "sha256": "6894484BB40D2868AD5D3F913B087384933C90367C3C4AF453FA6246E592D23A",
+    "bytes": 91
+  }
+}

@@ -1,0 +1,33 @@
+# vsim -batch -quiet -lib rtl_lib tb_type21_maintenance -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 15:51:19 on Nov 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# TYPE21_VALID maintenance=0
+# TYPE21_VALID maintenance=1
+# TYPE21_VALID maintenance=2
+# TYPE21_VALID maintenance=3
+# TYPE21_VALID maintenance=4
+# TYPE21_VALID maintenance=5
+# TYPE21_VALID maintenance=6
+# TYPE21_VALID maintenance=7
+# TYPE21_MAINTENANCE_PASS valid_0_to_7 reject_8_and_255 real_crc_session
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/tests/dynamic_osd/tb_type21_maintenance.sv(108)
+#    Time: 25677 ns  Iteration: 0  Instance: /tb_type21_maintenance
+# End time: 15:51:22 on Nov 18,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

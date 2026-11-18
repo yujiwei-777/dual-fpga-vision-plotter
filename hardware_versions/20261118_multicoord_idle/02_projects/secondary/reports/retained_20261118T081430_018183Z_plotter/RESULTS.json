@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "source_manifest": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+  "suite_results": [
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-18T08:14:50.944223+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_retrained_preserved_regressions.py": "8345B2D3EBBCEBD12DABACC074CD430F6AEFCFB7A482C8D15B87DDA2C65E59E9",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_current.py": "E95FD1E58BB09FD12B7F6123FE0D3D19027F4C19206FCDBC07598D6161B42DC8",
+        "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\model\\suspect\\confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\model\\suspect\\CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\model\\suspect\\mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\retained_inputs\\secondary_pcb_pose7_goodonly_ccl_20261102\\reports\\pose7\\tb_pose7_plotter.sv": "87B6650E637A8C7166FBA56896FF7EA2ACBBA18802DFCDE43F9503CF49A2B9D4",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\tb_pose7_plotter.sv": "87B6650E637A8C7166FBA56896FF7EA2ACBBA18802DFCDE43F9503CF49A2B9D4"
+      },
+      "commands": [
+        {
+          "label": "transport_vlib",
+          "command": [
+            "E:\\model\\win64\\vlib.exe",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\transport_lib"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\transport_vlib.log",
+          "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "warnings": []
+        },
+        {
+          "label": "transport_lint",
+          "command": [
+            "E:\\model\\win64\\vlog.exe",
+            "-sv",
+            "-lint",
+            "-work",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\transport_lib",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\tb_pose7_plotter.sv"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\transport_lint.log",
+          "log_sha256": "077CF09B9F39514AD59071336708F73EC438EE7346DC662105015D16A88239B3",
+          "warnings": []
+        },
+        {
+          "label": "transport_simulation",
+          "command": [
+            "E:\\model\\win64\\vsim.exe",
+            "-batch",
+            "-syncio",
+            "-quiet",
+            "-lib",
+            "transport_lib",
+            "tb_pose7_plotter",
+            "-do",
+            "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\transport_simulation.log",
+          "log_sha256": "BF498A67AC95D0D833B847A2DB36CCCA65B1AA9BE6574C8E598BF43C8937CD57",
+          "warnings": [
+            "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\tb_pose7_plotter.sv(29): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 92, found 91.",
+            "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\tb_pose7_plotter.sv(29): (vopt-2718) [TFMPC] - Missing connection for port 'R_idle_done'."
+          ]
+        }
+      ],
+      "scope": [
+        {
+          "test": "actual shared report/document transport",
+          "cases": [
+            "PLOTTER_CASE_PASS name=KEY2_first_final_ok_no_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_second_no_KEY3_uart_unaccepted_retry",
+            "PLOTTER_CASE_PASS name=CNN_PCB_multiline_ack_serialization",
+            "PLOTTER_CASE_PASS name=DOC_final_ok_owner_withdrawal_no_final_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_after_DOC_owner_switch",
+            "PLOTTER_CASE_PASS name=DOC_lost_ok_no_motion_replay_safe_stop",
+            "PLOTTER_CASE_PASS name=REPORT_lost_ok_no_motion_replay",
+            "PLOTTER_CASE_PASS name=REPORT_KEY4_stop_Hold_reset_fresh_Idle",
+            "PLOTTER_CASE_PASS name=REPORT_Alarm_rearm_required",
+            "PLOTTER_CASE_PASS name=REPORT_Reset_invalidates_coordinates",
+            "PLOTTER_CASE_PASS name=REPORT_UART_ready_loss_is_fault",
+            "PLOTTER_CASE_PASS name=DOC_KEY4_reset_Hold_fresh_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_after_DOC_stop_recovery"
+          ]
+        },
+        {
+          "source_manifest": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json",
+          "sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+          "bound_current_production_sources": {
+            "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+            "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+            "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0"
+          }
+        }
+      ],
+      "limitations": [
+        "Producer claims are controlled; HXA and physical external machine require separate tests.",
+        "GRBL ok acknowledges command acceptance, not mechanical standstill."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    }
+  ],
+  "hardware": "NOT_RUN"
+}

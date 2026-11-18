@@ -1,0 +1,694 @@
+{
+  "schema_version": 1,
+  "candidate_root": "E:/codex_main_cnn_multicoord_20261118_r1",
+  "generated_utc": "2026-11-18T08:19:21.182599+00:00",
+  "status": "PASS_CURRENT_BUILD_STATIC_AUDIT",
+  "passed": true,
+  "failures": [],
+  "hardware_status": "NOT_RUN",
+  "scope": "Current-build static evidence only; no functional simulation, DDR runtime calibration or hardware signoff claimed",
+  "source_manifest_file_sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+  "source_snapshot_manifest_sha256": "788375806A6D209D0B2004EB7B52BB25FCC464574E8A487D96D8B8FAE6999B2C",
+  "frozen_sources": {
+    "checked_files": 244,
+    "hash_failures": []
+  },
+  "route_gate": {
+    "generic_gate": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/release_gate.json",
+      "sha256": "621995CF1C84DFDC19DA57B39C0CE1A39DC9CE2D7BB189EA9E262AD48E0C881F",
+      "bytes": 8831
+    },
+    "generic_passed": true,
+    "native_log": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/logs/route.log",
+      "sha256": "B17D63AC012551883EED729D7FA2D6399053792DDD51C97E8C66133378439D7E",
+      "bytes": 128710
+    },
+    "independent_log_scan": {
+      "errors": [],
+      "missing_rom": [],
+      "passed": true
+    },
+    "timing": {
+      "passed": true,
+      "metrics_ns": {
+        "SWNS": 0.314,
+        "STNS": 0.0,
+        "HWNS": 0.02,
+        "HTNS": 0.0
+      },
+      "errors": []
+    },
+    "area": {
+      "passed": true,
+      "resources": {
+        "slice": {
+          "used": 19811,
+          "total": 21216,
+          "percent": 93.3776395173454,
+          "strict_limit_percent": 95
+        },
+        "eram": {
+          "used": 97,
+          "total": 108,
+          "percent": 89.81481481481481,
+          "strict_limit_percent": 90
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5,
+          "strict_limit_percent": 95
+        }
+      },
+      "reported_capacity": {
+        "io": {
+          "used": 75,
+          "total": 160,
+          "percent": 46.875
+        },
+        "lut6": {
+          "used": 18854,
+          "total": 21216,
+          "percent": 88.86689291101055
+        },
+        "slice_reg": {
+          "used": 21046,
+          "total": 42432,
+          "percent": 49.59935897435897
+        },
+        "slice": {
+          "used": 19811,
+          "total": 21216,
+          "percent": 93.3776395173454
+        },
+        "f7mux": {
+          "used": 2,
+          "total": 10608,
+          "percent": 0.01885369532428356
+        },
+        "f8mux": {
+          "used": 0,
+          "total": 5304,
+          "percent": 0.0
+        },
+        "eram": {
+          "used": 97,
+          "total": 108,
+          "percent": 89.81481481481481
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5
+        },
+        "ddr_byte": {
+          "used": 6,
+          "total": 12,
+          "percent": 50.0
+        },
+        "mipi_tx": {
+          "used": 0,
+          "total": 2,
+          "percent": 0.0
+        },
+        "mipi_rx": {
+          "used": 1,
+          "total": 2,
+          "percent": 50.0
+        },
+        "pad": {
+          "used": 34,
+          "total": 160,
+          "percent": 21.25
+        },
+        "pll": {
+          "used": 4,
+          "total": 6,
+          "percent": 66.66666666666667
+        },
+        "dpll": {
+          "used": 0,
+          "total": 2,
+          "percent": 0.0
+        },
+        "gclk": {
+          "used": 11,
+          "total": 32,
+          "percent": 34.375
+        },
+        "lclk": {
+          "used": 1,
+          "total": 16,
+          "percent": 6.25
+        },
+        "sclk": {
+          "used": 28,
+          "total": 48,
+          "percent": 58.333333333333336
+        },
+        "mlclk": {
+          "used": 2,
+          "total": 16,
+          "percent": 12.5
+        },
+        "ioclk": {
+          "used": 4,
+          "total": 12,
+          "percent": 33.333333333333336
+        }
+      },
+      "errors": []
+    },
+    "route_db": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.db",
+      "sha256": "68B4A5DAF4F24169AB218CDC93149AFABED97ADC75883AA893C3D51D106685C8",
+      "bytes": 27771478
+    },
+    "project_al": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.al",
+      "sha256": "83953C297CC4F78DB87DC1F794E9751645ED52EF6221ECB9CB4CBAAA47A5C1E2",
+      "bytes": 48942
+    }
+  },
+  "drc": {
+    "passed": true,
+    "parent_stage": "6",
+    "stages": [
+      {
+        "stage": "Stage 6",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Design Rule Check",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.1",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Pin Swap Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.2",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Net Connection Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.3",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Lut Bridge Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.4",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Multi Drive Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.5",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Clock Status Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.6",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Abnormal Path Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.7",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Route Region Checker",
+        "ordered": true
+      },
+      {
+        "stage": "Stage 6.8",
+        "started": true,
+        "ended": true,
+        "start_count": 1,
+        "end_count": 1,
+        "checker": "Run Bound Checker",
+        "ordered": true
+      }
+    ],
+    "scope": "Native route-log completion markers; no separate check_design or check_io claimed"
+  },
+  "readonly_reimport": {
+    "verification": {
+      "passed": true,
+      "failures": [],
+      "hardware_status": "NOT_RUN",
+      "scope": "Database/AL unchanged and timing/reports produced; inspect CDC/DRC report content separately"
+    },
+    "verification_file": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly_verification.json",
+      "sha256": "7768D69993EF181C92FF6D167EBB48D6EC04B37D25B80D986B33E0028CD9C17B",
+      "bytes": 184
+    },
+    "input_hashes_file": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly_input_hashes.json",
+      "sha256": "ADD86EB0EB923C96F0119A376D5AE593985051179454FCD340F70657CA5D69CA",
+      "bytes": 432
+    },
+    "input_hashes_unchanged": true,
+    "changed_inputs": [],
+    "reports": {
+      "readonly.ts": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly.ts",
+        "sha256": "4D5B03158E2FA5E52F953CA037E352E05D6557AE29919E8343F27B4DD8ADBC41",
+        "bytes": 62
+      },
+      "readonly.timing": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly.timing",
+        "sha256": "6240A3A8DF95BA8E15EF709A6DF50440C7612051594D3B44EC4EB90D5BABAB56",
+        "bytes": 6670473
+      },
+      "readonly.exceptions": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly.exceptions",
+        "sha256": "8EEAC5324F5ED373CAFA030A14C23456E72E9E065C607F58C6C969AF60D5AEA3",
+        "bytes": 569122
+      },
+      "readonly.check": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly.check",
+        "sha256": "95B08C10E6330E7B43040293940EF3E6D94E83EB610C849EB08CC292F5A442C9",
+        "bytes": 13238
+      },
+      "readonly.area": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly.area",
+        "sha256": "8B1E25512D9CC334AEB7B34A664079AEE3BF7ECD89DE18356A96C0C057143494",
+        "bytes": 76874
+      },
+      "readonly.clocks": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly.clocks",
+        "sha256": "4BEA5141F45FB696966377B55A113403A507423B2D33A8DBDDB6F2700AFEE5E8",
+        "bytes": 102995
+      },
+      "readonly.flow": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly.flow",
+        "sha256": "0A5B4DB67DD73384FD1B0D36BA58821E1915FF64A8E5FBB40604920CE521EF43",
+        "bytes": 1294
+      }
+    },
+    "timing": {
+      "passed": true,
+      "metrics_ns": {
+        "SWNS": 0.314,
+        "STNS": 0.0,
+        "HWNS": 0.02,
+        "HTNS": 0.0
+      },
+      "errors": []
+    },
+    "area": {
+      "passed": true,
+      "resources": {
+        "slice": {
+          "used": 19811,
+          "total": 21216,
+          "percent": 93.3776395173454,
+          "strict_limit_percent": 95
+        },
+        "eram": {
+          "used": 97,
+          "total": 108,
+          "percent": 89.81481481481481,
+          "strict_limit_percent": 90
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5,
+          "strict_limit_percent": 95
+        }
+      },
+      "reported_capacity": {
+        "io": {
+          "used": 75,
+          "total": 160,
+          "percent": 46.875
+        },
+        "lut6": {
+          "used": 18854,
+          "total": 21216,
+          "percent": 88.86689291101055
+        },
+        "slice_reg": {
+          "used": 21046,
+          "total": 42432,
+          "percent": 49.59935897435897
+        },
+        "slice": {
+          "used": 19811,
+          "total": 21216,
+          "percent": 93.3776395173454
+        },
+        "f7mux": {
+          "used": 2,
+          "total": 10608,
+          "percent": 0.01885369532428356
+        },
+        "f8mux": {
+          "used": 0,
+          "total": 5304,
+          "percent": 0.0
+        },
+        "eram": {
+          "used": 97,
+          "total": 108,
+          "percent": 89.81481481481481
+        },
+        "dsp": {
+          "used": 37,
+          "total": 40,
+          "percent": 92.5
+        },
+        "ddr_byte": {
+          "used": 6,
+          "total": 12,
+          "percent": 50.0
+        },
+        "mipi_tx": {
+          "used": 0,
+          "total": 2,
+          "percent": 0.0
+        },
+        "mipi_rx": {
+          "used": 1,
+          "total": 2,
+          "percent": 50.0
+        },
+        "pad": {
+          "used": 34,
+          "total": 160,
+          "percent": 21.25
+        },
+        "pll": {
+          "used": 4,
+          "total": 6,
+          "percent": 66.66666666666667
+        },
+        "dpll": {
+          "used": 0,
+          "total": 2,
+          "percent": 0.0
+        },
+        "gclk": {
+          "used": 11,
+          "total": 32,
+          "percent": 34.375
+        },
+        "lclk": {
+          "used": 1,
+          "total": 16,
+          "percent": 6.25
+        },
+        "sclk": {
+          "used": 28,
+          "total": 48,
+          "percent": 58.333333333333336
+        },
+        "mlclk": {
+          "used": 2,
+          "total": 16,
+          "percent": 12.5
+        },
+        "ioclk": {
+          "used": 4,
+          "total": 12,
+          "percent": 33.333333333333336
+        }
+      },
+      "errors": []
+    },
+    "scripts": [
+      {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly_reimport.tcl",
+        "sha256": "A527FE609420FDB8F4F0B55A7D79A88AE43466BCEE83B414E586C953EA66F79B",
+        "bytes": 2438
+      }
+    ],
+    "log_scans": [
+      {
+        "file": {
+          "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/readonly_launcher.log",
+          "sha256": "7F222469436E213663D26E15D787D64B90044092173B8363DA0ABCC9D995CEA3",
+          "bytes": 16023309
+        },
+        "errors": [],
+        "missing_rom": [],
+        "passed": true
+      }
+    ],
+    "completion_marker_count": 1,
+    "prohibited_commands": []
+  },
+  "cdc_fifo_ddr": {
+    "status": "STATIC_EVIDENCE_ONLY",
+    "standalone_simulation_run": false,
+    "ddr_runtime_calibration_run": false,
+    "constraint_file": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/04_pin/camera_to_dsi_display_720p60.sdc",
+      "sha256": "79A7FAD3CD8AA9F37D9D0559473AE56E2BA7D13571C438241B7714BEEA2E60A8",
+      "bytes": 17415
+    },
+    "constraint_command_counts": {
+      "set_clock_groups": 2,
+      "set_path_skew": 22,
+      "set_max_delay": 19
+    },
+    "check_timing": {
+      "passed_core_static_checks": true,
+      "errors": [],
+      "diagnostic_sections": [
+        {
+          "number": 1,
+          "name": "no clock",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 2,
+          "name": "clock definition",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 3,
+          "name": "dummy node",
+          "count": 3,
+          "severity": "HIGH"
+        },
+        {
+          "number": 4,
+          "name": "invalid constraint",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 5,
+          "name": "pll/clock buffer clock constraints",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 6,
+          "name": "combinational loops",
+          "count": 0,
+          "severity": "HIGH"
+        },
+        {
+          "number": 7,
+          "name": "soft fifo timing exception constraints",
+          "count": 6,
+          "severity": "HIGH"
+        },
+        {
+          "number": 8,
+          "name": "no path constraints",
+          "count": 4,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 9,
+          "name": "shadowed/ignored timing exception constraints",
+          "count": 1,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 10,
+          "name": "no input delay",
+          "count": 40,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 11,
+          "name": "no output delay",
+          "count": 63,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 12,
+          "name": "partial input delay",
+          "count": 1,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 13,
+          "name": "partial output delay",
+          "count": 0,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 14,
+          "name": "abnormal input delay",
+          "count": 0,
+          "severity": "MEDIUM"
+        }
+      ],
+      "nonzero_sections": [
+        {
+          "number": 3,
+          "name": "dummy node",
+          "count": 3,
+          "severity": "HIGH"
+        },
+        {
+          "number": 7,
+          "name": "soft fifo timing exception constraints",
+          "count": 6,
+          "severity": "HIGH"
+        },
+        {
+          "number": 8,
+          "name": "no path constraints",
+          "count": 4,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 9,
+          "name": "shadowed/ignored timing exception constraints",
+          "count": 1,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 10,
+          "name": "no input delay",
+          "count": 40,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 11,
+          "name": "no output delay",
+          "count": 63,
+          "severity": "MEDIUM"
+        },
+        {
+          "number": 12,
+          "name": "partial input delay",
+          "count": 1,
+          "severity": "MEDIUM"
+        }
+      ],
+      "soft_fifo_async_path_count": 6,
+      "soft_fifo_entries": [
+        {
+          "from_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "to_clock": "eth_pll_clk_125m",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "eth_pll_clk_125m",
+          "to_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_receive_fifo/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "to_clock": "eth_pll_clk_125m",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "eth_pll_clk_125m",
+          "to_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/mac_rx_inst/mac_rdata_len_fifo/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "to_clock": "eth_pll_clk_125m",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/wr_to_rd_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        },
+        {
+          "from_clock": "eth_pll_clk_125m",
+          "to_clock": "u_udp_cfg/u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout",
+          "constraint": "set_max_delay -from [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/primary_addr_gray_reg[*]}] -to [get_regs {u_udp_cfg/u_udp_stack/mac_layer_inst/udp_pkg_buf_inst/rd_to_wr_cross_inst/sync_r1[*]}] -datapath_only 7.700"
+        }
+      ],
+      "no_unconstrained_pll_clock_pins": true,
+      "pll_frequency_mismatch_zero": true,
+      "scope": "All diagnostic section counts retained; nonzero findings are not silently treated as zero"
+    },
+    "ddr_resources_after_route": {
+      "used": 6,
+      "total": 12,
+      "percent": 50.0
+    },
+    "limitations": [
+      "Constraint/report presence does not establish CDC/FIFO functional correctness.",
+      "No DDR memory traffic test or runtime calibration result is certified by this report.",
+      "Nonzero diagnostic categories require contextual review; they remain listed verbatim."
+    ]
+  },
+  "provenance": {
+    "summary_script": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/summarize_readonly.py",
+      "sha256": "18EE26D1E54A26AD846E52C79FFA233D6B0B9768720C5F9D387B765CA9D9AA15",
+      "bytes": 21122
+    },
+    "source_manifest": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/SOURCE_MANIFEST.json",
+      "sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+      "bytes": 48315
+    },
+    "source_snapshot": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/source_snapshot.json",
+      "sha256": "35529655130C8A73E43BA8EBCD7E648EE49308D31F4B49BF9EE77536EDDBCFCA",
+      "bytes": 100179
+    },
+    "native_route_timing": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.timing",
+      "sha256": "56B8B69DC7AF2B2FDDD8D2F388BBD68D8428191B5B35553946897FC076EE452E",
+      "bytes": 6670473
+    },
+    "native_route_area": {
+      "path": "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_phy.area",
+      "sha256": "8B1E25512D9CC334AEB7B34A664079AEE3BF7ECD89DE18356A96C0C057143494",
+      "bytes": 76874
+    }
+  }
+}

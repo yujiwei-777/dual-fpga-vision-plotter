@@ -1,0 +1,176 @@
+{
+  "status": "PASS",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_idle_monitor.sv": "479F46142785FC42D81DD2F578ED882F24B1AF80E10CD5CC185C39B6589C6608",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_idle_monitor.py": "365EE4545DD368113216A9A02D6298395593429D698096E6F9A6872D6F859485"
+  },
+  "steps": [
+    {
+      "name": "vlib",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "rtl_lib"
+      ]
+    },
+    {
+      "name": "lint",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\lint.log",
+      "sha256": "FED2769C189C4D70A0BE7F0793744491F475DBD9F00E07AFA4880EF978A2A086",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "rtl_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_idle_monitor.sv"
+      ]
+    },
+    {
+      "name": "case0",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case0.log",
+      "sha256": "7B4B74EDCD7307E11739F5D67E9157817B751FD7F03064200274E72F86D6A382",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "rtl_lib",
+        "tb_uart_idle_monitor",
+        "-gCASE_ID=0",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ]
+    },
+    {
+      "name": "case1",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case1.log",
+      "sha256": "36AF5849114312716C8D25728883FCAA285EAC9D7FACBF41F37850BD26DA9ECA",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "rtl_lib",
+        "tb_uart_idle_monitor",
+        "-gCASE_ID=1",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ]
+    },
+    {
+      "name": "case2",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case2.log",
+      "sha256": "309B72C7282291CD96BC901AAEDC65047447F122DE03F2515C869B255A76E506",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "rtl_lib",
+        "tb_uart_idle_monitor",
+        "-gCASE_ID=2",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ]
+    },
+    {
+      "name": "case3",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case3.log",
+      "sha256": "AE3A8BBD46948AA902F316C290CCC892993B22D9FF39517BC56971CE8EA3A101",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "rtl_lib",
+        "tb_uart_idle_monitor",
+        "-gCASE_ID=3",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ]
+    },
+    {
+      "name": "case4",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case4.log",
+      "sha256": "EC3F2099E907424C53CDE705CA3E9046BFD4D3B0207069521CA89A0D4E7D25FE",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "rtl_lib",
+        "tb_uart_idle_monitor",
+        "-gCASE_ID=4",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ]
+    },
+    {
+      "name": "case5",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case5.log",
+      "sha256": "90D5B6A0808865C7DBB87BC3DB8EA571292AF129DB4FA9E82FFE841A77649BA7",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "rtl_lib",
+        "tb_uart_idle_monitor",
+        "-gCASE_ID=5",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ]
+    },
+    {
+      "name": "case6",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case6.log",
+      "sha256": "3720F88E1A9EBDE6EDFFB3B399634D446BDCDEAB1BDDC2291F8E08F8B48EB6EF",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "rtl_lib",
+        "tb_uart_idle_monitor",
+        "-gCASE_ID=6",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ]
+    },
+    {
+      "name": "case7",
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case7.log",
+      "sha256": "C4D07C112F9A6485DA7CC10552FB9D57198B2F26B7D385373DDF87A15776C13D",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "rtl_lib",
+        "tb_uart_idle_monitor",
+        "-gCASE_ID=7",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ]
+    }
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware_status": "NOT_RUN"
+}

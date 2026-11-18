@@ -1,0 +1,26 @@
+{
+  "step": "compile",
+  "returncode": 0,
+  "command": [
+    "E:/model/win64/vlog.exe",
+    "-sv",
+    "-work",
+    "rtl_lib",
+    "+incdir+E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\reset_sync.v",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\doc_copy_overlay.v",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hxa_multibox_overlay.v",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_operator_decimal_snapshot.v",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_panel.v",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\osd_compact_font_rom.v",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\operator_ui_text.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hx_result_select.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\hdmi_mixer.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\center_integration\\20261118T080211_500344Z\\control_hx_result_select.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\center_integration\\20261118T080211_500344Z\\control_hdmi_mixer.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\design_top_wrapper.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\center_integration\\20261118T080211_500344Z\\tb_suspect_center.sv"
+  ],
+  "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\center_integration\\20261118T080211_500344Z\\simulation\\compile.log",
+  "log_sha256": "295096F8FBE144CFB128601E4AB68097039C95136C22CB972E97D78D3C9D7D96"
+}

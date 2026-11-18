@@ -1,0 +1,68 @@
+{
+  "status": "BITGEN_PASS",
+  "artifact": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\artifacts\\dual_fpga_secondary_20261118_plotter_idle_preflight_diagnostic.bit",
+    "sha256": "E34B64D98152F4D15B06E995021CFDF82DAE9E1EA9DFF33BAA5420135F32A201"
+  },
+  "bytes": 1789542,
+  "bid": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\artifacts\\dual_fpga_secondary_20261118_plotter_idle_preflight_diagnostic.bid",
+    "sha256": "7A6EF5A7FA76021F53CE5819EF36D63CF8720DCEE5B168C26056E7AB48EC852E"
+  },
+  "temporary_bit": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\bitgen\\dual_fpga_secondary_20261118_plotter_idle_preflight_diagnostic.bit",
+    "sha256": "E34B64D98152F4D15B06E995021CFDF82DAE9E1EA9DFF33BAA5420135F32A201"
+  },
+  "source_manifest": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json",
+    "sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31"
+  },
+  "prebitgen_gate": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\PREBITGEN_GATE.json",
+    "sha256": "AE2E7955645101EEAB15FD8CF4E95AC88A8A83AFE384561B6C5D03EFD21714AD"
+  },
+  "warning_review": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\airwalk_signoff\\codex_secondary_plotter_idle_preflight_20261118_r2\\IMPLEMENTATION_WARNING_REVIEW.json",
+    "sha256": "297D24989EBFC10F495681D8BAA86D7D6D1B86938AA035188DA0F951955C6349"
+  },
+  "retained_critical_warnings": [
+    {
+      "phase": "syn",
+      "line": 1084,
+      "code": "SYN-6024",
+      "severity": "CRITICAL-WARNING",
+      "stage": "SYN-1001 : Stage 2.2 | Map IO",
+      "text": "SYN-6024 CRITICAL-WARNING: MapIO rule -- ODDR \"u_rgmii/rgmii_txc_ddr\" not have rst or rst is const or ASYNCRST is DISABLE, this may lead PAD tx data out of sync with other PAD. Please consider rewriting code in ../../main/user_source/hdl_source/ethernet/rgmii_interface.v(129).",
+      "disposition": "RETAINED_UNCHANGED_RGMII_ODDR_WARNING",
+      "unchanged_source": {
+        "relative": "main/user_source/hdl_source/ethernet/rgmii_interface.v",
+        "sha256": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A"
+      }
+    }
+  ],
+  "routed_database": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\phy_1\\secondary_cnn_multibox_pr.db",
+    "sha256": "B7874B37804140991131843DC5DA6E0330A2428F70861AAD612EDA289A629B0A"
+  },
+  "input_hashes_before": {
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\phy_1\\secondary_cnn_multibox_pr.db": "B7874B37804140991131843DC5DA6E0330A2428F70861AAD612EDA289A629B0A",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\phy_1\\secondary_cnn_multibox.al": "883F46387C4AF3DEC54CF66269F3A4F7C70D154162494C304445C59A971E4D8B",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\syn_1\\secondary_cnn_multibox_gate.db": "999A0A8D51E97F0055557FE1ABEAB055AF09F95D1E379024E3D538EF908CDEDE",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\BUILD_PLAN.json": "78823BA1E923784ED2494B5F5239E9113ECCD0EAF8B07746157F14E69A112520"
+  },
+  "inputs_unchanged": true,
+  "post_integrity": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\bitgen\\POST_BITGEN_INTEGRITY.json",
+    "sha256": "924F002D087896390BA50B7CE1E4B283D5349FFBA985569C812513312430DD85"
+  },
+  "script": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\bitgen\\bitgen.tcl",
+    "sha256": "209038DF713A0A3B39AC24A46B2C3DB84298B676CE28BBE1A77E7B0CD881EC8F"
+  },
+  "log": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\bitgen\\bitgen.log",
+    "sha256": "010D2732DF1C54269F94C3AD374CD8C2E0DFF5D49B61E63CDF76301BEBCED244"
+  },
+  "hardware_status": "NOT_RUN"
+}

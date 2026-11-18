@@ -1,0 +1,87 @@
+{
+  "status": "PASS_DIAGNOSTIC_NOT_RUN",
+  "hardware_status": "NOT_RUN",
+  "bit": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\artifacts\\dual_fpga_secondary_20261118_plotter_idle_preflight_diagnostic.bit",
+    "sha256": "E34B64D98152F4D15B06E995021CFDF82DAE9E1EA9DFF33BAA5420135F32A201"
+  },
+  "bid": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\artifacts\\dual_fpga_secondary_20261118_plotter_idle_preflight_diagnostic.bid",
+    "sha256": "7A6EF5A7FA76021F53CE5819EF36D63CF8720DCEE5B168C26056E7AB48EC852E"
+  },
+  "source_manifest": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json",
+    "sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31"
+  },
+  "bitgen_receipt": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\bitgen\\BITGEN_RECEIPT.json",
+    "sha256": "D0575267685CD00345D429B7301990EE20C90115F60CBF9369DDFF4879E96BC6"
+  },
+  "functional_gate": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\airwalk_signoff\\codex_secondary_plotter_idle_preflight_20261118_r2\\FUNCTIONAL_GATE.json",
+    "sha256": "F8585A0C532974B3155237AB4AFF9F26F355BACBA38AD6D862A09C3021C4A664"
+  },
+  "physical_signoff": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\readonly\\PHYSICAL_REVIEW.json",
+    "sha256": "AB36E70A70D4E02DDF3712C666DEB7E09EF99C8737B07EC296D04E33F508FA7E"
+  },
+  "prebitgen_gate": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\PREBITGEN_GATE.json",
+    "sha256": "AE2E7955645101EEAB15FD8CF4E95AC88A8A83AFE384561B6C5D03EFD21714AD"
+  },
+  "route_gate": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\RELEASE_GATE.json",
+    "sha256": "5C56E53FADA0E3DCB1B0C5B64653A30945E00C04B48D11C30A771AC902143715"
+  },
+  "post_bitgen_integrity": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\bitgen\\POST_BITGEN_INTEGRITY.json",
+    "sha256": "924F002D087896390BA50B7CE1E4B283D5349FFBA985569C812513312430DD85"
+  },
+  "timing_ns": {
+    "SWNS": 0.006,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19093,
+      "total": 21216,
+      "percent": 89.9934012066365,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 85,
+      "total": 108,
+      "percent": 78.70370370370371,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0,
+      "strict_limit_percent": 95
+    }
+  },
+  "inputs_unchanged": true,
+  "compatible_main_bit": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\artifacts\\dual_fpga_main_20261118_cnn_multicoord_diagnostic.bit",
+    "sha256": "52E2A1E8F2FC0B58873BBEE897E4D2F01BDABB1624AD9D98F38E19718DA66718"
+  },
+  "production_changes": [
+    "01_rtl/grbl_reporter_shared_candidate.v",
+    "01_rtl/grbl_uart.v",
+    "01_rtl/secondary_top.v"
+  ],
+  "baseline_protected_inputs_verified": 274,
+  "completed_utc": "2026-11-18T08:49:42.283885+00:00",
+  "fix": "KEY2 is admissible during ordinary CNN inference; idle UART status queries and stopped-state requalification prevent receive-only idle faults from permanently blocking writes; startup-only noise/late stopped status retries the full guarded handshake; exact connected glyph corners remain pen-down at F5000.",
+  "limitations": [
+    "Physical FPGA/GRBL operation remains NOT_RUN.",
+    "No target, explicit cancel, mode/session change, competing task, paper maintenance and real UART/GRBL recovery remain admission barriers.",
+    "Alarm, moving/unknown startup status and faults during active commands require explicit recovery. No automatic unlock, homing, G-code replay or coordinate reset after runtime faults.",
+    "The physical startup/long-idle fault cause is not proven without real UART capture. Simulations cover identified lock paths.",
+    "A capable paired main still samples the coherent preview before a local KEY1 report is admitted.",
+    "Final GRBL ok is command acceptance, not physical motion completion."
+  ]
+}

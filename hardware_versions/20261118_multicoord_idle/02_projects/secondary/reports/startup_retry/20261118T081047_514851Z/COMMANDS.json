@@ -1,0 +1,344 @@
+[
+  {
+    "label": "vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "rtl_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "compile",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "rtl_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\compile.log",
+    "log_sha256": "AFC3F06E09AB0B54A0CA81004E83D762691A93AFDBC299732731E3B921E135F8",
+    "warnings": []
+  },
+  {
+    "label": "case0",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=0",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case0.log",
+    "log_sha256": "46321A191AFE3D940E3015107D93ABA5D58445C1B52F170D37133827A247E3E0",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  },
+  {
+    "label": "case1",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=1",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case1.log",
+    "log_sha256": "39DC5B3EF0AA9D00F86C82962F4A6105D6E9C980F8BA632CD41A2AFDAAB3F611",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  },
+  {
+    "label": "case2",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=2",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case2.log",
+    "log_sha256": "09CD031AF2B91E734F4CDAC2A7A80766892EDB4C8CDC91CFF50F373133634718",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  },
+  {
+    "label": "case3",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=3",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case3.log",
+    "log_sha256": "22B6D574B3415785B893FEFAF3AE422919C6D5E874D1EB09668F17F8A554EB94",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  },
+  {
+    "label": "case4",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=4",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case4.log",
+    "log_sha256": "C3FCC546A0FA2DCCC181A0A9D9179276B067E051E9C68356011C4332EE04BB35",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  },
+  {
+    "label": "case5",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=5",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case5.log",
+    "log_sha256": "22CE1D94A2CE6A4CB4ECED3F8711981236297EC2F90A6F1C3C52275E5AB87569",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  },
+  {
+    "label": "case6",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=6",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case6.log",
+    "log_sha256": "62DAB42779A11E3EB5CB36EC58980144231009845544EC70A8EFB49AD82B86B0",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  },
+  {
+    "label": "case7",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=7",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case7.log",
+    "log_sha256": "C13FEA6B3AF0D18A11E0FB9B9FC7E9BBFECC9E41A348BB9701C035513A5FCC7B",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  },
+  {
+    "label": "case8",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=8",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case8.log",
+    "log_sha256": "E6D02D0A570F6DB7D650ABE115273C6A59CD8DBFCB25E819DB0DBF63B7A876F1",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  },
+  {
+    "label": "case9",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_uart_startup_retry",
+      "-gCASE_ID=9",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T081047_514851Z\\case9.log",
+    "log_sha256": "E98B388CEBB0C790F712D061A5DD108D7DB72A1199441EAABF9FB4C2EA2C88D2",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v(133): (vopt-2718) [TFMPC] - Missing connection for port 'O_status_start'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 19, found 12.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_idle_pulse'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rt_ready'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_error'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_rx_data'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_startup_retry.sv(10): (vopt-2718) [TFMPC] - Missing connection for port 'O_tx_done'."
+    ]
+  }
+]

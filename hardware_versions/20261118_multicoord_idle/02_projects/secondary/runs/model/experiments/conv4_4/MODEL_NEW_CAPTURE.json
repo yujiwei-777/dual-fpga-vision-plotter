@@ -1,0 +1,31 @@
+{
+  "architecture": "96x96 unsigned source Y8, Conv3x3 stride2 pad1 1->4->4,6x6 sum>>5,FC64->2",
+  "classes": {
+    "0": "GOOD",
+    "1": "BAD"
+  },
+  "shifts": [
+    7,
+    7,
+    8
+  ],
+  "margin_min": 32,
+  "crop_scale": 1,
+  "crop": "Original shared CCL half-open bbox; exact source point sampling origin+floor((2*u+1)*span/192)",
+  "weight_count": 308,
+  "bias_count": 10,
+  "trained_from_scratch": true,
+  "source_roots": [
+    "D:/ai/1/0/",
+    "D:/ai/1/8/1/"
+  ],
+  "hardware": "NOT_RUN",
+  "RTL": "NOT_RUN_FOR_THIS_MODEL",
+  "hashes": {
+    "weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+    "biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0"
+  },
+  "name": "pcb_ccl_crop100_useronly_C4_C4_binary_20261102",
+  "training_report": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\pcb_ccl_binary_user_retrain_20261102\\reports\\TRAINING_REPORT.json",
+  "known_test_falsePASS": 7
+}

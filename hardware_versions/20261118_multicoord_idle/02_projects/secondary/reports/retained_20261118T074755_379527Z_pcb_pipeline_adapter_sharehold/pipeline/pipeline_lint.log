@@ -1,0 +1,20 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 15:47:55 on Nov 18,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\pipeline\pipeline_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\vision_pipeline.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\edge_roi_ccl_shared_pcb_candidate.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\vision_ccl_pcb_candidate.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\pcb_ccl_binary_core.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\pcb_fullboard_spatial96.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\cnn_core.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\vision_workspace_goodonly.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\vision_shared_mac.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\cnn_result_stabilizer.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\vision_color_stats.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\vision_pixel_reader.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\pipeline\tb_pipeline.sv 
+-- Compiling module vision_pipeline
+-- Compiling module edge_roi_ccl_shared_pcb_candidate
+-- Compiling module vision_ccl_pcb_candidate
+-- Compiling module pcb_ccl_binary_core
+-- Compiling module pcb_fullboard_spatial96
+-- Compiling module cnn_core
+-- Compiling module vision_workspace_goodonly
+-- Compiling module vision_shared_mac
+-- Compiling module cnn_result_stabilizer
+-- Compiling module vision_color_stats
+-- Compiling module vision_pixel_reader
+-- Compiling module tb_binary_fullpipeline
+
+Top level modules:
+	tb_binary_fullpipeline
+End time: 15:47:55 on Nov 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

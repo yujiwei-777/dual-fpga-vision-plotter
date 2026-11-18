@@ -1,0 +1,343 @@
+vlib True 
+lint True 0_720P\secondary_plotter_idle_preflight_20261118\tests\paper_unlimited\tb_uart_safety_review.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\tests\paper_unlimited\tb_uart_retry_boundary.sv 
+-- Compiling module grbl_uart_tx
+-- Compiling module grbl_uart_port
+-- Compiling module grbl_uart_rx
+-- Compiling module grbl_response_parser
+-- Compiling module tb_uart_safety_review
+-- Compiling module tb_uart_retry_boundary
+
+Top level modules:
+	tb_uart_safety_review
+	tb_uart_retry_boundary
+End time: 16:16:39 on Nov 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+
+safety0 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=0 checks=5 holds=2 queries=3 resets=1 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 176976 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:41 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 11
+
+safety1 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=1 checks=5 holds=1 queries=1 resets=0 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 300036 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:43 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 11
+
+safety2 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=2 checks=4 holds=1 queries=1 resets=0 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 300036 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:44 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 11
+
+safety3 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=3 checks=4 holds=1 queries=1 resets=0 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 304636 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:46 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 11
+
+safety4 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=4 checks=6 holds=1 queries=2 resets=1 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 319876 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:48 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 11
+
+safety5 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=5 checks=6 holds=1 queries=2 resets=1 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 326846 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:51 on Nov 18,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 11
+
+safety6 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=6 checks=6 holds=1 queries=2 resets=1 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 317156 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:53 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 11
+
+safety7 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=7 checks=5 holds=1 queries=2 resets=1 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 323566 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:54 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 11
+
+safety8 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=8 checks=4 holds=1 queries=1 resets=0 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 407456 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:56 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 11
+
+safety9 True . Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# UART_SAFETY_REVIEW_PASS case=9 checks=4 holds=1 queries=1 resets=0 ordinary=0
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_safety_review.sv(113)
+#    Time: 307356 ns  Iteration: 0  Instance: /tb_uart_safety_review
+# End time: 16:16:58 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 11
+
+late0 True 840000
+# STATUS state=13 timer=803 status_seen=0 retry=0
+# BOUNDARY_RESULT case=0 initial_holds=1 initial_queries=1 initial_resets=0 final_holds=1 final_queries=1 final_resets=0 seen=1 ready=0 violation=0
+# UART_RETRY_BOUNDARY_PASS case=0 send_timer=7755 status_timer=803 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 328466 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:00 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+late1 True 840000
+# STATUS state=13 timer=803 status_seen=0 retry=0
+# BOUNDARY_RESULT case=1 initial_holds=1 initial_queries=1 initial_resets=0 final_holds=1 final_queries=1 final_resets=0 seen=1 ready=0 violation=0
+# UART_RETRY_BOUNDARY_PASS case=1 send_timer=7755 status_timer=803 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 328466 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:02 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+late2 True 840000
+# STATUS state=13 timer=926 status_seen=0 retry=0
+# BOUNDARY_RESULT case=2 initial_holds=1 initial_queries=1 initial_resets=0 final_holds=1 final_queries=1 final_resets=0 seen=1 ready=0 violation=0
+# UART_RETRY_BOUNDARY_PASS case=2 send_timer=7755 status_timer=926 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 329696 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:04 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7738 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7990 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7738 status_timer=7990 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7738 status_timer=7990 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280336 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:06 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 12
+
+timeout7739 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7991 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7739 status_timer=7991 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7739 status_timer=7991 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280346 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:09 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7740 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7992 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7740 status_timer=7992 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7740 status_timer=7992 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280356 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:10 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 12
+
+timeout7741 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7993 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7741 status_timer=7993 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7741 status_timer=7993 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280366 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:12 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 12
+
+timeout7742 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7994 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7742 status_timer=7994 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7742 status_timer=7994 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280376 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:15 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7743 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7995 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7743 status_timer=7995 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7743 status_timer=7995 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280386 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:17 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7744 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7996 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7744 status_timer=7996 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7744 status_timer=7996 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280396 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:21 on Nov 18,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 12
+
+timeout7745 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7997 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7745 status_timer=7997 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7745 status_timer=7997 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280406 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:23 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7746 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7998 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7746 status_timer=7998 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7746 status_timer=7998 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280416 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:25 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7747 True X byte=3f state=3 time=840000
+# STATUS state=4 timer=7999 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7747 status_timer=7999 status_state=4 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7747 status_timer=7999 status_state=4
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280426 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:27 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7748 True 00
+# TX byte=3f state=3 time=840000
+# STATUS state=13 timer=0 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7748 status_timer=0 status_state=13 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7748 status_timer=0 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280436 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:29 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7749 True 00
+# TX byte=3f state=3 time=840000
+# STATUS state=13 timer=1 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7749 status_timer=1 status_state=13 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7749 status_timer=1 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280446 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:31 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7750 True 00
+# TX byte=3f state=3 time=840000
+# STATUS state=13 timer=2 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7750 status_timer=2 status_state=13 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7750 status_timer=2 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280456 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:33 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7751 True 00
+# TX byte=3f state=3 time=840000
+# STATUS state=13 timer=3 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7751 status_timer=3 status_state=13 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7751 status_timer=3 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280466 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:35 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7752 True 00
+# TX byte=3f state=3 time=840000
+# STATUS state=13 timer=4 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7752 status_timer=4 status_state=13 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7752 status_timer=4 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280476 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:37 on Nov 18,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 12
+
+timeout7753 True 00
+# TX byte=3f state=3 time=840000
+# STATUS state=13 timer=5 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7753 status_timer=5 status_state=13 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7753 status_timer=5 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280486 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:39 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 12
+
+timeout7754 True 00
+# TX byte=3f state=3 time=840000
+# STATUS state=13 timer=6 status_seen=0 retry=0
+# TIMEOUT_BOUNDARY_RESULT case=3 send_timer=7754 status_timer=6 status_state=13 holds=1 queries=1 resets=0 ready=0 state=8
+# UART_RETRY_BOUNDARY_PASS case=3 send_timer=7754 status_timer=6 status_state=13
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/paper_unlimited/tb_uart_retry_boundary.sv(57)
+#    Time: 280496 ns  Iteration: 0  Instance: /tb_uart_retry_boundary
+# End time: 16:17:41 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 12
+
+{"status": "PASS", "report": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\RESULTS.json"}

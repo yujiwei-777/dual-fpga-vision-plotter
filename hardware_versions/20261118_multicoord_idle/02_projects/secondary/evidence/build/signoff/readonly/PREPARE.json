@@ -1,0 +1,10 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "script": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\readonly\\readonly_reimport.tcl",
+    "sha256": "8E8D5703BF85E7A515CBD49D8B2B44462168087E87EF5F42F429D3883B7BF407"
+  },
+  "source_manifest_sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+  "readonly": true,
+  "bitgen_invoked": false
+}

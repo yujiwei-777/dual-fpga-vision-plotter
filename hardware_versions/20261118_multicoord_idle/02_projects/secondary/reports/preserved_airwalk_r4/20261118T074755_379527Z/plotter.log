@@ -1,0 +1,5 @@
+PASS plotter/transport_vlib
+PASS plotter/transport_lint
+PASS plotter/transport_simulation
+plotter: PASS
+CURRENT_SUITE_OUTPUT D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\retained_20261118T074755_379527Z_plotter

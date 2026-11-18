@@ -1,0 +1,3419 @@
+# vsim -batch -syncio -quiet -lib flow1_lib tb_suspect_report -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 16:21:57 on Nov 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2685) [TFMPC] - Too few port connections for 'reporter'.  Expected 117, found 106.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_airwalk_active'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_valid'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_lines'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'I_airwalk'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'S_idle_done'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_maintenance'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_result'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_generation'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_full'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_remaining_cmm'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_used_cmm'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(162): (vopt-2685) [TFMPC] - Too few port connections for 'transport'.  Expected 92, found 91.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\font_flow\20261118T082154_170640Z\tb_flow_1.sv(162): (vopt-2718) [TFMPC] - Missing connection for port 'R_idle_done'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=14.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# GCODE case=pcb0 line=1 text=G21
+# GCODE case=pcb0 line=2 text=G90
+# GCODE case=pcb0 line=3 text=G54
+# GCODE case=pcb0 line=4 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=5 text=G0 X190.00 Y016.00 F03000
+# GCODE case=pcb0 line=6 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=7 text=G4 P0.1
+# GCODE case=pcb0 line=8 text=G1 X190.00 Y010.00 F01200
+# GCODE case=pcb0 line=9 text=G1 X187.00 Y010.00 F01200
+# GCODE case=pcb0 line=10 text=G1 X186.00 Y011.00 F01200
+# GCODE case=pcb0 line=11 text=G1 X186.00 Y012.00 F01200
+# GCODE case=pcb0 line=12 text=G1 X187.00 Y013.00 F01200
+# GCODE case=pcb0 line=13 text=G1 X190.00 Y013.00 F01200
+# GCODE case=pcb0 line=14 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=15 text=G0 X180.00 Y011.00 F03000
+# GCODE case=pcb0 line=16 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=17 text=G4 P0.1
+# GCODE case=pcb0 line=18 text=G1 X181.00 Y010.00 F01200
+# GCODE case=pcb0 line=19 text=G1 X183.00 Y010.00 F01200
+# GCODE case=pcb0 line=20 text=G1 X184.00 Y011.00 F01200
+# GCODE case=pcb0 line=21 text=G1 X184.00 Y015.00 F01200
+# GCODE case=pcb0 line=22 text=G1 X183.00 Y016.00 F01200
+# GCODE case=pcb0 line=23 text=G1 X181.00 Y016.00 F01200
+# GCODE case=pcb0 line=24 text=G1 X180.00 Y015.00 F01200
+# GCODE case=pcb0 line=25 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=26 text=G0 X178.00 Y016.00 F03000
+# GCODE case=pcb0 line=27 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=28 text=G4 P0.1
+# GCODE case=pcb0 line=29 text=G1 X178.00 Y010.00 F01200
+# GCODE case=pcb0 line=30 text=G1 X175.00 Y010.00 F01200
+# GCODE case=pcb0 line=31 text=G1 X174.00 Y011.00 F01200
+# GCODE case=pcb0 line=32 text=G1 X174.00 Y012.00 F01200
+# GCODE case=pcb0 line=33 text=G1 X175.00 Y013.00 F01200
+# GCODE case=pcb0 line=34 text=G1 X178.00 Y013.00 F01200
+# GCODE case=pcb0 line=35 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=36 text=G0 X175.00 Y013.00 F03000
+# GCODE case=pcb0 line=37 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=38 text=G4 P0.1
+# GCODE case=pcb0 line=39 text=G1 X174.00 Y014.00 F01200
+# GCODE case=pcb0 line=40 text=G1 X174.00 Y015.00 F01200
+# GCODE case=pcb0 line=41 text=G1 X175.00 Y016.00 F01200
+# GCODE case=pcb0 line=42 text=G1 X178.00 Y016.00 F01200
+# GCODE case=pcb0 line=43 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=44 text=G0 X165.00 Y010.00 F03000
+# GCODE case=pcb0 line=45 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=46 text=G4 P0.1
+# GCODE case=pcb0 line=47 text=G1 X163.00 Y010.00 F01200
+# GCODE case=pcb0 line=48 text=G1 X162.00 Y011.00 F01200
+# GCODE case=pcb0 line=49 text=G1 X162.00 Y015.00 F01200
+# GCODE case=pcb0 line=50 text=G1 X163.00 Y016.00 F01200
+# GCODE case=pcb0 line=51 text=G1 X165.00 Y016.00 F01200
+# GCODE case=pcb0 line=52 text=G1 X166.00 Y015.00 F01200
+# GCODE case=pcb0 line=53 text=G1 X166.00 Y011.00 F01200
+# GCODE case=pcb0 line=54 text=G1 X165.00 Y010.00 F01200
+# GCODE case=pcb0 line=55 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=56 text=G0 X159.00 Y010.00 F03000
+# GCODE case=pcb0 line=57 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=58 text=G4 P0.1
+# GCODE case=pcb0 line=59 text=G1 X157.00 Y010.00 F01200
+# GCODE case=pcb0 line=60 text=G1 X156.00 Y011.00 F01200
+# GCODE case=pcb0 line=61 text=G1 X156.00 Y015.00 F01200
+# GCODE case=pcb0 line=62 text=G1 X157.00 Y016.00 F01200
+# GCODE case=pcb0 line=63 text=G1 X159.00 Y016.00 F01200
+# GCODE case=pcb0 line=64 text=G1 X160.00 Y015.00 F01200
+# GCODE case=pcb0 line=65 text=G1 X160.00 Y011.00 F01200
+# GCODE case=pcb0 line=66 text=G1 X159.00 Y010.00 F01200
+# GCODE case=pcb0 line=67 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=68 text=G0 X153.00 Y010.00 F03000
+# GCODE case=pcb0 line=69 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=70 text=G4 P0.1
+# GCODE case=pcb0 line=71 text=G1 X151.00 Y010.00 F01200
+# GCODE case=pcb0 line=72 text=G1 X150.00 Y011.00 F01200
+# GCODE case=pcb0 line=73 text=G1 X150.00 Y015.00 F01200
+# GCODE case=pcb0 line=74 text=G1 X151.00 Y016.00 F01200
+# GCODE case=pcb0 line=75 text=G1 X153.00 Y016.00 F01200
+# GCODE case=pcb0 line=76 text=G1 X154.00 Y015.00 F01200
+# GCODE case=pcb0 line=77 text=G1 X154.00 Y011.00 F01200
+# GCODE case=pcb0 line=78 text=G1 X153.00 Y010.00 F01200
+# GCODE case=pcb0 line=79 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=80 text=G0 X147.00 Y011.00 F03000
+# GCODE case=pcb0 line=81 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=82 text=G4 P0.1
+# GCODE case=pcb0 line=83 text=G1 X146.00 Y010.00 F01200
+# GCODE case=pcb0 line=84 text=G1 X146.00 Y016.00 F01200
+# GCODE case=pcb0 line=85 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=86 text=G0 X147.00 Y016.00 F03000
+# GCODE case=pcb0 line=87 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=88 text=G4 P0.1
+# GCODE case=pcb0 line=89 text=G1 X145.00 Y016.00 F01200
+# GCODE case=pcb0 line=90 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=91 text=G0 X136.00 Y016.00 F03000
+# GCODE case=pcb0 line=92 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=93 text=G4 P0.1
+# GCODE case=pcb0 line=94 text=G1 X136.00 Y010.00 F01200
+# GCODE case=pcb0 line=95 text=G1 X133.00 Y010.00 F01200
+# GCODE case=pcb0 line=96 text=G1 X132.00 Y011.00 F01200
+# GCODE case=pcb0 line=97 text=G1 X132.00 Y012.00 F01200
+# GCODE case=pcb0 line=98 text=G1 X133.00 Y013.00 F01200
+# GCODE case=pcb0 line=99 text=G1 X136.00 Y013.00 F01200
+# GCODE case=pcb0 line=100 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=101 text=G0 X134.00 Y013.00 F03000
+# GCODE case=pcb0 line=102 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=103 text=G4 P0.1
+# GCODE case=pcb0 line=104 text=G1 X132.00 Y016.00 F01200
+# GCODE case=pcb0 line=105 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=106 text=G0 X126.00 Y010.00 F03000
+# GCODE case=pcb0 line=107 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=108 text=G4 P0.1
+# GCODE case=pcb0 line=109 text=G1 X130.00 Y010.00 F01200
+# GCODE case=pcb0 line=110 text=G1 X130.00 Y016.00 F01200
+# GCODE case=pcb0 line=111 text=G1 X126.00 Y016.00 F01200
+# GCODE case=pcb0 line=112 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=113 text=G0 X130.00 Y013.00 F03000
+# GCODE case=pcb0 line=114 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=115 text=G4 P0.1
+# GCODE case=pcb0 line=116 text=G1 X127.00 Y013.00 F01200
+# GCODE case=pcb0 line=117 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=118 text=G0 X124.00 Y010.00 F03000
+# GCODE case=pcb0 line=119 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=120 text=G4 P0.1
+# GCODE case=pcb0 line=121 text=G1 X122.00 Y016.00 F01200
+# GCODE case=pcb0 line=122 text=G1 X120.00 Y010.00 F01200
+# GCODE case=pcb0 line=123 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=124 text=G0 X118.00 Y010.00 F03000
+# GCODE case=pcb0 line=125 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=126 text=G4 P0.1
+# GCODE case=pcb0 line=127 text=G1 X114.00 Y010.00 F01200
+# GCODE case=pcb0 line=128 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=129 text=G0 X116.00 Y010.00 F03000
+# GCODE case=pcb0 line=130 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=131 text=G4 P0.1
+# GCODE case=pcb0 line=132 text=G1 X116.00 Y016.00 F01200
+# GCODE case=pcb0 line=133 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=134 text=G0 X118.00 Y016.00 F03000
+# GCODE case=pcb0 line=135 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=136 text=G4 P0.1
+# GCODE case=pcb0 line=137 text=G1 X114.00 Y016.00 F01200
+# GCODE case=pcb0 line=138 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=139 text=G0 X108.00 Y010.00 F03000
+# GCODE case=pcb0 line=140 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=141 text=G4 P0.1
+# GCODE case=pcb0 line=142 text=G1 X112.00 Y010.00 F01200
+# GCODE case=pcb0 line=143 text=G1 X112.00 Y016.00 F01200
+# GCODE case=pcb0 line=144 text=G1 X108.00 Y016.00 F01200
+# GCODE case=pcb0 line=145 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=146 text=G0 X112.00 Y013.00 F03000
+# GCODE case=pcb0 line=147 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=148 text=G4 P0.1
+# GCODE case=pcb0 line=149 text=G1 X109.00 Y013.00 F01200
+# GCODE case=pcb0 line=150 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=151 text=G0 X106.00 Y010.00 F03000
+# GCODE case=pcb0 line=152 text=G1 Z+001.20 F00600
+# GCODE case=pcb0 line=153 text=G4 P0.1
+# GCODE case=pcb0 line=154 text=G1 X105.00 Y016.00 F01200
+# GCODE case=pcb0 line=155 text=G1 X104.00 Y013.00 F01200
+# GCODE case=pcb0 line=156 text=G1 X103.00 Y016.00 F01200
+# GCODE case=pcb0 line=157 text=G1 X102.00 Y010.00 F01200
+# GCODE case=pcb0 line=158 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=159 text=G1 Z-001.20 F00600
+# GCODE case=pcb0 line=160 text=G0 X190.00 Y021.00 F03000
+# FLOW_TEXT case=pcb0 row0=PCB 0001 REVIEW|row1=|row2=|cursor=1100
+# GCODE case=pcb1 line=1 text=G21
+# GCODE case=pcb1 line=2 text=G90
+# GCODE case=pcb1 line=3 text=G54
+# GCODE case=pcb1 line=4 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=5 text=G0 X190.00 Y016.00 F03000
+# GCODE case=pcb1 line=6 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=7 text=G4 P0.1
+# GCODE case=pcb1 line=8 text=G1 X190.00 Y010.00 F01200
+# GCODE case=pcb1 line=9 text=G1 X187.00 Y010.00 F01200
+# GCODE case=pcb1 line=10 text=G1 X186.00 Y011.00 F01200
+# GCODE case=pcb1 line=11 text=G1 X186.00 Y012.00 F01200
+# GCODE case=pcb1 line=12 text=G1 X187.00 Y013.00 F01200
+# GCODE case=pcb1 line=13 text=G1 X190.00 Y013.00 F01200
+# GCODE case=pcb1 line=14 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=15 text=G0 X180.00 Y011.00 F03000
+# GCODE case=pcb1 line=16 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=17 text=G4 P0.1
+# GCODE case=pcb1 line=18 text=G1 X181.00 Y010.00 F01200
+# GCODE case=pcb1 line=19 text=G1 X183.00 Y010.00 F01200
+# GCODE case=pcb1 line=20 text=G1 X184.00 Y011.00 F01200
+# GCODE case=pcb1 line=21 text=G1 X184.00 Y015.00 F01200
+# GCODE case=pcb1 line=22 text=G1 X183.00 Y016.00 F01200
+# GCODE case=pcb1 line=23 text=G1 X181.00 Y016.00 F01200
+# GCODE case=pcb1 line=24 text=G1 X180.00 Y015.00 F01200
+# GCODE case=pcb1 line=25 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=26 text=G0 X178.00 Y016.00 F03000
+# GCODE case=pcb1 line=27 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=28 text=G4 P0.1
+# GCODE case=pcb1 line=29 text=G1 X178.00 Y010.00 F01200
+# GCODE case=pcb1 line=30 text=G1 X175.00 Y010.00 F01200
+# GCODE case=pcb1 line=31 text=G1 X174.00 Y011.00 F01200
+# GCODE case=pcb1 line=32 text=G1 X174.00 Y012.00 F01200
+# GCODE case=pcb1 line=33 text=G1 X175.00 Y013.00 F01200
+# GCODE case=pcb1 line=34 text=G1 X178.00 Y013.00 F01200
+# GCODE case=pcb1 line=35 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=36 text=G0 X175.00 Y013.00 F03000
+# GCODE case=pcb1 line=37 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=38 text=G4 P0.1
+# GCODE case=pcb1 line=39 text=G1 X174.00 Y014.00 F01200
+# GCODE case=pcb1 line=40 text=G1 X174.00 Y015.00 F01200
+# GCODE case=pcb1 line=41 text=G1 X175.00 Y016.00 F01200
+# GCODE case=pcb1 line=42 text=G1 X178.00 Y016.00 F01200
+# GCODE case=pcb1 line=43 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=44 text=G0 X165.00 Y010.00 F03000
+# GCODE case=pcb1 line=45 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=46 text=G4 P0.1
+# GCODE case=pcb1 line=47 text=G1 X163.00 Y010.00 F01200
+# GCODE case=pcb1 line=48 text=G1 X162.00 Y011.00 F01200
+# GCODE case=pcb1 line=49 text=G1 X162.00 Y015.00 F01200
+# GCODE case=pcb1 line=50 text=G1 X163.00 Y016.00 F01200
+# GCODE case=pcb1 line=51 text=G1 X165.00 Y016.00 F01200
+# GCODE case=pcb1 line=52 text=G1 X166.00 Y015.00 F01200
+# GCODE case=pcb1 line=53 text=G1 X166.00 Y011.00 F01200
+# GCODE case=pcb1 line=54 text=G1 X165.00 Y010.00 F01200
+# GCODE case=pcb1 line=55 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=56 text=G0 X159.00 Y010.00 F03000
+# GCODE case=pcb1 line=57 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=58 text=G4 P0.1
+# GCODE case=pcb1 line=59 text=G1 X157.00 Y010.00 F01200
+# GCODE case=pcb1 line=60 text=G1 X156.00 Y011.00 F01200
+# GCODE case=pcb1 line=61 text=G1 X156.00 Y015.00 F01200
+# GCODE case=pcb1 line=62 text=G1 X157.00 Y016.00 F01200
+# GCODE case=pcb1 line=63 text=G1 X159.00 Y016.00 F01200
+# GCODE case=pcb1 line=64 text=G1 X160.00 Y015.00 F01200
+# GCODE case=pcb1 line=65 text=G1 X160.00 Y011.00 F01200
+# GCODE case=pcb1 line=66 text=G1 X159.00 Y010.00 F01200
+# GCODE case=pcb1 line=67 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=68 text=G0 X153.00 Y010.00 F03000
+# GCODE case=pcb1 line=69 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=70 text=G4 P0.1
+# GCODE case=pcb1 line=71 text=G1 X151.00 Y010.00 F01200
+# GCODE case=pcb1 line=72 text=G1 X150.00 Y011.00 F01200
+# GCODE case=pcb1 line=73 text=G1 X150.00 Y015.00 F01200
+# GCODE case=pcb1 line=74 text=G1 X151.00 Y016.00 F01200
+# GCODE case=pcb1 line=75 text=G1 X153.00 Y016.00 F01200
+# GCODE case=pcb1 line=76 text=G1 X154.00 Y015.00 F01200
+# GCODE case=pcb1 line=77 text=G1 X154.00 Y011.00 F01200
+# GCODE case=pcb1 line=78 text=G1 X153.00 Y010.00 F01200
+# GCODE case=pcb1 line=79 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=80 text=G0 X148.00 Y011.00 F03000
+# GCODE case=pcb1 line=81 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=82 text=G4 P0.1
+# GCODE case=pcb1 line=83 text=G1 X147.00 Y010.00 F01200
+# GCODE case=pcb1 line=84 text=G1 X145.00 Y010.00 F01200
+# GCODE case=pcb1 line=85 text=G1 X144.00 Y011.00 F01200
+# GCODE case=pcb1 line=86 text=G1 X144.00 Y012.00 F01200
+# GCODE case=pcb1 line=87 text=G1 X148.00 Y016.00 F01200
+# GCODE case=pcb1 line=88 text=G1 X144.00 Y016.00 F01200
+# GCODE case=pcb1 line=89 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=90 text=G0 X136.00 Y016.00 F03000
+# GCODE case=pcb1 line=91 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=92 text=G4 P0.1
+# GCODE case=pcb1 line=93 text=G1 X136.00 Y010.00 F01200
+# GCODE case=pcb1 line=94 text=G1 X133.00 Y010.00 F01200
+# GCODE case=pcb1 line=95 text=G1 X132.00 Y011.00 F01200
+# GCODE case=pcb1 line=96 text=G1 X132.00 Y012.00 F01200
+# GCODE case=pcb1 line=97 text=G1 X133.00 Y013.00 F01200
+# GCODE case=pcb1 line=98 text=G1 X136.00 Y013.00 F01200
+# GCODE case=pcb1 line=99 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=100 text=G0 X130.00 Y016.00 F03000
+# GCODE case=pcb1 line=101 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=102 text=G4 P0.1
+# GCODE case=pcb1 line=103 text=G1 X128.00 Y010.00 F01200
+# GCODE case=pcb1 line=104 text=G1 X126.00 Y016.00 F01200
+# GCODE case=pcb1 line=105 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=106 text=G0 X129.00 Y013.00 F03000
+# GCODE case=pcb1 line=107 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=108 text=G4 P0.1
+# GCODE case=pcb1 line=109 text=G1 X127.00 Y013.00 F01200
+# GCODE case=pcb1 line=110 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=111 text=G0 X120.00 Y011.00 F03000
+# GCODE case=pcb1 line=112 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=113 text=G4 P0.1
+# GCODE case=pcb1 line=114 text=G1 X121.00 Y010.00 F01200
+# GCODE case=pcb1 line=115 text=G1 X123.00 Y010.00 F01200
+# GCODE case=pcb1 line=116 text=G1 X124.00 Y011.00 F01200
+# GCODE case=pcb1 line=117 text=G1 X124.00 Y012.00 F01200
+# GCODE case=pcb1 line=118 text=G1 X123.00 Y013.00 F01200
+# GCODE case=pcb1 line=119 text=G1 X121.00 Y013.00 F01200
+# GCODE case=pcb1 line=120 text=G1 X120.00 Y014.00 F01200
+# GCODE case=pcb1 line=121 text=G1 X120.00 Y015.00 F01200
+# GCODE case=pcb1 line=122 text=G1 X121.00 Y016.00 F01200
+# GCODE case=pcb1 line=123 text=G1 X123.00 Y016.00 F01200
+# GCODE case=pcb1 line=124 text=G1 X124.00 Y015.00 F01200
+# GCODE case=pcb1 line=125 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=126 text=G0 X114.00 Y011.00 F03000
+# GCODE case=pcb1 line=127 text=G1 Z+001.20 F00600
+# GCODE case=pcb1 line=128 text=G4 P0.1
+# GCODE case=pcb1 line=129 text=G1 X115.00 Y010.00 F01200
+# GCODE case=pcb1 line=130 text=G1 X117.00 Y010.00 F01200
+# GCODE case=pcb1 line=131 text=G1 X118.00 Y011.00 F01200
+# GCODE case=pcb1 line=132 text=G1 X118.00 Y012.00 F01200
+# GCODE case=pcb1 line=133 text=G1 X117.00 Y013.00 F01200
+# GCODE case=pcb1 line=134 text=G1 X115.00 Y013.00 F01200
+# GCODE case=pcb1 line=135 text=G1 X114.00 Y014.00 F01200
+# GCODE case=pcb1 line=136 text=G1 X114.00 Y015.00 F01200
+# GCODE case=pcb1 line=137 text=G1 X115.00 Y016.00 F01200
+# GCODE case=pcb1 line=138 text=G1 X117.00 Y016.00 F01200
+# GCODE case=pcb1 line=139 text=G1 X118.00 Y015.00 F01200
+# GCODE case=pcb1 line=140 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=141 text=G1 Z-001.20 F00600
+# GCODE case=pcb1 line=142 text=G0 X190.00 Y021.00 F03000
+# FLOW_TEXT case=pcb1 row0=PCB 0002 PASS|row1=|row2=|cursor=1100
+# GCODE case=pcb2 line=1 text=G21
+# GCODE case=pcb2 line=2 text=G90
+# GCODE case=pcb2 line=3 text=G54
+# GCODE case=pcb2 line=4 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=5 text=G0 X190.00 Y016.00 F03000
+# GCODE case=pcb2 line=6 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=7 text=G4 P0.1
+# GCODE case=pcb2 line=8 text=G1 X190.00 Y010.00 F01200
+# GCODE case=pcb2 line=9 text=G1 X187.00 Y010.00 F01200
+# GCODE case=pcb2 line=10 text=G1 X186.00 Y011.00 F01200
+# GCODE case=pcb2 line=11 text=G1 X186.00 Y012.00 F01200
+# GCODE case=pcb2 line=12 text=G1 X187.00 Y013.00 F01200
+# GCODE case=pcb2 line=13 text=G1 X190.00 Y013.00 F01200
+# GCODE case=pcb2 line=14 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=15 text=G0 X180.00 Y011.00 F03000
+# GCODE case=pcb2 line=16 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=17 text=G4 P0.1
+# GCODE case=pcb2 line=18 text=G1 X181.00 Y010.00 F01200
+# GCODE case=pcb2 line=19 text=G1 X183.00 Y010.00 F01200
+# GCODE case=pcb2 line=20 text=G1 X184.00 Y011.00 F01200
+# GCODE case=pcb2 line=21 text=G1 X184.00 Y015.00 F01200
+# GCODE case=pcb2 line=22 text=G1 X183.00 Y016.00 F01200
+# GCODE case=pcb2 line=23 text=G1 X181.00 Y016.00 F01200
+# GCODE case=pcb2 line=24 text=G1 X180.00 Y015.00 F01200
+# GCODE case=pcb2 line=25 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=26 text=G0 X178.00 Y016.00 F03000
+# GCODE case=pcb2 line=27 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=28 text=G4 P0.1
+# GCODE case=pcb2 line=29 text=G1 X178.00 Y010.00 F01200
+# GCODE case=pcb2 line=30 text=G1 X175.00 Y010.00 F01200
+# GCODE case=pcb2 line=31 text=G1 X174.00 Y011.00 F01200
+# GCODE case=pcb2 line=32 text=G1 X174.00 Y012.00 F01200
+# GCODE case=pcb2 line=33 text=G1 X175.00 Y013.00 F01200
+# GCODE case=pcb2 line=34 text=G1 X178.00 Y013.00 F01200
+# GCODE case=pcb2 line=35 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=36 text=G0 X175.00 Y013.00 F03000
+# GCODE case=pcb2 line=37 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=38 text=G4 P0.1
+# GCODE case=pcb2 line=39 text=G1 X174.00 Y014.00 F01200
+# GCODE case=pcb2 line=40 text=G1 X174.00 Y015.00 F01200
+# GCODE case=pcb2 line=41 text=G1 X175.00 Y016.00 F01200
+# GCODE case=pcb2 line=42 text=G1 X178.00 Y016.00 F01200
+# GCODE case=pcb2 line=43 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=44 text=G0 X165.00 Y010.00 F03000
+# GCODE case=pcb2 line=45 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=46 text=G4 P0.1
+# GCODE case=pcb2 line=47 text=G1 X163.00 Y010.00 F01200
+# GCODE case=pcb2 line=48 text=G1 X162.00 Y011.00 F01200
+# GCODE case=pcb2 line=49 text=G1 X162.00 Y015.00 F01200
+# GCODE case=pcb2 line=50 text=G1 X163.00 Y016.00 F01200
+# GCODE case=pcb2 line=51 text=G1 X165.00 Y016.00 F01200
+# GCODE case=pcb2 line=52 text=G1 X166.00 Y015.00 F01200
+# GCODE case=pcb2 line=53 text=G1 X166.00 Y011.00 F01200
+# GCODE case=pcb2 line=54 text=G1 X165.00 Y010.00 F01200
+# GCODE case=pcb2 line=55 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=56 text=G0 X159.00 Y010.00 F03000
+# GCODE case=pcb2 line=57 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=58 text=G4 P0.1
+# GCODE case=pcb2 line=59 text=G1 X157.00 Y010.00 F01200
+# GCODE case=pcb2 line=60 text=G1 X156.00 Y011.00 F01200
+# GCODE case=pcb2 line=61 text=G1 X156.00 Y015.00 F01200
+# GCODE case=pcb2 line=62 text=G1 X157.00 Y016.00 F01200
+# GCODE case=pcb2 line=63 text=G1 X159.00 Y016.00 F01200
+# GCODE case=pcb2 line=64 text=G1 X160.00 Y015.00 F01200
+# GCODE case=pcb2 line=65 text=G1 X160.00 Y011.00 F01200
+# GCODE case=pcb2 line=66 text=G1 X159.00 Y010.00 F01200
+# GCODE case=pcb2 line=67 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=68 text=G0 X153.00 Y010.00 F03000
+# GCODE case=pcb2 line=69 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=70 text=G4 P0.1
+# GCODE case=pcb2 line=71 text=G1 X151.00 Y010.00 F01200
+# GCODE case=pcb2 line=72 text=G1 X150.00 Y011.00 F01200
+# GCODE case=pcb2 line=73 text=G1 X150.00 Y015.00 F01200
+# GCODE case=pcb2 line=74 text=G1 X151.00 Y016.00 F01200
+# GCODE case=pcb2 line=75 text=G1 X153.00 Y016.00 F01200
+# GCODE case=pcb2 line=76 text=G1 X154.00 Y015.00 F01200
+# GCODE case=pcb2 line=77 text=G1 X154.00 Y011.00 F01200
+# GCODE case=pcb2 line=78 text=G1 X153.00 Y010.00 F01200
+# GCODE case=pcb2 line=79 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=80 text=G0 X148.00 Y010.00 F03000
+# GCODE case=pcb2 line=81 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=82 text=G4 P0.1
+# GCODE case=pcb2 line=83 text=G1 X145.00 Y010.00 F01200
+# GCODE case=pcb2 line=84 text=G1 X144.00 Y011.00 F01200
+# GCODE case=pcb2 line=85 text=G1 X145.00 Y013.00 F01200
+# GCODE case=pcb2 line=86 text=G1 X147.00 Y013.00 F01200
+# GCODE case=pcb2 line=87 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=88 text=G0 X145.00 Y013.00 F03000
+# GCODE case=pcb2 line=89 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=90 text=G4 P0.1
+# GCODE case=pcb2 line=91 text=G1 X144.00 Y015.00 F01200
+# GCODE case=pcb2 line=92 text=G1 X145.00 Y016.00 F01200
+# GCODE case=pcb2 line=93 text=G1 X148.00 Y016.00 F01200
+# GCODE case=pcb2 line=94 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=95 text=G0 X136.00 Y016.00 F03000
+# GCODE case=pcb2 line=96 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=97 text=G4 P0.1
+# GCODE case=pcb2 line=98 text=G1 X136.00 Y010.00 F01200
+# GCODE case=pcb2 line=99 text=G1 X132.00 Y010.00 F01200
+# GCODE case=pcb2 line=100 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=101 text=G0 X136.00 Y013.00 F03000
+# GCODE case=pcb2 line=102 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=103 text=G4 P0.1
+# GCODE case=pcb2 line=104 text=G1 X133.00 Y013.00 F01200
+# GCODE case=pcb2 line=105 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=106 text=G0 X130.00 Y016.00 F03000
+# GCODE case=pcb2 line=107 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=108 text=G4 P0.1
+# GCODE case=pcb2 line=109 text=G1 X128.00 Y010.00 F01200
+# GCODE case=pcb2 line=110 text=G1 X126.00 Y016.00 F01200
+# GCODE case=pcb2 line=111 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=112 text=G0 X129.00 Y013.00 F03000
+# GCODE case=pcb2 line=113 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=114 text=G4 P0.1
+# GCODE case=pcb2 line=115 text=G1 X127.00 Y013.00 F01200
+# GCODE case=pcb2 line=116 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=117 text=G0 X124.00 Y010.00 F03000
+# GCODE case=pcb2 line=118 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=119 text=G4 P0.1
+# GCODE case=pcb2 line=120 text=G1 X120.00 Y010.00 F01200
+# GCODE case=pcb2 line=121 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=122 text=G0 X122.00 Y010.00 F03000
+# GCODE case=pcb2 line=123 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=124 text=G4 P0.1
+# GCODE case=pcb2 line=125 text=G1 X122.00 Y016.00 F01200
+# GCODE case=pcb2 line=126 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=127 text=G0 X124.00 Y016.00 F03000
+# GCODE case=pcb2 line=128 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=129 text=G4 P0.1
+# GCODE case=pcb2 line=130 text=G1 X120.00 Y016.00 F01200
+# GCODE case=pcb2 line=131 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=132 text=G0 X118.00 Y010.00 F03000
+# GCODE case=pcb2 line=133 text=G1 Z+001.20 F00600
+# GCODE case=pcb2 line=134 text=G4 P0.1
+# GCODE case=pcb2 line=135 text=G1 X118.00 Y016.00 F01200
+# GCODE case=pcb2 line=136 text=G1 X114.00 Y016.00 F01200
+# GCODE case=pcb2 line=137 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=138 text=G1 Z-001.20 F00600
+# GCODE case=pcb2 line=139 text=G0 X190.00 Y021.00 F03000
+# FLOW_TEXT case=pcb2 row0=PCB 0003 FAIL|row1=|row2=|cursor=1100
+# GCODE case=cnn1 line=1 text=G21
+# GCODE case=cnn1 line=2 text=G90
+# GCODE case=cnn1 line=3 text=G54
+# GCODE case=cnn1 line=4 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=5 text=G0 X190.00 Y016.00 F03000
+# GCODE case=cnn1 line=6 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=7 text=G4 P0.1
+# GCODE case=cnn1 line=8 text=G1 X190.00 Y010.00 F01200
+# GCODE case=cnn1 line=9 text=G1 X187.00 Y010.00 F01200
+# GCODE case=cnn1 line=10 text=G1 X186.00 Y011.00 F01200
+# GCODE case=cnn1 line=11 text=G1 X186.00 Y012.00 F01200
+# GCODE case=cnn1 line=12 text=G1 X187.00 Y013.00 F01200
+# GCODE case=cnn1 line=13 text=G1 X190.00 Y013.00 F01200
+# GCODE case=cnn1 line=14 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=15 text=G0 X188.00 Y013.00 F03000
+# GCODE case=cnn1 line=16 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=17 text=G4 P0.1
+# GCODE case=cnn1 line=18 text=G1 X186.00 Y016.00 F01200
+# GCODE case=cnn1 line=19 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=20 text=G0 X180.00 Y010.00 F03000
+# GCODE case=cnn1 line=21 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=22 text=G4 P0.1
+# GCODE case=cnn1 line=23 text=G1 X184.00 Y010.00 F01200
+# GCODE case=cnn1 line=24 text=G1 X184.00 Y016.00 F01200
+# GCODE case=cnn1 line=25 text=G1 X180.00 Y016.00 F01200
+# GCODE case=cnn1 line=26 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=27 text=G0 X184.00 Y013.00 F03000
+# GCODE case=cnn1 line=28 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=29 text=G4 P0.1
+# GCODE case=cnn1 line=30 text=G1 X181.00 Y013.00 F01200
+# GCODE case=cnn1 line=31 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=32 text=G0 X178.00 Y016.00 F03000
+# GCODE case=cnn1 line=33 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=34 text=G4 P0.1
+# GCODE case=cnn1 line=35 text=G1 X178.00 Y010.00 F01200
+# GCODE case=cnn1 line=36 text=G1 X176.00 Y010.00 F01200
+# GCODE case=cnn1 line=37 text=G1 X174.00 Y012.00 F01200
+# GCODE case=cnn1 line=38 text=G1 X174.00 Y014.00 F01200
+# GCODE case=cnn1 line=39 text=G1 X176.00 Y016.00 F01200
+# GCODE case=cnn1 line=40 text=G1 X178.00 Y016.00 F01200
+# GCODE case=cnn1 line=41 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=42 text=G0 X154.00 Y010.00 F03000
+# GCODE case=cnn1 line=43 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=44 text=G4 P0.1
+# GCODE case=cnn1 line=45 text=G1 X150.00 Y010.00 F01200
+# GCODE case=cnn1 line=46 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=47 text=G0 X152.00 Y010.00 F03000
+# GCODE case=cnn1 line=48 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=49 text=G4 P0.1
+# GCODE case=cnn1 line=50 text=G1 X152.00 Y016.00 F01200
+# GCODE case=cnn1 line=51 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=52 text=G0 X148.00 Y016.00 F03000
+# GCODE case=cnn1 line=53 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=54 text=G4 P0.1
+# GCODE case=cnn1 line=55 text=G1 X148.00 Y010.00 F01200
+# GCODE case=cnn1 line=56 text=G1 X145.00 Y010.00 F01200
+# GCODE case=cnn1 line=57 text=G1 X144.00 Y011.00 F01200
+# GCODE case=cnn1 line=58 text=G1 X144.00 Y012.00 F01200
+# GCODE case=cnn1 line=59 text=G1 X145.00 Y013.00 F01200
+# GCODE case=cnn1 line=60 text=G1 X148.00 Y013.00 F01200
+# GCODE case=cnn1 line=61 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=62 text=G0 X146.00 Y013.00 F03000
+# GCODE case=cnn1 line=63 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=64 text=G4 P0.1
+# GCODE case=cnn1 line=65 text=G1 X144.00 Y016.00 F01200
+# GCODE case=cnn1 line=66 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=67 text=G0 X142.00 Y010.00 F03000
+# GCODE case=cnn1 line=68 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=69 text=G4 P0.1
+# GCODE case=cnn1 line=70 text=G1 X138.00 Y010.00 F01200
+# GCODE case=cnn1 line=71 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=72 text=G0 X140.00 Y010.00 F03000
+# GCODE case=cnn1 line=73 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=74 text=G4 P0.1
+# GCODE case=cnn1 line=75 text=G1 X140.00 Y016.00 F01200
+# GCODE case=cnn1 line=76 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=77 text=G0 X142.00 Y016.00 F03000
+# GCODE case=cnn1 line=78 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=79 text=G4 P0.1
+# GCODE case=cnn1 line=80 text=G1 X138.00 Y016.00 F01200
+# GCODE case=cnn1 line=81 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=82 text=G0 X136.00 Y016.00 F03000
+# GCODE case=cnn1 line=83 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=84 text=G4 P0.1
+# GCODE case=cnn1 line=85 text=G1 X134.00 Y010.00 F01200
+# GCODE case=cnn1 line=86 text=G1 X132.00 Y016.00 F01200
+# GCODE case=cnn1 line=87 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=88 text=G0 X135.00 Y013.00 F03000
+# GCODE case=cnn1 line=89 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=90 text=G4 P0.1
+# GCODE case=cnn1 line=91 text=G1 X133.00 Y013.00 F01200
+# GCODE case=cnn1 line=92 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=93 text=G0 X130.00 Y016.00 F03000
+# GCODE case=cnn1 line=94 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=95 text=G4 P0.1
+# GCODE case=cnn1 line=96 text=G1 X130.00 Y010.00 F01200
+# GCODE case=cnn1 line=97 text=G1 X126.00 Y016.00 F01200
+# GCODE case=cnn1 line=98 text=G1 X126.00 Y010.00 F01200
+# GCODE case=cnn1 line=99 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=100 text=G0 X120.00 Y011.00 F03000
+# GCODE case=cnn1 line=101 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=102 text=G4 P0.1
+# GCODE case=cnn1 line=103 text=G1 X121.00 Y010.00 F01200
+# GCODE case=cnn1 line=104 text=G1 X123.00 Y010.00 F01200
+# GCODE case=cnn1 line=105 text=G1 X124.00 Y011.00 F01200
+# GCODE case=cnn1 line=106 text=G1 X124.00 Y015.00 F01200
+# GCODE case=cnn1 line=107 text=G1 X123.00 Y016.00 F01200
+# GCODE case=cnn1 line=108 text=G1 X121.00 Y016.00 F01200
+# GCODE case=cnn1 line=109 text=G1 X120.00 Y015.00 F01200
+# GCODE case=cnn1 line=110 text=G1 X120.00 Y013.00 F01200
+# GCODE case=cnn1 line=111 text=G1 X122.00 Y013.00 F01200
+# GCODE case=cnn1 line=112 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=113 text=G0 X118.00 Y010.00 F03000
+# GCODE case=cnn1 line=114 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=115 text=G4 P0.1
+# GCODE case=cnn1 line=116 text=G1 X118.00 Y016.00 F01200
+# GCODE case=cnn1 line=117 text=G1 X114.00 Y016.00 F01200
+# GCODE case=cnn1 line=118 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=119 text=G0 X108.00 Y010.00 F03000
+# GCODE case=cnn1 line=120 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=121 text=G4 P0.1
+# GCODE case=cnn1 line=122 text=G1 X112.00 Y010.00 F01200
+# GCODE case=cnn1 line=123 text=G1 X112.00 Y016.00 F01200
+# GCODE case=cnn1 line=124 text=G1 X108.00 Y016.00 F01200
+# GCODE case=cnn1 line=125 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=126 text=G0 X112.00 Y013.00 F03000
+# GCODE case=cnn1 line=127 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=128 text=G4 P0.1
+# GCODE case=cnn1 line=129 text=G1 X109.00 Y013.00 F01200
+# GCODE case=cnn1 line=130 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=131 text=G0 X190.00 Y020.00 F03000
+# GCODE case=cnn1 line=132 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=133 text=G4 P0.1
+# GCODE case=cnn1 line=134 text=G1 X186.00 Y026.00 F01200
+# GCODE case=cnn1 line=135 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=136 text=G0 X186.00 Y020.00 F03000
+# GCODE case=cnn1 line=137 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=138 text=G4 P0.1
+# GCODE case=cnn1 line=139 text=G1 X190.00 Y026.00 F01200
+# GCODE case=cnn1 line=140 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=141 text=G0 X183.00 Y020.00 F03000
+# GCODE case=cnn1 line=142 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=143 text=G4 P0.1
+# GCODE case=cnn1 line=144 text=G1 X181.00 Y020.00 F01200
+# GCODE case=cnn1 line=145 text=G1 X180.00 Y021.00 F01200
+# GCODE case=cnn1 line=146 text=G1 X180.00 Y025.00 F01200
+# GCODE case=cnn1 line=147 text=G1 X181.00 Y026.00 F01200
+# GCODE case=cnn1 line=148 text=G1 X183.00 Y026.00 F01200
+# GCODE case=cnn1 line=149 text=G1 X184.00 Y025.00 F01200
+# GCODE case=cnn1 line=150 text=G1 X184.00 Y021.00 F01200
+# GCODE case=cnn1 line=151 text=G1 X183.00 Y020.00 F01200
+# GCODE case=cnn1 line=152 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=153 text=G0 X174.00 Y020.00 F03000
+# GCODE case=cnn1 line=154 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=155 text=G4 P0.1
+# GCODE case=cnn1 line=156 text=G1 X177.00 Y020.00 F01200
+# GCODE case=cnn1 line=157 text=G1 X178.00 Y021.00 F01200
+# GCODE case=cnn1 line=158 text=G1 X178.00 Y025.00 F01200
+# GCODE case=cnn1 line=159 text=G1 X177.00 Y026.00 F01200
+# GCODE case=cnn1 line=160 text=G1 X175.00 Y026.00 F01200
+# GCODE case=cnn1 line=161 text=G1 X174.00 Y025.00 F01200
+# GCODE case=cnn1 line=162 text=G1 X174.00 Y024.00 F01200
+# GCODE case=cnn1 line=163 text=G1 X175.00 Y023.00 F01200
+# GCODE case=cnn1 line=164 text=G1 X178.00 Y023.00 F01200
+# GCODE case=cnn1 line=165 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=166 text=G0 X169.00 Y026.00 F03000
+# GCODE case=cnn1 line=167 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=168 text=G4 P0.1
+# GCODE case=cnn1 line=169 text=G1 X169.00 Y020.00 F01200
+# GCODE case=cnn1 line=170 text=G1 X172.00 Y024.00 F01200
+# GCODE case=cnn1 line=171 text=G1 X168.00 Y024.00 F01200
+# GCODE case=cnn1 line=172 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=173 text=G0 X165.00 Y020.00 F03000
+# GCODE case=cnn1 line=174 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=175 text=G4 P0.1
+# GCODE case=cnn1 line=176 text=G1 X163.00 Y020.00 F01200
+# GCODE case=cnn1 line=177 text=G1 X162.00 Y021.00 F01200
+# GCODE case=cnn1 line=178 text=G1 X162.00 Y025.00 F01200
+# GCODE case=cnn1 line=179 text=G1 X163.00 Y026.00 F01200
+# GCODE case=cnn1 line=180 text=G1 X165.00 Y026.00 F01200
+# GCODE case=cnn1 line=181 text=G1 X166.00 Y025.00 F01200
+# GCODE case=cnn1 line=182 text=G1 X166.00 Y021.00 F01200
+# GCODE case=cnn1 line=183 text=G1 X165.00 Y020.00 F01200
+# GCODE case=cnn1 line=184 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=185 text=G0 X154.00 Y020.00 F03000
+# GCODE case=cnn1 line=186 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=187 text=G4 P0.1
+# GCODE case=cnn1 line=188 text=G1 X152.00 Y023.00 F01200
+# GCODE case=cnn1 line=189 text=G1 X150.00 Y020.00 F01200
+# GCODE case=cnn1 line=190 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=191 text=G0 X152.00 Y023.00 F03000
+# GCODE case=cnn1 line=192 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=193 text=G4 P0.1
+# GCODE case=cnn1 line=194 text=G1 X152.00 Y026.00 F01200
+# GCODE case=cnn1 line=195 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=196 text=G0 X147.00 Y020.00 F03000
+# GCODE case=cnn1 line=197 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=198 text=G4 P0.1
+# GCODE case=cnn1 line=199 text=G1 X145.00 Y020.00 F01200
+# GCODE case=cnn1 line=200 text=G1 X144.00 Y021.00 F01200
+# GCODE case=cnn1 line=201 text=G1 X144.00 Y025.00 F01200
+# GCODE case=cnn1 line=202 text=G1 X145.00 Y026.00 F01200
+# GCODE case=cnn1 line=203 text=G1 X147.00 Y026.00 F01200
+# GCODE case=cnn1 line=204 text=G1 X148.00 Y025.00 F01200
+# GCODE case=cnn1 line=205 text=G1 X148.00 Y021.00 F01200
+# GCODE case=cnn1 line=206 text=G1 X147.00 Y020.00 F01200
+# GCODE case=cnn1 line=207 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=208 text=G0 X142.00 Y020.00 F03000
+# GCODE case=cnn1 line=209 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=210 text=G4 P0.1
+# GCODE case=cnn1 line=211 text=G1 X139.00 Y020.00 F01200
+# GCODE case=cnn1 line=212 text=G1 X138.00 Y021.00 F01200
+# GCODE case=cnn1 line=213 text=G1 X139.00 Y023.00 F01200
+# GCODE case=cnn1 line=214 text=G1 X141.00 Y023.00 F01200
+# GCODE case=cnn1 line=215 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=216 text=G0 X139.00 Y023.00 F03000
+# GCODE case=cnn1 line=217 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=218 text=G4 P0.1
+# GCODE case=cnn1 line=219 text=G1 X138.00 Y025.00 F01200
+# GCODE case=cnn1 line=220 text=G1 X139.00 Y026.00 F01200
+# GCODE case=cnn1 line=221 text=G1 X142.00 Y026.00 F01200
+# GCODE case=cnn1 line=222 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=223 text=G0 X132.00 Y020.00 F03000
+# GCODE case=cnn1 line=224 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=225 text=G4 P0.1
+# GCODE case=cnn1 line=226 text=G1 X135.00 Y020.00 F01200
+# GCODE case=cnn1 line=227 text=G1 X136.00 Y021.00 F01200
+# GCODE case=cnn1 line=228 text=G1 X136.00 Y025.00 F01200
+# GCODE case=cnn1 line=229 text=G1 X135.00 Y026.00 F01200
+# GCODE case=cnn1 line=230 text=G1 X133.00 Y026.00 F01200
+# GCODE case=cnn1 line=231 text=G1 X132.00 Y025.00 F01200
+# GCODE case=cnn1 line=232 text=G1 X132.00 Y024.00 F01200
+# GCODE case=cnn1 line=233 text=G1 X133.00 Y023.00 F01200
+# GCODE case=cnn1 line=234 text=G1 X136.00 Y023.00 F01200
+# GCODE case=cnn1 line=235 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=236 text=G0 X129.00 Y020.00 F03000
+# GCODE case=cnn1 line=237 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=238 text=G4 P0.1
+# GCODE case=cnn1 line=239 text=G1 X127.00 Y020.00 F01200
+# GCODE case=cnn1 line=240 text=G1 X126.00 Y021.00 F01200
+# GCODE case=cnn1 line=241 text=G1 X126.00 Y025.00 F01200
+# GCODE case=cnn1 line=242 text=G1 X127.00 Y026.00 F01200
+# GCODE case=cnn1 line=243 text=G1 X129.00 Y026.00 F01200
+# GCODE case=cnn1 line=244 text=G1 X130.00 Y025.00 F01200
+# GCODE case=cnn1 line=245 text=G1 X130.00 Y021.00 F01200
+# GCODE case=cnn1 line=246 text=G1 X129.00 Y020.00 F01200
+# GCODE case=cnn1 line=247 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=248 text=G0 X186.00 Y031.00 F03000
+# GCODE case=cnn1 line=249 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=250 text=G4 P0.1
+# GCODE case=cnn1 line=251 text=G1 X187.00 Y030.00 F01200
+# GCODE case=cnn1 line=252 text=G1 X189.00 Y030.00 F01200
+# GCODE case=cnn1 line=253 text=G1 X190.00 Y031.00 F01200
+# GCODE case=cnn1 line=254 text=G1 X190.00 Y035.00 F01200
+# GCODE case=cnn1 line=255 text=G1 X189.00 Y036.00 F01200
+# GCODE case=cnn1 line=256 text=G1 X187.00 Y036.00 F01200
+# GCODE case=cnn1 line=257 text=G1 X186.00 Y035.00 F01200
+# GCODE case=cnn1 line=258 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=259 text=G0 X183.00 Y030.00 F03000
+# GCODE case=cnn1 line=260 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=261 text=G4 P0.1
+# GCODE case=cnn1 line=262 text=G1 X181.00 Y030.00 F01200
+# GCODE case=cnn1 line=263 text=G1 X180.00 Y031.00 F01200
+# GCODE case=cnn1 line=264 text=G1 X180.00 Y035.00 F01200
+# GCODE case=cnn1 line=265 text=G1 X181.00 Y036.00 F01200
+# GCODE case=cnn1 line=266 text=G1 X183.00 Y036.00 F01200
+# GCODE case=cnn1 line=267 text=G1 X184.00 Y035.00 F01200
+# GCODE case=cnn1 line=268 text=G1 X184.00 Y031.00 F01200
+# GCODE case=cnn1 line=269 text=G1 X183.00 Y030.00 F01200
+# GCODE case=cnn1 line=270 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=271 text=G0 X178.00 Y036.00 F03000
+# GCODE case=cnn1 line=272 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=273 text=G4 P0.1
+# GCODE case=cnn1 line=274 text=G1 X178.00 Y030.00 F01200
+# GCODE case=cnn1 line=275 text=G1 X174.00 Y036.00 F01200
+# GCODE case=cnn1 line=276 text=G1 X174.00 Y030.00 F01200
+# GCODE case=cnn1 line=277 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=278 text=G0 X172.00 Y036.00 F03000
+# GCODE case=cnn1 line=279 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=280 text=G4 P0.1
+# GCODE case=cnn1 line=281 text=G1 X172.00 Y030.00 F01200
+# GCODE case=cnn1 line=282 text=G1 X168.00 Y030.00 F01200
+# GCODE case=cnn1 line=283 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=284 text=G0 X172.00 Y033.00 F03000
+# GCODE case=cnn1 line=285 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=286 text=G4 P0.1
+# GCODE case=cnn1 line=287 text=G1 X169.00 Y033.00 F01200
+# GCODE case=cnn1 line=288 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=289 text=G0 X159.00 Y030.00 F03000
+# GCODE case=cnn1 line=290 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=291 text=G4 P0.1
+# GCODE case=cnn1 line=292 text=G1 X157.00 Y030.00 F01200
+# GCODE case=cnn1 line=293 text=G1 X156.00 Y031.00 F01200
+# GCODE case=cnn1 line=294 text=G1 X156.00 Y035.00 F01200
+# GCODE case=cnn1 line=295 text=G1 X157.00 Y036.00 F01200
+# GCODE case=cnn1 line=296 text=G1 X159.00 Y036.00 F01200
+# GCODE case=cnn1 line=297 text=G1 X160.00 Y035.00 F01200
+# GCODE case=cnn1 line=298 text=G1 X160.00 Y031.00 F01200
+# GCODE case=cnn1 line=299 text=G1 X159.00 Y030.00 F01200
+# GCODE case=cnn1 line=300 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=301 text=G0 X153.00 Y030.00 F03000
+# GCODE case=cnn1 line=302 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=303 text=G4 P0.1
+# GCODE case=cnn1 line=304 text=G1 X151.00 Y030.00 F01200
+# GCODE case=cnn1 line=305 text=G1 X150.00 Y031.00 F01200
+# GCODE case=cnn1 line=306 text=G1 X150.00 Y035.00 F01200
+# GCODE case=cnn1 line=307 text=G1 X151.00 Y036.00 F01200
+# GCODE case=cnn1 line=308 text=G1 X153.00 Y036.00 F01200
+# GCODE case=cnn1 line=309 text=G1 X154.00 Y035.00 F01200
+# GCODE case=cnn1 line=310 text=G1 X154.00 Y031.00 F01200
+# GCODE case=cnn1 line=311 text=G1 X153.00 Y030.00 F01200
+# GCODE case=cnn1 line=312 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=313 text=G0 X147.00 Y030.00 F03000
+# GCODE case=cnn1 line=314 text=G1 Z+001.20 F00600
+# GCODE case=cnn1 line=315 text=G4 P0.1
+# GCODE case=cnn1 line=316 text=G1 X145.00 Y030.00 F01200
+# GCODE case=cnn1 line=317 text=G1 X144.00 Y031.00 F01200
+# GCODE case=cnn1 line=318 text=G1 X144.00 Y035.00 F01200
+# GCODE case=cnn1 line=319 text=G1 X145.00 Y036.00 F01200
+# GCODE case=cnn1 line=320 text=G1 X147.00 Y036.00 F01200
+# GCODE case=cnn1 line=321 text=G1 X148.00 Y035.00 F01200
+# GCODE case=cnn1 line=322 text=G1 X148.00 Y031.00 F01200
+# GCODE case=cnn1 line=323 text=G1 X147.00 Y030.00 F01200
+# GCODE case=cnn1 line=324 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=325 text=G1 Z-001.20 F00600
+# GCODE case=cnn1 line=326 text=G0 X190.00 Y041.00 F03000
+# FLOW_TEXT case=cnn1 row0=RED   TRIANGLE|row1=X0640 Y0360|row2=CONF 000|cursor=3100
+# GCODE case=cnn2 line=1 text=G21
+# GCODE case=cnn2 line=2 text=G90
+# GCODE case=cnn2 line=3 text=G54
+# GCODE case=cnn2 line=4 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=5 text=G0 X190.00 Y016.00 F03000
+# GCODE case=cnn2 line=6 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=7 text=G4 P0.1
+# GCODE case=cnn2 line=8 text=G1 X190.00 Y010.00 F01200
+# GCODE case=cnn2 line=9 text=G1 X187.00 Y010.00 F01200
+# GCODE case=cnn2 line=10 text=G1 X186.00 Y011.00 F01200
+# GCODE case=cnn2 line=11 text=G1 X186.00 Y012.00 F01200
+# GCODE case=cnn2 line=12 text=G1 X187.00 Y013.00 F01200
+# GCODE case=cnn2 line=13 text=G1 X190.00 Y013.00 F01200
+# GCODE case=cnn2 line=14 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=15 text=G0 X188.00 Y013.00 F03000
+# GCODE case=cnn2 line=16 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=17 text=G4 P0.1
+# GCODE case=cnn2 line=18 text=G1 X186.00 Y016.00 F01200
+# GCODE case=cnn2 line=19 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=20 text=G0 X180.00 Y010.00 F03000
+# GCODE case=cnn2 line=21 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=22 text=G4 P0.1
+# GCODE case=cnn2 line=23 text=G1 X184.00 Y010.00 F01200
+# GCODE case=cnn2 line=24 text=G1 X184.00 Y016.00 F01200
+# GCODE case=cnn2 line=25 text=G1 X180.00 Y016.00 F01200
+# GCODE case=cnn2 line=26 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=27 text=G0 X184.00 Y013.00 F03000
+# GCODE case=cnn2 line=28 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=29 text=G4 P0.1
+# GCODE case=cnn2 line=30 text=G1 X181.00 Y013.00 F01200
+# GCODE case=cnn2 line=31 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=32 text=G0 X178.00 Y016.00 F03000
+# GCODE case=cnn2 line=33 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=34 text=G4 P0.1
+# GCODE case=cnn2 line=35 text=G1 X178.00 Y010.00 F01200
+# GCODE case=cnn2 line=36 text=G1 X176.00 Y010.00 F01200
+# GCODE case=cnn2 line=37 text=G1 X174.00 Y012.00 F01200
+# GCODE case=cnn2 line=38 text=G1 X174.00 Y014.00 F01200
+# GCODE case=cnn2 line=39 text=G1 X176.00 Y016.00 F01200
+# GCODE case=cnn2 line=40 text=G1 X178.00 Y016.00 F01200
+# GCODE case=cnn2 line=41 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=42 text=G0 X150.00 Y011.00 F03000
+# GCODE case=cnn2 line=43 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=44 text=G4 P0.1
+# GCODE case=cnn2 line=45 text=G1 X151.00 Y010.00 F01200
+# GCODE case=cnn2 line=46 text=G1 X153.00 Y010.00 F01200
+# GCODE case=cnn2 line=47 text=G1 X154.00 Y011.00 F01200
+# GCODE case=cnn2 line=48 text=G1 X154.00 Y015.00 F01200
+# GCODE case=cnn2 line=49 text=G1 X153.00 Y016.00 F01200
+# GCODE case=cnn2 line=50 text=G1 X151.00 Y016.00 F01200
+# GCODE case=cnn2 line=51 text=G1 X150.00 Y015.00 F01200
+# GCODE case=cnn2 line=52 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=53 text=G0 X148.00 Y010.00 F03000
+# GCODE case=cnn2 line=54 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=55 text=G4 P0.1
+# GCODE case=cnn2 line=56 text=G1 X144.00 Y010.00 F01200
+# GCODE case=cnn2 line=57 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=58 text=G0 X146.00 Y010.00 F03000
+# GCODE case=cnn2 line=59 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=60 text=G4 P0.1
+# GCODE case=cnn2 line=61 text=G1 X146.00 Y016.00 F01200
+# GCODE case=cnn2 line=62 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=63 text=G0 X148.00 Y016.00 F03000
+# GCODE case=cnn2 line=64 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=65 text=G4 P0.1
+# GCODE case=cnn2 line=66 text=G1 X144.00 Y016.00 F01200
+# GCODE case=cnn2 line=67 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=68 text=G0 X142.00 Y016.00 F03000
+# GCODE case=cnn2 line=69 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=70 text=G4 P0.1
+# GCODE case=cnn2 line=71 text=G1 X142.00 Y010.00 F01200
+# GCODE case=cnn2 line=72 text=G1 X139.00 Y010.00 F01200
+# GCODE case=cnn2 line=73 text=G1 X138.00 Y011.00 F01200
+# GCODE case=cnn2 line=74 text=G1 X138.00 Y012.00 F01200
+# GCODE case=cnn2 line=75 text=G1 X139.00 Y013.00 F01200
+# GCODE case=cnn2 line=76 text=G1 X142.00 Y013.00 F01200
+# GCODE case=cnn2 line=77 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=78 text=G0 X140.00 Y013.00 F03000
+# GCODE case=cnn2 line=79 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=80 text=G4 P0.1
+# GCODE case=cnn2 line=81 text=G1 X138.00 Y016.00 F01200
+# GCODE case=cnn2 line=82 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=83 text=G0 X132.00 Y011.00 F03000
+# GCODE case=cnn2 line=84 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=85 text=G4 P0.1
+# GCODE case=cnn2 line=86 text=G1 X133.00 Y010.00 F01200
+# GCODE case=cnn2 line=87 text=G1 X135.00 Y010.00 F01200
+# GCODE case=cnn2 line=88 text=G1 X136.00 Y011.00 F01200
+# GCODE case=cnn2 line=89 text=G1 X136.00 Y015.00 F01200
+# GCODE case=cnn2 line=90 text=G1 X135.00 Y016.00 F01200
+# GCODE case=cnn2 line=91 text=G1 X133.00 Y016.00 F01200
+# GCODE case=cnn2 line=92 text=G1 X132.00 Y015.00 F01200
+# GCODE case=cnn2 line=93 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=94 text=G0 X130.00 Y010.00 F03000
+# GCODE case=cnn2 line=95 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=96 text=G4 P0.1
+# GCODE case=cnn2 line=97 text=G1 X130.00 Y016.00 F01200
+# GCODE case=cnn2 line=98 text=G1 X126.00 Y016.00 F01200
+# GCODE case=cnn2 line=99 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=100 text=G0 X120.00 Y010.00 F03000
+# GCODE case=cnn2 line=101 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=102 text=G4 P0.1
+# GCODE case=cnn2 line=103 text=G1 X124.00 Y010.00 F01200
+# GCODE case=cnn2 line=104 text=G1 X124.00 Y016.00 F01200
+# GCODE case=cnn2 line=105 text=G1 X120.00 Y016.00 F01200
+# GCODE case=cnn2 line=106 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=107 text=G0 X124.00 Y013.00 F03000
+# GCODE case=cnn2 line=108 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=109 text=G4 P0.1
+# GCODE case=cnn2 line=110 text=G1 X121.00 Y013.00 F01200
+# GCODE case=cnn2 line=111 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=112 text=G0 X190.00 Y020.00 F03000
+# GCODE case=cnn2 line=113 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=114 text=G4 P0.1
+# GCODE case=cnn2 line=115 text=G1 X186.00 Y026.00 F01200
+# GCODE case=cnn2 line=116 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=117 text=G0 X186.00 Y020.00 F03000
+# GCODE case=cnn2 line=118 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=119 text=G4 P0.1
+# GCODE case=cnn2 line=120 text=G1 X190.00 Y026.00 F01200
+# GCODE case=cnn2 line=121 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=122 text=G0 X183.00 Y020.00 F03000
+# GCODE case=cnn2 line=123 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=124 text=G4 P0.1
+# GCODE case=cnn2 line=125 text=G1 X181.00 Y020.00 F01200
+# GCODE case=cnn2 line=126 text=G1 X180.00 Y021.00 F01200
+# GCODE case=cnn2 line=127 text=G1 X180.00 Y025.00 F01200
+# GCODE case=cnn2 line=128 text=G1 X181.00 Y026.00 F01200
+# GCODE case=cnn2 line=129 text=G1 X183.00 Y026.00 F01200
+# GCODE case=cnn2 line=130 text=G1 X184.00 Y025.00 F01200
+# GCODE case=cnn2 line=131 text=G1 X184.00 Y021.00 F01200
+# GCODE case=cnn2 line=132 text=G1 X183.00 Y020.00 F01200
+# GCODE case=cnn2 line=133 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=134 text=G0 X174.00 Y020.00 F03000
+# GCODE case=cnn2 line=135 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=136 text=G4 P0.1
+# GCODE case=cnn2 line=137 text=G1 X177.00 Y020.00 F01200
+# GCODE case=cnn2 line=138 text=G1 X178.00 Y021.00 F01200
+# GCODE case=cnn2 line=139 text=G1 X178.00 Y025.00 F01200
+# GCODE case=cnn2 line=140 text=G1 X177.00 Y026.00 F01200
+# GCODE case=cnn2 line=141 text=G1 X175.00 Y026.00 F01200
+# GCODE case=cnn2 line=142 text=G1 X174.00 Y025.00 F01200
+# GCODE case=cnn2 line=143 text=G1 X174.00 Y024.00 F01200
+# GCODE case=cnn2 line=144 text=G1 X175.00 Y023.00 F01200
+# GCODE case=cnn2 line=145 text=G1 X178.00 Y023.00 F01200
+# GCODE case=cnn2 line=146 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=147 text=G0 X169.00 Y026.00 F03000
+# GCODE case=cnn2 line=148 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=149 text=G4 P0.1
+# GCODE case=cnn2 line=150 text=G1 X169.00 Y020.00 F01200
+# GCODE case=cnn2 line=151 text=G1 X172.00 Y024.00 F01200
+# GCODE case=cnn2 line=152 text=G1 X168.00 Y024.00 F01200
+# GCODE case=cnn2 line=153 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=154 text=G0 X165.00 Y020.00 F03000
+# GCODE case=cnn2 line=155 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=156 text=G4 P0.1
+# GCODE case=cnn2 line=157 text=G1 X163.00 Y020.00 F01200
+# GCODE case=cnn2 line=158 text=G1 X162.00 Y021.00 F01200
+# GCODE case=cnn2 line=159 text=G1 X162.00 Y025.00 F01200
+# GCODE case=cnn2 line=160 text=G1 X163.00 Y026.00 F01200
+# GCODE case=cnn2 line=161 text=G1 X165.00 Y026.00 F01200
+# GCODE case=cnn2 line=162 text=G1 X166.00 Y025.00 F01200
+# GCODE case=cnn2 line=163 text=G1 X166.00 Y021.00 F01200
+# GCODE case=cnn2 line=164 text=G1 X165.00 Y020.00 F01200
+# GCODE case=cnn2 line=165 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=166 text=G0 X154.00 Y020.00 F03000
+# GCODE case=cnn2 line=167 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=168 text=G4 P0.1
+# GCODE case=cnn2 line=169 text=G1 X152.00 Y023.00 F01200
+# GCODE case=cnn2 line=170 text=G1 X150.00 Y020.00 F01200
+# GCODE case=cnn2 line=171 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=172 text=G0 X152.00 Y023.00 F03000
+# GCODE case=cnn2 line=173 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=174 text=G4 P0.1
+# GCODE case=cnn2 line=175 text=G1 X152.00 Y026.00 F01200
+# GCODE case=cnn2 line=176 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=177 text=G0 X147.00 Y020.00 F03000
+# GCODE case=cnn2 line=178 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=179 text=G4 P0.1
+# GCODE case=cnn2 line=180 text=G1 X145.00 Y020.00 F01200
+# GCODE case=cnn2 line=181 text=G1 X144.00 Y021.00 F01200
+# GCODE case=cnn2 line=182 text=G1 X144.00 Y025.00 F01200
+# GCODE case=cnn2 line=183 text=G1 X145.00 Y026.00 F01200
+# GCODE case=cnn2 line=184 text=G1 X147.00 Y026.00 F01200
+# GCODE case=cnn2 line=185 text=G1 X148.00 Y025.00 F01200
+# GCODE case=cnn2 line=186 text=G1 X148.00 Y021.00 F01200
+# GCODE case=cnn2 line=187 text=G1 X147.00 Y020.00 F01200
+# GCODE case=cnn2 line=188 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=189 text=G0 X142.00 Y020.00 F03000
+# GCODE case=cnn2 line=190 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=191 text=G4 P0.1
+# GCODE case=cnn2 line=192 text=G1 X139.00 Y020.00 F01200
+# GCODE case=cnn2 line=193 text=G1 X138.00 Y021.00 F01200
+# GCODE case=cnn2 line=194 text=G1 X139.00 Y023.00 F01200
+# GCODE case=cnn2 line=195 text=G1 X141.00 Y023.00 F01200
+# GCODE case=cnn2 line=196 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=197 text=G0 X139.00 Y023.00 F03000
+# GCODE case=cnn2 line=198 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=199 text=G4 P0.1
+# GCODE case=cnn2 line=200 text=G1 X138.00 Y025.00 F01200
+# GCODE case=cnn2 line=201 text=G1 X139.00 Y026.00 F01200
+# GCODE case=cnn2 line=202 text=G1 X142.00 Y026.00 F01200
+# GCODE case=cnn2 line=203 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=204 text=G0 X132.00 Y020.00 F03000
+# GCODE case=cnn2 line=205 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=206 text=G4 P0.1
+# GCODE case=cnn2 line=207 text=G1 X135.00 Y020.00 F01200
+# GCODE case=cnn2 line=208 text=G1 X136.00 Y021.00 F01200
+# GCODE case=cnn2 line=209 text=G1 X136.00 Y025.00 F01200
+# GCODE case=cnn2 line=210 text=G1 X135.00 Y026.00 F01200
+# GCODE case=cnn2 line=211 text=G1 X133.00 Y026.00 F01200
+# GCODE case=cnn2 line=212 text=G1 X132.00 Y025.00 F01200
+# GCODE case=cnn2 line=213 text=G1 X132.00 Y024.00 F01200
+# GCODE case=cnn2 line=214 text=G1 X133.00 Y023.00 F01200
+# GCODE case=cnn2 line=215 text=G1 X136.00 Y023.00 F01200
+# GCODE case=cnn2 line=216 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=217 text=G0 X129.00 Y020.00 F03000
+# GCODE case=cnn2 line=218 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=219 text=G4 P0.1
+# GCODE case=cnn2 line=220 text=G1 X127.00 Y020.00 F01200
+# GCODE case=cnn2 line=221 text=G1 X126.00 Y021.00 F01200
+# GCODE case=cnn2 line=222 text=G1 X126.00 Y025.00 F01200
+# GCODE case=cnn2 line=223 text=G1 X127.00 Y026.00 F01200
+# GCODE case=cnn2 line=224 text=G1 X129.00 Y026.00 F01200
+# GCODE case=cnn2 line=225 text=G1 X130.00 Y025.00 F01200
+# GCODE case=cnn2 line=226 text=G1 X130.00 Y021.00 F01200
+# GCODE case=cnn2 line=227 text=G1 X129.00 Y020.00 F01200
+# GCODE case=cnn2 line=228 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=229 text=G0 X186.00 Y031.00 F03000
+# GCODE case=cnn2 line=230 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=231 text=G4 P0.1
+# GCODE case=cnn2 line=232 text=G1 X187.00 Y030.00 F01200
+# GCODE case=cnn2 line=233 text=G1 X189.00 Y030.00 F01200
+# GCODE case=cnn2 line=234 text=G1 X190.00 Y031.00 F01200
+# GCODE case=cnn2 line=235 text=G1 X190.00 Y035.00 F01200
+# GCODE case=cnn2 line=236 text=G1 X189.00 Y036.00 F01200
+# GCODE case=cnn2 line=237 text=G1 X187.00 Y036.00 F01200
+# GCODE case=cnn2 line=238 text=G1 X186.00 Y035.00 F01200
+# GCODE case=cnn2 line=239 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=240 text=G0 X183.00 Y030.00 F03000
+# GCODE case=cnn2 line=241 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=242 text=G4 P0.1
+# GCODE case=cnn2 line=243 text=G1 X181.00 Y030.00 F01200
+# GCODE case=cnn2 line=244 text=G1 X180.00 Y031.00 F01200
+# GCODE case=cnn2 line=245 text=G1 X180.00 Y035.00 F01200
+# GCODE case=cnn2 line=246 text=G1 X181.00 Y036.00 F01200
+# GCODE case=cnn2 line=247 text=G1 X183.00 Y036.00 F01200
+# GCODE case=cnn2 line=248 text=G1 X184.00 Y035.00 F01200
+# GCODE case=cnn2 line=249 text=G1 X184.00 Y031.00 F01200
+# GCODE case=cnn2 line=250 text=G1 X183.00 Y030.00 F01200
+# GCODE case=cnn2 line=251 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=252 text=G0 X178.00 Y036.00 F03000
+# GCODE case=cnn2 line=253 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=254 text=G4 P0.1
+# GCODE case=cnn2 line=255 text=G1 X178.00 Y030.00 F01200
+# GCODE case=cnn2 line=256 text=G1 X174.00 Y036.00 F01200
+# GCODE case=cnn2 line=257 text=G1 X174.00 Y030.00 F01200
+# GCODE case=cnn2 line=258 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=259 text=G0 X172.00 Y036.00 F03000
+# GCODE case=cnn2 line=260 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=261 text=G4 P0.1
+# GCODE case=cnn2 line=262 text=G1 X172.00 Y030.00 F01200
+# GCODE case=cnn2 line=263 text=G1 X168.00 Y030.00 F01200
+# GCODE case=cnn2 line=264 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=265 text=G0 X172.00 Y033.00 F03000
+# GCODE case=cnn2 line=266 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=267 text=G4 P0.1
+# GCODE case=cnn2 line=268 text=G1 X169.00 Y033.00 F01200
+# GCODE case=cnn2 line=269 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=270 text=G0 X159.00 Y030.00 F03000
+# GCODE case=cnn2 line=271 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=272 text=G4 P0.1
+# GCODE case=cnn2 line=273 text=G1 X157.00 Y030.00 F01200
+# GCODE case=cnn2 line=274 text=G1 X156.00 Y031.00 F01200
+# GCODE case=cnn2 line=275 text=G1 X156.00 Y035.00 F01200
+# GCODE case=cnn2 line=276 text=G1 X157.00 Y036.00 F01200
+# GCODE case=cnn2 line=277 text=G1 X159.00 Y036.00 F01200
+# GCODE case=cnn2 line=278 text=G1 X160.00 Y035.00 F01200
+# GCODE case=cnn2 line=279 text=G1 X160.00 Y031.00 F01200
+# GCODE case=cnn2 line=280 text=G1 X159.00 Y030.00 F01200
+# GCODE case=cnn2 line=281 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=282 text=G0 X154.00 Y031.00 F03000
+# GCODE case=cnn2 line=283 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=284 text=G4 P0.1
+# GCODE case=cnn2 line=285 text=G1 X153.00 Y030.00 F01200
+# GCODE case=cnn2 line=286 text=G1 X151.00 Y030.00 F01200
+# GCODE case=cnn2 line=287 text=G1 X150.00 Y031.00 F01200
+# GCODE case=cnn2 line=288 text=G1 X150.00 Y032.00 F01200
+# GCODE case=cnn2 line=289 text=G1 X154.00 Y036.00 F01200
+# GCODE case=cnn2 line=290 text=G1 X150.00 Y036.00 F01200
+# GCODE case=cnn2 line=291 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=292 text=G0 X147.00 Y030.00 F03000
+# GCODE case=cnn2 line=293 text=G1 Z+001.20 F00600
+# GCODE case=cnn2 line=294 text=G4 P0.1
+# GCODE case=cnn2 line=295 text=G1 X145.00 Y030.00 F01200
+# GCODE case=cnn2 line=296 text=G1 X144.00 Y031.00 F01200
+# GCODE case=cnn2 line=297 text=G1 X144.00 Y035.00 F01200
+# GCODE case=cnn2 line=298 text=G1 X145.00 Y036.00 F01200
+# GCODE case=cnn2 line=299 text=G1 X147.00 Y036.00 F01200
+# GCODE case=cnn2 line=300 text=G1 X148.00 Y035.00 F01200
+# GCODE case=cnn2 line=301 text=G1 X148.00 Y031.00 F01200
+# GCODE case=cnn2 line=302 text=G1 X147.00 Y030.00 F01200
+# GCODE case=cnn2 line=303 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=304 text=G1 Z-001.20 F00600
+# GCODE case=cnn2 line=305 text=G0 X190.00 Y041.00 F03000
+# FLOW_TEXT case=cnn2 row0=RED   CIRCLE  |row1=X0640 Y0360|row2=CONF 020|cursor=3100
+# GCODE case=cnn3 line=1 text=G21
+# GCODE case=cnn3 line=2 text=G90
+# GCODE case=cnn3 line=3 text=G54
+# GCODE case=cnn3 line=4 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=5 text=G0 X190.00 Y016.00 F03000
+# GCODE case=cnn3 line=6 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=7 text=G4 P0.1
+# GCODE case=cnn3 line=8 text=G1 X190.00 Y010.00 F01200
+# GCODE case=cnn3 line=9 text=G1 X187.00 Y010.00 F01200
+# GCODE case=cnn3 line=10 text=G1 X186.00 Y011.00 F01200
+# GCODE case=cnn3 line=11 text=G1 X186.00 Y012.00 F01200
+# GCODE case=cnn3 line=12 text=G1 X187.00 Y013.00 F01200
+# GCODE case=cnn3 line=13 text=G1 X190.00 Y013.00 F01200
+# GCODE case=cnn3 line=14 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=15 text=G0 X188.00 Y013.00 F03000
+# GCODE case=cnn3 line=16 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=17 text=G4 P0.1
+# GCODE case=cnn3 line=18 text=G1 X186.00 Y016.00 F01200
+# GCODE case=cnn3 line=19 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=20 text=G0 X180.00 Y010.00 F03000
+# GCODE case=cnn3 line=21 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=22 text=G4 P0.1
+# GCODE case=cnn3 line=23 text=G1 X184.00 Y010.00 F01200
+# GCODE case=cnn3 line=24 text=G1 X184.00 Y016.00 F01200
+# GCODE case=cnn3 line=25 text=G1 X180.00 Y016.00 F01200
+# GCODE case=cnn3 line=26 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=27 text=G0 X184.00 Y013.00 F03000
+# GCODE case=cnn3 line=28 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=29 text=G4 P0.1
+# GCODE case=cnn3 line=30 text=G1 X181.00 Y013.00 F01200
+# GCODE case=cnn3 line=31 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=32 text=G0 X178.00 Y016.00 F03000
+# GCODE case=cnn3 line=33 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=34 text=G4 P0.1
+# GCODE case=cnn3 line=35 text=G1 X178.00 Y010.00 F01200
+# GCODE case=cnn3 line=36 text=G1 X176.00 Y010.00 F01200
+# GCODE case=cnn3 line=37 text=G1 X174.00 Y012.00 F01200
+# GCODE case=cnn3 line=38 text=G1 X174.00 Y014.00 F01200
+# GCODE case=cnn3 line=39 text=G1 X176.00 Y016.00 F01200
+# GCODE case=cnn3 line=40 text=G1 X178.00 Y016.00 F01200
+# GCODE case=cnn3 line=41 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=42 text=G0 X150.00 Y011.00 F03000
+# GCODE case=cnn3 line=43 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=44 text=G4 P0.1
+# GCODE case=cnn3 line=45 text=G1 X151.00 Y010.00 F01200
+# GCODE case=cnn3 line=46 text=G1 X153.00 Y010.00 F01200
+# GCODE case=cnn3 line=47 text=G1 X154.00 Y011.00 F01200
+# GCODE case=cnn3 line=48 text=G1 X154.00 Y012.00 F01200
+# GCODE case=cnn3 line=49 text=G1 X153.00 Y013.00 F01200
+# GCODE case=cnn3 line=50 text=G1 X151.00 Y013.00 F01200
+# GCODE case=cnn3 line=51 text=G1 X150.00 Y014.00 F01200
+# GCODE case=cnn3 line=52 text=G1 X150.00 Y015.00 F01200
+# GCODE case=cnn3 line=53 text=G1 X151.00 Y016.00 F01200
+# GCODE case=cnn3 line=54 text=G1 X153.00 Y016.00 F01200
+# GCODE case=cnn3 line=55 text=G1 X154.00 Y015.00 F01200
+# GCODE case=cnn3 line=56 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=57 text=G0 X147.00 Y010.00 F03000
+# GCODE case=cnn3 line=58 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=59 text=G4 P0.1
+# GCODE case=cnn3 line=60 text=G1 X145.00 Y010.00 F01200
+# GCODE case=cnn3 line=61 text=G1 X144.00 Y011.00 F01200
+# GCODE case=cnn3 line=62 text=G1 X144.00 Y015.00 F01200
+# GCODE case=cnn3 line=63 text=G1 X145.00 Y016.00 F01200
+# GCODE case=cnn3 line=64 text=G1 X147.00 Y016.00 F01200
+# GCODE case=cnn3 line=65 text=G1 X148.00 Y015.00 F01200
+# GCODE case=cnn3 line=66 text=G1 X148.00 Y011.00 F01200
+# GCODE case=cnn3 line=67 text=G1 X147.00 Y010.00 F01200
+# GCODE case=cnn3 line=68 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=69 text=G0 X146.00 Y014.00 F03000
+# GCODE case=cnn3 line=70 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=71 text=G4 P0.1
+# GCODE case=cnn3 line=72 text=G1 X144.00 Y016.00 F01200
+# GCODE case=cnn3 line=73 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=74 text=G0 X142.00 Y010.00 F03000
+# GCODE case=cnn3 line=75 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=76 text=G4 P0.1
+# GCODE case=cnn3 line=77 text=G1 X142.00 Y015.00 F01200
+# GCODE case=cnn3 line=78 text=G1 X141.00 Y016.00 F01200
+# GCODE case=cnn3 line=79 text=G1 X139.00 Y016.00 F01200
+# GCODE case=cnn3 line=80 text=G1 X138.00 Y015.00 F01200
+# GCODE case=cnn3 line=81 text=G1 X138.00 Y010.00 F01200
+# GCODE case=cnn3 line=82 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=83 text=G0 X136.00 Y016.00 F03000
+# GCODE case=cnn3 line=84 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=85 text=G4 P0.1
+# GCODE case=cnn3 line=86 text=G1 X134.00 Y010.00 F01200
+# GCODE case=cnn3 line=87 text=G1 X132.00 Y016.00 F01200
+# GCODE case=cnn3 line=88 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=89 text=G0 X135.00 Y013.00 F03000
+# GCODE case=cnn3 line=90 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=91 text=G4 P0.1
+# GCODE case=cnn3 line=92 text=G1 X133.00 Y013.00 F01200
+# GCODE case=cnn3 line=93 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=94 text=G0 X130.00 Y016.00 F03000
+# GCODE case=cnn3 line=95 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=96 text=G4 P0.1
+# GCODE case=cnn3 line=97 text=G1 X130.00 Y010.00 F01200
+# GCODE case=cnn3 line=98 text=G1 X127.00 Y010.00 F01200
+# GCODE case=cnn3 line=99 text=G1 X126.00 Y011.00 F01200
+# GCODE case=cnn3 line=100 text=G1 X126.00 Y012.00 F01200
+# GCODE case=cnn3 line=101 text=G1 X127.00 Y013.00 F01200
+# GCODE case=cnn3 line=102 text=G1 X130.00 Y013.00 F01200
+# GCODE case=cnn3 line=103 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=104 text=G0 X128.00 Y013.00 F03000
+# GCODE case=cnn3 line=105 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=106 text=G4 P0.1
+# GCODE case=cnn3 line=107 text=G1 X126.00 Y016.00 F01200
+# GCODE case=cnn3 line=108 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=109 text=G0 X120.00 Y010.00 F03000
+# GCODE case=cnn3 line=110 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=111 text=G4 P0.1
+# GCODE case=cnn3 line=112 text=G1 X124.00 Y010.00 F01200
+# GCODE case=cnn3 line=113 text=G1 X124.00 Y016.00 F01200
+# GCODE case=cnn3 line=114 text=G1 X120.00 Y016.00 F01200
+# GCODE case=cnn3 line=115 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=116 text=G0 X124.00 Y013.00 F03000
+# GCODE case=cnn3 line=117 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=118 text=G4 P0.1
+# GCODE case=cnn3 line=119 text=G1 X121.00 Y013.00 F01200
+# GCODE case=cnn3 line=120 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=121 text=G0 X190.00 Y020.00 F03000
+# GCODE case=cnn3 line=122 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=123 text=G4 P0.1
+# GCODE case=cnn3 line=124 text=G1 X186.00 Y026.00 F01200
+# GCODE case=cnn3 line=125 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=126 text=G0 X186.00 Y020.00 F03000
+# GCODE case=cnn3 line=127 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=128 text=G4 P0.1
+# GCODE case=cnn3 line=129 text=G1 X190.00 Y026.00 F01200
+# GCODE case=cnn3 line=130 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=131 text=G0 X183.00 Y020.00 F03000
+# GCODE case=cnn3 line=132 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=133 text=G4 P0.1
+# GCODE case=cnn3 line=134 text=G1 X181.00 Y020.00 F01200
+# GCODE case=cnn3 line=135 text=G1 X180.00 Y021.00 F01200
+# GCODE case=cnn3 line=136 text=G1 X180.00 Y025.00 F01200
+# GCODE case=cnn3 line=137 text=G1 X181.00 Y026.00 F01200
+# GCODE case=cnn3 line=138 text=G1 X183.00 Y026.00 F01200
+# GCODE case=cnn3 line=139 text=G1 X184.00 Y025.00 F01200
+# GCODE case=cnn3 line=140 text=G1 X184.00 Y021.00 F01200
+# GCODE case=cnn3 line=141 text=G1 X183.00 Y020.00 F01200
+# GCODE case=cnn3 line=142 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=143 text=G0 X174.00 Y020.00 F03000
+# GCODE case=cnn3 line=144 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=145 text=G4 P0.1
+# GCODE case=cnn3 line=146 text=G1 X177.00 Y020.00 F01200
+# GCODE case=cnn3 line=147 text=G1 X178.00 Y021.00 F01200
+# GCODE case=cnn3 line=148 text=G1 X178.00 Y025.00 F01200
+# GCODE case=cnn3 line=149 text=G1 X177.00 Y026.00 F01200
+# GCODE case=cnn3 line=150 text=G1 X175.00 Y026.00 F01200
+# GCODE case=cnn3 line=151 text=G1 X174.00 Y025.00 F01200
+# GCODE case=cnn3 line=152 text=G1 X174.00 Y024.00 F01200
+# GCODE case=cnn3 line=153 text=G1 X175.00 Y023.00 F01200
+# GCODE case=cnn3 line=154 text=G1 X178.00 Y023.00 F01200
+# GCODE case=cnn3 line=155 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=156 text=G0 X169.00 Y026.00 F03000
+# GCODE case=cnn3 line=157 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=158 text=G4 P0.1
+# GCODE case=cnn3 line=159 text=G1 X169.00 Y020.00 F01200
+# GCODE case=cnn3 line=160 text=G1 X172.00 Y024.00 F01200
+# GCODE case=cnn3 line=161 text=G1 X168.00 Y024.00 F01200
+# GCODE case=cnn3 line=162 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=163 text=G0 X165.00 Y020.00 F03000
+# GCODE case=cnn3 line=164 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=165 text=G4 P0.1
+# GCODE case=cnn3 line=166 text=G1 X163.00 Y020.00 F01200
+# GCODE case=cnn3 line=167 text=G1 X162.00 Y021.00 F01200
+# GCODE case=cnn3 line=168 text=G1 X162.00 Y025.00 F01200
+# GCODE case=cnn3 line=169 text=G1 X163.00 Y026.00 F01200
+# GCODE case=cnn3 line=170 text=G1 X165.00 Y026.00 F01200
+# GCODE case=cnn3 line=171 text=G1 X166.00 Y025.00 F01200
+# GCODE case=cnn3 line=172 text=G1 X166.00 Y021.00 F01200
+# GCODE case=cnn3 line=173 text=G1 X165.00 Y020.00 F01200
+# GCODE case=cnn3 line=174 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=175 text=G0 X154.00 Y020.00 F03000
+# GCODE case=cnn3 line=176 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=177 text=G4 P0.1
+# GCODE case=cnn3 line=178 text=G1 X152.00 Y023.00 F01200
+# GCODE case=cnn3 line=179 text=G1 X150.00 Y020.00 F01200
+# GCODE case=cnn3 line=180 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=181 text=G0 X152.00 Y023.00 F03000
+# GCODE case=cnn3 line=182 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=183 text=G4 P0.1
+# GCODE case=cnn3 line=184 text=G1 X152.00 Y026.00 F01200
+# GCODE case=cnn3 line=185 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=186 text=G0 X147.00 Y020.00 F03000
+# GCODE case=cnn3 line=187 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=188 text=G4 P0.1
+# GCODE case=cnn3 line=189 text=G1 X145.00 Y020.00 F01200
+# GCODE case=cnn3 line=190 text=G1 X144.00 Y021.00 F01200
+# GCODE case=cnn3 line=191 text=G1 X144.00 Y025.00 F01200
+# GCODE case=cnn3 line=192 text=G1 X145.00 Y026.00 F01200
+# GCODE case=cnn3 line=193 text=G1 X147.00 Y026.00 F01200
+# GCODE case=cnn3 line=194 text=G1 X148.00 Y025.00 F01200
+# GCODE case=cnn3 line=195 text=G1 X148.00 Y021.00 F01200
+# GCODE case=cnn3 line=196 text=G1 X147.00 Y020.00 F01200
+# GCODE case=cnn3 line=197 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=198 text=G0 X142.00 Y020.00 F03000
+# GCODE case=cnn3 line=199 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=200 text=G4 P0.1
+# GCODE case=cnn3 line=201 text=G1 X139.00 Y020.00 F01200
+# GCODE case=cnn3 line=202 text=G1 X138.00 Y021.00 F01200
+# GCODE case=cnn3 line=203 text=G1 X139.00 Y023.00 F01200
+# GCODE case=cnn3 line=204 text=G1 X141.00 Y023.00 F01200
+# GCODE case=cnn3 line=205 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=206 text=G0 X139.00 Y023.00 F03000
+# GCODE case=cnn3 line=207 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=208 text=G4 P0.1
+# GCODE case=cnn3 line=209 text=G1 X138.00 Y025.00 F01200
+# GCODE case=cnn3 line=210 text=G1 X139.00 Y026.00 F01200
+# GCODE case=cnn3 line=211 text=G1 X142.00 Y026.00 F01200
+# GCODE case=cnn3 line=212 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=213 text=G0 X132.00 Y020.00 F03000
+# GCODE case=cnn3 line=214 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=215 text=G4 P0.1
+# GCODE case=cnn3 line=216 text=G1 X135.00 Y020.00 F01200
+# GCODE case=cnn3 line=217 text=G1 X136.00 Y021.00 F01200
+# GCODE case=cnn3 line=218 text=G1 X136.00 Y025.00 F01200
+# GCODE case=cnn3 line=219 text=G1 X135.00 Y026.00 F01200
+# GCODE case=cnn3 line=220 text=G1 X133.00 Y026.00 F01200
+# GCODE case=cnn3 line=221 text=G1 X132.00 Y025.00 F01200
+# GCODE case=cnn3 line=222 text=G1 X132.00 Y024.00 F01200
+# GCODE case=cnn3 line=223 text=G1 X133.00 Y023.00 F01200
+# GCODE case=cnn3 line=224 text=G1 X136.00 Y023.00 F01200
+# GCODE case=cnn3 line=225 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=226 text=G0 X129.00 Y020.00 F03000
+# GCODE case=cnn3 line=227 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=228 text=G4 P0.1
+# GCODE case=cnn3 line=229 text=G1 X127.00 Y020.00 F01200
+# GCODE case=cnn3 line=230 text=G1 X126.00 Y021.00 F01200
+# GCODE case=cnn3 line=231 text=G1 X126.00 Y025.00 F01200
+# GCODE case=cnn3 line=232 text=G1 X127.00 Y026.00 F01200
+# GCODE case=cnn3 line=233 text=G1 X129.00 Y026.00 F01200
+# GCODE case=cnn3 line=234 text=G1 X130.00 Y025.00 F01200
+# GCODE case=cnn3 line=235 text=G1 X130.00 Y021.00 F01200
+# GCODE case=cnn3 line=236 text=G1 X129.00 Y020.00 F01200
+# GCODE case=cnn3 line=237 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=238 text=G0 X186.00 Y031.00 F03000
+# GCODE case=cnn3 line=239 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=240 text=G4 P0.1
+# GCODE case=cnn3 line=241 text=G1 X187.00 Y030.00 F01200
+# GCODE case=cnn3 line=242 text=G1 X189.00 Y030.00 F01200
+# GCODE case=cnn3 line=243 text=G1 X190.00 Y031.00 F01200
+# GCODE case=cnn3 line=244 text=G1 X190.00 Y035.00 F01200
+# GCODE case=cnn3 line=245 text=G1 X189.00 Y036.00 F01200
+# GCODE case=cnn3 line=246 text=G1 X187.00 Y036.00 F01200
+# GCODE case=cnn3 line=247 text=G1 X186.00 Y035.00 F01200
+# GCODE case=cnn3 line=248 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=249 text=G0 X183.00 Y030.00 F03000
+# GCODE case=cnn3 line=250 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=251 text=G4 P0.1
+# GCODE case=cnn3 line=252 text=G1 X181.00 Y030.00 F01200
+# GCODE case=cnn3 line=253 text=G1 X180.00 Y031.00 F01200
+# GCODE case=cnn3 line=254 text=G1 X180.00 Y035.00 F01200
+# GCODE case=cnn3 line=255 text=G1 X181.00 Y036.00 F01200
+# GCODE case=cnn3 line=256 text=G1 X183.00 Y036.00 F01200
+# GCODE case=cnn3 line=257 text=G1 X184.00 Y035.00 F01200
+# GCODE case=cnn3 line=258 text=G1 X184.00 Y031.00 F01200
+# GCODE case=cnn3 line=259 text=G1 X183.00 Y030.00 F01200
+# GCODE case=cnn3 line=260 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=261 text=G0 X178.00 Y036.00 F03000
+# GCODE case=cnn3 line=262 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=263 text=G4 P0.1
+# GCODE case=cnn3 line=264 text=G1 X178.00 Y030.00 F01200
+# GCODE case=cnn3 line=265 text=G1 X174.00 Y036.00 F01200
+# GCODE case=cnn3 line=266 text=G1 X174.00 Y030.00 F01200
+# GCODE case=cnn3 line=267 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=268 text=G0 X172.00 Y036.00 F03000
+# GCODE case=cnn3 line=269 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=270 text=G4 P0.1
+# GCODE case=cnn3 line=271 text=G1 X172.00 Y030.00 F01200
+# GCODE case=cnn3 line=272 text=G1 X168.00 Y030.00 F01200
+# GCODE case=cnn3 line=273 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=274 text=G0 X172.00 Y033.00 F03000
+# GCODE case=cnn3 line=275 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=276 text=G4 P0.1
+# GCODE case=cnn3 line=277 text=G1 X169.00 Y033.00 F01200
+# GCODE case=cnn3 line=278 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=279 text=G0 X159.00 Y030.00 F03000
+# GCODE case=cnn3 line=280 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=281 text=G4 P0.1
+# GCODE case=cnn3 line=282 text=G1 X157.00 Y030.00 F01200
+# GCODE case=cnn3 line=283 text=G1 X156.00 Y031.00 F01200
+# GCODE case=cnn3 line=284 text=G1 X156.00 Y035.00 F01200
+# GCODE case=cnn3 line=285 text=G1 X157.00 Y036.00 F01200
+# GCODE case=cnn3 line=286 text=G1 X159.00 Y036.00 F01200
+# GCODE case=cnn3 line=287 text=G1 X160.00 Y035.00 F01200
+# GCODE case=cnn3 line=288 text=G1 X160.00 Y031.00 F01200
+# GCODE case=cnn3 line=289 text=G1 X159.00 Y030.00 F01200
+# GCODE case=cnn3 line=290 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=291 text=G0 X154.00 Y030.00 F03000
+# GCODE case=cnn3 line=292 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=293 text=G4 P0.1
+# GCODE case=cnn3 line=294 text=G1 X151.00 Y030.00 F01200
+# GCODE case=cnn3 line=295 text=G1 X150.00 Y031.00 F01200
+# GCODE case=cnn3 line=296 text=G1 X151.00 Y033.00 F01200
+# GCODE case=cnn3 line=297 text=G1 X153.00 Y033.00 F01200
+# GCODE case=cnn3 line=298 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=299 text=G0 X151.00 Y033.00 F03000
+# GCODE case=cnn3 line=300 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=301 text=G4 P0.1
+# GCODE case=cnn3 line=302 text=G1 X150.00 Y035.00 F01200
+# GCODE case=cnn3 line=303 text=G1 X151.00 Y036.00 F01200
+# GCODE case=cnn3 line=304 text=G1 X154.00 Y036.00 F01200
+# GCODE case=cnn3 line=305 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=306 text=G0 X147.00 Y030.00 F03000
+# GCODE case=cnn3 line=307 text=G1 Z+001.20 F00600
+# GCODE case=cnn3 line=308 text=G4 P0.1
+# GCODE case=cnn3 line=309 text=G1 X145.00 Y030.00 F01200
+# GCODE case=cnn3 line=310 text=G1 X144.00 Y031.00 F01200
+# GCODE case=cnn3 line=311 text=G1 X144.00 Y035.00 F01200
+# GCODE case=cnn3 line=312 text=G1 X145.00 Y036.00 F01200
+# GCODE case=cnn3 line=313 text=G1 X147.00 Y036.00 F01200
+# GCODE case=cnn3 line=314 text=G1 X148.00 Y035.00 F01200
+# GCODE case=cnn3 line=315 text=G1 X148.00 Y031.00 F01200
+# GCODE case=cnn3 line=316 text=G1 X147.00 Y030.00 F01200
+# GCODE case=cnn3 line=317 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=318 text=G1 Z-001.20 F00600
+# GCODE case=cnn3 line=319 text=G0 X190.00 Y041.00 F03000
+# FLOW_TEXT case=cnn3 row0=RED   SQUARE  |row1=X0640 Y0360|row2=CONF 030|cursor=3100
+# GCODE case=cnn4 line=1 text=G21
+# GCODE case=cnn4 line=2 text=G90
+# GCODE case=cnn4 line=3 text=G54
+# GCODE case=cnn4 line=4 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=5 text=G0 X186.00 Y011.00 F03000
+# GCODE case=cnn4 line=6 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=7 text=G4 P0.1
+# GCODE case=cnn4 line=8 text=G1 X187.00 Y010.00 F01200
+# GCODE case=cnn4 line=9 text=G1 X189.00 Y010.00 F01200
+# GCODE case=cnn4 line=10 text=G1 X190.00 Y011.00 F01200
+# GCODE case=cnn4 line=11 text=G1 X190.00 Y015.00 F01200
+# GCODE case=cnn4 line=12 text=G1 X189.00 Y016.00 F01200
+# GCODE case=cnn4 line=13 text=G1 X187.00 Y016.00 F01200
+# GCODE case=cnn4 line=14 text=G1 X186.00 Y015.00 F01200
+# GCODE case=cnn4 line=15 text=G1 X186.00 Y013.00 F01200
+# GCODE case=cnn4 line=16 text=G1 X188.00 Y013.00 F01200
+# GCODE case=cnn4 line=17 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=18 text=G0 X184.00 Y016.00 F03000
+# GCODE case=cnn4 line=19 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=20 text=G4 P0.1
+# GCODE case=cnn4 line=21 text=G1 X184.00 Y010.00 F01200
+# GCODE case=cnn4 line=22 text=G1 X181.00 Y010.00 F01200
+# GCODE case=cnn4 line=23 text=G1 X180.00 Y011.00 F01200
+# GCODE case=cnn4 line=24 text=G1 X180.00 Y012.00 F01200
+# GCODE case=cnn4 line=25 text=G1 X181.00 Y013.00 F01200
+# GCODE case=cnn4 line=26 text=G1 X184.00 Y013.00 F01200
+# GCODE case=cnn4 line=27 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=28 text=G0 X182.00 Y013.00 F03000
+# GCODE case=cnn4 line=29 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=30 text=G4 P0.1
+# GCODE case=cnn4 line=31 text=G1 X180.00 Y016.00 F01200
+# GCODE case=cnn4 line=32 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=33 text=G0 X174.00 Y010.00 F03000
+# GCODE case=cnn4 line=34 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=35 text=G4 P0.1
+# GCODE case=cnn4 line=36 text=G1 X178.00 Y010.00 F01200
+# GCODE case=cnn4 line=37 text=G1 X178.00 Y016.00 F01200
+# GCODE case=cnn4 line=38 text=G1 X174.00 Y016.00 F01200
+# GCODE case=cnn4 line=39 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=40 text=G0 X178.00 Y013.00 F03000
+# GCODE case=cnn4 line=41 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=42 text=G4 P0.1
+# GCODE case=cnn4 line=43 text=G1 X175.00 Y013.00 F01200
+# GCODE case=cnn4 line=44 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=45 text=G0 X168.00 Y010.00 F03000
+# GCODE case=cnn4 line=46 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=47 text=G4 P0.1
+# GCODE case=cnn4 line=48 text=G1 X172.00 Y010.00 F01200
+# GCODE case=cnn4 line=49 text=G1 X172.00 Y016.00 F01200
+# GCODE case=cnn4 line=50 text=G1 X168.00 Y016.00 F01200
+# GCODE case=cnn4 line=51 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=52 text=G0 X172.00 Y013.00 F03000
+# GCODE case=cnn4 line=53 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=54 text=G4 P0.1
+# GCODE case=cnn4 line=55 text=G1 X169.00 Y013.00 F01200
+# GCODE case=cnn4 line=56 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=57 text=G0 X166.00 Y016.00 F03000
+# GCODE case=cnn4 line=58 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=59 text=G4 P0.1
+# GCODE case=cnn4 line=60 text=G1 X166.00 Y010.00 F01200
+# GCODE case=cnn4 line=61 text=G1 X162.00 Y016.00 F01200
+# GCODE case=cnn4 line=62 text=G1 X162.00 Y010.00 F01200
+# GCODE case=cnn4 line=63 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=64 text=G0 X154.00 Y010.00 F03000
+# GCODE case=cnn4 line=65 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=66 text=G4 P0.1
+# GCODE case=cnn4 line=67 text=G1 X150.00 Y010.00 F01200
+# GCODE case=cnn4 line=68 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=69 text=G0 X152.00 Y010.00 F03000
+# GCODE case=cnn4 line=70 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=71 text=G4 P0.1
+# GCODE case=cnn4 line=72 text=G1 X152.00 Y016.00 F01200
+# GCODE case=cnn4 line=73 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=74 text=G0 X148.00 Y016.00 F03000
+# GCODE case=cnn4 line=75 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=76 text=G4 P0.1
+# GCODE case=cnn4 line=77 text=G1 X148.00 Y010.00 F01200
+# GCODE case=cnn4 line=78 text=G1 X145.00 Y010.00 F01200
+# GCODE case=cnn4 line=79 text=G1 X144.00 Y011.00 F01200
+# GCODE case=cnn4 line=80 text=G1 X144.00 Y012.00 F01200
+# GCODE case=cnn4 line=81 text=G1 X145.00 Y013.00 F01200
+# GCODE case=cnn4 line=82 text=G1 X148.00 Y013.00 F01200
+# GCODE case=cnn4 line=83 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=84 text=G0 X146.00 Y013.00 F03000
+# GCODE case=cnn4 line=85 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=86 text=G4 P0.1
+# GCODE case=cnn4 line=87 text=G1 X144.00 Y016.00 F01200
+# GCODE case=cnn4 line=88 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=89 text=G0 X142.00 Y010.00 F03000
+# GCODE case=cnn4 line=90 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=91 text=G4 P0.1
+# GCODE case=cnn4 line=92 text=G1 X138.00 Y010.00 F01200
+# GCODE case=cnn4 line=93 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=94 text=G0 X140.00 Y010.00 F03000
+# GCODE case=cnn4 line=95 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=96 text=G4 P0.1
+# GCODE case=cnn4 line=97 text=G1 X140.00 Y016.00 F01200
+# GCODE case=cnn4 line=98 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=99 text=G0 X142.00 Y016.00 F03000
+# GCODE case=cnn4 line=100 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=101 text=G4 P0.1
+# GCODE case=cnn4 line=102 text=G1 X138.00 Y016.00 F01200
+# GCODE case=cnn4 line=103 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=104 text=G0 X136.00 Y016.00 F03000
+# GCODE case=cnn4 line=105 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=106 text=G4 P0.1
+# GCODE case=cnn4 line=107 text=G1 X134.00 Y010.00 F01200
+# GCODE case=cnn4 line=108 text=G1 X132.00 Y016.00 F01200
+# GCODE case=cnn4 line=109 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=110 text=G0 X135.00 Y013.00 F03000
+# GCODE case=cnn4 line=111 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=112 text=G4 P0.1
+# GCODE case=cnn4 line=113 text=G1 X133.00 Y013.00 F01200
+# GCODE case=cnn4 line=114 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=115 text=G0 X130.00 Y016.00 F03000
+# GCODE case=cnn4 line=116 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=117 text=G4 P0.1
+# GCODE case=cnn4 line=118 text=G1 X130.00 Y010.00 F01200
+# GCODE case=cnn4 line=119 text=G1 X126.00 Y016.00 F01200
+# GCODE case=cnn4 line=120 text=G1 X126.00 Y010.00 F01200
+# GCODE case=cnn4 line=121 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=122 text=G0 X120.00 Y011.00 F03000
+# GCODE case=cnn4 line=123 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=124 text=G4 P0.1
+# GCODE case=cnn4 line=125 text=G1 X121.00 Y010.00 F01200
+# GCODE case=cnn4 line=126 text=G1 X123.00 Y010.00 F01200
+# GCODE case=cnn4 line=127 text=G1 X124.00 Y011.00 F01200
+# GCODE case=cnn4 line=128 text=G1 X124.00 Y015.00 F01200
+# GCODE case=cnn4 line=129 text=G1 X123.00 Y016.00 F01200
+# GCODE case=cnn4 line=130 text=G1 X121.00 Y016.00 F01200
+# GCODE case=cnn4 line=131 text=G1 X120.00 Y015.00 F01200
+# GCODE case=cnn4 line=132 text=G1 X120.00 Y013.00 F01200
+# GCODE case=cnn4 line=133 text=G1 X122.00 Y013.00 F01200
+# GCODE case=cnn4 line=134 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=135 text=G0 X118.00 Y010.00 F03000
+# GCODE case=cnn4 line=136 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=137 text=G4 P0.1
+# GCODE case=cnn4 line=138 text=G1 X118.00 Y016.00 F01200
+# GCODE case=cnn4 line=139 text=G1 X114.00 Y016.00 F01200
+# GCODE case=cnn4 line=140 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=141 text=G0 X108.00 Y010.00 F03000
+# GCODE case=cnn4 line=142 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=143 text=G4 P0.1
+# GCODE case=cnn4 line=144 text=G1 X112.00 Y010.00 F01200
+# GCODE case=cnn4 line=145 text=G1 X112.00 Y016.00 F01200
+# GCODE case=cnn4 line=146 text=G1 X108.00 Y016.00 F01200
+# GCODE case=cnn4 line=147 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=148 text=G0 X112.00 Y013.00 F03000
+# GCODE case=cnn4 line=149 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=150 text=G4 P0.1
+# GCODE case=cnn4 line=151 text=G1 X109.00 Y013.00 F01200
+# GCODE case=cnn4 line=152 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=153 text=G0 X190.00 Y020.00 F03000
+# GCODE case=cnn4 line=154 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=155 text=G4 P0.1
+# GCODE case=cnn4 line=156 text=G1 X186.00 Y026.00 F01200
+# GCODE case=cnn4 line=157 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=158 text=G0 X186.00 Y020.00 F03000
+# GCODE case=cnn4 line=159 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=160 text=G4 P0.1
+# GCODE case=cnn4 line=161 text=G1 X190.00 Y026.00 F01200
+# GCODE case=cnn4 line=162 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=163 text=G0 X183.00 Y020.00 F03000
+# GCODE case=cnn4 line=164 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=165 text=G4 P0.1
+# GCODE case=cnn4 line=166 text=G1 X181.00 Y020.00 F01200
+# GCODE case=cnn4 line=167 text=G1 X180.00 Y021.00 F01200
+# GCODE case=cnn4 line=168 text=G1 X180.00 Y025.00 F01200
+# GCODE case=cnn4 line=169 text=G1 X181.00 Y026.00 F01200
+# GCODE case=cnn4 line=170 text=G1 X183.00 Y026.00 F01200
+# GCODE case=cnn4 line=171 text=G1 X184.00 Y025.00 F01200
+# GCODE case=cnn4 line=172 text=G1 X184.00 Y021.00 F01200
+# GCODE case=cnn4 line=173 text=G1 X183.00 Y020.00 F01200
+# GCODE case=cnn4 line=174 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=175 text=G0 X174.00 Y020.00 F03000
+# GCODE case=cnn4 line=176 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=177 text=G4 P0.1
+# GCODE case=cnn4 line=178 text=G1 X177.00 Y020.00 F01200
+# GCODE case=cnn4 line=179 text=G1 X178.00 Y021.00 F01200
+# GCODE case=cnn4 line=180 text=G1 X178.00 Y025.00 F01200
+# GCODE case=cnn4 line=181 text=G1 X177.00 Y026.00 F01200
+# GCODE case=cnn4 line=182 text=G1 X175.00 Y026.00 F01200
+# GCODE case=cnn4 line=183 text=G1 X174.00 Y025.00 F01200
+# GCODE case=cnn4 line=184 text=G1 X174.00 Y024.00 F01200
+# GCODE case=cnn4 line=185 text=G1 X175.00 Y023.00 F01200
+# GCODE case=cnn4 line=186 text=G1 X178.00 Y023.00 F01200
+# GCODE case=cnn4 line=187 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=188 text=G0 X169.00 Y026.00 F03000
+# GCODE case=cnn4 line=189 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=190 text=G4 P0.1
+# GCODE case=cnn4 line=191 text=G1 X169.00 Y020.00 F01200
+# GCODE case=cnn4 line=192 text=G1 X172.00 Y024.00 F01200
+# GCODE case=cnn4 line=193 text=G1 X168.00 Y024.00 F01200
+# GCODE case=cnn4 line=194 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=195 text=G0 X165.00 Y020.00 F03000
+# GCODE case=cnn4 line=196 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=197 text=G4 P0.1
+# GCODE case=cnn4 line=198 text=G1 X163.00 Y020.00 F01200
+# GCODE case=cnn4 line=199 text=G1 X162.00 Y021.00 F01200
+# GCODE case=cnn4 line=200 text=G1 X162.00 Y025.00 F01200
+# GCODE case=cnn4 line=201 text=G1 X163.00 Y026.00 F01200
+# GCODE case=cnn4 line=202 text=G1 X165.00 Y026.00 F01200
+# GCODE case=cnn4 line=203 text=G1 X166.00 Y025.00 F01200
+# GCODE case=cnn4 line=204 text=G1 X166.00 Y021.00 F01200
+# GCODE case=cnn4 line=205 text=G1 X165.00 Y020.00 F01200
+# GCODE case=cnn4 line=206 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=207 text=G0 X154.00 Y020.00 F03000
+# GCODE case=cnn4 line=208 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=209 text=G4 P0.1
+# GCODE case=cnn4 line=210 text=G1 X152.00 Y023.00 F01200
+# GCODE case=cnn4 line=211 text=G1 X150.00 Y020.00 F01200
+# GCODE case=cnn4 line=212 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=213 text=G0 X152.00 Y023.00 F03000
+# GCODE case=cnn4 line=214 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=215 text=G4 P0.1
+# GCODE case=cnn4 line=216 text=G1 X152.00 Y026.00 F01200
+# GCODE case=cnn4 line=217 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=218 text=G0 X147.00 Y020.00 F03000
+# GCODE case=cnn4 line=219 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=220 text=G4 P0.1
+# GCODE case=cnn4 line=221 text=G1 X145.00 Y020.00 F01200
+# GCODE case=cnn4 line=222 text=G1 X144.00 Y021.00 F01200
+# GCODE case=cnn4 line=223 text=G1 X144.00 Y025.00 F01200
+# GCODE case=cnn4 line=224 text=G1 X145.00 Y026.00 F01200
+# GCODE case=cnn4 line=225 text=G1 X147.00 Y026.00 F01200
+# GCODE case=cnn4 line=226 text=G1 X148.00 Y025.00 F01200
+# GCODE case=cnn4 line=227 text=G1 X148.00 Y021.00 F01200
+# GCODE case=cnn4 line=228 text=G1 X147.00 Y020.00 F01200
+# GCODE case=cnn4 line=229 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=230 text=G0 X142.00 Y020.00 F03000
+# GCODE case=cnn4 line=231 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=232 text=G4 P0.1
+# GCODE case=cnn4 line=233 text=G1 X139.00 Y020.00 F01200
+# GCODE case=cnn4 line=234 text=G1 X138.00 Y021.00 F01200
+# GCODE case=cnn4 line=235 text=G1 X139.00 Y023.00 F01200
+# GCODE case=cnn4 line=236 text=G1 X141.00 Y023.00 F01200
+# GCODE case=cnn4 line=237 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=238 text=G0 X139.00 Y023.00 F03000
+# GCODE case=cnn4 line=239 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=240 text=G4 P0.1
+# GCODE case=cnn4 line=241 text=G1 X138.00 Y025.00 F01200
+# GCODE case=cnn4 line=242 text=G1 X139.00 Y026.00 F01200
+# GCODE case=cnn4 line=243 text=G1 X142.00 Y026.00 F01200
+# GCODE case=cnn4 line=244 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=245 text=G0 X132.00 Y020.00 F03000
+# GCODE case=cnn4 line=246 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=247 text=G4 P0.1
+# GCODE case=cnn4 line=248 text=G1 X135.00 Y020.00 F01200
+# GCODE case=cnn4 line=249 text=G1 X136.00 Y021.00 F01200
+# GCODE case=cnn4 line=250 text=G1 X136.00 Y025.00 F01200
+# GCODE case=cnn4 line=251 text=G1 X135.00 Y026.00 F01200
+# GCODE case=cnn4 line=252 text=G1 X133.00 Y026.00 F01200
+# GCODE case=cnn4 line=253 text=G1 X132.00 Y025.00 F01200
+# GCODE case=cnn4 line=254 text=G1 X132.00 Y024.00 F01200
+# GCODE case=cnn4 line=255 text=G1 X133.00 Y023.00 F01200
+# GCODE case=cnn4 line=256 text=G1 X136.00 Y023.00 F01200
+# GCODE case=cnn4 line=257 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=258 text=G0 X129.00 Y020.00 F03000
+# GCODE case=cnn4 line=259 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=260 text=G4 P0.1
+# GCODE case=cnn4 line=261 text=G1 X127.00 Y020.00 F01200
+# GCODE case=cnn4 line=262 text=G1 X126.00 Y021.00 F01200
+# GCODE case=cnn4 line=263 text=G1 X126.00 Y025.00 F01200
+# GCODE case=cnn4 line=264 text=G1 X127.00 Y026.00 F01200
+# GCODE case=cnn4 line=265 text=G1 X129.00 Y026.00 F01200
+# GCODE case=cnn4 line=266 text=G1 X130.00 Y025.00 F01200
+# GCODE case=cnn4 line=267 text=G1 X130.00 Y021.00 F01200
+# GCODE case=cnn4 line=268 text=G1 X129.00 Y020.00 F01200
+# GCODE case=cnn4 line=269 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=270 text=G0 X186.00 Y031.00 F03000
+# GCODE case=cnn4 line=271 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=272 text=G4 P0.1
+# GCODE case=cnn4 line=273 text=G1 X187.00 Y030.00 F01200
+# GCODE case=cnn4 line=274 text=G1 X189.00 Y030.00 F01200
+# GCODE case=cnn4 line=275 text=G1 X190.00 Y031.00 F01200
+# GCODE case=cnn4 line=276 text=G1 X190.00 Y035.00 F01200
+# GCODE case=cnn4 line=277 text=G1 X189.00 Y036.00 F01200
+# GCODE case=cnn4 line=278 text=G1 X187.00 Y036.00 F01200
+# GCODE case=cnn4 line=279 text=G1 X186.00 Y035.00 F01200
+# GCODE case=cnn4 line=280 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=281 text=G0 X183.00 Y030.00 F03000
+# GCODE case=cnn4 line=282 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=283 text=G4 P0.1
+# GCODE case=cnn4 line=284 text=G1 X181.00 Y030.00 F01200
+# GCODE case=cnn4 line=285 text=G1 X180.00 Y031.00 F01200
+# GCODE case=cnn4 line=286 text=G1 X180.00 Y035.00 F01200
+# GCODE case=cnn4 line=287 text=G1 X181.00 Y036.00 F01200
+# GCODE case=cnn4 line=288 text=G1 X183.00 Y036.00 F01200
+# GCODE case=cnn4 line=289 text=G1 X184.00 Y035.00 F01200
+# GCODE case=cnn4 line=290 text=G1 X184.00 Y031.00 F01200
+# GCODE case=cnn4 line=291 text=G1 X183.00 Y030.00 F01200
+# GCODE case=cnn4 line=292 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=293 text=G0 X178.00 Y036.00 F03000
+# GCODE case=cnn4 line=294 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=295 text=G4 P0.1
+# GCODE case=cnn4 line=296 text=G1 X178.00 Y030.00 F01200
+# GCODE case=cnn4 line=297 text=G1 X174.00 Y036.00 F01200
+# GCODE case=cnn4 line=298 text=G1 X174.00 Y030.00 F01200
+# GCODE case=cnn4 line=299 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=300 text=G0 X172.00 Y036.00 F03000
+# GCODE case=cnn4 line=301 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=302 text=G4 P0.1
+# GCODE case=cnn4 line=303 text=G1 X172.00 Y030.00 F01200
+# GCODE case=cnn4 line=304 text=G1 X168.00 Y030.00 F01200
+# GCODE case=cnn4 line=305 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=306 text=G0 X172.00 Y033.00 F03000
+# GCODE case=cnn4 line=307 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=308 text=G4 P0.1
+# GCODE case=cnn4 line=309 text=G1 X169.00 Y033.00 F01200
+# GCODE case=cnn4 line=310 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=311 text=G0 X159.00 Y030.00 F03000
+# GCODE case=cnn4 line=312 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=313 text=G4 P0.1
+# GCODE case=cnn4 line=314 text=G1 X157.00 Y030.00 F01200
+# GCODE case=cnn4 line=315 text=G1 X156.00 Y031.00 F01200
+# GCODE case=cnn4 line=316 text=G1 X156.00 Y035.00 F01200
+# GCODE case=cnn4 line=317 text=G1 X157.00 Y036.00 F01200
+# GCODE case=cnn4 line=318 text=G1 X159.00 Y036.00 F01200
+# GCODE case=cnn4 line=319 text=G1 X160.00 Y035.00 F01200
+# GCODE case=cnn4 line=320 text=G1 X160.00 Y031.00 F01200
+# GCODE case=cnn4 line=321 text=G1 X159.00 Y030.00 F01200
+# GCODE case=cnn4 line=322 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=323 text=G0 X151.00 Y036.00 F03000
+# GCODE case=cnn4 line=324 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=325 text=G4 P0.1
+# GCODE case=cnn4 line=326 text=G1 X151.00 Y030.00 F01200
+# GCODE case=cnn4 line=327 text=G1 X154.00 Y034.00 F01200
+# GCODE case=cnn4 line=328 text=G1 X150.00 Y034.00 F01200
+# GCODE case=cnn4 line=329 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=330 text=G0 X147.00 Y030.00 F03000
+# GCODE case=cnn4 line=331 text=G1 Z+001.20 F00600
+# GCODE case=cnn4 line=332 text=G4 P0.1
+# GCODE case=cnn4 line=333 text=G1 X145.00 Y030.00 F01200
+# GCODE case=cnn4 line=334 text=G1 X144.00 Y031.00 F01200
+# GCODE case=cnn4 line=335 text=G1 X144.00 Y035.00 F01200
+# GCODE case=cnn4 line=336 text=G1 X145.00 Y036.00 F01200
+# GCODE case=cnn4 line=337 text=G1 X147.00 Y036.00 F01200
+# GCODE case=cnn4 line=338 text=G1 X148.00 Y035.00 F01200
+# GCODE case=cnn4 line=339 text=G1 X148.00 Y031.00 F01200
+# GCODE case=cnn4 line=340 text=G1 X147.00 Y030.00 F01200
+# GCODE case=cnn4 line=341 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=342 text=G1 Z-001.20 F00600
+# GCODE case=cnn4 line=343 text=G0 X190.00 Y041.00 F03000
+# FLOW_TEXT case=cnn4 row0=GREEN TRIANGLE|row1=X0640 Y0360|row2=CONF 040|cursor=3100
+# GCODE case=cnn5 line=1 text=G21
+# GCODE case=cnn5 line=2 text=G90
+# GCODE case=cnn5 line=3 text=G54
+# GCODE case=cnn5 line=4 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=5 text=G0 X186.00 Y011.00 F03000
+# GCODE case=cnn5 line=6 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=7 text=G4 P0.1
+# GCODE case=cnn5 line=8 text=G1 X187.00 Y010.00 F01200
+# GCODE case=cnn5 line=9 text=G1 X189.00 Y010.00 F01200
+# GCODE case=cnn5 line=10 text=G1 X190.00 Y011.00 F01200
+# GCODE case=cnn5 line=11 text=G1 X190.00 Y015.00 F01200
+# GCODE case=cnn5 line=12 text=G1 X189.00 Y016.00 F01200
+# GCODE case=cnn5 line=13 text=G1 X187.00 Y016.00 F01200
+# GCODE case=cnn5 line=14 text=G1 X186.00 Y015.00 F01200
+# GCODE case=cnn5 line=15 text=G1 X186.00 Y013.00 F01200
+# GCODE case=cnn5 line=16 text=G1 X188.00 Y013.00 F01200
+# GCODE case=cnn5 line=17 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=18 text=G0 X184.00 Y016.00 F03000
+# GCODE case=cnn5 line=19 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=20 text=G4 P0.1
+# GCODE case=cnn5 line=21 text=G1 X184.00 Y010.00 F01200
+# GCODE case=cnn5 line=22 text=G1 X181.00 Y010.00 F01200
+# GCODE case=cnn5 line=23 text=G1 X180.00 Y011.00 F01200
+# GCODE case=cnn5 line=24 text=G1 X180.00 Y012.00 F01200
+# GCODE case=cnn5 line=25 text=G1 X181.00 Y013.00 F01200
+# GCODE case=cnn5 line=26 text=G1 X184.00 Y013.00 F01200
+# GCODE case=cnn5 line=27 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=28 text=G0 X182.00 Y013.00 F03000
+# GCODE case=cnn5 line=29 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=30 text=G4 P0.1
+# GCODE case=cnn5 line=31 text=G1 X180.00 Y016.00 F01200
+# GCODE case=cnn5 line=32 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=33 text=G0 X174.00 Y010.00 F03000
+# GCODE case=cnn5 line=34 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=35 text=G4 P0.1
+# GCODE case=cnn5 line=36 text=G1 X178.00 Y010.00 F01200
+# GCODE case=cnn5 line=37 text=G1 X178.00 Y016.00 F01200
+# GCODE case=cnn5 line=38 text=G1 X174.00 Y016.00 F01200
+# GCODE case=cnn5 line=39 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=40 text=G0 X178.00 Y013.00 F03000
+# GCODE case=cnn5 line=41 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=42 text=G4 P0.1
+# GCODE case=cnn5 line=43 text=G1 X175.00 Y013.00 F01200
+# GCODE case=cnn5 line=44 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=45 text=G0 X168.00 Y010.00 F03000
+# GCODE case=cnn5 line=46 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=47 text=G4 P0.1
+# GCODE case=cnn5 line=48 text=G1 X172.00 Y010.00 F01200
+# GCODE case=cnn5 line=49 text=G1 X172.00 Y016.00 F01200
+# GCODE case=cnn5 line=50 text=G1 X168.00 Y016.00 F01200
+# GCODE case=cnn5 line=51 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=52 text=G0 X172.00 Y013.00 F03000
+# GCODE case=cnn5 line=53 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=54 text=G4 P0.1
+# GCODE case=cnn5 line=55 text=G1 X169.00 Y013.00 F01200
+# GCODE case=cnn5 line=56 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=57 text=G0 X166.00 Y016.00 F03000
+# GCODE case=cnn5 line=58 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=59 text=G4 P0.1
+# GCODE case=cnn5 line=60 text=G1 X166.00 Y010.00 F01200
+# GCODE case=cnn5 line=61 text=G1 X162.00 Y016.00 F01200
+# GCODE case=cnn5 line=62 text=G1 X162.00 Y010.00 F01200
+# GCODE case=cnn5 line=63 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=64 text=G0 X150.00 Y011.00 F03000
+# GCODE case=cnn5 line=65 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=66 text=G4 P0.1
+# GCODE case=cnn5 line=67 text=G1 X151.00 Y010.00 F01200
+# GCODE case=cnn5 line=68 text=G1 X153.00 Y010.00 F01200
+# GCODE case=cnn5 line=69 text=G1 X154.00 Y011.00 F01200
+# GCODE case=cnn5 line=70 text=G1 X154.00 Y015.00 F01200
+# GCODE case=cnn5 line=71 text=G1 X153.00 Y016.00 F01200
+# GCODE case=cnn5 line=72 text=G1 X151.00 Y016.00 F01200
+# GCODE case=cnn5 line=73 text=G1 X150.00 Y015.00 F01200
+# GCODE case=cnn5 line=74 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=75 text=G0 X148.00 Y010.00 F03000
+# GCODE case=cnn5 line=76 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=77 text=G4 P0.1
+# GCODE case=cnn5 line=78 text=G1 X144.00 Y010.00 F01200
+# GCODE case=cnn5 line=79 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=80 text=G0 X146.00 Y010.00 F03000
+# GCODE case=cnn5 line=81 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=82 text=G4 P0.1
+# GCODE case=cnn5 line=83 text=G1 X146.00 Y016.00 F01200
+# GCODE case=cnn5 line=84 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=85 text=G0 X148.00 Y016.00 F03000
+# GCODE case=cnn5 line=86 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=87 text=G4 P0.1
+# GCODE case=cnn5 line=88 text=G1 X144.00 Y016.00 F01200
+# GCODE case=cnn5 line=89 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=90 text=G0 X142.00 Y016.00 F03000
+# GCODE case=cnn5 line=91 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=92 text=G4 P0.1
+# GCODE case=cnn5 line=93 text=G1 X142.00 Y010.00 F01200
+# GCODE case=cnn5 line=94 text=G1 X139.00 Y010.00 F01200
+# GCODE case=cnn5 line=95 text=G1 X138.00 Y011.00 F01200
+# GCODE case=cnn5 line=96 text=G1 X138.00 Y012.00 F01200
+# GCODE case=cnn5 line=97 text=G1 X139.00 Y013.00 F01200
+# GCODE case=cnn5 line=98 text=G1 X142.00 Y013.00 F01200
+# GCODE case=cnn5 line=99 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=100 text=G0 X140.00 Y013.00 F03000
+# GCODE case=cnn5 line=101 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=102 text=G4 P0.1
+# GCODE case=cnn5 line=103 text=G1 X138.00 Y016.00 F01200
+# GCODE case=cnn5 line=104 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=105 text=G0 X132.00 Y011.00 F03000
+# GCODE case=cnn5 line=106 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=107 text=G4 P0.1
+# GCODE case=cnn5 line=108 text=G1 X133.00 Y010.00 F01200
+# GCODE case=cnn5 line=109 text=G1 X135.00 Y010.00 F01200
+# GCODE case=cnn5 line=110 text=G1 X136.00 Y011.00 F01200
+# GCODE case=cnn5 line=111 text=G1 X136.00 Y015.00 F01200
+# GCODE case=cnn5 line=112 text=G1 X135.00 Y016.00 F01200
+# GCODE case=cnn5 line=113 text=G1 X133.00 Y016.00 F01200
+# GCODE case=cnn5 line=114 text=G1 X132.00 Y015.00 F01200
+# GCODE case=cnn5 line=115 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=116 text=G0 X130.00 Y010.00 F03000
+# GCODE case=cnn5 line=117 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=118 text=G4 P0.1
+# GCODE case=cnn5 line=119 text=G1 X130.00 Y016.00 F01200
+# GCODE case=cnn5 line=120 text=G1 X126.00 Y016.00 F01200
+# GCODE case=cnn5 line=121 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=122 text=G0 X120.00 Y010.00 F03000
+# GCODE case=cnn5 line=123 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=124 text=G4 P0.1
+# GCODE case=cnn5 line=125 text=G1 X124.00 Y010.00 F01200
+# GCODE case=cnn5 line=126 text=G1 X124.00 Y016.00 F01200
+# GCODE case=cnn5 line=127 text=G1 X120.00 Y016.00 F01200
+# GCODE case=cnn5 line=128 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=129 text=G0 X124.00 Y013.00 F03000
+# GCODE case=cnn5 line=130 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=131 text=G4 P0.1
+# GCODE case=cnn5 line=132 text=G1 X121.00 Y013.00 F01200
+# GCODE case=cnn5 line=133 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=134 text=G0 X190.00 Y020.00 F03000
+# GCODE case=cnn5 line=135 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=136 text=G4 P0.1
+# GCODE case=cnn5 line=137 text=G1 X186.00 Y026.00 F01200
+# GCODE case=cnn5 line=138 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=139 text=G0 X186.00 Y020.00 F03000
+# GCODE case=cnn5 line=140 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=141 text=G4 P0.1
+# GCODE case=cnn5 line=142 text=G1 X190.00 Y026.00 F01200
+# GCODE case=cnn5 line=143 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=144 text=G0 X183.00 Y020.00 F03000
+# GCODE case=cnn5 line=145 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=146 text=G4 P0.1
+# GCODE case=cnn5 line=147 text=G1 X181.00 Y020.00 F01200
+# GCODE case=cnn5 line=148 text=G1 X180.00 Y021.00 F01200
+# GCODE case=cnn5 line=149 text=G1 X180.00 Y025.00 F01200
+# GCODE case=cnn5 line=150 text=G1 X181.00 Y026.00 F01200
+# GCODE case=cnn5 line=151 text=G1 X183.00 Y026.00 F01200
+# GCODE case=cnn5 line=152 text=G1 X184.00 Y025.00 F01200
+# GCODE case=cnn5 line=153 text=G1 X184.00 Y021.00 F01200
+# GCODE case=cnn5 line=154 text=G1 X183.00 Y020.00 F01200
+# GCODE case=cnn5 line=155 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=156 text=G0 X174.00 Y020.00 F03000
+# GCODE case=cnn5 line=157 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=158 text=G4 P0.1
+# GCODE case=cnn5 line=159 text=G1 X177.00 Y020.00 F01200
+# GCODE case=cnn5 line=160 text=G1 X178.00 Y021.00 F01200
+# GCODE case=cnn5 line=161 text=G1 X178.00 Y025.00 F01200
+# GCODE case=cnn5 line=162 text=G1 X177.00 Y026.00 F01200
+# GCODE case=cnn5 line=163 text=G1 X175.00 Y026.00 F01200
+# GCODE case=cnn5 line=164 text=G1 X174.00 Y025.00 F01200
+# GCODE case=cnn5 line=165 text=G1 X174.00 Y024.00 F01200
+# GCODE case=cnn5 line=166 text=G1 X175.00 Y023.00 F01200
+# GCODE case=cnn5 line=167 text=G1 X178.00 Y023.00 F01200
+# GCODE case=cnn5 line=168 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=169 text=G0 X169.00 Y026.00 F03000
+# GCODE case=cnn5 line=170 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=171 text=G4 P0.1
+# GCODE case=cnn5 line=172 text=G1 X169.00 Y020.00 F01200
+# GCODE case=cnn5 line=173 text=G1 X172.00 Y024.00 F01200
+# GCODE case=cnn5 line=174 text=G1 X168.00 Y024.00 F01200
+# GCODE case=cnn5 line=175 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=176 text=G0 X165.00 Y020.00 F03000
+# GCODE case=cnn5 line=177 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=178 text=G4 P0.1
+# GCODE case=cnn5 line=179 text=G1 X163.00 Y020.00 F01200
+# GCODE case=cnn5 line=180 text=G1 X162.00 Y021.00 F01200
+# GCODE case=cnn5 line=181 text=G1 X162.00 Y025.00 F01200
+# GCODE case=cnn5 line=182 text=G1 X163.00 Y026.00 F01200
+# GCODE case=cnn5 line=183 text=G1 X165.00 Y026.00 F01200
+# GCODE case=cnn5 line=184 text=G1 X166.00 Y025.00 F01200
+# GCODE case=cnn5 line=185 text=G1 X166.00 Y021.00 F01200
+# GCODE case=cnn5 line=186 text=G1 X165.00 Y020.00 F01200
+# GCODE case=cnn5 line=187 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=188 text=G0 X154.00 Y020.00 F03000
+# GCODE case=cnn5 line=189 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=190 text=G4 P0.1
+# GCODE case=cnn5 line=191 text=G1 X152.00 Y023.00 F01200
+# GCODE case=cnn5 line=192 text=G1 X150.00 Y020.00 F01200
+# GCODE case=cnn5 line=193 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=194 text=G0 X152.00 Y023.00 F03000
+# GCODE case=cnn5 line=195 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=196 text=G4 P0.1
+# GCODE case=cnn5 line=197 text=G1 X152.00 Y026.00 F01200
+# GCODE case=cnn5 line=198 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=199 text=G0 X147.00 Y020.00 F03000
+# GCODE case=cnn5 line=200 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=201 text=G4 P0.1
+# GCODE case=cnn5 line=202 text=G1 X145.00 Y020.00 F01200
+# GCODE case=cnn5 line=203 text=G1 X144.00 Y021.00 F01200
+# GCODE case=cnn5 line=204 text=G1 X144.00 Y025.00 F01200
+# GCODE case=cnn5 line=205 text=G1 X145.00 Y026.00 F01200
+# GCODE case=cnn5 line=206 text=G1 X147.00 Y026.00 F01200
+# GCODE case=cnn5 line=207 text=G1 X148.00 Y025.00 F01200
+# GCODE case=cnn5 line=208 text=G1 X148.00 Y021.00 F01200
+# GCODE case=cnn5 line=209 text=G1 X147.00 Y020.00 F01200
+# GCODE case=cnn5 line=210 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=211 text=G0 X142.00 Y020.00 F03000
+# GCODE case=cnn5 line=212 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=213 text=G4 P0.1
+# GCODE case=cnn5 line=214 text=G1 X139.00 Y020.00 F01200
+# GCODE case=cnn5 line=215 text=G1 X138.00 Y021.00 F01200
+# GCODE case=cnn5 line=216 text=G1 X139.00 Y023.00 F01200
+# GCODE case=cnn5 line=217 text=G1 X141.00 Y023.00 F01200
+# GCODE case=cnn5 line=218 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=219 text=G0 X139.00 Y023.00 F03000
+# GCODE case=cnn5 line=220 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=221 text=G4 P0.1
+# GCODE case=cnn5 line=222 text=G1 X138.00 Y025.00 F01200
+# GCODE case=cnn5 line=223 text=G1 X139.00 Y026.00 F01200
+# GCODE case=cnn5 line=224 text=G1 X142.00 Y026.00 F01200
+# GCODE case=cnn5 line=225 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=226 text=G0 X132.00 Y020.00 F03000
+# GCODE case=cnn5 line=227 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=228 text=G4 P0.1
+# GCODE case=cnn5 line=229 text=G1 X135.00 Y020.00 F01200
+# GCODE case=cnn5 line=230 text=G1 X136.00 Y021.00 F01200
+# GCODE case=cnn5 line=231 text=G1 X136.00 Y025.00 F01200
+# GCODE case=cnn5 line=232 text=G1 X135.00 Y026.00 F01200
+# GCODE case=cnn5 line=233 text=G1 X133.00 Y026.00 F01200
+# GCODE case=cnn5 line=234 text=G1 X132.00 Y025.00 F01200
+# GCODE case=cnn5 line=235 text=G1 X132.00 Y024.00 F01200
+# GCODE case=cnn5 line=236 text=G1 X133.00 Y023.00 F01200
+# GCODE case=cnn5 line=237 text=G1 X136.00 Y023.00 F01200
+# GCODE case=cnn5 line=238 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=239 text=G0 X129.00 Y020.00 F03000
+# GCODE case=cnn5 line=240 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=241 text=G4 P0.1
+# GCODE case=cnn5 line=242 text=G1 X127.00 Y020.00 F01200
+# GCODE case=cnn5 line=243 text=G1 X126.00 Y021.00 F01200
+# GCODE case=cnn5 line=244 text=G1 X126.00 Y025.00 F01200
+# GCODE case=cnn5 line=245 text=G1 X127.00 Y026.00 F01200
+# GCODE case=cnn5 line=246 text=G1 X129.00 Y026.00 F01200
+# GCODE case=cnn5 line=247 text=G1 X130.00 Y025.00 F01200
+# GCODE case=cnn5 line=248 text=G1 X130.00 Y021.00 F01200
+# GCODE case=cnn5 line=249 text=G1 X129.00 Y020.00 F01200
+# GCODE case=cnn5 line=250 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=251 text=G0 X186.00 Y031.00 F03000
+# GCODE case=cnn5 line=252 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=253 text=G4 P0.1
+# GCODE case=cnn5 line=254 text=G1 X187.00 Y030.00 F01200
+# GCODE case=cnn5 line=255 text=G1 X189.00 Y030.00 F01200
+# GCODE case=cnn5 line=256 text=G1 X190.00 Y031.00 F01200
+# GCODE case=cnn5 line=257 text=G1 X190.00 Y035.00 F01200
+# GCODE case=cnn5 line=258 text=G1 X189.00 Y036.00 F01200
+# GCODE case=cnn5 line=259 text=G1 X187.00 Y036.00 F01200
+# GCODE case=cnn5 line=260 text=G1 X186.00 Y035.00 F01200
+# GCODE case=cnn5 line=261 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=262 text=G0 X183.00 Y030.00 F03000
+# GCODE case=cnn5 line=263 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=264 text=G4 P0.1
+# GCODE case=cnn5 line=265 text=G1 X181.00 Y030.00 F01200
+# GCODE case=cnn5 line=266 text=G1 X180.00 Y031.00 F01200
+# GCODE case=cnn5 line=267 text=G1 X180.00 Y035.00 F01200
+# GCODE case=cnn5 line=268 text=G1 X181.00 Y036.00 F01200
+# GCODE case=cnn5 line=269 text=G1 X183.00 Y036.00 F01200
+# GCODE case=cnn5 line=270 text=G1 X184.00 Y035.00 F01200
+# GCODE case=cnn5 line=271 text=G1 X184.00 Y031.00 F01200
+# GCODE case=cnn5 line=272 text=G1 X183.00 Y030.00 F01200
+# GCODE case=cnn5 line=273 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=274 text=G0 X178.00 Y036.00 F03000
+# GCODE case=cnn5 line=275 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=276 text=G4 P0.1
+# GCODE case=cnn5 line=277 text=G1 X178.00 Y030.00 F01200
+# GCODE case=cnn5 line=278 text=G1 X174.00 Y036.00 F01200
+# GCODE case=cnn5 line=279 text=G1 X174.00 Y030.00 F01200
+# GCODE case=cnn5 line=280 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=281 text=G0 X172.00 Y036.00 F03000
+# GCODE case=cnn5 line=282 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=283 text=G4 P0.1
+# GCODE case=cnn5 line=284 text=G1 X172.00 Y030.00 F01200
+# GCODE case=cnn5 line=285 text=G1 X168.00 Y030.00 F01200
+# GCODE case=cnn5 line=286 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=287 text=G0 X172.00 Y033.00 F03000
+# GCODE case=cnn5 line=288 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=289 text=G4 P0.1
+# GCODE case=cnn5 line=290 text=G1 X169.00 Y033.00 F01200
+# GCODE case=cnn5 line=291 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=292 text=G0 X159.00 Y030.00 F03000
+# GCODE case=cnn5 line=293 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=294 text=G4 P0.1
+# GCODE case=cnn5 line=295 text=G1 X157.00 Y030.00 F01200
+# GCODE case=cnn5 line=296 text=G1 X156.00 Y031.00 F01200
+# GCODE case=cnn5 line=297 text=G1 X156.00 Y035.00 F01200
+# GCODE case=cnn5 line=298 text=G1 X157.00 Y036.00 F01200
+# GCODE case=cnn5 line=299 text=G1 X159.00 Y036.00 F01200
+# GCODE case=cnn5 line=300 text=G1 X160.00 Y035.00 F01200
+# GCODE case=cnn5 line=301 text=G1 X160.00 Y031.00 F01200
+# GCODE case=cnn5 line=302 text=G1 X159.00 Y030.00 F01200
+# GCODE case=cnn5 line=303 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=304 text=G0 X150.00 Y030.00 F03000
+# GCODE case=cnn5 line=305 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=306 text=G4 P0.1
+# GCODE case=cnn5 line=307 text=G1 X154.00 Y030.00 F01200
+# GCODE case=cnn5 line=308 text=G1 X154.00 Y033.00 F01200
+# GCODE case=cnn5 line=309 text=G1 X151.00 Y033.00 F01200
+# GCODE case=cnn5 line=310 text=G1 X150.00 Y034.00 F01200
+# GCODE case=cnn5 line=311 text=G1 X150.00 Y035.00 F01200
+# GCODE case=cnn5 line=312 text=G1 X151.00 Y036.00 F01200
+# GCODE case=cnn5 line=313 text=G1 X154.00 Y036.00 F01200
+# GCODE case=cnn5 line=314 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=315 text=G0 X147.00 Y030.00 F03000
+# GCODE case=cnn5 line=316 text=G1 Z+001.20 F00600
+# GCODE case=cnn5 line=317 text=G4 P0.1
+# GCODE case=cnn5 line=318 text=G1 X145.00 Y030.00 F01200
+# GCODE case=cnn5 line=319 text=G1 X144.00 Y031.00 F01200
+# GCODE case=cnn5 line=320 text=G1 X144.00 Y035.00 F01200
+# GCODE case=cnn5 line=321 text=G1 X145.00 Y036.00 F01200
+# GCODE case=cnn5 line=322 text=G1 X147.00 Y036.00 F01200
+# GCODE case=cnn5 line=323 text=G1 X148.00 Y035.00 F01200
+# GCODE case=cnn5 line=324 text=G1 X148.00 Y031.00 F01200
+# GCODE case=cnn5 line=325 text=G1 X147.00 Y030.00 F01200
+# GCODE case=cnn5 line=326 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=327 text=G1 Z-001.20 F00600
+# GCODE case=cnn5 line=328 text=G0 X190.00 Y041.00 F03000
+# FLOW_TEXT case=cnn5 row0=GREEN CIRCLE  |row1=X0640 Y0360|row2=CONF 050|cursor=3100
+# GCODE case=cnn6 line=1 text=G21
+# GCODE case=cnn6 line=2 text=G90
+# GCODE case=cnn6 line=3 text=G54
+# GCODE case=cnn6 line=4 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=5 text=G0 X186.00 Y011.00 F03000
+# GCODE case=cnn6 line=6 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=7 text=G4 P0.1
+# GCODE case=cnn6 line=8 text=G1 X187.00 Y010.00 F01200
+# GCODE case=cnn6 line=9 text=G1 X189.00 Y010.00 F01200
+# GCODE case=cnn6 line=10 text=G1 X190.00 Y011.00 F01200
+# GCODE case=cnn6 line=11 text=G1 X190.00 Y015.00 F01200
+# GCODE case=cnn6 line=12 text=G1 X189.00 Y016.00 F01200
+# GCODE case=cnn6 line=13 text=G1 X187.00 Y016.00 F01200
+# GCODE case=cnn6 line=14 text=G1 X186.00 Y015.00 F01200
+# GCODE case=cnn6 line=15 text=G1 X186.00 Y013.00 F01200
+# GCODE case=cnn6 line=16 text=G1 X188.00 Y013.00 F01200
+# GCODE case=cnn6 line=17 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=18 text=G0 X184.00 Y016.00 F03000
+# GCODE case=cnn6 line=19 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=20 text=G4 P0.1
+# GCODE case=cnn6 line=21 text=G1 X184.00 Y010.00 F01200
+# GCODE case=cnn6 line=22 text=G1 X181.00 Y010.00 F01200
+# GCODE case=cnn6 line=23 text=G1 X180.00 Y011.00 F01200
+# GCODE case=cnn6 line=24 text=G1 X180.00 Y012.00 F01200
+# GCODE case=cnn6 line=25 text=G1 X181.00 Y013.00 F01200
+# GCODE case=cnn6 line=26 text=G1 X184.00 Y013.00 F01200
+# GCODE case=cnn6 line=27 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=28 text=G0 X182.00 Y013.00 F03000
+# GCODE case=cnn6 line=29 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=30 text=G4 P0.1
+# GCODE case=cnn6 line=31 text=G1 X180.00 Y016.00 F01200
+# GCODE case=cnn6 line=32 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=33 text=G0 X174.00 Y010.00 F03000
+# GCODE case=cnn6 line=34 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=35 text=G4 P0.1
+# GCODE case=cnn6 line=36 text=G1 X178.00 Y010.00 F01200
+# GCODE case=cnn6 line=37 text=G1 X178.00 Y016.00 F01200
+# GCODE case=cnn6 line=38 text=G1 X174.00 Y016.00 F01200
+# GCODE case=cnn6 line=39 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=40 text=G0 X178.00 Y013.00 F03000
+# GCODE case=cnn6 line=41 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=42 text=G4 P0.1
+# GCODE case=cnn6 line=43 text=G1 X175.00 Y013.00 F01200
+# GCODE case=cnn6 line=44 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=45 text=G0 X168.00 Y010.00 F03000
+# GCODE case=cnn6 line=46 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=47 text=G4 P0.1
+# GCODE case=cnn6 line=48 text=G1 X172.00 Y010.00 F01200
+# GCODE case=cnn6 line=49 text=G1 X172.00 Y016.00 F01200
+# GCODE case=cnn6 line=50 text=G1 X168.00 Y016.00 F01200
+# GCODE case=cnn6 line=51 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=52 text=G0 X172.00 Y013.00 F03000
+# GCODE case=cnn6 line=53 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=54 text=G4 P0.1
+# GCODE case=cnn6 line=55 text=G1 X169.00 Y013.00 F01200
+# GCODE case=cnn6 line=56 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=57 text=G0 X166.00 Y016.00 F03000
+# GCODE case=cnn6 line=58 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=59 text=G4 P0.1
+# GCODE case=cnn6 line=60 text=G1 X166.00 Y010.00 F01200
+# GCODE case=cnn6 line=61 text=G1 X162.00 Y016.00 F01200
+# GCODE case=cnn6 line=62 text=G1 X162.00 Y010.00 F01200
+# GCODE case=cnn6 line=63 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=64 text=G0 X150.00 Y011.00 F03000
+# GCODE case=cnn6 line=65 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=66 text=G4 P0.1
+# GCODE case=cnn6 line=67 text=G1 X151.00 Y010.00 F01200
+# GCODE case=cnn6 line=68 text=G1 X153.00 Y010.00 F01200
+# GCODE case=cnn6 line=69 text=G1 X154.00 Y011.00 F01200
+# GCODE case=cnn6 line=70 text=G1 X154.00 Y012.00 F01200
+# GCODE case=cnn6 line=71 text=G1 X153.00 Y013.00 F01200
+# GCODE case=cnn6 line=72 text=G1 X151.00 Y013.00 F01200
+# GCODE case=cnn6 line=73 text=G1 X150.00 Y014.00 F01200
+# GCODE case=cnn6 line=74 text=G1 X150.00 Y015.00 F01200
+# GCODE case=cnn6 line=75 text=G1 X151.00 Y016.00 F01200
+# GCODE case=cnn6 line=76 text=G1 X153.00 Y016.00 F01200
+# GCODE case=cnn6 line=77 text=G1 X154.00 Y015.00 F01200
+# GCODE case=cnn6 line=78 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=79 text=G0 X147.00 Y010.00 F03000
+# GCODE case=cnn6 line=80 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=81 text=G4 P0.1
+# GCODE case=cnn6 line=82 text=G1 X145.00 Y010.00 F01200
+# GCODE case=cnn6 line=83 text=G1 X144.00 Y011.00 F01200
+# GCODE case=cnn6 line=84 text=G1 X144.00 Y015.00 F01200
+# GCODE case=cnn6 line=85 text=G1 X145.00 Y016.00 F01200
+# GCODE case=cnn6 line=86 text=G1 X147.00 Y016.00 F01200
+# GCODE case=cnn6 line=87 text=G1 X148.00 Y015.00 F01200
+# GCODE case=cnn6 line=88 text=G1 X148.00 Y011.00 F01200
+# GCODE case=cnn6 line=89 text=G1 X147.00 Y010.00 F01200
+# GCODE case=cnn6 line=90 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=91 text=G0 X146.00 Y014.00 F03000
+# GCODE case=cnn6 line=92 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=93 text=G4 P0.1
+# GCODE case=cnn6 line=94 text=G1 X144.00 Y016.00 F01200
+# GCODE case=cnn6 line=95 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=96 text=G0 X142.00 Y010.00 F03000
+# GCODE case=cnn6 line=97 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=98 text=G4 P0.1
+# GCODE case=cnn6 line=99 text=G1 X142.00 Y015.00 F01200
+# GCODE case=cnn6 line=100 text=G1 X141.00 Y016.00 F01200
+# GCODE case=cnn6 line=101 text=G1 X139.00 Y016.00 F01200
+# GCODE case=cnn6 line=102 text=G1 X138.00 Y015.00 F01200
+# GCODE case=cnn6 line=103 text=G1 X138.00 Y010.00 F01200
+# GCODE case=cnn6 line=104 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=105 text=G0 X136.00 Y016.00 F03000
+# GCODE case=cnn6 line=106 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=107 text=G4 P0.1
+# GCODE case=cnn6 line=108 text=G1 X134.00 Y010.00 F01200
+# GCODE case=cnn6 line=109 text=G1 X132.00 Y016.00 F01200
+# GCODE case=cnn6 line=110 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=111 text=G0 X135.00 Y013.00 F03000
+# GCODE case=cnn6 line=112 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=113 text=G4 P0.1
+# GCODE case=cnn6 line=114 text=G1 X133.00 Y013.00 F01200
+# GCODE case=cnn6 line=115 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=116 text=G0 X130.00 Y016.00 F03000
+# GCODE case=cnn6 line=117 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=118 text=G4 P0.1
+# GCODE case=cnn6 line=119 text=G1 X130.00 Y010.00 F01200
+# GCODE case=cnn6 line=120 text=G1 X127.00 Y010.00 F01200
+# GCODE case=cnn6 line=121 text=G1 X126.00 Y011.00 F01200
+# GCODE case=cnn6 line=122 text=G1 X126.00 Y012.00 F01200
+# GCODE case=cnn6 line=123 text=G1 X127.00 Y013.00 F01200
+# GCODE case=cnn6 line=124 text=G1 X130.00 Y013.00 F01200
+# GCODE case=cnn6 line=125 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=126 text=G0 X128.00 Y013.00 F03000
+# GCODE case=cnn6 line=127 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=128 text=G4 P0.1
+# GCODE case=cnn6 line=129 text=G1 X126.00 Y016.00 F01200
+# GCODE case=cnn6 line=130 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=131 text=G0 X120.00 Y010.00 F03000
+# GCODE case=cnn6 line=132 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=133 text=G4 P0.1
+# GCODE case=cnn6 line=134 text=G1 X124.00 Y010.00 F01200
+# GCODE case=cnn6 line=135 text=G1 X124.00 Y016.00 F01200
+# GCODE case=cnn6 line=136 text=G1 X120.00 Y016.00 F01200
+# GCODE case=cnn6 line=137 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=138 text=G0 X124.00 Y013.00 F03000
+# GCODE case=cnn6 line=139 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=140 text=G4 P0.1
+# GCODE case=cnn6 line=141 text=G1 X121.00 Y013.00 F01200
+# GCODE case=cnn6 line=142 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=143 text=G0 X190.00 Y020.00 F03000
+# GCODE case=cnn6 line=144 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=145 text=G4 P0.1
+# GCODE case=cnn6 line=146 text=G1 X186.00 Y026.00 F01200
+# GCODE case=cnn6 line=147 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=148 text=G0 X186.00 Y020.00 F03000
+# GCODE case=cnn6 line=149 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=150 text=G4 P0.1
+# GCODE case=cnn6 line=151 text=G1 X190.00 Y026.00 F01200
+# GCODE case=cnn6 line=152 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=153 text=G0 X183.00 Y020.00 F03000
+# GCODE case=cnn6 line=154 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=155 text=G4 P0.1
+# GCODE case=cnn6 line=156 text=G1 X181.00 Y020.00 F01200
+# GCODE case=cnn6 line=157 text=G1 X180.00 Y021.00 F01200
+# GCODE case=cnn6 line=158 text=G1 X180.00 Y025.00 F01200
+# GCODE case=cnn6 line=159 text=G1 X181.00 Y026.00 F01200
+# GCODE case=cnn6 line=160 text=G1 X183.00 Y026.00 F01200
+# GCODE case=cnn6 line=161 text=G1 X184.00 Y025.00 F01200
+# GCODE case=cnn6 line=162 text=G1 X184.00 Y021.00 F01200
+# GCODE case=cnn6 line=163 text=G1 X183.00 Y020.00 F01200
+# GCODE case=cnn6 line=164 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=165 text=G0 X174.00 Y020.00 F03000
+# GCODE case=cnn6 line=166 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=167 text=G4 P0.1
+# GCODE case=cnn6 line=168 text=G1 X177.00 Y020.00 F01200
+# GCODE case=cnn6 line=169 text=G1 X178.00 Y021.00 F01200
+# GCODE case=cnn6 line=170 text=G1 X178.00 Y025.00 F01200
+# GCODE case=cnn6 line=171 text=G1 X177.00 Y026.00 F01200
+# GCODE case=cnn6 line=172 text=G1 X175.00 Y026.00 F01200
+# GCODE case=cnn6 line=173 text=G1 X174.00 Y025.00 F01200
+# GCODE case=cnn6 line=174 text=G1 X174.00 Y024.00 F01200
+# GCODE case=cnn6 line=175 text=G1 X175.00 Y023.00 F01200
+# GCODE case=cnn6 line=176 text=G1 X178.00 Y023.00 F01200
+# GCODE case=cnn6 line=177 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=178 text=G0 X169.00 Y026.00 F03000
+# GCODE case=cnn6 line=179 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=180 text=G4 P0.1
+# GCODE case=cnn6 line=181 text=G1 X169.00 Y020.00 F01200
+# GCODE case=cnn6 line=182 text=G1 X172.00 Y024.00 F01200
+# GCODE case=cnn6 line=183 text=G1 X168.00 Y024.00 F01200
+# GCODE case=cnn6 line=184 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=185 text=G0 X165.00 Y020.00 F03000
+# GCODE case=cnn6 line=186 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=187 text=G4 P0.1
+# GCODE case=cnn6 line=188 text=G1 X163.00 Y020.00 F01200
+# GCODE case=cnn6 line=189 text=G1 X162.00 Y021.00 F01200
+# GCODE case=cnn6 line=190 text=G1 X162.00 Y025.00 F01200
+# GCODE case=cnn6 line=191 text=G1 X163.00 Y026.00 F01200
+# GCODE case=cnn6 line=192 text=G1 X165.00 Y026.00 F01200
+# GCODE case=cnn6 line=193 text=G1 X166.00 Y025.00 F01200
+# GCODE case=cnn6 line=194 text=G1 X166.00 Y021.00 F01200
+# GCODE case=cnn6 line=195 text=G1 X165.00 Y020.00 F01200
+# GCODE case=cnn6 line=196 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=197 text=G0 X154.00 Y020.00 F03000
+# GCODE case=cnn6 line=198 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=199 text=G4 P0.1
+# GCODE case=cnn6 line=200 text=G1 X152.00 Y023.00 F01200
+# GCODE case=cnn6 line=201 text=G1 X150.00 Y020.00 F01200
+# GCODE case=cnn6 line=202 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=203 text=G0 X152.00 Y023.00 F03000
+# GCODE case=cnn6 line=204 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=205 text=G4 P0.1
+# GCODE case=cnn6 line=206 text=G1 X152.00 Y026.00 F01200
+# GCODE case=cnn6 line=207 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=208 text=G0 X147.00 Y020.00 F03000
+# GCODE case=cnn6 line=209 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=210 text=G4 P0.1
+# GCODE case=cnn6 line=211 text=G1 X145.00 Y020.00 F01200
+# GCODE case=cnn6 line=212 text=G1 X144.00 Y021.00 F01200
+# GCODE case=cnn6 line=213 text=G1 X144.00 Y025.00 F01200
+# GCODE case=cnn6 line=214 text=G1 X145.00 Y026.00 F01200
+# GCODE case=cnn6 line=215 text=G1 X147.00 Y026.00 F01200
+# GCODE case=cnn6 line=216 text=G1 X148.00 Y025.00 F01200
+# GCODE case=cnn6 line=217 text=G1 X148.00 Y021.00 F01200
+# GCODE case=cnn6 line=218 text=G1 X147.00 Y020.00 F01200
+# GCODE case=cnn6 line=219 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=220 text=G0 X142.00 Y020.00 F03000
+# GCODE case=cnn6 line=221 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=222 text=G4 P0.1
+# GCODE case=cnn6 line=223 text=G1 X139.00 Y020.00 F01200
+# GCODE case=cnn6 line=224 text=G1 X138.00 Y021.00 F01200
+# GCODE case=cnn6 line=225 text=G1 X139.00 Y023.00 F01200
+# GCODE case=cnn6 line=226 text=G1 X141.00 Y023.00 F01200
+# GCODE case=cnn6 line=227 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=228 text=G0 X139.00 Y023.00 F03000
+# GCODE case=cnn6 line=229 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=230 text=G4 P0.1
+# GCODE case=cnn6 line=231 text=G1 X138.00 Y025.00 F01200
+# GCODE case=cnn6 line=232 text=G1 X139.00 Y026.00 F01200
+# GCODE case=cnn6 line=233 text=G1 X142.00 Y026.00 F01200
+# GCODE case=cnn6 line=234 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=235 text=G0 X132.00 Y020.00 F03000
+# GCODE case=cnn6 line=236 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=237 text=G4 P0.1
+# GCODE case=cnn6 line=238 text=G1 X135.00 Y020.00 F01200
+# GCODE case=cnn6 line=239 text=G1 X136.00 Y021.00 F01200
+# GCODE case=cnn6 line=240 text=G1 X136.00 Y025.00 F01200
+# GCODE case=cnn6 line=241 text=G1 X135.00 Y026.00 F01200
+# GCODE case=cnn6 line=242 text=G1 X133.00 Y026.00 F01200
+# GCODE case=cnn6 line=243 text=G1 X132.00 Y025.00 F01200
+# GCODE case=cnn6 line=244 text=G1 X132.00 Y024.00 F01200
+# GCODE case=cnn6 line=245 text=G1 X133.00 Y023.00 F01200
+# GCODE case=cnn6 line=246 text=G1 X136.00 Y023.00 F01200
+# GCODE case=cnn6 line=247 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=248 text=G0 X129.00 Y020.00 F03000
+# GCODE case=cnn6 line=249 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=250 text=G4 P0.1
+# GCODE case=cnn6 line=251 text=G1 X127.00 Y020.00 F01200
+# GCODE case=cnn6 line=252 text=G1 X126.00 Y021.00 F01200
+# GCODE case=cnn6 line=253 text=G1 X126.00 Y025.00 F01200
+# GCODE case=cnn6 line=254 text=G1 X127.00 Y026.00 F01200
+# GCODE case=cnn6 line=255 text=G1 X129.00 Y026.00 F01200
+# GCODE case=cnn6 line=256 text=G1 X130.00 Y025.00 F01200
+# GCODE case=cnn6 line=257 text=G1 X130.00 Y021.00 F01200
+# GCODE case=cnn6 line=258 text=G1 X129.00 Y020.00 F01200
+# GCODE case=cnn6 line=259 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=260 text=G0 X186.00 Y031.00 F03000
+# GCODE case=cnn6 line=261 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=262 text=G4 P0.1
+# GCODE case=cnn6 line=263 text=G1 X187.00 Y030.00 F01200
+# GCODE case=cnn6 line=264 text=G1 X189.00 Y030.00 F01200
+# GCODE case=cnn6 line=265 text=G1 X190.00 Y031.00 F01200
+# GCODE case=cnn6 line=266 text=G1 X190.00 Y035.00 F01200
+# GCODE case=cnn6 line=267 text=G1 X189.00 Y036.00 F01200
+# GCODE case=cnn6 line=268 text=G1 X187.00 Y036.00 F01200
+# GCODE case=cnn6 line=269 text=G1 X186.00 Y035.00 F01200
+# GCODE case=cnn6 line=270 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=271 text=G0 X183.00 Y030.00 F03000
+# GCODE case=cnn6 line=272 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=273 text=G4 P0.1
+# GCODE case=cnn6 line=274 text=G1 X181.00 Y030.00 F01200
+# GCODE case=cnn6 line=275 text=G1 X180.00 Y031.00 F01200
+# GCODE case=cnn6 line=276 text=G1 X180.00 Y035.00 F01200
+# GCODE case=cnn6 line=277 text=G1 X181.00 Y036.00 F01200
+# GCODE case=cnn6 line=278 text=G1 X183.00 Y036.00 F01200
+# GCODE case=cnn6 line=279 text=G1 X184.00 Y035.00 F01200
+# GCODE case=cnn6 line=280 text=G1 X184.00 Y031.00 F01200
+# GCODE case=cnn6 line=281 text=G1 X183.00 Y030.00 F01200
+# GCODE case=cnn6 line=282 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=283 text=G0 X178.00 Y036.00 F03000
+# GCODE case=cnn6 line=284 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=285 text=G4 P0.1
+# GCODE case=cnn6 line=286 text=G1 X178.00 Y030.00 F01200
+# GCODE case=cnn6 line=287 text=G1 X174.00 Y036.00 F01200
+# GCODE case=cnn6 line=288 text=G1 X174.00 Y030.00 F01200
+# GCODE case=cnn6 line=289 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=290 text=G0 X172.00 Y036.00 F03000
+# GCODE case=cnn6 line=291 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=292 text=G4 P0.1
+# GCODE case=cnn6 line=293 text=G1 X172.00 Y030.00 F01200
+# GCODE case=cnn6 line=294 text=G1 X168.00 Y030.00 F01200
+# GCODE case=cnn6 line=295 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=296 text=G0 X172.00 Y033.00 F03000
+# GCODE case=cnn6 line=297 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=298 text=G4 P0.1
+# GCODE case=cnn6 line=299 text=G1 X169.00 Y033.00 F01200
+# GCODE case=cnn6 line=300 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=301 text=G0 X159.00 Y030.00 F03000
+# GCODE case=cnn6 line=302 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=303 text=G4 P0.1
+# GCODE case=cnn6 line=304 text=G1 X157.00 Y030.00 F01200
+# GCODE case=cnn6 line=305 text=G1 X156.00 Y031.00 F01200
+# GCODE case=cnn6 line=306 text=G1 X156.00 Y035.00 F01200
+# GCODE case=cnn6 line=307 text=G1 X157.00 Y036.00 F01200
+# GCODE case=cnn6 line=308 text=G1 X159.00 Y036.00 F01200
+# GCODE case=cnn6 line=309 text=G1 X160.00 Y035.00 F01200
+# GCODE case=cnn6 line=310 text=G1 X160.00 Y031.00 F01200
+# GCODE case=cnn6 line=311 text=G1 X159.00 Y030.00 F01200
+# GCODE case=cnn6 line=312 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=313 text=G0 X150.00 Y030.00 F03000
+# GCODE case=cnn6 line=314 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=315 text=G4 P0.1
+# GCODE case=cnn6 line=316 text=G1 X153.00 Y030.00 F01200
+# GCODE case=cnn6 line=317 text=G1 X154.00 Y031.00 F01200
+# GCODE case=cnn6 line=318 text=G1 X154.00 Y035.00 F01200
+# GCODE case=cnn6 line=319 text=G1 X153.00 Y036.00 F01200
+# GCODE case=cnn6 line=320 text=G1 X151.00 Y036.00 F01200
+# GCODE case=cnn6 line=321 text=G1 X150.00 Y035.00 F01200
+# GCODE case=cnn6 line=322 text=G1 X150.00 Y034.00 F01200
+# GCODE case=cnn6 line=323 text=G1 X151.00 Y033.00 F01200
+# GCODE case=cnn6 line=324 text=G1 X154.00 Y033.00 F01200
+# GCODE case=cnn6 line=325 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=326 text=G0 X147.00 Y030.00 F03000
+# GCODE case=cnn6 line=327 text=G1 Z+001.20 F00600
+# GCODE case=cnn6 line=328 text=G4 P0.1
+# GCODE case=cnn6 line=329 text=G1 X145.00 Y030.00 F01200
+# GCODE case=cnn6 line=330 text=G1 X144.00 Y031.00 F01200
+# GCODE case=cnn6 line=331 text=G1 X144.00 Y035.00 F01200
+# GCODE case=cnn6 line=332 text=G1 X145.00 Y036.00 F01200
+# GCODE case=cnn6 line=333 text=G1 X147.00 Y036.00 F01200
+# GCODE case=cnn6 line=334 text=G1 X148.00 Y035.00 F01200
+# GCODE case=cnn6 line=335 text=G1 X148.00 Y031.00 F01200
+# GCODE case=cnn6 line=336 text=G1 X147.00 Y030.00 F01200
+# GCODE case=cnn6 line=337 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=338 text=G1 Z-001.20 F00600
+# GCODE case=cnn6 line=339 text=G0 X190.00 Y041.00 F03000
+# FLOW_TEXT case=cnn6 row0=GREEN SQUARE  |row1=X0640 Y0360|row2=CONF 060|cursor=3100
+# GCODE case=cnn7 line=1 text=G21
+# GCODE case=cnn7 line=2 text=G90
+# GCODE case=cnn7 line=3 text=G54
+# GCODE case=cnn7 line=4 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=5 text=G0 X190.00 Y016.00 F03000
+# GCODE case=cnn7 line=6 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=7 text=G4 P0.1
+# GCODE case=cnn7 line=8 text=G1 X190.00 Y010.00 F01200
+# GCODE case=cnn7 line=9 text=G1 X187.00 Y010.00 F01200
+# GCODE case=cnn7 line=10 text=G1 X186.00 Y011.00 F01200
+# GCODE case=cnn7 line=11 text=G1 X186.00 Y012.00 F01200
+# GCODE case=cnn7 line=12 text=G1 X187.00 Y013.00 F01200
+# GCODE case=cnn7 line=13 text=G1 X190.00 Y013.00 F01200
+# GCODE case=cnn7 line=14 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=15 text=G0 X187.00 Y013.00 F03000
+# GCODE case=cnn7 line=16 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=17 text=G4 P0.1
+# GCODE case=cnn7 line=18 text=G1 X186.00 Y014.00 F01200
+# GCODE case=cnn7 line=19 text=G1 X186.00 Y015.00 F01200
+# GCODE case=cnn7 line=20 text=G1 X187.00 Y016.00 F01200
+# GCODE case=cnn7 line=21 text=G1 X190.00 Y016.00 F01200
+# GCODE case=cnn7 line=22 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=23 text=G0 X184.00 Y010.00 F03000
+# GCODE case=cnn7 line=24 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=25 text=G4 P0.1
+# GCODE case=cnn7 line=26 text=G1 X184.00 Y016.00 F01200
+# GCODE case=cnn7 line=27 text=G1 X180.00 Y016.00 F01200
+# GCODE case=cnn7 line=28 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=29 text=G0 X178.00 Y010.00 F03000
+# GCODE case=cnn7 line=30 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=31 text=G4 P0.1
+# GCODE case=cnn7 line=32 text=G1 X178.00 Y015.00 F01200
+# GCODE case=cnn7 line=33 text=G1 X177.00 Y016.00 F01200
+# GCODE case=cnn7 line=34 text=G1 X175.00 Y016.00 F01200
+# GCODE case=cnn7 line=35 text=G1 X174.00 Y015.00 F01200
+# GCODE case=cnn7 line=36 text=G1 X174.00 Y010.00 F01200
+# GCODE case=cnn7 line=37 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=38 text=G0 X168.00 Y010.00 F03000
+# GCODE case=cnn7 line=39 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=40 text=G4 P0.1
+# GCODE case=cnn7 line=41 text=G1 X172.00 Y010.00 F01200
+# GCODE case=cnn7 line=42 text=G1 X172.00 Y016.00 F01200
+# GCODE case=cnn7 line=43 text=G1 X168.00 Y016.00 F01200
+# GCODE case=cnn7 line=44 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=45 text=G0 X172.00 Y013.00 F03000
+# GCODE case=cnn7 line=46 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=47 text=G4 P0.1
+# GCODE case=cnn7 line=48 text=G1 X169.00 Y013.00 F01200
+# GCODE case=cnn7 line=49 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=50 text=G0 X154.00 Y010.00 F03000
+# GCODE case=cnn7 line=51 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=52 text=G4 P0.1
+# GCODE case=cnn7 line=53 text=G1 X150.00 Y010.00 F01200
+# GCODE case=cnn7 line=54 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=55 text=G0 X152.00 Y010.00 F03000
+# GCODE case=cnn7 line=56 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=57 text=G4 P0.1
+# GCODE case=cnn7 line=58 text=G1 X152.00 Y016.00 F01200
+# GCODE case=cnn7 line=59 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=60 text=G0 X148.00 Y016.00 F03000
+# GCODE case=cnn7 line=61 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=62 text=G4 P0.1
+# GCODE case=cnn7 line=63 text=G1 X148.00 Y010.00 F01200
+# GCODE case=cnn7 line=64 text=G1 X145.00 Y010.00 F01200
+# GCODE case=cnn7 line=65 text=G1 X144.00 Y011.00 F01200
+# GCODE case=cnn7 line=66 text=G1 X144.00 Y012.00 F01200
+# GCODE case=cnn7 line=67 text=G1 X145.00 Y013.00 F01200
+# GCODE case=cnn7 line=68 text=G1 X148.00 Y013.00 F01200
+# GCODE case=cnn7 line=69 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=70 text=G0 X146.00 Y013.00 F03000
+# GCODE case=cnn7 line=71 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=72 text=G4 P0.1
+# GCODE case=cnn7 line=73 text=G1 X144.00 Y016.00 F01200
+# GCODE case=cnn7 line=74 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=75 text=G0 X142.00 Y010.00 F03000
+# GCODE case=cnn7 line=76 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=77 text=G4 P0.1
+# GCODE case=cnn7 line=78 text=G1 X138.00 Y010.00 F01200
+# GCODE case=cnn7 line=79 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=80 text=G0 X140.00 Y010.00 F03000
+# GCODE case=cnn7 line=81 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=82 text=G4 P0.1
+# GCODE case=cnn7 line=83 text=G1 X140.00 Y016.00 F01200
+# GCODE case=cnn7 line=84 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=85 text=G0 X142.00 Y016.00 F03000
+# GCODE case=cnn7 line=86 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=87 text=G4 P0.1
+# GCODE case=cnn7 line=88 text=G1 X138.00 Y016.00 F01200
+# GCODE case=cnn7 line=89 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=90 text=G0 X136.00 Y016.00 F03000
+# GCODE case=cnn7 line=91 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=92 text=G4 P0.1
+# GCODE case=cnn7 line=93 text=G1 X134.00 Y010.00 F01200
+# GCODE case=cnn7 line=94 text=G1 X132.00 Y016.00 F01200
+# GCODE case=cnn7 line=95 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=96 text=G0 X135.00 Y013.00 F03000
+# GCODE case=cnn7 line=97 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=98 text=G4 P0.1
+# GCODE case=cnn7 line=99 text=G1 X133.00 Y013.00 F01200
+# GCODE case=cnn7 line=100 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=101 text=G0 X130.00 Y016.00 F03000
+# GCODE case=cnn7 line=102 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=103 text=G4 P0.1
+# GCODE case=cnn7 line=104 text=G1 X130.00 Y010.00 F01200
+# GCODE case=cnn7 line=105 text=G1 X126.00 Y016.00 F01200
+# GCODE case=cnn7 line=106 text=G1 X126.00 Y010.00 F01200
+# GCODE case=cnn7 line=107 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=108 text=G0 X120.00 Y011.00 F03000
+# GCODE case=cnn7 line=109 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=110 text=G4 P0.1
+# GCODE case=cnn7 line=111 text=G1 X121.00 Y010.00 F01200
+# GCODE case=cnn7 line=112 text=G1 X123.00 Y010.00 F01200
+# GCODE case=cnn7 line=113 text=G1 X124.00 Y011.00 F01200
+# GCODE case=cnn7 line=114 text=G1 X124.00 Y015.00 F01200
+# GCODE case=cnn7 line=115 text=G1 X123.00 Y016.00 F01200
+# GCODE case=cnn7 line=116 text=G1 X121.00 Y016.00 F01200
+# GCODE case=cnn7 line=117 text=G1 X120.00 Y015.00 F01200
+# GCODE case=cnn7 line=118 text=G1 X120.00 Y013.00 F01200
+# GCODE case=cnn7 line=119 text=G1 X122.00 Y013.00 F01200
+# GCODE case=cnn7 line=120 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=121 text=G0 X118.00 Y010.00 F03000
+# GCODE case=cnn7 line=122 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=123 text=G4 P0.1
+# GCODE case=cnn7 line=124 text=G1 X118.00 Y016.00 F01200
+# GCODE case=cnn7 line=125 text=G1 X114.00 Y016.00 F01200
+# GCODE case=cnn7 line=126 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=127 text=G0 X108.00 Y010.00 F03000
+# GCODE case=cnn7 line=128 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=129 text=G4 P0.1
+# GCODE case=cnn7 line=130 text=G1 X112.00 Y010.00 F01200
+# GCODE case=cnn7 line=131 text=G1 X112.00 Y016.00 F01200
+# GCODE case=cnn7 line=132 text=G1 X108.00 Y016.00 F01200
+# GCODE case=cnn7 line=133 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=134 text=G0 X112.00 Y013.00 F03000
+# GCODE case=cnn7 line=135 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=136 text=G4 P0.1
+# GCODE case=cnn7 line=137 text=G1 X109.00 Y013.00 F01200
+# GCODE case=cnn7 line=138 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=139 text=G0 X190.00 Y020.00 F03000
+# GCODE case=cnn7 line=140 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=141 text=G4 P0.1
+# GCODE case=cnn7 line=142 text=G1 X186.00 Y026.00 F01200
+# GCODE case=cnn7 line=143 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=144 text=G0 X186.00 Y020.00 F03000
+# GCODE case=cnn7 line=145 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=146 text=G4 P0.1
+# GCODE case=cnn7 line=147 text=G1 X190.00 Y026.00 F01200
+# GCODE case=cnn7 line=148 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=149 text=G0 X183.00 Y020.00 F03000
+# GCODE case=cnn7 line=150 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=151 text=G4 P0.1
+# GCODE case=cnn7 line=152 text=G1 X181.00 Y020.00 F01200
+# GCODE case=cnn7 line=153 text=G1 X180.00 Y021.00 F01200
+# GCODE case=cnn7 line=154 text=G1 X180.00 Y025.00 F01200
+# GCODE case=cnn7 line=155 text=G1 X181.00 Y026.00 F01200
+# GCODE case=cnn7 line=156 text=G1 X183.00 Y026.00 F01200
+# GCODE case=cnn7 line=157 text=G1 X184.00 Y025.00 F01200
+# GCODE case=cnn7 line=158 text=G1 X184.00 Y021.00 F01200
+# GCODE case=cnn7 line=159 text=G1 X183.00 Y020.00 F01200
+# GCODE case=cnn7 line=160 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=161 text=G0 X174.00 Y020.00 F03000
+# GCODE case=cnn7 line=162 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=163 text=G4 P0.1
+# GCODE case=cnn7 line=164 text=G1 X177.00 Y020.00 F01200
+# GCODE case=cnn7 line=165 text=G1 X178.00 Y021.00 F01200
+# GCODE case=cnn7 line=166 text=G1 X178.00 Y025.00 F01200
+# GCODE case=cnn7 line=167 text=G1 X177.00 Y026.00 F01200
+# GCODE case=cnn7 line=168 text=G1 X175.00 Y026.00 F01200
+# GCODE case=cnn7 line=169 text=G1 X174.00 Y025.00 F01200
+# GCODE case=cnn7 line=170 text=G1 X174.00 Y024.00 F01200
+# GCODE case=cnn7 line=171 text=G1 X175.00 Y023.00 F01200
+# GCODE case=cnn7 line=172 text=G1 X178.00 Y023.00 F01200
+# GCODE case=cnn7 line=173 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=174 text=G0 X169.00 Y026.00 F03000
+# GCODE case=cnn7 line=175 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=176 text=G4 P0.1
+# GCODE case=cnn7 line=177 text=G1 X169.00 Y020.00 F01200
+# GCODE case=cnn7 line=178 text=G1 X172.00 Y024.00 F01200
+# GCODE case=cnn7 line=179 text=G1 X168.00 Y024.00 F01200
+# GCODE case=cnn7 line=180 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=181 text=G0 X165.00 Y020.00 F03000
+# GCODE case=cnn7 line=182 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=183 text=G4 P0.1
+# GCODE case=cnn7 line=184 text=G1 X163.00 Y020.00 F01200
+# GCODE case=cnn7 line=185 text=G1 X162.00 Y021.00 F01200
+# GCODE case=cnn7 line=186 text=G1 X162.00 Y025.00 F01200
+# GCODE case=cnn7 line=187 text=G1 X163.00 Y026.00 F01200
+# GCODE case=cnn7 line=188 text=G1 X165.00 Y026.00 F01200
+# GCODE case=cnn7 line=189 text=G1 X166.00 Y025.00 F01200
+# GCODE case=cnn7 line=190 text=G1 X166.00 Y021.00 F01200
+# GCODE case=cnn7 line=191 text=G1 X165.00 Y020.00 F01200
+# GCODE case=cnn7 line=192 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=193 text=G0 X154.00 Y020.00 F03000
+# GCODE case=cnn7 line=194 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=195 text=G4 P0.1
+# GCODE case=cnn7 line=196 text=G1 X152.00 Y023.00 F01200
+# GCODE case=cnn7 line=197 text=G1 X150.00 Y020.00 F01200
+# GCODE case=cnn7 line=198 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=199 text=G0 X152.00 Y023.00 F03000
+# GCODE case=cnn7 line=200 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=201 text=G4 P0.1
+# GCODE case=cnn7 line=202 text=G1 X152.00 Y026.00 F01200
+# GCODE case=cnn7 line=203 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=204 text=G0 X147.00 Y020.00 F03000
+# GCODE case=cnn7 line=205 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=206 text=G4 P0.1
+# GCODE case=cnn7 line=207 text=G1 X145.00 Y020.00 F01200
+# GCODE case=cnn7 line=208 text=G1 X144.00 Y021.00 F01200
+# GCODE case=cnn7 line=209 text=G1 X144.00 Y025.00 F01200
+# GCODE case=cnn7 line=210 text=G1 X145.00 Y026.00 F01200
+# GCODE case=cnn7 line=211 text=G1 X147.00 Y026.00 F01200
+# GCODE case=cnn7 line=212 text=G1 X148.00 Y025.00 F01200
+# GCODE case=cnn7 line=213 text=G1 X148.00 Y021.00 F01200
+# GCODE case=cnn7 line=214 text=G1 X147.00 Y020.00 F01200
+# GCODE case=cnn7 line=215 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=216 text=G0 X142.00 Y020.00 F03000
+# GCODE case=cnn7 line=217 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=218 text=G4 P0.1
+# GCODE case=cnn7 line=219 text=G1 X139.00 Y020.00 F01200
+# GCODE case=cnn7 line=220 text=G1 X138.00 Y021.00 F01200
+# GCODE case=cnn7 line=221 text=G1 X139.00 Y023.00 F01200
+# GCODE case=cnn7 line=222 text=G1 X141.00 Y023.00 F01200
+# GCODE case=cnn7 line=223 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=224 text=G0 X139.00 Y023.00 F03000
+# GCODE case=cnn7 line=225 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=226 text=G4 P0.1
+# GCODE case=cnn7 line=227 text=G1 X138.00 Y025.00 F01200
+# GCODE case=cnn7 line=228 text=G1 X139.00 Y026.00 F01200
+# GCODE case=cnn7 line=229 text=G1 X142.00 Y026.00 F01200
+# GCODE case=cnn7 line=230 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=231 text=G0 X132.00 Y020.00 F03000
+# GCODE case=cnn7 line=232 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=233 text=G4 P0.1
+# GCODE case=cnn7 line=234 text=G1 X135.00 Y020.00 F01200
+# GCODE case=cnn7 line=235 text=G1 X136.00 Y021.00 F01200
+# GCODE case=cnn7 line=236 text=G1 X136.00 Y025.00 F01200
+# GCODE case=cnn7 line=237 text=G1 X135.00 Y026.00 F01200
+# GCODE case=cnn7 line=238 text=G1 X133.00 Y026.00 F01200
+# GCODE case=cnn7 line=239 text=G1 X132.00 Y025.00 F01200
+# GCODE case=cnn7 line=240 text=G1 X132.00 Y024.00 F01200
+# GCODE case=cnn7 line=241 text=G1 X133.00 Y023.00 F01200
+# GCODE case=cnn7 line=242 text=G1 X136.00 Y023.00 F01200
+# GCODE case=cnn7 line=243 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=244 text=G0 X129.00 Y020.00 F03000
+# GCODE case=cnn7 line=245 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=246 text=G4 P0.1
+# GCODE case=cnn7 line=247 text=G1 X127.00 Y020.00 F01200
+# GCODE case=cnn7 line=248 text=G1 X126.00 Y021.00 F01200
+# GCODE case=cnn7 line=249 text=G1 X126.00 Y025.00 F01200
+# GCODE case=cnn7 line=250 text=G1 X127.00 Y026.00 F01200
+# GCODE case=cnn7 line=251 text=G1 X129.00 Y026.00 F01200
+# GCODE case=cnn7 line=252 text=G1 X130.00 Y025.00 F01200
+# GCODE case=cnn7 line=253 text=G1 X130.00 Y021.00 F01200
+# GCODE case=cnn7 line=254 text=G1 X129.00 Y020.00 F01200
+# GCODE case=cnn7 line=255 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=256 text=G0 X186.00 Y031.00 F03000
+# GCODE case=cnn7 line=257 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=258 text=G4 P0.1
+# GCODE case=cnn7 line=259 text=G1 X187.00 Y030.00 F01200
+# GCODE case=cnn7 line=260 text=G1 X189.00 Y030.00 F01200
+# GCODE case=cnn7 line=261 text=G1 X190.00 Y031.00 F01200
+# GCODE case=cnn7 line=262 text=G1 X190.00 Y035.00 F01200
+# GCODE case=cnn7 line=263 text=G1 X189.00 Y036.00 F01200
+# GCODE case=cnn7 line=264 text=G1 X187.00 Y036.00 F01200
+# GCODE case=cnn7 line=265 text=G1 X186.00 Y035.00 F01200
+# GCODE case=cnn7 line=266 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=267 text=G0 X183.00 Y030.00 F03000
+# GCODE case=cnn7 line=268 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=269 text=G4 P0.1
+# GCODE case=cnn7 line=270 text=G1 X181.00 Y030.00 F01200
+# GCODE case=cnn7 line=271 text=G1 X180.00 Y031.00 F01200
+# GCODE case=cnn7 line=272 text=G1 X180.00 Y035.00 F01200
+# GCODE case=cnn7 line=273 text=G1 X181.00 Y036.00 F01200
+# GCODE case=cnn7 line=274 text=G1 X183.00 Y036.00 F01200
+# GCODE case=cnn7 line=275 text=G1 X184.00 Y035.00 F01200
+# GCODE case=cnn7 line=276 text=G1 X184.00 Y031.00 F01200
+# GCODE case=cnn7 line=277 text=G1 X183.00 Y030.00 F01200
+# GCODE case=cnn7 line=278 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=279 text=G0 X178.00 Y036.00 F03000
+# GCODE case=cnn7 line=280 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=281 text=G4 P0.1
+# GCODE case=cnn7 line=282 text=G1 X178.00 Y030.00 F01200
+# GCODE case=cnn7 line=283 text=G1 X174.00 Y036.00 F01200
+# GCODE case=cnn7 line=284 text=G1 X174.00 Y030.00 F01200
+# GCODE case=cnn7 line=285 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=286 text=G0 X172.00 Y036.00 F03000
+# GCODE case=cnn7 line=287 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=288 text=G4 P0.1
+# GCODE case=cnn7 line=289 text=G1 X172.00 Y030.00 F01200
+# GCODE case=cnn7 line=290 text=G1 X168.00 Y030.00 F01200
+# GCODE case=cnn7 line=291 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=292 text=G0 X172.00 Y033.00 F03000
+# GCODE case=cnn7 line=293 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=294 text=G4 P0.1
+# GCODE case=cnn7 line=295 text=G1 X169.00 Y033.00 F01200
+# GCODE case=cnn7 line=296 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=297 text=G0 X159.00 Y030.00 F03000
+# GCODE case=cnn7 line=298 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=299 text=G4 P0.1
+# GCODE case=cnn7 line=300 text=G1 X157.00 Y030.00 F01200
+# GCODE case=cnn7 line=301 text=G1 X156.00 Y031.00 F01200
+# GCODE case=cnn7 line=302 text=G1 X156.00 Y035.00 F01200
+# GCODE case=cnn7 line=303 text=G1 X157.00 Y036.00 F01200
+# GCODE case=cnn7 line=304 text=G1 X159.00 Y036.00 F01200
+# GCODE case=cnn7 line=305 text=G1 X160.00 Y035.00 F01200
+# GCODE case=cnn7 line=306 text=G1 X160.00 Y031.00 F01200
+# GCODE case=cnn7 line=307 text=G1 X159.00 Y030.00 F01200
+# GCODE case=cnn7 line=308 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=309 text=G0 X154.00 Y030.00 F03000
+# GCODE case=cnn7 line=310 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=311 text=G4 P0.1
+# GCODE case=cnn7 line=312 text=G1 X150.00 Y030.00 F01200
+# GCODE case=cnn7 line=313 text=G1 X153.00 Y036.00 F01200
+# GCODE case=cnn7 line=314 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=315 text=G0 X147.00 Y030.00 F03000
+# GCODE case=cnn7 line=316 text=G1 Z+001.20 F00600
+# GCODE case=cnn7 line=317 text=G4 P0.1
+# GCODE case=cnn7 line=318 text=G1 X145.00 Y030.00 F01200
+# GCODE case=cnn7 line=319 text=G1 X144.00 Y031.00 F01200
+# GCODE case=cnn7 line=320 text=G1 X144.00 Y035.00 F01200
+# GCODE case=cnn7 line=321 text=G1 X145.00 Y036.00 F01200
+# GCODE case=cnn7 line=322 text=G1 X147.00 Y036.00 F01200
+# GCODE case=cnn7 line=323 text=G1 X148.00 Y035.00 F01200
+# GCODE case=cnn7 line=324 text=G1 X148.00 Y031.00 F01200
+# GCODE case=cnn7 line=325 text=G1 X147.00 Y030.00 F01200
+# GCODE case=cnn7 line=326 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=327 text=G1 Z-001.20 F00600
+# GCODE case=cnn7 line=328 text=G0 X190.00 Y041.00 F03000
+# FLOW_TEXT case=cnn7 row0=BLUE  TRIANGLE|row1=X0640 Y0360|row2=CONF 070|cursor=3100
+# GCODE case=cnn8 line=1 text=G21
+# GCODE case=cnn8 line=2 text=G90
+# GCODE case=cnn8 line=3 text=G54
+# GCODE case=cnn8 line=4 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=5 text=G0 X190.00 Y016.00 F03000
+# GCODE case=cnn8 line=6 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=7 text=G4 P0.1
+# GCODE case=cnn8 line=8 text=G1 X190.00 Y010.00 F01200
+# GCODE case=cnn8 line=9 text=G1 X187.00 Y010.00 F01200
+# GCODE case=cnn8 line=10 text=G1 X186.00 Y011.00 F01200
+# GCODE case=cnn8 line=11 text=G1 X186.00 Y012.00 F01200
+# GCODE case=cnn8 line=12 text=G1 X187.00 Y013.00 F01200
+# GCODE case=cnn8 line=13 text=G1 X190.00 Y013.00 F01200
+# GCODE case=cnn8 line=14 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=15 text=G0 X187.00 Y013.00 F03000
+# GCODE case=cnn8 line=16 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=17 text=G4 P0.1
+# GCODE case=cnn8 line=18 text=G1 X186.00 Y014.00 F01200
+# GCODE case=cnn8 line=19 text=G1 X186.00 Y015.00 F01200
+# GCODE case=cnn8 line=20 text=G1 X187.00 Y016.00 F01200
+# GCODE case=cnn8 line=21 text=G1 X190.00 Y016.00 F01200
+# GCODE case=cnn8 line=22 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=23 text=G0 X184.00 Y010.00 F03000
+# GCODE case=cnn8 line=24 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=25 text=G4 P0.1
+# GCODE case=cnn8 line=26 text=G1 X184.00 Y016.00 F01200
+# GCODE case=cnn8 line=27 text=G1 X180.00 Y016.00 F01200
+# GCODE case=cnn8 line=28 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=29 text=G0 X178.00 Y010.00 F03000
+# GCODE case=cnn8 line=30 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=31 text=G4 P0.1
+# GCODE case=cnn8 line=32 text=G1 X178.00 Y015.00 F01200
+# GCODE case=cnn8 line=33 text=G1 X177.00 Y016.00 F01200
+# GCODE case=cnn8 line=34 text=G1 X175.00 Y016.00 F01200
+# GCODE case=cnn8 line=35 text=G1 X174.00 Y015.00 F01200
+# GCODE case=cnn8 line=36 text=G1 X174.00 Y010.00 F01200
+# GCODE case=cnn8 line=37 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=38 text=G0 X168.00 Y010.00 F03000
+# GCODE case=cnn8 line=39 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=40 text=G4 P0.1
+# GCODE case=cnn8 line=41 text=G1 X172.00 Y010.00 F01200
+# GCODE case=cnn8 line=42 text=G1 X172.00 Y016.00 F01200
+# GCODE case=cnn8 line=43 text=G1 X168.00 Y016.00 F01200
+# GCODE case=cnn8 line=44 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=45 text=G0 X172.00 Y013.00 F03000
+# GCODE case=cnn8 line=46 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=47 text=G4 P0.1
+# GCODE case=cnn8 line=48 text=G1 X169.00 Y013.00 F01200
+# GCODE case=cnn8 line=49 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=50 text=G0 X150.00 Y011.00 F03000
+# GCODE case=cnn8 line=51 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=52 text=G4 P0.1
+# GCODE case=cnn8 line=53 text=G1 X151.00 Y010.00 F01200
+# GCODE case=cnn8 line=54 text=G1 X153.00 Y010.00 F01200
+# GCODE case=cnn8 line=55 text=G1 X154.00 Y011.00 F01200
+# GCODE case=cnn8 line=56 text=G1 X154.00 Y015.00 F01200
+# GCODE case=cnn8 line=57 text=G1 X153.00 Y016.00 F01200
+# GCODE case=cnn8 line=58 text=G1 X151.00 Y016.00 F01200
+# GCODE case=cnn8 line=59 text=G1 X150.00 Y015.00 F01200
+# GCODE case=cnn8 line=60 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=61 text=G0 X148.00 Y010.00 F03000
+# GCODE case=cnn8 line=62 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=63 text=G4 P0.1
+# GCODE case=cnn8 line=64 text=G1 X144.00 Y010.00 F01200
+# GCODE case=cnn8 line=65 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=66 text=G0 X146.00 Y010.00 F03000
+# GCODE case=cnn8 line=67 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=68 text=G4 P0.1
+# GCODE case=cnn8 line=69 text=G1 X146.00 Y016.00 F01200
+# GCODE case=cnn8 line=70 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=71 text=G0 X148.00 Y016.00 F03000
+# GCODE case=cnn8 line=72 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=73 text=G4 P0.1
+# GCODE case=cnn8 line=74 text=G1 X144.00 Y016.00 F01200
+# GCODE case=cnn8 line=75 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=76 text=G0 X142.00 Y016.00 F03000
+# GCODE case=cnn8 line=77 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=78 text=G4 P0.1
+# GCODE case=cnn8 line=79 text=G1 X142.00 Y010.00 F01200
+# GCODE case=cnn8 line=80 text=G1 X139.00 Y010.00 F01200
+# GCODE case=cnn8 line=81 text=G1 X138.00 Y011.00 F01200
+# GCODE case=cnn8 line=82 text=G1 X138.00 Y012.00 F01200
+# GCODE case=cnn8 line=83 text=G1 X139.00 Y013.00 F01200
+# GCODE case=cnn8 line=84 text=G1 X142.00 Y013.00 F01200
+# GCODE case=cnn8 line=85 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=86 text=G0 X140.00 Y013.00 F03000
+# GCODE case=cnn8 line=87 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=88 text=G4 P0.1
+# GCODE case=cnn8 line=89 text=G1 X138.00 Y016.00 F01200
+# GCODE case=cnn8 line=90 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=91 text=G0 X132.00 Y011.00 F03000
+# GCODE case=cnn8 line=92 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=93 text=G4 P0.1
+# GCODE case=cnn8 line=94 text=G1 X133.00 Y010.00 F01200
+# GCODE case=cnn8 line=95 text=G1 X135.00 Y010.00 F01200
+# GCODE case=cnn8 line=96 text=G1 X136.00 Y011.00 F01200
+# GCODE case=cnn8 line=97 text=G1 X136.00 Y015.00 F01200
+# GCODE case=cnn8 line=98 text=G1 X135.00 Y016.00 F01200
+# GCODE case=cnn8 line=99 text=G1 X133.00 Y016.00 F01200
+# GCODE case=cnn8 line=100 text=G1 X132.00 Y015.00 F01200
+# GCODE case=cnn8 line=101 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=102 text=G0 X130.00 Y010.00 F03000
+# GCODE case=cnn8 line=103 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=104 text=G4 P0.1
+# GCODE case=cnn8 line=105 text=G1 X130.00 Y016.00 F01200
+# GCODE case=cnn8 line=106 text=G1 X126.00 Y016.00 F01200
+# GCODE case=cnn8 line=107 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=108 text=G0 X120.00 Y010.00 F03000
+# GCODE case=cnn8 line=109 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=110 text=G4 P0.1
+# GCODE case=cnn8 line=111 text=G1 X124.00 Y010.00 F01200
+# GCODE case=cnn8 line=112 text=G1 X124.00 Y016.00 F01200
+# GCODE case=cnn8 line=113 text=G1 X120.00 Y016.00 F01200
+# GCODE case=cnn8 line=114 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=115 text=G0 X124.00 Y013.00 F03000
+# GCODE case=cnn8 line=116 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=117 text=G4 P0.1
+# GCODE case=cnn8 line=118 text=G1 X121.00 Y013.00 F01200
+# GCODE case=cnn8 line=119 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=120 text=G0 X190.00 Y020.00 F03000
+# GCODE case=cnn8 line=121 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=122 text=G4 P0.1
+# GCODE case=cnn8 line=123 text=G1 X186.00 Y026.00 F01200
+# GCODE case=cnn8 line=124 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=125 text=G0 X186.00 Y020.00 F03000
+# GCODE case=cnn8 line=126 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=127 text=G4 P0.1
+# GCODE case=cnn8 line=128 text=G1 X190.00 Y026.00 F01200
+# GCODE case=cnn8 line=129 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=130 text=G0 X183.00 Y020.00 F03000
+# GCODE case=cnn8 line=131 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=132 text=G4 P0.1
+# GCODE case=cnn8 line=133 text=G1 X181.00 Y020.00 F01200
+# GCODE case=cnn8 line=134 text=G1 X180.00 Y021.00 F01200
+# GCODE case=cnn8 line=135 text=G1 X180.00 Y025.00 F01200
+# GCODE case=cnn8 line=136 text=G1 X181.00 Y026.00 F01200
+# GCODE case=cnn8 line=137 text=G1 X183.00 Y026.00 F01200
+# GCODE case=cnn8 line=138 text=G1 X184.00 Y025.00 F01200
+# GCODE case=cnn8 line=139 text=G1 X184.00 Y021.00 F01200
+# GCODE case=cnn8 line=140 text=G1 X183.00 Y020.00 F01200
+# GCODE case=cnn8 line=141 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=142 text=G0 X174.00 Y020.00 F03000
+# GCODE case=cnn8 line=143 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=144 text=G4 P0.1
+# GCODE case=cnn8 line=145 text=G1 X177.00 Y020.00 F01200
+# GCODE case=cnn8 line=146 text=G1 X178.00 Y021.00 F01200
+# GCODE case=cnn8 line=147 text=G1 X178.00 Y025.00 F01200
+# GCODE case=cnn8 line=148 text=G1 X177.00 Y026.00 F01200
+# GCODE case=cnn8 line=149 text=G1 X175.00 Y026.00 F01200
+# GCODE case=cnn8 line=150 text=G1 X174.00 Y025.00 F01200
+# GCODE case=cnn8 line=151 text=G1 X174.00 Y024.00 F01200
+# GCODE case=cnn8 line=152 text=G1 X175.00 Y023.00 F01200
+# GCODE case=cnn8 line=153 text=G1 X178.00 Y023.00 F01200
+# GCODE case=cnn8 line=154 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=155 text=G0 X169.00 Y026.00 F03000
+# GCODE case=cnn8 line=156 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=157 text=G4 P0.1
+# GCODE case=cnn8 line=158 text=G1 X169.00 Y020.00 F01200
+# GCODE case=cnn8 line=159 text=G1 X172.00 Y024.00 F01200
+# GCODE case=cnn8 line=160 text=G1 X168.00 Y024.00 F01200
+# GCODE case=cnn8 line=161 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=162 text=G0 X165.00 Y020.00 F03000
+# GCODE case=cnn8 line=163 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=164 text=G4 P0.1
+# GCODE case=cnn8 line=165 text=G1 X163.00 Y020.00 F01200
+# GCODE case=cnn8 line=166 text=G1 X162.00 Y021.00 F01200
+# GCODE case=cnn8 line=167 text=G1 X162.00 Y025.00 F01200
+# GCODE case=cnn8 line=168 text=G1 X163.00 Y026.00 F01200
+# GCODE case=cnn8 line=169 text=G1 X165.00 Y026.00 F01200
+# GCODE case=cnn8 line=170 text=G1 X166.00 Y025.00 F01200
+# GCODE case=cnn8 line=171 text=G1 X166.00 Y021.00 F01200
+# GCODE case=cnn8 line=172 text=G1 X165.00 Y020.00 F01200
+# GCODE case=cnn8 line=173 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=174 text=G0 X154.00 Y020.00 F03000
+# GCODE case=cnn8 line=175 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=176 text=G4 P0.1
+# GCODE case=cnn8 line=177 text=G1 X152.00 Y023.00 F01200
+# GCODE case=cnn8 line=178 text=G1 X150.00 Y020.00 F01200
+# GCODE case=cnn8 line=179 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=180 text=G0 X152.00 Y023.00 F03000
+# GCODE case=cnn8 line=181 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=182 text=G4 P0.1
+# GCODE case=cnn8 line=183 text=G1 X152.00 Y026.00 F01200
+# GCODE case=cnn8 line=184 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=185 text=G0 X147.00 Y020.00 F03000
+# GCODE case=cnn8 line=186 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=187 text=G4 P0.1
+# GCODE case=cnn8 line=188 text=G1 X145.00 Y020.00 F01200
+# GCODE case=cnn8 line=189 text=G1 X144.00 Y021.00 F01200
+# GCODE case=cnn8 line=190 text=G1 X144.00 Y025.00 F01200
+# GCODE case=cnn8 line=191 text=G1 X145.00 Y026.00 F01200
+# GCODE case=cnn8 line=192 text=G1 X147.00 Y026.00 F01200
+# GCODE case=cnn8 line=193 text=G1 X148.00 Y025.00 F01200
+# GCODE case=cnn8 line=194 text=G1 X148.00 Y021.00 F01200
+# GCODE case=cnn8 line=195 text=G1 X147.00 Y020.00 F01200
+# GCODE case=cnn8 line=196 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=197 text=G0 X142.00 Y020.00 F03000
+# GCODE case=cnn8 line=198 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=199 text=G4 P0.1
+# GCODE case=cnn8 line=200 text=G1 X139.00 Y020.00 F01200
+# GCODE case=cnn8 line=201 text=G1 X138.00 Y021.00 F01200
+# GCODE case=cnn8 line=202 text=G1 X139.00 Y023.00 F01200
+# GCODE case=cnn8 line=203 text=G1 X141.00 Y023.00 F01200
+# GCODE case=cnn8 line=204 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=205 text=G0 X139.00 Y023.00 F03000
+# GCODE case=cnn8 line=206 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=207 text=G4 P0.1
+# GCODE case=cnn8 line=208 text=G1 X138.00 Y025.00 F01200
+# GCODE case=cnn8 line=209 text=G1 X139.00 Y026.00 F01200
+# GCODE case=cnn8 line=210 text=G1 X142.00 Y026.00 F01200
+# GCODE case=cnn8 line=211 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=212 text=G0 X132.00 Y020.00 F03000
+# GCODE case=cnn8 line=213 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=214 text=G4 P0.1
+# GCODE case=cnn8 line=215 text=G1 X135.00 Y020.00 F01200
+# GCODE case=cnn8 line=216 text=G1 X136.00 Y021.00 F01200
+# GCODE case=cnn8 line=217 text=G1 X136.00 Y025.00 F01200
+# GCODE case=cnn8 line=218 text=G1 X135.00 Y026.00 F01200
+# GCODE case=cnn8 line=219 text=G1 X133.00 Y026.00 F01200
+# GCODE case=cnn8 line=220 text=G1 X132.00 Y025.00 F01200
+# GCODE case=cnn8 line=221 text=G1 X132.00 Y024.00 F01200
+# GCODE case=cnn8 line=222 text=G1 X133.00 Y023.00 F01200
+# GCODE case=cnn8 line=223 text=G1 X136.00 Y023.00 F01200
+# GCODE case=cnn8 line=224 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=225 text=G0 X129.00 Y020.00 F03000
+# GCODE case=cnn8 line=226 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=227 text=G4 P0.1
+# GCODE case=cnn8 line=228 text=G1 X127.00 Y020.00 F01200
+# GCODE case=cnn8 line=229 text=G1 X126.00 Y021.00 F01200
+# GCODE case=cnn8 line=230 text=G1 X126.00 Y025.00 F01200
+# GCODE case=cnn8 line=231 text=G1 X127.00 Y026.00 F01200
+# GCODE case=cnn8 line=232 text=G1 X129.00 Y026.00 F01200
+# GCODE case=cnn8 line=233 text=G1 X130.00 Y025.00 F01200
+# GCODE case=cnn8 line=234 text=G1 X130.00 Y021.00 F01200
+# GCODE case=cnn8 line=235 text=G1 X129.00 Y020.00 F01200
+# GCODE case=cnn8 line=236 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=237 text=G0 X186.00 Y031.00 F03000
+# GCODE case=cnn8 line=238 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=239 text=G4 P0.1
+# GCODE case=cnn8 line=240 text=G1 X187.00 Y030.00 F01200
+# GCODE case=cnn8 line=241 text=G1 X189.00 Y030.00 F01200
+# GCODE case=cnn8 line=242 text=G1 X190.00 Y031.00 F01200
+# GCODE case=cnn8 line=243 text=G1 X190.00 Y035.00 F01200
+# GCODE case=cnn8 line=244 text=G1 X189.00 Y036.00 F01200
+# GCODE case=cnn8 line=245 text=G1 X187.00 Y036.00 F01200
+# GCODE case=cnn8 line=246 text=G1 X186.00 Y035.00 F01200
+# GCODE case=cnn8 line=247 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=248 text=G0 X183.00 Y030.00 F03000
+# GCODE case=cnn8 line=249 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=250 text=G4 P0.1
+# GCODE case=cnn8 line=251 text=G1 X181.00 Y030.00 F01200
+# GCODE case=cnn8 line=252 text=G1 X180.00 Y031.00 F01200
+# GCODE case=cnn8 line=253 text=G1 X180.00 Y035.00 F01200
+# GCODE case=cnn8 line=254 text=G1 X181.00 Y036.00 F01200
+# GCODE case=cnn8 line=255 text=G1 X183.00 Y036.00 F01200
+# GCODE case=cnn8 line=256 text=G1 X184.00 Y035.00 F01200
+# GCODE case=cnn8 line=257 text=G1 X184.00 Y031.00 F01200
+# GCODE case=cnn8 line=258 text=G1 X183.00 Y030.00 F01200
+# GCODE case=cnn8 line=259 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=260 text=G0 X178.00 Y036.00 F03000
+# GCODE case=cnn8 line=261 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=262 text=G4 P0.1
+# GCODE case=cnn8 line=263 text=G1 X178.00 Y030.00 F01200
+# GCODE case=cnn8 line=264 text=G1 X174.00 Y036.00 F01200
+# GCODE case=cnn8 line=265 text=G1 X174.00 Y030.00 F01200
+# GCODE case=cnn8 line=266 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=267 text=G0 X172.00 Y036.00 F03000
+# GCODE case=cnn8 line=268 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=269 text=G4 P0.1
+# GCODE case=cnn8 line=270 text=G1 X172.00 Y030.00 F01200
+# GCODE case=cnn8 line=271 text=G1 X168.00 Y030.00 F01200
+# GCODE case=cnn8 line=272 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=273 text=G0 X172.00 Y033.00 F03000
+# GCODE case=cnn8 line=274 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=275 text=G4 P0.1
+# GCODE case=cnn8 line=276 text=G1 X169.00 Y033.00 F01200
+# GCODE case=cnn8 line=277 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=278 text=G0 X159.00 Y030.00 F03000
+# GCODE case=cnn8 line=279 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=280 text=G4 P0.1
+# GCODE case=cnn8 line=281 text=G1 X157.00 Y030.00 F01200
+# GCODE case=cnn8 line=282 text=G1 X156.00 Y031.00 F01200
+# GCODE case=cnn8 line=283 text=G1 X156.00 Y035.00 F01200
+# GCODE case=cnn8 line=284 text=G1 X157.00 Y036.00 F01200
+# GCODE case=cnn8 line=285 text=G1 X159.00 Y036.00 F01200
+# GCODE case=cnn8 line=286 text=G1 X160.00 Y035.00 F01200
+# GCODE case=cnn8 line=287 text=G1 X160.00 Y031.00 F01200
+# GCODE case=cnn8 line=288 text=G1 X159.00 Y030.00 F01200
+# GCODE case=cnn8 line=289 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=290 text=G0 X153.00 Y033.00 F03000
+# GCODE case=cnn8 line=291 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=292 text=G4 P0.1
+# GCODE case=cnn8 line=293 text=G1 X154.00 Y031.00 F01200
+# GCODE case=cnn8 line=294 text=G1 X153.00 Y030.00 F01200
+# GCODE case=cnn8 line=295 text=G1 X151.00 Y030.00 F01200
+# GCODE case=cnn8 line=296 text=G1 X150.00 Y031.00 F01200
+# GCODE case=cnn8 line=297 text=G1 X151.00 Y033.00 F01200
+# GCODE case=cnn8 line=298 text=G1 X153.00 Y033.00 F01200
+# GCODE case=cnn8 line=299 text=G1 X154.00 Y035.00 F01200
+# GCODE case=cnn8 line=300 text=G1 X153.00 Y036.00 F01200
+# GCODE case=cnn8 line=301 text=G1 X151.00 Y036.00 F01200
+# GCODE case=cnn8 line=302 text=G1 X150.00 Y035.00 F01200
+# GCODE case=cnn8 line=303 text=G1 X151.00 Y033.00 F01200
+# GCODE case=cnn8 line=304 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=305 text=G0 X147.00 Y030.00 F03000
+# GCODE case=cnn8 line=306 text=G1 Z+001.20 F00600
+# GCODE case=cnn8 line=307 text=G4 P0.1
+# GCODE case=cnn8 line=308 text=G1 X145.00 Y030.00 F01200
+# GCODE case=cnn8 line=309 text=G1 X144.00 Y031.00 F01200
+# GCODE case=cnn8 line=310 text=G1 X144.00 Y035.00 F01200
+# GCODE case=cnn8 line=311 text=G1 X145.00 Y036.00 F01200
+# GCODE case=cnn8 line=312 text=G1 X147.00 Y036.00 F01200
+# GCODE case=cnn8 line=313 text=G1 X148.00 Y035.00 F01200
+# GCODE case=cnn8 line=314 text=G1 X148.00 Y031.00 F01200
+# GCODE case=cnn8 line=315 text=G1 X147.00 Y030.00 F01200
+# GCODE case=cnn8 line=316 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=317 text=G1 Z-001.20 F00600
+# GCODE case=cnn8 line=318 text=G0 X190.00 Y041.00 F03000
+# FLOW_TEXT case=cnn8 row0=BLUE  CIRCLE  |row1=X0640 Y0360|row2=CONF 080|cursor=3100
+# GCODE case=cnn9 line=1 text=G21
+# GCODE case=cnn9 line=2 text=G90
+# GCODE case=cnn9 line=3 text=G54
+# GCODE case=cnn9 line=4 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=5 text=G0 X190.00 Y016.00 F03000
+# GCODE case=cnn9 line=6 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=7 text=G4 P0.1
+# GCODE case=cnn9 line=8 text=G1 X190.00 Y010.00 F01200
+# GCODE case=cnn9 line=9 text=G1 X187.00 Y010.00 F01200
+# GCODE case=cnn9 line=10 text=G1 X186.00 Y011.00 F01200
+# GCODE case=cnn9 line=11 text=G1 X186.00 Y012.00 F01200
+# GCODE case=cnn9 line=12 text=G1 X187.00 Y013.00 F01200
+# GCODE case=cnn9 line=13 text=G1 X190.00 Y013.00 F01200
+# GCODE case=cnn9 line=14 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=15 text=G0 X187.00 Y013.00 F03000
+# GCODE case=cnn9 line=16 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=17 text=G4 P0.1
+# GCODE case=cnn9 line=18 text=G1 X186.00 Y014.00 F01200
+# GCODE case=cnn9 line=19 text=G1 X186.00 Y015.00 F01200
+# GCODE case=cnn9 line=20 text=G1 X187.00 Y016.00 F01200
+# GCODE case=cnn9 line=21 text=G1 X190.00 Y016.00 F01200
+# GCODE case=cnn9 line=22 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=23 text=G0 X184.00 Y010.00 F03000
+# GCODE case=cnn9 line=24 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=25 text=G4 P0.1
+# GCODE case=cnn9 line=26 text=G1 X184.00 Y016.00 F01200
+# GCODE case=cnn9 line=27 text=G1 X180.00 Y016.00 F01200
+# GCODE case=cnn9 line=28 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=29 text=G0 X178.00 Y010.00 F03000
+# GCODE case=cnn9 line=30 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=31 text=G4 P0.1
+# GCODE case=cnn9 line=32 text=G1 X178.00 Y015.00 F01200
+# GCODE case=cnn9 line=33 text=G1 X177.00 Y016.00 F01200
+# GCODE case=cnn9 line=34 text=G1 X175.00 Y016.00 F01200
+# GCODE case=cnn9 line=35 text=G1 X174.00 Y015.00 F01200
+# GCODE case=cnn9 line=36 text=G1 X174.00 Y010.00 F01200
+# GCODE case=cnn9 line=37 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=38 text=G0 X168.00 Y010.00 F03000
+# GCODE case=cnn9 line=39 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=40 text=G4 P0.1
+# GCODE case=cnn9 line=41 text=G1 X172.00 Y010.00 F01200
+# GCODE case=cnn9 line=42 text=G1 X172.00 Y016.00 F01200
+# GCODE case=cnn9 line=43 text=G1 X168.00 Y016.00 F01200
+# GCODE case=cnn9 line=44 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=45 text=G0 X172.00 Y013.00 F03000
+# GCODE case=cnn9 line=46 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=47 text=G4 P0.1
+# GCODE case=cnn9 line=48 text=G1 X169.00 Y013.00 F01200
+# GCODE case=cnn9 line=49 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=50 text=G0 X150.00 Y011.00 F03000
+# GCODE case=cnn9 line=51 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=52 text=G4 P0.1
+# GCODE case=cnn9 line=53 text=G1 X151.00 Y010.00 F01200
+# GCODE case=cnn9 line=54 text=G1 X153.00 Y010.00 F01200
+# GCODE case=cnn9 line=55 text=G1 X154.00 Y011.00 F01200
+# GCODE case=cnn9 line=56 text=G1 X154.00 Y012.00 F01200
+# GCODE case=cnn9 line=57 text=G1 X153.00 Y013.00 F01200
+# GCODE case=cnn9 line=58 text=G1 X151.00 Y013.00 F01200
+# GCODE case=cnn9 line=59 text=G1 X150.00 Y014.00 F01200
+# GCODE case=cnn9 line=60 text=G1 X150.00 Y015.00 F01200
+# GCODE case=cnn9 line=61 text=G1 X151.00 Y016.00 F01200
+# GCODE case=cnn9 line=62 text=G1 X153.00 Y016.00 F01200
+# GCODE case=cnn9 line=63 text=G1 X154.00 Y015.00 F01200
+# GCODE case=cnn9 line=64 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=65 text=G0 X147.00 Y010.00 F03000
+# GCODE case=cnn9 line=66 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=67 text=G4 P0.1
+# GCODE case=cnn9 line=68 text=G1 X145.00 Y010.00 F01200
+# GCODE case=cnn9 line=69 text=G1 X144.00 Y011.00 F01200
+# GCODE case=cnn9 line=70 text=G1 X144.00 Y015.00 F01200
+# GCODE case=cnn9 line=71 text=G1 X145.00 Y016.00 F01200
+# GCODE case=cnn9 line=72 text=G1 X147.00 Y016.00 F01200
+# GCODE case=cnn9 line=73 text=G1 X148.00 Y015.00 F01200
+# GCODE case=cnn9 line=74 text=G1 X148.00 Y011.00 F01200
+# GCODE case=cnn9 line=75 text=G1 X147.00 Y010.00 F01200
+# GCODE case=cnn9 line=76 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=77 text=G0 X146.00 Y014.00 F03000
+# GCODE case=cnn9 line=78 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=79 text=G4 P0.1
+# GCODE case=cnn9 line=80 text=G1 X144.00 Y016.00 F01200
+# GCODE case=cnn9 line=81 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=82 text=G0 X142.00 Y010.00 F03000
+# GCODE case=cnn9 line=83 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=84 text=G4 P0.1
+# GCODE case=cnn9 line=85 text=G1 X142.00 Y015.00 F01200
+# GCODE case=cnn9 line=86 text=G1 X141.00 Y016.00 F01200
+# GCODE case=cnn9 line=87 text=G1 X139.00 Y016.00 F01200
+# GCODE case=cnn9 line=88 text=G1 X138.00 Y015.00 F01200
+# GCODE case=cnn9 line=89 text=G1 X138.00 Y010.00 F01200
+# GCODE case=cnn9 line=90 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=91 text=G0 X136.00 Y016.00 F03000
+# GCODE case=cnn9 line=92 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=93 text=G4 P0.1
+# GCODE case=cnn9 line=94 text=G1 X134.00 Y010.00 F01200
+# GCODE case=cnn9 line=95 text=G1 X132.00 Y016.00 F01200
+# GCODE case=cnn9 line=96 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=97 text=G0 X135.00 Y013.00 F03000
+# GCODE case=cnn9 line=98 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=99 text=G4 P0.1
+# GCODE case=cnn9 line=100 text=G1 X133.00 Y013.00 F01200
+# GCODE case=cnn9 line=101 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=102 text=G0 X130.00 Y016.00 F03000
+# GCODE case=cnn9 line=103 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=104 text=G4 P0.1
+# GCODE case=cnn9 line=105 text=G1 X130.00 Y010.00 F01200
+# GCODE case=cnn9 line=106 text=G1 X127.00 Y010.00 F01200
+# GCODE case=cnn9 line=107 text=G1 X126.00 Y011.00 F01200
+# GCODE case=cnn9 line=108 text=G1 X126.00 Y012.00 F01200
+# GCODE case=cnn9 line=109 text=G1 X127.00 Y013.00 F01200
+# GCODE case=cnn9 line=110 text=G1 X130.00 Y013.00 F01200
+# GCODE case=cnn9 line=111 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=112 text=G0 X128.00 Y013.00 F03000
+# GCODE case=cnn9 line=113 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=114 text=G4 P0.1
+# GCODE case=cnn9 line=115 text=G1 X126.00 Y016.00 F01200
+# GCODE case=cnn9 line=116 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=117 text=G0 X120.00 Y010.00 F03000
+# GCODE case=cnn9 line=118 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=119 text=G4 P0.1
+# GCODE case=cnn9 line=120 text=G1 X124.00 Y010.00 F01200
+# GCODE case=cnn9 line=121 text=G1 X124.00 Y016.00 F01200
+# GCODE case=cnn9 line=122 text=G1 X120.00 Y016.00 F01200
+# GCODE case=cnn9 line=123 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=124 text=G0 X124.00 Y013.00 F03000
+# GCODE case=cnn9 line=125 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=126 text=G4 P0.1
+# GCODE case=cnn9 line=127 text=G1 X121.00 Y013.00 F01200
+# GCODE case=cnn9 line=128 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=129 text=G0 X190.00 Y020.00 F03000
+# GCODE case=cnn9 line=130 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=131 text=G4 P0.1
+# GCODE case=cnn9 line=132 text=G1 X186.00 Y026.00 F01200
+# GCODE case=cnn9 line=133 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=134 text=G0 X186.00 Y020.00 F03000
+# GCODE case=cnn9 line=135 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=136 text=G4 P0.1
+# GCODE case=cnn9 line=137 text=G1 X190.00 Y026.00 F01200
+# GCODE case=cnn9 line=138 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=139 text=G0 X183.00 Y020.00 F03000
+# GCODE case=cnn9 line=140 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=141 text=G4 P0.1
+# GCODE case=cnn9 line=142 text=G1 X181.00 Y020.00 F01200
+# GCODE case=cnn9 line=143 text=G1 X180.00 Y021.00 F01200
+# GCODE case=cnn9 line=144 text=G1 X180.00 Y025.00 F01200
+# GCODE case=cnn9 line=145 text=G1 X181.00 Y026.00 F01200
+# GCODE case=cnn9 line=146 text=G1 X183.00 Y026.00 F01200
+# GCODE case=cnn9 line=147 text=G1 X184.00 Y025.00 F01200
+# GCODE case=cnn9 line=148 text=G1 X184.00 Y021.00 F01200
+# GCODE case=cnn9 line=149 text=G1 X183.00 Y020.00 F01200
+# GCODE case=cnn9 line=150 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=151 text=G0 X174.00 Y020.00 F03000
+# GCODE case=cnn9 line=152 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=153 text=G4 P0.1
+# GCODE case=cnn9 line=154 text=G1 X177.00 Y020.00 F01200
+# GCODE case=cnn9 line=155 text=G1 X178.00 Y021.00 F01200
+# GCODE case=cnn9 line=156 text=G1 X178.00 Y025.00 F01200
+# GCODE case=cnn9 line=157 text=G1 X177.00 Y026.00 F01200
+# GCODE case=cnn9 line=158 text=G1 X175.00 Y026.00 F01200
+# GCODE case=cnn9 line=159 text=G1 X174.00 Y025.00 F01200
+# GCODE case=cnn9 line=160 text=G1 X174.00 Y024.00 F01200
+# GCODE case=cnn9 line=161 text=G1 X175.00 Y023.00 F01200
+# GCODE case=cnn9 line=162 text=G1 X178.00 Y023.00 F01200
+# GCODE case=cnn9 line=163 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=164 text=G0 X169.00 Y026.00 F03000
+# GCODE case=cnn9 line=165 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=166 text=G4 P0.1
+# GCODE case=cnn9 line=167 text=G1 X169.00 Y020.00 F01200
+# GCODE case=cnn9 line=168 text=G1 X172.00 Y024.00 F01200
+# GCODE case=cnn9 line=169 text=G1 X168.00 Y024.00 F01200
+# GCODE case=cnn9 line=170 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=171 text=G0 X165.00 Y020.00 F03000
+# GCODE case=cnn9 line=172 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=173 text=G4 P0.1
+# GCODE case=cnn9 line=174 text=G1 X163.00 Y020.00 F01200
+# GCODE case=cnn9 line=175 text=G1 X162.00 Y021.00 F01200
+# GCODE case=cnn9 line=176 text=G1 X162.00 Y025.00 F01200
+# GCODE case=cnn9 line=177 text=G1 X163.00 Y026.00 F01200
+# GCODE case=cnn9 line=178 text=G1 X165.00 Y026.00 F01200
+# GCODE case=cnn9 line=179 text=G1 X166.00 Y025.00 F01200
+# GCODE case=cnn9 line=180 text=G1 X166.00 Y021.00 F01200
+# GCODE case=cnn9 line=181 text=G1 X165.00 Y020.00 F01200
+# GCODE case=cnn9 line=182 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=183 text=G0 X154.00 Y020.00 F03000
+# GCODE case=cnn9 line=184 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=185 text=G4 P0.1
+# GCODE case=cnn9 line=186 text=G1 X152.00 Y023.00 F01200
+# GCODE case=cnn9 line=187 text=G1 X150.00 Y020.00 F01200
+# GCODE case=cnn9 line=188 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=189 text=G0 X152.00 Y023.00 F03000
+# GCODE case=cnn9 line=190 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=191 text=G4 P0.1
+# GCODE case=cnn9 line=192 text=G1 X152.00 Y026.00 F01200
+# GCODE case=cnn9 line=193 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=194 text=G0 X147.00 Y020.00 F03000
+# GCODE case=cnn9 line=195 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=196 text=G4 P0.1
+# GCODE case=cnn9 line=197 text=G1 X145.00 Y020.00 F01200
+# GCODE case=cnn9 line=198 text=G1 X144.00 Y021.00 F01200
+# GCODE case=cnn9 line=199 text=G1 X144.00 Y025.00 F01200
+# GCODE case=cnn9 line=200 text=G1 X145.00 Y026.00 F01200
+# GCODE case=cnn9 line=201 text=G1 X147.00 Y026.00 F01200
+# GCODE case=cnn9 line=202 text=G1 X148.00 Y025.00 F01200
+# GCODE case=cnn9 line=203 text=G1 X148.00 Y021.00 F01200
+# GCODE case=cnn9 line=204 text=G1 X147.00 Y020.00 F01200
+# GCODE case=cnn9 line=205 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=206 text=G0 X142.00 Y020.00 F03000
+# GCODE case=cnn9 line=207 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=208 text=G4 P0.1
+# GCODE case=cnn9 line=209 text=G1 X139.00 Y020.00 F01200
+# GCODE case=cnn9 line=210 text=G1 X138.00 Y021.00 F01200
+# GCODE case=cnn9 line=211 text=G1 X139.00 Y023.00 F01200
+# GCODE case=cnn9 line=212 text=G1 X141.00 Y023.00 F01200
+# GCODE case=cnn9 line=213 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=214 text=G0 X139.00 Y023.00 F03000
+# GCODE case=cnn9 line=215 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=216 text=G4 P0.1
+# GCODE case=cnn9 line=217 text=G1 X138.00 Y025.00 F01200
+# GCODE case=cnn9 line=218 text=G1 X139.00 Y026.00 F01200
+# GCODE case=cnn9 line=219 text=G1 X142.00 Y026.00 F01200
+# GCODE case=cnn9 line=220 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=221 text=G0 X132.00 Y020.00 F03000
+# GCODE case=cnn9 line=222 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=223 text=G4 P0.1
+# GCODE case=cnn9 line=224 text=G1 X135.00 Y020.00 F01200
+# GCODE case=cnn9 line=225 text=G1 X136.00 Y021.00 F01200
+# GCODE case=cnn9 line=226 text=G1 X136.00 Y025.00 F01200
+# GCODE case=cnn9 line=227 text=G1 X135.00 Y026.00 F01200
+# GCODE case=cnn9 line=228 text=G1 X133.00 Y026.00 F01200
+# GCODE case=cnn9 line=229 text=G1 X132.00 Y025.00 F01200
+# GCODE case=cnn9 line=230 text=G1 X132.00 Y024.00 F01200
+# GCODE case=cnn9 line=231 text=G1 X133.00 Y023.00 F01200
+# GCODE case=cnn9 line=232 text=G1 X136.00 Y023.00 F01200
+# GCODE case=cnn9 line=233 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=234 text=G0 X129.00 Y020.00 F03000
+# GCODE case=cnn9 line=235 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=236 text=G4 P0.1
+# GCODE case=cnn9 line=237 text=G1 X127.00 Y020.00 F01200
+# GCODE case=cnn9 line=238 text=G1 X126.00 Y021.00 F01200
+# GCODE case=cnn9 line=239 text=G1 X126.00 Y025.00 F01200
+# GCODE case=cnn9 line=240 text=G1 X127.00 Y026.00 F01200
+# GCODE case=cnn9 line=241 text=G1 X129.00 Y026.00 F01200
+# GCODE case=cnn9 line=242 text=G1 X130.00 Y025.00 F01200
+# GCODE case=cnn9 line=243 text=G1 X130.00 Y021.00 F01200
+# GCODE case=cnn9 line=244 text=G1 X129.00 Y020.00 F01200
+# GCODE case=cnn9 line=245 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=246 text=G0 X186.00 Y031.00 F03000
+# GCODE case=cnn9 line=247 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=248 text=G4 P0.1
+# GCODE case=cnn9 line=249 text=G1 X187.00 Y030.00 F01200
+# GCODE case=cnn9 line=250 text=G1 X189.00 Y030.00 F01200
+# GCODE case=cnn9 line=251 text=G1 X190.00 Y031.00 F01200
+# GCODE case=cnn9 line=252 text=G1 X190.00 Y035.00 F01200
+# GCODE case=cnn9 line=253 text=G1 X189.00 Y036.00 F01200
+# GCODE case=cnn9 line=254 text=G1 X187.00 Y036.00 F01200
+# GCODE case=cnn9 line=255 text=G1 X186.00 Y035.00 F01200
+# GCODE case=cnn9 line=256 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=257 text=G0 X183.00 Y030.00 F03000
+# GCODE case=cnn9 line=258 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=259 text=G4 P0.1
+# GCODE case=cnn9 line=260 text=G1 X181.00 Y030.00 F01200
+# GCODE case=cnn9 line=261 text=G1 X180.00 Y031.00 F01200
+# GCODE case=cnn9 line=262 text=G1 X180.00 Y035.00 F01200
+# GCODE case=cnn9 line=263 text=G1 X181.00 Y036.00 F01200
+# GCODE case=cnn9 line=264 text=G1 X183.00 Y036.00 F01200
+# GCODE case=cnn9 line=265 text=G1 X184.00 Y035.00 F01200
+# GCODE case=cnn9 line=266 text=G1 X184.00 Y031.00 F01200
+# GCODE case=cnn9 line=267 text=G1 X183.00 Y030.00 F01200
+# GCODE case=cnn9 line=268 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=269 text=G0 X178.00 Y036.00 F03000
+# GCODE case=cnn9 line=270 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=271 text=G4 P0.1
+# GCODE case=cnn9 line=272 text=G1 X178.00 Y030.00 F01200
+# GCODE case=cnn9 line=273 text=G1 X174.00 Y036.00 F01200
+# GCODE case=cnn9 line=274 text=G1 X174.00 Y030.00 F01200
+# GCODE case=cnn9 line=275 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=276 text=G0 X172.00 Y036.00 F03000
+# GCODE case=cnn9 line=277 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=278 text=G4 P0.1
+# GCODE case=cnn9 line=279 text=G1 X172.00 Y030.00 F01200
+# GCODE case=cnn9 line=280 text=G1 X168.00 Y030.00 F01200
+# GCODE case=cnn9 line=281 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=282 text=G0 X172.00 Y033.00 F03000
+# GCODE case=cnn9 line=283 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=284 text=G4 P0.1
+# GCODE case=cnn9 line=285 text=G1 X169.00 Y033.00 F01200
+# GCODE case=cnn9 line=286 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=287 text=G0 X160.00 Y031.00 F03000
+# GCODE case=cnn9 line=288 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=289 text=G4 P0.1
+# GCODE case=cnn9 line=290 text=G1 X159.00 Y030.00 F01200
+# GCODE case=cnn9 line=291 text=G1 X157.00 Y030.00 F01200
+# GCODE case=cnn9 line=292 text=G1 X156.00 Y031.00 F01200
+# GCODE case=cnn9 line=293 text=G1 X156.00 Y032.00 F01200
+# GCODE case=cnn9 line=294 text=G1 X160.00 Y036.00 F01200
+# GCODE case=cnn9 line=295 text=G1 X156.00 Y036.00 F01200
+# GCODE case=cnn9 line=296 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=297 text=G0 X150.00 Y030.00 F03000
+# GCODE case=cnn9 line=298 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=299 text=G4 P0.1
+# GCODE case=cnn9 line=300 text=G1 X154.00 Y030.00 F01200
+# GCODE case=cnn9 line=301 text=G1 X154.00 Y033.00 F01200
+# GCODE case=cnn9 line=302 text=G1 X151.00 Y033.00 F01200
+# GCODE case=cnn9 line=303 text=G1 X150.00 Y034.00 F01200
+# GCODE case=cnn9 line=304 text=G1 X150.00 Y035.00 F01200
+# GCODE case=cnn9 line=305 text=G1 X151.00 Y036.00 F01200
+# GCODE case=cnn9 line=306 text=G1 X154.00 Y036.00 F01200
+# GCODE case=cnn9 line=307 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=308 text=G0 X144.00 Y030.00 F03000
+# GCODE case=cnn9 line=309 text=G1 Z+001.20 F00600
+# GCODE case=cnn9 line=310 text=G4 P0.1
+# GCODE case=cnn9 line=311 text=G1 X148.00 Y030.00 F01200
+# GCODE case=cnn9 line=312 text=G1 X148.00 Y033.00 F01200
+# GCODE case=cnn9 line=313 text=G1 X145.00 Y033.00 F01200
+# GCODE case=cnn9 line=314 text=G1 X144.00 Y034.00 F01200
+# GCODE case=cnn9 line=315 text=G1 X144.00 Y035.00 F01200
+# GCODE case=cnn9 line=316 text=G1 X145.00 Y036.00 F01200
+# GCODE case=cnn9 line=317 text=G1 X148.00 Y036.00 F01200
+# GCODE case=cnn9 line=318 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=319 text=G1 Z-001.20 F00600
+# GCODE case=cnn9 line=320 text=G0 X190.00 Y041.00 F03000
+# FLOW_TEXT case=cnn9 row0=BLUE  SQUARE  |row1=X0640 Y0360|row2=CONF 255|cursor=3100
+# FONT_FLOW_GCODE_PASS cases=12
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/font_flow/20261118T082154_170640Z/tb_flow_1.sv(345)
+#    Time: 4242070 ns  Iteration: 1  Instance: /tb_suspect_report
+# End time: 16:21:58 on Nov 18,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 14

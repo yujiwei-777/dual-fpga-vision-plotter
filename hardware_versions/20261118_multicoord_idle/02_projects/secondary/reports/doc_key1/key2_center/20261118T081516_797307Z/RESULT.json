@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "cases": 15,
+  "reporter_parameters": "PCB_SUSPECT_ENABLE=1,PCB_SUSPECT_CENTER_INPUT=1",
+  "actual_top_reporter_parameters": ".CLK_HZ(125000000),.MAZE_ENABLE(0),.AUTO_NEWLINE(1),.PAPER_BUDGET_ENABLE(0),.FONT_JOIN_CORNERS(1),.KEY2_REZERO(1),.PCB_SUSPECT_ENABLE(1),.PCB_SUSPECT_CENTER_INPUT(1),.PAPER_LOAD_FIRST_ROW_CMM(3000),.PAPER_LOAD_CENTER_Y_CMM(14850),.PAPER_LOAD_LAST_ROW_CMM(26700),.PAPER_LOCAL_Y_LIMIT_CMM(23700)",
+  "gcode_lines": 1771,
+  "gcode_file": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_key1\\key2_center\\20261118T081516_797307Z\\GCODE.json",
+  "gcode_sha256": "2C019FD575969FBAA9441B568CF7596779DC6125F759E00DA9F2F20A619A9ECD",
+  "source_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118",
+  "source_sha256": {
+    "01_rtl\\grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+    "01_rtl\\grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+    "01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "01_rtl\\grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+    "01_rtl\\grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+    "reports\\doc_key1\\key2_center\\20261118T081516_797307Z\\tb_key2_zero.sv": "54DA46CBA4913136F728DC73EE6854E20C5F83A419F0F5F37F6747F6DD246533",
+    "02_sim\\key2_zero\\tb_key2_zero.sv": "869F8522B3D31996826B1DF83F2AA1CF25417B0146AF6AE8ABB621775139FCBE",
+    "tools\\run_doc_key1_key2_regression.py": "74A648F8B6FF317C889E2DD160EA6786453722CB36DEFFEF193A5114613D2ED5",
+    "model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+    "reports\\doc_key1\\key2_center\\model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+    "01_rtl\\secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73"
+  },
+  "commands": [
+    {
+      "phase": "vlib",
+      "exit_code": 0,
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_key1\\key2_center\\20261118T081516_797307Z\\vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "phase": "compile",
+      "exit_code": 0,
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_key1\\key2_center\\20261118T081516_797307Z\\compile.log",
+      "sha256": "AA2C7D2A2DFD48A9ADC8EF88EFCB5D91AE832862F17998C4C109FBC235B74DDA"
+    },
+    {
+      "phase": "simulation",
+      "exit_code": 0,
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_key1\\key2_center\\20261118T081516_797307Z\\simulation.log",
+      "sha256": "7D921C21C9F0A5A7F985C96A85417BD1A33677A999A604E393EC74AEF8CCCAC1"
+    }
+  ],
+  "hardware": "NOT_RUN",
+  "scope": "Retained KEY2 actual reporter/transport/parser/formatter; not document KEY1 confirmation"
+}

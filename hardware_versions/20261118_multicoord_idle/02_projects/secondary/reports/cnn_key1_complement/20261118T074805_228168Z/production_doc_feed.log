@@ -1,0 +1,7 @@
+PASS masked_control/vlib
+PASS masked_control/lint
+PASS masked_control/simulation
+PASS production/vlib
+PASS production/lint
+PASS production/simulation
+{"status": "PASS", "report": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\production_doc_feed\\20261118T075238_568528Z\\RESULTS.json", "error": null}

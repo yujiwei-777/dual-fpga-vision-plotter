@@ -1,0 +1,20 @@
+{
+  "status": "PASS_TOOL_INVOCATION",
+  "phase": "place",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_place.tcl"
+  ],
+  "cwd": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\phy_1",
+  "source_manifest_sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+  "script_sha256": "EC18F7507C310D0CAE98E4E797200B4BC083D134CFF52ED1D408D69EE1470FAF",
+  "td_launcher_sha256": "79EC56674F8F7B889E25E11BDCA91F7D64C24BA0DE99E80680248F00B4F87190",
+  "runner_snapshot": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\logs\\place_RUNNER_AT_EXECUTION.py",
+    "sha256": "7D95E17AAE0A2321E12E7E15855FC34FC73D3318C10A7340C0C711AEDB34890F"
+  },
+  "exit_code": 0,
+  "errors": [],
+  "error_markers": [],
+  "log_sha256": "8C224119E5DA1E4974C3DFE17D0EB1AFEF07FA1B7D23B8EA6AC3C14AADD57433"
+}

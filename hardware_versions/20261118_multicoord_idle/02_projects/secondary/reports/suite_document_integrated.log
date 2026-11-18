@@ -1,0 +1,7 @@
+PASS baseline/vlib
+PASS baseline/lint
+PASS baseline/simulation
+PASS confirm/vlib
+PASS confirm/lint
+PASS confirm/simulation
+{"status": "PASS", "report": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T074922_719207Z\\RESULT.json", "error": null}

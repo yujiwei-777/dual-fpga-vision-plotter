@@ -1,0 +1,213 @@
+# vsim -batch -syncio -quiet -novopt -suppress 12110 -lib integrated_idle_uart_normal_boot_lib tb_common_write_uart -do "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f" 
+# Start time: 16:17:06 on Nov 18,2026
+# ** Warning: (vsim-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.tb_common_write_uart
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.secondary_top
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.secondary_key3_board_reset
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.pll
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.PH1P_LOGIC_BUFG
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.reset_sync
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.PLL
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.secondary_ddr_wrapper
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.hxa_ddr_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.uiudp_stack
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.rgmii_interface
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.secondary_key1_action_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.vision_pixel_reader
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.hxa_secondary_link
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.vision_pipeline
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.hxa_config_store
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.doc_copy_pipeline_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_key1_job_guard
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_key2_test_ctrl
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_uart_port
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_uart_tx
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_uart_rx
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_response_parser
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_reporter_shared_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_decimal
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_vector_font_rom
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_shared_transport_candidate
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Refreshing D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/integrated_idle_uart_normal_boot_lib.grbl_line_formatter
+# ** Warning: (vlog-8891) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 31, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_common_write_uart/dut File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv Line: 48
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'O_rgmii_txd'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'O_rgmii_tx_ctl'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'O_rgmii_txc'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'O_phy_rst'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'O_uart_tx'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_addr'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_ba'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_cke'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_odt'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_cs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_ck_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_ck_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_ras_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_cas_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_we_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_dm'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_dqs_p'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_dqs_n'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'ddr_dq'.
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(48): [TFMPC] - Missing connection for port 'O_led'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'u_parser'.  Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_common_write_uart/dut/u_uart/u_parser File: D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/01_rtl/grbl_uart.v Line: 133
+# ** Warning: (vsim-3722) D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/01_rtl/grbl_uart.v(133): [TFMPC] - Missing connection for port 'O_status_start'.
+# 
+# onerror {quit -code 1}
+# onbreak {quit -code 2}
+# run -all
+# PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session
+# PASS CHAIN initial safe retries do not leak recovery locks into task owners
+# PASS CHAIN fresh idle monitor certifies quiescent actual top path
+# PASS CHAIN long idle keeps actual top path ready with only read-only status probes
+# PASS CHAIN fresh idle monitor certifies quiescent actual top path
+# PASS CHAIN before first write framing fault fences command bytes
+# PASS CHAIN before first write silence never clears fault
+# PASS CHAIN before first write idle receive-only fault creates no task/recovery owner lock
+# PASS CHAIN before first write sends no motion, hold or reset while requalifying
+# PASS CHAIN before first write recovers from fresh serial Idle without KEY3 or KEY4
+# PASS CHAIN before first write recovery does not replay G-code or reset controller
+# PASS CHAIN CNN result arms KEY1 before first report
+# PASS CHAIN CNN first exactly one final ACK completion
+# PASS CHAIN CNN first clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN CNN first releases quiescent shared UART owner
+# PASS CHAIN CNN first does not hold/reset after normal completion
+# PASS CHAIN CNN cached current result re-arms KEY1 after done
+# PASS CHAIN fresh idle monitor certifies quiescent actual top path
+# PASS CHAIN between CNN jobs framing fault fences command bytes
+# PASS CHAIN between CNN jobs silence never clears fault
+# PASS CHAIN between CNN jobs idle receive-only fault creates no task/recovery owner lock
+# PASS CHAIN between CNN jobs sends no motion, hold or reset while requalifying
+# PASS CHAIN between CNN jobs recovers from fresh serial Idle without KEY3 or KEY4
+# PASS CHAIN between CNN jobs recovery does not replay G-code or reset controller
+# PASS CHAIN CNN second exactly one final ACK completion
+# PASS CHAIN CNN second clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN CNN second releases quiescent shared UART owner
+# PASS CHAIN CNN second does not hold/reset after normal completion
+# PASS CHAIN two CNN KEY1 jobs accepted without reset
+# PASS CHAIN PCB first exactly one final ACK completion
+# PASS CHAIN PCB first clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN PCB first releases quiescent shared UART owner
+# PASS CHAIN PCB first does not hold/reset after normal completion
+# PASS CHAIN PCB consumes one inference without replay
+# PASS CHAIN PCB second exactly one final ACK completion
+# PASS CHAIN PCB second clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN PCB second releases quiescent shared UART owner
+# PASS CHAIN PCB second does not hold/reset after normal completion
+# PASS CHAIN new PCB result re-arms second KEY1 without reset
+# PASS CHAIN fresh idle monitor certifies quiescent actual top path
+# PASS CHAIN before KEY2 framing fault fences command bytes
+# PASS CHAIN before KEY2 silence never clears fault
+# PASS CHAIN before KEY2 idle receive-only fault creates no task/recovery owner lock
+# PASS CHAIN before KEY2 sends no motion, hold or reset while requalifying
+# PASS CHAIN before KEY2 recovers from fresh serial Idle without KEY3 or KEY4
+# PASS CHAIN before KEY2 recovery does not replay G-code or reset controller
+# PASS CHAIN KEY2 sequence 0 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 0 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 0 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 0 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 1 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 1 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 1 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 1 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 2 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 2 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 2 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 2 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 3 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 3 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 3 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 3 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 4 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 4 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 4 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 4 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 5 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 5 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 5 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 5 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 6 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 6 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 6 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 6 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 7 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 7 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 7 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 7 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 8 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 8 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 8 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 8 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 9 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 9 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 9 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 9 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 10 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 10 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 10 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 10 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN KEY2 sequence 11 exactly one final ACK completion
+# PASS CHAIN KEY2 sequence 11 clears all top/report/KEY1/KEY2 task locks
+# PASS CHAIN KEY2 sequence 11 releases quiescent shared UART owner
+# PASS CHAIN KEY2 sequence 11 does not hold/reset after normal completion
+# PASS CHAIN paper budget stays absent after KEY2 G92
+# PASS CHAIN twelve consecutive physical KEY2 jobs admitted without reset
+# INTEGRATED_IDLE_UART_PASS cases=16 checks=107 lines=1071 key1=4 key2=12
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/integrated_idle_uart/20261118T081706_568631Z/tb_common_write_uart_normal_boot.sv(195)
+#    Time: 10378373 ns  Iteration: 0  Instance: /tb_common_write_uart
+# End time: 16:17:18 on Nov 18,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 24

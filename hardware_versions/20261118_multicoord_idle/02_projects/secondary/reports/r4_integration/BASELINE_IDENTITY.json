@@ -1,0 +1,11 @@
+{
+  "baseline_root": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key1_live_snapshot_20261118",
+  "baseline_bit": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_cnn_key1_live_snapshot_20261118\\artifacts\\dual_fpga_secondary_20261118_cnn_key1_live_snapshot_diagnostic.bit",
+    "sha256": "23CE1ABC665126D107D2E2C43A3049A8A066D0D3EA2212E8B49039A778EBB695"
+  },
+  "baseline_source_freeze": {
+    "path": "E:\\codex_secondary_cnn_key1_live_snapshot_20261118_r1\\SOURCE_MANIFEST.json",
+    "sha256": "769609D9832D99BAD49B831462B97F484F31B49D49A0A4DED083E6F91DA9983B"
+  }
+}

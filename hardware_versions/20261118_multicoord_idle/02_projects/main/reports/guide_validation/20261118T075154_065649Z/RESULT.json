@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "source_manifest_sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+  "inputs": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\doc_copy_overlay.v": "44DDDF674ABE5531C28EC3F999B5681E27B8BB897450206226C2319B74118111",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\doc_copy_overlay.v": "44DDDF674ABE5531C28EC3F999B5681E27B8BB897450206226C2319B74118111",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cartoon_paperfree_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\doc_copy_overlay.v": "F86E5EFEA7A556C0BDCA9969A55C0037A8B3BA723BBE347F2AF149F30F14C682",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\guide_validation\\20261118T075154_065649Z\\doc_copy_overlay_control.v": "707C24BDAD17940E2BF0A53040C86C7BEB60898BCB3B8947D21BF0AD21B7B79B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tests\\tb_doc_center80_guide.sv": "2FAADEA910DFA3C9A54E419280C1D8B1696882B3CB940BE93726899495F987CB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tools\\run_guide_validation.py": "03821AEAB1783BABDADB61FD88E06D98736B9ECAEA175C45D9A91B8F89658659"
+  },
+  "steps": [
+    {
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\guide_validation\\20261118T075154_065649Z\\vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\guide_validation\\20261118T075154_065649Z\\vlog.log",
+      "sha256": "ECA516BEE1F9557D4DE44408CCD205706525E4B691CB8655C2C83576EAD7C28E"
+    },
+    {
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\guide_validation\\20261118T075154_065649Z\\simulation.log",
+      "sha256": "69940A2731A28147F552B5ADDB07EE53411A7E3D7C88CEDBD914844A0459687F"
+    }
+  ],
+  "hardware_status": "NOT_RUN"
+}

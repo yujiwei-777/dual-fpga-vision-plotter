@@ -1,0 +1,102 @@
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |        -1909                |
+|     Setup TNS             |      -243833                |
+|     Num of violated S-EP  |          571                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #registers            |        17858                |
+|     #luts                 |        21793                |
+|     #lut1                 |          131                |
+|     #lut1(~A)             |          131                |
+|     #slices               |         3905                |
+|     slices percentage     |       18.41%                |
+|     #RAMs                 |           85                |
+|     #DSPs                 |           16                |
+|     #f7mux                |        0.35%                |
+|     #MACROs               |          355                |
+|     #insts in MACRO       |         4031                |
+-----------------------------------------------------------
+| kept_net                  |                             |
+|     #syn_keep             |         1300                |
+|     #keep_hier            |          502                |
+|     #dont_touch           |           41                |
+|     #mark_debug           |            0                |
+|     #max_fanout_keep      |            0                |
+|     #async_reg            |            0                |
+-----------------------------------------------------------
+| Top 1% datanet fanout#    |        51.22                |
+| dff(single fanout)->dff   |          520                |
+| dff(single fanout)->dram  |          129                |
+-----------------------------------------------------------
+| Over-quota path num*      |                             |
+|     eth125                |            9                |
+|     u_ddr/u_...           |          145                |
+|     Total Number          |          154                |
+|     Total Level Slack     |         -285                |
+|     Worst Level Slack     |           -2                |
+-----------------------------------------------------------
+| Rent**                    |                             |
+-----------------------------------------------------------
+Note*: Over-quota path shows the over-path-level-threshold path number of each clock.
+       The clock will not be shown if no path is with path level over the threshold.
+       The threshold is defined as worst path_margin / 800ps.
+Note**: Rent shows the rent exponent value of the modules whose rent value exceeds the threshold.
+        Only modules under top are reported, and the threshold is defined as 0.7.
+
+Over-quota Path Details
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+         Clock          |  Index  |  Budget(Period)  |  Level(Quota)  |                                 Cell Type List                                  |        Reason        |  Slack  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+         eth125         |    1    |    7924(8000)    |     11(10)     |  SEQ,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT4,LUT6,SEQ  |        normal        |   -80   
+                        |    2    |    7924(8000)    |     11(10)     |  SEQ,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT4,LUT5,SEQ  |        normal        |   -38   
+                        |    3    |    7924(8000)    |     11(10)     |     SEQ,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT4,LUT4,SEQ     |        normal        |   167   
+                        |    4    |    7924(8000)    |     10(10)     |    SEQ,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT6,SEQ     |    uncategorized     |   713   
+                        |    5    |    7924(8000)    |     10(10)     |    SEQ,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT4,SEQ     |    uncategorized     |   785   
+  u_ddr/u_ddr2/usr_clk  |    1    |    424(7500)     |      2(1)      |                                  SEQ,LUT3,DRAM                                  |  large launch delay  |  -929   
+                        |    2    |    424(7500)     |      2(1)      |                                  SEQ,LUT3,DRAM                                  |  large launch delay  |  -929   
+                        |    3    |    424(7500)     |      2(1)      |                                  SEQ,LUT3,DRAM                                  |  large launch delay  |  -929   
+                        |    4    |    424(7500)     |      2(1)      |                                  SEQ,LUT3,DRAM                                  |  large launch delay  |  -929   
+                        |    5    |    424(7500)     |      2(1)      |                                  SEQ,LUT3,DRAM                                  |  large launch delay  |  -929   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: Table only show top 5 paths for each clock group in default
+
+Logic Level Distribution
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Clock                                      |  Period             |  0      |  1      |  2     |  3     |  4     |  5     |  6     |  7     |  8   |  9  |  10  |  11
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ddr_ref100                                 |  10.000ns (100MHz)  |  132    |  285    |  0     |  64    |  0     |  0     |  0     |  0     |  0   |  0  |  0   |  0
+  eth125                                     |  8.000ns (125MHz)   |  11694  |  10050  |  4328  |  3507  |  2064  |  6183  |  3649  |  1000  |  47  |  9  |  5   |  3
+  eth125_90                                  |  8.000ns (125MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0     |  0     |  0   |  0  |  0   |  0
+  eth_txc_pad                                |  8.000ns (125MHz)   |  0      |  5      |  0     |  0     |  0     |  0     |  0     |  0     |  0   |  0  |  0   |  0
+  rgmii_rxc                                  |  8.000ns (125MHz)   |  0      |  15     |  0     |  0     |  0     |  0     |  0     |  0     |  0   |  0  |  0   |  0
+  sys_clk_50m                                |  20.000ns (50MHz)   |  3      |  2      |  19    |  65    |  0     |  21    |  0     |  0     |  0   |  0  |  0   |  0
+  u_ddr/u_ddr2/ctl_clk                       |  7.500ns (133MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0     |  0     |  0   |  0  |  0   |  0
+  u_ddr/u_ddr2/ddr_clk                       |  1.875ns (533MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0     |  0     |  0   |  0  |  0   |  0
+  u_ddr/u_ddr2/mcu_clk                       |  19.687ns (50MHz)   |  56     |  12     |  247   |  15    |  6     |  1     |  2     |  0     |  0   |  0  |  0   |  0
+  u_ddr/u_ddr2/ref_clk                       |  7.500ns (133MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0     |  0     |  0   |  0  |  0   |  0
+  u_ddr/u_ddr2/usr_clk                       |  7.500ns (133MHz)   |  2602   |  1326   |  1247  |  799   |  724   |  241   |  4     |  0     |  0   |  0  |  0   |  0
+  u_rgmii/g_rxc_legacy$u_gmii_rx_clk.clkout  |  8.000ns (125MHz)   |  542    |  418    |  56    |  22    |  123   |  22    |  21    |  0     |  0   |  0  |  0   |  0
+  Total                                      |  NA                 |  15029  |  12113  |  5897  |  4472  |  2917  |  6468  |  3676  |  1000  |  47  |  9  |  5   |  3
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hierarchical Rent Exponent Report
++------------------------------------------------------------------------------------------------+
+|Inst               |Model                                |Rent     |Cell     |Pin     |Term     |
++------------------------------------------------------------------------------------------------+
+|top                |secondary_top                        |0.17     |47032    |224388  |31       |
+|  u_link           |hxa_secondary_link_9                 |0.66     |7044     |33602   |1600     |
+|  u_plot_transport |grbl_shared_transport_candidate_10   |0.63     |2037     |9831    |588      |
+|  u_reporter       |grbl_reporter_shared_candidate_11    |0.59     |2080     |11157   |481      |
+|  u_copy           |doc_copy_pipeline_shared_candidate_2 |0.58     |5866     |30118   |766      |
+|  u_vision         |vision_pipeline_20                   |0.56     |8418     |41265   |754      |
+|  u_ddr            |secondary_ddr_wrapper_3              |0.50     |9389     |42761   |460      |
+|  u_udp_stack      |uiudp_stack_19                       |0.38     |7884     |34500   |135      |
++------------------------------------------------------------------------------------------------+
+Note: Cell represents total number of cells inside module; Pin represents total number of pins
+      which have net connection inside module; Term represents total number of PIs and POs of module.
+      Rent represents the relationship between number of terms and number of cells in module.
+      A module with higher rent corresponds to highly connected logic and strong connectivity with others.
+Report gate stage QoR done.
+

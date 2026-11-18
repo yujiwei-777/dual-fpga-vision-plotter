@@ -1,0 +1,54 @@
+[
+  {
+    "label": "adapter_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\adapter\\adapter_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\adapter",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\adapter\\adapter_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "adapter_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\adapter\\adapter_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\pcb_ccl_binary_core.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\pcb_fullboard_spatial96.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\adapter\\tb_suspect_adapter_current.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\adapter",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\adapter\\adapter_lint.log",
+    "log_sha256": "2E03E250740009D30DE588AF38667856F1088055CC8FAFF45087DEBF2FD10F0C",
+    "warnings": []
+  },
+  {
+    "label": "adapter_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "adapter_lib",
+      "tb_suspect_adapter",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\adapter",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\adapter\\adapter_simulation.log",
+    "log_sha256": "9074287F2F493536FA1AC1276C9CE5A6E7D7E0DA0D5EE7C433425B0C7292CA9C",
+    "warnings": []
+  }
+]

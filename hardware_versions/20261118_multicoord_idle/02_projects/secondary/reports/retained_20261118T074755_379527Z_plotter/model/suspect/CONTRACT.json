@@ -1,0 +1,15 @@
+{
+  "method": "mad_negative_sum",
+  "source_constants_path": "pcb_suspect_region_opt_20261107\\feature_anomaly\\CALIBRATION_CONSTANTS.json",
+  "source_constants_sha256": "2F14C6CDAB453B0E6A485F02E986D24A0E3DADB8C722C416307689D2350B32D5",
+  "calibration_count": 98,
+  "constants_order": "CHW c*16+grid; each 24-bit word={mean uint16, reciprocal uint8}",
+  "formula": "sum_c(max(mu[c,g]-P[c,g],0)*R[c,g]); no per-product shift",
+  "box_scale": 2,
+  "positive_only": true,
+  "FAIL_only": true,
+  "tie": "first row-major grid",
+  "classifier_unchanged": true,
+  "warning": "EXPERIMENTAL; software localization failed both-class80%gate; no precise defect claim",
+  "constants_sha256": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783"
+}

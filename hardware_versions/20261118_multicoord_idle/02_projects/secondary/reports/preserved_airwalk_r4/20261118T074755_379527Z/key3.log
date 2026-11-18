@@ -1,0 +1,5 @@
+PASS key3/key3_supervisor_vlib
+PASS key3/key3_supervisor_lint
+PASS key3/key3_supervisor_simulation
+key3: PASS
+CURRENT_SUITE_OUTPUT D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\retained_20261118T074755_379527Z_key3

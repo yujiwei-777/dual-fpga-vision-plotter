@@ -1,0 +1,72 @@
+{
+  "schema": "main-suspect-center-current-route-audit-r4-v1",
+  "started_utc": "2026-11-18T08:18:40.990652+00:00",
+  "runner": {
+    "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/tools/audit_current_route.py",
+    "sha256": "71D53CBBC8F62EB1A30E5B8963067C901BAC9DB62ECF93320E67AF12F5FC20AD",
+    "bytes": 14220
+  },
+  "build_root": "E:/codex_main_cnn_multicoord_20261118_r1",
+  "td": {
+    "path": "E:/td/bin/td_commands_prompt.exe",
+    "sha256": "79EC56674F8F7B889E25E11BDCA91F7D64C24BA0DE99E80680248F00B4F87190",
+    "bytes": 119567120
+  },
+  "source_manifest_sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+  "source_files_checked": 244,
+  "phases": [
+    {
+      "receipt": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/logs/synth.json",
+        "sha256": "7C2DFC35006A88CBE02D5EE75A00B4B3DFC8B00DDC81F35D7CAB02BDAD7428C4",
+        "bytes": 872
+      },
+      "log": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/logs/synth.log",
+        "sha256": "98502F6D7BB299372468D04C52D8B0119507F3B6CD1A4A6F8EB2619D41C1C306",
+        "bytes": 174976
+      },
+      "ended_utc": "2026-11-18T08:10:36.712306+00:00"
+    },
+    {
+      "receipt": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/logs/place.json",
+        "sha256": "37ED7AB4BA17A4E3501D0F3BE2C8F46C2DF67EF5E2B295D6A07761B7C00FB797",
+        "bytes": 872
+      },
+      "log": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/logs/place.log",
+        "sha256": "FE2EAE01292312693BA92BC57CFBD6BC8678BE6024BAEE5996E3F74A15D1DDCD",
+        "bytes": 138418
+      },
+      "ended_utc": "2026-11-18T08:15:04.728183+00:00"
+    },
+    {
+      "receipt": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/logs/route.json",
+        "sha256": "D91B8760A927A2CE6A94748D3A4E7F4E8A457C59E2B0A24944E9222421D1E7D8",
+        "bytes": 872
+      },
+      "log": {
+        "path": "E:/codex_main_cnn_multicoord_20261118_r1/logs/route.log",
+        "sha256": "B17D63AC012551883EED729D7FA2D6399053792DDD51C97E8C66133378439D7E",
+        "bytes": 128710
+      },
+      "ended_utc": "2026-11-18T08:18:39.684996+00:00"
+    }
+  ],
+  "bound_input_hashes": {
+    "E:/codex_main_cnn_multicoord_20261118_r1/SOURCE_MANIFEST.json": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+    "E:/codex_main_cnn_multicoord_20261118_r1/BUILD_PLAN.json": "94965EA64C8D0EABA7D00E2302CC2571FC5738ADBC33D92754DA15B9AF0D6F02",
+    "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.al": "83953C297CC4F78DB87DC1F794E9751645ED52EF6221ECB9CB4CBAAA47A5C1E2",
+    "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.prj": "83953C297CC4F78DB87DC1F794E9751645ED52EF6221ECB9CB4CBAAA47A5C1E2",
+    "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_gate.db": "6D49BE6467CE59B27D55B155436600B4CDBB01B867BB37B0EFFCAEFAC68CDCF0",
+    "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.db": "68B4A5DAF4F24169AB218CDC93149AFABED97ADC75883AA893C3D51D106685C8",
+    "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_pr.timing": "56B8B69DC7AF2B2FDDD8D2F388BBD68D8428191B5B35553946897FC076EE452E",
+    "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox_phy.area": "8B1E25512D9CC334AEB7B34A664079AEE3BF7ECD89DE18356A96C0C057143494",
+    "E:/codex_main_cnn_multicoord_20261118_r1/01_rtl/imgq_gain_m/main/td_project_display_noise_v8/source_snapshot.json": "35529655130C8A73E43BA8EBCD7E648EE49308D31F4B49BF9EE77536EDDBCFCA"
+  },
+  "hardware_status": "NOT_RUN",
+  "bitgen_invoked": false,
+  "passed": false
+}

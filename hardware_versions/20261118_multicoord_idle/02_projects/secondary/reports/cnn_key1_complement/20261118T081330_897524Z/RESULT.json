@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "label": "document_integrated",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\document_integrated.log",
+      "log_sha256": "82538A8E7AEA70BCD6A9A3AAC9FAB3923DDAC1AC447AACEB12280A655EF904B1",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\operator_ui\\run_doc_mapper_integrated.py"
+      ]
+    },
+    {
+      "label": "doc_total_ack",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\doc_total_ack.log",
+      "log_sha256": "257FC0F531135E78CD60B224681AA503DACEDE8284B26E797CFB30D02F3DF640",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\run_doc_total_ack.py"
+      ]
+    },
+    {
+      "label": "common_write",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\common_write.log",
+      "log_sha256": "D00232A38A998E5F70861EB507584D80931CCC3F1810B39C3C0E342BBFD1936A",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_common_write_completion.py"
+      ]
+    },
+    {
+      "label": "paper_eject",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\paper_eject.log",
+      "log_sha256": "F0C4C14047638A6D4A1583AF3DE3F6B05C34CD36FDB74F792578CA149FF8F5C9",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_paper_eject_regression.py"
+      ]
+    },
+    {
+      "label": "paper_document",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\paper_document.log",
+      "log_sha256": "923D9A3898E24926B7A5905DD8075538BCA259A2F633356F33403F4C32451393",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_paper_document_regression.py"
+      ]
+    },
+    {
+      "label": "paper_unlimited",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\paper_unlimited.log",
+      "log_sha256": "5BA2A2BB7E00C494AE17ADDE9CDF35D3ED283C7145195FD535666C128373A714",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_paper_unlimited.py"
+      ]
+    },
+    {
+      "label": "no_suspect",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\no_suspect.log",
+      "log_sha256": "118CB69291D5BFF0E300C3893929F7340D9A0CC24F20502F60B50A5396B0BECB",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_no_suspect_paper.py"
+      ]
+    },
+    {
+      "label": "write_repeat",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\write_repeat.log",
+      "log_sha256": "4E818554B2BCF562FAD5B74714A764AABECB776BEF59AA97B4F48DAE50B5E8C2",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_write_repeat_targeted.py"
+      ]
+    },
+    {
+      "label": "initial_uart",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\initial_uart.log",
+      "log_sha256": "2D646089180FB34680875FE0821749CB0FD461D5F65324771B377CE4552725EA",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_initial_uart.py"
+      ]
+    },
+    {
+      "label": "maintenance",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\maintenance.log",
+      "log_sha256": "F46405F5938D54922F5C096775FF4B8C23FCC64066FFD90AFED695BF5DA9ED85",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_unlimited_maintenance.py"
+      ]
+    },
+    {
+      "label": "center80",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\center80.log",
+      "log_sha256": "EE6B60D6A3E7B4F115489030999C132256AA0F83D8ADCF1BD4D7449D53FB1CF9",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_doc_center80.py"
+      ]
+    },
+    {
+      "label": "production_doc_feed",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\production_doc_feed.log",
+      "log_sha256": "0345B2293AAF1CE9FBE3773DB979BF74B42B0902D7607A6938EE6E953199ACE8",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_production_doc_feed.py"
+      ]
+    },
+    {
+      "label": "continuous_cnn_key1",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\cnn_key1_complement\\20261118T081330_897524Z\\continuous_cnn_key1.log",
+      "log_sha256": "9018773233EEADF8B6571AAFB09857CD95B6D88EBBCA5DC4B27E382DEA6FBB91",
+      "command": [
+        "D:\\conda\\python.exe",
+        "-B",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\validate_continuous_key1.py",
+        "--design",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118",
+        "--expect-fixed"
+      ]
+    }
+  ]
+}

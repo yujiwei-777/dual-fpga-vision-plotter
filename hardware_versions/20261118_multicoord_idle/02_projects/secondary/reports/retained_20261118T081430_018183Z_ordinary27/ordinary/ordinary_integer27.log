@@ -1,0 +1,5 @@
+REFERENCE READY native metrics=1168/1170, RTL cases=27
+PASS vlib
+PASS lint
+PASS simulation
+PASS RTL + integer golden: 27 cases

@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "cases": 12,
+  "actual_top_reporter_parameters": ".CLK_HZ(125000000),.MAZE_ENABLE(0),.AUTO_NEWLINE(1),.PAPER_BUDGET_ENABLE(0),.KEY2_REZERO(1),.PCB_SUSPECT_ENABLE(1),.PCB_SUSPECT_CENTER_INPUT(1),.PAPER_LOAD_FIRST_ROW_CMM(3000),.PAPER_LOAD_CENTER_Y_CMM(14850),.PAPER_LOAD_LAST_ROW_CMM(26700),.PAPER_LOCAL_Y_LIMIT_CMM(23700)",
+  "gcode_lines": 5062,
+  "gcode_file": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_report_center\\20261118T074839_408045Z\\GCODE.json",
+  "gcode_sha256": "99EF00EF33A9BCEF07E2FD0620C21FAC3400C090D1229E55C6ED56BF80E9EE54",
+  "input_contract": "original_frame_centre",
+  "source_sha256": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_reporter_shared_candidate.v": "D42D74A8DF7048CF6D762983F9A9154F372CBB3314CAE909E2328969421CE316",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_report_center\\20261118T074839_408045Z\\tb_suspect_report.sv": "3BB682BF35551F9DAB03773D79492820F75AD12A50BC6B79F0AA95658FAC1C6A",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_suspect_report_regression.py": "C826D67C044715E3F761EF01EE0E81878F9075A1C7D2406720826CBCD99582C0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_report_center\\model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\secondary_top.v": "95C702CB77AF07E038BD887A159C3FC109E152C2F5B93D51D33C050966A579F6"
+  },
+  "commands": [
+    {
+      "phase": "vlib",
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_report_center\\20261118T074839_408045Z\\vlib.log",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "phase": "lint",
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_report_center\\20261118T074839_408045Z\\lint.log",
+      "sha256": "B0B593EB2CC5A1304BBA547926CD901B86FE56DDC9E0FB4F8AB6DC68E6D74CAA"
+    },
+    {
+      "phase": "simulation",
+      "passed": true,
+      "exit_code": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_report_center\\20261118T074839_408045Z\\simulation.log",
+      "sha256": "EAD63B577606B70473BE4D8F1AB3887EFA101D923B6A15D50938AB4A8DAD8764"
+    }
+  ],
+  "error": null,
+  "source_drift": [],
+  "hardware": "NOT_RUN",
+  "scope": "Actual trial report glyphs, source centre, serial G-code, parser, ACK engine, newline, abort/stop/Alarm; input inspection metadata controlled.",
+  "limitations": [
+    "GRBL ok confirms acceptance, not mechanical standstill.",
+    "Approximate PCB localization accuracy is not tested by this report suite."
+  ]
+}

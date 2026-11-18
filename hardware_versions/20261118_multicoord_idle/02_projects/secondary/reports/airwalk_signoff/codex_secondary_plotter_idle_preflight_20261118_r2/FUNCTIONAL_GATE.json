@@ -1,0 +1,2233 @@
+{
+  "status": "PASS_CURRENT_FUNCTIONAL_GATE",
+  "source_manifest_sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+  "groups": {
+    "preserved": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\RESULTS.json",
+      "sha256": "2AA9DE19B045FADC775F9FB9F2C2FB42BFE2A945FB4228D859E56EF29D597D41",
+      "source_sha256": {
+        "01_rtl/pcb_fullboard_spatial96.v": "284B6BF9BB426AD2F04B2BCD0BA2679CFD2DD476C480439306A018D06EF429AB",
+        "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+        "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+        "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+        "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+        "model/suspect/mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+        "model/suspect/CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+        "model/suspect/confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85",
+        "01_rtl/vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+        "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+        "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+        "01_rtl/pcb_ccl_binary_core.v": "BDE72E98AFD671EF20CECA19803DB307B341FC90CDC55C1986AEC8EB4097D4A7",
+        "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+        "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "shared/rtl/hxa_packet_codec.v": "CD67459EF75CD81D326B336A7A28ECBE17E5ED89D0FCCE07898FE4BE41FEC19E",
+        "shared/rtl/hxa_packet_rx_fifo4.v": "FBF3B42DF3C5C98F3C77F81C2D0EEE082241CF968CB219CF50BCEF545FC1D65F",
+        "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+        "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73",
+        "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "model/export/quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+        "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+        "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+        "01_rtl/vision_ccl_pcb_candidate.v": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial\\r6_core_20261118T081430_116622Z\\simulation.log",
+          "sha256": "440040B0A10BA8A30DE521E8F8CB5B75C817F004DFB3DA03B8A9076C1F848432",
+          "pass_marker": "SUSPECT_CORE_PASS all_zero class1 margin100 suspect1 grid5 postcycles7121",
+          "observed_markers": [
+            "SUSPECT_CORE_PASS all_zero class1 margin100 suspect1 grid5 postcycles7121",
+            "SUSPECT_CORE_PASS all_at_mean class1 margin100 suspect0 grid0 postcycles7121",
+            "SUSPECT_CORE_PASS all_above_mean class1 margin100 suspect0 grid0 postcycles7121",
+            "SUSPECT_CORE_PASS equal_max_first_grid class1 margin100 suspect1 grid0 postcycles7121",
+            "SUSPECT_CORE_PASS last_grid class1 margin100 suspect1 grid15 postcycles7121",
+            "SUSPECT_CORE_PASS skip_PASS class0 margin100 suspect0 grid0 postcycles0",
+            "SUSPECT_CORE_PASS skip_REVIEW class1 margin31 suspect0 grid0 postcycles0",
+            "SUSPECT_CORE_PASS random_0 class1 margin100 suspect1 grid14 postcycles7121",
+            "SUSPECT_CORE_PASS random_1 class1 margin100 suspect1 grid13 postcycles7121",
+            "SUSPECT_CORE_PASS random_2 class1 margin100 suspect1 grid1 postcycles7121",
+            "SUSPECT_CORE_PASS random_3 class1 margin100 suspect1 grid13 postcycles7121",
+            "SUSPECT_CORE_PASS random_4 class1 margin100 suspect1 grid10 postcycles7121",
+            "SUSPECT_CORE_PASS random_5 class1 margin100 suspect1 grid7 postcycles7121",
+            "SUSPECT_CORE_PASS random_6 class1 margin100 suspect1 grid6 postcycles7121",
+            "SUSPECT_CORE_PASS random_7 class1 margin100 suspect1 grid5 postcycles7121",
+            "SUSPECT_CORE_PASS random_8 class1 margin100 suspect1 grid6 postcycles7121",
+            "SUSPECT_CORE_PASS random_9 class1 margin100 suspect1 grid10 postcycles7121",
+            "SUSPECT_CORE_PASS random_10 class1 margin100 suspect1 grid0 postcycles7121",
+            "SUSPECT_CORE_PASS random_11 class1 margin100 suspect1 grid5 postcycles7121",
+            "SUSPECT_CORE_PASS real_FAIL class1 margin782 suspect1 grid6 postcycles7121",
+            "SUSPECT_CORE_PASS real_PASS class0 margin660 suspect0 grid0 postcycles0",
+            "SUSPECT_CORE_PASS real_REVIEW class1 margin17 suspect0 grid0 postcycles0",
+            "SUSPECT_CORE_GOLDEN_PASS tests=22"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\cnn_publication.log",
+          "sha256": "1CDA84DB920589BB28A3C30F7DB8DB49E42D052400FFF33569F0593B6657475D",
+          "pass_marker": "PASS r6_publication_20261118T081441_087615Z/publication_vlib",
+          "observed_markers": [
+            "PASS r6_publication_20261118T081441_087615Z/publication_vlib",
+            "PASS r6_publication_20261118T081441_087615Z/publication_lint",
+            "PASS r6_publication_20261118T081441_087615Z/publication_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial\\r6_publication_20261118T081441_087615Z\\publication_simulation.log",
+          "sha256": "CB78CC21C3647F919A50FDBF1A96A2416CFF93807A618A98905E2C4BAE230DD3",
+          "pass_marker": "PASS CNN_PUBLICATION_INTEGRATION checks=170 jobs=30 starts=32",
+          "observed_markers": [
+            "PASS CNN_PUBLICATION_INTEGRATION checks=170 jobs=30 starts=32"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\plotter.log",
+          "sha256": "E2F7DA3D7098B0CD32A194B2FC7C8C018C1E4148B0973B7953109DD761A2A2B2",
+          "pass_marker": "PASS plotter/transport_vlib",
+          "observed_markers": [
+            "PASS plotter/transport_vlib",
+            "PASS plotter/transport_lint",
+            "PASS plotter/transport_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\plotter\\transport_simulation.log",
+          "sha256": "BF498A67AC95D0D833B847A2DB36CCCA65B1AA9BE6574C8E598BF43C8937CD57",
+          "pass_marker": "PLOTTER_CASE_PASS name=KEY2_first_final_ok_no_Idle",
+          "observed_markers": [
+            "PLOTTER_CASE_PASS name=KEY2_first_final_ok_no_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_second_no_KEY3_uart_unaccepted_retry",
+            "PLOTTER_CASE_PASS name=CNN_PCB_multiline_ack_serialization",
+            "PLOTTER_CASE_PASS name=DOC_final_ok_owner_withdrawal_no_final_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_after_DOC_owner_switch",
+            "PLOTTER_CASE_PASS name=DOC_lost_ok_no_motion_replay_safe_stop",
+            "PLOTTER_CASE_PASS name=REPORT_lost_ok_no_motion_replay",
+            "PLOTTER_CASE_PASS name=REPORT_KEY4_stop_Hold_reset_fresh_Idle",
+            "PLOTTER_CASE_PASS name=REPORT_Alarm_rearm_required",
+            "PLOTTER_CASE_PASS name=REPORT_Reset_invalidates_coordinates",
+            "PLOTTER_CASE_PASS name=REPORT_UART_ready_loss_is_fault",
+            "PLOTTER_CASE_PASS name=DOC_KEY4_reset_Hold_fresh_Idle",
+            "PLOTTER_CASE_PASS name=KEY2_after_DOC_stop_recovery",
+            "POSE7_PLOTTER_REGRESSION_PASS cases=13 lines=14 queries=29 holds=9 resets=9"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\hxa_fifo_crc.log",
+          "sha256": "8110B7E99F12F904B88CC749B45ECC681063FA5A53C90163E5BE9991BEA017E2",
+          "pass_marker": "PASS hxa/vlib",
+          "observed_markers": [
+            "PASS hxa/vlib",
+            "PASS hxa/lint",
+            "PASS hxa/tb_pose7_fifo4",
+            "PASS hxa/tb_pose7_hxa_crc_network"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_hxa_fifo_crc\\hxa\\tb_pose7_fifo4.log",
+          "sha256": "7A58BB5D74C72E2176AA1F5A9DE12D278A7BE9C56F1B94BA6924EE1AE50068BD",
+          "pass_marker": "POSE7_FIFO4_PASS: 41 payload/header/control checks, 11 expected rejected packets, 6 control events, 40us cadence",
+          "observed_markers": [
+            "POSE7_FIFO4_PASS: 41 payload/header/control checks, 11 expected rejected packets, 6 control events, 40us cadence"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_hxa_fifo_crc\\hxa\\tb_pose7_hxa_crc_network.log",
+          "sha256": "F208FED865A50575358DBB9A280B8ACF02418F3B430603D956CE4F5ADBE8761A",
+          "pass_marker": "POSE7_HXA_CASE_PASS name=bad_FRAME_BEGIN_packet_CRC",
+          "observed_markers": [
+            "POSE7_HXA_CASE_PASS name=bad_FRAME_BEGIN_packet_CRC",
+            "POSE7_HXA_CASE_PASS name=bad_FRAME_END_packet_CRC",
+            "POSE7_HXA_CASE_PASS name=complete_DDR_frame_bad_CRC",
+            "POSE7_HXA_CASE_PASS name=complete_DDR_frame_correct_CRC",
+            "POSE7_HXA_CASE_PASS name=ordinary_empty_Type11_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=ordinary_HXD1_Type11_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=PHY_drop_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=lease_expiry_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=HELLO_session_change_busy_job_preserved",
+            "POSE7_HXA_CASE_PASS name=wrong_session_Type11_rejected",
+            "POSE7_HXA_CASE_PASS name=explicit_reason80_Type11_cancels",
+            "POSE7_HXA_CRC_NETWORK_PASS cases=11"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\reader.log",
+          "sha256": "EF70FA8220DAF18B0525C84F29D6B5DE025405CBB09F9224E78FF80328EEF5B5",
+          "pass_marker": "PASS reader/reader_mailbox_vlib",
+          "observed_markers": [
+            "PASS reader/reader_mailbox_vlib",
+            "PASS reader/reader_mailbox_lint",
+            "PASS reader/reader_mailbox_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_reader\\reader\\reader_mailbox_simulation.log",
+          "sha256": "509DB3DFC7A169E30F105B1A0A17B2EE714E5432F8A7DBA7385CF8E91581185C",
+          "pass_marker": "POSE7_REAL_READER_CASE_PASS name=calibration_fences_requests",
+          "observed_markers": [
+            "POSE7_REAL_READER_CASE_PASS name=calibration_fences_requests",
+            "POSE7_REAL_READER_CASE_PASS name=all_eight_Y_lanes_odd_even_cache",
+            "POSE7_REAL_READER_CASE_PASS name=miss_boundaries_last_address_and_variable_latency",
+            "POSE7_REAL_READER_CASE_PASS name=frame_invalidate_changes_same_word",
+            "POSE7_REAL_READER_CASE_PASS name=app_command_backpressure_and_samecycle_app_response",
+            "POSE7_REAL_READER_CASE_PASS name=ordinary_color_word_port_masks_pixel_reply",
+            "POSE7_REAL_READER_CASE_PASS name=document_owns_reader_ignores_live_purpose_and_color",
+            "POSE7_REAL_READER_CASE_PASS name=PCB_network_cancel_retains_inflight_response",
+            "POSE7_REAL_READER_CASE_PASS name=explicit_doc_cancel_drain_and_reentry",
+            "POSE7_REAL_READER_CASE_PASS name=KEY4_doc_drain_and_reentry",
+            "POSE7_REAL_READER_CASE_PASS name=CRC_read_owner_never_publishes_pixel",
+            "POSE7_REAL_READER_CASE_PASS name=unreturned_doc_response_locks_until_raw_reset",
+            "POSE7_REAL_READER_PASS cases=12 checks=506 pixels=44 client_words=37 app_words=37 clocks=8ns_14ns"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\key3.log",
+          "sha256": "E35CF908290595F022697F2239F29F6C0D5146A12AAB5F3FCFE6EFD0F08A4AEB",
+          "pass_marker": "PASS key3/key3_supervisor_vlib",
+          "observed_markers": [
+            "PASS key3/key3_supervisor_vlib",
+            "PASS key3/key3_supervisor_lint",
+            "PASS key3/key3_supervisor_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\key3\\key3_supervisor_simulation.log",
+          "sha256": "2289C9B924653F19FE232171ECF47207E07803237FC526BF8D17C1D5BF0CB24E",
+          "pass_marker": "KEY3_RESET_UNIT_PASS cases=5",
+          "observed_markers": [
+            "KEY3_RESET_UNIT_PASS cases=5"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\key1_snapshot.log",
+          "sha256": "B761481F7969DFC85B5E3780F56E2EBE3DD87B5AC0EE7D5096122D507AAEAA9D",
+          "pass_marker": "PASS 20261118T081512_228080Z/snapshot_vlib",
+          "observed_markers": [
+            "PASS 20261118T081512_228080Z/snapshot_vlib",
+            "PASS 20261118T081512_228080Z/snapshot_lint",
+            "PASS 20261118T081512_228080Z/snapshot_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_key1\\20261118T081512_228080Z\\snapshot_simulation.log",
+          "sha256": "5A0A0A713128F48AFB35E703CB3EDCBDDD3A8E1E79F772999A74AB9B16A20475",
+          "pass_marker": "PASS FAIL caches coherent original-frame SUSPECT centre without auto writing",
+          "observed_markers": [
+            "PASS FAIL caches coherent original-frame SUSPECT centre without auto writing",
+            "PASS inspection never auto writes",
+            "PASS KEY1 snapshot passes same centre and SUSPECT tag to reporter",
+            "PASS accepted cache is consumed once",
+            "PASS accepted SUSPECT snapshot survives live changes Ethernet loss and frame cancel",
+            "PASS repeated KEY1 cannot replay consumed PCB result",
+            "PASS PASS atomically clears old SUSPECT snapshot",
+            "PASS PASS KEY1 never inherits old SUSPECT",
+            "PASS REVIEW KEY1 has no suspect",
+            "PASS new image transaction clears cached old region before completion",
+            "PASS KEY1 before new completion cannot print stale region",
+            "PASS mode change clears cached PCB region",
+            "PASS no-target completion clears cached PCB region",
+            "PASS invalid/outside/zero-area source region never enters compressed centre cache",
+            "PASS invalid region retains FAIL title but sends no suspect coordinate",
+            "PASS invalid/outside/zero-area source region never enters compressed centre cache",
+            "PASS invalid region retains FAIL title but sends no suspect coordinate",
+            "PASS invalid/outside/zero-area source region never enters compressed centre cache",
+            "PASS invalid region retains FAIL title but sends no suspect coordinate",
+            "PASS explicit job cancel clears cached region",
+            "PASS KEY4 reset clears cached region",
+            "SUSPECT_KEY1_SNAPSHOT_PASS checks=21"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_key1\\key2_center\\20261118T081516_797307Z\\simulation.log",
+          "sha256": "7D921C21C9F0A5A7F985C96A85417BD1A33677A999A604E393EC74AEF8CCCAC1",
+          "pass_marker": "KEY2_ZERO_CASE_PASS two_KEY2_ACK_gated_X0_Y35_rezero",
+          "observed_markers": [
+            "KEY2_ZERO_CASE_PASS two_KEY2_ACK_gated_X0_Y35_rezero",
+            "KEY2_ZERO_CASE_PASS return_lost_ok_no_G92_no_replay",
+            "KEY2_ZERO_CASE_PASS G92_lost_ok_no_done_no_replay",
+            "KEY2_ZERO_CASE_PASS KEY4_stop_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS Alarm_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS Reset_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS PCB_report_retains_old_newline_no_G92",
+            "KEY2_ZERO_CASE_PASS CNN_report_retains_old_newline_no_G92",
+            "KEY2_ZERO_CASE_PASS six_KEY2_page_budget_then_seventh_rejected",
+            "KEY2_ZERO_CASE_PASS PCB_short_then_CNN_multiline_at_rebased_page_bottom",
+            "KEY2_ZERO_CASE_PASS fresh_work_frame_reset_preserves_physical_paper_offset",
+            "KEY2_ZERO_CASE_PASS KEY4_stop_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS Alarm_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS Reset_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS UART_link_ready_drop_while_G92_unacknowledged",
+            "KEY2_ZERO_REGRESSION_PASS cases=15"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_report_center\\20261118T081520_404382Z\\simulation.log",
+          "sha256": "2BDBFB702900449D817784AC1AE26AE766BC919B957CEB30454001F6772E5E3B",
+          "pass_marker": "SUSPECT_REPORT_CASE_PASS FAIL_source_centre_snapshot_and_final_ACK",
+          "observed_markers": [
+            "SUSPECT_REPORT_CASE_PASS FAIL_source_centre_snapshot_and_final_ACK",
+            "SUSPECT_REPORT_CASE_PASS second_FAIL_report_newline_and_new_snapshot",
+            "SUSPECT_REPORT_CASE_PASS PASS_clears_old_suspect",
+            "SUSPECT_REPORT_CASE_PASS REVIEW_clears_old_suspect",
+            "SUSPECT_REPORT_CASE_PASS FAIL_no_positive_region_title_only",
+            "SUSPECT_REPORT_CASE_PASS legacy_kind_not_treated_as_suspect",
+            "SUSPECT_REPORT_CASE_PASS invalid_source_box_rejected",
+            "SUSPECT_REPORT_CASE_PASS source_boundary_centre_not_machine_mirrored",
+            "SUSPECT_REPORT_CASE_PASS CNN_low_actual_confidence_name_centre_unchanged",
+            "SUSPECT_REPORT_CASE_PASS abort_no_automatic_replay",
+            "SUSPECT_REPORT_CASE_PASS KEY4_stop_no_new_segments",
+            "SUSPECT_REPORT_CASE_PASS Alarm_locks_report_without_done",
+            "SUSPECT_REPORT_REGRESSION_PASS cases=12"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\ordinary27.log",
+          "sha256": "D8A2FB8C66F4871FE9AFCA8FD3AA58AF9557BFFA294A88FE28DA03BB2ED9E6CE",
+          "pass_marker": "PASS ordinary/ordinary_integer27",
+          "observed_markers": [
+            "PASS ordinary/ordinary_integer27"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_ordinary27\\ordinary\\ordinary_integer27.log",
+          "sha256": "6A770B8D8819B44CE3F8204447FF085EB2BF4D7D03DE09F72DD8C894E0762DBD",
+          "pass_marker": "PASS vlib",
+          "observed_markers": [
+            "PASS vlib",
+            "PASS lint",
+            "PASS simulation",
+            "PASS RTL + integer golden: 27 cases"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_ordinary27\\ordinary\\integer27\\simulation.log",
+          "sha256": "12F68AD73656F7C4197F8612FF70F52C811E7DD43278647CBF80FFA5F111CF93",
+          "pass_marker": "PASS CNN CASE 0 cycles=1880088 logits=51333,-82949,13983 class=1 color_conf=136 shape_conf=145",
+          "observed_markers": [
+            "PASS CNN CASE 0 cycles=1880088 logits=51333,-82949,13983 class=1 color_conf=136 shape_conf=145",
+            "PASS CNN CASE 1 cycles=1880088 logits=41006,-74552,16398 class=1 color_conf=128 shape_conf=96",
+            "PASS CNN CASE 2 cycles=1880088 logits=41701,-75933,17062 class=1 color_conf=128 shape_conf=96",
+            "PASS CNN CASE 3 cycles=1880088 logits=-78460,61880,19997 class=2 color_conf=175 shape_conf=163",
+            "PASS CNN CASE 4 cycles=1880088 logits=-69059,54126,17243 class=2 color_conf=162 shape_conf=144",
+            "PASS CNN CASE 5 cycles=1880088 logits=-70617,52721,19131 class=2 color_conf=173 shape_conf=131",
+            "PASS CNN CASE 6 cycles=1880088 logits=-27726,-651,29002 class=3 color_conf=190 shape_conf=115",
+            "PASS CNN CASE 7 cycles=1880088 logits=-23355,-2848,27680 class=3 color_conf=203 shape_conf=119",
+            "PASS CNN CASE 8 cycles=1880088 logits=-22126,-2221,24642 class=3 color_conf=179 shape_conf=104",
+            "PASS CNN CASE 9 cycles=1880088 logits=92350,-86837,-21368 class=4 color_conf=32 shape_conf=255",
+            "PASS CNN CASE 10 cycles=1880088 logits=88011,-83619,-17783 class=4 color_conf=30 shape_conf=255",
+            "PASS CNN CASE 11 cycles=1880088 logits=88112,-88217,-15681 class=4 color_conf=34 shape_conf=255",
+            "PASS CNN CASE 12 cycles=1880088 logits=-93303,76586,18920 class=5 color_conf=45 shape_conf=225",
+            "PASS CNN CASE 13 cycles=1880088 logits=-87876,74817,16308 class=5 color_conf=44 shape_conf=228",
+            "PASS CNN CASE 14 cycles=1880088 logits=-80952,64588,18598 class=5 color_conf=47 shape_conf=179",
+            "PASS CNN CASE 15 cycles=1880088 logits=-32783,-16366,42758 class=6 color_conf=41 shape_conf=230",
+            "PASS CNN CASE 16 cycles=1880088 logits=-30151,-15417,39388 class=6 color_conf=40 shape_conf=214",
+            "PASS CNN CASE 17 cycles=1880088 logits=-31636,-6248,34651 class=6 color_conf=38 shape_conf=159",
+            "PASS CNN CASE 18 cycles=1880088 logits=80598,-111285,1894 class=7 color_conf=52 shape_conf=255",
+            "PASS CNN CASE 19 cycles=1880088 logits=62628,-80992,-2889 class=7 color_conf=48 shape_conf=255",
+            "PASS CNN CASE 20 cycles=1880088 logits=80748,-119197,6561 class=7 color_conf=53 shape_conf=255",
+            "PASS CNN CASE 21 cycles=1880088 logits=-86734,70531,17420 class=8 color_conf=45 shape_conf=207",
+            "PASS CNN CASE 22 cycles=1880088 logits=-88226,65504,24196 class=8 color_conf=46 shape_conf=161",
+            "PASS CNN CASE 23 cycles=1880088 logits=-78292,63497,17554 class=8 color_conf=46 shape_conf=179",
+            "PASS CNN CASE 24 cycles=1880088 logits=-31129,-8539,33680 class=9 color_conf=60 shape_conf=164",
+            "PASS CNN CASE 25 cycles=1880088 logits=-28810,-10159,32623 class=9 color_conf=60 shape_conf=167",
+            "PASS CNN CASE 26 cycles=1880088 logits=-29410,-6287,30726 class=9 color_conf=58 shape_conf=144",
+            "PASS ALL CNN REMOTE DETAIL cases=27"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\pcb_pipeline_adapter_sharehold.log",
+          "sha256": "6D7A02C8EF96F6E6B866521D76888BEA6AC30CD00BE0ED595192BE5CF0DCE3F4",
+          "pass_marker": "PASS pipeline/pipeline_vlib",
+          "observed_markers": [
+            "PASS pipeline/pipeline_vlib",
+            "PASS pipeline/pipeline_lint",
+            "PASS pipeline/pipeline_simulation",
+            "PASS adapter/adapter_vlib",
+            "PASS adapter/adapter_lint",
+            "PASS adapter/adapter_simulation",
+            "PASS sharehold/sharehold_vlib",
+            "PASS sharehold/sharehold_lint",
+            "PASS sharehold/sharehold_simulation"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_pcb_pipeline_adapter_sharehold\\pipeline\\pipeline_simulation.log",
+          "sha256": "29203351739692BB1EA938B4D1FFEB8DA40F09B212FC22BFA651F5A975EB51CE",
+          "pass_marker": "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+          "observed_markers": [
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_pad status=1 valid=1 ROI=9216 cycles=1288127",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_corner status=1 valid=1 ROI=9216 cycles=1269639",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_review status=2 valid=1 ROI=9216 cycles=1269588",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_blank status=2 valid=0 ROI=0 cycles=230581",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_source_border status=2 valid=0 ROI=0 cycles=233779",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_label_overflow status=2 valid=0 ROI=0 cycles=233126",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=0",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=1",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=2",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=3",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_pad status=1 valid=1 ROI=9216 cycles=1288127",
+            "BINARY_FULLPIPELINE_ORDINARY_EMPTY_PASS",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_GOLDEN_PASS frames=13 cancels=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_pcb_pipeline_adapter_sharehold\\adapter\\adapter_simulation.log",
+          "sha256": "1E71A68931F47625C988F8C4555F4BD664ABD2D8E829704D1D78383CFD36D1D2",
+          "pass_marker": "SUSPECT_ADAPTER_CURRENT_PASS tests=30 good_pass_min=192 bad_min=32",
+          "observed_markers": [
+            "SUSPECT_ADAPTER_CURRENT_PASS tests=30 good_pass_min=192 bad_min=32"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_pcb_pipeline_adapter_sharehold\\sharehold\\sharehold_simulation.log",
+          "sha256": "F524CD59E073093CD8BA87F2B9D65F23A2B5907AD71AF528A24AE1BD14B24AF1",
+          "pass_marker": "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+          "observed_markers": [
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_pad status=1 valid=1 ROI=9216 cycles=1288127",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_corner status=1 valid=1 ROI=9216 cycles=1269639",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_review status=2 valid=1 ROI=9216 cycles=1269588",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_blank status=2 valid=0 ROI=0 cycles=230581",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_source_border status=2 valid=0 ROI=0 cycles=233779",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=synthetic_label_overflow status=2 valid=0 ROI=0 cycles=233126",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=0",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=1",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=2",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_CANCEL_PASS mode=3",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_pad status=1 valid=1 ROI=9216 cycles=1288127",
+            "BINARY_FULLPIPELINE_ORDINARY_EMPTY_PASS",
+            "BINARY_FULLPIPELINE_FRAME_PASS name=real_00_current_good status=0 valid=1 ROI=9216 cycles=1295434",
+            "BINARY_FULLPIPELINE_GOLDEN_PASS frames=13 cancels=4",
+            "PIPELINE_SHAREHOLD_PASS hold_checks=104 clear_checks=50"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T081430_018183Z\\RESULTS.json",
+          "sha256": "2AA9DE19B045FADC775F9FB9F2C2FB42BFE2A945FB4228D859E56EF29D597D41"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial\\r6_core_20261118T081430_116622Z\\RESULT.json",
+          "sha256": "FF006251991D35D995440E8D91ECB69C96A39F7094C4257F93F53B64620AD9AF"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial\\r6_publication_20261118T081441_087615Z\\RESULTS.json",
+          "sha256": "5640B88F70B7A845608C78ACB85D17FE84BB601D4592401646B9F8E9A9428609"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_plotter\\RESULTS.json",
+          "sha256": "5876F9C975D4988B1662EE302D5A1DC9E69D9F2900FDCB72775038CC3819F9E4"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_hxa_fifo_crc\\RESULTS.json",
+          "sha256": "37589A2FF79936B9ECEDB0AFDFAEF7FB7DD046BC67F3A3261970CE9F5405B68D"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_reader\\RESULTS.json",
+          "sha256": "2488395D51C5B540BF10FF46B12C2C26AB33886C88DF3B53373EAB483235910B"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_key3\\RESULTS.json",
+          "sha256": "34385124602F9D2CE39EA1BC2BDA9D8DF240539C9C9C0D011C9A07E4AB9B2D1A"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_key1\\20261118T081512_228080Z\\RESULTS.json",
+          "sha256": "4CBF11B1A85315E5B3877C97A8A7869F1CBD7063C46893A647DA9E31ED20F4BD"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_key1\\key2_center\\20261118T081516_797307Z\\RESULT.json",
+          "sha256": "3AF24379F8412FED260EE2B362A45C57E29690DBC215CD4B1FF7E024952C0BD2"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_report_center\\20261118T081520_404382Z\\RESULT.json",
+          "sha256": "9D4B8A5A7E32A3A95F5C64ED78CD31793EFFE3C8C61C22999453658BD7377278"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_ordinary27\\RESULTS.json",
+          "sha256": "C923FC5A6968C50B01B929C3F31B336FED353D4B8B3631D6C9017AAC961C2C4B"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_ordinary27\\ordinary\\integer27\\RESULTS.json",
+          "sha256": "2793697B305016FC87ED8FDCB0010108AAA13660A32D1E8869C2F2F073B5C753"
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T081430_018183Z_pcb_pipeline_adapter_sharehold\\RESULTS.json",
+          "sha256": "736BA54324A44BD46DD6D77D1251C4C8660507A5C8042EAFF46587C12C33BB5C"
+        }
+      ]
+    },
+    "document_integrated": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\RESULT.json",
+      "sha256": "ED73FF265397E3AD6E709D015D2872E64C2A1B116A5CF0C5A21A6FCCC4D52BA8",
+      "source_sha256": {
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+        "01_rtl/doc_image_frontend.v": "0A9FCDD16223CB0BC917BB0E87B14B830A19110EE6FACC4FA5DF9515CD11FC4D",
+        "01_rtl/doc_stroke_planner.v": "E68C26D36AE92AEC766673D24056E88A6FC1CBFD9C61E0DA3B362CE53DF41668",
+        "01_rtl/doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+        "01_rtl/doc_machine_map.v": "9AE19EB6EF206CC508D865D6D42BE1D488CBB60217125A81682AA4CBC57BCD3D",
+        "01_rtl/doc_grbl_plotter_shared_candidate.v": "D93A4F0FE60E8E2B283C27D7DFD424916027345DFA924577EC00961062F31026",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\baseline\\simulation.log",
+          "sha256": "20D9A3A1F7C289128ABD2AE9010B0CF1B4A786CE0A6CBB24CBF3A7D8CBCEF1CB",
+          "pass_marker": "DOC_KEY1_INTEGRATED_PASS points=351 lines=417 queries=1 requests=956416 cycles=45778964",
+          "observed_markers": [
+            "DOC_KEY1_INTEGRATED_PASS points=351 lines=417 queries=1 requests=956416 cycles=45778964",
+            "DOC_MAPPER_HANDSHAKE_PASS requests=954 completions=954 min_latency=30 max_latency=30"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\confirm\\simulation.log",
+          "sha256": "E5DF9C7D3B77CB4C77BEF8110DC48CCEE86B7F12AC363293B6A422F32F6C2086",
+          "pass_marker": "DOC_KEY1_INTEGRATED_PASS points=351 lines=417 queries=1 requests=956416 cycles=45777069",
+          "observed_markers": [
+            "DOC_KEY1_INTEGRATED_PASS points=351 lines=417 queries=1 requests=956416 cycles=45777069",
+            "DOC_MAPPER_HANDSHAKE_PASS requests=954 completions=954 min_latency=28 max_latency=28"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_mapper_r4\\20261118T081601_456960Z\\RESULT.json",
+          "sha256": "ED73FF265397E3AD6E709D015D2872E64C2A1B116A5CF0C5A21A6FCCC4D52BA8"
+        }
+      ]
+    },
+    "doc_total_ack": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_total_ack\\20261118T081818_483750Z\\RESULTS.json",
+      "sha256": "31902E62831A05DD2681E72F52DC28B8F22D0C58C048A1BB80426AE2D328F9F0",
+      "source_sha256": {
+        "01_rtl/doc_grbl_plotter_shared_candidate.v": "D93A4F0FE60E8E2B283C27D7DFD424916027345DFA924577EC00961062F31026",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_total_ack\\20261118T081818_483750Z\\doc_total_simulation.log",
+          "sha256": "171A82292627F4ACEC0EB6F6502D9402AA280FDB4150D7DA027630FA2302368A",
+          "pass_marker": "DOC_TOTAL_ACK_PASS cases=3 normal_dot_empty delayed_ack_no_final_idle",
+          "observed_markers": [
+            "DOC_TOTAL_ACK_PASS cases=3 normal_dot_empty delayed_ack_no_final_idle"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_total_ack\\20261118T081818_483750Z\\RESULTS.json",
+          "sha256": "31902E62831A05DD2681E72F52DC28B8F22D0C58C048A1BB80426AE2D328F9F0"
+        }
+      ]
+    },
+    "common_write": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\common_write_completion\\20261118T081820_572972Z\\RESULTS.json",
+      "sha256": "8F24101F18A12635364796E87664402D72B5363F22C3359A3D31DB78F9E29549",
+      "source_sha256": {
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+        "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+        "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\common_write_completion\\20261118T081820_572972Z\\actual_chain_simulation.log",
+          "sha256": "C137D878411CD255AFD5D8D96EA9410B9123E2E1487606B5903B6A907D619F63",
+          "pass_marker": "PASS CHAIN CNN result arms KEY1 before first report",
+          "observed_markers": [
+            "PASS CHAIN CNN result arms KEY1 before first report",
+            "PASS CHAIN CNN first exactly one final ACK completion",
+            "PASS CHAIN CNN first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN first releases quiescent shared UART owner",
+            "PASS CHAIN CNN first issues no normal-completion status/stop/reset",
+            "PASS CHAIN CNN cached current result re-arms KEY1 after done",
+            "PASS CHAIN CNN second exactly one final ACK completion",
+            "PASS CHAIN CNN second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN second releases quiescent shared UART owner",
+            "PASS CHAIN CNN second issues no normal-completion status/stop/reset",
+            "PASS CHAIN two CNN KEY1 jobs accepted without reset",
+            "PASS CHAIN PCB first exactly one final ACK completion",
+            "PASS CHAIN PCB first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB first releases quiescent shared UART owner",
+            "PASS CHAIN PCB first issues no normal-completion status/stop/reset",
+            "PASS CHAIN PCB consumes one inference without replay",
+            "PASS CHAIN PCB second exactly one final ACK completion",
+            "PASS CHAIN PCB second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB second releases quiescent shared UART owner",
+            "PASS CHAIN PCB second issues no normal-completion status/stop/reset",
+            "PASS CHAIN new PCB result re-arms second KEY1 without reset",
+            "PASS CHAIN KEY2 first exactly one final ACK completion",
+            "PASS CHAIN KEY2 first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 first releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 first issues no normal-completion status/stop/reset",
+            "PASS CHAIN KEY2 second exactly one final ACK completion",
+            "PASS CHAIN KEY2 second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 second releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 second issues no normal-completion status/stop/reset",
+            "PASS CHAIN consecutive physical KEY2 jobs admitted without reset",
+            "PASS CHAIN second KEY2 preserves accumulated paper use and advances 35mm from local Y10",
+            "PASS CHAIN production CNN PCB KEY2 F5000 XY, F1200 Z and F7000 travel checked",
+            "PRODUCTION_REPORT_FEED_PASS xy=411 z=252 travel=127",
+            "COMMON_WRITE_COMPLETION_PASS cases=6 checks=32 lines=931 key1=4 key2=2"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\common_write_completion\\20261118T081820_572972Z\\actual_uart_chain_simulation.log",
+          "sha256": "9B909C755B8FF91F7E76D3B9F443DCD6F87615EA6F7D357B0171A70BD840C95A",
+          "pass_marker": "PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session",
+          "observed_markers": [
+            "PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session",
+            "PASS CHAIN CNN result arms KEY1 before first report",
+            "PASS CHAIN CNN first exactly one final ACK completion",
+            "PASS CHAIN CNN first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN first releases quiescent shared UART owner",
+            "PASS CHAIN CNN first issues no normal-completion status/stop/reset",
+            "PASS CHAIN CNN cached current result re-arms KEY1 after done",
+            "PASS CHAIN CNN second exactly one final ACK completion",
+            "PASS CHAIN CNN second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN second releases quiescent shared UART owner",
+            "PASS CHAIN CNN second issues no normal-completion status/stop/reset",
+            "PASS CHAIN two CNN KEY1 jobs accepted without reset",
+            "PASS CHAIN PCB first exactly one final ACK completion",
+            "PASS CHAIN PCB first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB first releases quiescent shared UART owner",
+            "PASS CHAIN PCB first issues no normal-completion status/stop/reset",
+            "PASS CHAIN PCB consumes one inference without replay",
+            "PASS CHAIN PCB second exactly one final ACK completion",
+            "PASS CHAIN PCB second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB second releases quiescent shared UART owner",
+            "PASS CHAIN PCB second issues no normal-completion status/stop/reset",
+            "PASS CHAIN new PCB result re-arms second KEY1 without reset",
+            "PASS CHAIN KEY2 sequence 0 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 0 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 0 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 0 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 1 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 1 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 1 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 1 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 2 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 2 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 2 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 2 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 3 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 3 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 3 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 3 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 4 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 4 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 4 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 4 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 5 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 5 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 5 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 5 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 6 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 6 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 6 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 6 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 7 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 7 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 7 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 7 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 8 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 8 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 8 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 8 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 9 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 9 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 9 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 9 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 10 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 10 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 10 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 10 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 11 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 11 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 11 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 11 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN twelve consecutive physical KEY2 jobs admitted without reset",
+            "COMMON_WRITE_UART_PASS cases=16 checks=83 lines=1071 key1=4 key2=12"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\common_write_completion\\20261118T081820_572972Z\\RESULTS.json",
+          "sha256": "8F24101F18A12635364796E87664402D72B5363F22C3359A3D31DB78F9E29549"
+        }
+      ]
+    },
+    "paper_eject": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081835_742808Z\\RESULTS.json",
+      "sha256": "7F941499D322D30C059C1F51F35E49B7736A3A21C1E05B1097AA4AD413EA522F",
+      "source_sha256": {
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+        "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+        "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081835_742808Z\\metadata_simulation.log",
+          "sha256": "15B0AC1282539D611B483A044B8AF27554EC9ADB700A1D06967860481FB63E1D",
+          "pass_marker": "PASS history clear deasserts with stable ordinary session",
+          "observed_markers": [
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS OPR1 layout and initial invalid",
+            "PASS low confidence preview uses actual class score exact centre and result ID",
+            "PASS KEY1 cannot write before snapshot take",
+            "PASS metadata take locks pending snapshot",
+            "PASS new valid frame cannot overwrite locked preview",
+            "PASS current no-target clears old preview and snapshot lock",
+            "PASS KEY1 admitted exact frozen preview",
+            "PASS active metadata selects independent accepted snapshot",
+            "PASS network and new frame cannot change accepted writing",
+            "PASS PCB FAIL preview pairs reason judgement and SUSPECT centre",
+            "PASS pending PCB verdict uses frozen cache rather than changing live classifier outputs",
+            "PASS PCB KEY1 accepts frozen suspect and reason",
+            "PASS new no-target PCB does not alter accepted report metadata",
+            "PASS no-target REVIEW clears old suspect; raw local error retained and transport diagnostics reserved zero",
+            "PASS new PCB task clears diagnostic preview",
+            "PASS legacy peer retains local KEY1 ready without UI capability",
+            "PASS legacy non-Type21 peer admits original local KEY1 cached result",
+            "PASS paper used and remaining fields remain zero",
+            "PASS page request pulse fences KEY1 and document admission and protects network handoff",
+            "PASS page request handoff shows busy with no old report or ready preview",
+            "PASS maintenance ACK and DONE never reuse the last report job status",
+            "PASS active maintenance clears old names coordinates verdict snapshot and job while keeping busy",
+            "OPERATOR_METADATA_PASS checks=23"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081835_742808Z\\key2_simulation.log",
+          "sha256": "6A1D4A26FC3F28B42668702271082096FBAFBBFE4352E67255F5F3EF0D60E65B",
+          "pass_marker": "KEY2_OPERATOR_PASS checks=14",
+          "observed_markers": [
+            "KEY2_OPERATOR_PASS checks=14"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081835_742808Z\\robust_transport_simulation.log",
+          "sha256": "3EBC297FF25351E712612CA7D6AE10BCA039DD20FB30B2886C35D8CF622280E2",
+          "pass_marker": "CASE_PASS unowned_idle_alarm",
+          "observed_markers": [
+            "CASE_PASS unowned_idle_alarm",
+            "CASE_PASS owned_report_idle_alarm",
+            "CASE_PASS doc_prepare_alarm",
+            "CASE_PASS alarm_same_edge_report_start_clear",
+            "CASE_PASS alarm_same_edge_doc_start_clear",
+            "CASE_PASS clear_and_idle_cannot_rearm_alarm",
+            "CASE_PASS repeat_alarm_stays_locked",
+            "CASE_PASS key4_requires_fresh_hold_and_idle",
+            "CASE_PASS post_reset_alarm_rejects_late_idle",
+            "CASE_PASS key4_without_fresh_idle_times_out",
+            "CASE_PASS normal_last_ok_no_idle_poll",
+            "CASE_PASS reset_still_locks_idle",
+            "ROBUST_TRANSPORT_PASS cases=12 checks=51"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081835_742808Z\\paper_simulation.log",
+          "sha256": "B0B4777575F999139E865B0B4F445E0A3CC7C9ECB646C75E71AE8FC92205F1C8",
+          "pass_marker": "KEY2_ZERO_CASE_PASS two_KEY2_ACK_gated_X0_Y35_rezero",
+          "observed_markers": [
+            "KEY2_ZERO_CASE_PASS two_KEY2_ACK_gated_X0_Y35_rezero",
+            "KEY2_ZERO_CASE_PASS return_lost_ok_no_G92_no_replay",
+            "KEY2_ZERO_CASE_PASS G92_lost_ok_no_done_no_replay",
+            "KEY2_ZERO_CASE_PASS KEY4_stop_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS Alarm_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS Reset_before_return_ACK",
+            "KEY2_ZERO_CASE_PASS PCB_report_retains_old_newline_no_G92",
+            "KEY2_ZERO_CASE_PASS CNN_report_retains_old_newline_no_G92",
+            "KEY2_ZERO_CASE_PASS six_KEY2_page_budget_then_seventh_rejected",
+            "KEY2_ZERO_CASE_PASS PCB_short_report_then_CNN_multiline_page_budget",
+            "KEY2_ZERO_CASE_PASS fresh_work_frame_reset_preserves_physical_paper_offset",
+            "KEY2_ZERO_CASE_PASS KEY4_stop_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS Alarm_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS Reset_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS UART_link_ready_drop_while_G92_unacknowledged",
+            "KEY2_ZERO_CASE_PASS paper_initial_safe_height_and_document_reservation",
+            "KEY2_ZERO_CASE_PASS document_reserved_page_advance_ACK_Idle_rezero",
+            "KEY2_ZERO_CASE_PASS rebased_page_is_safely_advanceable",
+            "KEY2_ZERO_CASE_PASS busy_new_page_is_not_queued",
+            "KEY2_ZERO_CASE_PASS unsafe_new_page_is_not_queued",
+            "KEY2_ZERO_CASE_PASS simultaneous_document_commit_wins_page_request",
+            "KEY2_ZERO_CASE_PASS old_Idle_and_Hold_not_page_completion",
+            "KEY2_ZERO_CASE_PASS page_motion_missing_ok_no_replay",
+            "KEY2_ZERO_CASE_PASS page_G92_missing_ok_keeps_consumed_page",
+            "KEY2_ZERO_CASE_PASS page_status_missing_timeout_locks",
+            "KEY2_ZERO_CASE_PASS page_UART_ready_drop_keeps_old_page",
+            "KEY2_ZERO_CASE_PASS page_Alarm_never_G92",
+            "KEY2_ZERO_CASE_PASS page_Reset_never_G92",
+            "KEY2_ZERO_CASE_PASS page_KEY4_stops_without_clear",
+            "KEY2_ZERO_CASE_PASS paper_confirm_lost_ack_no_replay",
+            "KEY2_ZERO_CASE_PASS paper_confirm_KEY4_stops_before_next_line",
+            "PAPER_EJECT_PASS cases=31"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_eject\\20261118T081835_742808Z\\RESULTS.json",
+          "sha256": "7F941499D322D30C059C1F51F35E49B7736A3A21C1E05B1097AA4AD413EA522F"
+        }
+      ]
+    },
+    "paper_document": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_document\\20261118T081846_706883Z\\RESULTS.json",
+      "sha256": "46B6C731F50F824DB20DDE119871549DA57400F271DA077F72E8137F8A707795",
+      "source_sha256": {
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+        "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+        "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "01_rtl/doc_image_frontend.v": "0A9FCDD16223CB0BC917BB0E87B14B830A19110EE6FACC4FA5DF9515CD11FC4D",
+        "01_rtl/doc_stroke_planner.v": "E68C26D36AE92AEC766673D24056E88A6FC1CBFD9C61E0DA3B362CE53DF41668",
+        "01_rtl/doc_grbl_plotter_shared_candidate.v": "D93A4F0FE60E8E2B283C27D7DFD424916027345DFA924577EC00961062F31026",
+        "01_rtl/doc_machine_map.v": "9AE19EB6EF206CC508D865D6D42BE1D488CBB60217125A81682AA4CBC57BCD3D",
+        "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_document\\20261118T081846_706883Z\\document_simulation.log",
+          "sha256": "6DCB5E770E015C57CE29C4E171120A18E9568FC4DD7284304A808D3746C25DA4",
+          "pass_marker": "DOC_FRESH_KEY1_CASE_PASS early_planning_press_discarded_held_then_fresh",
+          "observed_markers": [
+            "DOC_FRESH_KEY1_CASE_PASS early_planning_press_discarded_held_then_fresh",
+            "DOC_FRESH_KEY1_CASE_PASS prepared_same_edge_as_KEY1_not_deferred",
+            "DOC_FRESH_KEY1_CASE_PASS WAIT_key_bounce_lock_no_duplicate",
+            "DOC_FRESH_KEY1_CASE_PASS cancel_same_edge_as_confirm_wins",
+            "DOC_FRESH_KEY1_CASE_PASS KEY4_same_edge_as_confirm_wins",
+            "DOC_FRESH_KEY1_CASE_PASS ethernet_cancel_during_WAIT_retains_plan",
+            "DOC_FRESH_KEY1_CASE_PASS admission_fault_and_plan_error_cannot_draw",
+            "DOC_FRESH_KEY1_CASE_PASS no_old_held_key_carries_to_next_task",
+            "DOC_FRESH_KEY1_CASE_PASS DRAW_done_same_edge_KEY1_cannot_spill_into_CNN",
+            "DOC_FRESH_KEY1_CASE_PASS ordinary_CNN_KEY1_cache_write_preserved",
+            "DOC_FRESH_KEY1_CASE_PASS PCB_KEY1_cache_write_preserved",
+            "DOC_FRESH_KEY1_CASE_PASS prior_report_does_not_block_document_KEY1",
+            "OPERATOR_DOCUMENT_PASS cases=12 checks=74"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_document\\20261118T081846_706883Z\\RESULTS.json",
+          "sha256": "46B6C731F50F824DB20DDE119871549DA57400F271DA077F72E8137F8A707795"
+        }
+      ]
+    },
+    "paper_unlimited": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_unlimited\\20261118T081851_868408Z\\RESULTS.json",
+      "sha256": "271C3893B8F488F2F35E3F6A79C3B41AC1D63084D89C9DB1103437A19689A544",
+      "source_sha256": {
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_unlimited\\20261118T081851_868408Z\\unlimited_simulation.log",
+          "sha256": "68FFACC2C2C39C2CBBFCE2FBA420465196E1BBF294640FFE9124C331DCCCD977",
+          "pass_marker": "SUSPECT_REPORT_CASE_PASS thirty_PCB_reports_cross_old_page_bottom",
+          "observed_markers": [
+            "SUSPECT_REPORT_CASE_PASS thirty_PCB_reports_cross_old_page_bottom",
+            "SUSPECT_REPORT_CASE_PASS numeric_return_limit_rejects_before_first_Gcode",
+            "SUSPECT_REPORT_CASE_PASS origin_plus_cursor_overflow_rejects_before_first_Gcode",
+            "SUSPECT_REPORT_CASE_PASS work_frame_reset_does_not_require_loading",
+            "PAPER_UNLIMITED_PASS cases=4 reports=58 numeric_return_guard origin_sum_guard reset_no_load"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\paper_unlimited\\20261118T081851_868408Z\\RESULTS.json",
+          "sha256": "271C3893B8F488F2F35E3F6A79C3B41AC1D63084D89C9DB1103437A19689A544"
+        }
+      ]
+    },
+    "no_suspect": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\no_suspect_paper\\20261118T081857_040758Z\\RESULTS.json",
+      "sha256": "D0785BC0DBE05FD5D3E8FA07823BA51D62C6859D8BD726CDCBB83F13D642B8CB",
+      "source_sha256": {
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\no_suspect_paper\\20261118T081857_040758Z\\no_suspect_paper_simulation.log",
+          "sha256": "B57D19211ACCCC6B9A10082BA109EE7AF51253C690EEF4ABECC74E63137340D4",
+          "pass_marker": "SUSPECT_REPORT_CASE_PASS initial",
+          "observed_markers": [
+            "SUSPECT_REPORT_CASE_PASS initial",
+            "SUSPECT_REPORT_CASE_PASS initial",
+            "SUSPECT_REPORT_CASE_PASS initial",
+            "SUSPECT_REPORT_CASE_PASS initial",
+            "SUSPECT_REPORT_CASE_PASS initial",
+            "NO_SUSPECT_PAPER_PASS cases=5 title_height_mm=11"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\no_suspect_paper\\20261118T081857_040758Z\\RESULTS.json",
+          "sha256": "D0785BC0DBE05FD5D3E8FA07823BA51D62C6859D8BD726CDCBB83F13D642B8CB"
+        }
+      ]
+    },
+    "write_repeat": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T081859_629783Z\\current_fixed\\RESULTS.json",
+      "sha256": "9239D49C376A492629A3B5084C1A44255F42B09DA3784FAD326F1AB9D0657B7B",
+      "source_sha256": {
+        "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73",
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T081859_629783Z\\current_fixed\\write_repeat_simulation.log",
+          "sha256": "A6997502705D98712AF87B86238878880C6E86ED18BA52AD9AD03CC1854B092F",
+          "pass_marker": "SUSPECT_REPORT_CASE_PASS actual_reporter_profile_refusal",
+          "observed_markers": [
+            "SUSPECT_REPORT_CASE_PASS actual_reporter_profile_refusal",
+            "SUSPECT_REPORT_CASE_PASS next_unique_KEY1_no_reset",
+            "SUSPECT_REPORT_CASE_PASS consecutive_unique_KEY1_normal_done",
+            "SUSPECT_REPORT_CASE_PASS busy_and_unsolicited_Hold_Idle_cannot_release_owner",
+            "SUSPECT_REPORT_CASE_PASS actual_shared_doc_formatter_owner_quiescence",
+            "SUSPECT_REPORT_CASE_PASS duplicate_report_id_refusal_then_unique",
+            "SUSPECT_REPORT_CASE_PASS Alarm_recovery_not_cleared",
+            "SUSPECT_REPORT_CASE_PASS Reset_recovery_not_cleared",
+            "SUSPECT_REPORT_CASE_PASS UART_loss_recovery_not_cleared",
+            "SUSPECT_REPORT_CASE_PASS explicit_cancel_pending_releases_owner",
+            "WRITE_REPEAT_TARGETED_PASS cases=10"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T081859_629783Z\\current_fixed\\RESULTS.json",
+          "sha256": "9239D49C376A492629A3B5084C1A44255F42B09DA3784FAD326F1AB9D0657B7B"
+        }
+      ]
+    },
+    "initial_uart": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\RESULTS.json",
+      "sha256": "3C07DBD9D35C4A7D164AC5DB5CA5C64FC0511B9DD46B677AFCD10B319EA8641F",
+      "source_sha256": {
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety0.log",
+          "sha256": "AE1A0B3416A5753F00E2484B0A85937ECE8225D6C9F573823F3B6FBD00F17675",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=0 checks=5 holds=2 queries=3 resets=1 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=0 checks=5 holds=2 queries=3 resets=1 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety1.log",
+          "sha256": "42BD5DF1859ACF79E6C5A33EF0A8F4047777697F5ECB5C573AF17C5EB97EC981",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=1 checks=5 holds=1 queries=1 resets=0 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=1 checks=5 holds=1 queries=1 resets=0 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety2.log",
+          "sha256": "600F4EC2C32BE309A7C89FDE4C3004A0ABE700923985659DCD4529E43380629D",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=2 checks=4 holds=1 queries=1 resets=0 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=2 checks=4 holds=1 queries=1 resets=0 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety3.log",
+          "sha256": "435EB190A9B347844404DEC0A25A06C4E7E7B484AD0654D9AC125960EA6E6DD0",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=3 checks=4 holds=1 queries=1 resets=0 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=3 checks=4 holds=1 queries=1 resets=0 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety4.log",
+          "sha256": "BE2C2DA72624F0ACA5914886D75885B2E1932EB1F7B5DFE56CC84DDE32803CE8",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=4 checks=6 holds=1 queries=2 resets=1 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=4 checks=6 holds=1 queries=2 resets=1 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety5.log",
+          "sha256": "069018A16A4143A2B96A47D58F83E8BC72200664EF7486BCBD538D543A02644A",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=5 checks=6 holds=1 queries=2 resets=1 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=5 checks=6 holds=1 queries=2 resets=1 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety6.log",
+          "sha256": "8A5606939CA9BEE3D2D78F917D8825DDC55721A04DD5C972C8C5DF079DA7E3D7",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=6 checks=6 holds=1 queries=2 resets=1 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=6 checks=6 holds=1 queries=2 resets=1 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety7.log",
+          "sha256": "8BBF60EE77D233A7C4249504F27B70F1B448991D296412C9F3D2D74C94014E02",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=7 checks=5 holds=1 queries=2 resets=1 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=7 checks=5 holds=1 queries=2 resets=1 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety8.log",
+          "sha256": "5B7125A734D469F80B5BA40AC4F7901C1623F307D7747F092C3078D61CB0200E",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=8 checks=4 holds=1 queries=1 resets=0 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=8 checks=4 holds=1 queries=1 resets=0 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\safety9.log",
+          "sha256": "74A0828010B3AEFAC4F3BA7B8CC5B5EA02C580C8C3C1333807E626D191042E25",
+          "pass_marker": "UART_SAFETY_REVIEW_PASS case=9 checks=4 holds=1 queries=1 resets=0 ordinary=0",
+          "observed_markers": [
+            "UART_SAFETY_REVIEW_PASS case=9 checks=4 holds=1 queries=1 resets=0 ordinary=0"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\late0.log",
+          "sha256": "BC15F93C2CF27ED8EAF0882D4EC9C874A6ED9BECF0822E09531A4F553B710FC7",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=0 send_timer=7755 status_timer=803 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=0 send_timer=7755 status_timer=803 status_state=13"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\late1.log",
+          "sha256": "1EA71B4CC347F5233BC6C1AC4DE6B2280BF61FB3CA30ACC12DCC33BB337D8002",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=1 send_timer=7755 status_timer=803 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=1 send_timer=7755 status_timer=803 status_state=13"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\late2.log",
+          "sha256": "FEC910DD50907DE067A81A9C2F9974CB5EB40852937C363B90797CD7BBA64938",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=2 send_timer=7755 status_timer=926 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=2 send_timer=7755 status_timer=926 status_state=13"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7738.log",
+          "sha256": "409ACD327AE9C4B19BBEFF1706805E239392D4CD8287E8EB12241F289A306990",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7738 status_timer=7990 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7738 status_timer=7990 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7739.log",
+          "sha256": "79FDB790A0CA50AC749A046E1D1E906EBB000B4A4954369A284A036612080E3C",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7739 status_timer=7991 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7739 status_timer=7991 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7740.log",
+          "sha256": "F9340EC06FAA9D346F4FB181A5CCCDC8E1EFFB3F094BD9E5650466F50AFD03A8",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7740 status_timer=7992 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7740 status_timer=7992 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7741.log",
+          "sha256": "3FC416BF98A603F1EF40A52A1ADAC806AC389559FE645321E7645AC0BD973AF6",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7741 status_timer=7993 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7741 status_timer=7993 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7742.log",
+          "sha256": "C8A30DBCE3E1939F6637FC060FBF2BB29420B1FE7FD2E2E73B440C0E28B7D0E6",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7742 status_timer=7994 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7742 status_timer=7994 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7743.log",
+          "sha256": "5F5097913D6AF10D02C8EB6AB03FE0C77A0AC1553072432AE18735A7063F5E2F",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7743 status_timer=7995 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7743 status_timer=7995 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7744.log",
+          "sha256": "A86C438A8F7A865E6F87694FA0A27507F8872C825E9319CBCD9760F5F1A83829",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7744 status_timer=7996 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7744 status_timer=7996 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7745.log",
+          "sha256": "226312B947356B006B2749DCD960E37D59E5CF275951807BA43F73C541A43D27",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7745 status_timer=7997 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7745 status_timer=7997 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7746.log",
+          "sha256": "D84FCE958FB93D8269397AF92BEED85B0DA5F7D2CE95F320273885BBC5AA2F45",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7746 status_timer=7998 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7746 status_timer=7998 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7747.log",
+          "sha256": "7A31B8D0D2097CD0140297EDAF9D191D317DC665623703936785B9D364EDC698",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7747 status_timer=7999 status_state=4",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7747 status_timer=7999 status_state=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7748.log",
+          "sha256": "8CAC08B69545FD6586D6D2EA4EA5B8177C11A46BB02E70D3D167C732A4C8865C",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7748 status_timer=0 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7748 status_timer=0 status_state=13"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7749.log",
+          "sha256": "7618C9444FB7BD9C68F66326F98D55B192B12F4590613BDE91E0F429C46BF6B3",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7749 status_timer=1 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7749 status_timer=1 status_state=13"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7750.log",
+          "sha256": "C0986D34480120854E66EAB266B9A361A81462298FBF1D9FC1468ED94E8FD2F3",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7750 status_timer=2 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7750 status_timer=2 status_state=13"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7751.log",
+          "sha256": "7B07E6C1BCE301A0C9A45ACF1E5B3717717151D76440ACAA966AEA31C3BBB5FA",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7751 status_timer=3 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7751 status_timer=3 status_state=13"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7752.log",
+          "sha256": "3054F607C59B6ECAA216481DB564A08216DBCB61D04F04BDB47088926C4CC204",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7752 status_timer=4 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7752 status_timer=4 status_state=13"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7753.log",
+          "sha256": "8263D1AC58EA143937E591E324E6C5C6591FB445BBD7196B31B170FC378A8D14",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7753 status_timer=5 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7753 status_timer=5 status_state=13"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\timeout7754.log",
+          "sha256": "4BF441C14010A61EE213056B9354B5B2C579D33741FA45F89D1A8CE6D3AE6E83",
+          "pass_marker": "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7754 status_timer=6 status_state=13",
+          "observed_markers": [
+            "UART_RETRY_BOUNDARY_PASS case=3 send_timer=7754 status_timer=6 status_state=13"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081904_242169Z\\RESULTS.json",
+          "sha256": "3C07DBD9D35C4A7D164AC5DB5CA5C64FC0511B9DD46B677AFCD10B319EA8641F"
+        }
+      ]
+    },
+    "idle_monitor": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\RESULTS.json",
+      "sha256": "B04DCBA78C5B4719996CF7BC2ADDCBECEDF629A91BC668879A0BFE5092ECA4FE",
+      "source_sha256": {
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case0.log",
+          "sha256": "7B4B74EDCD7307E11739F5D67E9157817B751FD7F03064200274E72F86D6A382",
+          "pass_marker": "UART_IDLE_MONITOR_PASS case=0 checks=10 queries=7",
+          "observed_markers": [
+            "UART_IDLE_MONITOR_PASS case=0 checks=10 queries=7"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case1.log",
+          "sha256": "36AF5849114312716C8D25728883FCAA285EAC9D7FACBF41F37850BD26DA9ECA",
+          "pass_marker": "UART_IDLE_MONITOR_PASS case=1 checks=6 queries=3",
+          "observed_markers": [
+            "UART_IDLE_MONITOR_PASS case=1 checks=6 queries=3"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case2.log",
+          "sha256": "309B72C7282291CD96BC901AAEDC65047447F122DE03F2515C869B255A76E506",
+          "pass_marker": "UART_IDLE_MONITOR_PASS case=2 checks=5 queries=3",
+          "observed_markers": [
+            "UART_IDLE_MONITOR_PASS case=2 checks=5 queries=3"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case3.log",
+          "sha256": "AE3A8BBD46948AA902F316C290CCC892993B22D9FF39517BC56971CE8EA3A101",
+          "pass_marker": "UART_IDLE_MONITOR_PASS case=3 checks=5 queries=3",
+          "observed_markers": [
+            "UART_IDLE_MONITOR_PASS case=3 checks=5 queries=3"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case4.log",
+          "sha256": "EC3F2099E907424C53CDE705CA3E9046BFD4D3B0207069521CA89A0D4E7D25FE",
+          "pass_marker": "UART_IDLE_MONITOR_PASS case=4 checks=5 queries=3",
+          "observed_markers": [
+            "UART_IDLE_MONITOR_PASS case=4 checks=5 queries=3"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case5.log",
+          "sha256": "90D5B6A0808865C7DBB87BC3DB8EA571292AF129DB4FA9E82FFE841A77649BA7",
+          "pass_marker": "UART_IDLE_MONITOR_PASS case=5 checks=6 queries=3",
+          "observed_markers": [
+            "UART_IDLE_MONITOR_PASS case=5 checks=6 queries=3"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case6.log",
+          "sha256": "3720F88E1A9EBDE6EDFFB3B399634D446BDCDEAB1BDDC2291F8E08F8B48EB6EF",
+          "pass_marker": "UART_IDLE_MONITOR_PASS case=6 checks=6 queries=60",
+          "observed_markers": [
+            "UART_IDLE_MONITOR_PASS case=6 checks=6 queries=60"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\case7.log",
+          "sha256": "C4D07C112F9A6485DA7CC10552FB9D57198B2F26B7D385373DDF87A15776C13D",
+          "pass_marker": "UART_IDLE_MONITOR_PASS case=7 checks=6 queries=4",
+          "observed_markers": [
+            "UART_IDLE_MONITOR_PASS case=7 checks=6 queries=4"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\idle_monitor\\20261118T081706_207039Z\\RESULTS.json",
+          "sha256": "B04DCBA78C5B4719996CF7BC2ADDCBECEDF629A91BC668879A0BFE5092ECA4FE"
+        }
+      ]
+    },
+    "startup_retry": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\RESULTS.json",
+      "sha256": "3816F32FBCCB1328C03E129C1706E041820B7763F55D58AF923073106D98377B",
+      "source_sha256": {
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case0.log",
+          "sha256": "F0584330A5956BE235CEDAA7CD2784E1F341395A130BE91C038B04F28BCA7329",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=0 checks=5",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=0 checks=5"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case1.log",
+          "sha256": "B0BCDA4F11068310389FB386B472887F9C5C9E3EE0D86342E6FDCA113EFB4C0D",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=1 checks=4",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=1 checks=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case2.log",
+          "sha256": "9C718035F1DFB616DB33046461E6B111EC442F6CCAB83BEE35B14C2E0FDC14D9",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=2 checks=4",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=2 checks=4"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case3.log",
+          "sha256": "344AB5C9C52A21FDED9AF4C4754DB788BC076C645ABA7F16CDDDC7949063CF07",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=3 checks=1",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=3 checks=1"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case4.log",
+          "sha256": "A9CFAAEFBCE73454241302CB88CF8EB18EA1871932AEC13B7C8E335ACD7659ED",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=4 checks=1",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=4 checks=1"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case5.log",
+          "sha256": "C74BEE38281820544E9B85A2AF6AE968A04CB5BA2D3FB1273FEC3C93463FEDDC",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=5 checks=1",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=5 checks=1"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case6.log",
+          "sha256": "020F3326A9BA21527BA3B53CA16EDEE5203E90D6648679187C3CFCC322AD203D",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=6 checks=1",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=6 checks=1"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case7.log",
+          "sha256": "100E08323E40FE8FE04F88EB47C5A2FB3DF3F45C8FFD3CBB93C9922189AF63E0",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=7 checks=1",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=7 checks=1"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case8.log",
+          "sha256": "0DF6A0299F8E835BEBD57198AA9092E35194DACEF10FF53558946AFF20D6E1A0",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=8 checks=3",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=8 checks=3"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\case9.log",
+          "sha256": "606F1B1A8F290AC746A313F52794C7939BFA355D5262810CD1B3296C7DC84AA7",
+          "pass_marker": "UART_STARTUP_RETRY_PASS case=9 checks=3",
+          "observed_markers": [
+            "UART_STARTUP_RETRY_PASS case=9 checks=3"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\startup_retry\\20261118T082249_714319Z\\RESULTS.json",
+          "sha256": "3816F32FBCCB1328C03E129C1706E041820B7763F55D58AF923073106D98377B"
+        }
+      ]
+    },
+    "integrated_idle_uart": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081706_568631Z\\RESULTS.json",
+      "sha256": "614FB41034CE5960D955859697E2F502F523155C3C508DF7EFC3ADF2F44961C4",
+      "source_sha256": {
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+        "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+        "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081706_568631Z\\integrated_idle_uart_normal_boot_simulation.log",
+          "sha256": "F62548CCA675835404CA9D04266DEAD3F1E50E3539FD09D5B659FA11A86AC06D",
+          "pass_marker": "PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session",
+          "observed_markers": [
+            "PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session",
+            "PASS CHAIN initial safe retries do not leak recovery locks into task owners",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN long idle keeps actual top path ready with only read-only status probes",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN before first write framing fault fences command bytes",
+            "PASS CHAIN before first write silence never clears fault",
+            "PASS CHAIN before first write idle receive-only fault creates no task/recovery owner lock",
+            "PASS CHAIN before first write sends no motion, hold or reset while requalifying",
+            "PASS CHAIN before first write recovers from fresh serial Idle without KEY3 or KEY4",
+            "PASS CHAIN before first write recovery does not replay G-code or reset controller",
+            "PASS CHAIN CNN result arms KEY1 before first report",
+            "PASS CHAIN CNN first exactly one final ACK completion",
+            "PASS CHAIN CNN first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN first releases quiescent shared UART owner",
+            "PASS CHAIN CNN first does not hold/reset after normal completion",
+            "PASS CHAIN CNN cached current result re-arms KEY1 after done",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN between CNN jobs framing fault fences command bytes",
+            "PASS CHAIN between CNN jobs silence never clears fault",
+            "PASS CHAIN between CNN jobs idle receive-only fault creates no task/recovery owner lock",
+            "PASS CHAIN between CNN jobs sends no motion, hold or reset while requalifying",
+            "PASS CHAIN between CNN jobs recovers from fresh serial Idle without KEY3 or KEY4",
+            "PASS CHAIN between CNN jobs recovery does not replay G-code or reset controller",
+            "PASS CHAIN CNN second exactly one final ACK completion",
+            "PASS CHAIN CNN second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN second releases quiescent shared UART owner",
+            "PASS CHAIN CNN second does not hold/reset after normal completion",
+            "PASS CHAIN two CNN KEY1 jobs accepted without reset",
+            "PASS CHAIN PCB first exactly one final ACK completion",
+            "PASS CHAIN PCB first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB first releases quiescent shared UART owner",
+            "PASS CHAIN PCB first does not hold/reset after normal completion",
+            "PASS CHAIN PCB consumes one inference without replay",
+            "PASS CHAIN PCB second exactly one final ACK completion",
+            "PASS CHAIN PCB second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB second releases quiescent shared UART owner",
+            "PASS CHAIN PCB second does not hold/reset after normal completion",
+            "PASS CHAIN new PCB result re-arms second KEY1 without reset",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN before KEY2 framing fault fences command bytes",
+            "PASS CHAIN before KEY2 silence never clears fault",
+            "PASS CHAIN before KEY2 idle receive-only fault creates no task/recovery owner lock",
+            "PASS CHAIN before KEY2 sends no motion, hold or reset while requalifying",
+            "PASS CHAIN before KEY2 recovers from fresh serial Idle without KEY3 or KEY4",
+            "PASS CHAIN before KEY2 recovery does not replay G-code or reset controller",
+            "PASS CHAIN KEY2 sequence 0 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 0 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 0 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 0 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 1 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 1 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 1 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 1 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 2 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 2 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 2 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 2 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 3 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 3 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 3 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 3 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 4 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 4 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 4 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 4 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 5 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 5 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 5 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 5 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 6 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 6 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 6 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 6 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 7 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 7 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 7 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 7 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 8 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 8 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 8 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 8 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 9 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 9 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 9 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 9 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 10 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 10 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 10 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 10 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 11 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 11 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 11 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 11 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN twelve consecutive physical KEY2 jobs admitted without reset",
+            "INTEGRATED_IDLE_UART_PASS cases=16 checks=107 lines=1071 key1=4 key2=12"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081706_568631Z\\integrated_idle_uart_boot_framing_noise_simulation.log",
+          "sha256": "006C89D676BB59A424E97ACD207435B948A6C667694FA8CE3AA9C2F3179DEA75",
+          "pass_marker": "PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session",
+          "observed_markers": [
+            "PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session",
+            "PASS CHAIN initial safe retries do not leak recovery locks into task owners",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN long idle keeps actual top path ready with only read-only status probes",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN before first write framing fault fences command bytes",
+            "PASS CHAIN before first write silence never clears fault",
+            "PASS CHAIN before first write idle receive-only fault creates no task/recovery owner lock",
+            "PASS CHAIN before first write sends no motion, hold or reset while requalifying",
+            "PASS CHAIN before first write recovers from fresh serial Idle without KEY3 or KEY4",
+            "PASS CHAIN before first write recovery does not replay G-code or reset controller",
+            "PASS CHAIN CNN result arms KEY1 before first report",
+            "PASS CHAIN CNN first exactly one final ACK completion",
+            "PASS CHAIN CNN first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN first releases quiescent shared UART owner",
+            "PASS CHAIN CNN first does not hold/reset after normal completion",
+            "PASS CHAIN CNN cached current result re-arms KEY1 after done",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN between CNN jobs framing fault fences command bytes",
+            "PASS CHAIN between CNN jobs silence never clears fault",
+            "PASS CHAIN between CNN jobs idle receive-only fault creates no task/recovery owner lock",
+            "PASS CHAIN between CNN jobs sends no motion, hold or reset while requalifying",
+            "PASS CHAIN between CNN jobs recovers from fresh serial Idle without KEY3 or KEY4",
+            "PASS CHAIN between CNN jobs recovery does not replay G-code or reset controller",
+            "PASS CHAIN CNN second exactly one final ACK completion",
+            "PASS CHAIN CNN second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN second releases quiescent shared UART owner",
+            "PASS CHAIN CNN second does not hold/reset after normal completion",
+            "PASS CHAIN two CNN KEY1 jobs accepted without reset",
+            "PASS CHAIN PCB first exactly one final ACK completion",
+            "PASS CHAIN PCB first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB first releases quiescent shared UART owner",
+            "PASS CHAIN PCB first does not hold/reset after normal completion",
+            "PASS CHAIN PCB consumes one inference without replay",
+            "PASS CHAIN PCB second exactly one final ACK completion",
+            "PASS CHAIN PCB second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB second releases quiescent shared UART owner",
+            "PASS CHAIN PCB second does not hold/reset after normal completion",
+            "PASS CHAIN new PCB result re-arms second KEY1 without reset",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN before KEY2 framing fault fences command bytes",
+            "PASS CHAIN before KEY2 silence never clears fault",
+            "PASS CHAIN before KEY2 idle receive-only fault creates no task/recovery owner lock",
+            "PASS CHAIN before KEY2 sends no motion, hold or reset while requalifying",
+            "PASS CHAIN before KEY2 recovers from fresh serial Idle without KEY3 or KEY4",
+            "PASS CHAIN before KEY2 recovery does not replay G-code or reset controller",
+            "PASS CHAIN KEY2 sequence 0 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 0 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 0 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 0 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 1 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 1 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 1 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 1 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 2 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 2 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 2 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 2 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 3 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 3 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 3 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 3 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 4 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 4 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 4 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 4 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 5 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 5 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 5 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 5 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 6 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 6 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 6 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 6 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 7 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 7 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 7 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 7 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 8 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 8 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 8 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 8 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 9 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 9 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 9 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 9 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 10 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 10 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 10 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 10 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 11 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 11 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 11 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 11 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN twelve consecutive physical KEY2 jobs admitted without reset",
+            "INTEGRATED_IDLE_UART_PASS cases=16 checks=107 lines=1071 key1=4 key2=12"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081706_568631Z\\integrated_idle_uart_late_controller_simulation.log",
+          "sha256": "44E02EAD87A6A783E9353FA3CFE1DFB9EB00D3546E500267E4E081E67CED46C3",
+          "pass_marker": "PASS CHAIN late controller remains fenced during initial silence",
+          "observed_markers": [
+            "PASS CHAIN late controller remains fenced during initial silence",
+            "PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session",
+            "PASS CHAIN initial safe retries do not leak recovery locks into task owners",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN long idle keeps actual top path ready with only read-only status probes",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN before first write framing fault fences command bytes",
+            "PASS CHAIN before first write silence never clears fault",
+            "PASS CHAIN before first write idle receive-only fault creates no task/recovery owner lock",
+            "PASS CHAIN before first write sends no motion, hold or reset while requalifying",
+            "PASS CHAIN before first write recovers from fresh serial Idle without KEY3 or KEY4",
+            "PASS CHAIN before first write recovery does not replay G-code or reset controller",
+            "PASS CHAIN CNN result arms KEY1 before first report",
+            "PASS CHAIN CNN first exactly one final ACK completion",
+            "PASS CHAIN CNN first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN first releases quiescent shared UART owner",
+            "PASS CHAIN CNN first does not hold/reset after normal completion",
+            "PASS CHAIN CNN cached current result re-arms KEY1 after done",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN between CNN jobs framing fault fences command bytes",
+            "PASS CHAIN between CNN jobs silence never clears fault",
+            "PASS CHAIN between CNN jobs idle receive-only fault creates no task/recovery owner lock",
+            "PASS CHAIN between CNN jobs sends no motion, hold or reset while requalifying",
+            "PASS CHAIN between CNN jobs recovers from fresh serial Idle without KEY3 or KEY4",
+            "PASS CHAIN between CNN jobs recovery does not replay G-code or reset controller",
+            "PASS CHAIN CNN second exactly one final ACK completion",
+            "PASS CHAIN CNN second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN second releases quiescent shared UART owner",
+            "PASS CHAIN CNN second does not hold/reset after normal completion",
+            "PASS CHAIN two CNN KEY1 jobs accepted without reset",
+            "PASS CHAIN PCB first exactly one final ACK completion",
+            "PASS CHAIN PCB first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB first releases quiescent shared UART owner",
+            "PASS CHAIN PCB first does not hold/reset after normal completion",
+            "PASS CHAIN PCB consumes one inference without replay",
+            "PASS CHAIN PCB second exactly one final ACK completion",
+            "PASS CHAIN PCB second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB second releases quiescent shared UART owner",
+            "PASS CHAIN PCB second does not hold/reset after normal completion",
+            "PASS CHAIN new PCB result re-arms second KEY1 without reset",
+            "PASS CHAIN fresh idle monitor certifies quiescent actual top path",
+            "PASS CHAIN before KEY2 framing fault fences command bytes",
+            "PASS CHAIN before KEY2 silence never clears fault",
+            "PASS CHAIN before KEY2 idle receive-only fault creates no task/recovery owner lock",
+            "PASS CHAIN before KEY2 sends no motion, hold or reset while requalifying",
+            "PASS CHAIN before KEY2 recovers from fresh serial Idle without KEY3 or KEY4",
+            "PASS CHAIN before KEY2 recovery does not replay G-code or reset controller",
+            "PASS CHAIN KEY2 sequence 0 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 0 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 0 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 0 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 1 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 1 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 1 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 1 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 2 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 2 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 2 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 2 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 3 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 3 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 3 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 3 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 4 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 4 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 4 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 4 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 5 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 5 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 5 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 5 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 6 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 6 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 6 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 6 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 7 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 7 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 7 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 7 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 8 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 8 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 8 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 8 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 9 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 9 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 9 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 9 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 10 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 10 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 10 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 10 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 11 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 11 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 11 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 11 does not hold/reset after normal completion",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN twelve consecutive physical KEY2 jobs admitted without reset",
+            "INTEGRATED_IDLE_UART_PASS cases=16 checks=108 lines=1071 key1=4 key2=12"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\integrated_idle_uart\\20261118T081706_568631Z\\RESULTS.json",
+          "sha256": "614FB41034CE5960D955859697E2F502F523155C3C508DF7EFC3ADF2F44961C4"
+        }
+      ]
+    },
+    "font_flow": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\RESULTS.json",
+      "sha256": "8DE6BE722D85A5A2145EB90CD367A8382B195C4A7D1902D138999B53D6A8B237",
+      "source_sha256": {
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow0_simulation.log",
+          "sha256": "B2CA373458E8B4D72A62AE57CF4FC9CD008397F3096AE5F9AC2378F028A927CC",
+          "pass_marker": "FONT_FLOW_GCODE_PASS cases=12",
+          "observed_markers": [
+            "FONT_FLOW_GCODE_PASS cases=12"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow1_simulation.log",
+          "sha256": "BF06ECAF78F153E3F642B94092CBBA7A93A243BE11A9ABABBA0388D918EE5A0A",
+          "pass_marker": "FONT_FLOW_GCODE_PASS cases=12",
+          "observed_markers": [
+            "FONT_FLOW_GCODE_PASS cases=12"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\RESULTS.json",
+          "sha256": "8DE6BE722D85A5A2145EB90CD367A8382B195C4A7D1902D138999B53D6A8B237"
+        }
+      ]
+    },
+    "maintenance": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T082005_755433Z\\RESULTS.json",
+      "sha256": "3E5737F3F3664465E25281C2EB78AB73B51045272AB9AC43227C06030D808105",
+      "source_sha256": {
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T082005_755433Z\\unlimited_simulation.log",
+          "sha256": "C898810192F28C2298D9412F329304140567C18ECF594681353A1B1B00EEBA2C",
+          "pass_marker": "SUSPECT_REPORT_CASE_PASS unlimited_eject_load_confirmation_lifecycle",
+          "observed_markers": [
+            "SUSPECT_REPORT_CASE_PASS unlimited_eject_load_confirmation_lifecycle",
+            "SUSPECT_REPORT_CASE_PASS unlimited_eject_lost_ACK_no_replay",
+            "SUSPECT_REPORT_CASE_PASS unlimited_load_lost_ACK_no_replay",
+            "UNLIMITED_MAINTENANCE_PASS cases=3"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\unlimited_maintenance\\20261118T082005_755433Z\\RESULTS.json",
+          "sha256": "3E5737F3F3664465E25281C2EB78AB73B51045272AB9AC43227C06030D808105"
+        }
+      ]
+    },
+    "center80": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T081744_238732Z\\RESULTS.json",
+      "sha256": "D1BDEE80D1098E674DE2F78399860F31F93393C84FFDA46C97D4FE24EC08F6F8",
+      "source_sha256": {
+        "01_rtl/doc_image_frontend.v": "0A9FCDD16223CB0BC917BB0E87B14B830A19110EE6FACC4FA5DF9515CD11FC4D"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T081744_238732Z\\crop_pattern.log",
+          "sha256": "FE510A8F8334719C77EB873DF3D3CAC03BAC88053BD24056CCD602C38B3788AD",
+          "pass_marker": "DOC_CENTER80_PASS center=1 outputs=102400 requests=589824 checks=102400 cancels=2",
+          "observed_markers": [
+            "DOC_CENTER80_PASS center=1 outputs=102400 requests=589824 checks=102400 cancels=2"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T081744_238732Z\\crop_outerblack.log",
+          "sha256": "A8C411D2D8ACC95BF5DBFD4AF660662BB94D1E3733734A385952002F8CB02574",
+          "pass_marker": "DOC_CENTER80_PASS center=1 outputs=102400 requests=589824 checks=102400 cancels=2",
+          "observed_markers": [
+            "DOC_CENTER80_PASS center=1 outputs=102400 requests=589824 checks=102400 cancels=2"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T081744_238732Z\\default_fullframe.log",
+          "sha256": "5B100E2B3C631218C4678D6D43B472F104D89568EEA0BC3F0DF2E8883C5A5ACC",
+          "pass_marker": "DOC_CENTER80_PASS center=0 outputs=102400 requests=956416 checks=102400 cancels=0",
+          "observed_markers": [
+            "DOC_CENTER80_PASS center=0 outputs=102400 requests=956416 checks=102400 cancels=0"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T081744_238732Z\\RESULTS.json",
+          "sha256": "D1BDEE80D1098E674DE2F78399860F31F93393C84FFDA46C97D4FE24EC08F6F8"
+        }
+      ]
+    },
+    "production_doc_feed": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\production_doc_feed\\20261118T081801_374854Z\\RESULTS.json",
+      "sha256": "E446BF474DDD78C6EFF371E5882F9EE5C649D70608EA55E54F6BC79C8FC80E98",
+      "source_sha256": {
+        "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+        "01_rtl/doc_image_frontend.v": "0A9FCDD16223CB0BC917BB0E87B14B830A19110EE6FACC4FA5DF9515CD11FC4D",
+        "01_rtl/doc_stroke_planner.v": "E68C26D36AE92AEC766673D24056E88A6FC1CBFD9C61E0DA3B362CE53DF41668",
+        "01_rtl/doc_stroke_bram.v": "F2D1C4B8A23449645D5B28DF504C07ACCF471525D752E9F7F1A153F30FAA5729",
+        "01_rtl/doc_machine_map.v": "9AE19EB6EF206CC508D865D6D42BE1D488CBB60217125A81682AA4CBC57BCD3D",
+        "01_rtl/doc_grbl_plotter_shared_candidate.v": "D93A4F0FE60E8E2B283C27D7DFD424916027345DFA924577EC00961062F31026",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\production_doc_feed\\20261118T081801_374854Z\\masked_control\\simulation.log",
+          "sha256": "4CE33DEA3BE4185DB1CBE39AD2C65DC668B214E89EFDBC9B3992B7E136160870",
+          "pass_marker": "DOC_KEY1_INTEGRATED_PASS points=5 lines=13 queries=1 requests=956416 cycles=30205135",
+          "observed_markers": [
+            "DOC_KEY1_INTEGRATED_PASS points=5 lines=13 queries=1 requests=956416 cycles=30205135"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\production_doc_feed\\20261118T081801_374854Z\\production\\simulation.log",
+          "sha256": "5CE0CC610B167A9124D36C355C3C7AE59E982EFB6751999EA2C8F0DDFAF5C8C9",
+          "pass_marker": "DOC_KEY1_INTEGRATED_PASS points=5 lines=13 queries=1 requests=589824 cycles=27587040",
+          "observed_markers": [
+            "DOC_KEY1_INTEGRATED_PASS points=5 lines=13 queries=1 requests=589824 cycles=27587040"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\production_doc_feed\\20261118T081801_374854Z\\RESULTS.json",
+          "sha256": "E446BF474DDD78C6EFF371E5882F9EE5C649D70608EA55E54F6BC79C8FC80E98"
+        }
+      ]
+    },
+    "continuous_cnn_key1": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\continuous_cnn_key1\\20261118T081926_105324Z\\RESULTS.json",
+      "sha256": "FB872069B9C46E846FECA7C29854F46E5330C20CFBD2E2977F7D5E96AE25D8E6",
+      "source_sha256": {
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+        "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+        "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\continuous_cnn_key1\\20261118T081926_105324Z\\continuous_key1_simulation.log",
+          "sha256": "1268D1F49662CC66BE6C2DB61167624F90D5E3FF2341E9F377DB0E7E9D476016",
+          "pass_marker": "PASS history clear deasserts with stable ordinary session",
+          "observed_markers": [
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS idle short press accepts CNN write",
+            "PASS accepted CNN snapshot contains original name confidence centre",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS CNN inference already busy at press begins",
+            "PASS accepted CNN snapshot contains original name confidence centre",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS new CNN busy interval during held KEY1",
+            "PASS accepted CNN snapshot contains original name confidence centre",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS new ordinary frame during held KEY1",
+            "PASS accepted CNN snapshot contains original name confidence centre",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS valid new result during held key preserves admission",
+            "PASS accepted CNN snapshot contains original name confidence centre",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS physical release generated one short pulse",
+            "PASS valid completion coincident with short pulse",
+            "PASS accepted CNN snapshot contains original name confidence centre",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS no-target while held cancels write and clears cache",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS physical release generated one short pulse",
+            "PASS no-target simultaneous with release cannot print stale result",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS mode change while held cannot defer CNN write",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS explicit cancel during held KEY1 cannot write",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS session change during held KEY1 clears stale result",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS real recovery interval during held KEY1 cancels eligibility",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS another report during held KEY1 cancels eligibility",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS fresh unsampled preview not falsely frozen",
+            "PASS capable UI requires coherent sampled preview",
+            "PASS history clear deasserts with stable ordinary session",
+            "PASS seeded locked CNN result can start",
+            "PASS long report KEY1 does not print or start paper load"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\continuous_cnn_key1\\20261118T081926_105324Z\\RESULTS.json",
+          "sha256": "FB872069B9C46E846FECA7C29854F46E5330C20CFBD2E2977F7D5E96AE25D8E6"
+        }
+      ]
+    },
+    "continuous_cnn_uart": {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\continuous_cnn_uart\\20261118T081341_110117Z\\RESULTS.json",
+      "sha256": "73FED8F8ACC169E5DD1C370858C9E40DC6ADBF326D047B08CD7A6AD91B79B9DB",
+      "source_sha256": {
+        "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+        "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+        "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+        "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+        "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+        "01_rtl/grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+        "01_rtl/grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+        "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+        "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+        "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+        "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+        "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+        "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+        "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+        "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+        "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "01_rtl/secondary_top.v": "60507A597FE4695D91D28CB63864DF9D606F0BA985C754968044D4EDBD86AD73",
+        "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+        "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+        "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1"
+      },
+      "logs": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\continuous_cnn_uart\\20261118T081341_110117Z\\tb_common_write_completion_simulation.log",
+          "sha256": "DA33B2E9AFD37F06817D7DCCB8E46E55D3545F401F20702E5CE362275C33A520",
+          "pass_marker": "PASS CHAIN CNN result arms KEY1 before first report",
+          "observed_markers": [
+            "PASS CHAIN CNN result arms KEY1 before first report",
+            "PASS CHAIN CNN inference remains active through UART report completion",
+            "PASS CHAIN CNN live inference cannot corrupt accepted report snapshot",
+            "PASS CHAIN CNN first exactly one final ACK completion",
+            "PASS CHAIN CNN first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN first releases quiescent shared UART owner",
+            "PASS CHAIN CNN first issues no normal-completion status/stop/reset",
+            "PASS CHAIN CNN cached current result re-arms KEY1 after done",
+            "PASS CHAIN CNN inference remains active through UART report completion",
+            "PASS CHAIN CNN live inference cannot corrupt accepted report snapshot",
+            "PASS CHAIN CNN second exactly one final ACK completion",
+            "PASS CHAIN CNN second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN second releases quiescent shared UART owner",
+            "PASS CHAIN CNN second issues no normal-completion status/stop/reset",
+            "PASS CHAIN two CNN KEY1 jobs accepted without reset",
+            "PASS CHAIN PCB first exactly one final ACK completion",
+            "PASS CHAIN PCB first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB first releases quiescent shared UART owner",
+            "PASS CHAIN PCB first issues no normal-completion status/stop/reset",
+            "PASS CHAIN PCB consumes one inference without replay",
+            "PASS CHAIN PCB second exactly one final ACK completion",
+            "PASS CHAIN PCB second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB second releases quiescent shared UART owner",
+            "PASS CHAIN PCB second issues no normal-completion status/stop/reset",
+            "PASS CHAIN new PCB result re-arms second KEY1 without reset",
+            "PASS CHAIN KEY2 first exactly one final ACK completion",
+            "PASS CHAIN KEY2 first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 first releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 first issues no normal-completion status/stop/reset",
+            "PASS CHAIN KEY2 second exactly one final ACK completion",
+            "PASS CHAIN KEY2 second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 second releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 second issues no normal-completion status/stop/reset",
+            "PASS CHAIN consecutive physical KEY2 jobs admitted without reset",
+            "PASS CHAIN second KEY2 preserves accumulated paper use and advances 35mm from local Y10",
+            "PASS CHAIN production CNN PCB KEY2 F5000 XY, F1200 Z and F7000 travel checked",
+            "PRODUCTION_REPORT_FEED_PASS xy=411 z=252 travel=127",
+            "CONTINUOUS_CNN_ACK_CHAIN_PASS cases=6 checks=36 lines=931 key1=4 key2=2"
+          ]
+        },
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\continuous_cnn_uart\\20261118T081341_110117Z\\tb_common_write_uart_simulation.log",
+          "sha256": "63E567303D246C91EAAFB06037E51741EE5720F69B5F735E2E4A8AB7C84F08AC",
+          "pass_marker": "PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session",
+          "observed_markers": [
+            "PASS CHAIN actual UART boot guard establishes hold-reset-fresh-Idle session",
+            "PASS CHAIN CNN result arms KEY1 before first report",
+            "PASS CHAIN CNN inference remains active through UART report completion",
+            "PASS CHAIN CNN live inference cannot corrupt accepted report snapshot",
+            "PASS CHAIN CNN first exactly one final ACK completion",
+            "PASS CHAIN CNN first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN first releases quiescent shared UART owner",
+            "PASS CHAIN CNN first issues no normal-completion status/stop/reset",
+            "PASS CHAIN CNN cached current result re-arms KEY1 after done",
+            "PASS CHAIN CNN inference remains active through UART report completion",
+            "PASS CHAIN CNN live inference cannot corrupt accepted report snapshot",
+            "PASS CHAIN CNN second exactly one final ACK completion",
+            "PASS CHAIN CNN second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN CNN second releases quiescent shared UART owner",
+            "PASS CHAIN CNN second issues no normal-completion status/stop/reset",
+            "PASS CHAIN two CNN KEY1 jobs accepted without reset",
+            "PASS CHAIN PCB first exactly one final ACK completion",
+            "PASS CHAIN PCB first clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB first releases quiescent shared UART owner",
+            "PASS CHAIN PCB first issues no normal-completion status/stop/reset",
+            "PASS CHAIN PCB consumes one inference without replay",
+            "PASS CHAIN PCB second exactly one final ACK completion",
+            "PASS CHAIN PCB second clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN PCB second releases quiescent shared UART owner",
+            "PASS CHAIN PCB second issues no normal-completion status/stop/reset",
+            "PASS CHAIN new PCB result re-arms second KEY1 without reset",
+            "PASS CHAIN KEY2 sequence 0 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 0 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 0 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 0 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 1 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 1 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 1 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 1 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 2 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 2 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 2 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 2 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 3 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 3 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 3 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 3 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 4 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 4 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 4 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 4 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 5 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 5 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 5 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 5 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 6 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 6 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 6 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 6 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 7 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 7 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 7 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 7 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 8 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 8 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 8 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 8 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 9 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 9 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 9 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 9 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 10 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 10 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 10 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 10 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN KEY2 sequence 11 exactly one final ACK completion",
+            "PASS CHAIN KEY2 sequence 11 clears all top/report/KEY1/KEY2 task locks",
+            "PASS CHAIN KEY2 sequence 11 releases quiescent shared UART owner",
+            "PASS CHAIN KEY2 sequence 11 issues no normal-completion status/stop/reset",
+            "PASS CHAIN paper budget stays absent after KEY2 G92",
+            "PASS CHAIN twelve consecutive physical KEY2 jobs admitted without reset",
+            "CONTINUOUS_CNN_PHYSICAL_UART_PASS cases=16 checks=87 lines=1071 key1=4 key2=12"
+          ]
+        }
+      ],
+      "checked_receipts": [
+        {
+          "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\continuous_cnn_uart\\20261118T081341_110117Z\\RESULTS.json",
+          "sha256": "73FED8F8ACC169E5DD1C370858C9E40DC6ADBF326D047B08CD7A6AD91B79B9DB"
+        }
+      ]
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "bitgen_allowed": false
+}

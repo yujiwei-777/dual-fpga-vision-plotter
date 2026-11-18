@@ -1,0 +1,73 @@
+[
+  {
+    "label": "write_repeat_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\write_repeat_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\write_repeat_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "write_repeat_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\write_repeat_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\secondary_top.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_reporter_shared_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_vector_font_rom.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\write_repeat_lint.log",
+    "log_sha256": "31756C7BDFEB8F7FC4BA7CA100F4CEA6EF098A73D58AB6ABC56809962FE7380E",
+    "warnings": []
+  },
+  {
+    "label": "write_repeat_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "write_repeat_lib",
+      "tb_write_repeat",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\write_repeat_simulation.log",
+    "log_sha256": "7D9C43C1667BE11653279529EA55FE68857412CBC0FFBAEF5583D20AFDE54F53",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2685) [TFMPC] - Too few port connections for 'reporter'.  Expected 117, found 106.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_airwalk_active'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_valid'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_lines'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'I_airwalk'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'S_idle_done'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_maintenance'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_result'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_generation'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_full'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_remaining_cmm'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(63): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_used_cmm'.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(166): (vopt-2685) [TFMPC] - Too few port connections for 'transport'.  Expected 92, found 91.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\write_repeat_targeted\\20261118T075108_660985Z\\current_fixed\\tb_write_repeat.sv(166): (vopt-2718) [TFMPC] - Missing connection for port 'R_idle_done'."
+    ]
+  }
+]

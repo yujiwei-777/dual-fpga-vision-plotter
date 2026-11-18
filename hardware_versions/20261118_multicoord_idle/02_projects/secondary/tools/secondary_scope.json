@@ -1,0 +1,16 @@
+{
+  "allowed_production_changes": [
+    "01_rtl/secondary_top.v",
+    "01_rtl/grbl_uart.v",
+    "01_rtl/grbl_reporter_shared_candidate.v"
+  ],
+  "expected_changed_sources": [
+    "01_rtl/secondary_top.v",
+    "01_rtl/grbl_uart.v",
+    "01_rtl/grbl_reporter_shared_candidate.v"
+  ],
+  "new_production_sources": [],
+  "notes": [
+    "KEY2 admission during ordinary CNN; safe idle query/requalification; startup-only full handshake retry; exact-endpoint font continuity. No Alarm/moving/active-job fault auto-clear."
+  ]
+}

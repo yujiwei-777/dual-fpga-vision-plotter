@@ -1,0 +1,34 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 15:50:55 on Nov 18,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\paper_document\20261118T075055_513085Z\document_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\paper_document\20261118T075055_513085Z\document_interfaces.sv D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\secondary_top.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\doc_copy_pipeline_shared_candidate.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\tests\paper_eject\tb_operator_document.sv 
+-- Compiling module pll
+-- Compiling module PLL
+-- Compiling module secondary_ddr_wrapper
+-- Compiling module reset_sync
+-- Compiling module hxa_ddr_store
+-- Compiling module uiudp_stack
+-- Compiling module vision_pixel_reader
+-- Compiling module vision_pipeline
+-- Compiling module hxa_config_store
+-- Compiling module hxa_secondary_link
+-- Compiling module grbl_uart_port
+-- Compiling module grbl_reporter_shared_candidate
+-- Compiling module grbl_shared_transport_candidate
+-- Compiling module rgmii_interface
+-- Compiling module doc_image_frontend
+-- Compiling module doc_stroke_planner
+-- Compiling module doc_grbl_plotter_shared_candidate
+-- Compiling module doc_machine_map
+-- Compiling module PH1P_LOGIC_BUFG
+-- Compiling module secondary_top
+-- Compiling module secondary_key3_board_reset
+-- Compiling module grbl_key2_test_ctrl
+-- Compiling module grbl_key1_job_guard
+-- Compiling module secondary_key1_action_ctrl
+-- Compiling module doc_copy_pipeline_shared_candidate
+-- Compiling module tb_operator_document
+
+Top level modules:
+	tb_operator_document
+End time: 15:50:55 on Nov 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

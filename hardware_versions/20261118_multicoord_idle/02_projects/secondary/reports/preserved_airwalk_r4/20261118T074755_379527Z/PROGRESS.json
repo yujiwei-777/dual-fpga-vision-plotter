@@ -1,0 +1,365 @@
+[
+  {
+    "label": "pcb_core22",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_core.py",
+      "--run",
+      "E:\\codex_secondary_plotter_idle_preflight_20261118_r1"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\pcb_core22.log",
+    "log_sha256": "255B08C8B785F68F0BAD8AFC45287C2FE94D0820F8DF86967F6E400C7F7E1300",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial\\r6_core_20261118T074755_470651Z\\RESULT.json",
+        "sha256": "8EDABCE7AE6A93FF78EC9A41C106D2A2E7C15F7EAE76FB57FD34E83A47E91FE2",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "01_rtl/pcb_fullboard_spatial96.v": "284B6BF9BB426AD2F04B2BCD0BA2679CFD2DD476C480439306A018D06EF429AB",
+          "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+          "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+          "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+          "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+          "model/suspect/mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+          "model/suspect/CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "cnn_publication",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_publication.py",
+      "--run",
+      "E:\\codex_secondary_plotter_idle_preflight_20261118_r1"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\cnn_publication.log",
+    "log_sha256": "00B5DFA6759C5021B28E98A55FCC6F8A41E79721B0954F090F526D4C1E5951EA",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial\\r6_publication_20261118T074803_972100Z\\RESULTS.json",
+        "sha256": "435D85AA31EF3FE361613F85DAB0F20D02577689AB7B7FAE1C554651F9B2C15C",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "model/suspect/confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85",
+          "01_rtl/vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+          "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+          "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+          "01_rtl/pcb_ccl_binary_core.v": "BDE72E98AFD671EF20CECA19803DB307B341FC90CDC55C1986AEC8EB4097D4A7",
+          "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+          "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+          "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+          "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "plotter",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_current.py",
+      "--run",
+      "E:\\codex_secondary_plotter_idle_preflight_20261118_r1",
+      "plotter",
+      "--output",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_plotter"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\plotter.log",
+    "log_sha256": "7C4140A3C5D7AC0659166F6E8EDD8F04CE16606C52CA14A55F5F035E5CBDBDE4",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_plotter\\RESULTS.json",
+        "sha256": "E0859381C2CD75FEDA274C53249AFAC6F8A4D268D2B440825F9D3E6E71A50C99",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+          "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+          "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "hxa_fifo_crc",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_current.py",
+      "--run",
+      "E:\\codex_secondary_plotter_idle_preflight_20261118_r1",
+      "hxa",
+      "--output",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_hxa_fifo_crc"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\hxa_fifo_crc.log",
+    "log_sha256": "C255796D93D64CC4C7BF8A91CE6D08701A1D4A0894FF77AC60B7A3A121086577",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_hxa_fifo_crc\\RESULTS.json",
+        "sha256": "4236C0A364B3847B8AE1B090CDC68C325406891173166903AFE634B1C0C38744",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "shared/rtl/hxa_packet_codec.v": "CD67459EF75CD81D326B336A7A28ECBE17E5ED89D0FCCE07898FE4BE41FEC19E",
+          "shared/rtl/hxa_packet_rx_fifo4.v": "FBF3B42DF3C5C98F3C77F81C2D0EEE082241CF968CB219CF50BCEF545FC1D65F",
+          "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "reader",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_current.py",
+      "--run",
+      "E:\\codex_secondary_plotter_idle_preflight_20261118_r1",
+      "reader",
+      "--output",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\reader.log",
+    "log_sha256": "A910903EDB13129CFAB2D30C9AC20E2299E20EA8DE18553F9247C36976EA7615",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_reader\\RESULTS.json",
+        "sha256": "20D63F3AA53AC0E06333302077188ED6F82B93B8476CBDB753B62157547A72FC",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "01_rtl/secondary_top.v": "95C702CB77AF07E038BD887A159C3FC109E152C2F5B93D51D33C050966A579F6",
+          "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+          "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+          "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "key3",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_current.py",
+      "--run",
+      "E:\\codex_secondary_plotter_idle_preflight_20261118_r1",
+      "key3",
+      "--output",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_key3"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\key3.log",
+    "log_sha256": "0302FDC6B31F28986D9CFB3E235DCF4AE2EBAF7C8ABED76FF72D9429228A7AB1",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_key3\\RESULTS.json",
+        "sha256": "87A29A1F756719518C4102C3A25019AE5964604DC25592DB219AC91E88FFA4DF",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "01_rtl/secondary_top.v": "95C702CB77AF07E038BD887A159C3FC109E152C2F5B93D51D33C050966A579F6",
+          "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "key1_snapshot",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\operator_ui\\run_key1_retained_snapshot.py"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\key1_snapshot.log",
+    "log_sha256": "41A119C2F9AFC01C53E100EA6E53CA2793C93CB73698C8120FDB9214C3EE00DE",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_key1\\20261118T074831_882354Z\\RESULTS.json",
+        "sha256": "00B56CE953C0152E2910CD708EED1850052C29E4CC25804B2816A966B6EE9E17",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "01_rtl/secondary_ddr_wrapper.v": "D049C96DB0B4EA5A51DD787CC63C1A8382F876BBB90CBE6E4BBA1C0744C40359",
+          "01_rtl/hxa_ddr_store.v": "067F81B19F40E7F975439E9AE967346C96BE28B031AC28590DAFC20D1A06C0D2",
+          "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+          "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+          "01_rtl/doc_copy_pipeline_shared_candidate.v": "60E82008CD1AA7FB5EF53625996595C9E40A5FDA727C5934B76B4201B82EA723",
+          "01_rtl/grbl_uart.v": "BA17369436A6BB294B7F76ECBE20E2A72C67B06CAA3745F5D63E57A41B892EE6",
+          "01_rtl/grbl_reporter_shared_candidate.v": "D42D74A8DF7048CF6D762983F9A9154F372CBB3314CAE909E2328969421CE316",
+          "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+          "shared/rtl/hxa_secondary_link.v": "586F12ED553D4F7156275CA14C7D5089A10B17E09AB0795A786ACBC257DD340C",
+          "shared/rtl/hxa_config_store.v": "9962584F97731ECCD8600065EA37FB01A3BE38C5F4CC9208318F0EB361974359",
+          "main/user_source/hdl_source/reset_sync.v": "C7DCDC35D1D30EE06E3E1E2E130771E9A27A455ECF156A2367F06770380676A0",
+          "main/user_source/hdl_source/ethernet/pll.v": "AB6CFBD2DF83F4EF82B23BAC0B7EA8F37F2E6A7DDFE35DC5CC55A2C39F7F29F9",
+          "main/user_source/ip_source/PLL/PLL.v": "1137946F04514E440B6C6CFD6695715DD6AE48D213AF0C7314932B9F5E671037",
+          "main/user_source/hdl_source/ethernet/uiudp_stack.v": "84300DBA3EB5B5C1B9F8D7C84558F6931C9862132196B8E4B032490C240AA911",
+          "main/user_source/hdl_source/ethernet/rgmii_interface.v": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A",
+          "01_rtl/secondary_top.v": "95C702CB77AF07E038BD887A159C3FC109E152C2F5B93D51D33C050966A579F6"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "key2_consecutive",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_doc_key1_key2_regression.py",
+      "--suspect-center"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\key2_consecutive.log",
+    "log_sha256": "8DC995DA30DB939D5E66745E9C8AF1646E0737FB122F45B12295663DFFC5F22E",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_key1\\key2_center\\20261118T074836_540834Z\\RESULT.json",
+        "sha256": "014738286D07EFF3F16781104274CD99E2B85CBA3F9BA1335E21BD91AED2A334",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "01_rtl/grbl_reporter_shared_candidate.v": "D42D74A8DF7048CF6D762983F9A9154F372CBB3314CAE909E2328969421CE316",
+          "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+          "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+          "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+          "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+          "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+          "01_rtl/secondary_top.v": "95C702CB77AF07E038BD887A159C3FC109E152C2F5B93D51D33C050966A579F6"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "report_suspect12",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_suspect_report_regression.py",
+      "--center-input"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\report_suspect12.log",
+    "log_sha256": "F75B34DCBBD4B002BC1024C3B4E2B3CDF774A286D39B0A67418A4FC4B57769F5",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\suspect_trial_report_center\\20261118T074839_408045Z\\RESULT.json",
+        "sha256": "C35CF192CCC73BBB4BFB0854A2DDEEE959DB2F299C3A228D36DD26F3D3F01849",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "01_rtl/grbl_reporter_shared_candidate.v": "D42D74A8DF7048CF6D762983F9A9154F372CBB3314CAE909E2328969421CE316",
+          "01_rtl/grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+          "01_rtl/grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+          "01_rtl/grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+          "01_rtl/grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+          "model/suspect/report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+          "01_rtl/secondary_top.v": "95C702CB77AF07E038BD887A159C3FC109E152C2F5B93D51D33C050966A579F6"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "ordinary27",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_current.py",
+      "--run",
+      "E:\\codex_secondary_plotter_idle_preflight_20261118_r1",
+      "ordinary",
+      "--output",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\ordinary27.log",
+    "log_sha256": "7333F83EC0F0FB09CBC4B82D3FBC8428D4780CF4601EA4C1B0847730563774CF",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\RESULTS.json",
+        "sha256": "D11121CBF0165A6722FE3918A0993FA3A622C4349E942D9D975DE6F97F22816D",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+          "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+          "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+          "model/export/quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+          "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+          "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+          "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3"
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "label": "pcb_pipeline_adapter_sharehold",
+    "status": "PASS",
+    "returncode": 0,
+    "command": [
+      "D:\\conda\\python.exe",
+      "-B",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_current.py",
+      "--run",
+      "E:\\codex_secondary_plotter_idle_preflight_20261118_r1",
+      "pipeline",
+      "adapter",
+      "sharehold",
+      "--output",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold"
+    ],
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_airwalk_r4\\20261118T074755_379527Z\\pcb_pipeline_adapter_sharehold.log",
+    "log_sha256": "71E382D6A0F36AB89D39223876320B398978906EBF3F93C04621A78CEF4DE4BE",
+    "receipts": [
+      {
+        "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\RESULTS.json",
+        "sha256": "80E4F71EA7EF944950327F85B519ECE2EC168A1A638DB2BD65FF1DF05CE0B6B6",
+        "status": "PASS",
+        "bound_current_production_sources": {
+          "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+          "01_rtl/edge_roi_ccl_shared_pcb_candidate.v": "308F986B85584C50B327E7C1CC65295F4EA61CAA9B9A3933B940DE56E3F5FC36",
+          "01_rtl/vision_ccl_pcb_candidate.v": "40DA504B421F8FE3F3B23154A53C5A3F2923C5B427E3FCCB838093FAEA3D128B",
+          "01_rtl/pcb_ccl_binary_core.v": "BDE72E98AFD671EF20CECA19803DB307B341FC90CDC55C1986AEC8EB4097D4A7",
+          "01_rtl/pcb_fullboard_spatial96.v": "284B6BF9BB426AD2F04B2BCD0BA2679CFD2DD476C480439306A018D06EF429AB",
+          "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+          "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+          "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+          "01_rtl/cnn_result_stabilizer.v": "5413EDA970B9E68830977F372053EF8AEC920EA610331F17D56A006C29488D33",
+          "01_rtl/vision_color_stats.v": "CA29646696B3A91526D42805FFE2963E2DD6DC9AF15E044F90248D115CBEE60A",
+          "01_rtl/vision_pixel_reader.v": "AF15FF4F13653E50F5B461FECCCFDF2E0018BFD46AADA5EACB4D3BBA396E1074",
+          "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+          "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+          "model/experiments/conv4_4/biases.mem": "88F1FC576BB24DC35FA58B5620F09CFBA7B61E600B5E92DE2CAD40DA2080B2D0",
+          "model/experiments/conv4_4/weights.mem": "92A3BBFD2192CC3D74A5BD3A893A34FCC3D45AE727DBEB8DEFAC56033634874B",
+          "model/suspect/mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+          "model/suspect/CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+          "model/suspect/confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85"
+        }
+      }
+    ],
+    "error": null
+  }
+]

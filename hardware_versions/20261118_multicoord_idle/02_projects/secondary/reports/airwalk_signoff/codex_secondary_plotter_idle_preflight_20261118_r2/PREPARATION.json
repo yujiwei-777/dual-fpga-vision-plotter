@@ -1,0 +1,27 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "run": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2",
+  "source_manifest": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json",
+    "sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31"
+  },
+  "readonly_template": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\airwalk_signoff\\codex_secondary_plotter_idle_preflight_20261118_r2\\PREPARED_READONLY.tcl",
+    "sha256": "8E8D5703BF85E7A515CBD49D8B2B44462168087E87EF5F42F429D3883B7BF407"
+  },
+  "bitgen_template": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\airwalk_signoff\\codex_secondary_plotter_idle_preflight_20261118_r2\\PREPARED_BITGEN.tcl",
+    "sha256": "209038DF713A0A3B39AC24A46B2C3DB84298B676CE28BBE1A77E7B0CD881EC8F"
+  },
+  "pending": [
+    "Fresh successful syn/place/route invocation receipts",
+    "Current routed timing/resource gate",
+    "Final eight named DRC checkers",
+    "Read-only DB import and unchanged AL/DB/source hashes",
+    "Fresh placed-site device capacity and mapped CDC/reset/DDR proof",
+    "Source-bound functional gate including preserved/document-integrated/total-ACK receipts"
+  ],
+  "artifact_name": "dual_fpga_secondary_20261118_plotter_idle_preflight_diagnostic.bit",
+  "bitgen_allowed": false,
+  "hardware_status": "NOT_RUN"
+}

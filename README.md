@@ -6,15 +6,14 @@
 
 识别结果可以显示在屏幕上，也可以写成纸面报告；文档模式直接把图像笔迹转换为路径，不做 OCR。报告使用单线矢量字模，支持一次 X 镜像、按内容高度换行和纸张维护。已接受的写字任务由副板持有，板间断网不自动取消或重放。
 
-## 当前版本：2026-11-13
+## 当前版本：2026-11-18
 
-主板 **SUSPECT 黄色框与点状中心准线**，副板 **KEY1 上纸确认、KEY2 退纸与连续矢量书写**。配套工程为 main_pcb_suspect_center_20261113 与 secondary_pcb_airwalk_stroke_cont_20261113。构建通过，当前配对实板状态 **NOT_RUN**。
+主板最多四个目标分别显示名称、分数和中心坐标，随识别显示一起开关。副板修复后台 CNN 阻挡 KEY2，增加启动与安全空闲串口保护；报告相连转角连续落笔，书写进给保持 5000 mm/min。
 
-- [下载可直接转发的源码工程包，约 17.8 MB](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.13-suspect-paper/vision_inspection_plotter_suspect_paper_20261113.zip)：含两板 bit、源工程、模型、约束、仿真材料与离线使用页。
-- [完整构建归档，约 226 MB](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.13-suspect-paper/vision_inspection_plotter_suspect_paper_20261113_complete.zip)：另含成功构建数据库与原始日志。
-- [版本说明与验证范围](docs/SUSPECT_PAPER_20261113.md) · [接线与操作](docs/HARDWARE_AND_CONTROL.md)
+- [下载可直接转发的源码工程包，约 25.2 MiB](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.18-multicoord-idle/vision_plotter_multicoord_idle_20261118.zip)：含配套 bit、源工程、模型、约束、仿真材料、构建报告和中文使用页。
+- [版本说明与验证范围](docs/MULTICOORD_IDLE_20261118.md) · [接线与操作](docs/HARDWARE_AND_CONTROL.md)
 
-解压后打开 `00_开始使用.html`。工程开发前使用包内 `prepare_projects.py` 生成新副本，避免历史绝对路径指回原构建位置。
+解压后打开 `00_开始使用.html`；开发前使用 `prepare_projects.py` 生成新副本。配套工程为 main_cnn_multicoord_20261118 与 secondary_plotter_idle_preflight_20261118，两板构建通过，实板 **NOT_RUN**。
 
 ## 系统结构
 
@@ -33,7 +32,7 @@
 
 ![MIPI、ISP、DDR、HXA1、CNN 和 GRBL 模块接口](docs/assets/pdf_20261102/architecture-modules.png)
 
-这些图保留文档中的概念性连接，具体 RTL 支路、模式及按键操作见[当前版本说明](docs/SUSPECT_PAPER_20261113.md)。
+这些图保留文档中的概念性连接，具体 RTL 支路、模式及按键操作见[当前版本说明](docs/MULTICOORD_IDLE_20261118.md)。
 
 </details>
 
@@ -66,12 +65,12 @@ V1.1 算法详解版，覆盖架构、图像处理、CNN、PCB、文档描摹、
 
 1. **双 FPGA 分工与板间闭环。** 主板负责采集、显示和任务调度，副板负责推理、路径规划和执行器通信；以太网传输图像及结果，UART 逐行等待 GRBL 应答。
 2. **普通 CNN 与 PCB 独立处理。** 普通目标采用 64×64 RGB8、9 类轻量网络与连续确认，输出名称、原图中心坐标和实际 margin；PCB 先做 CCL 候选定位，再以 96×96 Y8 执行 GOOD/BAD 判定，低证据结果为 REVIEW。
-3. **图像笔迹直接转机器路径。** 320×180 网格按 4×4 源块判定，经过骨架提取、端点优先和分叉拆笔生成中心线；保持整帧比例，无需纸张四角定位。
+3. **图像笔迹直接转机器路径。** 320×180 网格按 4×4 源块判定，经过骨架提取、端点优先和分叉拆笔生成中心线；取原图中央宽高各 80%，外围留空，不拉伸，无需纸张四角定位。
 4. **识别与书写状态分离。** KEY1 接纳锁存结果或准备路径；断网不重复启动。串口异常、安全停止与复位使用独立状态保护，已发运动命令不盲目重发。
-5. **纸面报告与纸张维护。** 单线矢量字体、相邻同笔段连续书写、统一镜像与页面预算；KEY2 长按退纸、KEY1 长按确认新纸，维护只动 Y，保留 X 基准。
+5. **纸面报告与纸张维护。** 单线矢量字体、相邻同笔段连续书写、统一镜像与自动换行；有限纸面额度关闭，由操作者管理剩余纸面，KEY2 长按退纸、KEY1 长按确认新纸，维护只动 Y，保留 X 基准。
 6. **显示与成像处理。** 图像风格化采用传统定点算子；显示支路保边空间滤波配合曝光/增益/白平衡统计控制。主板保留运动叠加、左下 PCB 状态与按需中文操作面板。
 
-SUSPECT 为疑似区域提示，点状准线对应原图区域中心，不等同于精确缺陷分割；CNN margin 不是校准概率。文档几何中心线不等同于汉字标准笔顺。
+PCB 是整板辅助二分类，不能作为精确缺陷分割；CNN margin 不是校准概率。文档几何中心线不等同于汉字标准笔顺。
 
 ## 模式与按键
 
@@ -86,7 +85,7 @@ SUSPECT 为疑似区域提示，点状准线对应原图区域中心，不等同
 
 ## 工程与校验
 
-当前源码位于 [hardware_versions/20261113_suspect_paper](hardware_versions/20261113_suspect_paper/)。两板器件 PH1P35MDG324、speed -3；构建工具 Tang Dynasty Release 2026.1 SP2 / 6.2.200067。
+当前源码位于 [hardware_versions/20261118_multicoord_idle](hardware_versions/20261118_multicoord_idle/)。两板器件 PH1P35MDG324、speed -3；构建工具 Tang Dynasty Release 2026.1 SP2 / 6.2.200067。
 
 ```text
 01_bit/                 当前配套 bit
@@ -96,20 +95,20 @@ SUSPECT 为疑似区域提示，点状准线对应原图区域中心，不等同
 04_verification/        配对身份及验证范围
 ```
 
-在仓库根目录运行 `python -B verify_release.py` 校验各历史归档；在当前版本目录运行 `python -B verify_package.py` 只校验本版。校验不需要 FPGA 工具。开发前按[工程说明](hardware_versions/20261113_suspect_paper/03_docs/工程打开与开发.md)创建适配路径的独立副本。
+在仓库根目录运行 `python -B verify_release.py` 校验各历史归档；在当前版本目录运行 `python -B verify_package.py` 只校验本版。校验不需要 FPGA 工具。开发前按[工程说明](hardware_versions/20261118_multicoord_idle/03_docs/工程打开与开发.md)创建适配路径的独立副本。
 
 | 板卡 | Setup WNS | Hold WNS | TNS | Slice | ERAM | DSP |
 | --- | --- | --- | --- | --- | --- | --- |
-| SUSPECT 主板 | +0.383 ns | +0.020 ns | 0 | 93.6463% | 89.8148% | 92.50% |
-| 纸张维护副板 | +0.007 ns | +0.020 ns | 0 | 91.0162% | 79.6296% | 40.00% |
+| 多目标坐标主板 | +0.314 ns | +0.020 ns | 0 | 93.38% | 89.81% | 92.50% |
+| 空闲通信保护副板 | +0.006 ns | +0.020 ns | 0 | 89.99% | 78.70% | 40.00% |
 
-共 550 项冻结输入与指定 bit 已核对；原始诊断、物理位置核验、最终 DRC、只读 reimport 和 bitgen 证据保留。副板 setup 余量仅 7 ps；静态构建通过不代替实板 DDR、机械与功能测试。[详细验证范围](docs/SUSPECT_PAPER_20261113.md#构建与测试边界)。
+共 543 项冻结输入与指定 bit 已核对；最终资源、时序、DRC、只读 reimport 和 bitgen 证据保留，交付包解压、路径适配及 20 项定向仿真通过。副板 setup 余量仅 6 ps；实板仍为 NOT_RUN。[详细验证范围](docs/MULTICOORD_IDLE_20261118.md#构建与实板状态)。
 
 ## 历史版本与资料
 
-[2026-11-03 显示滤波与 KEY1 报告](docs/DISPLAY_NOISE_KEY1_20261103.md) · [CCL 二分类](docs/CCL_BINARY_RETRAINED_20261103.md) · [pose7](docs/POSE7_AUTO_20261102.md) · [2026-11-01](hardware/)
+[2026-11-13 SUSPECT 与纸张维护](docs/SUSPECT_PAPER_20261113.md) · [2026-11-03 显示滤波与 KEY1 报告](docs/DISPLAY_NOISE_KEY1_20261103.md) · [CCL 二分类](docs/CCL_BINARY_RETRAINED_20261103.md) · [pose7](docs/POSE7_AUTO_20261102.md) · [2026-11-01](hardware/)
 
-图像处理算法见 [风格化、运动检测与成像调节](docs/VERSION_SCOPE.md#图像风格化运动检测与成像调节)；历史实测结论见 [验证记录](docs/VALIDATION.md)，不自动适用于后续 bit。
+当前风格环为 16 档（保留原编号 0–4、6–14、17、18）。历史图像处理算法见 [风格化、运动检测与成像调节](docs/VERSION_SCOPE.md#图像风格化运动检测与成像调节)；历史实测结论见 [验证记录](docs/VALIDATION.md)，不自动适用于后续 bit。
 
 ## 版权与使用
 

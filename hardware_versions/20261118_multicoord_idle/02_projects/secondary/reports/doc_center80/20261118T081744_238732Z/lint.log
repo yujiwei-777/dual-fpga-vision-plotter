@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 16:17:44 on Nov 18,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\doc_center80\20261118T081744_238732Z\rtl_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\doc_image_frontend.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\tests\doc_center80\tb_doc_center80.sv 
+-- Compiling module doc_image_frontend
+-- Compiling module tb_doc_center80
+
+Top level modules:
+	tb_doc_center80
+End time: 16:17:44 on Nov 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

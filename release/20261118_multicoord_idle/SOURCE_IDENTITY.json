@@ -1,0 +1,33 @@
+{
+  "hardware_manifest_sha256": "B1B6A018B910CE6DD73834E546E4F690F13E41C9BF72C3C5096343BBD05FA471",
+  "projects": [
+    {
+      "board": "main",
+      "source": "main_cnn_multicoord_20261118",
+      "build": "E:/codex_main_cnn_multicoord_20261118_r1",
+      "entry": "01_rtl/imgq_gain_m/main/td_project_display_noise_v8/camera_to_dsi_display_720p60_cnn_multibox.al",
+      "bit": "dual_fpga_main_20261118_cnn_multicoord_diagnostic.bit",
+      "bit_sha256": "52E2A1E8F2FC0B58873BBEE897E4D2F01BDABB1624AD9D98F38E19718DA66718",
+      "manifest_sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+      "directory": "02_projects/main",
+      "frozen_files": 244,
+      "hardware_status": "NOT_RUN"
+    },
+    {
+      "board": "secondary",
+      "source": "secondary_plotter_idle_preflight_20261118",
+      "build": "E:/codex_secondary_plotter_idle_preflight_20261118_r2",
+      "entry": "runs/syn_1/secondary_cnn_multibox.al",
+      "bit": "dual_fpga_secondary_20261118_plotter_idle_preflight_diagnostic.bit",
+      "bit_sha256": "E34B64D98152F4D15B06E995021CFDF82DAE9E1EA9DFF33BAA5420135F32A201",
+      "manifest_sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+      "directory": "02_projects/secondary",
+      "frozen_files": 299,
+      "hardware_status": "NOT_RUN"
+    }
+  ],
+  "hardware_acceptance": "NOT_RUN",
+  "source_archive": "vision_plotter_multicoord_idle_20261118.zip",
+  "release_tag": "v2026.11.18-multicoord-idle",
+  "rtl_models_constraints_bits_unchanged": true
+}

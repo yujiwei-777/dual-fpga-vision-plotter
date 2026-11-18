@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "timing_ns": {
+    "SWNS": 0.006,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19093,
+      "total": 21216,
+      "percent": 89.9934012066365,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 85,
+      "total": 108,
+      "percent": 78.70370370370371,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0,
+      "strict_limit_percent": 95
+    }
+  },
+  "failures": []
+}
+{
+  "passed": true,
+  "timing_ns": {
+    "SWNS": 0.006,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19093,
+      "total": 21216,
+      "percent": 89.9934012066365,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 85,
+      "total": 108,
+      "percent": 78.70370370370371,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0,
+      "strict_limit_percent": 95
+    }
+  },
+  "failures": []
+}
+{
+  "status": "PASS_CURRENT_PHYSICAL_SIGNOFF",
+  "checks": {
+    "synthesis_logic": true,
+    "timing": true,
+    "area": true,
+    "placed_sites": true,
+    "check_design": true,
+    "check_io": true,
+    "check_plb": true,
+    "drc": true,
+    "readonly": true,
+    "timing_checks": true,
+    "ddr_clock": true,
+    "clock_warnings": true,
+    "cdc_mapping": true,
+    "cdc_effective_delays": true,
+    "readonly_timing_matches_route": true
+  }
+}
+{
+  "status": "PASS_CURRENT_IMPLEMENTATION_SIGNOFF",
+  "static_audit": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\airwalk_signoff\\codex_secondary_plotter_idle_preflight_20261118_r2\\STATIC_AUDIT.json",
+    "sha256": "CA3BF41F4E4ED78945239B7BEBBB1929C71DFCCA999635D7DE4BF0829A37F124"
+  },
+  "route_review": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\airwalk_signoff\\codex_secondary_plotter_idle_preflight_20261118_r2\\ROUTE_GATE_REVIEW.json",
+    "sha256": "CE4CC1CE7B9BA2FEB1C1773A1FB4E23891625F4E5AC97C6FF482FB315B51CE31"
+  },
+  "physical_review": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\signoff\\readonly\\PHYSICAL_REVIEW.json",
+    "sha256": "AB36E70A70D4E02DDF3712C666DEB7E09EF99C8737B07EC296D04E33F508FA7E"
+  },
+  "warning_review": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\airwalk_signoff\\codex_secondary_plotter_idle_preflight_20261118_r2\\IMPLEMENTATION_WARNING_REVIEW.json",
+    "sha256": "297D24989EBFC10F495681D8BAA86D7D6D1B86938AA035188DA0F951955C6349"
+  },
+  "retained_critical_warnings": [
+    {
+      "phase": "syn",
+      "line": 1084,
+      "code": "SYN-6024",
+      "severity": "CRITICAL-WARNING",
+      "stage": "SYN-1001 : Stage 2.2 | Map IO",
+      "text": "SYN-6024 CRITICAL-WARNING: MapIO rule -- ODDR \"u_rgmii/rgmii_txc_ddr\" not have rst or rst is const or ASYNCRST is DISABLE, this may lead PAD tx data out of sync with other PAD. Please consider rewriting code in ../../main/user_source/hdl_source/ethernet/rgmii_interface.v(129).",
+      "disposition": "RETAINED_UNCHANGED_RGMII_ODDR_WARNING",
+      "unchanged_source": {
+        "relative": "main/user_source/hdl_source/ethernet/rgmii_interface.v",
+        "sha256": "D3F0587D20B68AF4E49CDC548BEA74F8C3A82D32933E785CE67A2F78B84BC54A"
+      }
+    }
+  ],
+  "source_manifest": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json",
+    "sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31"
+  },
+  "routed_database": {
+    "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\phy_1\\secondary_cnn_multibox_pr.db",
+    "sha256": "B7874B37804140991131843DC5DA6E0330A2428F70861AAD612EDA289A629B0A"
+  },
+  "bitgen_allowed": false,
+  "hardware_status": "NOT_RUN"
+}

@@ -1,0 +1,23 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 16:02:15 on Nov 18,2026
+vlog -sv -work rtl_lib "+incdir+E:\codex_main_cnn_multicoord_20261118_r1\01_rtl\imgq_gain_m\main\user_source\hdl_source" E:\codex_main_cnn_multicoord_20261118_r1\01_rtl\imgq_gain_m\main\user_source\hdl_source\reset_sync.v E:\codex_main_cnn_multicoord_20261118_r1\01_rtl\imgq_gain_m\main\user_source\hdl_source\doc_copy_overlay.v E:\codex_main_cnn_multicoord_20261118_r1\01_rtl\imgq_gain_m\main\user_source\hdl_source\hxa_multibox_overlay.v E:\codex_main_cnn_multicoord_20261118_r1\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_operator_decimal_snapshot.v E:\codex_main_cnn_multicoord_20261118_r1\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v E:\codex_main_cnn_multicoord_20261118_r1\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v E:\codex_main_cnn_multicoord_20261118_r1\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source\hx_result_select.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source\hdmi_mixer.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\reports\center_integration\20261118T080211_500344Z\control_hx_result_select.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\reports\center_integration\20261118T080211_500344Z\control_hdmi_mixer.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source\design_top_wrapper.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\reports\center_integration\20261118T080211_500344Z\tb_suspect_center.sv 
+-- Compiling module reset_sync
+-- Compiling module doc_copy_overlay
+-- Compiling module hxa_multibox_overlay
+-- Compiling module osd_operator_decimal_snapshot
+-- Compiling module osd_compact_panel
+-- Compiling module merged_panel_tokens
+-- Compiling module osd_compact_font_rom
+-- Compiling module operator_ui_text
+-- Compiling module hx_result_select
+-- Compiling module hdmi_mixer
+-- Compiling module hx_result_select_control
+-- Compiling module hdmi_mixer_control
+-- Compiling module design_top_wrapper
+-- Compiling module tb_suspect_center
+
+Top level modules:
+	design_top_wrapper
+	tb_suspect_center
+End time: 16:02:15 on Nov 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

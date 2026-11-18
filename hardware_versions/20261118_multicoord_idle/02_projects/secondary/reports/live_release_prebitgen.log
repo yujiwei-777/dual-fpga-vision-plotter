@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "timing_ns": {
+    "SWNS": 0.006,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19093,
+      "total": 21216,
+      "percent": 89.9934012066365,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 85,
+      "total": 108,
+      "percent": 78.70370370370371,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0,
+      "strict_limit_percent": 95
+    }
+  },
+  "failures": []
+}
+{
+  "status": "PASS_CURRENT_PHYSICAL_SIGNOFF",
+  "checks": {
+    "synthesis_logic": true,
+    "timing": true,
+    "area": true,
+    "placed_sites": true,
+    "check_design": true,
+    "check_io": true,
+    "check_plb": true,
+    "drc": true,
+    "readonly": true,
+    "timing_checks": true,
+    "ddr_clock": true,
+    "clock_warnings": true,
+    "cdc_mapping": true,
+    "cdc_effective_delays": true,
+    "readonly_timing_matches_route": true
+  }
+}
+{
+  "status": "PASS_CURRENT_PREBITGEN_GATE",
+  "source_manifest_sha256": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+  "routed_database_sha256": "B7874B37804140991131843DC5DA6E0330A2428F70861AAD612EDA289A629B0A",
+  "implementation": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\airwalk_signoff\\codex_secondary_plotter_idle_preflight_20261118_r2\\IMPLEMENTATION_SIGNOFF.json",
+    "sha256": "9F94B31947BD2987D0E7521E1477AEBC01F45989FC198AA3BDC3E287FAED0A0A"
+  },
+  "functional_gate": {
+    "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\airwalk_signoff\\codex_secondary_plotter_idle_preflight_20261118_r2\\FUNCTIONAL_GATE.json",
+    "sha256": "F8585A0C532974B3155237AB4AFF9F26F355BACBA38AD6D862A09C3021C4A664"
+  },
+  "toolchain": [
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\signoff_airwalk.py",
+      "sha256": "D06FF2DEE0F91DF38CC49B9BB931155400C7E18D4AC697E023C9BE26EE47690F"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\build_airwalk.py",
+      "sha256": "4BC261D67D164645B9D95779A84FA2CB5FFB635894F415B4410D84D99593FA30"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\build_opt.py",
+      "sha256": "7D95E17AAE0A2321E12E7E15855FC34FC73D3318C10A7340C0C711AEDB34890F"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\signoff_doc_key1_confirm.py",
+      "sha256": "A72322D40262A313237919D8B9C2B488C1D70AD874CA2090DA006541CAD33075"
+    },
+    {
+      "path": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\doc_key1_confirm_strict_checks.py",
+      "sha256": "8D17080B7843C7806AEFD06788A1460AC0B0264189AE7C7FBDCE86FDFF02953E"
+    },
+    {
+      "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\tools\\td_release_audit.py",
+      "sha256": "72B08AAF0EF99A53C53635AF5F6E11A12178AE39FB217838165225CFF40B4DA1"
+    },
+    {
+      "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\tools\\binary_source_audit_config.json",
+      "sha256": "0E2919329F4C62C7E7CE16ACBE6B706E43DD0F4F3C6E9330E7D1ED1E0215B2CE"
+    },
+    {
+      "path": "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\tools\\physical_capacity\\validate_device_capacity.py",
+      "sha256": "16B7496C54FB97F2B9B0746F83A740B04ADF5D04194E6E8A7F7F7D04A9CAEBD2"
+    }
+  ],
+  "artifact_name": "dual_fpga_secondary_20261118_plotter_idle_preflight_diagnostic.bit",
+  "bitgen_allowed": true,
+  "hardware_status": "NOT_RUN"
+}

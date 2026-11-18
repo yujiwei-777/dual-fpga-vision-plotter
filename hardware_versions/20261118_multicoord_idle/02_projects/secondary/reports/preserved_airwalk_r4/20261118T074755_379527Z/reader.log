@@ -1,0 +1,5 @@
+PASS reader/reader_mailbox_vlib
+PASS reader/reader_mailbox_lint
+PASS reader/reader_mailbox_simulation
+reader: PASS
+CURRENT_SUITE_OUTPUT D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\retained_20261118T074755_379527Z_reader

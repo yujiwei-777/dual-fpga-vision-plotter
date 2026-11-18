@@ -1,0 +1,15 @@
+{
+  "step": "compile",
+  "returncode": 0,
+  "command": [
+    "E:/model/win64/vlog.exe",
+    "-sv",
+    "-work",
+    "rtl_lib",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_packet_codec.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\shared\\rtl\\hxa_main_link.v",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tests\\dynamic_osd\\tb_type21_maintenance.sv"
+  ],
+  "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\regression_controls\\20261118T080211_500344Z\\type21_maintenance\\compile.log",
+  "log_sha256": "BF975471DA8984CE3540C8663DB4B18D33A44E9E03743A205F9F4978D89FFD6F"
+}

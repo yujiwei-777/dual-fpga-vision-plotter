@@ -1,0 +1,15 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 16:01:55 on Nov 18,2026
+vlog -sv -lint -work rtl_lib "+incdir+D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source" D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_panel.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source\osd_compact_font_rom.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source\operator_ui_text.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source\design_top_wrapper.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\reports\cnn_panel_validation\20261118T080154_952795Z\tb_cnn_panel_hidden.sv 
+-- Compiling module osd_compact_panel
+-- Compiling module merged_panel_tokens
+-- Compiling module osd_compact_font_rom
+-- Compiling module operator_ui_text
+-- Compiling module design_top_wrapper
+-- Compiling module tb_cnn_panel_hidden
+
+Top level modules:
+	design_top_wrapper
+	tb_cnn_panel_hidden
+End time: 16:01:55 on Nov 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

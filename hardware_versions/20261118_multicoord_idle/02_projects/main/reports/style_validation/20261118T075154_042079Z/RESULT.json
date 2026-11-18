@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "tests": {
+    "controls": {
+      "status": "PASS",
+      "marker": "STYLE_REVISION_CONTROLS_PASS",
+      "steps": [
+        {
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\tb_style_revision_controls\\vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\tb_style_revision_controls\\compile.log",
+          "sha256": "A9E9AA03B999EC9311D093F978E8274F770E84D98664FC21BBB8D02B4C3B06A4"
+        },
+        {
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\tb_style_revision_controls\\simulation.log",
+          "sha256": "EC3CBD31BF4268053874B165DBE8F2233D232522FD6462BEE55AF9C074F84124"
+        }
+      ]
+    },
+    "cartoon": {
+      "status": "PASS",
+      "marker": "STYLE_REVISION_CARTOON_PASS",
+      "steps": [
+        {
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\tb_style_revision_cartoon\\vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\tb_style_revision_cartoon\\compile.log",
+          "sha256": "BEA37AF401E7DC77D8E0A0942E1E1432FD226B7587C30873D55909D85AADE4C3"
+        },
+        {
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\tb_style_revision_cartoon\\simulation.log",
+          "sha256": "1A65F83B49BED85B12527278C0B83A67513191CBBACA3D1FECC4381A8EC3F2E3"
+        }
+      ]
+    },
+    "flow": {
+      "status": "PASS",
+      "marker": "STYLE_REVISION_FLOW_PASS",
+      "steps": [
+        {
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\tb_style_revision_flow\\vlib.log",
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\tb_style_revision_flow\\compile.log",
+          "sha256": "247683AFCD4919D037E999214E2EB5491040238744861137B5B3D322FB4B2A68"
+        },
+        {
+          "exit_code": 0,
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\tb_style_revision_flow\\simulation.log",
+          "sha256": "B27926447352A4010A726961A4EAB72E07C8E0243616BA7DCDFD99133A8D21A7"
+        }
+      ]
+    }
+  },
+  "inputs": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tools\\run_style_validation.py": "155B89EA011B2C7CAB93390DFC3553F64E6EC7DAFA9222CE9CA070F075FC2CF1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_pcb_no_suspect_20261116\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\style_transfer_96.v": "9E8D7DC30411E5C38CAD9C52CA1F446E37D353EE6A66B16728544E58BA12EAF9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\style_validation\\20261118T075154_042079Z\\style_transfer_control.v": "89FC63A8CAD74C738F7BA2837E14DB2F7806727A17B646D11A6CDF54D40C03F6",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\style_controls.v": "196D4EA5C05CFD4EBCA927DAE9D4881C877C85E8576E1DB8C23D448AF0BAFB84",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\style_controls.v": "196D4EA5C05CFD4EBCA927DAE9D4881C877C85E8576E1DB8C23D448AF0BAFB84",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\pcb_teach_key.v": "539B7DFEBABE0CC7ED12601F410322608467398193621F4E4DC63E14B5408C64",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\pcb_teach_key.v": "539B7DFEBABE0CC7ED12601F410322608467398193621F4E4DC63E14B5408C64",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tests\\style_revision\\tb_style_revision_controls.sv": "7CFE28E4EE2636E2174B35190F206B32174936E6AF64EEB42C070F8EE958F638",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\tests\\style_revision\\tb_style_revision_controls.sv": "7CFE28E4EE2636E2174B35190F206B32174936E6AF64EEB42C070F8EE958F638",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\cartoon_96.v": "7BD33DC745211CEBBDAC50E190431005191CB8BBB1D46A2034B3838A3FEEF79E",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\cartoon_96.v": "7BD33DC745211CEBBDAC50E190431005191CB8BBB1D46A2034B3838A3FEEF79E",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tests\\style_revision\\tb_style_revision_cartoon.sv": "AEC85E3939CAEA0A884B3A3ADB161275720581A34A7C4E71C78613DB4673B75B",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\tests\\style_revision\\tb_style_revision_cartoon.sv": "AEC85E3939CAEA0A884B3A3ADB161275720581A34A7C4E71C78613DB4673B75B",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\style_transfer_96.v": "A9385DE821C8CFAE3E8CF8D454368340DEF112B1B40DE6E649D074CB5025CA97",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\user_source\\hdl_source\\isp\\style_transfer_96.v": "A9385DE821C8CFAE3E8CF8D454368340DEF112B1B40DE6E649D074CB5025CA97",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\tests\\style_revision\\tb_style_revision_flow.sv": "BAD2E3EAC0FB3D86D584E0407A9D5B3F6D7CEFF2BD9DDE40BB972838F5DC2CD3",
+    "E:\\codex_main_cnn_multicoord_20261118_r1\\tests\\style_revision\\tb_style_revision_flow.sv": "BAD2E3EAC0FB3D86D584E0407A9D5B3F6D7CEFF2BD9DDE40BB972838F5DC2CD3"
+  },
+  "source_manifest_sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+  "hardware_status": "NOT_RUN"
+}

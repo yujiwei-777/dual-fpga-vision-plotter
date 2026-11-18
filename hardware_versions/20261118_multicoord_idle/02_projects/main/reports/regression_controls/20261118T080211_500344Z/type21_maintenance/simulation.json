@@ -1,0 +1,18 @@
+{
+  "step": "simulation",
+  "returncode": 0,
+  "command": [
+    "E:/model/win64/vsim.exe",
+    "-batch",
+    "-syncio",
+    "-quiet",
+    "-voptargs=+acc",
+    "-lib",
+    "rtl_lib",
+    "tb_type21_maintenance",
+    "-do",
+    "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+  ],
+  "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\main_cnn_multicoord_20261118\\reports\\regression_controls\\20261118T080211_500344Z\\type21_maintenance\\simulation.log",
+  "log_sha256": "E9336A07D8AEEC0D9EBBB2B8759EE75927532A08C9874431D7E3ED330DC653E5"
+}

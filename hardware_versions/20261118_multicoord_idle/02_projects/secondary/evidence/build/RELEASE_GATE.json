@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "bitgen_allowed": true,
+  "run": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/runs/phy_1",
+  "name": "secondary_cnn_multibox",
+  "generated_utc": "2026-11-18T08:49:04.872695+00:00",
+  "timing_ns": {
+    "SWNS": 0.006,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19093,
+      "total": 21216,
+      "percent": 89.9934012066365,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 85,
+      "total": 108,
+      "percent": 78.70370370370371,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 16,
+      "total": 40,
+      "percent": 40.0,
+      "strict_limit_percent": 95
+    }
+  },
+  "source_manifest_sha256": "6BAB488B8E666DA341959D92BB0CD7A944822D2DC52710655E903BCDC5B9F6CD",
+  "snapshot": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/runs/phy_1/source_snapshot.json",
+  "failures": [],
+  "tracked_warnings": [
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34435,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34436,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34437,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34438,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34439,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34440,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_7 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34441,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_8 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34442,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_9 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34443,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_2 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34444,
+      "text": "DRC SLATR-1036 : Found mslice u_udp_stack/mac_layer_inst/mac_tx_inst/shift_mac_inst_syn_3 connecting to no used ce."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34445,
+      "text": "SLATR-1036 Similar messages will be suppressed."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34446,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34447,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_2 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34448,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34449,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_3 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34450,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34451,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_4 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34452,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34453,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_5 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34454,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 getting reg attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34455,
+      "text": "DRC SLATR-1038 : Found mslice u_udp_stack/ip_layer_inst/ip_tx_inst/shift_ip_tx_inst_syn_6 getting ce attributes."
+    },
+    {
+      "file": "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log",
+      "line": 34456,
+      "text": "SLATR-1038 Similar messages will be suppressed."
+    }
+  ],
+  "evidence": {
+    "secondary_cnn_multibox_pr.timing": {
+      "sha256": "B79FC794ABEDEF360D3487AC8391445FFED8CB2D88A036DC01B1C814537E5CB3",
+      "mtime_ns": 1794991677165283100
+    },
+    "secondary_cnn_multibox_phy.area": {
+      "sha256": "6291E1805234A92E8EF9401B583FB8BA4560BA6E265E664BA445EC6543ACAA59",
+      "mtime_ns": 1794991629139456400
+    },
+    "route_flow.status": {
+      "sha256": "B2D4AADEB4A172F6B3B9E25E743AD3B9CD5CAD1613765AB4B5DAE9200D03231B",
+      "mtime_ns": 1794991677194755700
+    },
+    ".opt_route.end.f": {
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "mtime_ns": 1794991679324601100
+    },
+    "E:/codex_secondary_plotter_idle_preflight_20261118_r2/runs/syn_1/.read_design.begin.f": {
+      "sha256": "F18FC12391AC3FE09C8A64555C76F3C2849B107D0716ED17D963B74F04D27C63",
+      "mtime_ns": 1794989588655331600
+    },
+    "secondary_cnn_multibox_pr.db": {
+      "sha256": "B7874B37804140991131843DC5DA6E0330A2428F70861AAD612EDA289A629B0A",
+      "mtime_ns": 1794991679157225200
+    },
+    "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/syn.log": {
+      "sha256": "B7EBD6E71FD92D8072190587DD18644628704380183EF05F42D1928C4BCB0769"
+    },
+    "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/place.log": {
+      "sha256": "8C224119E5DA1E4974C3DFE17D0EB1AFEF07FA1B7D23B8EA6AC3C14AADD57433"
+    },
+    "E:/codex_secondary_plotter_idle_preflight_20261118_r2/logs/route.log": {
+      "sha256": "8A8D207BEA266C88FB1AD5FDF88A59FBFEFDFFA16B9636CDC4440BA529EDADD1"
+    }
+  },
+  "hardware_status": "NOT_RUN",
+  "scope": "Build gates only; CDC/DDR/DRC and hardware review remain required"
+}

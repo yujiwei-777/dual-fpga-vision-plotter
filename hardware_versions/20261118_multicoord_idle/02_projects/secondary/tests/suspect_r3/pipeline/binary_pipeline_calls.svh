@@ -1,0 +1,11 @@
+run_frame("real_00_current_good");
+run_frame("real_pad");
+run_frame("real_corner");
+run_frame("real_review");
+run_frame("synthetic_blank");
+run_frame("synthetic_source_border");
+run_frame("synthetic_label_overflow");
+run_cancel(0);run_frame("real_00_current_good");
+run_cancel(1);run_frame("real_00_current_good");
+run_cancel(2);run_frame("real_00_current_good");
+run_cancel(3);run_frame("real_00_current_good");

@@ -1,0 +1,569 @@
+{
+  "status": "PASS",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v": "D96C9BC3D3BAA16CDB53191D9C5E8091626313AD77654786F5D9681751DB4C39",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_safety_review.sv": "EA95F6ED095EBCB10821FB8621E394935914D3553A95F07E49CBA23B2844424D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_retry_boundary.sv": "9B9A424914EE87C8905B096610493EB16D928226A4D55D2388C2E0AB606BD502",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_initial_uart.py": "6FACFF75972E416860B7445105D942911D38E9DC36F80F75A49D059BFFD4111A"
+  },
+  "source_drift": [],
+  "steps": [
+    {
+      "name": "vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "audit_lib"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "name": "lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "audit_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_uart.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_safety_review.sv",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\paper_unlimited\\tb_uart_retry_boundary.sv"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\lint.log",
+      "log_sha256": "15EE455BF1924D9C8C0C8F5F6E00FD874D8D9342101CE88B0C2E353ED5EBBDC7"
+    },
+    {
+      "name": "safety0",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=0",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety0.log",
+      "log_sha256": "6A342F9E988D42D2FA091DA03FB539FF73D2BFD3B02743536F7504B721AF8E27"
+    },
+    {
+      "name": "safety1",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=1",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety1.log",
+      "log_sha256": "1131CCAED65A9BB50E392ADAB0175B420C16131A52325FC09BE51669F4ADD594"
+    },
+    {
+      "name": "safety2",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=2",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety2.log",
+      "log_sha256": "111F86AF9F11639B27D408CE18AC5535EDDE0EC3F7CDBC83E71C16C966E9328D"
+    },
+    {
+      "name": "safety3",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=3",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety3.log",
+      "log_sha256": "5B60A80F76B3590F203CE2AD726229818EE15D51E214CFB501B3A0C0FD8C5B51"
+    },
+    {
+      "name": "safety4",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=4",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety4.log",
+      "log_sha256": "247BF66643817FB346310B3F8CD3C2BC40C5074DC8D130DD09892B34BAF5C6A1"
+    },
+    {
+      "name": "safety5",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=5",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety5.log",
+      "log_sha256": "FEC75C90FC03DBBD83FF9198FBDE0076A9E3832E440CE4B753A8FCE027BEE67B"
+    },
+    {
+      "name": "safety6",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=6",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety6.log",
+      "log_sha256": "859F86E70CC27EE8AD559E9A6895A2B288B5902B0879775C5C7D48716E3AC51D"
+    },
+    {
+      "name": "safety7",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=7",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety7.log",
+      "log_sha256": "BB4BD4C15B34DCE237333B8EBAFB06CF83D0C8B98339C3E511AF0C232151BFAF"
+    },
+    {
+      "name": "safety8",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=8",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety8.log",
+      "log_sha256": "D7F4D591C5BBD00A4D1D187C0E8A5CA7462A7229FDBE175182A9603D49305D87"
+    },
+    {
+      "name": "safety9",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_safety_review",
+        "-gCASE_ID=9",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\safety9.log",
+      "log_sha256": "DFAC12224F3B26729214EA3B976309E6F433BD5134CADE26587EF319343B0277"
+    },
+    {
+      "name": "late0",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=0",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\late0.log",
+      "log_sha256": "04392FE5A32315F641B28D070D613495E2057F75F0A29066A857EF5E875B4CFA"
+    },
+    {
+      "name": "late1",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=1",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\late1.log",
+      "log_sha256": "F9C0847F18DB13FA921651F342B6C09BDBB3AC26BB425B8E93CA0A4B1CA371D9"
+    },
+    {
+      "name": "late2",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=2",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\late2.log",
+      "log_sha256": "7348939EB9BD6AD01D4A37C8CD5ED0126270DB75CAF9CE660C1D62EF88E915A4"
+    },
+    {
+      "name": "timeout7738",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7738",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7738.log",
+      "log_sha256": "4AF73939CA0B3C54E41847326BA7E62BEA5525ED83BF33928B08540BE5ECD217"
+    },
+    {
+      "name": "timeout7739",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7739",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7739.log",
+      "log_sha256": "BF3A5BC523FDBC1A158FFD4011ABF5231C3A736DAC2646470EAC8526D0F600F6"
+    },
+    {
+      "name": "timeout7740",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7740",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7740.log",
+      "log_sha256": "F08BB6C02F40D1D8D647EC6F0E39B64BC3FFEEC09CBCBB54725DAB7D147F457B"
+    },
+    {
+      "name": "timeout7741",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7741",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7741.log",
+      "log_sha256": "8DAC5B026F539E1E7BA48E495EB089A47E50EE484B62655B3CF60AC12586E46D"
+    },
+    {
+      "name": "timeout7742",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7742",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7742.log",
+      "log_sha256": "F367F2C9D7C5BB55C0F5DE4909085CA7274B7F854EC468DC0E72C2FF80CA2466"
+    },
+    {
+      "name": "timeout7743",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7743",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7743.log",
+      "log_sha256": "7A96195DF61FC8B4E60F151ADE63818ACFF75F4DBEA03CC2CAF8BDD8FB1E1549"
+    },
+    {
+      "name": "timeout7744",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7744",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7744.log",
+      "log_sha256": "BCB993859A84CF72506179598B54BC6D512F77C54B633B5BE168E75EC842A1CC"
+    },
+    {
+      "name": "timeout7745",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7745",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7745.log",
+      "log_sha256": "E1F5B13372290C2B353B91DD3C538B0B27F1A3C24D0FF6E294337AE9FC0E9D66"
+    },
+    {
+      "name": "timeout7746",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7746",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7746.log",
+      "log_sha256": "7CD77AB865A61A9F3DF04374793BD9A2FE82C92748A22021FF73E487F161C17E"
+    },
+    {
+      "name": "timeout7747",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7747",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7747.log",
+      "log_sha256": "648D5B8F780F53A2165A8A54B094B3383B94734C09F8EAC0C8531337D81A130B"
+    },
+    {
+      "name": "timeout7748",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7748",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7748.log",
+      "log_sha256": "9BBD7874897F6C50F00FA963649819E09C3F2717E126A9CA3AE6C29F36AF5375"
+    },
+    {
+      "name": "timeout7749",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7749",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7749.log",
+      "log_sha256": "26508D598B84EF5B75A9A3C93FEFE4D516C839210A336AEE246E94264B2AF0B1"
+    },
+    {
+      "name": "timeout7750",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7750",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7750.log",
+      "log_sha256": "5F0DC7EE9C54E7DE2805E5D4B8531F7D3F049A6EFE43C44908460C3E43EBFAB7"
+    },
+    {
+      "name": "timeout7751",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7751",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7751.log",
+      "log_sha256": "702E4DC2B479F50879654A5EC228B2586F4246479491028068C6A6DF2F783D45"
+    },
+    {
+      "name": "timeout7752",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7752",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7752.log",
+      "log_sha256": "E4CB8947CD7633D48672D29EC31DC9ACE06ECA0A2175C6683CB413C4B5638122"
+    },
+    {
+      "name": "timeout7753",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7753",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7753.log",
+      "log_sha256": "7054915C8E9CED5F63BF8B4DBA02DB6C4968EA2C8047F7350273972E0267A051"
+    },
+    {
+      "name": "timeout7754",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-quiet",
+        "-lib",
+        "audit_lib",
+        "tb_uart_retry_boundary",
+        "-gCASE_ID=3",
+        "-gSEND_TIMER=7754",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "passed": true,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\initial_uart\\20261118T081639_618514Z\\timeout7754.log",
+      "log_sha256": "F4FE166B97AD1C3EBB0D24CD0292A4F553D42939FD2F8CBB509847572F57E07F"
+    }
+  ],
+  "error": null,
+  "hardware_status": "NOT_RUN"
+}

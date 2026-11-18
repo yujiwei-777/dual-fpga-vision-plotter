@@ -1,0 +1,12 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 16:02:09 on Nov 18,2026
+vlog -sv -lint -work rtl_lib "+incdir+D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\main\user_source\hdl_source" D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\shared\rtl\hxa_packet_codec.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\01_rtl\imgq_gain_m\shared\rtl\hxa_main_link.v D:\program\fpga\lab_ex3_osd_SC500_720P\main_cnn_multicoord_20261118\tests\dynamic_osd\tb_type21_maintenance.sv 
+-- Compiling module hxa_packet_tx
+-- Compiling module hxa_packet_rx
+-- Compiling module hxa_main_link
+-- Compiling module tb_type21_maintenance
+
+Top level modules:
+	tb_type21_maintenance
+End time: 16:02:09 on Nov 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

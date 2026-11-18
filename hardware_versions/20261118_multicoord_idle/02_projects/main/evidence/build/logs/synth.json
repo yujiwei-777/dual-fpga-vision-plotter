@@ -1,0 +1,19 @@
+{
+  "phase": "synth",
+  "started_utc": "2026-11-18T07:46:00.633982+00:00",
+  "command": [
+    "E:\\td\\bin\\td_commands_prompt.exe",
+    "run_display_noise_synth.tcl"
+  ],
+  "cwd": "E:\\codex_main_cnn_multicoord_20261118_r1\\01_rtl\\imgq_gain_m\\main\\td_project_display_noise_v8",
+  "source_manifest_sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+  "runner_sha256": "187F43D0CD4AE7E44C6758BE45BA7993FBF076AD31A283B89E78E75ED478F753",
+  "script_sha256": "420F7A9FE308D1B2264FBDCBA793E01BC604B1DCDDF2B7C10905C8936CFFA5C1",
+  "td_sha256": "79EC56674F8F7B889E25E11BDCA91F7D64C24BA0DE99E80680248F00B4F87190",
+  "ended_utc": "2026-11-18T08:10:36.712306+00:00",
+  "returncode": 0,
+  "errors": [],
+  "log_sha256": "98502F6D7BB299372468D04C52D8B0119507F3B6CD1A4A6F8EB2619D41C1C306",
+  "completion_marker": true,
+  "passed": true
+}

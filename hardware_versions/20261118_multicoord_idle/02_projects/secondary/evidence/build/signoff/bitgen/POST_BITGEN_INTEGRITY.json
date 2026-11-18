@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "frozen_files_checked": 299,
+  "source_drift": [],
+  "immutable_inputs_unchanged": true,
+  "inputs_before": {
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\phy_1\\secondary_cnn_multibox_pr.db": "B7874B37804140991131843DC5DA6E0330A2428F70861AAD612EDA289A629B0A",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\phy_1\\secondary_cnn_multibox.al": "883F46387C4AF3DEC54CF66269F3A4F7C70D154162494C304445C59A971E4D8B",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\syn_1\\secondary_cnn_multibox_gate.db": "999A0A8D51E97F0055557FE1ABEAB055AF09F95D1E379024E3D538EF908CDEDE",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\BUILD_PLAN.json": "78823BA1E923784ED2494B5F5239E9113ECCD0EAF8B07746157F14E69A112520"
+  },
+  "inputs_after": {
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\phy_1\\secondary_cnn_multibox_pr.db": "B7874B37804140991131843DC5DA6E0330A2428F70861AAD612EDA289A629B0A",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\phy_1\\secondary_cnn_multibox.al": "883F46387C4AF3DEC54CF66269F3A4F7C70D154162494C304445C59A971E4D8B",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\runs\\syn_1\\secondary_cnn_multibox_gate.db": "999A0A8D51E97F0055557FE1ABEAB055AF09F95D1E379024E3D538EF908CDEDE",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\SOURCE_MANIFEST.json": "4242A5FF57AD78E5C8B5157988551535EB0E1FB0925DEE86F418D5F1D0A0CC31",
+    "E:\\codex_secondary_plotter_idle_preflight_20261118_r2\\BUILD_PLAN.json": "78823BA1E923784ED2494B5F5239E9113ECCD0EAF8B07746157F14E69A112520"
+  },
+  "hardware_status": "NOT_RUN"
+}

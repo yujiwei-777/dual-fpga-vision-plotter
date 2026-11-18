@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+Start time: 15:48:36 on Nov 18,2026
+vlog -sv -lint -work D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\adapter\adapter_lib D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\pcb_ccl_binary_core.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\01_rtl\pcb_fullboard_spatial96.v D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\adapter\tb_suspect_adapter_current.sv 
+-- Compiling module pcb_ccl_binary_core
+-- Compiling module pcb_fullboard_spatial96
+-- Compiling module tb_suspect_adapter
+
+Top level modules:
+	tb_suspect_adapter
+End time: 15:48:36 on Nov 18,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

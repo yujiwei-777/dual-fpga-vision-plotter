@@ -1,0 +1,68 @@
+# vsim -batch -syncio -voptargs="+acc" -lib rtl_lib tb_doc_key1_integrated -do "onerror {quit -code 2}; onbreak {quit -code 3}; run -all; quit -code 0" 
+# Start time: 15:53:28 on Nov 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "doc_machine_map(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "grbl_shared_transport_candidate(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "doc_grbl_plotter_shared_candidate(fast)".
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 93, found 71.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_airwalk'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_total_valid'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_total_lines'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'airwalk_done'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'airwalk_start'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'draw_admitted'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_error'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_state'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_acked_lines'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'operator_job_id'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'frame_lock'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'planned_distance'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'baseline_distance'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'paper_corners'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'rt_valid'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'rt_data'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'tx_valid'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'tx_data'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'status_data'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'status_valid'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'prepare_cancel_ready'.
+# ** Warning: D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\production_doc_feed\20261118T075238_568528Z\production\tb_doc_key1_integrated.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'prepare_cancel'.
+# ** Note: (vopt-143) Recognized 1 FSM in module "grbl_line_formatter(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=23.
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_doc_key1_integrated(fast)
+# Loading work.doc_copy_pipeline_shared_candidate(fast)
+# Loading work.doc_image_frontend(fast)
+# Loading work.doc_stroke_planner(fast)
+# Loading work.doc_stroke_bram(fast)
+# Loading work.doc_stroke_bram(fast__1)
+# Loading work.doc_stroke_bram(fast__2)
+# Loading work.doc_stroke_bram(fast__3)
+# Loading work.doc_grbl_plotter_shared_candidate(fast)
+# Loading work.doc_machine_map(fast)
+# Loading work.grbl_shared_transport_candidate(fast)
+# Loading work.grbl_response_parser(fast)
+# Loading work.grbl_line_formatter(fast)
+# Loading work.grbl_decimal(fast)
+# 
+# onerror {quit -code 2}
+# onbreak {quit -code 3}
+# run -all
+# DOC_KEY1_INTEGRATED_PASS points=5 lines=13 queries=1 requests=589824 cycles=27587040
+# ** Note: $finish    : D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/production_doc_feed/20261118T075238_568528Z/production/tb_doc_key1_integrated.sv(177)
+#    Time: 220696320 ns  Iteration: 1  Instance: /tb_doc_key1_integrated
+# End time: 15:54:09 on Nov 18,2026, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 23

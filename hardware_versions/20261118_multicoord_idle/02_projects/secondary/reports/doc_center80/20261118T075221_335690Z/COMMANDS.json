@@ -1,0 +1,102 @@
+[
+  {
+    "label": "vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z\\rtl_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z\\vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z\\rtl_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\doc_image_frontend.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\doc_center80\\tb_doc_center80.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z\\lint.log",
+    "log_sha256": "CC82BEB4EC0FCA622052027FB401AA351541C28DA4878C598B9D705C895EFEFF",
+    "warnings": []
+  },
+  {
+    "label": "crop_pattern",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_doc_center80",
+      "-gCENTER=1",
+      "+SOURCE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/doc_center80/20261118T075221_335690Z/crop_pattern_source.mem",
+      "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/doc_center80/20261118T075221_335690Z/crop_pattern_expected.mem",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z\\crop_pattern.log",
+    "log_sha256": "DADAEA27B6F43BF9B67368F62A4F24BFAF5D5E94655B8C353B6EEE92DF34D47D",
+    "warnings": []
+  },
+  {
+    "label": "crop_outerblack",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_doc_center80",
+      "-gCENTER=1",
+      "+SOURCE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/doc_center80/20261118T075221_335690Z/crop_outerblack_source.mem",
+      "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/doc_center80/20261118T075221_335690Z/crop_outerblack_expected.mem",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z\\crop_outerblack.log",
+    "log_sha256": "DD2FBCE32926983B6C61A5CB57A0DDEF32271610FA122D0F1CD3B93E5A7D4068",
+    "warnings": []
+  },
+  {
+    "label": "default_fullframe",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-lib",
+      "rtl_lib",
+      "tb_doc_center80",
+      "-gCENTER=0",
+      "+SOURCE=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/doc_center80/20261118T075221_335690Z/default_fullframe_source.mem",
+      "+EXPECTED=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/reports/doc_center80/20261118T075221_335690Z/default_fullframe_expected.mem",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\doc_center80\\20261118T075221_335690Z\\default_fullframe.log",
+    "log_sha256": "9EB60C43037CDB86F5C3DAB94FB04C8FE355BC18976ADAFBC89111DFAD368763",
+    "warnings": []
+  }
+]

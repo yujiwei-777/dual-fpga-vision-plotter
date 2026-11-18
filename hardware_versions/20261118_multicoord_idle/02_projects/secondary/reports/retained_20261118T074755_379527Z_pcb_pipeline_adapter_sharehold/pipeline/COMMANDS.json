@@ -1,0 +1,68 @@
+[
+  {
+    "label": "pipeline_vlib",
+    "command": [
+      "E:\\model\\win64\\vlib.exe",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline\\pipeline_lib"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline\\pipeline_vlib.log",
+    "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "warnings": []
+  },
+  {
+    "label": "pipeline_lint",
+    "command": [
+      "E:\\model\\win64\\vlog.exe",
+      "-sv",
+      "-lint",
+      "-work",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline\\pipeline_lib",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_pipeline.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\edge_roi_ccl_shared_pcb_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_ccl_pcb_candidate.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\pcb_ccl_binary_core.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\pcb_fullboard_spatial96.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\cnn_core.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_workspace_goodonly.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_shared_mac.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\cnn_result_stabilizer.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_color_stats.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_pixel_reader.v",
+      "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline\\tb_pipeline.sv"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline\\pipeline_lint.log",
+    "log_sha256": "0D289B72615FD4D5D186490C04A794664466ECF93AB90BD2CC9F560B11D4836E",
+    "warnings": []
+  },
+  {
+    "label": "pipeline_simulation",
+    "command": [
+      "E:\\model\\win64\\vsim.exe",
+      "-batch",
+      "-syncio",
+      "-quiet",
+      "-voptargs=+acc",
+      "-lib",
+      "pipeline_lib",
+      "tb_binary_fullpipeline",
+      "+FIXTURES=D:/program/fpga/lab_ex3_osd_SC500_720P/secondary_plotter_idle_preflight_20261118/tests/suspect/pipeline/fixtures",
+      "-do",
+      "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+    ],
+    "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline",
+    "returncode": 0,
+    "status": "PASS",
+    "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline\\pipeline_simulation.log",
+    "log_sha256": "5AC3DDC4B96BDBE7E5C48DB297A37BD5081BE50D850B1EA0C8E72D80796B9E91",
+    "warnings": [
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline\\tb_pipeline.sv(25): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 58, found 57.",
+      "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold\\pipeline\\tb_pipeline.sv(25): (vopt-2718) [TFMPC] - Missing connection for port 'pcb_reason'."
+    ]
+  }
+]

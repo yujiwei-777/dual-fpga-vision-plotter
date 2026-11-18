@@ -1,0 +1,89 @@
+{
+  "status": "PASS_DIAGNOSTIC_NOT_RUN",
+  "hardware_status": "NOT_RUN",
+  "bit": {
+    "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/artifacts/dual_fpga_main_20261118_cnn_multicoord_diagnostic.bit",
+    "sha256": "52E2A1E8F2FC0B58873BBEE897E4D2F01BDABB1624AD9D98F38E19718DA66718",
+    "bytes": 1789547
+  },
+  "bid": {
+    "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/artifacts/dual_fpga_main_20261118_cnn_multicoord_diagnostic.bid",
+    "sha256": "8FDBAC40ACE5923ACD2877DD56DD374ED3207873209AB37961143DA6177DB6BC",
+    "bytes": 132659
+  },
+  "source_manifest": {
+    "path": "E:/codex_main_cnn_multicoord_20261118_r1/SOURCE_MANIFEST.json",
+    "sha256": "03303EA848465D07765735867DC2182ACF8D45CD624CB581640195BA78709113",
+    "bytes": 48315
+  },
+  "route_acceptance": {
+    "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/route_acceptance_r1/CURRENT_ROUTE_ACCEPTANCE.json",
+    "sha256": "C8533B05A363D8953F71BCEC5C6C110A3977242CCDACBF8067ACD22FB1208835",
+    "bytes": 5166
+  },
+  "validation": {
+    "multicoord": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/reports/multicoord/20261118T075112_749182Z/RESULT.json",
+      "sha256": "BEF7B5E5157A0711D864ABF7A854D50F3274C41A39A6D810B8FE074944016EAB",
+      "bytes": 12281
+    },
+    "text": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/reports/validation/20261118T080202_725731Z/RESULT.json",
+      "sha256": "B479B3C00591406F958BED1B89EF896196930F59DD449ABB63CA1349D93959D6",
+      "bytes": 105664
+    },
+    "region_and_controls": [
+      {
+        "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/reports/center_integration/20261118T080211_500344Z/RESULT.json",
+        "sha256": "329A44E7792FA9B9856AC41D37D4FFAD369A29C51673F16F19415F7569FC10DB",
+        "bytes": 13600
+      },
+      {
+        "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/reports/regression_controls/20261118T080211_500344Z/RESULT.json",
+        "sha256": "5B75494254463D13D0DA637316DDF1CD7C091DDA014EBBE87DF887F7F2960045",
+        "bytes": 9615
+      }
+    ],
+    "paper_status": {
+      "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/reports/paper_status_validation/20261118T080158_510964Z/RESULT.json",
+      "sha256": "39ED1B4351F603E66E9B111E923C0DD24624532267283A82A276A2569A4EE1A7",
+      "bytes": 103202
+    }
+  },
+  "timing_ns": {
+    "SWNS": 0.314,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19811,
+      "total": 21216,
+      "percent": 93.3776395173454,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 97,
+      "total": 108,
+      "percent": 89.81481481481481,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  },
+  "bitgen_log": {
+    "path": "E:/codex_main_cnn_multicoord_20261118_r1/audits/bitgen_r1/bitgen.log",
+    "sha256": "D699BFE351CDBC82C28F517891F123D25D3E6A2AFFB2D1D7FAD2B426CF4C6989",
+    "bytes": 17984
+  },
+  "inputs_unchanged": true,
+  "completed_utc": "2026-11-18T08:20:14.548687+00:00",
+  "limitations": [
+    "Targeted RTL regressions and static CDC/FIFO/DDR evidence; physical two-board and plotter operation NOT_RUN."
+  ]
+}

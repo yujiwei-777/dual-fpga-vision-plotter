@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "commands": [
+    {
+      "name": "preserved",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_preserved.log"
+    },
+    {
+      "name": "document_integrated",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_document_integrated.log"
+    },
+    {
+      "name": "doc_total_ack",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_doc_total_ack.log"
+    },
+    {
+      "name": "common_write",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_common_write.log"
+    },
+    {
+      "name": "paper_eject",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_paper_eject.log"
+    },
+    {
+      "name": "paper_document",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_paper_document.log"
+    },
+    {
+      "name": "paper_unlimited",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_paper_unlimited.log"
+    },
+    {
+      "name": "no_suspect",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_no_suspect.log"
+    },
+    {
+      "name": "write_repeat",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_write_repeat.log"
+    },
+    {
+      "name": "initial_uart",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_initial_uart.log"
+    },
+    {
+      "name": "maintenance",
+      "returncode": 0,
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\preserved_suite_runs\\20261118T081429_610737Z\\suite_maintenance.log"
+    }
+  ]
+}

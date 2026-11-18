@@ -1,0 +1,36 @@
+{
+  "status": "PASS_DIAGNOSTIC_NOT_RUN",
+  "hardware_status": "NOT_RUN",
+  "build": "E:\\codex_main_cnn_multicoord_20261118_r1",
+  "bit": {
+    "path": "D:/program/fpga/lab_ex3_osd_SC500_720P/main_cnn_multicoord_20261118/artifacts/dual_fpga_main_20261118_cnn_multicoord_diagnostic.bit",
+    "sha256": "52E2A1E8F2FC0B58873BBEE897E4D2F01BDABB1624AD9D98F38E19718DA66718",
+    "bytes": 1789547
+  },
+  "timing_ns": {
+    "SWNS": 0.314,
+    "STNS": 0.0,
+    "HWNS": 0.02,
+    "HTNS": 0.0
+  },
+  "resources": {
+    "slice": {
+      "used": 19811,
+      "total": 21216,
+      "percent": 93.3776395173454,
+      "strict_limit_percent": 95
+    },
+    "eram": {
+      "used": 97,
+      "total": 108,
+      "percent": 89.81481481481481,
+      "strict_limit_percent": 90
+    },
+    "dsp": {
+      "used": 37,
+      "total": 40,
+      "percent": 92.5,
+      "strict_limit_percent": 95
+    }
+  }
+}

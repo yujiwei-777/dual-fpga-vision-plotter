@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-11-18T08:21:58.976832+00:00",
+  "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118",
+  "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z",
+  "source_hashes": {
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_font_flow.py": "EDB1892D0C79180729BDCCB12DC87B1A1C6DEE7E71F33978598F89E0DBFB0055",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_retrained_preserved_regressions.py": "8345B2D3EBBCEBD12DABACC074CD430F6AEFCFB7A482C8D15B87DDA2C65E59E9",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_suspect_report_regression.py": "D764FEE4898F85A8548F692CD9E281AFA14427EA427B5889FB33F969082A16A2",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\02_sim\\key2_zero\\tb_key2_zero.sv": "869F8522B3D31996826B1DF83F2AA1CF25417B0146AF6AE8ABB621775139FCBE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_reporter_shared_candidate.v": "5997AC6109867101A46ECA91C87AB92092D6B27519AE4C99C79AA8541839E22D",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v": "4D267985B9D350D176EF49E1BA2BFAD5F3D01B310DDC499FB472B547465E31A0",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v": "D3260F796EE31AC0D21F74712EF3C9C878B3AF5EC7F9BB51DA1BAE7163B0B7B4",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v": "1E4EA551D06F4F6F4FA6E5756655B487F1C65D37E79BD96CD74296F39EB2C2FE",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_vector_font_rom.v": "822A5B1410ADE42B60C0CB22A12C73A92975940C76B7374C9D186BA47B3141B1",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv": "45000C7FA6DB0564B468D1BE66B3AECB6C8870E1C661E02A31689968B955BFEC",
+    "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv": "CDA40AC78D30C72A2AF21B30AE071B6DE8FA56FFA4DAA4702145BA9C23973520"
+  },
+  "commands": [
+    {
+      "label": "flow0_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow0_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow0_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "flow0_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow0_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_reporter_shared_candidate.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_vector_font_rom.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow0_lint.log",
+      "log_sha256": "A8A5599E33D53E8BB0D61974DF0CA5B9059C01C4A59C50ABFA6EC76BE49E2694",
+      "warnings": []
+    },
+    {
+      "label": "flow0_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "flow0_lib",
+        "tb_suspect_report",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow0_simulation.log",
+      "log_sha256": "B2CA373458E8B4D72A62AE57CF4FC9CD008397F3096AE5F9AC2378F028A927CC",
+      "warnings": [
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2685) [TFMPC] - Too few port connections for 'reporter'.  Expected 117, found 106.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_airwalk_active'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_valid'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_lines'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'I_airwalk'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'S_idle_done'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_maintenance'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_result'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_generation'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_full'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_remaining_cmm'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_used_cmm'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(162): (vopt-2685) [TFMPC] - Too few port connections for 'transport'.  Expected 92, found 91.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_0.sv(162): (vopt-2718) [TFMPC] - Missing connection for port 'R_idle_done'."
+      ]
+    },
+    {
+      "label": "flow1_vlib",
+      "command": [
+        "E:\\model\\win64\\vlib.exe",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow1_lib"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow1_vlib.log",
+      "log_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "warnings": []
+    },
+    {
+      "label": "flow1_lint",
+      "command": [
+        "E:\\model\\win64\\vlog.exe",
+        "-sv",
+        "-lint",
+        "-work",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow1_lib",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_reporter_shared_candidate.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_shared_transport_candidate.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_line_formatter.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_response_parser.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\grbl_vector_font_rom.v",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow1_lint.log",
+      "log_sha256": "D575DE55811F939AA7E0ADEB7F427CEB8CA73E8FDED5123CD024789418A09F6A",
+      "warnings": []
+    },
+    {
+      "label": "flow1_simulation",
+      "command": [
+        "E:\\model\\win64\\vsim.exe",
+        "-batch",
+        "-syncio",
+        "-quiet",
+        "-lib",
+        "flow1_lib",
+        "tb_suspect_report",
+        "-do",
+        "onerror {quit -code 1}; onbreak {quit -code 2}; run -all; quit -f"
+      ],
+      "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z",
+      "returncode": 0,
+      "status": "PASS",
+      "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\flow1_simulation.log",
+      "log_sha256": "BF06ECAF78F153E3F642B94092CBBA7A93A243BE11A9ABABBA0388D918EE5A0A",
+      "warnings": [
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2685) [TFMPC] - Too few port connections for 'reporter'.  Expected 117, found 106.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_airwalk_active'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_valid'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_total_lines'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'I_airwalk'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'S_idle_done'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_maintenance'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_result'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_generation'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_full'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_remaining_cmm'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(59): (vopt-2718) [TFMPC] - Missing connection for port 'O_page_used_cmm'.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(162): (vopt-2685) [TFMPC] - Too few port connections for 'transport'.  Expected 92, found 91.",
+        "** Warning: D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\font_flow\\20261118T082154_170640Z\\tb_flow_1.sv(162): (vopt-2718) [TFMPC] - Missing connection for port 'R_idle_done'."
+      ]
+    }
+  ],
+  "scope": [
+    {
+      "result": "Identical directed ink segments, text and newline; no pen-down rapid or glyph-boundary joining.",
+      "reductions": {
+        "pcb0": {
+          "draw_segments": 74,
+          "old_lines": 376,
+          "new_lines": 160,
+          "old_pen_cycles": 74,
+          "new_pen_cycles": 20
+        },
+        "pcb1": {
+          "draw_segments": 84,
+          "old_lines": 426,
+          "new_lines": 142,
+          "old_pen_cycles": 84,
+          "new_pen_cycles": 13
+        },
+        "pcb2": {
+          "draw_segments": 65,
+          "old_lines": 331,
+          "new_lines": 139,
+          "old_pen_cycles": 65,
+          "new_pen_cycles": 17
+        },
+        "cnn1": {
+          "draw_segments": 160,
+          "old_lines": 806,
+          "new_lines": 326,
+          "old_pen_cycles": 160,
+          "new_pen_cycles": 40
+        },
+        "cnn2": {
+          "draw_segments": 155,
+          "old_lines": 781,
+          "new_lines": 305,
+          "old_pen_cycles": 155,
+          "new_pen_cycles": 36
+        },
+        "cnn3": {
+          "draw_segments": 165,
+          "old_lines": 831,
+          "new_lines": 319,
+          "old_pen_cycles": 165,
+          "new_pen_cycles": 37
+        },
+        "cnn4": {
+          "draw_segments": 165,
+          "old_lines": 831,
+          "new_lines": 343,
+          "old_pen_cycles": 165,
+          "new_pen_cycles": 43
+        },
+        "cnn5": {
+          "draw_segments": 166,
+          "old_lines": 836,
+          "new_lines": 328,
+          "old_pen_cycles": 166,
+          "new_pen_cycles": 39
+        },
+        "cnn6": {
+          "draw_segments": 177,
+          "old_lines": 891,
+          "new_lines": 339,
+          "old_pen_cycles": 177,
+          "new_pen_cycles": 39
+        },
+        "cnn7": {
+          "draw_segments": 158,
+          "old_lines": 796,
+          "new_lines": 328,
+          "old_pen_cycles": 158,
+          "new_pen_cycles": 41
+        },
+        "cnn8": {
+          "draw_segments": 164,
+          "old_lines": 826,
+          "new_lines": 318,
+          "old_pen_cycles": 164,
+          "new_pen_cycles": 37
+        },
+        "cnn9": {
+          "draw_segments": 166,
+          "old_lines": 836,
+          "new_lines": 320,
+          "old_pen_cycles": 166,
+          "new_pen_cycles": 37
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Actual reporter/shared formatter/parser with byte-handshaked GRBL ACK model, not physical motors.",
+    "Fixed F5000 and 100 ms pen settle unchanged; mechanical duration improvement requires hardware verification."
+  ],
+  "source_drift": [],
+  "error": null,
+  "hardware": "NOT_RUN",
+  "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+}

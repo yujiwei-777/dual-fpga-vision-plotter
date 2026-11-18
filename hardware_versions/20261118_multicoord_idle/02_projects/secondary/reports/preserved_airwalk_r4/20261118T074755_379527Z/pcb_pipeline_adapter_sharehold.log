@@ -1,0 +1,13 @@
+PASS pipeline/pipeline_vlib
+PASS pipeline/pipeline_lint
+PASS pipeline/pipeline_simulation
+pipeline: PASS
+PASS adapter/adapter_vlib
+PASS adapter/adapter_lint
+PASS adapter/adapter_simulation
+adapter: PASS
+PASS sharehold/sharehold_vlib
+PASS sharehold/sharehold_lint
+PASS sharehold/sharehold_simulation
+sharehold: PASS
+CURRENT_SUITE_OUTPUT D:\program\fpga\lab_ex3_osd_SC500_720P\secondary_plotter_idle_preflight_20261118\reports\retained_20261118T074755_379527Z_pcb_pipeline_adapter_sharehold

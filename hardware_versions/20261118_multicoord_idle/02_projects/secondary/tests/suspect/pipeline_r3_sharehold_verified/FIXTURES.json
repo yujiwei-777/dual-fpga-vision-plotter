@@ -1,0 +1,331 @@
+[
+  {
+    "name": "real_00_current_good",
+    "manifest_index": 214,
+    "source_json": "D:\\ai\\1\\0\\2\\bfaea9fafc3840beb9ba702a08b0e1b9\\2f2759b5410a41e2adea6c7d43a0c155\\frame_00031622_e58d44ad653b4bcaa1f2bcceaa74a779.json",
+    "source_json_sha256": "0B480A12AA3A9F7FE027D46B58F77237A53B854F6CAA54150A3925FAB9FCF06C",
+    "ccl": {
+      "provisional_labels": 259,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 6098,
+          "first": 1451,
+          "grid_box": [
+            7,
+            9,
+            144,
+            68
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 6098,
+          "first": 1451,
+          "grid_box": [
+            7,
+            9,
+            144,
+            68
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      56,
+      72,
+      1152,
+      544
+    ],
+    "status": 0,
+    "score": 255,
+    "margin": 950,
+    "class_id": 0,
+    "suspect_valid": false,
+    "suspect_box": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "suspect_grid": null
+  },
+  {
+    "name": "real_pad",
+    "manifest_index": 0,
+    "source_json": "D:\\ai\\1\\0\\1\\39f73ace00e04f0f9b166d0be03421b8\\a39e8e189ac2442489d6f23cd1a08035\\frame_00024928_b51681eb753d4d499490d4784dfeaba8.json",
+    "source_json_sha256": "9792AD5B0072B02E702177F6BD2B914F9C2889D83228C6B498AE5FA7007BE634",
+    "ccl": {
+      "provisional_labels": 137,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 6358,
+          "first": 2106,
+          "grid_box": [
+            22,
+            13,
+            150,
+            72
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 6358,
+          "first": 2106,
+          "grid_box": [
+            22,
+            13,
+            150,
+            72
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      176,
+      104,
+      1200,
+      576
+    ],
+    "status": 1,
+    "score": 134,
+    "margin": 433,
+    "class_id": 1,
+    "suspect_valid": true,
+    "suspect_box": [
+      560,
+      163,
+      1072,
+      399
+    ],
+    "suspect_grid": 6
+  },
+  {
+    "name": "real_corner",
+    "manifest_index": 433,
+    "source_json": "D:\\ai\\1\\0\\de08d7322eef4609b468c9fa93a1b39b\\f30180f486e14bf3822026fb76a73982\\frame_00002496_70085896c1fa47e79d27d16e45854546.json",
+    "source_json_sha256": "CA4DB7FEBE9C12D66249E34AFA60A0A41E0FFF09718939FEE508B6CBD9E0B3D3",
+    "ccl": {
+      "provisional_labels": 95,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 4237,
+          "first": 3560,
+          "grid_box": [
+            20,
+            22,
+            130,
+            71
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 4237,
+          "first": 3560,
+          "grid_box": [
+            20,
+            22,
+            130,
+            71
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      160,
+      176,
+      1040,
+      568
+    ],
+    "status": 1,
+    "score": 255,
+    "margin": 797,
+    "class_id": 1,
+    "suspect_valid": true,
+    "suspect_box": [
+      160,
+      176,
+      490,
+      323
+    ],
+    "suspect_grid": 0
+  },
+  {
+    "name": "real_review",
+    "manifest_index": 642,
+    "source_json": "D:\\ai\\1\\8\\1\\2\\1d0fda3c643a403b9f9b328b663c7c1d\\7c6885c555334bc38bd54dfaa34efbb1\\frame_00000806_63b7faa75d2d48049c102b240941c342.json",
+    "source_json_sha256": "8AE4BF7CB0A2CD4CF4B42A8DFDDE0BC5D274DF53904BC289B99589ADA95820DB",
+    "ccl": {
+      "provisional_labels": 75,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 3926,
+          "first": 3060,
+          "grid_box": [
+            13,
+            19,
+            124,
+            64
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 3926,
+          "first": 3060,
+          "grid_box": [
+            13,
+            19,
+            124,
+            64
+          ]
+        }
+      ]
+    },
+    "valid": true,
+    "bbox": [
+      104,
+      152,
+      992,
+      512
+    ],
+    "status": 2,
+    "score": 0,
+    "margin": 29,
+    "class_id": 0,
+    "suspect_valid": false,
+    "suspect_box": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "suspect_grid": null
+  },
+  {
+    "name": "synthetic_blank",
+    "ccl": {
+      "provisional_labels": 0,
+      "overflow": false,
+      "truncated": false,
+      "count": 0,
+      "eligible_components": [],
+      "top4": []
+    },
+    "valid": false,
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": 2,
+    "score": 0,
+    "margin": 0,
+    "class_id": 0,
+    "suspect_valid": false,
+    "suspect_box": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "synthetic_source_border",
+    "ccl": {
+      "provisional_labels": 1,
+      "overflow": false,
+      "truncated": false,
+      "count": 1,
+      "eligible_components": [
+        {
+          "area": 1600,
+          "first": 1600,
+          "grid_box": [
+            0,
+            10,
+            40,
+            50
+          ]
+        }
+      ],
+      "top4": [
+        {
+          "area": 1600,
+          "first": 1600,
+          "grid_box": [
+            0,
+            10,
+            40,
+            50
+          ]
+        }
+      ]
+    },
+    "valid": false,
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": 2,
+    "score": 0,
+    "margin": 0,
+    "class_id": 0,
+    "suspect_valid": false,
+    "suspect_box": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "name": "synthetic_label_overflow",
+    "ccl": {
+      "provisional_labels": 3600,
+      "overflow": true,
+      "truncated": false,
+      "count": 0,
+      "eligible_components": [],
+      "top4": []
+    },
+    "valid": false,
+    "bbox": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "status": 2,
+    "score": 0,
+    "margin": 0,
+    "class_id": 0,
+    "suspect_valid": false,
+    "suspect_box": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

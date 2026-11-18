@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "source_manifest": "E:\\codex_secondary_plotter_idle_preflight_20261118_r1\\SOURCE_MANIFEST.json",
+  "source_manifest_sha256": "0EA820AE8DCEB01F497A83D7F9C4A12ADF8A18F5A99F5D17EC7A03BD8FA00D0D",
+  "suite_results": [
+    {
+      "status": "PASS",
+      "generated_utc": "2026-11-18T07:48:44.272203+00:00",
+      "design": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118",
+      "output": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\ordinary",
+      "source_hashes": {
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_retrained_preserved_regressions.py": "060A068868AB9C4477DB8A4DCE001EACEDA96EDF34DEE6C4308C22EC36DCF4CA",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tests\\suspect_r6\\run_current.py": "E95FD1E58BB09FD12B7F6123FE0D3D19027F4C19206FCDBC07598D6161B42DC8",
+        "E:\\codex_secondary_plotter_idle_preflight_20261118_r1\\SOURCE_MANIFEST.json": "0EA820AE8DCEB01F497A83D7F9C4A12ADF8A18F5A99F5D17EC7A03BD8FA00D0D",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\model\\suspect\\confidence_0_100.mem": "30B6E81231C4AB90D74CD0D5C85E017FD035EF27AE3408835CBB6F2705455C85",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\model\\suspect\\CONTRACT.json": "950317EC7C6361EE9745F7FE5A37F9E0958B951AA6A3A37C98E57B5C4386C23E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\model\\suspect\\mad_negative_constants.mem": "480E5D8F7FC7BD4CBC128AA2091DF017829AB059D8DA9DEF56081C322554C783",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\model\\suspect\\report_text_tokens.mem": "964EBA048A93E7D93109D7EBB2F51AD0C53BEC80F73EC1C0E8BDB66D1AFD33DB",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_ordinary_pose7_regression.py": "CD04368B9D0F19D8A3524813A61FBAECB9A6C2997AA202CB03D6FF0DCDA95800",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\model\\export\\quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\model\\export\\weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\model\\export\\biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\cnn_dualhead_scratch_20261015_r6\\tools\\network.py": "06E3C5C0D1200F3A154590DDDA04EC79525ABC240F307EA1293B0FFC3A5F08AF",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_link_stability_20261020\\model\\fast_strict160_dataset\\images_strict160.npz": "29F19DA408A1BEDCE69577C181405F13C1976571502E6030DDE9C8E7FA2343DE",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_link_stability_20261020\\model\\fast_strict160_dataset\\records.json": "47764012A52EF1627312307F1B54A9A81CD4573577256168A7624958888E3D56",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_pcb_cnn_retrain_20261027\\train_remote_detail.py": "AE3C8617CAC16448BBEE678B2FF7D38D8850641FFEA1E829453942DACED2363E",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\01_rtl\\vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3",
+        "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\ordinary\\integer27\\tb_remote_detail.sv": "8F3DA82FD36B89DF2F6E1315B27C60141EA98781E82874438C7806EA90298422"
+      },
+      "commands": [
+        {
+          "label": "ordinary_integer27",
+          "command": [
+            "D:\\conda\\python.exe",
+            "-B",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\tools\\run_ordinary_pose7_regression.py",
+            "--rtl-root",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118",
+            "--model",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\model\\export",
+            "--output",
+            "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\ordinary\\integer27"
+          ],
+          "cwd": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\ordinary",
+          "returncode": 0,
+          "status": "PASS",
+          "log": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\ordinary\\ordinary_integer27.log",
+          "log_sha256": "6A770B8D8819B44CE3F8204447FF085EB2BF4D7D03DE09F72DD8C894E0762DBD",
+          "warnings": []
+        }
+      ],
+      "scope": [
+        {
+          "test": "ordinary CNN input/conv1/conv2/logits/class/confidence",
+          "cases": 27,
+          "results": "D:\\program\\fpga\\lab_ex3_osd_SC500_720P\\secondary_plotter_idle_preflight_20261118\\reports\\retained_20261118T074755_379527Z_ordinary27\\ordinary\\integer27\\RESULTS.json"
+        },
+        {
+          "source_manifest": "E:\\codex_secondary_plotter_idle_preflight_20261118_r1\\SOURCE_MANIFEST.json",
+          "sha256": "0EA820AE8DCEB01F497A83D7F9C4A12ADF8A18F5A99F5D17EC7A03BD8FA00D0D",
+          "bound_current_production_sources": {
+            "01_rtl/cnn_core.v": "15262A8F5EA85739C5F9271A92B6A0143C88255F9A9F804975CCE4BAAB2621D8",
+            "01_rtl/vision_workspace_goodonly.v": "2142616B3FE1F31C919F2CE7A500E75597112F31E12F79227E73C53FB3E7C40E",
+            "01_rtl/vision_shared_mac.v": "804551648A302E3E274FBA1C2E2C94D47936A01199D0D566E53C9DB465A657BB",
+            "model/export/quantization.json": "350F95277AD107C95FF163F0C297665EEEC14F85A03BB97E50CAA83158BC0450",
+            "model/export/weights.mem": "82FB0381424A047600E862FD0BBF55D6B23BCF347BE19F1074A9CD32847058DE",
+            "model/export/biases.mem": "79A3DAA7C5F3E17A2D5882FC89EEAD2AEBE153420B8D02E001655BCB23740A98",
+            "01_rtl/vision_pipeline.v": "DF6441BB1550F0DADA6F4C6F720B4BCD2292E6A092EB0EBB2F595FB047C0C2E3"
+          }
+        }
+      ],
+      "limitations": [
+        "1170 source frames overlap training/development; not independent test accuracy.",
+        "Mild/strong remote cases are synthetic detail loss; no independently captured distant frames supplied.",
+        "These tests do not prove candidate localization or board accuracy."
+      ],
+      "source_drift": [],
+      "error": null,
+      "hardware": "NOT_RUN",
+      "physical_DDR_CDC": "NOT_RUN_BY_THIS_BEHAVIORAL_SUITE"
+    }
+  ],
+  "hardware": "NOT_RUN"
+}
