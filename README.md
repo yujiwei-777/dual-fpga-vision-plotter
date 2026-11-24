@@ -113,3 +113,9 @@ PCB 是整板辅助二分类，不能作为精确缺陷分割；CNN margin 不�
 ## 版权与使用
 
 原创 RTL、脚本和文档采用 [MIT 许可证](LICENSE)。厂商 IP、第三方模块、模型、图片及工具输出保留各自授权范围，不因仓库采用 MIT 而重新授权，见[第三方说明](docs/THIRD_PARTY_NOTICES.md)。工具、许可证、原始训练数据与无线桥接固件需另行准备。
+
+
+## 技术文档与演示视频
+
+- [技术文档 PDF（2026-11-02）](docs/assets/视觉识别质检与控制描摹系统_技术文档_20261102.pdf)
+- [项目演示视频（约 256 MiB）](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.18-multicoord-idle/1组-张振鹏于济伟何浩特.mp4)
