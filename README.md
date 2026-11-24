@@ -118,4 +118,4 @@ PCB 是整板辅助二分类，不能作为精确缺陷分割；CNN margin 不�
 ## 技术文档与演示视频
 
 - [技术文档 PDF（2026-11-02）](docs/assets/视觉识别质检与控制描摹系统_技术文档_20261102.pdf)
-- [项目演示视频（约 256 MiB）](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.18-multicoord-idle/1组-张振鹏于济伟何浩特.mp4)
+- [项目演示视频（约 256 MiB）](https://github.com/yujiwei-777/dual-fpga-vision-plotter/releases/download/v2026.11.18-multicoord-idle/vision_plotter_demo_group1.mp4)
